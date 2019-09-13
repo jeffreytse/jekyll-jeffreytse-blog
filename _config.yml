@@ -13,35 +13,72 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Jeffrey Tse's Blog
+email: jeffreytse.mail@gmail.com
+author: jeffreytse
+copyright: Copyright © 2008-2019
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is a very personal blog. I don't write blogs for anyone, but
+  just record what I do or what I think. So there are many things
+  wrong and you may have different thoughts. It would be nice if I
+  share knowledge and thoughts rather than criticism. It will be
+  great help if you give and teach your knowledge and thoughts to me.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+favicon: "/favicon.png" # the favicon for your site
+
+# Yat date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+yat:
+  date_format: "%b %-d, %Y"
+
+# If you want more debug log, you can set true
+# debug: true
+
+# You can choose a theme color
+# Default theme colors as below:
+# spacegrey: #353535
+# inkpurple: #543581
+# aquablue: #00aaa0
+# azureblue: #2863b1
+# gracered: #a12a50
+# aloegreen: #3d9e56
+# rustbrown: #795548
+#
+theme_color: gracered
+#
+# Custom color as below:
+# theme_color: "#882250"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - index.html
+  - archives.html
+  - categories.html
+  - tags.html
+
+# Pagination setting
+paginate: 5
+
+# Disqus comments
+# disqus:
+#   shortname: "Your Disqus username"
+
+# Gitment comments
+gitment:
+  username: "jeffreytse"
+  repo: "jekyll-jeffreytse-blog"
+  client_id: "630a65ecdba4c3c794e7"
+  client_secret: "61fa1aec1861cd29599b91d6415afbdd42e51add"
+  redirect_uri: ""
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-yat
+
 plugins:
   - jekyll-feed
-
-# Server Config options
-livereload: true     # You no longer need to include --livereload
-reload_port: 5678    # If you don't want to use the default port
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - jekyll-seo-tag
+  - jekyll-paginate
