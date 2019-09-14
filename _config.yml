@@ -40,6 +40,9 @@ yat:
 google_analytics: "UA-96513476-2"
 enableDNT: "false"
 
+# If you want to generate website sitemap, you can set true
+sitemap: true
+
 # You can choose a theme color
 # Default theme colors as below:
 # spacegrey: #353535
@@ -86,4 +89,5 @@ remote_theme: jeffreytse/jekyll-theme-yat
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-paginate
