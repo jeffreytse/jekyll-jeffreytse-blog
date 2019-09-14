@@ -80,7 +80,7 @@ gitment:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-yat
+# theme: jekyll-theme-yat
 remote_theme: jeffreytse/jekyll-theme-yat
 
 plugins:
