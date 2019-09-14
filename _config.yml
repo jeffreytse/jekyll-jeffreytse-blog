@@ -36,6 +36,10 @@ yat:
 # If you want more debug log, you can set true
 # debug: true
 
+# Google analytics
+google_analytics: "UA-96513476-2"
+enableDNT: "false"
+
 # You can choose a theme color
 # Default theme colors as below:
 # spacegrey: #353535
@@ -76,6 +80,7 @@ gitment:
 
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-yat
 remote_theme: jeffreytse/jekyll-theme-yat
 
 plugins:
