@@ -36,12 +36,18 @@ yat:
 # If you want more debug log, you can set true
 # debug: true
 
+# If you want transparent header, you can set true
+# header_transparent: false
+
 # Google analytics
 google_analytics: "UA-96513476-2"
 enableDNT: "false"
 
 # If you want to generate website sitemap, you can set true
 sitemap: true
+
+# If you want to change site language, you can set lang option
+# lang: "en"  # default lang is en
 
 # You can choose a theme color
 # Default theme colors as below:
