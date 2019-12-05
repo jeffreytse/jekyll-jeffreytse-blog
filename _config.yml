@@ -59,7 +59,7 @@ sitemap: true
 # aloegreen: #3d9e56
 # rustbrown: #795548
 #
-theme_color: gracered
+theme_color: spacegrey
 #
 # Custom color as below:
 # theme_color: "#882250"
@@ -97,3 +97,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-spaceship
