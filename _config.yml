@@ -83,8 +83,8 @@ paginate: 5
 gitment:
   username: "jeffreytse"
   repo: "jekyll-jeffreytse-blog"
-  client_id: "630a65ecdba4c3c794e7"
-  client_secret: "61fa1aec1861cd29599b91d6415afbdd42e51add"
+  client_id: "68ac4bc5ffbe42feca08"
+  client_secret: "672d51896c756750a374da36cc6cbd9e74009878"
   redirect_uri: ""
 
 # Build settings
