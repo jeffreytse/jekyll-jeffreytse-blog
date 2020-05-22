@@ -73,7 +73,7 @@ header_pages:
   - tags.html
 
 # Pagination setting
-paginate: 5
+paginate: 10
 
 # Disqus comments
 # disqus:
