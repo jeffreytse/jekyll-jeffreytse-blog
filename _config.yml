@@ -51,15 +51,11 @@ sitemap: true
 
 # You can choose a theme color
 # Default theme colors as below:
+# coolblack: #090a0b
 # spacegrey: #353535
-# inkpurple: #543581
-# aquablue: #00aaa0
-# azureblue: #2863b1
-# gracered: #a12a50
-# aloegreen: #3d9e56
-# rustbrown: #795548
+# snowwhite: #ffffff
 #
-theme_color: spacegrey
+theme_color: snowwhite
 #
 # Custom color as below:
 # theme_color: "#882250"
@@ -89,7 +85,7 @@ gitment:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-yat
+remote_theme: jeffreytse/jekyll-theme-yat
 
 plugins:
   - jekyll-feed
@@ -97,3 +93,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+  - jekyll-remote-theme

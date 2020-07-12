@@ -11,17 +11,21 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.8.5"
 
 # This is the yat theme for new Jekyll sites. You may change this to anything you like.
-gem "jekyll-theme-yat", "~> 1.3"
+# gem "jekyll-theme-yat"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
-# group :jekyll_plugins do
-#   gem "jekyll-feed", "~> 0.9"
-#   gem "jekyll-seo-tag", "~> 2.1"
-# end
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.9"
+  gem "jekyll-seo-tag", "~> 2.1"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jekyll-remote-theme"
+  gem "jekyll-spaceship"
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
