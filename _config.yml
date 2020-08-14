@@ -67,6 +67,7 @@ header_pages:
   - archives.html
   - categories.html
   - tags.html
+  - about.html
 
 # Pagination setting
 paginate: 10
