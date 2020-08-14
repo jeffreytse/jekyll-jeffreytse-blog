@@ -14,7 +14,7 @@ deploy:
   provider: pages
   edge: true
   cleanup: false
-  keep_history: true
+  keep_history: false
   local_dir: "./_site"
   commit_message: "release: deploy %{project_name}"
   github_token:
