@@ -16,7 +16,7 @@
 title: Jeffrey Tse's Blog
 email: jeffreytse.mail@gmail.com
 author: jeffreytse
-copyright: Copyright © 2008-2019
+copyright: Copyright © 2008-2020
 description: >- # this means to ignore newlines until "baseurl:"
   This is a very personal blog. I don't write blogs for anyone, but
   just record what I do or what I think. So there are many things
@@ -73,16 +73,16 @@ header_pages:
 paginate: 10
 
 # Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
+disqus:
+  shortname: "jeffreytse"
 
 # Gitment comments
-gitment:
-  username: "jeffreytse"
-  repo: "jekyll-jeffreytse-blog"
-  client_id: "68ac4bc5ffbe42feca08"
-  client_secret: "672d51896c756750a374da36cc6cbd9e74009878"
-  redirect_uri: ""
+# gitment:
+#   username: ""
+#   repo: ""
+#   client_id: ""
+#   client_secret: ""
+#   redirect_uri: ""
 
 # Build settings
 markdown: kramdown
