@@ -3,7 +3,11 @@ layout: post
 title: How to build your own email server
 author: Jeffrey Tse
 categories: computer
-tags: linux docker iredmail
+tags:
+  - linux
+  - docker
+  - email
+  - iredmail
 ---
 
 ## 1. Introduction
@@ -126,7 +130,13 @@ mail.example.com  mx
 #### 2.2.3 Create TXT record for SPF
 
 ```txt
-v=spf1 mx ip4:<server_ip> ~all
+v=spf1 ip4:<server_ip> ~all
+```
+
+or
+
+```txt
+v=spf1 mx mx:mail.example.com ~all
 ```
 
 #### 2.2.4 Create TXT record for DMARC
@@ -183,7 +193,7 @@ $ dig -t txt dkim._domainkey.example.com
 
 ### 2.4 Nginx config
 
-Create the nginx config:
+Create the nginx site config:
 
 ```bash
 $ sudo vim /etc/nginx/sites-available/iredadmin
@@ -232,10 +242,29 @@ server {
 }
 ```
 
-Create the symbolic link:
+Create the nginx stream config:
+
+```bash
+$ sudo vim /etc/nginx/streams-available/iredadmin
+```
+
+Type the following content:
+
+```NGINX
+# mail server proxy
+server { listen 25; proxy_pass 172.20.0.2:25; }     # SMTP
+server { listen 587; proxy_pass 172.20.0.2:587; }   # SMTP(STARTTLS)
+server { listen 143; proxy_pass 172.20.0.2:143; }   # IMAP(STARTTLS)
+server { listen 993; proxy_pass 172.20.0.2:993; }   # IMAP
+server { listen 110; proxy_pass 172.20.0.2:110; }   # POP3
+server { listen 995; proxy_pass 172.20.0.2:995; }   # POP3
+```
+
+And then create the symbolic links:
 
 ```bash
 $ ln -s /etc/nginx/sites-available/iredmail /etc/nginx/sites-enabled/iredmail
+$ ln -s /etc/nginx/streams-available/iredmail /etc/nginx/streams-enabled/iredmail
 ```
 
 Afterwards, don't forget to restart the nginx service:
