@@ -81,6 +81,7 @@ Here’s a table of the shortcuts in Bash.
 | !foo:p        | Print out last command starting with foo                           |
 | !\$:p         | Print out the word that !\$ would substitute                       |
 | !\*:p         | Print out the previous command except for the last word            |
+| \$\_          | Expands to the last argument to the previous simple command        |
 | ^abc          | Run previous command, replacing abc with empty                     |
 | ^abc^def      | Run previous command, replacing abc with def                       |
 | ~\[Tab][Tab]  | List all users                                                     |
