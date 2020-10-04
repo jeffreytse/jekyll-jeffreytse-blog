@@ -7,5 +7,5 @@
     alt="Donate (Ko-fi)" />
 </a>
 
-🪴 Hey, nice to meet you, you found this blog. Here is one retention zone
+📝 Hey, nice to meet you, you found this blog. Here is one retention zone
 for my personal blog.
