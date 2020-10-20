@@ -15,7 +15,6 @@ When you use `yay -S <package>` to install some package and face this
 prompt `errors occured, no packages were upgraded`, don't worry, this
 article will guide you to settle it down.
 
-
 ## 2. Problem reproduce
 
 At First, let's try to remove any local package(e.g. zoom) mannually:

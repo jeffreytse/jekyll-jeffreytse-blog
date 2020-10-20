@@ -18,12 +18,12 @@ In this article, we will build it step by step from scratch.
 
 Here we will need the following environments:
 
-- __Nginx__ - an lightweight and open-source web server to offer low
+- **Nginx** - an lightweight and open-source web server to offer low
   memory usage and high concurrency.
-- __Docker__ - a set of platform as a service (PaaS) products that use
+- **Docker** - a set of platform as a service (PaaS) products that use
   OS-level virtualization to deliver software in packages called
   containers.
-- __iRedMail__ - The right way to build your mail server with open source
+- **iRedMail** - The right way to build your mail server with open source
   softwares.
 
 ## 2. Installation
@@ -35,10 +35,10 @@ following the steps you will almost get your own email server.
 
 For convenience, we use [docker-compose](https://docs.docker.com/compose/)
 to defining and running the iRedMail applications, create the Compose file
-with the name __iredmail.yml__ and it's content below:
+with the name **iredmail.yml** and it's content below:
 
 ```yml
-version: '3'
+version: "3"
 
 services:
   ehub_iredmail:
@@ -81,9 +81,9 @@ Building and running the service:
 $ sudo docker-compose -f iredmail.yml up
 ```
 
-Press __Ctrl+C (or Ctrl+\ )__ to detach you from the container.
+Press **Ctrl+C (or Ctrl+\ )** to detach you from the container.
 
-If you encounter __starting server(s) uwsgi failed__, you should do the
+If you encounter **starting server(s) uwsgi failed**, you should do the
 uwsgi checking:
 
 ![image](https://user-images.githubusercontent.com/9413601/94258050-d8f27b00-ff5e-11ea-825a-99be479017f9.png)
@@ -94,7 +94,7 @@ Attach to the container:
 $ sudo docker exec -it iredmail /bin/bash
 ```
 
-Run uwsgi with specific __iredmail.ini__ mannually:
+Run uwsgi with specific **iredmail.ini** mannually:
 
 ```bash
 $ uwsgi --ini /etc/uwsgi/apps-available/iredadmin.ini
@@ -105,15 +105,14 @@ $ uwsgi --ini /etc/uwsgi/apps-available/iredadmin.ini
 Best practices for email authentication, here I recommend you always
 set up these email authentication methods for your domain:
 
-- __SPF__ helps servers verify that messages appearing to come from a
+- **SPF** helps servers verify that messages appearing to come from a
   particular domain are sent from servers authorized by the domain
   owner.
-- __DKIM__ adds a digital signature to every message. This lets
+- **DKIM** adds a digital signature to every message. This lets
   receiving servers verify that messages aren't forged, and weren't
   changed during transit.
-- __DMARC__ enforces SPF and DKIM authentication, and lets admins get
+- **DMARC** enforces SPF and DKIM authentication, and lets admins get
   reports about message authentication and delivery.
-
 
 #### 2.2.1 Create A record
 

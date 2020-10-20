@@ -193,7 +193,6 @@ defines a specific field for the algorithm identifier. Its ASN.1 definition
 can be found in [RFC 5958](https://www.ietf.org/rfc/rfc5958.txt), Asymmetric
 Key Packages.
 
-
 ### XML format
 
 There are W3C standards for this, and, er, a .NET way that predates the latest
@@ -229,6 +228,7 @@ key.
 RSAPrivateKey DER SEQUENCE (binary or PEM encoding)
 
 PEM header:
+
 - BEGIN RSA PRIVATE KEY
 
 ### RSA_PEM (PKCS#8)
@@ -239,6 +239,7 @@ A PKCS#8 file can be encrypted with a password to protect the private key.
 PKCS#8 standard actually has two versions: non-encrypted and encrypted.
 
 PEM header:
+
 - BEGIN PRIVATE KEY (unencrypted)
 - BEGIN ENCRYPTED PRIVATE KEY (encrypted)
 
@@ -251,6 +252,7 @@ in base64. Can be used to verify RS256 signatures in JWT tokens
 ([RFC 7518](https://www.ietf.org/rfc/rfc7518.txt)).
 
 PEM header:
+
 - BEGIN RSA PUBLIC KEY
 
 If it uses PKCS #1, however, there has to be an external identification of the
@@ -262,6 +264,7 @@ An RSA_PEM key, encoded in base64, wrapped in an X.509v3 certificate
 ([RFC 5280](https://www.ietf.org/rfc/rfc5280.txt)).
 
 PEM header:
+
 - BEGIN PUBLIC KEY
 
 ### ES256_PEM
@@ -273,6 +276,7 @@ wrapped in a certificate; this keeps the key size small, which is one of
 ES256's main advantages.
 
 PEM header:
+
 - BEGIN PUBLIC KEY
 
 ### ES256_X509_PEM
@@ -281,6 +285,7 @@ An ES256_PEM key, encoded in base64, wrapped in a X.509v3 certificate
 ([RFC 5280](https://www.ietf.org/rfc/rfc5280.txt)).
 
 PEM header:
+
 - BEGIN CERTIFICATE
 
 ## 6. The OpenSSH public key format
@@ -364,8 +369,7 @@ openssl pkcs8 -topk8 -inform PEM -outform PEM -in rsa_private.pem \
     -nocrypt > rsa_private.pkcs8.pem
 ```
 
-## 8. Converting OpenSSH public to  PEM/PKCS#8
-
+## 8. Converting OpenSSH public to PEM/PKCS#8
 
 ```bash
 ssh-keygen -e -f rsa_public.pub -m PKCS8 > rsa_public.pem

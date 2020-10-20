@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fix error about non-empty 'Sec-WebSocket-Protocol' header
+title: Fix error about non-empty Sec-WebSocket-Protocol header
 author: Jeffrey Tse
 categories: computer
 tags:

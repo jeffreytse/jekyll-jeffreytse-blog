@@ -49,14 +49,12 @@ What a crushing thing.
 Now we know that this problem is caused by the SSH environment variable, we
 still need to check the SSH server configuration with below command:
 
-
 ```bash
 $ vim /etc/ssh/sshd_config
 ```
 
 As expected, there is an item related to environment variables in the server
 configuration, it's `AcceptEnv LANG LC_*` as below image:
-
 
 ![image](https://user-images.githubusercontent.com/9413601/94004989-242a5380-fdd0-11ea-91bf-e1cb33d4cc8b.png)
 
@@ -67,7 +65,7 @@ immediately.
 
 ## 3. Conclusion
 
-__Stop accepting locale on the server.__ Do not accept the locale environment
+**Stop accepting locale on the server.** Do not accept the locale environment
 variable from your local machine to the server. You can comment out the
 `AcceptEnv LANG LC_*` line in the remote `/etc/ssh/sshd_config` file.
-Don’t forget to __restart sshd__ to reflect the changes .
+Don’t forget to **restart sshd** to reflect the changes .

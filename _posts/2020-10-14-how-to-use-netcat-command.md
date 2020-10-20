@@ -12,7 +12,7 @@ tags:
 
 ## 1. Introduction
 
-Command `nc` stands for __netcat__, known as the swiss army knife of
+Command `nc` stands for **netcat**, known as the swiss army knife of
 network tools, it's a utility which is used for reading and writing
 data across TCP and UDP ports. It can be used for a lot of cool
 stuff, this article will take a closer look.
@@ -29,10 +29,10 @@ confusion for novices.
 
 netcat/nc/ncat/nmap
 
-- __Linux/macOS__ users can quickly use in the terminal with pre-installed
-Nc (and Netcat on Linux)
-- __Windows__ users will need to install Netcat’s successor, Ncat, made
-by the Nmap project
+- **Linux/macOS** users can quickly use in the terminal with pre-installed
+  Nc (and Netcat on Linux)
+- **Windows** users will need to install Netcat’s successor, Ncat, made
+  by the Nmap project
 
 ## 2. Using for port scanning
 
@@ -52,8 +52,8 @@ nmap -Pn 1.2.3.4
 - `-n` – Dont resolve, numeric-only IP addresses, no DNS lookup
 - `-v` – Show verbose information
 - `-w` – Set a timeout between the client and the target node, otherwise
-Netcat will continue trying until a connection is made or you manually
-close the attempt (`Ctrl + C`)
+  Netcat will continue trying until a connection is made or you manually
+  close the attempt (`Ctrl + C`)
 
 ## 3. Using for HTTP Requests
 
@@ -62,7 +62,6 @@ printf “GET / HTTP/1.0\r\n\r\n” | nc google.com 80
 ```
 
 ## 4. Using for Chatroom
-
 
 ## 5. Launching Reverse (Backdoor) Shells
 

@@ -12,9 +12,7 @@ tags:
 ## 1. What's up?
 
 Recently, when I use `yay -Syu` to update the software packages, it always
-prompts that a package cannot be updated and prompts are `warning: could not
-fully load metadata for package` and `error: failded to prepare transaction
- (invalid or corrupted package)`. It's time to solve this annoying problem.
+prompts that a package cannot be updated and prompts are `warning: could not fully load metadata for package` and `error: failded to prepare transaction (invalid or corrupted package)`. It's time to solve this annoying problem.
 
 ![image](https://user-images.githubusercontent.com/9413601/95043413-3f218f80-070f-11eb-8491-ee15fad77608.png)
 
@@ -26,8 +24,7 @@ Try to remove it first:
 $ yay -Rdd zoom
 ```
 
-It still cannot be removed mannually and this time the prompt becomes `error:
-could not remove database entry`.
+It still cannot be removed mannually and this time the prompt becomes `error: could not remove database entry`.
 
 ![image](https://user-images.githubusercontent.com/9413601/95043599-d8e93c80-070f-11eb-8625-dc7fc073dd94.png)
 
@@ -47,7 +44,7 @@ This time the problem remains, but we got the verbose:
 
 According to the prompts, we know that this issue is related to metadata of
 the package. And since the metadata is stored in Database, so we check the
-DB data by the __DB Path__ in the verbose.
+DB data by the **DB Path** in the verbose.
 
 ### 4.1 Explore the structure
 
