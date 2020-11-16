@@ -23,7 +23,7 @@ article would help you solve this problem.
 $ sudo locale
 ```
 
-Edit the configuration file for locale-gen:
+Edit the configuration file for `locale-gen`:
 
 ```bash
 $ sudo vim /etc/locale.gen
