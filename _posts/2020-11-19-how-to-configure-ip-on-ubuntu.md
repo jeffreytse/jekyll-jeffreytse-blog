@@ -25,7 +25,7 @@ using just a few commands from the terminal.
 There are two ways to do this:
 
 - Using ifconfig (DEPRECATED)
-- Using ip and netplan for Ubuntu (RECOMMEND)
+- Using ip and netplan (RECOMMEND)
 
 And we also need to find out our network interface:
 
