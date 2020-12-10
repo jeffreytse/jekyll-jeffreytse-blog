@@ -90,6 +90,12 @@ $ ip link set eth0 up/down
 
 # Showing your routing
 $ ip route show
+
+# Show your DNS servers
+$ systemd-resolve --status
+
+# Show your network status
+$ networkctl -a status
 ```
 
 And then we edit our networking plan:
