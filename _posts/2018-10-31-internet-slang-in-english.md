@@ -39,11 +39,13 @@ tags:
 - **TMR** - Tomorrow
 - **WTF** - What the fuck?
 - **YOLO** - You only live once
+- **FWIW** - For what it's worth
 
 ## 2. Emoticons
 
 - **OTL/ORZ/OTZ** - O: head, T/R: body and arms, L/Z: legs
 - **:-)** - Smiley
+- **:-P** - Cheekiness or Playfulness
 - **(-)** - Smile
 - **(?\_?)** - What?
 - **(\*\_\*)** - Jesus
