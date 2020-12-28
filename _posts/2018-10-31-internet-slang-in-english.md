@@ -12,6 +12,7 @@ tags:
 ## 1. Shorthands
 
 - **AMA** - Ask me anything
+- **AFAIK** - As far as I know
 - **ASAP** - As soon as possible
 - **BAE** - Before anyone else
 - **BBL** - Be back later
@@ -23,6 +24,7 @@ tags:
 - **FTW** - For the win
 - **FYI** - For your information
 - **FYR** - For your reference
+- **FWIW** - For what it's worth
 - **G2G** - Got to go
 - **IRL** - In real life
 - **IIRC** - If I recall correctly
@@ -39,7 +41,6 @@ tags:
 - **TMR** - Tomorrow
 - **WTF** - What the fuck?
 - **YOLO** - You only live once
-- **FWIW** - For what it's worth
 
 ## 2. Emoticons
 
