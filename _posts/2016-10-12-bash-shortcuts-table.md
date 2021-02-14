@@ -87,8 +87,11 @@ Here’s a table of the shortcuts in Bash.
 | ~\[Tab][Tab]  | List all users                                                     |
 | \$\[Tab][Tab] | List all system variables                                          |
 | cd -          | Change to previous working directory                               |
+| cd ~          | Change to home directory                                           |
+| cd            | Change to home directory                                           |
 
 ## References
 
 - [Bash Shortcuts](https://kapeli.com/cheat_sheets/Bash_Shortcuts.docset/Contents/Resources/Documents/index)
 - [How-to: Bash Keyboard Shortcuts](https://ss64.com/bash/syntax-keyboard.html)
+- [Bindable Readline Commands](https://www.gnu.org/software/bash/manual/html_node/Bindable-Readline-Commands.html)
