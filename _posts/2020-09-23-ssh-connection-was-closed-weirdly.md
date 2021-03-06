@@ -6,7 +6,7 @@ categories: computer
 tags: linux terminal ssh
 ---
 
-## 1. What's up?
+## What's up?
 
 Recently, I encountered a weird problem. When I used SSH to connect to a
 Linux server, the connection was immediately interrupted, and such a
@@ -15,7 +15,7 @@ below image:
 
 ![image](https://user-images.githubusercontent.com/9413601/94004074-b5002f80-fdce-11ea-9ea9-774a614cd4b4.png)
 
-## 2. Troubleshooting
+## Troubleshooting
 
 After that, I tried to connect using another Linux computer and still had
 the same problem. But when I tried to connect using a Windows computer, it
@@ -63,7 +63,7 @@ configuration. Regardless whether the SSH client sends environment
 variables, it will not cause the server connection to be interrupted
 immediately.
 
-## 3. Conclusion
+## Conclusion
 
 **Stop accepting locale on the server.** Do not accept the locale environment
 variable from your local machine to the server. You can comment out the
