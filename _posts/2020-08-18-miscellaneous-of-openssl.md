@@ -10,7 +10,7 @@ tags:
   - note
 ---
 
-## 1. Generating RSA key pair
+## Generating RSA key pair
 
 OpenSSL can generate several kinds of public/private keypairs. RSA is the most
 common kind of keypair generation.
@@ -90,7 +90,7 @@ openssl req -x509 -nodes -newkey rsa:2048 -keyout rsa_private.pem \
     -out rsa_cert.pem -subj "/CN=unused"
 ```
 
-## 2. Viewing the key elements
+## Viewing the key elements
 
 This format is called PEM (Privacy-Enhanced Email). The private key is encoded
 as a big blob of Base64 text.
@@ -127,7 +127,7 @@ actual key, specifying the offset 22.
 While the `asn1parse` module is a generic ASN.1 parser, the `rsa` module knows the
 structure of an RSA key and can properly output the field names.
 
-## 3. Key File Encoding
+## Key File Encoding
 
 Key data may be encoded in three general ways:
 
@@ -221,7 +221,7 @@ W3C standard. Here is an example of the W3C
 The .NET version uses <RsaKeyValue> instead, which is strictly only for a public
 key.
 
-## 4. Private key format
+## Private key format
 
 ### RSA_PEM (PKCS#1)
 
@@ -243,7 +243,7 @@ PEM header:
 - BEGIN PRIVATE KEY (unencrypted)
 - BEGIN ENCRYPTED PRIVATE KEY (encrypted)
 
-## 5. Public key format
+## Public key format
 
 ### RSA_PEM (PKCS#1)
 
@@ -288,7 +288,7 @@ PEM header:
 
 - BEGIN CERTIFICATE
 
-## 6. The OpenSSH public key format
+## The OpenSSH public key format
 
 The public key saved by ssh-keygen is written in the so-called SSH-format,
 which is not a standard in the cryptography world. It's structure is
@@ -360,7 +360,7 @@ not a one-to-one mapping of the source bytes). If the exponent is the standard
 65537 the key starts with `AAAAB3NzaC1yc2EAAAADAQAB`, which encoded gives the
 fist 18 bytes `00 00 00 07 73 73 68 2d 72 73 61 00 00 00 03 01 00 01`.
 
-## 7. Converting PEM/PKCS#1 to PEM/PKCS#8
+## Converting PEM/PKCS#1 to PEM/PKCS#8
 
 To convert it, you need to use the "pkcs8" command:
 
@@ -369,19 +369,19 @@ openssl pkcs8 -topk8 -inform PEM -outform PEM -in rsa_private.pem \
     -nocrypt > rsa_private.pkcs8.pem
 ```
 
-## 8. Converting OpenSSH public to PEM/PKCS#8
+## Converting OpenSSH public to PEM/PKCS#8
 
 ```bash
 ssh-keygen -e -f rsa_public.pub -m PKCS8 > rsa_public.pem
 ```
 
-## 9. Converting PEM/PKCS#8 to OpenSSH public
+## Converting PEM/PKCS#8 to OpenSSH public
 
 ```bash
 ssh-keygen -i -f rsa_public.pem -m PKCS8 > rsa_public.pub
 ```
 
-## 10. Key File Extension
+## Key File Extension
 
 - X.509 public key certificates are usually named `.cer` or `.der`
 - A textual PEM-format version might be named `.pem` or `.crt`
