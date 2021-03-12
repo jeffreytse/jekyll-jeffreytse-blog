@@ -10,7 +10,7 @@ tags:
   - iredmail
 ---
 
-## 1. Introduction
+## Introduction
 
 Have you ever thought about setting up your own email server, but then
 left it behind. However, setting up a email server is not complicated.
@@ -26,12 +26,12 @@ Here we will need the following environments:
 - **iRedMail** - The right way to build your mail server with open source
   softwares.
 
-## 2. Installation
+## Installation
 
 we will install and configure all necessary software in order. And
 following the steps you will almost get your own email server.
 
-### 2.1 Install iRedMail
+### Install iRedMail
 
 For convenience, we use [docker-compose](https://docs.docker.com/compose/)
 to defining and running the iRedMail applications, create the Compose file
@@ -100,7 +100,7 @@ Run uwsgi with specific **iredmail.ini** mannually:
 $ uwsgi --ini /etc/uwsgi/apps-available/iredadmin.ini
 ```
 
-### 2.2 Configuring DNS Records
+### Configuring DNS Records
 
 Best practices for email authentication, here I recommend you always
 set up these email authentication methods for your domain:
@@ -114,19 +114,19 @@ set up these email authentication methods for your domain:
 - **DMARC** enforces SPF and DKIM authentication, and lets admins get
   reports about message authentication and delivery.
 
-#### 2.2.1 Create A record
+#### Create A record
 
 ```txt
 mail.example.com  a
 ```
 
-#### 2.2.2 Create MX record
+#### Create MX record
 
 ```txt
 mail.example.com  mx
 ```
 
-#### 2.2.3 Create TXT record for SPF
+#### Create TXT record for SPF
 
 ```txt
 v=spf1 ip4:<server_ip> ~all
@@ -138,13 +138,13 @@ or
 v=spf1 mx mx:mail.example.com ~all
 ```
 
-#### 2.2.4 Create TXT record for DMARC
+#### Create TXT record for DMARC
 
 ```txt
 _dmarc.example.com  txt  v=DMARC1;p=reject;rua=mailto:admin@example.com; adkim=s;aspf=s
 ```
 
-#### 2.2.5 Create TXT record for DKIM
+#### Create TXT record for DKIM
 
 At frist, we need to attach to the container:
 
@@ -272,12 +272,12 @@ Afterwards, don't forget to restart the nginx service:
 $ sudo service nginx force-reload
 ```
 
-## 3. Finish
+## Finish
 
 Up to this point, all the installation work has been completed, and we
 are almost about to get our own email server,
 
-### 3.1 Login iRedAdmin
+### Login iRedAdmin
 
 Open the iredmail Admin:
 
@@ -292,7 +292,7 @@ own email account.
 
 ![image](https://user-images.githubusercontent.com/9413601/94410082-8789fc00-01a9-11eb-8bfe-8e03c852be15.png)
 
-### 3.2 Test Email Server
+### Test Email Server
 
 For better use and no spammyness, we use [this free online service](https://www.mail-tester.com/) to test the emails for Spam, Malformed Content and Mail Server
 Configuration problems.
