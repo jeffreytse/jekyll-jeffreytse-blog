@@ -9,7 +9,7 @@ tags:
   - misc
 ---
 
-## 1. Table
+## Table
 
 Here’s a table of the email server ports.
 
@@ -33,7 +33,7 @@ Here’s a table of the email server ports.
   Internet standard protocol used by e-mail clients to retrieve e-mail
   from a mail server.
 
-## 2. What is the difference between POP3 and IMAP?
+## What is the difference between POP3 and IMAP?
 
 There are two possibilities for retrieving emails:
 
