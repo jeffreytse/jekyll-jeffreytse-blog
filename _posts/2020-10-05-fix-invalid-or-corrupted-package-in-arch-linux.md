@@ -9,14 +9,14 @@ tags:
   - misc
 ---
 
-## 1. What's up?
+## What's up?
 
 Recently, when I use `yay -Syu` to update the software packages, it always
 prompts that a package cannot be updated and prompts are `warning: could not fully load metadata for package` and `error: failded to prepare transaction (invalid or corrupted package)`. It's time to solve this annoying problem.
 
 ![image](https://user-images.githubusercontent.com/9413601/95043413-3f218f80-070f-11eb-8491-ee15fad77608.png)
 
-## 2. Remove first
+## Remove first
 
 Try to remove it first:
 
@@ -28,7 +28,7 @@ It still cannot be removed mannually and this time the prompt becomes `error: co
 
 ![image](https://user-images.githubusercontent.com/9413601/95043599-d8e93c80-070f-11eb-8625-dc7fc073dd94.png)
 
-## 3. Reinstall with the verbose option
+## Reinstall with the verbose option
 
 And then try to reinstall it with verbose option:
 
@@ -40,13 +40,13 @@ This time the problem remains, but we got the verbose:
 
 ![image](https://user-images.githubusercontent.com/9413601/95043488-742de200-070f-11eb-9605-3dd8392c75f0.png)
 
-## 4. Analyze the problem
+## Analyze the problem
 
 According to the prompts, we know that this issue is related to metadata of
 the package. And since the metadata is stored in Database, so we check the
 DB data by the **DB Path** in the verbose.
 
-### 4.1 Explore the structure
+### Explore the structure
 
 List the DB directory:
 
@@ -77,7 +77,7 @@ $ ls -la /var/lib/pacman/sync
 
 ![image](https://user-images.githubusercontent.com/9413601/95051609-19e94d00-0720-11eb-9617-b0d90d441d18.png)
 
-### 4.2 Compare the structure
+### Compare the structure
 
 List the invalid package directory:
 
@@ -99,7 +99,7 @@ We can find that compared with the normal package, the invalid package
 lacks some directories and files. It is not difficult to figure out that
 it is this missing that caused removal or update to be abnormal.
 
-## 5. Fix the problem
+## Fix the problem
 
 Therefore, we remove the invalid package data mannually:
 
