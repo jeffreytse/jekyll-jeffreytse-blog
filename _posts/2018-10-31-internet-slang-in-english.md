@@ -31,6 +31,7 @@ tags:
 - **IMHO** - In my humble opinion
 - **LMK** - Let me know
 - **LOL** - Laughing out loud
+- **LGTM** - Look good to me
 - **NSFW** - Not safe for work
 - **OP** - Original poster
 - **RT** - Retweet
