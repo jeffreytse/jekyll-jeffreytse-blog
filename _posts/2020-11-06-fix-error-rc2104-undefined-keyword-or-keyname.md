@@ -10,12 +10,12 @@ tags:
   - misc
 ---
 
-## 1. Introduction
+## Introduction
 
 When you use the **Microsoft Visual Studio** to compile a cpp
 project, and encounter this problem about `error RC2104: undefined keyword: Key`, here is an article on how to fix this problem.
 
-## 2. Review
+## Review
 
 The picture best illustrates the problem, the error message and
 related code is shown as below image:
@@ -59,7 +59,7 @@ and recompile the project again:
 
 Wow! What an exciting moment, isn't it?
 
-## 3. Conclusion
+## Conclusion
 
 Now we know that this error is caused by the code page setting does not
 match the actual file character encoding, **so we need to pay special
