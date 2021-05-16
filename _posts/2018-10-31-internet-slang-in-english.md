@@ -9,7 +9,7 @@ tags:
   - note
 ---
 
-## 1. Shorthands
+## Shorthands
 
 - **AMA** - Ask me anything
 - **AFAIK** - As far as I know
@@ -43,7 +43,7 @@ tags:
 - **WTF** - What the fuck?
 - **YOLO** - You only live once
 
-## 2. Emoticons
+## Emoticons
 
 - **OTL/ORZ/OTZ** - O: head, T/R: body and arms, L/Z: legs
 - **:-)** - Smiley
@@ -55,7 +55,7 @@ tags:
 - **(o;)** - Panic
 - **Oo/O_o** - Surprise
 
-## 3. Others
+## Others
 
 - **Bump** - A bump is a post meant to bring a topic in the Scratch forums
   to the top of the forum.
