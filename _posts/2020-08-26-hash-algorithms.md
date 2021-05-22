@@ -9,7 +9,7 @@ tags:
   - note
 ---
 
-## 1. MD-family
+## MD-family
 
 The MD family of hashing algorithms were designed by Ron Rivest during the
 late 1980’s and early 1990’s. MD actually stands for "Message Digest".
@@ -38,7 +38,7 @@ MD5 however, a flaw was discovered in its design. The size of the hash is
 128 bits, and so is small enough to allow a birthday attack. Once considered
 really safe, now completely broken.
 
-## 2. SHA-family
+## SHA-family
 
 The SHA series of algorithms stand for “Secure Hash Algorithm” they were
 developed by NIST. Due to the avalanche effect even a small change in the
@@ -85,7 +85,7 @@ chosen in 2012 after a public competition among non-NSA designers. It
 supports the same hash lengths as SHA-2, and its internal structure differs
 significantly from the rest of the SHA family.
 
-## 3. HAVAL
+## HAVAL
 
 HAVAL is another popular hash function, it differs from many other hash
 functions because it is possible for it to generate hash values in different
@@ -96,7 +96,7 @@ likely to result in a very different hash value. Recent research, mostly
 by Xiaoyun Wang has indicated that HAVAL has a number of weaknesses, perhaps
 putting the use of it on hold.
 
-## 4. RIPEMD
+## RIPEMD
 
 RIPEMD was developed by a European consortium, and was designed as an
 extension of the original RIPEMD hash function.
@@ -104,7 +104,7 @@ extension of the original RIPEMD hash function.
 - RIPEMD-160
 - RIPEMD-320
 
-## 5. Whirlpool
+## Whirlpool
 
 Whirlpool is a cryptographic hash function designed by Vincent Rijmen and
 Paulo S. L. M. Barreto, who first described it in 2000. Whirlpool is based
