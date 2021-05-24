@@ -190,7 +190,7 @@ $ dig -t txt dkim._domainkey.example.com
 
 ![image](https://user-images.githubusercontent.com/9413601/94406825-311abe80-01a5-11eb-8bd9-a3c0d5153433.png)
 
-### 2.4 Nginx config
+### Nginx config
 
 Create the nginx site config:
 
