@@ -2,6 +2,7 @@
 layout: post
 title: The reductions and contractions in English
 author: Jeffrey Tse
+banner: https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1
 categories: linguistics
 tags:
   - linguistics
