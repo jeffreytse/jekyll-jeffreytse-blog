@@ -9,13 +9,13 @@ tags:
   - misc
 ---
 
-## 1. What's up?
+## What's up?
 
 When you use `yay -S <package>` to install some package and face this
 prompt `errors occured, no packages were upgraded`, don't worry, this
 article will guide you to settle it down.
 
-## 2. Problem reproduce
+## Problem reproduce
 
 At First, let's try to remove any local package(e.g. zoom) mannually:
 
@@ -33,7 +33,7 @@ Look! We reproduced this problem as below:
 
 ![image](https://user-images.githubusercontent.com/9413601/95348585-c548fc00-08f0-11eb-9d55-55b943426eec.png)
 
-## 3. Fix the problem
+## Fix the problem
 
 Since we only partially removed the package metadata files, the package
 is inconsistent with the database, so that the package was corrupted.
