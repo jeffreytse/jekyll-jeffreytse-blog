@@ -10,7 +10,7 @@ tags:
   - note
 ---
 
-## 1. Introduction
+## Introduction
 
 Command `nc` stands for **netcat**, known as the swiss army knife of
 network tools, it's a utility which is used for reading and writing
@@ -34,7 +34,7 @@ netcat/nc/ncat/nmap
 - **Windows** users will need to install Netcat’s successor, Ncat, made
   by the Nmap project
 
-## 2. Using for port scanning
+## Using for port scanning
 
 ```bash
 nc -zv domain.com 1-1000
@@ -55,15 +55,15 @@ nmap -Pn 1.2.3.4
   Netcat will continue trying until a connection is made or you manually
   close the attempt (`Ctrl + C`)
 
-## 3. Using for HTTP Requests
+## Using for HTTP Requests
 
 ```bash
 printf “GET / HTTP/1.0\r\n\r\n” | nc google.com 80
 ```
 
-## 4. Using for Chatroom
+## Using for Chatroom
 
-## 5. Launching Reverse (Backdoor) Shells
+## Launching Reverse (Backdoor) Shells
 
 Server:
 
