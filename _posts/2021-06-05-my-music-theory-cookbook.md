@@ -192,7 +192,8 @@ The classification of harmony functions:
   - At the beginning and end of a piece of music
   - I, iii, vi
     - I is the most typical one
-    - iii and vi are relatively weak in functionality
+    - iii and vi are relatively weak in functionality (A temporary home like
+      hotel, )
   - Disadvantage
     - Too stable
     - Boring and no development
@@ -237,7 +238,10 @@ Different types of Functional Progression:
   - C -> F -> G7 -> C
     - In Chinese: 启 -> 承 -> 转 -> 合
 - Termination progression
+  - Plagal Cadence progression
 - Sequence progression
+- Non-functional progression (with non-functional harmony, focus on the
+  environment and which harmony can express it)
 
 ### Notation Systems
 
