@@ -22,11 +22,11 @@ prefix-root-suffix
   - vowel: a,e,i,o,u
   - semivowel: y,w
   - function: hyphen (i,u is the most common use) and no meaning
-  - consonant: pronounciation is similar, and they can be replaced
-    - voiced: suffix for adverb (d,t,s)(e.g. comprehend)
-    - voiceless: suffix for noun or adjective (e.g. comprehend)
+  - consonant: pronunciation is similar, and they can be replaced
+    - voiced: suffix is often for verb (d,t,s)(e.g. scribe)
+    - voiceless: suffix is often for noun or adjective (e.g. script)
 
-The first three are the most importan. Pronounciation change in English does
+The first three are the most important. Pronunciation change in English does
 not change its meaning, just extend in meaning, such as `vinc` and `vict`,
 they both mean winning, conquer.
 
@@ -38,6 +38,14 @@ its meaning will be gradually extended.
 
 ![Word Matrix](https://cdn.shortpixel.ai/client/q_lossless,ret_img,w_560,h_315/https://www.garfortheducation.com/wp-content/uploads/2019/07/Add-a-subheading-2.jpg)
 
+English thinking:
+
+- Synecdoche: concrete things are often used to extend or represent the whole thing
+  - bar(barrier) to represent the
+- Doubly consonant: British English often uses doubly consonant, American
+  English often uses single consonant
+  - traveller, traveler
+
 ## Root
 
 - `act`: to do (e.g. action)
@@ -45,13 +53,18 @@ its meaning will be gradually extended.
 - `alt`: tall
 - `anim`: life
 - `astr`: star
-- `bar`: bar
-- `bal`: the same as `bar`
-- `ban`: the same as `bar`
+- `bar`: bar, obstacle (e.g. embarrass, barrack)
+  - From Latin `barra`
+- `bal`: the same as `bar` (e.g. balance, balk, baluster)
+- `ban`: the same as `bar` (e.g. abandon, banner, banquet, bank)
+  - Italian `banchi`, the root of the Italian word for banks
 - `carn`: flesh (e.g. carnage)
 - `cerebr`: brain (e.g. cerebral)
 - `cess`: movement, migration (e.g. process)
-- `chlor`: chlor (e.g. `chloroform`)
+- `chlor`: chlor (e.g. chloroform)
+- `circum`: circle (e.g. circumscribe)
+- `clude`: to shut, close (e.g. include)
+  - From Latin `cludere`, the more literal sense of "close, shut up, prevent access to"
 - `col`: column (e.g. coliform, `col` + `i` + `form`)
 - `cribr`: sieve, tube with holes (e.g. cribriform)
 - `cruc`: cross (e.g. cruciform)
@@ -84,6 +97,7 @@ its meaning will be gradually extended.
 - `late`: late
 - `log`: language, symbol
 - `low`: low
+- `manu`: hand (e.g. manufactor, manuscript)
 - `mark`: mark
 - `mit`: send (e.g. submit, permit)
 - `morph`: form, shape (e.g. morphology)
@@ -95,7 +109,7 @@ its meaning will be gradually extended.
 - `gress`: walk (e.g. progress)
 - `od`: a way or manner (e.g. method, period, odograph)
   - Method from Latin `methodus` "way of teaching or going", `meta-` + `hodos`,
-  `meth` originally pursuit, a following after
+    `meth` originally pursuit, a following after
 - `ori`: rise (e.g. oriented )
   - From Latin, the position that sun rising from.
 - `out`: out (e.g. outperform)
@@ -127,7 +141,7 @@ its meaning will be gradually extended.
 - `stem`: the same as `st`
 - `struct`: build (e.g. construct)
   - From Latin, structura, from struere, the way an organization, system,
-  market etc is organized or put together.
+    market etc is organized or put together.
 - `suit`: to follow (e.g. suitcase)
   - From Latin `sequi`
 - `sume`: use up (e.g. consume)
@@ -135,8 +149,9 @@ its meaning will be gradually extended.
 - `tire`: become weary, exhausted (e.g. overtire)
 - `top`: top
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
+  - From Latin `technicus`, also from Greek `tekhnikos`
 - `under`: under (e.g. underline)
-- `vi`: road
+- `vi`: road (e.g. via, obviate, obvious, previous, trivia)
 - `via`: the same as `vi`
 - `vict` win (e.g. victim)
   - The ancient Roman mythological character `Victoria`, goddess of victory.
@@ -145,30 +160,46 @@ its meaning will be gradually extended.
   - After Caesar put down the rebellion, he issued a three-V instrument, which
     is "Veni, Vedi, Vici", and it means "I came, I saw, I conquered".
 - `vis`: see (e.g. visit)
+- `voc`: voice (e.g. vocal, vocational)
 - `voy`: way, journey (e.g. voyage)
+  - From French
 - `watch`: keep watch, be awake (e.g. watchdog)
 - `way`: way
 - `wave`: wave (e.g. waveform )
 
 ## Prefix
 
+- `a`: off, of, away from (e.g. away, apart, ascribe)
+  - From Latin
 - `a??`: emphasize (e.g. attention, apprehend)
 - `ab`: away, from, from off, down (e.g. abuse)
+- `agri`: relating to farming (e.g. agriculture, agribusiness)
+- `agro`: the same as `agri` (e.g. agrobiology, agro-industry)
+- `al`: all (e.g. alway)
 - `bi`: two (e.g. binary)
 - `bi(o)`: relating to or using living things (e.g. biomedical)
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
-  "in a circle," probably accusative form of circus "ring" (see circus).
-- `con`: with, together, the relation of two object/e2e
+    "in a circle," probably accusative form of circus "ring" (see circus).
+- `con`: with, together, the relation of two object/e2e, emphasize (e.g. confirm)
 - `cor`: same as `con` (e.g. corrupt)
   - The form used for `con-` before the letter `r`
-- `de`: apart (e.g. deform)
+- `contra`: against or opposite (e.g. contraband)
+- `counter`: against, in opposition; in return; corresponding, (e.g.
+  counteract, counterfeit)
+  - from Anglo-French countre-, French `contre-`, from Latin contra "opposite,
+    contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
+- `de`: opposite, remove, reduce (e.g. deform, deviate, describe)
+  - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `dis`: not or opposite
+- `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction)
+  - From Greek `dys-`
 - `e`: outward (e.g. evict)
 - `ecto`: outside, external (e.g. ectoderm)
   - Word-forming element generally before vowels `ect-`
   - From Latinized form of Greek adverb `ektos` "outside, out of; free from; exempt"
+- `electro`: electrical, electricity (e.g. electrotechnics)
 - `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower)
 - `endo`: inside, within, internal (e.g. endogenous)
   - Word-forming element from Greek `endon` "in, within"
@@ -189,7 +220,7 @@ its meaning will be gradually extended.
 - `mis`: miss (e.g. mistake, misinform)
 - `mono`: one, single
 - `multi`: multiple (e.g. multiform)
-- `nano`: nano (e.g. nanostructure)
+- `nano`: nano (e.g. nanostructure, nanotechnology)
 - `net`: net (e.g. internet)
 - `non`: not, none = no one (e.g. nonformal)
 - `ob`: toward, against, before, near, across, down (e.g. obstruct)
@@ -197,16 +228,22 @@ its meaning will be gradually extended.
 - `over`: over (e.g. overfly)
 - `pan`: all, every, whole, all-inclusive (e.g. pandemic)
   - From Greek `pan-`, combining form of pas
+- `para`: alongside, beyond; altered; contrary; irregular, abnormal (e.g. paramedic)
+  - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: every, entire (e.g. perfect, perform)
 - `pir`: pear (e.g. piriform)
 - `plat`: small place (e.g. platform)
-- `pre`: before (e.g. preformed)
+- `poly`: multiple, entire (e.g. polytechnic)
+- `pre`: before, ahead (e.g. preformed)
+  - From Latin `prae-`, before, ahead
 - `pro`: forward (direction)
   - It comes from `Prometheus`, who can predict the future.
 - `pur`: the same as `pro`
   - A variant of Latin pro "before, for" (see `pro-`)
   - The earliest form of the prefix in English, and it is retained in some words,
-  but in others it has been corrected to Latinate `pro-`.
+    but in others it has been corrected to Latinate `pro-`.
+- `pyro`: something related to fire (e.g. pyrotechnics)
+ - From Greek `pyr` (genitive `pyros`) 
 - `quad`: related to quantity of four
 - `re`: repeat
 - `semi`: half
@@ -218,50 +255,69 @@ its meaning will be gradually extended.
 - `sub`: under (e.g. subway(Americanism, underway is british style), substructure)
 - `super`: above (e.g. superstructure)
 - `therm`: heat, hot, warm (e.g. hetertherm)
-- `trans`: across, beyond, through, on the other side of, to go beyond (e.g. transparent)
+- `trans`: across, beyond, through, on the other side of, to go beyond (e.g.
+  transparent, transcribe)
+- `tri`: three (e.g. trivia)
 - `un`: not, one (e.g. uninformed, uniform)
 - `uni`: one, single, `un` + `i` (e.g. uniform)
 - `use`: use (e.g. usage)
 - `vore`: devour (e.g. devore)
+- `zymo`: make, brew (e.g. zymotechnics)
+  - From Greek `zymo-`, branch of chemistry which deals with wine-making and brewing
 
 ## Suffix
 
 - `a`: noun (e.g formula)
 - `al`: noun or adjective
+- `ade`: noun (e.g. barriecade)
+  - Denoting an action or product of an action, via French, Spanish, or Italian,
+    ultimately from Latin `-ata`, `fem`.
+- `ase`: noun, used in naming enzymes, from ending of diastase (biochemistry). (e.g. transcriptase)
 - `age`: noun, the same as `ic` (e.g. formage)
   - From Old French and French `-age`, from Late Latin -aticum "belonging to,
-  related to," originally neuter adjectival suffix
+    related to," originally neuter adjectival suffix
 - `an`: noun or adjective
-- `ance`: noun (e.g. performance, appearance)
- - the action, state, or quality of doing something or of being something
+- `ance`: noun (e.g. performance, appearance, balance)
+- the action, state, or quality of doing something or of being something
 - `ant`: noun (e.g. informant, assistant)
   - Someone or something that does something
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
+- `ar`: nount same as `-er`
 - `at`: noun or verb (e.g. formate)
 - `ate`: verb or adjective or noun
   - Verb, make something doing (e.g. regulate, control somthing or make it regular)
-  - Adjective, full of or showing a particular quality (e.g.  affectionate)
+  - Adjective, full of or showing a particular quality (e.g. affectionate)
   - Noun, job, rank, or degree of a particular quality/type/duty...
 - `ation`: noun (`ate` + `ion`)
 - `ative`: noun (`ate` + `ive`)
 - `craft`: noun, skill
+- `crat`: noun, governing (e.g. democrat)
+- `cracy`: noun, same as `ocrat` (e.g. e.g. democracy)
 - `dom`: noun, abstract suffix of state (e.g. freedom, random)
   - From Old English dom "statute, judgment" (see `doom`)
+- `don`: verb (e.g. abandon)
 - `e`: noun
 - `ed`: adjective
+- `el`: noun (e.g. barrel)
+  - instrumental word-forming element, expressing "appliance, tool," from Old
+    English `-ol`, `-ul`, `-el`, representing PIE \*-lo- (see -ule). In modern
+    English usually `-le` except after `-n-`.
+  - Suffix `-al` origins from here
+- `en`: verb, adjective or noun is rarely seen (e.g. barren)
 - `ence`: noun, refer to an action or series of actions (e.g. violence)
 - `ent`: (e.g. different)
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
 - `ess`: noun, female (e.g. actress)
+- `ette`: noun, a small thing of a particular type (e.g. barrette, snackette)
 - `fic`: adjective, making, creating (e.g. scientific)
   - From French `-fique` and directly from Latin `-ficus` "making, doing"
 - `hood`: noun (e.g. likelihood)
   - state or condition of being, from old English
 - `ia`: noun, in names of countries, diseases, and flowers (e.g. Asia)
   - From Latin and Greek -ia, noun ending, in Greek especially used in forming
-  abstract nouns (typically of feminine gender);
+    abstract nouns (typically of feminine gender);
 - `ible`: the same as `able` (e.g. invincible)
 - `ibility`: noun (`ible` + `i` + `ty`)
 - `ic`: adjective, of, like, related to a particular thing
@@ -279,13 +335,18 @@ its meaning will be gradually extended.
 - `itude`: noun (something's abstraction)
 - `ity`: noun, related to a state or quality, `i` + `ty` (e.g. performatity)
   - Added to adjectives to form nouns
-- `ium`: noun
+- `ium`: noun (e.g. scriptorium, technetium, medium)
 - `ive`: adjective (e.g. active)
 - `ise`: verb (Americanism)
 - `ize`: verb (British Style)
 - `istic`: `ist` + `ic` (e.g. formalistic)
 - `itis`: noun (e.g. periodontitis)
   - An illness or infection that affects a particular part of your body
+- `latry`: noun, worship of (e.g. technolatry, bardolatry)
+  - From Greek `-latreia` "worship, service paid to the gods, hired labor,"
+    related to latron (n.) "pay, hire," latris "servant, worshipper," from PIE
+    \*le- (1) "to get" (see larceny).
+- `le`: noun, verb, repeat (e.g. scribble)
 - `less`: adjective, negation
 - `logy`: noun, study
 - `ly`: adverb
@@ -294,19 +355,25 @@ its meaning will be gradually extended.
 - `ness`: noun (e.g. formlessness)
   - A quality or a condition (used to form nouns from adjectives)
 - `nomy`: subject
-- `or`: the same as `er`
+- `or`: the same as `-er`
 - `ory`: noun, the same as `ary` (e.g. victory, formulary)
 - `ous`: adjective, refer to a quality or condition (e.g. numerous)
+- `phile`: noun, someone who likes something (e.g. technophile)
+- `phobe`: noun, someone who dislikes or hates something (e.g. technophobe)
 - `ship`: noun, abstraction (e.g. friendship)
 - `some`: adjective
   - Word-forming element used in making adjectives from nouns or adjectives (and
-  sometimes verbs)
+    sometimes verbs)
   - Meaning "tending to; causing; to a considerable degree," from Old English `-sum`
+- `ster`: noun, a person who is associated with something (e.g. baluster, gangster)
+  - Old English `-istre`, from Proto-Germanic \*-istrijon, feminine agent suffix
+    used as the equivalent of masculine `-ere` (See `-er`)
 - `ty`: noun
 - `ul`: adjective, the same as `al` (e.g. formula, `form` + `ul` + `a`)
+- `ur`: noun, the same as `-er` (e.g. voyageur)
 - `ure`: noun or verb (e.g. structure)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
-  `-ura`, an ending of fem. nouns denoting employment or result.
+    `-ura`, an ending of fem. nouns denoting employment or result.
 - `us`: noun (e.g. exodus, humerus)
 
 ## Composition
@@ -318,6 +385,7 @@ its meaning will be gradually extended.
 - `counter`: anti (e.g. counter-reformation)
 - `concent`: concent (e.g. informed-consent)
 - `cross`: cross (e.g. cross-platform)
+- `driven`: driven (e.g. technology-driven)
 - `ex`: outward, before (e.g. ex-boyfriend, ex-president)
 - `era`: era, epoch (e.g. Victorian-era)
 - `enhancing`: `enhance` + `ing` (e.g. performance-enhancing)
@@ -329,7 +397,7 @@ its meaning will be gradually extended.
 - `free`: free (e.g. free-form)
 - `gathering`: gather (e.g. information-gathering)
 - `health`: health (e.g. health-reform)
-- `high`: high (e.g. high-performance)
+- `high`: high (e.g. high-performance, high-technology)
 - `ill`: ill (e.g. ill-informed)
 - `late`: late (e.g. late-Victorian)
 - `life`: life (e.g. life-form)
@@ -338,13 +406,14 @@ its meaning will be gradually extended.
 - `neo`: new (e.g. neo-Victorian)
 - `newly`: new (e.g. newly-formed)
 - `non`: none (e.g. non-structural)
-- `oriented`: `orient` + `ed` (e.g. performance-oriented)
+- `oriented`: `orient` + `ed` (e.g. performance-oriented, technology-oriented)
 - `paper`: paper (e.g. construction-paper)
 - `performing`: `perform` + `ing` (e.g. best-performing)
 - `post`: after (e.g. post-conviction)
 - `poor`: poor (e.g. poor-performing)
 - `processing`: `process` + `ing` (e.g. information-processing)
 - `related`: `relate` + `ed` (e.g. performance-related)
+- `related`: related (e.g. technology-related)
 - `rich`: rich (e.g. information-rich)
 - `self`: self (e.g. self-instruction)
 - `sharing`: `share` + `ing` (e.g. information-sharing)
