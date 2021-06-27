@@ -27,8 +27,8 @@ The technique was devised by [Richard Feynman][richard feynman] (1918–1988):
 - He participated in the secret development of the atomic bomb project
   "[Manhattan Project][manhattan project]".
 - He was a great physicist called a "scientific urchin".
-- He was called the "teacher among teachers", because he was good at explaining
-  cumbersome and obscure physics theories in an easy-to-understand manner.
+- He was called "the best teacher among many", because he was good at explaining
+  complicated and obscure physics theories in an easy-to-understand manner.
 
 He once said this sentence:
 
@@ -42,7 +42,7 @@ In the teaching process, he always kept the idea: "**Teaching is the best learni
 The American scholar [Edgar Dale][edgar dale] proposed the "**Cone of Learning**"
 theory in 1946. This is what he found through long-term research that the
 average retention rate of learning content after two weeks of learning through
-different learning methods data.
+different learning methods.
 
 ![The Cone of Learning](https://user-images.githubusercontent.com/9413601/123050259-196e1f00-d433-11eb-8219-4264bad9564b.png)
 
