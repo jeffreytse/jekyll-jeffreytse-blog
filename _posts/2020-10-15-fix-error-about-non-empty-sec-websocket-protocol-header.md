@@ -9,7 +9,7 @@ tags:
   - misc
 ---
 
-## 1. Introduction
+## Introduction
 
 When you encounter this problem about `WebSocket connection to
 'wss://<address>/live' failed: Error during WebSocket
@@ -17,7 +17,7 @@ handshake: Sent non-empty 'Sec-WebSocket-Protocol' header but
 no response was received`, here is an article on how to fix this
 problem.
 
-## 2. Review
+## Review
 
 According to the error message, we know that the WebSocket client
 sent a request with non-empty __'Sec-WebSocket-Protocol'__ header as
@@ -34,7 +34,7 @@ confirm the subprotocol of the connection.  This enables scripts to
 both select a subprotocol and be sure that the server agreed to
 serve that subprotocol.
 
-## 3. Conclusion
+## Conclusion
 
 Now we know that this problem is caused by the backend server not
 agreeing to serve the subprotocol (Known by above picture it is
