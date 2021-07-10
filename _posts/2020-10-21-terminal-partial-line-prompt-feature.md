@@ -9,7 +9,7 @@ tags:
   - terminal
 ---
 
-## 1. Introduction
+## Introduction
 
 If you are a user who often deals with terminals, you must have noticed
 that the output ends a line with a highlighted percent symbol on occasion
@@ -17,7 +17,7 @@ with a variety of applications. Maybe you would think it was because the
 output was cancelled early (ctrl+c, for example) or something similar,
 but it doesn't seem to do this in bash, just do in zsh/fish.
 
-## 2. Learn more about
+## Learn more about
 
 This happens because it is a "partial line". The specific feature of zsh
 (and now fish as well) to let you clearly see unterminated lines in a
