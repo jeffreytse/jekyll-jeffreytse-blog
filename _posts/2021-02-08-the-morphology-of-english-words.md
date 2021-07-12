@@ -81,9 +81,13 @@ English thinking:
   - From Latin `ferre`
 - `fine`: end, limit, acme (e.g. define)
 - `flu`: the affects between objects (e.g. influence)
-- `flux`: the same as `flu`
+  - From Latin `fluere`
+- `flux`: the same as `flu` (e.g. )
 - `form`: shape, look, etc. (e.g. transform, formula)
   - It comes from Latin `formare`
+- `glossa` language, tongue
+  - From Greek `glōtta`
+- `glotta`: the same as `glossa` (e.g. polyglot)
 - `half`: half (e.g. halfway)
 - `heal`: heal (e.g. healthy)
 - `high`: high (e.g. highlight)
@@ -117,10 +121,11 @@ English thinking:
 - `please`: please, aggreeable (e.g. unpleasant)
 - `prehend`: grap, grasp, arrest (e.g. comprehension)
   - From Latin, prehendere
-- `press`: press
+- `press`: press (e.g. pressman)
+  - From Latin `pressare`
 - `put`: think
 - `poor`: poor
-- `rect`: rect, right angle, a straight line
+- `rect`: rect, right angle, a straight line (e.g. correct, direct)
 - `rive`: shore, bank, break
 - `rupt`: to break apart (e.g. corrupt)
 - `sci`: to know (e.g. science)
@@ -131,6 +136,8 @@ English thinking:
 - `sect`: seprate
 - `short`: short
 - `smog`: smog
+- `spek`: look at, to observe (e.g. respect)
+  - From Latin `specere`
 - `spir`: breath (e.g. spirit, conspire, inspire, expire)
 - `spong`: spong (e.g. spongiform)
 - `st`: stand
@@ -147,6 +154,7 @@ English thinking:
 - `sume`: use up (e.g. consume)
 - `swim`: swim
 - `tire`: become weary, exhausted (e.g. overtire)
+- `tom`: divide (e.g. atom)
 - `top`: top
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
@@ -169,10 +177,10 @@ English thinking:
 
 ## Prefix
 
-- `a`: off, of, away from (e.g. away, apart, ascribe)
+- `a`: off, of, away from (e.g. away, apart, ascribe, atom)
   - From Latin
-- `a??`: emphasize (e.g. attention, apprehend)
 - `ab`: away, from, from off, down (e.g. abuse)
+- `ac`: cusp (e.g. acupressure)
 - `agri`: relating to farming (e.g. agriculture, agribusiness)
 - `agro`: the same as `agri` (e.g. agrobiology, agro-industry)
 - `al`: all (e.g. alway)
@@ -181,21 +189,29 @@ English thinking:
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
-- `con`: with, together, the relation of two object/e2e, emphasize (e.g. confirm)
-- `cor`: same as `con` (e.g. corrupt)
-  - The form used for `con-` before the letter `r`
+- `co`: the same as `com` (e.g. costar, cognate)
+- `col`: the same as `com` (e.g. )
+- `com`: with, together, together with, in combination, emphasize (e.g. compress)
+  - From Latin `com`, `cum`
+- `con`: the same as `com` (e.g. confirm)
+  - It is the form of `com-` used in Latin before consonants except `-b-`,
+    `-p-`, `-l-`, `-m-`, or `-r-`.
+- `cor`: same as `con` (e.g. corrupt, correct)
+  - The form used for `com-` before the letter `r`
 - `contra`: against or opposite (e.g. contraband)
-- `counter`: against, in opposition; in return; corresponding, (e.g.
-  counteract, counterfeit)
+- `counter`: against, in opposition; in return; corresponding, (e.g. counteract, counterfeit)
   - from Anglo-French countre-, French `contre-`, from Latin contra "opposite,
     contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
 - `de`: opposite, remove, reduce (e.g. deform, deviate, describe)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
+- `di`: two, double, twice, twofold; apart, asunder(e.g. direct)
+  - From Greek, cognate with `bi-`, meaning "two, twice"
+  - From Latin, `dis-`, meaning "apart, asunder"
 - `dis`: not or opposite
 - `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction)
   - From Greek `dys-`
-- `e`: outward (e.g. evict)
+- `e`: same as `ex` (e.g. evict)
 - `ecto`: outside, external (e.g. ectoderm)
   - Word-forming element generally before vowels `ect-`
   - From Latinized form of Greek adverb `ektos` "outside, out of; free from; exempt"
@@ -203,12 +219,31 @@ English thinking:
 - `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower)
 - `endo`: inside, within, internal (e.g. endogenous)
   - Word-forming element from Greek `endon` "in, within"
+- `es`: to be (emphasize) (e.g. essence, espresso)
+  - Proto-Indo-European root meaning "to be."
+- `ex`: out of, from, upwards, completely, deprive of, former (e.g. express)
+  - From Latin `ex` "out of, from within; from which time, since; according to;
+    in regard to"
+  - From PIE `*eghs` "out" (source also of Gaulish `ex-`, Old Irish `ess-`, Old
+    Church Slavonic `izu`, Russian `iz`).
+  - In some cases also from Greek cognate `ex`, `ek`
+  - Often reduced to `e-` before `-b-`, `-d-`, `-g-`, consonantal `-i-`, `-l-`,
+    `-m-`, `-n-`, `-v-` (as in elude, emerge, evaporate, etc.).
 - `hetero`: other, opposite, different (e.g. heterosexual)
 - `hypo`: less than usual, especially too little (e.g. hypotherm)
-- `in`: not, emphasize, inside (e.g. invalid, inform, inland)
+- `im`: not, opposite of; in,into (e.g. immobile, impersonal, implant, impress)
+  - The form used for `in-` before `b`, `m`, or `p`
+  - In some English words it alternates with `em-`
+- `in`: not, emphasize, inside (e.g. invalid, insufficient, inform, inland)
 - `infra`: below, under (e.g. infrastructure)
 - `inter`: between or involving two or more different things (e.g. internet)
 - `intro`: into, especially into the inside (e.g. introduce)
+- `immun`: free, exempt (e.g. immunosuppression)
+  - From Latin `immunis` "exempt from public service, untaxed; unburdened, not
+    tributary," literally "not paying a share," from assimilated form of `in-`
+    "not, opposite of" (see `in-`) + munis "performing services" (compare
+    municipal), suffixed form of root \*mei- "to change, go, move." Specific
+    modern medical sense of "exempt (from a disease)
 - `ir`: used instead of `in-` before the letter `r`
 - `is`: separate, apart (e.g. island)
 - `macro`: extremely large
@@ -223,8 +258,10 @@ English thinking:
 - `nano`: nano (e.g. nanostructure, nanotechnology)
 - `net`: net (e.g. internet)
 - `non`: not, none = no one (e.g. nonformal)
-- `ob`: toward, against, before, near, across, down (e.g. obstruct)
-- `omni`: everything or everywhere, all (e.g. omnipresent)
+- `ob`: toward(emphasize), against, before, near, across, down (e.g. obstruct)
+- `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional)
+- `op`: the same as `ob` (e.g. oppress)
+  - assimilated form of `ob-` before `-p-`
 - `over`: over (e.g. overfly)
 - `pan`: all, every, whole, all-inclusive (e.g. pandemic)
   - From Greek `pan-`, combining form of pas
@@ -243,7 +280,7 @@ English thinking:
   - The earliest form of the prefix in English, and it is retained in some words,
     but in others it has been corrected to Latinate `pro-`.
 - `pyro`: something related to fire (e.g. pyrotechnics)
- - From Greek `pyr` (genitive `pyros`) 
+- From Greek `pyr` (genitive `pyros`)
 - `quad`: related to quantity of four
 - `re`: repeat
 - `semi`: half
@@ -253,6 +290,14 @@ English thinking:
 - `sol`: uninjured, in good health, safe (e.g. solid)
   - From Latin salvificus "saving"
 - `sub`: under (e.g. subway(Americanism, underway is british style), substructure)
+- `sup`: the same as `sub` (e.g. suppress, support)
+  - Assimilated form of `sub-` before `-p-`
+- `sur`: over, above, beyond, in addition; the same as `sub` (e.g. surface)
+  - From Anglo-French and Old French, from Old French `sour-`, `sor-`, `sur-`,
+    from Latin `super`
+  - Assimilated form of `sub-` before `-r-`.
+- `sus`: the same as `sub` (e.g. sustain)
+  - Assimilated form of `sub-` before `-s-`.
 - `super`: above (e.g. superstructure)
 - `therm`: heat, hot, warm (e.g. hetertherm)
 - `trans`: across, beyond, through, on the other side of, to go beyond (e.g.
@@ -262,8 +307,27 @@ English thinking:
 - `uni`: one, single, `un` + `i` (e.g. uniform)
 - `use`: use (e.g. usage)
 - `vore`: devour (e.g. devore)
+- `vaso`: container, vessel (e.g. vasopressin, vasopressor)
+  - Combining form of Latin `vas` (see `vas`)
 - `zymo`: make, brew (e.g. zymotechnics)
   - From Greek `zymo-`, branch of chemistry which deals with wine-making and brewing
+
+Vowel + 2 Consonant patterns:
+
+- `a??`: emphasize (e.g. attention, apprehend, afflux)
+- `e??`: out of, same as `ex-` (e.g. eccentric, effluent)
+- `i??`: not, emphasize, same as `ir-` (e.g. irregular)
+- `o??`: opposite of, emphasize, same as `op-` (e.g. oppress)
+
+Variants:
+
+- `com-` = `con-` = `col-` = `cor-` = `co-`
+- `di-` = `dis-` = `de-` = `is-`
+- `in-` = `im-` = `un-`
+- `sub-` = `sup-` = `sur-` = `sus-`
+- `en-` = `em-` = `in-` (e.g. enrich, enlarge, encourage)
+- `super-` = `over-`
+- `inter-` = `intel-` = `enter-` (e.g. )
 
 ## Suffix
 
@@ -279,11 +343,15 @@ English thinking:
 - `an`: noun or adjective
 - `ance`: noun (e.g. performance, appearance, balance)
 - the action, state, or quality of doing something or of being something
-- `ant`: noun (e.g. informant, assistant)
+- `ant`: noun (e.g. informant, assistant, redundant, significant)
   - Someone or something that does something
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
-- `ar`: nount same as `-er`
+- `ar`: noun same as `-er`
+- `ary`: adjective or noun; having to do with, characterized by, tending to,
+  place for (e.g. arbitrary)
+  - from Middle English `-orie`, from Old North French `-ory`, `-orie` (Old
+    French `-oir`, `-oire`), from Latin `-orius`, `-oria`, `-orium`
 - `at`: noun or verb (e.g. formate)
 - `ate`: verb or adjective or noun
   - Verb, make something doing (e.g. regulate, control somthing or make it regular)
@@ -297,7 +365,7 @@ English thinking:
 - `dom`: noun, abstract suffix of state (e.g. freedom, random)
   - From Old English dom "statute, judgment" (see `doom`)
 - `don`: verb (e.g. abandon)
-- `e`: noun
+- `e`: noun (e.g. )
 - `ed`: adjective
 - `el`: noun (e.g. barrel)
   - instrumental word-forming element, expressing "appliance, tool," from Old
@@ -306,13 +374,17 @@ English thinking:
   - Suffix `-al` origins from here
 - `en`: verb, adjective or noun is rarely seen (e.g. barren)
 - `ence`: noun, refer to an action or series of actions (e.g. violence)
-- `ent`: (e.g. different)
+- `ent`: (e.g. different, recipient)
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
-- `ess`: noun, female (e.g. actress)
+- `ery`: noun or adjective, the same as `-ary` (e.g. )
+- `ess`: noun, female (e.g. actress, waitress, tigress, directress)
 - `ette`: noun, a small thing of a particular type (e.g. barrette, snackette)
 - `fic`: adjective, making, creating (e.g. scientific)
   - From French `-fique` and directly from Latin `-ficus` "making, doing"
+- `fy`: verb, make, make into (e.g. rectify, verify, falsify, qualify, specify)
+  - From French `-fier`
+  - From Latin `-ficare`, combining form of facere "to make"
 - `hood`: noun (e.g. likelihood)
   - state or condition of being, from old English
 - `ia`: noun, in names of countries, diseases, and flowers (e.g. Asia)
@@ -320,9 +392,11 @@ English thinking:
     abstract nouns (typically of feminine gender);
 - `ible`: the same as `able` (e.g. invincible)
 - `ibility`: noun (`ible` + `i` + `ty`)
-- `ic`: adjective, of, like, related to a particular thing
+- `ic`: adjective, having to do with, having the nature of, being, made of,
+  caused by, similar to (e.g. iconic)
+  - From French `-ique` and directly from Latin `-icus` or from cognate Greek `-ikos`
 - `ics`: noun, `ic` + `s`, the study of something (e.g. bioinformatics)
-- `id`: adjective, (e.g. solid, `sol` + `id`)
+- `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid, `sol` + `id`)
 - `ile`: the same as `ible`
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
@@ -331,7 +405,7 @@ English thinking:
 - `ish`: noun or adjective, something of one place, quite
 - `ism`: noun, principle (something's abstraction)
 - `ist`: noun, people, principle (e.g. formalist)
-- `it`: noun or verb (e.g. unit)
+- `it`: the same as `id` (e.g. unit)
 - `itude`: noun (something's abstraction)
 - `ity`: noun, related to a state or quality, `i` + `ty` (e.g. performatity)
   - Added to adjectives to form nouns
@@ -347,7 +421,8 @@ English thinking:
     related to latron (n.) "pay, hire," latris "servant, worshipper," from PIE
     \*le- (1) "to get" (see larceny).
 - `le`: noun, verb, repeat (e.g. scribble)
-- `less`: adjective, negation
+- `less`: adjective, negation (e.g. homeless, hopeless, careless, meaningless,
+  useless, regardless)
 - `logy`: noun, study
 - `ly`: adverb
 - `ment`: noun, to show actions, the people who do them, or their results (e.g. government)
@@ -356,11 +431,11 @@ English thinking:
   - A quality or a condition (used to form nouns from adjectives)
 - `nomy`: subject
 - `or`: the same as `-er`
-- `ory`: noun, the same as `ary` (e.g. victory, formulary)
+- `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary)
 - `ous`: adjective, refer to a quality or condition (e.g. numerous)
 - `phile`: noun, someone who likes something (e.g. technophile)
 - `phobe`: noun, someone who dislikes or hates something (e.g. technophobe)
-- `ship`: noun, abstraction (e.g. friendship)
+- `ship`: noun, abstraction (e.g. friendship, directorship)
 - `some`: adjective
   - Word-forming element used in making adjectives from nouns or adjectives (and
     sometimes verbs)
@@ -368,13 +443,36 @@ English thinking:
 - `ster`: noun, a person who is associated with something (e.g. baluster, gangster)
   - Old English `-istre`, from Proto-Germanic \*-istrijon, feminine agent suffix
     used as the equivalent of masculine `-ere` (See `-er`)
+- `tude`: the same as `-ude` (e.g. attitude)
 - `ty`: noun
+- `ude` noun, adjective (e.g. attitude, rectitude)
+  - Making abstract nouns from adjectives and participles, is fixed to a base or
+    to another suffix ending in `-t` or `-te`
+  - From French `-ude`, from Latin `-udo` (stem `-udin-`). The equivalent of
+    native `-ness`
 - `ul`: adjective, the same as `al` (e.g. formula, `form` + `ul` + `a`)
 - `ur`: noun, the same as `-er` (e.g. voyageur)
 - `ure`: noun or verb (e.g. structure)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
     `-ura`, an ending of fem. nouns denoting employment or result.
-- `us`: noun (e.g. exodus, humerus)
+- `us`: noun (e.g. exodus, humerus, rectus)
+
+Variants:
+
+- `-al` = `-el` = `-il` = `-ul`
+- `-ar` = `-er` = `-ir` = `-or` = `-ur`
+- `-able` = `-ible` = `-ile` = `-ble`
+- `-ary` = `-ery` = `-ory`
+- `-ate` = `-ite` = `-ute`
+  - `-ation` = `-ition` = `-ution`
+- `-um` = `-im` = (`-am` = `-em`)
+- `-ant` = `-ent` = `-and` = `-end` (e.g. important, student)
+  - noun or adjective; none means man in general
+- `-ance` = `-ence` = `-ancy` = `-ency` (e.g. balance, fluence)
+  - noun; occasionally verb
+- `-id` = `-it` (e.g. liquid, fluid)
+- `-ize` = `-ise`
+- `-ous` (= `-ious` = `-eous` = `-uous`)
 
 ## Composition
 
@@ -382,12 +480,14 @@ English thinking:
 - `anti`: opposed to or against something (e.g. anti-virus)
 - `based`: based on something, `base` + `ed` (e.g. information-based, rule-based)
 - `best`: best (e.g. best-informed)
+- `blood`: blod (e.g. blood-pressure)
+- `cold`: cold (e.g. cold-pressed)
 - `counter`: anti (e.g. counter-reformation)
 - `concent`: concent (e.g. informed-consent)
 - `cross`: cross (e.g. cross-platform)
 - `driven`: driven (e.g. technology-driven)
 - `ex`: outward, before (e.g. ex-boyfriend, ex-president)
-- `era`: era, epoch (e.g. Victorian-era)
+- `era`: era, epoch (e.g. Victorian-era, Depression-era)
 - `enhancing`: `enhance` + `ing` (e.g. performance-enhancing)
 - `fed`: feed (e.g. formula-fed)
 - `fecal`: fecal (e.g. fecal-coliform)
@@ -396,17 +496,20 @@ English thinking:
 - `forming`: `form` + `ing` (e.g. star-forming)
 - `free`: free (e.g. free-form)
 - `gathering`: gather (e.g. information-gathering)
+- `hard`: hard (e.g. hard-pressed)
 - `health`: health (e.g. health-reform)
 - `high`: high (e.g. high-performance, high-technology)
+- `hot`: hot (e.g. hot-pressed)
 - `ill`: ill (e.g. ill-informed)
 - `late`: late (e.g. late-Victorian)
 - `life`: life (e.g. life-form)
 - `low`: low (e.g. low-performing)
-- `long`: long (e.g. long-period)
+- `long`: long (e.g. long-period, long-term)
 - `neo`: new (e.g. neo-Victorian)
 - `newly`: new (e.g. newly-formed)
 - `non`: none (e.g. non-structural)
 - `oriented`: `orient` + `ed` (e.g. performance-oriented, technology-oriented)
+- `packed` packed (e.g. pressure-packed)
 - `paper`: paper (e.g. construction-paper)
 - `performing`: `perform` + `ing` (e.g. best-performing)
 - `post`: after (e.g. post-conviction)
@@ -420,6 +523,7 @@ English thinking:
 - `short`: short (e.g. short-period)
 - `social`: social (e.g. social-structural)
 - `style`: style (e.g. Victorian-style)
+- `treated`: treated (e.g. pressure-treated)
 - `total`: total (e.g. total-coliform)
 - `top`: top (e.g. top-performing)
 - `technology`: `techn` + `o` + `logy` (e.g. information-technology)
