@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Music Theory Cookbook
+title: My Music Theory Handbook
 author: Jeffrey Tse
 banner: https://bit.ly/34Mszcd
 categories: music
@@ -9,6 +9,9 @@ tags:
   - music
   - note
 ---
+
+This handbook is a topically organized book of reference on music theory that
+I learned.
 
 ## Melody
 
