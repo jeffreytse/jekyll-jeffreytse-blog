@@ -15,9 +15,17 @@ way many Brits feel about American English.
 
 ## Pronunciation
 
-- current
-- either
-- pass
+- after (ˈæftər / ˈɑːftə)
+- common (ˈkɑː.mən / ˈkɒm.ən)
+- computer (kəmˈpjuːtər / kəmˈpjuːtə)
+- current (ˈkɜːrənt / ˈkʌrənt)
+- direct (daɪˈrekt / dəˈrekt)
+- either (ˈiːðər / ˈaɪðə)
+- example (ɪɡˈzæmpəl / ɪɡˈzɑːmpəl)
+- neither (ˈniːðər / ˈnaɪðə)
+- pass (pæs / pɑːs)
+- possible (ˈpɑːsəbəl / ˈpɒsəbəl)
+- telecom (ˈtel.ɪ.kɑːm / ˈtel.ɪ.kɒm)
 - ...
 
 ## Vocabulary
@@ -42,8 +50,8 @@ vocabulary. There are hundreds of everyday words that are different:
 ## Spelling
 
 There are hundreds of minor spelling differences between British and American
-English. You can thank American lexicographer [Noah Webster][noah webster] for this. Below
-are three rules you can follow:
+English. You can thank American lexicographer [Noah Webster][noah webster] for
+this. Below are three rules you can follow:
 
 - `-or` / `-our` (Most words)
   - behavior / behaviour
