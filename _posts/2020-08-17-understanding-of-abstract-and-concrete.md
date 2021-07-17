@@ -6,8 +6,6 @@ categories: misc
 tags: note misc
 ---
 
-## What's up
-
 Abstract and concrete are opposite concepts, many times we just know what they
 mean, but don't really understand them. So today let us get to know them again
 and have a clearer and deeper understanding of them.
