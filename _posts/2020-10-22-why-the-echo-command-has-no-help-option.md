@@ -9,14 +9,14 @@ tags:
   - terminal
 ---
 
-## 1. Introduction
+## Introduction
 
 Have you ever tried to use the `echo --help` command to get some
 help, but it just simply prints '--help' literally, and similarly,
 that `echo --version` has the same result. Why it didn't work,
 this article will lead us to find out more information.
 
-## 2. Learn more about
+## Learn more about
 
 This happens because you are using [the `echo` built-in command of
 bash](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#index-echo),
