@@ -10,7 +10,7 @@ tags:
   - terminal
 ---
 
-## 1. Introduction
+## Introduction
 
 We often need to configure IP (static or dynamic), especially on newly
 installed Ubuntu. However, since we have not systematically summarized
@@ -20,7 +20,7 @@ very simple.
 Here’s how to get networking all the way up in a matter of seconds
 using just a few commands from the terminal.
 
-## 2. Solutions
+## Solutions
 
 There are two ways to do this:
 
@@ -29,7 +29,7 @@ There are two ways to do this:
 
 And we also need to find out our network interface:
 
-### 2.1 Identify Ethernet Interfaces
+### Identify Ethernet Interfaces
 
 To quickly identify all available Ethernet interfaces, you can use the
 `ip` command as shown below.
@@ -44,7 +44,7 @@ or
 ip a
 ```
 
-### 2.2 Using ifconfig
+### Using ifconfig
 
 Configure Dynamic IP:
 
@@ -72,7 +72,7 @@ $ route add default gw 192.168.1.1
 $ echo "nameserver 1.1.1.1" > /etc/resolv.conf
 ```
 
-### 2.3 Using ip and netplan
+### Using ip and netplan
 
 Since `ifconfig` is being phased out, it’s time to get used to the
 new system. By default, some Linux distribution (e.g. Ubuntu 18.04)
@@ -130,7 +130,7 @@ And then to apply the configuration, run command as below:
 $ netplan apply
 ```
 
-### 2.4 Checking Network Connectivity
+### Checking Network Connectivity
 
 Assuming you have configured your network, now it's time for us to
 check if you’re all set. Test by `ping` any domain name:
@@ -139,7 +139,7 @@ check if you’re all set. Test by `ping` any domain name:
 $ ping www.google.com
 ```
 
-## 3. Conclusion
+## Conclusion
 
 If you’re using an older Linux system, the `ifconfig` way you have
 to do. If you’re on a newer system, never forget to use the new way `ip`
