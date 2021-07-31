@@ -74,13 +74,16 @@ English thinking:
   - From Greek `demos`
 - `dent`: a hollow area in the surface of something (e.g. dental)
   - From Latin `dint`
+- `digm`: to show (e.g. paramdigm)
+  - Cognate with Latin `dicere` "to show;"
+  - from PIE root `*deik`- "to show," also "pronounce solemnly"
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fect`: doing (e.g. perfect)
 - `fer`: to carry, to bear (e.g. conference)
   - From Latin `ferre`
 - `fine`: end, limit, acme (e.g. define)
-- `flu`: the affects between objects (e.g. influence)
+- `flu`: the affects between objects (e.g. influence, flush)
   - From Latin `fluere`
 - `flux`: the same as `flu` (e.g. )
 - `form`: shape, look, etc. (e.g. transform, formula)
@@ -103,6 +106,8 @@ English thinking:
 - `low`: low
 - `manu`: hand (e.g. manufactor, manuscript)
 - `mark`: mark
+- `mel`: honey (e.g. mellifluous)
+  - From Latin `mel`, related to Greek `meli`
 - `mit`: send (e.g. submit, permit)
 - `morph`: form, shape (e.g. morphology)
   - From Greek `morphe`
@@ -124,12 +129,15 @@ English thinking:
 - `press`: press (e.g. pressman)
   - From Latin `pressare`
 - `put`: think
+- `pol`: citadel, fort, city (e.g. politic, polite, police)
+  - From Greek `polis`
 - `poor`: poor
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
 - `rive`: shore, bank, break
 - `rupt`: to break apart (e.g. corrupt)
 - `sci`: to know (e.g. science)
   - From Latin `scire/scientis`
+- `scop`: mirror (e.g. fluoroscopy)
 - `scribe`: to write or something written (e.g. subscribe)
 - `scribble`: careless writing, drawing
 - `script`: the same as `scribe`
@@ -140,19 +148,23 @@ English thinking:
   - From Latin `specere`
 - `spir`: breath (e.g. spirit, conspire, inspire, expire)
 - `spong`: spong (e.g. spongiform)
-- `st`: stand
-- `sist`: the same as `st`
+- `st`: to stand, make or be firm
+- `sist`: the same as `st` (e.g. assist)
 - `star`: star
-- `stat`: the same as `st`
+- `stat`: the same as `st` (e.g. state)
 - `stin`: the same as `st`
-- `stem`: the same as `st`
+- `stem`: the same as `st` (e.g. system)
 - `struct`: build (e.g. construct)
   - From Latin, structura, from struere, the way an organization, system,
     market etc is organized or put together.
 - `suit`: to follow (e.g. suitcase)
   - From Latin `sequi`
 - `sume`: use up (e.g. consume)
+- `sui`: one's own (e.g. suicide)
+  - From Latin sui "of oneself" (genitive of se "self")
 - `swim`: swim
+- `syn`: to place together, organize, form in order (e.g. system)
+  - From stem of `synistanai`
 - `tire`: become weary, exhausted (e.g. overtire)
 - `tom`: divide (e.g. atom)
 - `top`: top
@@ -181,19 +193,23 @@ English thinking:
   - From Latin
 - `ab`: away, from, from off, down (e.g. abuse)
 - `ac`: cusp (e.g. acupressure)
+- `ad`: to
+- `as`: the same as `ad` (e.g. assist)
 - `agri`: relating to farming (e.g. agriculture, agribusiness)
 - `agro`: the same as `agri` (e.g. agrobiology, agro-industry)
 - `al`: all (e.g. alway)
+- `apo`: off, away from (e.g. apology, apostate)
+  - From Greek
 - `bi`: two (e.g. binary)
 - `bi(o)`: relating to or using living things (e.g. biomedical)
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
 - `co`: the same as `com` (e.g. costar, cognate)
-- `col`: the same as `com` (e.g. )
+- `col`: the same as `com` (e.g. colleague)
 - `com`: with, together, together with, in combination, emphasize (e.g. compress)
   - From Latin `com`, `cum`
-- `con`: the same as `com` (e.g. confirm)
+- `con`: the same as `com` (e.g. confirm, convergence)
   - It is the form of `com-` used in Latin before consonants except `-b-`,
     `-p-`, `-l-`, `-m-`, or `-r-`.
 - `cor`: same as `con` (e.g. corrupt, correct)
@@ -205,7 +221,7 @@ English thinking:
 - `de`: opposite, remove, reduce (e.g. deform, deviate, describe)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
-- `di`: two, double, twice, twofold; apart, asunder(e.g. direct)
+- `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence)
   - From Greek, cognate with `bi-`, meaning "two, twice"
   - From Latin, `dis-`, meaning "apart, asunder"
 - `dis`: not or opposite
@@ -247,7 +263,7 @@ English thinking:
 - `ir`: used instead of `in-` before the letter `r`
 - `is`: separate, apart (e.g. island)
 - `macro`: extremely large
-- `mal`: bad
+- `mal`: bad (e.g. malware)
 - `main`: main (e.g. main)
 - `magn`: big
 - `micro`: extremely small (e.g. microphone)
@@ -315,7 +331,7 @@ English thinking:
 Vowel + 2 Consonant patterns:
 
 - `a??`: emphasize (e.g. attention, apprehend, afflux)
-- `e??`: out of, same as `ex-` (e.g. eccentric, effluent)
+- `e??`: out of, same as `ex-` (e.g. eccentric, effluent, efflux)
 - `i??`: not, emphasize, same as `ir-` (e.g. irregular)
 - `o??`: opposite of, emphasize, same as `op-` (e.g. oppress)
 
@@ -359,6 +375,8 @@ Variants:
   - Noun, job, rank, or degree of a particular quality/type/duty...
 - `ation`: noun (`ate` + `ion`)
 - `ative`: noun (`ate` + `ive`)
+- `cide`: noun (e.g. suicide)
+  - used to form words referring to substances that kill a particular thing
 - `craft`: noun, skill
 - `crat`: noun, governing (e.g. democrat)
 - `cracy`: noun, same as `ocrat` (e.g. e.g. democracy)
@@ -430,7 +448,7 @@ Variants:
 - `ness`: noun (e.g. formlessness)
   - A quality or a condition (used to form nouns from adjectives)
 - `nomy`: subject
-- `or`: the same as `-er`
+- `or`: the same as `-er` (e.g. resistor)
 - `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary)
 - `ous`: adjective, refer to a quality or condition (e.g. numerous)
 - `phile`: noun, someone who likes something (e.g. technophile)
