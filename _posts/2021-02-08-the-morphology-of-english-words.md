@@ -102,7 +102,11 @@ English thinking:
 - `lat`: take (e.g. relate, `re` + `lat` + `ate`)
 - `land`: land (e.g. motherland, fatherland, landmark, mainland)
 - `late`: late
+- `lic`: to be allowed, be lawful (e.g. license)
+  - Possibly source also of Lettish likstu "I come to terms"
 - `log`: language, symbol
+- `logos`: speech (e.g. apology)
+  - From Greek
 - `low`: low
 - `manu`: hand (e.g. manufactor, manuscript)
 - `mark`: mark
@@ -112,6 +116,8 @@ English thinking:
 - `morph`: form, shape (e.g. morphology)
   - From Greek `morphe`
 - `neo`: new (e.g. neonatal)
+- `news`: message (e.g. newspaper, newsstand)
+  - Message from North, East, West and South
 - `non`: no (e.g. nonperformance)
 - `graph`: write, draw, measure (e.g. photograph)
   - From Greek
@@ -147,11 +153,14 @@ English thinking:
 - `spek`: look at, to observe (e.g. respect)
   - From Latin `specere`
 - `spir`: breath (e.g. spirit, conspire, inspire, expire)
+- `spond`: to pledge (e.g. respond)
+  - From Latin `spondere`
+- `spons`: the same as `spond`
 - `spong`: spong (e.g. spongiform)
-- `st`: to stand, make or be firm
+- `st`: to stand, make or be firm (e.g. state, stand, still)
 - `sist`: the same as `st` (e.g. assist)
 - `star`: star
-- `stat`: the same as `st` (e.g. state)
+- `stat`: the same as `st` (e.g. state `st` + `ate`, upstate, overstate)
 - `stin`: the same as `st`
 - `stem`: the same as `st` (e.g. system)
 - `struct`: build (e.g. construct)
@@ -166,7 +175,7 @@ English thinking:
 - `syn`: to place together, organize, form in order (e.g. system)
   - From stem of `synistanai`
 - `tire`: become weary, exhausted (e.g. overtire)
-- `tom`: divide (e.g. atom)
+- `tom`: divide (e.g. atom, prostatectomy)
 - `top`: top
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
@@ -298,7 +307,7 @@ English thinking:
 - `pyro`: something related to fire (e.g. pyrotechnics)
 - From Greek `pyr` (genitive `pyros`)
 - `quad`: related to quantity of four
-- `re`: repeat
+- `re`: repeat, back (e.g. response)
 - `semi`: half
 - `sens`: understanding or feeling of something (e.g. sense)
 - `sent`: the same as `sens` (e.g. consent)
@@ -327,6 +336,7 @@ English thinking:
   - Combining form of Latin `vas` (see `vas`)
 - `zymo`: make, brew (e.g. zymotechnics)
   - From Greek `zymo-`, branch of chemistry which deals with wine-making and brewing
+- ...
 
 Vowel + 2 Consonant patterns:
 
@@ -358,7 +368,7 @@ Variants:
     related to," originally neuter adjectival suffix
 - `an`: noun or adjective
 - `ance`: noun (e.g. performance, appearance, balance)
-- the action, state, or quality of doing something or of being something
+  - The action, state, or quality of doing something or of being something
 - `ant`: noun (e.g. informant, assistant, redundant, significant)
   - Someone or something that does something
 - `able`: adjective
@@ -391,7 +401,7 @@ Variants:
     English usually `-le` except after `-n-`.
   - Suffix `-al` origins from here
 - `en`: verb, adjective or noun is rarely seen (e.g. barren)
-- `ence`: noun, refer to an action or series of actions (e.g. violence)
+- `ence`: the same as `ance` (e.g. violence)
 - `ent`: (e.g. different, recipient)
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
@@ -474,6 +484,7 @@ Variants:
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
     `-ura`, an ending of fem. nouns denoting employment or result.
 - `us`: noun (e.g. exodus, humerus, rectus)
+- ...
 
 Variants:
 
@@ -496,19 +507,26 @@ Variants:
 
 - `age`: age, era, epoch (e.g. information-age)
 - `anti`: opposed to or against something (e.g. anti-virus)
+- `approved`: opproved (e.g. state-approved)
+- `appointed`: appointed (e.g. state-appointed)
 - `based`: based on something, `base` + `ed` (e.g. information-based, rule-based)
 - `best`: best (e.g. best-informed)
 - `blood`: blod (e.g. blood-pressure)
+- `certified`: certified (e.g. state-certified)
+- `chartered`: chartered (e.g. state-chartered)
 - `cold`: cold (e.g. cold-pressed)
 - `counter`: anti (e.g. counter-reformation)
 - `concent`: concent (e.g. informed-consent)
 - `cross`: cross (e.g. cross-platform)
+- `dominated`: dominated (e.g. state-dominated)
 - `driven`: driven (e.g. technology-driven)
 - `ex`: outward, before (e.g. ex-boyfriend, ex-president)
 - `era`: era, epoch (e.g. Victorian-era, Depression-era)
+- `enforced`: enforced (e.g. state-enforced)
 - `enhancing`: `enhance` + `ing` (e.g. performance-enhancing)
 - `fed`: feed (e.g. formula-fed)
 - `fecal`: fecal (e.g. fecal-coliform)
+- `financed`: financed (e.g. state-financed)
 - `fine`: fine (e.g. fine-structure)
 - `fitting`: `fit` + `ing` (e.g. form-fitting)
 - `forming`: `form` + `ing` (e.g. star-forming)
@@ -519,13 +537,20 @@ Variants:
 - `high`: high (e.g. high-performance, high-technology)
 - `hot`: hot (e.g. hot-pressed)
 - `ill`: ill (e.g. ill-informed)
+- `imposed`: imposed (e.g. state-imposed)
 - `late`: late (e.g. late-Victorian)
+- `led`: lead (e.g. state-led)
 - `life`: life (e.g. life-form)
+- `licensed`: licensed (e.g. state-licensed)
 - `low`: low (e.g. low-performing)
-- `long`: long (e.g. long-period, long-term)
+- `long`: long (e.g. long-period, long-term, long-standing)
+- `managed`: managed (e.g. state-managed)
+- `mandated`: mandated (e.g. state-mandated)
 - `neo`: new (e.g. neo-Victorian)
 - `newly`: new (e.g. newly-formed)
 - `non`: none (e.g. non-structural)
+- `oft`: often (e.g. oft-stated)
+- `operated`: operated (e.g. state-operated)
 - `oriented`: `orient` + `ed` (e.g. performance-oriented, technology-oriented)
 - `packed` packed (e.g. pressure-packed)
 - `paper`: paper (e.g. construction-paper)
@@ -533,14 +558,20 @@ Variants:
 - `post`: after (e.g. post-conviction)
 - `poor`: poor (e.g. poor-performing)
 - `processing`: `process` + `ing` (e.g. information-processing)
+- `record`: record (e.g. state-record)
+- `regulated`: `regulate` + `ed` (e.g. state-regulated)
 - `related`: `relate` + `ed` (e.g. performance-related)
-- `related`: related (e.g. technology-related)
+- `related`: `relate` + `ed` (e.g. technology-related)
 - `rich`: rich (e.g. information-rich)
+- `sanctioned`: `sanction` + `ed` (e.g. state-sanctioned)
 - `self`: self (e.g. self-instruction)
+- `setting`: `set` + `ing` (e.g. standard-setting)
 - `sharing`: `share` + `ing` (e.g. information-sharing)
 - `short`: short (e.g. short-period)
 - `social`: social (e.g. social-structural)
+- `state`: state (e.g. state-specific)
 - `style`: style (e.g. Victorian-style)
+- `subsidized`: subsidized (e.g. state-subsidized)
 - `treated`: treated (e.g. pressure-treated)
 - `total`: total (e.g. total-coliform)
 - `top`: top (e.g. top-performing)
@@ -548,3 +579,4 @@ Variants:
 - `well`: well (e.g. well-informed, well-known)
 - `welfare`: welfare (e.g. welfare-reform)
 - `wielding`: `wield` + `ing` (e.g. hammer-wielding)
+- ...
