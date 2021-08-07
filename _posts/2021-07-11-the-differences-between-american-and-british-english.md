@@ -23,9 +23,13 @@ way many Brits feel about American English.
 - either (ˈiːðər / ˈaɪðə)
 - example (ɪɡˈzæmpəl / ɪɡˈzɑːmpəl)
 - neither (ˈniːðər / ˈnaɪðə)
+- novice (ˈnɑːvɪs / ˈnɒvɪs)
 - pass (pæs / pɑːs)
 - possible (ˈpɑːsəbəl / ˈpɒsəbəl)
+- supermarket (ˈsjuːpərˌmɑrːkɪt / ˈsuːpəˌmɑːkɪt)
 - telecom (ˈtel.ɪ.kɑːm / ˈtel.ɪ.kɒm)
+- them (ðem / ðəm)
+- via (ˈviːə / ˈvaɪə)
 - ...
 
 ## Vocabulary
