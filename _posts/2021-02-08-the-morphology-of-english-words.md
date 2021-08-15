@@ -157,12 +157,18 @@ English thinking:
   - From Latin `spondere`
 - `spons`: the same as `spond`
 - `spong`: spong (e.g. spongiform)
-- `st`: to stand, make or be firm (e.g. state, stand, still)
+- `st`: to stand, make or be firm (e.g. state, stand, still, stage, stay, rest,
+  store, test, exist)
 - `sist`: the same as `st` (e.g. assist)
 - `star`: star
 - `stat`: the same as `st` (e.g. state `st` + `ate`, upstate, overstate)
-- `stin`: the same as `st`
 - `stem`: the same as `st` (e.g. system)
+- `stin`: the same as `st`
+- `stil`: the same as `st` (e.g. still)
+  - Meaning motionless, stable, fixed, stationary
+  - From Proto-Germanic `*stilli-` (source also of Old Frisian, Middle Low
+    German, Middle Dutch `stille`, Dutch `stil`, Old High German `stilli`,
+    German `still`)
 - `struct`: build (e.g. construct)
   - From Latin, structura, from struere, the way an organization, system,
     market etc is organized or put together.
@@ -214,11 +220,12 @@ English thinking:
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
-- `co`: the same as `com` (e.g. costar, cognate)
+- `co`: the same as `com` (e.g. costar, cognate, cooperate, coexist)
 - `col`: the same as `com` (e.g. colleague)
-- `com`: with, together, together with, in combination, emphasize (e.g. compress)
+- `com`: with, together, together with, in combination; sometimes merely
+  intensive; (e.g. compress)
   - From Latin `com`, `cum`
-- `con`: the same as `com` (e.g. confirm, convergence)
+- `con`: the same as `com` (e.g. confirm, convergence, constant)
   - It is the form of `com-` used in Latin before consonants except `-b-`,
     `-p-`, `-l-`, `-m-`, or `-r-`.
 - `cor`: same as `con` (e.g. corrupt, correct)
@@ -254,6 +261,7 @@ English thinking:
   - In some cases also from Greek cognate `ex`, `ek`
   - Often reduced to `e-` before `-b-`, `-d-`, `-g-`, consonantal `-i-`, `-l-`,
     `-m-`, `-n-`, `-v-` (as in elude, emerge, evaporate, etc.).
+- `geo`: relating to the Earth or its surface (e.g. geostationary)
 - `hetero`: other, opposite, different (e.g. heterosexual)
 - `hypo`: less than usual, especially too little (e.g. hypotherm)
 - `im`: not, opposite of; in,into (e.g. immobile, impersonal, implant, impress)
@@ -314,6 +322,8 @@ English thinking:
 - `soci`: partner (e.g. social, `soci` + `al`)
 - `sol`: uninjured, in good health, safe (e.g. solid)
   - From Latin salvificus "saving"
+- `stereo`: solid, firm; three-dimensional; stereophonic (e.g. stereotype)
+  - From Greek stereos "solid", before vowels `stere-`, word-forming element
 - `sub`: under (e.g. subway(Americanism, underway is british style), substructure)
 - `sup`: the same as `sub` (e.g. suppress, support)
   - Assimilated form of `sub-` before `-p-`
@@ -364,6 +374,7 @@ Variants:
     ultimately from Latin `-ata`, `fem`.
 - `ase`: noun, used in naming enzymes, from ending of diastase (biochemistry). (e.g. transcriptase)
 - `age`: noun, the same as `ic` (e.g. formage)
+  - Word-forming element in nouns of act, process, function, condition, from
   - From Old French and French `-age`, from Late Latin -aticum "belonging to,
     related to," originally neuter adjectival suffix
 - `an`: noun or adjective
@@ -405,9 +416,9 @@ Variants:
 - `ent`: (e.g. different, recipient)
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
-- `ery`: noun or adjective, the same as `-ary` (e.g. )
+- `ery`: noun or adjective, the same as `-ary` (e.g. stationery)
 - `ess`: noun, female (e.g. actress, waitress, tigress, directress)
-- `ette`: noun, a small thing of a particular type (e.g. barrette, snackette)
+- `ette`: noun, a small thing of a particular type (e.g. barrette, snackette, statuette)
 - `fic`: adjective, making, creating (e.g. scientific)
   - From French `-fique` and directly from Latin `-ficus` "making, doing"
 - `fy`: verb, make, make into (e.g. rectify, verify, falsify, qualify, specify)
@@ -544,7 +555,7 @@ Variants:
 - `licensed`: licensed (e.g. state-licensed)
 - `low`: low (e.g. low-performing)
 - `long`: long (e.g. long-period, long-term, long-standing)
-- `managed`: managed (e.g. state-managed)
+- `managed`: managed (e.g. state-managed, stage-managed)
 - `mandated`: mandated (e.g. state-mandated)
 - `neo`: new (e.g. neo-Victorian)
 - `newly`: new (e.g. newly-formed)
@@ -570,6 +581,8 @@ Variants:
 - `short`: short (e.g. short-period)
 - `social`: social (e.g. social-structural)
 - `state`: state (e.g. state-specific)
+- `stage`: stage (e.g. stage-managed)
+- `still`: still (e.g. still-life, still-living, still-warm, still-young)
 - `style`: style (e.g. Victorian-style)
 - `subsidized`: subsidized (e.g. state-subsidized)
 - `treated`: treated (e.g. pressure-treated)
