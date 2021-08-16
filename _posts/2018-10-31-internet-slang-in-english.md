@@ -26,6 +26,7 @@ tags:
 - **FYR** - For your reference
 - **FWIW** - For what it's worth
 - **G2G** - Got to go
+- *IMO* - In my opinion
 - **IRL** - In real life
 - **IIRC** - If I recall correctly
 - **IMHO** - In my humble opinion
