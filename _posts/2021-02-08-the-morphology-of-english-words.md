@@ -158,8 +158,9 @@ English thinking:
 - `spons`: the same as `spond`
 - `spong`: spong (e.g. spongiform)
 - `st`: to stand, make or be firm (e.g. state, stand, still, stage, stay, rest,
-  store, test, exist)
-- `sist`: the same as `st` (e.g. assist)
+  store, test, staff, stable, establish, institute, constitute, substitute,
+  obstacle, obstinate, stall, stiff, install)
+- `sist`: the same as `st` (e.g. assist, exist, insist, persist)
 - `star`: star
 - `stat`: the same as `st` (e.g. state `st` + `ate`, upstate, overstate)
 - `stem`: the same as `st` (e.g. system)
@@ -283,6 +284,8 @@ English thinking:
 - `mal`: bad (e.g. malware)
 - `main`: main (e.g. main)
 - `magn`: big
+- `meta`: beyond or at a higher level; relating to a change of state or
+  position; (e.g. metaphysical, metabolism)
 - `micro`: extremely small (e.g. microphone)
 - `mini`: very small (e.g. minimum)
 - `mis`: miss (e.g. mistake, misinform)
@@ -300,7 +303,7 @@ English thinking:
   - From Greek `pan-`, combining form of pas
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal (e.g. paramedic)
   - From Greek `para-`, before vowels, par-, word-forming element.
-- `per`: every, entire (e.g. perfect, perform)
+- `per`: every, entire (e.g. perfect, perform, persist)
 - `pir`: pear (e.g. piriform)
 - `plat`: small place (e.g. platform)
 - `poly`: multiple, entire (e.g. polytechnic)
@@ -384,6 +387,8 @@ Variants:
   - Someone or something that does something
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
+- `acle`: noun (e.g. obstacle)
+- `acy`: noun; quality, state, or condition (e.g. obstinacy)
 - `ar`: noun same as `-er`
 - `ary`: adjective or noun; having to do with, characterized by, tending to,
   place for (e.g. arbitrary)
@@ -482,7 +487,7 @@ Variants:
 - `ster`: noun, a person who is associated with something (e.g. baluster, gangster)
   - Old English `-istre`, from Proto-Germanic \*-istrijon, feminine agent suffix
     used as the equivalent of masculine `-ere` (See `-er`)
-- `tude`: the same as `-ude` (e.g. attitude)
+- `tude`: the same as `-ude` (e.g. attitude,  aptitude, latitude)
 - `ty`: noun
 - `ude` noun, adjective (e.g. attitude, rectitude)
   - Making abstract nouns from adjectives and participles, is fixed to a base or
@@ -495,6 +500,8 @@ Variants:
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
     `-ura`, an ending of fem. nouns denoting employment or result.
 - `us`: noun (e.g. exodus, humerus, rectus)
+- `ute`: verb or noun (e.g. institute)
+  - verb is same as `-ate`
 - ...
 
 Variants:
@@ -526,6 +533,7 @@ Variants:
 - `certified`: certified (e.g. state-certified)
 - `chartered`: chartered (e.g. state-chartered)
 - `cold`: cold (e.g. cold-pressed)
+- `cost`: cost (e.g. cost-cutting, cost-sharing, low-cost)
 - `counter`: anti (e.g. counter-reformation)
 - `concent`: concent (e.g. informed-consent)
 - `cross`: cross (e.g. cross-platform)
