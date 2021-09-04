@@ -353,7 +353,7 @@ English thinking:
 
 Vowel + 2 Consonant patterns:
 
-- `a??`: emphasize (e.g. attention, apprehend, afflux)
+- `a??`: emphasize (e.g. attention, apprehend, afflux, assure)
 - `e??`: out of, same as `ex-` (e.g. eccentric, effluent, efflux)
 - `i??`: not, emphasize, same as `ir-` (e.g. irregular)
 - `o??`: opposite of, emphasize, same as `op-` (e.g. oppress)
@@ -547,6 +547,7 @@ Variants:
 - `fecal`: fecal (e.g. fecal-coliform)
 - `financed`: financed (e.g. state-financed)
 - `fine`: fine (e.g. fine-structure)
+- `first`: first (e.g. keyboard-first)
 - `fitting`: `fit` + `ing` (e.g. form-fitting)
 - `forming`: `form` + `ing` (e.g. star-forming)
 - `free`: free (e.g. free-form)
