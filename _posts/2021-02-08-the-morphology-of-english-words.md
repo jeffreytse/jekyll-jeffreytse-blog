@@ -15,7 +15,7 @@ tags:
 prefix-root-suffix
 
 - Root: original meaning
-- Prefix: emphasize, direction or size
+- Prefix: intensive, direction or size
 - Suffix: property, meaning (sometimes)
 - Phonological change:
   - letter: vowel + consonant
@@ -93,6 +93,7 @@ English thinking:
 - `glotta`: the same as `glossa` (e.g. polyglot)
 - `half`: half (e.g. halfway)
 - `heal`: heal (e.g. healthy)
+- `hemo`: blood (e.g. hemostat)
 - `high`: high (e.g. highlight)
 - `hu`: clay (e.g. human)
 - `hydr`: hydrogen, water (e.g. hydrate)
@@ -128,6 +129,7 @@ English thinking:
 - `ori`: rise (e.g. oriented )
   - From Latin, the position that sun rising from.
 - `out`: out (e.g. outperform)
+- `phot`: light (e.g. photo, photostat)
 - `play`: play (e.g. playbook)
 - `please`: please, aggreeable (e.g. unpleasant)
 - `prehend`: grap, grasp, arrest (e.g. comprehension)
@@ -159,7 +161,8 @@ English thinking:
 - `spong`: spong (e.g. spongiform)
 - `st`: to stand, make or be firm (e.g. state, stand, still, stage, stay, rest,
   store, test, staff, stable, establish, institute, constitute, substitute,
-  obstacle, obstinate, stall, stiff, install)
+  obstacle, obstinate, stall, stiff, install, prostitute, destiny, destination,
+  stalemate, stalwart, oust, stiff, stub, stem, stamp)
 - `sist`: the same as `st` (e.g. assist, exist, insist, persist)
 - `star`: star
 - `stat`: the same as `st` (e.g. state `st` + `ate`, upstate, overstate)
@@ -210,6 +213,7 @@ English thinking:
 - `ab`: away, from, from off, down (e.g. abuse)
 - `ac`: cusp (e.g. acupressure)
 - `ad`: to
+- `aero`: air (e.g. aerostat)
 - `as`: the same as `ad` (e.g. assist)
 - `agri`: relating to farming (e.g. agriculture, agribusiness)
 - `agro`: the same as `agri` (e.g. agrobiology, agro-industry)
@@ -221,7 +225,7 @@ English thinking:
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
-- `co`: the same as `com` (e.g. costar, cognate, cooperate, coexist)
+- `co`: the same as `com` (e.g. costar, cognate, cooperate, coexist, coeducation)
 - `col`: the same as `com` (e.g. colleague)
 - `com`: with, together, together with, in combination; sometimes merely
   intensive; (e.g. compress)
@@ -231,6 +235,7 @@ English thinking:
     `-p-`, `-l-`, `-m-`, or `-r-`.
 - `cor`: same as `con` (e.g. corrupt, correct)
   - The form used for `com-` before the letter `r`
+- `cryo`: of or involving very low temperatures (e.g. cryostat)
 - `contra`: against or opposite (e.g. contraband)
 - `counter`: against, in opposition; in return; corresponding, (e.g. counteract, counterfeit)
   - from Anglo-French countre-, French `contre-`, from Latin contra "opposite,
@@ -252,7 +257,9 @@ English thinking:
 - `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower)
 - `endo`: inside, within, internal (e.g. endogenous)
   - Word-forming element from Greek `endon` "in, within"
-- `es`: to be (emphasize) (e.g. essence, espresso)
+- `epi`: on, upon, above;in addition to; toward, among; (e.g. epistemic)
+  - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
+- `es`: to be (intensive) (e.g. essence, espresso)
   - Proto-Indo-European root meaning "to be."
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express)
   - From Latin `ex` "out of, from within; from which time, since; according to;
@@ -264,11 +271,12 @@ English thinking:
     `-m-`, `-n-`, `-v-` (as in elude, emerge, evaporate, etc.).
 - `geo`: relating to the Earth or its surface (e.g. geostationary)
 - `hetero`: other, opposite, different (e.g. heterosexual)
-- `hypo`: less than usual, especially too little (e.g. hypotherm)
+- `hypo`: less than usual, especially too little; the same as `sub-`, under
+  (e.g. hypotherm, hypostatic)
 - `im`: not, opposite of; in,into (e.g. immobile, impersonal, implant, impress)
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
-- `in`: not, emphasize, inside (e.g. invalid, insufficient, inform, inland)
+- `in`: not, intensive, inside (e.g. invalid, insufficient, inform, inland)
 - `infra`: below, under (e.g. infrastructure)
 - `inter`: between or involving two or more different things (e.g. internet)
 - `intro`: into, especially into the inside (e.g. introduce)
@@ -285,7 +293,7 @@ English thinking:
 - `main`: main (e.g. main)
 - `magn`: big
 - `meta`: beyond or at a higher level; relating to a change of state or
-  position; (e.g. metaphysical, metabolism)
+  position; (e.g. metaphysical, metabolism, metastatic)
 - `micro`: extremely small (e.g. microphone)
 - `mini`: very small (e.g. minimum)
 - `mis`: miss (e.g. mistake, misinform)
@@ -294,14 +302,18 @@ English thinking:
 - `nano`: nano (e.g. nanostructure, nanotechnology)
 - `net`: net (e.g. internet)
 - `non`: not, none = no one (e.g. nonformal)
-- `ob`: toward(emphasize), against, before, near, across, down (e.g. obstruct)
+- `ob`: toward(intensive), against, before, near, across, down (e.g. obstruct)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional)
 - `op`: the same as `ob` (e.g. oppress)
   - assimilated form of `ob-` before `-p-`
+- `ortho`: straight, true, correct, regular (e.g. orthostatic)
+  - before vowels, word-forming element, now mostly in scientific and technical
+  compounds, from Greek orthos.
 - `over`: over (e.g. overfly)
 - `pan`: all, every, whole, all-inclusive (e.g. pandemic)
   - From Greek `pan-`, combining form of pas
-- `para`: alongside, beyond; altered; contrary; irregular, abnormal (e.g. paramedic)
+- `para`: alongside, beyond; altered; contrary; irregular, abnormal
+  (e.g. paramedic, parastatal)
   - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: every, entire (e.g. perfect, perform, persist)
 - `pir`: pear (e.g. piriform)
@@ -318,7 +330,10 @@ English thinking:
 - `pyro`: something related to fire (e.g. pyrotechnics)
 - From Greek `pyr` (genitive `pyros`)
 - `quad`: related to quantity of four
+- `quasi`: as if, as it were (e.g. quasi-static)
 - `re`: repeat, back (e.g. response)
+- `rheo`: a flowing, stream, current (e.g. rheostat)
+  - from Greek `rheos`, which is related to rhein "to flow"
 - `semi`: half
 - `sens`: understanding or feeling of something (e.g. sense)
 - `sent`: the same as `sens` (e.g. consent)
@@ -337,7 +352,7 @@ English thinking:
 - `sus`: the same as `sub` (e.g. sustain)
   - Assimilated form of `sub-` before `-s-`.
 - `super`: above (e.g. superstructure)
-- `therm`: heat, hot, warm (e.g. hetertherm)
+- `therm`: heat, hot, warm (e.g. hetertherm, thermostat)
 - `trans`: across, beyond, through, on the other side of, to go beyond (e.g.
   transparent, transcribe)
 - `tri`: three (e.g. trivia)
@@ -353,10 +368,10 @@ English thinking:
 
 Vowel + 2 Consonant patterns:
 
-- `a??`: emphasize (e.g. attention, apprehend, afflux, assure)
+- `a??`: intensive (e.g. attention, apprehend, afflux, assure)
 - `e??`: out of, same as `ex-` (e.g. eccentric, effluent, efflux)
-- `i??`: not, emphasize, same as `ir-` (e.g. irregular)
-- `o??`: opposite of, emphasize, same as `op-` (e.g. oppress)
+- `i??`: not, intensive, same as `ir-` (e.g. irregular)
+- `o??`: opposite of, intensive, same as `op-` (e.g. oppress)
 
 Variants:
 
@@ -487,7 +502,7 @@ Variants:
 - `ster`: noun, a person who is associated with something (e.g. baluster, gangster)
   - Old English `-istre`, from Proto-Germanic \*-istrijon, feminine agent suffix
     used as the equivalent of masculine `-ere` (See `-er`)
-- `tude`: the same as `-ude` (e.g. attitude,  aptitude, latitude)
+- `tude`: the same as `-ude` (e.g. attitude, aptitude, latitude)
 - `ty`: noun
 - `ude` noun, adjective (e.g. attitude, rectitude)
   - Making abstract nouns from adjectives and participles, is fixed to a base or
