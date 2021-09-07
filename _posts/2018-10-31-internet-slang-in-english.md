@@ -35,6 +35,7 @@ tags:
 - **LGTM** - Look good to me
 - **NSFW** - Not safe for work
 - **OP** - Original poster
+- **OTOH** - On the other hand
 - **RT** - Retweet
 - **TBH** To be honest
 - **TBT** - Throwback Thursday
