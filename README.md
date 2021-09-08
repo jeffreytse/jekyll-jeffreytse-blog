@@ -27,7 +27,7 @@ better.
 Would you like to buy me a coffee? I would really appreciate it if you could
 support me for my stuff.
 
-<a href="https://ko-fi.com/jeffreytse"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5cbed8a4cf61ec6d7e012820_BuyMeACoffeeofi_Red.png" alt="Buy Me A Coffee" height="54px"></a>
+<a href="https://ko-fi.com/jeffreytse"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5cbed8a4cf61ec6d7e012820_BuyMeACoffeeofi_Red.png" alt="Buy Me A Coffee" height="48px"></a>
 
 ## ⚖ Copyright
 
