@@ -140,6 +140,7 @@ English thinking:
 - `pol`: citadel, fort, city (e.g. politic, polite, police)
   - From Greek `polis`
 - `poor`: poor
+- `pos`: powerful; lord; (e.g. possess)
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
 - `rive`: shore, bank, break
 - `rupt`: to break apart (e.g. corrupt)
@@ -159,6 +160,12 @@ English thinking:
   - From Latin `spondere`
 - `spons`: the same as `spond`
 - `spong`: spong (e.g. spongiform)
+- `sid`: to sit, to settle (e.g. consider, preside, reside)
+  - From Latin `sidere`, opposite with `st`
+  - The `sid` (`sideris`) means heavenly body, star, constellation
+- `sit`: the same as `sid` (e.g. site, situate)
+- `sed`: the same as `sid` (e.g. supersede, sediment, sedate, sedentary)
+- `sess`: the same as `sid` (e.g. possess, obsess, assess, session, sessile)
 - `st`: to stand, make or be firm (e.g. state, stand, still, stage, stay, rest,
   store, test, staff, stable, establish, institute, constitute, substitute,
   obstacle, obstinate, stall, stiff, install, prostitute, destiny, destination,
@@ -302,7 +309,7 @@ English thinking:
 - `nano`: nano (e.g. nanostructure, nanotechnology)
 - `net`: net (e.g. internet)
 - `non`: not, none = no one (e.g. nonformal)
-- `ob`: toward(intensive), against, before, near, across, down (e.g. obstruct)
+- `ob`: toward(intensive), against, before, near, across, down (e.g. obstruct, obsess)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional)
 - `op`: the same as `ob` (e.g. oppress)
   - assimilated form of `ob-` before `-p-`
@@ -368,7 +375,7 @@ English thinking:
 
 Vowel + 2 Consonant patterns:
 
-- `a??`: intensive (e.g. attention, apprehend, afflux, assure)
+- `a??`: intensive (e.g. attention, apprehend, afflux, assure, assiduous)
 - `e??`: out of, same as `ex-` (e.g. eccentric, effluent, efflux)
 - `i??`: not, intensive, same as `ir-` (e.g. irregular)
 - `o??`: opposite of, intensive, same as `op-` (e.g. oppress)
@@ -547,6 +554,7 @@ Variants:
 - `blood`: blod (e.g. blood-pressure)
 - `certified`: certified (e.g. state-certified)
 - `chartered`: chartered (e.g. state-chartered)
+- `co`: company (e.g. co-operation, co-president)
 - `cold`: cold (e.g. cold-pressed)
 - `cost`: cost (e.g. cost-cutting, cost-sharing, low-cost)
 - `counter`: anti (e.g. counter-reformation)
@@ -609,6 +617,7 @@ Variants:
 - `still`: still (e.g. still-life, still-living, still-warm, still-young)
 - `style`: style (e.g. Victorian-style)
 - `subsidized`: subsidized (e.g. state-subsidized)
+- `then`: then (e.g. then-president)
 - `treated`: treated (e.g. pressure-treated)
 - `total`: total (e.g. total-coliform)
 - `top`: top (e.g. top-performing)
@@ -616,4 +625,5 @@ Variants:
 - `well`: well (e.g. well-informed, well-known)
 - `welfare`: welfare (e.g. welfare-reform)
 - `wielding`: `wield` + `ing` (e.g. hammer-wielding)
+- `vice`: vice (e.g. vice-president)
 - ...
