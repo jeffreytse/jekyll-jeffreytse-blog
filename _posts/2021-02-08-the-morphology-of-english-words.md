@@ -120,6 +120,8 @@ English thinking:
 - `news`: message (e.g. newspaper, newsstand)
   - Message from North, East, West and South
 - `non`: no (e.g. nonperformance)
+- `gram`: something is written or marked, a picture, a drawing (e.g. telegram, aerogram)
+  - From Greek `gramma`, that which is drawn
 - `graph`: write, draw, measure (e.g. photograph)
   - From Greek
 - `gress`: walk (e.g. progress)
@@ -315,7 +317,7 @@ English thinking:
   - assimilated form of `ob-` before `-p-`
 - `ortho`: straight, true, correct, regular (e.g. orthostatic)
   - before vowels, word-forming element, now mostly in scientific and technical
-  compounds, from Greek orthos.
+    compounds, from Greek orthos.
 - `over`: over (e.g. overfly)
 - `pan`: all, every, whole, all-inclusive (e.g. pandemic)
   - From Greek `pan-`, combining form of pas
