@@ -77,12 +77,14 @@ English thinking:
 - `digm`: to show (e.g. paramdigm)
   - Cognate with Latin `dicere` "to show;"
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
+- `earth`: ground, soil, dirt, dry land; country, district (e.g. earthmover)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fect`: doing (e.g. perfect)
 - `fer`: to carry, to bear (e.g. conference)
   - From Latin `ferre`
 - `fine`: end, limit, acme (e.g. define)
+- `fiss`: to split (e.g. fission, fissiparous)
 - `flu`: the affects between objects (e.g. influence, flush)
   - From Latin `fluere`
 - `flux`: the same as `flu` (e.g. )
@@ -114,12 +116,18 @@ English thinking:
 - `mel`: honey (e.g. mellifluous)
   - From Latin `mel`, related to Greek `meli`
 - `mit`: send (e.g. submit, permit)
+- `mob`: the same as `mov`
 - `morph`: form, shape (e.g. morphology)
   - From Greek `morphe`
+- `mot`: the same as `mov` (e.g. promote)
+- `mov`: act of moving from a stationary position, a change of position or
+  relation (e.g. move, movie)
 - `neo`: new (e.g. neonatal)
 - `news`: message (e.g. newspaper, newsstand)
   - Message from North, East, West and South
 - `non`: no (e.g. nonperformance)
+- `grand`: big, great; full, abundant, full-grown, strong, powerful, weighty, severe
+  (e.g. grandparent)
 - `gram`: something is written or marked, a picture, a drawing (e.g. telegram, aerogram)
   - From Greek `gramma`, that which is drawn
 - `graph`: write, draw, measure (e.g. photograph)
@@ -131,6 +139,8 @@ English thinking:
 - `ori`: rise (e.g. oriented )
   - From Latin, the position that sun rising from.
 - `out`: out (e.g. outperform)
+- `pear`: to come forth, be visible; submit, obey (e.g. appear)
+- `par`: the same as `pear` (e.g. parent, primipara, fissiparous)
 - `phot`: light (e.g. photo, photostat)
 - `play`: play (e.g. playbook)
 - `please`: please, aggreeable (e.g. unpleasant)
@@ -138,6 +148,8 @@ English thinking:
   - From Latin, prehendere
 - `press`: press (e.g. pressman)
   - From Latin `pressare`
+- `prem`: the same as `prim` (e.g. premier)
+- `prim`: very first, original (e.g. primipara)
 - `put`: think
 - `pol`: citadel, fort, city (e.g. politic, polite, police)
   - From Greek `polis`
@@ -175,9 +187,10 @@ English thinking:
 - `sist`: the same as `st` (e.g. assist, exist, insist, persist)
 - `star`: star
 - `stat`: the same as `st` (e.g. state `st` + `ate`, upstate, overstate)
+- `stil`: the same as `st` (e.g. still)
 - `stem`: the same as `st` (e.g. system)
 - `stin`: the same as `st`
-- `stil`: the same as `st` (e.g. still)
+- `stit`: the same as `st`
   - Meaning motionless, stable, fixed, stationary
   - From Proto-Germanic `*stilli-` (source also of Old Frisian, Middle Low
     German, Middle Dutch `stille`, Dutch `stil`, Old High German `stilli`,
@@ -246,10 +259,11 @@ English thinking:
   - The form used for `com-` before the letter `r`
 - `cryo`: of or involving very low temperatures (e.g. cryostat)
 - `contra`: against or opposite (e.g. contraband)
-- `counter`: against, in opposition; in return; corresponding, (e.g. counteract, counterfeit)
+- `counter`: against, in opposition; in return; corresponding, (e.g. counteract,
+  counterfeit, countermove)
   - from Anglo-French countre-, French `contre-`, from Latin contra "opposite,
     contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
-- `de`: opposite, remove, reduce (e.g. deform, deviate, describe)
+- `de`: opposite, remove, reduce (e.g. deform, deviate, describe, demote)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence)
@@ -282,7 +296,8 @@ English thinking:
 - `hetero`: other, opposite, different (e.g. heterosexual)
 - `hypo`: less than usual, especially too little; the same as `sub-`, under
   (e.g. hypotherm, hypostatic)
-- `im`: not, opposite of; in,into (e.g. immobile, impersonal, implant, impress)
+- `im`: not, opposite of; in,into (e.g. immobile, impersonal, implant, impress,
+  immovable)
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
 - `in`: not, intensive, inside (e.g. invalid, insufficient, inform, inland)
@@ -330,7 +345,7 @@ English thinking:
 - `poly`: multiple, entire (e.g. polytechnic)
 - `pre`: before, ahead (e.g. preformed)
   - From Latin `prae-`, before, ahead
-- `pro`: forward (direction)
+- `pro`: forward (e.g. promote)
   - It comes from `Prometheus`, who can predict the future.
 - `pur`: the same as `pro`
   - A variant of Latin pro "before, for" (see `pro-`)
@@ -377,7 +392,7 @@ English thinking:
 
 Vowel + 2 Consonant patterns:
 
-- `a??`: intensive (e.g. attention, apprehend, afflux, assure, assiduous)
+- `a??`: intensive (e.g. attention, apprehend, afflux, assure, assiduous, apparent)
 - `e??`: out of, same as `ex-` (e.g. eccentric, effluent, efflux)
 - `i??`: not, intensive, same as `ir-` (e.g. irregular)
 - `o??`: opposite of, intensive, same as `op-` (e.g. oppress)
@@ -394,7 +409,7 @@ Variants:
 
 ## Suffix
 
-- `a`: noun (e.g formula)
+- `a`: noun (e.g formula, primipara)
 - `al`: noun or adjective
 - `ade`: noun (e.g. barriecade)
   - Denoting an action or product of an action, via French, Spanish, or Italian,
@@ -433,7 +448,7 @@ Variants:
 - `dom`: noun, abstract suffix of state (e.g. freedom, random)
   - From Old English dom "statute, judgment" (see `doom`)
 - `don`: verb (e.g. abandon)
-- `e`: noun (e.g. )
+- `e`: noun (e.g. promote, movie)
 - `ed`: adjective
 - `el`: noun (e.g. barrel)
   - instrumental word-forming element, expressing "appliance, tool," from Old
@@ -453,7 +468,7 @@ Variants:
 - `fy`: verb, make, make into (e.g. rectify, verify, falsify, qualify, specify)
   - From French `-fier`
   - From Latin `-ficare`, combining form of facere "to make"
-- `hood`: noun (e.g. likelihood)
+- `hood`: noun (e.g. likelihood, parenthood, childhood, neighborhood)
   - state or condition of being, from old English
 - `ia`: noun, in names of countries, diseases, and flowers (e.g. Asia)
   - From Latin and Greek -ia, noun ending, in Greek especially used in forming
@@ -585,15 +600,16 @@ Variants:
 - `imposed`: imposed (e.g. state-imposed)
 - `late`: late (e.g. late-Victorian)
 - `led`: lead (e.g. state-led)
-- `life`: life (e.g. life-form)
 - `licensed`: licensed (e.g. state-licensed)
+- `life`: life (e.g. life-form)
+- `like`: like (e.g. movie-like)
 - `low`: low (e.g. low-performing)
 - `long`: long (e.g. long-period, long-term, long-standing)
 - `managed`: managed (e.g. state-managed, stage-managed)
 - `mandated`: mandated (e.g. state-mandated)
 - `neo`: new (e.g. neo-Victorian)
 - `newly`: new (e.g. newly-formed)
-- `non`: none (e.g. non-structural)
+- `non`: none (e.g. non-structural, non-parental)
 - `oft`: often (e.g. oft-stated)
 - `operated`: operated (e.g. state-operated)
 - `oriented`: `orient` + `ed` (e.g. performance-oriented, technology-oriented)
@@ -610,10 +626,13 @@ Variants:
 - `rich`: rich (e.g. information-rich)
 - `sanctioned`: `sanction` + `ed` (e.g. state-sanctioned)
 - `self`: self (e.g. self-instruction)
+- `semi`: exactly half (e.g. semi-transparent)
 - `setting`: `set` + `ing` (e.g. standard-setting)
 - `sharing`: `share` + `ing` (e.g. information-sharing)
 - `short`: short (e.g. short-period)
+- `single`: single (e.g. single-parent)
 - `social`: social (e.g. social-structural)
+- `step`: step (e.g. step-parent)
 - `state`: state (e.g. state-specific)
 - `stage`: stage (e.g. stage-managed)
 - `still`: still (e.g. still-life, still-living, still-warm, still-young)
