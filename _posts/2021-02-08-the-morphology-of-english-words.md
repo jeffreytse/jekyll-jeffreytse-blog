@@ -12,10 +12,19 @@ tags:
 
 ## Morphology
 
+Beginning with an exploration of everyday base words and affixes, this post
+will show how to apply your knowledge of these patterns to the multisyllabic
+English words of Latin origin, and its potential to enhance vocabulary
+skills. You will discover why and how the roots of English have led to the
+belief, albeit unjustified, that the English spelling system is awkward and
+contradictory.
+
+### The word pattern:
+
 prefix-root-suffix
 
 - Root: original meaning
-- Prefix: intensive, direction or size
+- Prefix: emphatic, direction or size
 - Suffix: property, meaning (sometimes)
 - Phonological change:
   - letter: vowel + consonant
@@ -81,7 +90,7 @@ English thinking:
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fect`: doing (e.g. perfect)
-- `fer`: to carry, to bear (e.g. conference)
+- `fer`: to carry, to bear (e.g. conference, transfer)
   - From Latin `ferre`
 - `fine`: end, limit, acme (e.g. define)
 - `fiss`: to split (e.g. fission, fissiparous)
@@ -107,6 +116,7 @@ English thinking:
 - `late`: late
 - `lic`: to be allowed, be lawful (e.g. license)
   - Possibly source also of Lettish likstu "I come to terms"
+- `loc`: a place, spot (e.g. local, locomote)
 - `log`: language, symbol
 - `logos`: speech (e.g. apology)
   - From Greek
@@ -116,10 +126,11 @@ English thinking:
 - `mel`: honey (e.g. mellifluous)
   - From Latin `mel`, related to Greek `meli`
 - `mit`: send (e.g. submit, permit)
-- `mob`: the same as `mov`
+- `mob`: the same as `mov` (e.g. mob, mobster)
+- `mobile`: mobile (e.g. mobility)
 - `morph`: form, shape (e.g. morphology)
   - From Greek `morphe`
-- `mot`: the same as `mov` (e.g. promote)
+- `mot`: the same as `mov` (e.g. promote, locomote, emote)
 - `mov`: act of moving from a stationary position, a change of position or
   relation (e.g. move, movie)
 - `neo`: new (e.g. neonatal)
@@ -148,7 +159,7 @@ English thinking:
   - From Latin, prehendere
 - `press`: press (e.g. pressman)
   - From Latin `pressare`
-- `prem`: the same as `prim` (e.g. premier)
+- `prem`: the same as `prim` (e.g. premier, premium)
 - `prim`: very first, original (e.g. primipara)
 - `put`: think
 - `pol`: citadel, fort, city (e.g. politic, polite, police)
@@ -185,6 +196,7 @@ English thinking:
   obstacle, obstinate, stall, stiff, install, prostitute, destiny, destination,
   stalemate, stalwart, oust, stiff, stub, stem, stamp)
 - `sist`: the same as `st` (e.g. assist, exist, insist, persist)
+- `soci`: companion, ally (e.g. social)
 - `star`: star
 - `stat`: the same as `st` (e.g. state `st` + `ate`, upstate, overstate)
 - `stil`: the same as `st` (e.g. still)
@@ -220,7 +232,7 @@ English thinking:
   - It comes from Latin word `vincere`.
   - After Caesar put down the rebellion, he issued a three-V instrument, which
     is "Veni, Vedi, Vici", and it means "I came, I saw, I conquered".
-- `vis`: see (e.g. visit)
+- `vis`: see (e.g. visit, vision)
 - `voc`: voice (e.g. vocal, vocational)
 - `voy`: way, journey (e.g. voyage)
   - From French
@@ -233,7 +245,7 @@ English thinking:
 - `a`: off, of, away from (e.g. away, apart, ascribe, atom)
   - From Latin
 - `ab`: away, from, from off, down (e.g. abuse)
-- `ac`: cusp (e.g. acupressure)
+- `acu`: cusp (e.g. acupressure)
 - `ad`: to
 - `aero`: air (e.g. aerostat)
 - `as`: the same as `ad` (e.g. assist)
@@ -250,7 +262,7 @@ English thinking:
 - `co`: the same as `com` (e.g. costar, cognate, cooperate, coexist, coeducation)
 - `col`: the same as `com` (e.g. colleague)
 - `com`: with, together, together with, in combination; sometimes merely
-  intensive; (e.g. compress)
+  emphatic; (e.g. compress)
   - From Latin `com`, `cum`
 - `con`: the same as `com` (e.g. confirm, convergence, constant)
   - It is the form of `com-` used in Latin before consonants except `-b-`,
@@ -258,7 +270,7 @@ English thinking:
 - `cor`: same as `con` (e.g. corrupt, correct)
   - The form used for `com-` before the letter `r`
 - `cryo`: of or involving very low temperatures (e.g. cryostat)
-- `contra`: against or opposite (e.g. contraband)
+- `contra`: against or opposite (e.g. contraband, contradictory)
 - `counter`: against, in opposition; in return; corresponding, (e.g. counteract,
   counterfeit, countermove)
   - from Anglo-French countre-, French `contre-`, from Latin contra "opposite,
@@ -282,7 +294,7 @@ English thinking:
   - Word-forming element from Greek `endon` "in, within"
 - `epi`: on, upon, above;in addition to; toward, among; (e.g. epistemic)
   - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
-- `es`: to be (intensive) (e.g. essence, espresso)
+- `es`: to be (emphatic) (e.g. essence, espresso)
   - Proto-Indo-European root meaning "to be."
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express)
   - From Latin `ex` "out of, from within; from which time, since; according to;
@@ -300,7 +312,7 @@ English thinking:
   immovable)
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
-- `in`: not, intensive, inside (e.g. invalid, insufficient, inform, inland)
+- `in`: not, emphatic, inside (e.g. invalid, insufficient, inform, inland)
 - `infra`: below, under (e.g. infrastructure)
 - `inter`: between or involving two or more different things (e.g. internet)
 - `intro`: into, especially into the inside (e.g. introduce)
@@ -326,7 +338,7 @@ English thinking:
 - `nano`: nano (e.g. nanostructure, nanotechnology)
 - `net`: net (e.g. internet)
 - `non`: not, none = no one (e.g. nonformal)
-- `ob`: toward(intensive), against, before, near, across, down (e.g. obstruct, obsess)
+- `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct, obsess)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional)
 - `op`: the same as `ob` (e.g. oppress)
   - assimilated form of `ob-` before `-p-`
@@ -392,10 +404,11 @@ English thinking:
 
 Vowel + 2 Consonant patterns:
 
-- `a??`: intensive (e.g. attention, apprehend, afflux, assure, assiduous, apparent)
+- `a??`: emphatic (e.g. attention, apprehend, afflux, assure, assiduous,
+  apparent, acquire)
 - `e??`: out of, same as `ex-` (e.g. eccentric, effluent, efflux)
-- `i??`: not, intensive, same as `ir-` (e.g. irregular)
-- `o??`: opposite of, intensive, same as `op-` (e.g. oppress)
+- `i??`: not, emphatic, same as `ir-` (e.g. irregular)
+- `o??`: opposite of, emphatic, same as `op-` (e.g. oppress)
 
 Variants:
 
@@ -409,12 +422,13 @@ Variants:
 
 ## Suffix
 
-- `a`: noun (e.g formula, primipara)
+- `a`: noun (e.g formula, primipara, quota)
 - `al`: noun or adjective
 - `ade`: noun (e.g. barriecade)
   - Denoting an action or product of an action, via French, Spanish, or Italian,
     ultimately from Latin `-ata`, `fem`.
-- `ase`: noun, used in naming enzymes, from ending of diastase (biochemistry). (e.g. transcriptase)
+- `ase`: noun, used in naming enzymes, from ending of diastase (biochemistry).
+  (e.g. transcriptase)
 - `age`: noun, the same as `ic` (e.g. formage)
   - Word-forming element in nouns of act, process, function, condition, from
   - From Old French and French `-age`, from Late Latin -aticum "belonging to,
@@ -448,7 +462,8 @@ Variants:
 - `dom`: noun, abstract suffix of state (e.g. freedom, random)
   - From Old English dom "statute, judgment" (see `doom`)
 - `don`: verb (e.g. abandon)
-- `e`: noun (e.g. promote, movie)
+- `e`: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme)
+  - Some time is adjective (e.g. remote)
 - `ed`: adjective
 - `el`: noun (e.g. barrel)
   - instrumental word-forming element, expressing "appliance, tool," from Old
@@ -484,7 +499,7 @@ Variants:
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ing`: adjective (e.g. fitting)
-- `ion`: noun (e.g. formation)
+- `ion`: noun (e.g. formation, vision)
 - `ish`: noun or adjective, something of one place, quite
 - `ism`: noun, principle (something's abstraction)
 - `ist`: noun, people, principle (e.g. formalist)
@@ -534,6 +549,7 @@ Variants:
   - From French `-ude`, from Latin `-udo` (stem `-udin-`). The equivalent of
     native `-ness`
 - `ul`: adjective, the same as `al` (e.g. formula, `form` + `ul` + `a`)
+- `um`: noun (e.g. forum, museum, premium)
 - `ur`: noun, the same as `-er` (e.g. voyageur)
 - `ure`: noun or verb (e.g. structure)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
