@@ -1,0 +1,2482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>The morphology of English words | Jeffrey Tse’s Blog</title>
+<meta name="generator" content="Jekyll v3.8.7">
+<meta property="og:title" content="The morphology of English words">
+<meta name="author" content="Jeffrey Tse">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Morphology">
+<meta property="og:description" content="Morphology">
+<link rel="canonical" href="https://jeffreytse.net/linguistics/2021/02/08/the-morphology-of-english-words.html">
+<meta property="og:url" content="https://jeffreytse.net/linguistics/2021/02/08/the-morphology-of-english-words.html">
+<meta property="og:site_name" content="Jeffrey Tse’s Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2021-02-08T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="The morphology of English words">
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Jeffrey Tse"},"description":"Morphology","@type":"BlogPosting","headline":"The morphology of English words","dateModified":"2021-02-08T00:00:00+00:00","datePublished":"2021-02-08T00:00:00+00:00","url":"https://jeffreytse.net/linguistics/2021/02/08/the-morphology-of-english-words.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://jeffreytse.net/linguistics/2021/02/08/the-morphology-of-english-words.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://jeffreytse.net/feed.xml" title="Jeffrey Tse's Blog">
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "false" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-96513476-2', 'auto');
+      ga('send', 'pageview');
+    }
+  }
+  window.addEventListener("load", initGoogleAnalytics);
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="Jeffrey Tse's Blog" src="/favicon.png" onerror="this.style.display='none'">
+  Jeffrey Tse's Blog
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/">HOME</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/tags.html">TAGS</a><a class="page-link" href="/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="page-banner">
+    <div class="page-banner-img">
+<div style="background-image: url(https://www.britishlibrary.cn/wp-content/uploads/2017/02/London_banner_desktop.jpg)"></div>
+        <img class="img-placeholder" src="https://www.britishlibrary.cn/wp-content/uploads/2017/02/London_banner_desktop.jpg">
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner">
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">The morphology of English words</h1>
+  <h2 class="post-subtitle"></h2>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="2021-02-08T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 08 Feb 2021
+    </time>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 31 mins</span>
+  </p>
+<div class="post-tags">
+<a class="post-tag" href="/tags.html#linguistics">#linguistics</a><a class="post-tag" href="/tags.html#english">#english</a><a class="post-tag" href="/tags.html#note">#note</a>
+</div></header>
+</div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <h2 id="morphology">Morphology</h2>
+
+<p>Beginning with an exploration of everyday base words and affixes, this post
+will show how to apply your knowledge of these patterns to the multisyllabic
+English words of Latin origin, and its potential to enhance vocabulary
+skills. You will discover why and how the roots of English have led to the
+belief, albeit unjustified, that the English spelling system is awkward and
+contradictory.</p>
+
+<h3 id="the-word-pattern">The word pattern:</h3>
+
+<p>prefix-root-suffix</p>
+
+<ul>
+  <li>Root: original meaning</li>
+  <li>Prefix: emphatic, direction or size</li>
+  <li>Suffix: property, meaning (sometimes)</li>
+  <li>Phonological change:
+    <ul>
+      <li>letter: vowel + consonant</li>
+      <li>vowel: a,e,i,o,u</li>
+      <li>semivowel: y,w</li>
+      <li>function: hyphen (i,u is the most common use) and no meaning</li>
+      <li>consonant: pronunciation is similar, and they can be replaced
+        <ul>
+          <li>voiced: suffix is often for verb (d,t,s)(e.g. scribe)</li>
+          <li>voiceless: suffix is often for noun or adjective (e.g. script)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>The first three are the most important. Pronunciation change in English does
+not change its meaning, just extend in meaning, such as <code class="highlighter-rouge">vinc</code> and <code class="highlighter-rouge">vict</code>,
+they both mean winning, conquer.</p>
+
+<p>80% of English vocabulary comes from foreign languages, and most of them are
+Latin.</p>
+
+<p>English has a history of 2,300 years. In the course of historical development,
+its meaning will be gradually extended.</p>
+
+<p><img src="https://cdn.shortpixel.ai/client/q_lossless,ret_img,w_560,h_315/https://www.garfortheducation.com/wp-content/uploads/2019/07/Add-a-subheading-2.jpg" alt="Word Matrix"></p>
+
+<p>English thinking:</p>
+
+<ul>
+  <li>Synecdoche: concrete things are often used to extend or represent the whole thing
+    <ul>
+      <li>bar(barrier) to represent the</li>
+    </ul>
+  </li>
+  <li>Doubly consonant: British English often uses doubly consonant, American
+English often uses single consonant
+    <ul>
+      <li>traveller, traveler</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="root">Root</h2>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">act</code>: to do (e.g. action)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">actus</code>, <code class="highlighter-rouge">agere</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">alt</code>: tall</li>
+  <li>
+<code class="highlighter-rouge">anim</code>: life</li>
+  <li>
+<code class="highlighter-rouge">astr</code>: star</li>
+  <li>
+<code class="highlighter-rouge">bar</code>: bar, obstacle (e.g. embarrass, barrack)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">barra</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">bal</code>: the same as <code class="highlighter-rouge">bar</code> (e.g. balance, balk, baluster)</li>
+  <li>
+<code class="highlighter-rouge">ban</code>: the same as <code class="highlighter-rouge">bar</code> (e.g. abandon, banner, banquet, bank)
+    <ul>
+      <li>Italian <code class="highlighter-rouge">banchi</code>, the root of the Italian word for banks</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">carn</code>: flesh (e.g. carnage)</li>
+  <li>
+<code class="highlighter-rouge">cerebr</code>: brain (e.g. cerebral)</li>
+  <li>
+<code class="highlighter-rouge">cess</code>: movement, migration (e.g. process)</li>
+  <li>
+<code class="highlighter-rouge">chlor</code>: chlor (e.g. chloroform)</li>
+  <li>
+<code class="highlighter-rouge">circum</code>: circle (e.g. circumscribe)</li>
+  <li>
+<code class="highlighter-rouge">clude</code>: to shut, close (e.g. include)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">cludere</code>, the more literal sense of “close, shut up, prevent access to”</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">col</code>: column (e.g. coliform, <code class="highlighter-rouge">col</code> + <code class="highlighter-rouge">i</code> + <code class="highlighter-rouge">form</code>)</li>
+  <li>
+<code class="highlighter-rouge">cribr</code>: sieve, tube with holes (e.g. cribriform)</li>
+  <li>
+<code class="highlighter-rouge">cruc</code>: cross (e.g. cruciform)</li>
+  <li>
+<code class="highlighter-rouge">cunei</code>: cunei (e.g. cuneiform)</li>
+  <li>
+<code class="highlighter-rouge">cuss</code>: strike, hit, shake (e.g. percuss)</li>
+  <li>
+<code class="highlighter-rouge">deme</code>: people (e.g. pandemic)
+    <ul>
+      <li>From Greek <code class="highlighter-rouge">demos</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">dent</code>: a hollow area in the surface of something (e.g. dental)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">dint</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">digm</code>: to show (e.g. paramdigm)
+    <ul>
+      <li>Cognate with Latin <code class="highlighter-rouge">dicere</code> “to show;”</li>
+      <li>from PIE root <code class="highlighter-rouge">*deik</code>- “to show,” also “pronounce solemnly”</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">earth</code>: ground, soil, dirt, dry land; country, district (e.g. earthmover)</li>
+  <li>
+<code class="highlighter-rouge">fall</code>: downward movement (e.g. waterfall)</li>
+  <li>
+<code class="highlighter-rouge">fame</code>: fame, reputation</li>
+  <li>
+<code class="highlighter-rouge">fect</code>: doing (e.g. perfect)</li>
+  <li>
+<code class="highlighter-rouge">fer</code>: to carry, to bear (e.g. conference, transfer)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">ferre</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">fine</code>: end, limit, acme (e.g. define)</li>
+  <li>
+<code class="highlighter-rouge">fiss</code>: to split (e.g. fission, fissiparous)</li>
+  <li>
+<code class="highlighter-rouge">flu</code>: the affects between objects (e.g. influence, flush)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">fluere</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">flux</code>: the same as <code class="highlighter-rouge">flu</code> (e.g. )</li>
+  <li>
+<code class="highlighter-rouge">form</code>: shape, look, etc. (e.g. transform, formula)
+    <ul>
+      <li>It comes from Latin <code class="highlighter-rouge">formare</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">glossa</code> language, tongue
+    <ul>
+      <li>From Greek <code class="highlighter-rouge">glōtta</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">glotta</code>: the same as <code class="highlighter-rouge">glossa</code> (e.g. polyglot)</li>
+  <li>
+<code class="highlighter-rouge">half</code>: half (e.g. halfway)</li>
+  <li>
+<code class="highlighter-rouge">heal</code>: heal (e.g. healthy)</li>
+  <li>
+<code class="highlighter-rouge">hemo</code>: blood (e.g. hemostat)</li>
+  <li>
+<code class="highlighter-rouge">high</code>: high (e.g. highlight)</li>
+  <li>
+<code class="highlighter-rouge">hu</code>: clay (e.g. human)</li>
+  <li>
+<code class="highlighter-rouge">hydr</code>: hydrogen, water (e.g. hydrate)</li>
+  <li>
+<code class="highlighter-rouge">ill</code>: bad, from evil (e.g. illness)</li>
+  <li>
+<code class="highlighter-rouge">image</code>: copy, statue, picture (e.g. imagination)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">imago</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">lat</code>: take (e.g. relate, <code class="highlighter-rouge">re</code> + <code class="highlighter-rouge">lat</code> + <code class="highlighter-rouge">ate</code>)</li>
+  <li>
+<code class="highlighter-rouge">land</code>: land (e.g. motherland, fatherland, landmark, mainland)</li>
+  <li>
+<code class="highlighter-rouge">late</code>: late</li>
+  <li>
+<code class="highlighter-rouge">lic</code>: to be allowed, be lawful (e.g. license)
+    <ul>
+      <li>Possibly source also of Lettish likstu “I come to terms”</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">loc</code>: a place, spot (e.g. local, locomote)</li>
+  <li>
+<code class="highlighter-rouge">log</code>: language, symbol</li>
+  <li>
+<code class="highlighter-rouge">logos</code>: speech (e.g. apology)
+    <ul>
+      <li>From Greek</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">low</code>: low</li>
+  <li>
+<code class="highlighter-rouge">manu</code>: hand (e.g. manufactor, manuscript)</li>
+  <li>
+<code class="highlighter-rouge">mark</code>: mark</li>
+  <li>
+<code class="highlighter-rouge">mel</code>: honey (e.g. mellifluous)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">mel</code>, related to Greek <code class="highlighter-rouge">meli</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">mit</code>: send (e.g. submit, permit)</li>
+  <li>
+<code class="highlighter-rouge">mob</code>: the same as <code class="highlighter-rouge">mov</code> (e.g. mob, mobster)</li>
+  <li>
+<code class="highlighter-rouge">mobile</code>: mobile (e.g. mobility)</li>
+  <li>
+<code class="highlighter-rouge">morph</code>: form, shape (e.g. morphology)
+    <ul>
+      <li>From Greek <code class="highlighter-rouge">morphe</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">mot</code>: the same as <code class="highlighter-rouge">mov</code> (e.g. promote, locomote, emote)</li>
+  <li>
+<code class="highlighter-rouge">mov</code>: act of moving from a stationary position, a change of position or
+relation (e.g. move, movie)</li>
+  <li>
+<code class="highlighter-rouge">neo</code>: new (e.g. neonatal)</li>
+  <li>
+<code class="highlighter-rouge">news</code>: message (e.g. newspaper, newsstand)
+    <ul>
+      <li>Message from North, East, West and South</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">non</code>: no (e.g. nonperformance)</li>
+  <li>
+<code class="highlighter-rouge">grand</code>: big, great; full, abundant, full-grown, strong, powerful, weighty, severe
+(e.g. grandparent)</li>
+  <li>
+<code class="highlighter-rouge">gram</code>: something is written or marked, a picture, a drawing (e.g. telegram, aerogram)
+    <ul>
+      <li>From Greek <code class="highlighter-rouge">gramma</code>, that which is drawn</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">graph</code>: write, draw, measure (e.g. photograph)
+    <ul>
+      <li>From Greek</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">gress</code>: walk (e.g. progress)</li>
+  <li>
+<code class="highlighter-rouge">od</code>: a way or manner (e.g. method, period, odograph)
+    <ul>
+      <li>Method from Latin <code class="highlighter-rouge">methodus</code> “way of teaching or going”, <code class="highlighter-rouge">meta-</code> + <code class="highlighter-rouge">hodos</code>,
+<code class="highlighter-rouge">meth</code> originally pursuit, a following after</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ori</code>: rise (e.g. oriented )
+    <ul>
+      <li>From Latin, the position that sun rising from.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">out</code>: out (e.g. outperform)</li>
+  <li>
+<code class="highlighter-rouge">pear</code>: to come forth, be visible; submit, obey (e.g. appear)</li>
+  <li>
+<code class="highlighter-rouge">par</code>: the same as <code class="highlighter-rouge">pear</code> (e.g. parent, primipara, fissiparous)</li>
+  <li>
+<code class="highlighter-rouge">phot</code>: light (e.g. photo, photostat)</li>
+  <li>
+<code class="highlighter-rouge">play</code>: play (e.g. playbook)</li>
+  <li>
+<code class="highlighter-rouge">please</code>: please, aggreeable (e.g. unpleasant)</li>
+  <li>
+<code class="highlighter-rouge">prehend</code>: grap, grasp, arrest (e.g. comprehension)
+    <ul>
+      <li>From Latin, prehendere</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">press</code>: press (e.g. pressman)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">pressare</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">prem</code>: the same as <code class="highlighter-rouge">prim</code> (e.g. premier, premium)</li>
+  <li>
+<code class="highlighter-rouge">prim</code>: very first, original (e.g. primipara)</li>
+  <li>
+<code class="highlighter-rouge">put</code>: think</li>
+  <li>
+<code class="highlighter-rouge">pol</code>: citadel, fort, city (e.g. politic, polite, police)
+    <ul>
+      <li>From Greek <code class="highlighter-rouge">polis</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">poor</code>: poor</li>
+  <li>
+<code class="highlighter-rouge">pos</code>: powerful; lord; (e.g. possess)</li>
+  <li>
+<code class="highlighter-rouge">rect</code>: rect, right angle, a straight line (e.g. correct, direct)</li>
+  <li>
+<code class="highlighter-rouge">rive</code>: shore, bank, break</li>
+  <li>
+<code class="highlighter-rouge">rupt</code>: to break apart (e.g. corrupt)</li>
+  <li>
+<code class="highlighter-rouge">sci</code>: to know (e.g. science)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">scire/scientis</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">scop</code>: mirror (e.g. fluoroscopy)</li>
+  <li>
+<code class="highlighter-rouge">scribe</code>: to write or something written (e.g. subscribe)</li>
+  <li>
+<code class="highlighter-rouge">scribble</code>: careless writing, drawing</li>
+  <li>
+<code class="highlighter-rouge">script</code>: the same as <code class="highlighter-rouge">scribe</code>
+</li>
+  <li>
+<code class="highlighter-rouge">sect</code>: seprate</li>
+  <li>
+<code class="highlighter-rouge">short</code>: short</li>
+  <li>
+<code class="highlighter-rouge">smog</code>: smog</li>
+  <li>
+<code class="highlighter-rouge">spek</code>: look at, to observe (e.g. respect)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">specere</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">spir</code>: breath (e.g. spirit, conspire, inspire, expire)</li>
+  <li>
+<code class="highlighter-rouge">spond</code>: to pledge (e.g. respond)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">spondere</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">spons</code>: the same as <code class="highlighter-rouge">spond</code>
+</li>
+  <li>
+<code class="highlighter-rouge">spong</code>: spong (e.g. spongiform)</li>
+  <li>
+<code class="highlighter-rouge">sid</code>: to sit, to settle (e.g. consider, preside, reside)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">sidere</code>, opposite with <code class="highlighter-rouge">st</code>
+</li>
+      <li>The <code class="highlighter-rouge">sid</code> (<code class="highlighter-rouge">sideris</code>) means heavenly body, star, constellation</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">sit</code>: the same as <code class="highlighter-rouge">sid</code> (e.g. site, situate)</li>
+  <li>
+<code class="highlighter-rouge">sed</code>: the same as <code class="highlighter-rouge">sid</code> (e.g. supersede, sediment, sedate, sedentary)</li>
+  <li>
+<code class="highlighter-rouge">sess</code>: the same as <code class="highlighter-rouge">sid</code> (e.g. possess, obsess, assess, session, sessile)</li>
+  <li>
+<code class="highlighter-rouge">st</code>: to stand, make or be firm (e.g. state, stand, still, stage, stay, rest,
+store, test, staff, stable, establish, institute, constitute, substitute,
+obstacle, obstinate, stall, stiff, install, prostitute, destiny, destination,
+stalemate, stalwart, oust, stiff, stub, stem, stamp)</li>
+  <li>
+<code class="highlighter-rouge">sist</code>: the same as <code class="highlighter-rouge">st</code> (e.g. assist, exist, insist, persist)</li>
+  <li>
+<code class="highlighter-rouge">soci</code>: companion, ally (e.g. social)</li>
+  <li>
+<code class="highlighter-rouge">star</code>: star</li>
+  <li>
+<code class="highlighter-rouge">stat</code>: the same as <code class="highlighter-rouge">st</code> (e.g. state <code class="highlighter-rouge">st</code> + <code class="highlighter-rouge">ate</code>, upstate, overstate)</li>
+  <li>
+<code class="highlighter-rouge">stil</code>: the same as <code class="highlighter-rouge">st</code> (e.g. still)</li>
+  <li>
+<code class="highlighter-rouge">stem</code>: the same as <code class="highlighter-rouge">st</code> (e.g. system)</li>
+  <li>
+<code class="highlighter-rouge">stin</code>: the same as <code class="highlighter-rouge">st</code>
+</li>
+  <li>
+<code class="highlighter-rouge">stit</code>: the same as <code class="highlighter-rouge">st</code>
+    <ul>
+      <li>Meaning motionless, stable, fixed, stationary</li>
+      <li>From Proto-Germanic <code class="highlighter-rouge">*stilli-</code> (source also of Old Frisian, Middle Low
+German, Middle Dutch <code class="highlighter-rouge">stille</code>, Dutch <code class="highlighter-rouge">stil</code>, Old High German <code class="highlighter-rouge">stilli</code>,
+German <code class="highlighter-rouge">still</code>)</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">struct</code>: build (e.g. construct)
+    <ul>
+      <li>From Latin, structura, from struere, the way an organization, system,
+market etc is organized or put together.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">suit</code>: to follow (e.g. suitcase)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">sequi</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">sume</code>: use up (e.g. consume)</li>
+  <li>
+<code class="highlighter-rouge">sui</code>: one’s own (e.g. suicide)
+    <ul>
+      <li>From Latin sui “of oneself” (genitive of se “self”)</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">swim</code>: swim</li>
+  <li>
+<code class="highlighter-rouge">syn</code>: to place together, organize, form in order (e.g. system)
+    <ul>
+      <li>From stem of <code class="highlighter-rouge">synistanai</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">tire</code>: become weary, exhausted (e.g. overtire)</li>
+  <li>
+<code class="highlighter-rouge">tom</code>: divide (e.g. atom, prostatectomy)</li>
+  <li>
+<code class="highlighter-rouge">top</code>: top</li>
+  <li>
+<code class="highlighter-rouge">techn</code>: art, skill (e.g. technology, <code class="highlighter-rouge">techn</code> + <code class="highlighter-rouge">o</code> + <code class="highlighter-rouge">logy</code>)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">technicus</code>, also from Greek <code class="highlighter-rouge">tekhnikos</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">under</code>: under (e.g. underline)</li>
+  <li>
+<code class="highlighter-rouge">vi</code>: road (e.g. via, obviate, obvious, previous, trivia)</li>
+  <li>
+<code class="highlighter-rouge">via</code>: the same as <code class="highlighter-rouge">vi</code>
+</li>
+  <li>
+<code class="highlighter-rouge">vict</code> win (e.g. victim)
+    <ul>
+      <li>The ancient Roman mythological character <code class="highlighter-rouge">Victoria</code>, goddess of victory.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">vinc</code>: overcome, conquer (e.g. convince)
+    <ul>
+      <li>It comes from Latin word <code class="highlighter-rouge">vincere</code>.</li>
+      <li>After Caesar put down the rebellion, he issued a three-V instrument, which
+is “Veni, Vedi, Vici”, and it means “I came, I saw, I conquered”.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">vis</code>: see (e.g. visit, vision)</li>
+  <li>
+<code class="highlighter-rouge">voc</code>: voice (e.g. vocal, vocational)</li>
+  <li>
+<code class="highlighter-rouge">voy</code>: way, journey (e.g. voyage)
+    <ul>
+      <li>From French</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">watch</code>: keep watch, be awake (e.g. watchdog)</li>
+  <li>
+<code class="highlighter-rouge">way</code>: way</li>
+  <li>
+<code class="highlighter-rouge">wave</code>: wave (e.g. waveform )</li>
+</ul>
+
+<h2 id="prefix">Prefix</h2>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">a</code>: off, of, away from (e.g. away, apart, ascribe, atom)
+    <ul>
+      <li>From Latin</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ab</code>: away, from, from off, down (e.g. abuse)</li>
+  <li>
+<code class="highlighter-rouge">acu</code>: cusp (e.g. acupressure)</li>
+  <li>
+<code class="highlighter-rouge">ad</code>: to</li>
+  <li>
+<code class="highlighter-rouge">aero</code>: air (e.g. aerostat)</li>
+  <li>
+<code class="highlighter-rouge">as</code>: the same as <code class="highlighter-rouge">ad</code> (e.g. assist)</li>
+  <li>
+<code class="highlighter-rouge">agri</code>: relating to farming (e.g. agriculture, agribusiness)</li>
+  <li>
+<code class="highlighter-rouge">agro</code>: the same as <code class="highlighter-rouge">agri</code> (e.g. agrobiology, agro-industry)</li>
+  <li>
+<code class="highlighter-rouge">al</code>: all (e.g. alway)</li>
+  <li>
+<code class="highlighter-rouge">apo</code>: off, away from (e.g. apology, apostate)
+    <ul>
+      <li>From Greek</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">bi</code>: two (e.g. binary)</li>
+  <li>
+<code class="highlighter-rouge">bi(o)</code>: relating to or using living things (e.g. biomedical)</li>
+  <li>
+<code class="highlighter-rouge">circum</code>: around, round about, all around, on all sides (e.g. circumstance)
+    <ul>
+      <li>From Latin adverb and preposition circum “around, round about,” literally
+“in a circle,” probably accusative form of circus “ring” (see circus).</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">co</code>: the same as <code class="highlighter-rouge">com</code> (e.g. costar, cognate, cooperate, coexist, coeducation)</li>
+  <li>
+<code class="highlighter-rouge">col</code>: the same as <code class="highlighter-rouge">com</code> (e.g. colleague)</li>
+  <li>
+<code class="highlighter-rouge">com</code>: with, together, together with, in combination; sometimes merely
+emphatic; (e.g. compress)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">com</code>, <code class="highlighter-rouge">cum</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">con</code>: the same as <code class="highlighter-rouge">com</code> (e.g. confirm, convergence, constant)
+    <ul>
+      <li>It is the form of <code class="highlighter-rouge">com-</code> used in Latin before consonants except <code class="highlighter-rouge">-b-</code>,
+<code class="highlighter-rouge">-p-</code>, <code class="highlighter-rouge">-l-</code>, <code class="highlighter-rouge">-m-</code>, or <code class="highlighter-rouge">-r-</code>.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">cor</code>: same as <code class="highlighter-rouge">con</code> (e.g. corrupt, correct)
+    <ul>
+      <li>The form used for <code class="highlighter-rouge">com-</code> before the letter <code class="highlighter-rouge">r</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">cryo</code>: of or involving very low temperatures (e.g. cryostat)</li>
+  <li>
+<code class="highlighter-rouge">contra</code>: against or opposite (e.g. contraband, contradictory)</li>
+  <li>
+<code class="highlighter-rouge">counter</code>: against, in opposition; in return; corresponding, (e.g. counteract,
+counterfeit, countermove)
+    <ul>
+      <li>from Anglo-French countre-, French <code class="highlighter-rouge">contre-</code>, from Latin contra “opposite,
+contrary to, against, in return,” also used as a prefix (see <code class="highlighter-rouge">contra</code> (prep., adv.)</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">de</code>: opposite, remove, reduce (e.g. deform, deviate, describe, demote)
+    <ul>
+      <li>used to add the meaning “opposite”, “remove”, or “reduce” to a noun or verb:</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">detrite</code>: erosion (e.g. detrition)</li>
+  <li>
+<code class="highlighter-rouge">di</code>: two, double, twice, twofold; apart, asunder(e.g. direct, divergence)
+    <ul>
+      <li>From Greek, cognate with <code class="highlighter-rouge">bi-</code>, meaning “two, twice”</li>
+      <li>From Latin, <code class="highlighter-rouge">dis-</code>, meaning “apart, asunder”</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">dis</code>: not or opposite</li>
+  <li>
+<code class="highlighter-rouge">dys</code>: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction)
+    <ul>
+      <li>From Greek <code class="highlighter-rouge">dys-</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">e</code>: same as <code class="highlighter-rouge">ex</code> (e.g. evict)</li>
+  <li>
+<code class="highlighter-rouge">ecto</code>: outside, external (e.g. ectoderm)
+    <ul>
+      <li>Word-forming element generally before vowels <code class="highlighter-rouge">ect-</code>
+</li>
+      <li>From Latinized form of Greek adverb <code class="highlighter-rouge">ektos</code> “outside, out of; free from; exempt”</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">electro</code>: electrical, electricity (e.g. electrotechnics)</li>
+  <li>
+<code class="highlighter-rouge">em</code>: the form used for <code class="highlighter-rouge">en-</code> before <code class="highlighter-rouge">b</code>, <code class="highlighter-rouge">m</code>, or <code class="highlighter-rouge">p</code> (e.g. empower)</li>
+  <li>
+<code class="highlighter-rouge">endo</code>: inside, within, internal (e.g. endogenous)
+    <ul>
+      <li>Word-forming element from Greek <code class="highlighter-rouge">endon</code> “in, within”</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">epi</code>: on, upon, above;in addition to; toward, among; (e.g. epistemic)
+    <ul>
+      <li>Before vowels reduced to <code class="highlighter-rouge">ep-</code>, before aspirated vowels <code class="highlighter-rouge">eph-</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">es</code>: to be (emphatic) (e.g. essence, espresso)
+    <ul>
+      <li>Proto-Indo-European root meaning “to be.”</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ex</code>: out of, from, upwards, completely, deprive of, former (e.g. express)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">ex</code> “out of, from within; from which time, since; according to;
+in regard to”</li>
+      <li>From PIE <code class="highlighter-rouge">*eghs</code> “out” (source also of Gaulish <code class="highlighter-rouge">ex-</code>, Old Irish <code class="highlighter-rouge">ess-</code>, Old
+Church Slavonic <code class="highlighter-rouge">izu</code>, Russian <code class="highlighter-rouge">iz</code>).</li>
+      <li>In some cases also from Greek cognate <code class="highlighter-rouge">ex</code>, <code class="highlighter-rouge">ek</code>
+</li>
+      <li>Often reduced to <code class="highlighter-rouge">e-</code> before <code class="highlighter-rouge">-b-</code>, <code class="highlighter-rouge">-d-</code>, <code class="highlighter-rouge">-g-</code>, consonantal <code class="highlighter-rouge">-i-</code>, <code class="highlighter-rouge">-l-</code>,
+<code class="highlighter-rouge">-m-</code>, <code class="highlighter-rouge">-n-</code>, <code class="highlighter-rouge">-v-</code> (as in elude, emerge, evaporate, etc.).</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">geo</code>: relating to the Earth or its surface (e.g. geostationary)</li>
+  <li>
+<code class="highlighter-rouge">hetero</code>: other, opposite, different (e.g. heterosexual)</li>
+  <li>
+<code class="highlighter-rouge">hypo</code>: less than usual, especially too little; the same as <code class="highlighter-rouge">sub-</code>, under
+(e.g. hypotherm, hypostatic)</li>
+  <li>
+<code class="highlighter-rouge">im</code>: not, opposite of; in,into (e.g. immobile, impersonal, implant, impress,
+immovable)
+    <ul>
+      <li>The form used for <code class="highlighter-rouge">in-</code> before <code class="highlighter-rouge">b</code>, <code class="highlighter-rouge">m</code>, or <code class="highlighter-rouge">p</code>
+</li>
+      <li>In some English words it alternates with <code class="highlighter-rouge">em-</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">in</code>: not, emphatic, inside (e.g. invalid, insufficient, inform, inland)</li>
+  <li>
+<code class="highlighter-rouge">infra</code>: below, under (e.g. infrastructure)</li>
+  <li>
+<code class="highlighter-rouge">inter</code>: between or involving two or more different things (e.g. internet)</li>
+  <li>
+<code class="highlighter-rouge">intro</code>: into, especially into the inside (e.g. introduce)</li>
+  <li>
+<code class="highlighter-rouge">immun</code>: free, exempt (e.g. immunosuppression)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">immunis</code> “exempt from public service, untaxed; unburdened, not
+tributary,” literally “not paying a share,” from assimilated form of <code class="highlighter-rouge">in-</code>
+“not, opposite of” (see <code class="highlighter-rouge">in-</code>) + munis “performing services” (compare
+municipal), suffixed form of root *mei- “to change, go, move.” Specific
+modern medical sense of “exempt (from a disease)</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ir</code>: used instead of <code class="highlighter-rouge">in-</code> before the letter <code class="highlighter-rouge">r</code>
+</li>
+  <li>
+<code class="highlighter-rouge">is</code>: separate, apart (e.g. island)</li>
+  <li>
+<code class="highlighter-rouge">macro</code>: extremely large</li>
+  <li>
+<code class="highlighter-rouge">mal</code>: bad (e.g. malware)</li>
+  <li>
+<code class="highlighter-rouge">main</code>: main (e.g. main)</li>
+  <li>
+<code class="highlighter-rouge">magn</code>: big</li>
+  <li>
+<code class="highlighter-rouge">meta</code>: beyond or at a higher level; relating to a change of state or
+position; (e.g. metaphysical, metabolism, metastatic)</li>
+  <li>
+<code class="highlighter-rouge">micro</code>: extremely small (e.g. microphone)</li>
+  <li>
+<code class="highlighter-rouge">mini</code>: very small (e.g. minimum)</li>
+  <li>
+<code class="highlighter-rouge">mis</code>: miss (e.g. mistake, misinform)</li>
+  <li>
+<code class="highlighter-rouge">mono</code>: one, single</li>
+  <li>
+<code class="highlighter-rouge">multi</code>: multiple (e.g. multiform)</li>
+  <li>
+<code class="highlighter-rouge">nano</code>: nano (e.g. nanostructure, nanotechnology)</li>
+  <li>
+<code class="highlighter-rouge">net</code>: net (e.g. internet)</li>
+  <li>
+<code class="highlighter-rouge">non</code>: not, none = no one (e.g. nonformal)</li>
+  <li>
+<code class="highlighter-rouge">ob</code>: toward(emphatic), against, before, near, across, down (e.g. obstruct, obsess)</li>
+  <li>
+<code class="highlighter-rouge">omni</code>: everything or everywhere, all (e.g. omnipresent, omnidirectional)</li>
+  <li>
+<code class="highlighter-rouge">op</code>: the same as <code class="highlighter-rouge">ob</code> (e.g. oppress)
+    <ul>
+      <li>assimilated form of <code class="highlighter-rouge">ob-</code> before <code class="highlighter-rouge">-p-</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ortho</code>: straight, true, correct, regular (e.g. orthostatic)
+    <ul>
+      <li>before vowels, word-forming element, now mostly in scientific and technical
+compounds, from Greek orthos.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">over</code>: over (e.g. overfly)</li>
+  <li>
+<code class="highlighter-rouge">pan</code>: all, every, whole, all-inclusive (e.g. pandemic)
+    <ul>
+      <li>From Greek <code class="highlighter-rouge">pan-</code>, combining form of pas</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">para</code>: alongside, beyond; altered; contrary; irregular, abnormal
+(e.g. paramedic, parastatal)
+    <ul>
+      <li>From Greek <code class="highlighter-rouge">para-</code>, before vowels, par-, word-forming element.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">per</code>: every, entire (e.g. perfect, perform, persist)</li>
+  <li>
+<code class="highlighter-rouge">pir</code>: pear (e.g. piriform)</li>
+  <li>
+<code class="highlighter-rouge">plat</code>: small place (e.g. platform)</li>
+  <li>
+<code class="highlighter-rouge">poly</code>: multiple, entire (e.g. polytechnic)</li>
+  <li>
+<code class="highlighter-rouge">pre</code>: before, ahead (e.g. preformed)
+    <ul>
+      <li>From Latin <code class="highlighter-rouge">prae-</code>, before, ahead</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">pro</code>: forward (e.g. promote)
+    <ul>
+      <li>It comes from <code class="highlighter-rouge">Prometheus</code>, who can predict the future.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">pur</code>: the same as <code class="highlighter-rouge">pro</code>
+    <ul>
+      <li>A variant of Latin pro “before, for” (see <code class="highlighter-rouge">pro-</code>)</li>
+      <li>The earliest form of the prefix in English, and it is retained in some words,
+but in others it has been corrected to Latinate <code class="highlighter-rouge">pro-</code>.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">pyro</code>: something related to fire (e.g. pyrotechnics)</li>
+  <li>From Greek <code class="highlighter-rouge">pyr</code> (genitive <code class="highlighter-rouge">pyros</code>)</li>
+  <li>
+<code class="highlighter-rouge">quad</code>: related to quantity of four</li>
+  <li>
+<code class="highlighter-rouge">quasi</code>: as if, as it were (e.g. quasi-static)</li>
+  <li>
+<code class="highlighter-rouge">re</code>: repeat, back (e.g. response)</li>
+  <li>
+<code class="highlighter-rouge">rheo</code>: a flowing, stream, current (e.g. rheostat)
+    <ul>
+      <li>from Greek <code class="highlighter-rouge">rheos</code>, which is related to rhein “to flow”</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">semi</code>: half</li>
+  <li>
+<code class="highlighter-rouge">sens</code>: understanding or feeling of something (e.g. sense)</li>
+  <li>
+<code class="highlighter-rouge">sent</code>: the same as <code class="highlighter-rouge">sens</code> (e.g. consent)</li>
+  <li>
+<code class="highlighter-rouge">soci</code>: partner (e.g. social, <code class="highlighter-rouge">soci</code> + <code class="highlighter-rouge">al</code>)</li>
+  <li>
+<code class="highlighter-rouge">sol</code>: uninjured, in good health, safe (e.g. solid)
+    <ul>
+      <li>From Latin salvificus “saving”</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">stereo</code>: solid, firm; three-dimensional; stereophonic (e.g. stereotype)
+    <ul>
+      <li>From Greek stereos “solid”, before vowels <code class="highlighter-rouge">stere-</code>, word-forming element</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">sub</code>: under (e.g. subway(Americanism, underway is british style), substructure)</li>
+  <li>
+<code class="highlighter-rouge">sup</code>: the same as <code class="highlighter-rouge">sub</code> (e.g. suppress, support)
+    <ul>
+      <li>Assimilated form of <code class="highlighter-rouge">sub-</code> before <code class="highlighter-rouge">-p-</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">sur</code>: over, above, beyond, in addition; the same as <code class="highlighter-rouge">sub</code> (e.g. surface)
+    <ul>
+      <li>From Anglo-French and Old French, from Old French <code class="highlighter-rouge">sour-</code>, <code class="highlighter-rouge">sor-</code>, <code class="highlighter-rouge">sur-</code>,
+from Latin <code class="highlighter-rouge">super</code>
+</li>
+      <li>Assimilated form of <code class="highlighter-rouge">sub-</code> before <code class="highlighter-rouge">-r-</code>.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">sus</code>: the same as <code class="highlighter-rouge">sub</code> (e.g. sustain)
+    <ul>
+      <li>Assimilated form of <code class="highlighter-rouge">sub-</code> before <code class="highlighter-rouge">-s-</code>.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">super</code>: above (e.g. superstructure)</li>
+  <li>
+<code class="highlighter-rouge">therm</code>: heat, hot, warm (e.g. hetertherm, thermostat)</li>
+  <li>
+<code class="highlighter-rouge">trans</code>: across, beyond, through, on the other side of, to go beyond (e.g.
+transparent, transcribe)</li>
+  <li>
+<code class="highlighter-rouge">tri</code>: three (e.g. trivia)</li>
+  <li>
+<code class="highlighter-rouge">un</code>: not, one (e.g. uninformed, uniform)</li>
+  <li>
+<code class="highlighter-rouge">uni</code>: one, single, <code class="highlighter-rouge">un</code> + <code class="highlighter-rouge">i</code> (e.g. uniform)</li>
+  <li>
+<code class="highlighter-rouge">use</code>: use (e.g. usage)</li>
+  <li>
+<code class="highlighter-rouge">vore</code>: devour (e.g. devore)</li>
+  <li>
+<code class="highlighter-rouge">vaso</code>: container, vessel (e.g. vasopressin, vasopressor)
+    <ul>
+      <li>Combining form of Latin <code class="highlighter-rouge">vas</code> (see <code class="highlighter-rouge">vas</code>)</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">zymo</code>: make, brew (e.g. zymotechnics)
+    <ul>
+      <li>From Greek <code class="highlighter-rouge">zymo-</code>, branch of chemistry which deals with wine-making and brewing</li>
+    </ul>
+  </li>
+  <li>…</li>
+</ul>
+
+<p>Vowel + 2 Consonant patterns:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">a??</code>: emphatic (e.g. attention, apprehend, afflux, assure, assiduous,
+apparent, acquire)</li>
+  <li>
+<code class="highlighter-rouge">e??</code>: out of, same as <code class="highlighter-rouge">ex-</code> (e.g. eccentric, effluent, efflux)</li>
+  <li>
+<code class="highlighter-rouge">i??</code>: not, emphatic, same as <code class="highlighter-rouge">ir-</code> (e.g. irregular)</li>
+  <li>
+<code class="highlighter-rouge">o??</code>: opposite of, emphatic, same as <code class="highlighter-rouge">op-</code> (e.g. oppress)</li>
+</ul>
+
+<p>Variants:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">com-</code> = <code class="highlighter-rouge">con-</code> = <code class="highlighter-rouge">col-</code> = <code class="highlighter-rouge">cor-</code> = <code class="highlighter-rouge">co-</code>
+</li>
+  <li>
+<code class="highlighter-rouge">di-</code> = <code class="highlighter-rouge">dis-</code> = <code class="highlighter-rouge">de-</code> = <code class="highlighter-rouge">is-</code>
+</li>
+  <li>
+<code class="highlighter-rouge">in-</code> = <code class="highlighter-rouge">im-</code> = <code class="highlighter-rouge">un-</code>
+</li>
+  <li>
+<code class="highlighter-rouge">sub-</code> = <code class="highlighter-rouge">sup-</code> = <code class="highlighter-rouge">sur-</code> = <code class="highlighter-rouge">sus-</code>
+</li>
+  <li>
+<code class="highlighter-rouge">en-</code> = <code class="highlighter-rouge">em-</code> = <code class="highlighter-rouge">in-</code> (e.g. enrich, enlarge, encourage)</li>
+  <li>
+<code class="highlighter-rouge">super-</code> = <code class="highlighter-rouge">over-</code>
+</li>
+  <li>
+<code class="highlighter-rouge">inter-</code> = <code class="highlighter-rouge">intel-</code> = <code class="highlighter-rouge">enter-</code> (e.g. )</li>
+</ul>
+
+<h2 id="suffix">Suffix</h2>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">a</code>: noun (e.g formula, primipara, quota)</li>
+  <li>
+<code class="highlighter-rouge">al</code>: noun or adjective</li>
+  <li>
+<code class="highlighter-rouge">ade</code>: noun (e.g. barriecade)
+    <ul>
+      <li>Denoting an action or product of an action, via French, Spanish, or Italian,
+ultimately from Latin <code class="highlighter-rouge">-ata</code>, <code class="highlighter-rouge">fem</code>.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ase</code>: noun, used in naming enzymes, from ending of diastase (biochemistry).
+(e.g. transcriptase)</li>
+  <li>
+<code class="highlighter-rouge">age</code>: noun, the same as <code class="highlighter-rouge">ic</code> (e.g. formage)
+    <ul>
+      <li>Word-forming element in nouns of act, process, function, condition, from</li>
+      <li>From Old French and French <code class="highlighter-rouge">-age</code>, from Late Latin -aticum “belonging to,
+related to,” originally neuter adjectival suffix</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">an</code>: noun or adjective</li>
+  <li>
+<code class="highlighter-rouge">ance</code>: noun (e.g. performance, appearance, balance)
+    <ul>
+      <li>The action, state, or quality of doing something or of being something</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ant</code>: noun (e.g. informant, assistant, redundant, significant)
+    <ul>
+      <li>Someone or something that does something</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">able</code>: adjective</li>
+  <li>
+<code class="highlighter-rouge">ability</code>: noun (<code class="highlighter-rouge">able</code> + <code class="highlighter-rouge">i</code> + <code class="highlighter-rouge">ty</code>)</li>
+  <li>
+<code class="highlighter-rouge">acle</code>: noun (e.g. obstacle)</li>
+  <li>
+<code class="highlighter-rouge">acy</code>: noun; quality, state, or condition (e.g. obstinacy)</li>
+  <li>
+<code class="highlighter-rouge">ar</code>: noun same as <code class="highlighter-rouge">-er</code>
+</li>
+  <li>
+<code class="highlighter-rouge">ary</code>: adjective or noun; having to do with, characterized by, tending to,
+place for (e.g. arbitrary)
+    <ul>
+      <li>from Middle English <code class="highlighter-rouge">-orie</code>, from Old North French <code class="highlighter-rouge">-ory</code>, <code class="highlighter-rouge">-orie</code> (Old
+French <code class="highlighter-rouge">-oir</code>, <code class="highlighter-rouge">-oire</code>), from Latin <code class="highlighter-rouge">-orius</code>, <code class="highlighter-rouge">-oria</code>, <code class="highlighter-rouge">-orium</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">at</code>: noun or verb (e.g. formate)</li>
+  <li>
+<code class="highlighter-rouge">ate</code>: verb or adjective or noun
+    <ul>
+      <li>Verb, make something doing (e.g. regulate, control somthing or make it regular)</li>
+      <li>Adjective, full of or showing a particular quality (e.g. affectionate)</li>
+      <li>Noun, job, rank, or degree of a particular quality/type/duty…</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ation</code>: noun (<code class="highlighter-rouge">ate</code> + <code class="highlighter-rouge">ion</code>)</li>
+  <li>
+<code class="highlighter-rouge">ative</code>: noun (<code class="highlighter-rouge">ate</code> + <code class="highlighter-rouge">ive</code>)</li>
+  <li>
+<code class="highlighter-rouge">cide</code>: noun (e.g. suicide)
+    <ul>
+      <li>used to form words referring to substances that kill a particular thing</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">craft</code>: noun, skill</li>
+  <li>
+<code class="highlighter-rouge">crat</code>: noun, governing (e.g. democrat)</li>
+  <li>
+<code class="highlighter-rouge">cracy</code>: noun, same as <code class="highlighter-rouge">ocrat</code> (e.g. e.g. democracy)</li>
+  <li>
+<code class="highlighter-rouge">dom</code>: noun, abstract suffix of state (e.g. freedom, random)
+    <ul>
+      <li>From Old English dom “statute, judgment” (see <code class="highlighter-rouge">doom</code>)</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">don</code>: verb (e.g. abandon)</li>
+  <li>
+<code class="highlighter-rouge">e</code>: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme)
+    <ul>
+      <li>Some time is adjective (e.g. remote)</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ed</code>: adjective</li>
+  <li>
+<code class="highlighter-rouge">el</code>: noun (e.g. barrel)
+    <ul>
+      <li>instrumental word-forming element, expressing “appliance, tool,” from Old
+English <code class="highlighter-rouge">-ol</code>, <code class="highlighter-rouge">-ul</code>, <code class="highlighter-rouge">-el</code>, representing PIE *-lo- (see -ule). In modern
+English usually <code class="highlighter-rouge">-le</code> except after <code class="highlighter-rouge">-n-</code>.</li>
+      <li>Suffix <code class="highlighter-rouge">-al</code> origins from here</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">en</code>: verb, adjective or noun is rarely seen (e.g. barren)</li>
+  <li>
+<code class="highlighter-rouge">ence</code>: the same as <code class="highlighter-rouge">ance</code> (e.g. violence)</li>
+  <li>
+<code class="highlighter-rouge">ent</code>: (e.g. different, recipient)
+    <ul>
+      <li>Making adjectives from nouns or verbs, from French</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">er</code>: noun, executor of an action</li>
+  <li>
+<code class="highlighter-rouge">ery</code>: noun or adjective, the same as <code class="highlighter-rouge">-ary</code> (e.g. stationery)</li>
+  <li>
+<code class="highlighter-rouge">ess</code>: noun, female (e.g. actress, waitress, tigress, directress)</li>
+  <li>
+<code class="highlighter-rouge">ette</code>: noun, a small thing of a particular type (e.g. barrette, snackette, statuette)</li>
+  <li>
+<code class="highlighter-rouge">fic</code>: adjective, making, creating (e.g. scientific)
+    <ul>
+      <li>From French <code class="highlighter-rouge">-fique</code> and directly from Latin <code class="highlighter-rouge">-ficus</code> “making, doing”</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">fy</code>: verb, make, make into (e.g. rectify, verify, falsify, qualify, specify)
+    <ul>
+      <li>From French <code class="highlighter-rouge">-fier</code>
+</li>
+      <li>From Latin <code class="highlighter-rouge">-ficare</code>, combining form of facere “to make”</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">hood</code>: noun (e.g. likelihood, parenthood, childhood, neighborhood)
+    <ul>
+      <li>state or condition of being, from old English</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ia</code>: noun, in names of countries, diseases, and flowers (e.g. Asia)
+    <ul>
+      <li>From Latin and Greek -ia, noun ending, in Greek especially used in forming
+abstract nouns (typically of feminine gender);</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ible</code>: the same as <code class="highlighter-rouge">able</code> (e.g. invincible)</li>
+  <li>
+<code class="highlighter-rouge">ibility</code>: noun (<code class="highlighter-rouge">ible</code> + <code class="highlighter-rouge">i</code> + <code class="highlighter-rouge">ty</code>)</li>
+  <li>
+<code class="highlighter-rouge">ic</code>: adjective, having to do with, having the nature of, being, made of,
+caused by, similar to (e.g. iconic)
+    <ul>
+      <li>From French <code class="highlighter-rouge">-ique</code> and directly from Latin <code class="highlighter-rouge">-icus</code> or from cognate Greek <code class="highlighter-rouge">-ikos</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ics</code>: noun, <code class="highlighter-rouge">ic</code> + <code class="highlighter-rouge">s</code>, the study of something (e.g. bioinformatics)</li>
+  <li>
+<code class="highlighter-rouge">id</code>: noun or verb, rarely adjective (e.g. liquid, fluid, solid, <code class="highlighter-rouge">sol</code> + <code class="highlighter-rouge">id</code>)</li>
+  <li>
+<code class="highlighter-rouge">ile</code>: the same as <code class="highlighter-rouge">ible</code>
+</li>
+  <li>
+<code class="highlighter-rouge">ine</code>: none (e.g. vaccine)</li>
+  <li>
+<code class="highlighter-rouge">im</code>: noun, meaning man (e.g. victim)</li>
+  <li>
+<code class="highlighter-rouge">ing</code>: adjective (e.g. fitting)</li>
+  <li>
+<code class="highlighter-rouge">ion</code>: noun (e.g. formation, vision)</li>
+  <li>
+<code class="highlighter-rouge">ish</code>: noun or adjective, something of one place, quite</li>
+  <li>
+<code class="highlighter-rouge">ism</code>: noun, principle (something’s abstraction)</li>
+  <li>
+<code class="highlighter-rouge">ist</code>: noun, people, principle (e.g. formalist)</li>
+  <li>
+<code class="highlighter-rouge">it</code>: the same as <code class="highlighter-rouge">id</code> (e.g. unit)</li>
+  <li>
+<code class="highlighter-rouge">itude</code>: noun (something’s abstraction)</li>
+  <li>
+<code class="highlighter-rouge">ity</code>: noun, related to a state or quality, <code class="highlighter-rouge">i</code> + <code class="highlighter-rouge">ty</code> (e.g. performatity)
+    <ul>
+      <li>Added to adjectives to form nouns</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ium</code>: noun (e.g. scriptorium, technetium, medium)</li>
+  <li>
+<code class="highlighter-rouge">ive</code>: adjective (e.g. active)</li>
+  <li>
+<code class="highlighter-rouge">ise</code>: verb (Americanism)</li>
+  <li>
+<code class="highlighter-rouge">ize</code>: verb (British Style)</li>
+  <li>
+<code class="highlighter-rouge">istic</code>: <code class="highlighter-rouge">ist</code> + <code class="highlighter-rouge">ic</code> (e.g. formalistic)</li>
+  <li>
+<code class="highlighter-rouge">itis</code>: noun (e.g. periodontitis)
+    <ul>
+      <li>An illness or infection that affects a particular part of your body</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">latry</code>: noun, worship of (e.g. technolatry, bardolatry)
+    <ul>
+      <li>From Greek <code class="highlighter-rouge">-latreia</code> “worship, service paid to the gods, hired labor,”
+related to latron (n.) “pay, hire,” latris “servant, worshipper,” from PIE
+*le- (1) “to get” (see larceny).</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">le</code>: noun, verb, repeat (e.g. scribble)</li>
+  <li>
+<code class="highlighter-rouge">less</code>: adjective, negation (e.g. homeless, hopeless, careless, meaningless,
+useless, regardless)</li>
+  <li>
+<code class="highlighter-rouge">logy</code>: noun, study</li>
+  <li>
+<code class="highlighter-rouge">ly</code>: adverb</li>
+  <li>
+<code class="highlighter-rouge">ment</code>: noun, to show actions, the people who do them, or their results (e.g. government)
+    <ul>
+      <li>Used to form a noun from a verb</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ness</code>: noun (e.g. formlessness)
+    <ul>
+      <li>A quality or a condition (used to form nouns from adjectives)</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">nomy</code>: subject</li>
+  <li>
+<code class="highlighter-rouge">or</code>: the same as <code class="highlighter-rouge">-er</code> (e.g. resistor)</li>
+  <li>
+<code class="highlighter-rouge">ory</code>: noun, the same as <code class="highlighter-rouge">-ary</code> (e.g. victory, directory, formulary)</li>
+  <li>
+<code class="highlighter-rouge">ous</code>: adjective, refer to a quality or condition (e.g. numerous)</li>
+  <li>
+<code class="highlighter-rouge">phile</code>: noun, someone who likes something (e.g. technophile)</li>
+  <li>
+<code class="highlighter-rouge">phobe</code>: noun, someone who dislikes or hates something (e.g. technophobe)</li>
+  <li>
+<code class="highlighter-rouge">ship</code>: noun, abstraction (e.g. friendship, directorship)</li>
+  <li>
+<code class="highlighter-rouge">some</code>: adjective
+    <ul>
+      <li>Word-forming element used in making adjectives from nouns or adjectives (and
+sometimes verbs)</li>
+      <li>Meaning “tending to; causing; to a considerable degree,” from Old English <code class="highlighter-rouge">-sum</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ster</code>: noun, a person who is associated with something (e.g. baluster, gangster)
+    <ul>
+      <li>Old English <code class="highlighter-rouge">-istre</code>, from Proto-Germanic *-istrijon, feminine agent suffix
+used as the equivalent of masculine <code class="highlighter-rouge">-ere</code> (See <code class="highlighter-rouge">-er</code>)</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">tude</code>: the same as <code class="highlighter-rouge">-ude</code> (e.g. attitude, aptitude, latitude)</li>
+  <li>
+<code class="highlighter-rouge">ty</code>: noun</li>
+  <li>
+<code class="highlighter-rouge">ude</code> noun, adjective (e.g. attitude, rectitude)
+    <ul>
+      <li>Making abstract nouns from adjectives and participles, is fixed to a base or
+to another suffix ending in <code class="highlighter-rouge">-t</code> or <code class="highlighter-rouge">-te</code>
+</li>
+      <li>From French <code class="highlighter-rouge">-ude</code>, from Latin <code class="highlighter-rouge">-udo</code> (stem <code class="highlighter-rouge">-udin-</code>). The equivalent of
+native <code class="highlighter-rouge">-ness</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">ul</code>: adjective, the same as <code class="highlighter-rouge">al</code> (e.g. formula, <code class="highlighter-rouge">form</code> + <code class="highlighter-rouge">ul</code> + <code class="highlighter-rouge">a</code>)</li>
+  <li>
+<code class="highlighter-rouge">um</code>: noun (e.g. forum, museum, premium)</li>
+  <li>
+<code class="highlighter-rouge">ur</code>: noun, the same as <code class="highlighter-rouge">-er</code> (e.g. voyageur)</li>
+  <li>
+<code class="highlighter-rouge">ure</code>: noun or verb (e.g. structure)
+    <ul>
+      <li>Suffix forming abstract nouns of action, from Old French <code class="highlighter-rouge">-ure</code>, from Latin
+<code class="highlighter-rouge">-ura</code>, an ending of fem. nouns denoting employment or result.</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">us</code>: noun (e.g. exodus, humerus, rectus)</li>
+  <li>
+<code class="highlighter-rouge">ute</code>: verb or noun (e.g. institute)
+    <ul>
+      <li>verb is same as <code class="highlighter-rouge">-ate</code>
+</li>
+    </ul>
+  </li>
+  <li>…</li>
+</ul>
+
+<p>Variants:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">-al</code> = <code class="highlighter-rouge">-el</code> = <code class="highlighter-rouge">-il</code> = <code class="highlighter-rouge">-ul</code>
+</li>
+  <li>
+<code class="highlighter-rouge">-ar</code> = <code class="highlighter-rouge">-er</code> = <code class="highlighter-rouge">-ir</code> = <code class="highlighter-rouge">-or</code> = <code class="highlighter-rouge">-ur</code>
+</li>
+  <li>
+<code class="highlighter-rouge">-able</code> = <code class="highlighter-rouge">-ible</code> = <code class="highlighter-rouge">-ile</code> = <code class="highlighter-rouge">-ble</code>
+</li>
+  <li>
+<code class="highlighter-rouge">-ary</code> = <code class="highlighter-rouge">-ery</code> = <code class="highlighter-rouge">-ory</code>
+</li>
+  <li>
+<code class="highlighter-rouge">-ate</code> = <code class="highlighter-rouge">-ite</code> = <code class="highlighter-rouge">-ute</code>
+    <ul>
+      <li>
+<code class="highlighter-rouge">-ation</code> = <code class="highlighter-rouge">-ition</code> = <code class="highlighter-rouge">-ution</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">-um</code> = <code class="highlighter-rouge">-im</code> = (<code class="highlighter-rouge">-am</code> = <code class="highlighter-rouge">-em</code>)</li>
+  <li>
+<code class="highlighter-rouge">-ant</code> = <code class="highlighter-rouge">-ent</code> = <code class="highlighter-rouge">-and</code> = <code class="highlighter-rouge">-end</code> (e.g. important, student)
+    <ul>
+      <li>noun or adjective; none means man in general</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">-ance</code> = <code class="highlighter-rouge">-ence</code> = <code class="highlighter-rouge">-ancy</code> = <code class="highlighter-rouge">-ency</code> (e.g. balance, fluence)
+    <ul>
+      <li>noun; occasionally verb</li>
+    </ul>
+  </li>
+  <li>
+<code class="highlighter-rouge">-id</code> = <code class="highlighter-rouge">-it</code> (e.g. liquid, fluid)</li>
+  <li>
+<code class="highlighter-rouge">-ize</code> = <code class="highlighter-rouge">-ise</code>
+</li>
+  <li>
+<code class="highlighter-rouge">-ous</code> (= <code class="highlighter-rouge">-ious</code> = <code class="highlighter-rouge">-eous</code> = <code class="highlighter-rouge">-uous</code>)</li>
+</ul>
+
+<h2 id="composition">Composition</h2>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">age</code>: age, era, epoch (e.g. information-age)</li>
+  <li>
+<code class="highlighter-rouge">anti</code>: opposed to or against something (e.g. anti-virus)</li>
+  <li>
+<code class="highlighter-rouge">approved</code>: opproved (e.g. state-approved)</li>
+  <li>
+<code class="highlighter-rouge">appointed</code>: appointed (e.g. state-appointed)</li>
+  <li>
+<code class="highlighter-rouge">based</code>: based on something, <code class="highlighter-rouge">base</code> + <code class="highlighter-rouge">ed</code> (e.g. information-based, rule-based)</li>
+  <li>
+<code class="highlighter-rouge">best</code>: best (e.g. best-informed)</li>
+  <li>
+<code class="highlighter-rouge">blood</code>: blod (e.g. blood-pressure)</li>
+  <li>
+<code class="highlighter-rouge">certified</code>: certified (e.g. state-certified)</li>
+  <li>
+<code class="highlighter-rouge">chartered</code>: chartered (e.g. state-chartered)</li>
+  <li>
+<code class="highlighter-rouge">co</code>: company (e.g. co-operation, co-president)</li>
+  <li>
+<code class="highlighter-rouge">cold</code>: cold (e.g. cold-pressed)</li>
+  <li>
+<code class="highlighter-rouge">cost</code>: cost (e.g. cost-cutting, cost-sharing, low-cost)</li>
+  <li>
+<code class="highlighter-rouge">counter</code>: anti (e.g. counter-reformation)</li>
+  <li>
+<code class="highlighter-rouge">concent</code>: concent (e.g. informed-consent)</li>
+  <li>
+<code class="highlighter-rouge">cross</code>: cross (e.g. cross-platform)</li>
+  <li>
+<code class="highlighter-rouge">dominated</code>: dominated (e.g. state-dominated)</li>
+  <li>
+<code class="highlighter-rouge">driven</code>: driven (e.g. technology-driven)</li>
+  <li>
+<code class="highlighter-rouge">ex</code>: outward, before (e.g. ex-boyfriend, ex-president)</li>
+  <li>
+<code class="highlighter-rouge">era</code>: era, epoch (e.g. Victorian-era, Depression-era)</li>
+  <li>
+<code class="highlighter-rouge">enforced</code>: enforced (e.g. state-enforced)</li>
+  <li>
+<code class="highlighter-rouge">enhancing</code>: <code class="highlighter-rouge">enhance</code> + <code class="highlighter-rouge">ing</code> (e.g. performance-enhancing)</li>
+  <li>
+<code class="highlighter-rouge">fed</code>: feed (e.g. formula-fed)</li>
+  <li>
+<code class="highlighter-rouge">fecal</code>: fecal (e.g. fecal-coliform)</li>
+  <li>
+<code class="highlighter-rouge">financed</code>: financed (e.g. state-financed)</li>
+  <li>
+<code class="highlighter-rouge">fine</code>: fine (e.g. fine-structure)</li>
+  <li>
+<code class="highlighter-rouge">first</code>: first (e.g. keyboard-first)</li>
+  <li>
+<code class="highlighter-rouge">fitting</code>: <code class="highlighter-rouge">fit</code> + <code class="highlighter-rouge">ing</code> (e.g. form-fitting)</li>
+  <li>
+<code class="highlighter-rouge">forming</code>: <code class="highlighter-rouge">form</code> + <code class="highlighter-rouge">ing</code> (e.g. star-forming)</li>
+  <li>
+<code class="highlighter-rouge">free</code>: free (e.g. free-form)</li>
+  <li>
+<code class="highlighter-rouge">gathering</code>: gather (e.g. information-gathering)</li>
+  <li>
+<code class="highlighter-rouge">hard</code>: hard (e.g. hard-pressed)</li>
+  <li>
+<code class="highlighter-rouge">health</code>: health (e.g. health-reform)</li>
+  <li>
+<code class="highlighter-rouge">high</code>: high (e.g. high-performance, high-technology)</li>
+  <li>
+<code class="highlighter-rouge">hot</code>: hot (e.g. hot-pressed)</li>
+  <li>
+<code class="highlighter-rouge">ill</code>: ill (e.g. ill-informed)</li>
+  <li>
+<code class="highlighter-rouge">imposed</code>: imposed (e.g. state-imposed)</li>
+  <li>
+<code class="highlighter-rouge">late</code>: late (e.g. late-Victorian)</li>
+  <li>
+<code class="highlighter-rouge">led</code>: lead (e.g. state-led)</li>
+  <li>
+<code class="highlighter-rouge">licensed</code>: licensed (e.g. state-licensed)</li>
+  <li>
+<code class="highlighter-rouge">life</code>: life (e.g. life-form)</li>
+  <li>
+<code class="highlighter-rouge">like</code>: like (e.g. movie-like)</li>
+  <li>
+<code class="highlighter-rouge">low</code>: low (e.g. low-performing)</li>
+  <li>
+<code class="highlighter-rouge">long</code>: long (e.g. long-period, long-term, long-standing)</li>
+  <li>
+<code class="highlighter-rouge">managed</code>: managed (e.g. state-managed, stage-managed)</li>
+  <li>
+<code class="highlighter-rouge">mandated</code>: mandated (e.g. state-mandated)</li>
+  <li>
+<code class="highlighter-rouge">neo</code>: new (e.g. neo-Victorian)</li>
+  <li>
+<code class="highlighter-rouge">newly</code>: new (e.g. newly-formed)</li>
+  <li>
+<code class="highlighter-rouge">non</code>: none (e.g. non-structural, non-parental)</li>
+  <li>
+<code class="highlighter-rouge">oft</code>: often (e.g. oft-stated)</li>
+  <li>
+<code class="highlighter-rouge">operated</code>: operated (e.g. state-operated)</li>
+  <li>
+<code class="highlighter-rouge">oriented</code>: <code class="highlighter-rouge">orient</code> + <code class="highlighter-rouge">ed</code> (e.g. performance-oriented, technology-oriented)</li>
+  <li>
+<code class="highlighter-rouge">packed</code> packed (e.g. pressure-packed)</li>
+  <li>
+<code class="highlighter-rouge">paper</code>: paper (e.g. construction-paper)</li>
+  <li>
+<code class="highlighter-rouge">performing</code>: <code class="highlighter-rouge">perform</code> + <code class="highlighter-rouge">ing</code> (e.g. best-performing)</li>
+  <li>
+<code class="highlighter-rouge">post</code>: after (e.g. post-conviction)</li>
+  <li>
+<code class="highlighter-rouge">poor</code>: poor (e.g. poor-performing)</li>
+  <li>
+<code class="highlighter-rouge">processing</code>: <code class="highlighter-rouge">process</code> + <code class="highlighter-rouge">ing</code> (e.g. information-processing)</li>
+  <li>
+<code class="highlighter-rouge">record</code>: record (e.g. state-record)</li>
+  <li>
+<code class="highlighter-rouge">regulated</code>: <code class="highlighter-rouge">regulate</code> + <code class="highlighter-rouge">ed</code> (e.g. state-regulated)</li>
+  <li>
+<code class="highlighter-rouge">related</code>: <code class="highlighter-rouge">relate</code> + <code class="highlighter-rouge">ed</code> (e.g. performance-related)</li>
+  <li>
+<code class="highlighter-rouge">related</code>: <code class="highlighter-rouge">relate</code> + <code class="highlighter-rouge">ed</code> (e.g. technology-related)</li>
+  <li>
+<code class="highlighter-rouge">rich</code>: rich (e.g. information-rich)</li>
+  <li>
+<code class="highlighter-rouge">sanctioned</code>: <code class="highlighter-rouge">sanction</code> + <code class="highlighter-rouge">ed</code> (e.g. state-sanctioned)</li>
+  <li>
+<code class="highlighter-rouge">self</code>: self (e.g. self-instruction)</li>
+  <li>
+<code class="highlighter-rouge">semi</code>: exactly half (e.g. semi-transparent)</li>
+  <li>
+<code class="highlighter-rouge">setting</code>: <code class="highlighter-rouge">set</code> + <code class="highlighter-rouge">ing</code> (e.g. standard-setting)</li>
+  <li>
+<code class="highlighter-rouge">sharing</code>: <code class="highlighter-rouge">share</code> + <code class="highlighter-rouge">ing</code> (e.g. information-sharing)</li>
+  <li>
+<code class="highlighter-rouge">short</code>: short (e.g. short-period)</li>
+  <li>
+<code class="highlighter-rouge">single</code>: single (e.g. single-parent)</li>
+  <li>
+<code class="highlighter-rouge">social</code>: social (e.g. social-structural)</li>
+  <li>
+<code class="highlighter-rouge">step</code>: step (e.g. step-parent)</li>
+  <li>
+<code class="highlighter-rouge">state</code>: state (e.g. state-specific)</li>
+  <li>
+<code class="highlighter-rouge">stage</code>: stage (e.g. stage-managed)</li>
+  <li>
+<code class="highlighter-rouge">still</code>: still (e.g. still-life, still-living, still-warm, still-young)</li>
+  <li>
+<code class="highlighter-rouge">style</code>: style (e.g. Victorian-style)</li>
+  <li>
+<code class="highlighter-rouge">subsidized</code>: subsidized (e.g. state-subsidized)</li>
+  <li>
+<code class="highlighter-rouge">then</code>: then (e.g. then-president)</li>
+  <li>
+<code class="highlighter-rouge">treated</code>: treated (e.g. pressure-treated)</li>
+  <li>
+<code class="highlighter-rouge">total</code>: total (e.g. total-coliform)</li>
+  <li>
+<code class="highlighter-rouge">top</code>: top (e.g. top-performing)</li>
+  <li>
+<code class="highlighter-rouge">technology</code>: <code class="highlighter-rouge">techn</code> + <code class="highlighter-rouge">o</code> + <code class="highlighter-rouge">logy</code> (e.g. information-technology)</li>
+  <li>
+<code class="highlighter-rouge">well</code>: well (e.g. well-informed, well-known)</li>
+  <li>
+<code class="highlighter-rouge">welfare</code>: welfare (e.g. welfare-reform)</li>
+  <li>
+<code class="highlighter-rouge">wielding</code>: <code class="highlighter-rouge">wield</code> + <code class="highlighter-rouge">ing</code> (e.g. hammer-wielding)</li>
+  <li>
+<code class="highlighter-rouge">vice</code>: vice (e.g. vice-president)</li>
+  <li>…</li>
+</ul>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/photography/2020/12/08/how-to-choose-a-digital-camera-quantitatively.html" title="How to choose a digital camera quantitatively">How to choose a digital camera...</a><a class="next" href="/linguistics/2021/04/08/the-reductions-and-contractions-in-english.html" title="The reductions and contractions in English">The reductions and contractions in English...</a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li><a class="post-link" href="/computer/2020/09/29/email-server-ports-table.html" title="The reductions and contractions in English">Email Server Ports Table</a></li>
+<li><a class="post-link" href="/photography/2020/12/08/how-to-choose-a-digital-camera-quantitatively.html" title="The reductions and contractions in English">How to choose a digital camera quantitatively</a></li>
+<li><a class="post-link" href="/computer/2008/01/01/welcome-to-jekyll.html" title="The reductions and contractions in English">Welcome to Jekyll!</a></li>
+<li><a class="post-link" href="/misc/2020/08/17/understanding-of-abstract-and-concrete.html" title="The reductions and contractions in English">Understanding of abstract and concrete</a></li>
+</ul>
+    </div>
+<div class="post-comments">  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://jeffreytse.net/linguistics/2021/02/08/the-morphology-of-english-words.html';
+      this.page.identifier = 'https://jeffreytse.net/linguistics/2021/02/08/the-morphology-of-english-words.html';
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+
+      s.src = 'https://jeffreytse.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+</div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Copyright © 2008-2020</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="http://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
