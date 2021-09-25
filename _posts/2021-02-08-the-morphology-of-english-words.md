@@ -10,8 +10,6 @@ tags:
   - note
 ---
 
-## Morphology
-
 Beginning with an exploration of everyday base words and affixes, this post
 will show how to apply your knowledge of these patterns to the multisyllabic
 English words of Latin origin, and its potential to enhance vocabulary
@@ -19,7 +17,7 @@ skills. You will discover why and how the roots of English have led to the
 belief, albeit unjustified, that the English spelling system is awkward and
 contradictory.
 
-### The word pattern:
+## Pattern
 
 prefix-root-suffix
 
@@ -34,13 +32,27 @@ prefix-root-suffix
   - consonant: pronunciation is similar, and they can be replaced
     - voiced: suffix is often for verb (d,t,s)(e.g. scribe)
     - voiceless: suffix is often for noun or adjective (e.g. script)
+  - approximation:
+    - Grimm's law
+    - r,n,l (e.g. palm = `p` + `arm`, bank = `bar` + `k`, desert = `de` + `sand`)
+    - y,i (e.g. crisis = `cry` + `sis`, crime = `cry` + `me`)
 
 The first three are the most important. Pronunciation change in English does
 not change its meaning, just extend in meaning, such as `vinc` and `vict`,
 they both mean winning, conquer.
 
 80% of English vocabulary comes from foreign languages, and most of them are
-Latin.
+Latin, French, Germanic.
+
+![English Words Origin](https://user-images.githubusercontent.com/9413601/134760822-54373bbf-b76d-4305-906c-cbf4a9fd0048.png)
+
+- Latin: university, library
+- French: beef (English call cow), pork (English call pig)
+- Germanic: machine, automatic
+- Greek: democracy, liberty
+- Japanese: tofu (Chinese, 豆腐)
+- Chinese: katchup (Cantonese, 茄汁), kowtow (Cantonese, 叩头), lychee (荔枝), typhoon (台风)
+- ...
 
 English has a history of 2,300 years. In the course of historical development,
 its meaning will be gradually extended.
@@ -55,6 +67,147 @@ English thinking:
   English often uses single consonant
   - traveller, traveler
 
+## Alphabet Hieroglyphic
+
+Proto-Canaanite (BC15) -> Phoenician (BC10) -> Latin (BC7)
+
+The modern alphabet with 26 letters started in the 16th century. The development
+of the English alphabet had influences from the Semitic, Phoenician, Greek and
+Roman scripts. It’s quite interesting to learn how each letter was formed.
+
+- `A/a`: cow head -> alp(ha) -> head
+  - ace
+  - ache
+  - acid
+  - acupuncture
+  - alphabet
+  - alps
+  - alt
+  - altitude
+  - arrow
+  - ash
+  - cash
+  - dash
+  - lash
+  - sharp
+- `B/b`: home -> bet(ween) -> wood -> born
+  - abandon (`a` + `ban` + `dan`)
+  - back
+  - bag
+  - bald (`ball` + `d`)
+  - bank
+  - bar
+  - bare
+  - basket
+  - be
+  - belly
+  - belt (`belly` + `tie`)
+  - birth
+  - board
+  - boil
+  - born
+  - boundary
+  - bounce
+  - bundle
+  - bow
+  - box
+  - branch
+  - breed
+  - breast
+  - brew
+  - bright
+  - broom
+  - bud
+  - burn
+  - by
+- `C/c`: spear -> gamma -> sunken (borrow pronunciation like g, k)
+  - cap
+  - cash (a palm to catch)
+  - catch (a palm to catch with `c` shape)
+  - cave (cavity of a mountain)
+  - cavern
+  - canyon
+  - chant
+  - chap
+  - charm
+  - chin
+  - chop
+  - chord
+  - chorus
+  - cite
+  - clam
+  - clap
+  - claw
+  - crawl
+  - creep
+  - crescent
+  - crib
+  - cry
+  - concord
+  - confirm
+  - constitute
+  - copy
+  - cough
+  - cove
+  - cuff
+  - cup
+  - curse
+  - cut
+- `D/d`: door -> dome -> down
+  - dam
+  - dawn
+  - day
+  - deep
+  - dent
+  - depth
+  - derma
+  - desk
+  - dice
+  - dig
+  - dim
+  - diner
+  - dinner
+  - diss
+  - dock
+  - dog
+  - dome
+  - down
+  - drain
+  - drink
+  - drip
+  - drool
+  - drop
+  - dusk
+  - dust
+- `E/e`: eye
+  - peep (watch with your palm around your eyes)
+- `G/g`: tool
+  - dog
+- `H/h`: home
+- `L/l`: long
+  - lash
+- `M/m`: peak
+  - mountain (mountains with several peaks)
+  - man, male (man is reliable as a mountain)
+  - match (match is a game between men)
+- `N/n`: snake -> fold
+  - connect (`con` - `neck`)
+- `P/p`: palm
+  - palm (it's `p` + `arm`, a palm is a part connected the arm)
+  - patch
+  - phone
+- `R/r`: head
+  - root (the head of something)
+- `S/s`: plant
+  - Seed
+- `T/t`: symbol
+  - cat
+- `W/w`: water
+  - woman (woman is mild like water)
+  - watch (man play match, woman watch it)
+  - weep (water in eyes, and wipe with palm)
+- `Z/z`: zip
+
 ## Root
 
 - `act`: to do (e.g. action)
@@ -67,36 +220,43 @@ English thinking:
 - `bal`: the same as `bar` (e.g. balance, balk, baluster)
 - `ban`: the same as `bar` (e.g. abandon, banner, banquet, bank)
   - Italian `banchi`, the root of the Italian word for banks
+- `bat`: to beat (e.g. battle, debate)
 - `carn`: flesh (e.g. carnage)
 - `cerebr`: brain (e.g. cerebral)
 - `cess`: movement, migration (e.g. process)
 - `chlor`: chlor (e.g. chloroform)
 - `circum`: circle (e.g. circumscribe)
+- `cite`: to move, set in motion, stir, rouse, call, invite (e.g. recite)
 - `clude`: to shut, close (e.g. include)
   - From Latin `cludere`, the more literal sense of "close, shut up, prevent access to"
 - `col`: column (e.g. coliform, `col` + `i` + `form`)
+- `cri`: to sieve (e.g. crisis, crime)
 - `cribr`: sieve, tube with holes (e.g. cribriform)
 - `cruc`: cross (e.g. cruciform)
 - `cunei`: cunei (e.g. cuneiform)
 - `cuss`: strike, hit, shake (e.g. percuss)
 - `deme`: people (e.g. pandemic)
   - From Greek `demos`
+- `dek`: to take, accept (e.g. decorate)
 - `dent`: a hollow area in the surface of something (e.g. dental)
   - From Latin `dint`
 - `digm`: to show (e.g. paramdigm)
   - Cognate with Latin `dicere` "to show;"
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
+- `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
 - `earth`: ground, soil, dirt, dry land; country, district (e.g. earthmover)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fect`: doing (e.g. perfect)
-- `fer`: to carry, to bear (e.g. conference, transfer)
+- `fer`: to carry, to bear (e.g. confer, transfer)
   - From Latin `ferre`
+- `for`: the same as `fer`
 - `fine`: end, limit, acme (e.g. define)
 - `fiss`: to split (e.g. fission, fissiparous)
 - `flu`: the affects between objects (e.g. influence, flush)
   - From Latin `fluere`
-- `flux`: the same as `flu` (e.g. )
+- `flux`: the same as `flu` (e.g. fluctuate)
+- `fore`: former, earlier (e.g. forearm, forehand)
 - `form`: shape, look, etc. (e.g. transform, formula)
   - It comes from Latin `formare`
 - `glossa` language, tongue
@@ -117,12 +277,13 @@ English thinking:
 - `lic`: to be allowed, be lawful (e.g. license)
   - Possibly source also of Lettish likstu "I come to terms"
 - `loc`: a place, spot (e.g. local, locomote)
-- `log`: language, symbol
+- `log`: language, symbol (e.g. logger)
 - `logos`: speech (e.g. apology)
   - From Greek
 - `low`: low
 - `manu`: hand (e.g. manufactor, manuscript)
 - `mark`: mark
+- `mari`: of the sea; body of the sea (e.g. marine)
 - `mel`: honey (e.g. mellifluous)
   - From Latin `mel`, related to Greek `meli`
 - `mit`: send (e.g. submit, permit)
@@ -152,9 +313,15 @@ English thinking:
 - `out`: out (e.g. outperform)
 - `pear`: to come forth, be visible; submit, obey (e.g. appear)
 - `par`: the same as `pear` (e.g. parent, primipara, fissiparous)
+- `phone`: related to language (e.g. phonetic)
+  - English comes from Proto-Phoenician
 - `phot`: light (e.g. photo, photostat)
 - `play`: play (e.g. playbook)
+- `ple`: to fill (e.g. complement)
+  - From Latin `plere`
 - `please`: please, aggreeable (e.g. unpleasant)
+- `pli`: to fold, weave (e.g. complicate)
+  - From Latin `plicare`
 - `prehend`: grap, grasp, arrest (e.g. comprehension)
   - From Latin, prehendere
 - `press`: press (e.g. pressman)
@@ -166,9 +333,13 @@ English thinking:
   - From Greek `polis`
 - `poor`: poor
 - `pos`: powerful; lord; (e.g. possess)
+- `quar`: four (e.g. square, quarantine)
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
 - `rive`: shore, bank, break
 - `rupt`: to break apart (e.g. corrupt)
+- `sal`: something from sea (e.g. salt, salty)
+- `sau`: to salt (e.g. sauce, salad = `sauce` + `laid`, sausage = `sauce` + `age`)
+  - From root `sal`
 - `sci`: to know (e.g. science)
   - From Latin `scire/scientis`
 - `scop`: mirror (e.g. fluoroscopy)
@@ -202,11 +373,12 @@ English thinking:
 - `stil`: the same as `st` (e.g. still)
 - `stem`: the same as `st` (e.g. system)
 - `stin`: the same as `st`
-- `stit`: the same as `st`
+- `stit`: the same as `st` (e.g. constitute)
   - Meaning motionless, stable, fixed, stationary
   - From Proto-Germanic `*stilli-` (source also of Old Frisian, Middle Low
     German, Middle Dutch `stille`, Dutch `stil`, Old High German `stilli`,
     German `still`)
+- `sti`: point, prick, pierce (e.g. stick, stimulus)
 - `struct`: build (e.g. construct)
   - From Latin, structura, from struere, the way an organization, system,
     market etc is organized or put together.
@@ -218,11 +390,13 @@ English thinking:
 - `swim`: swim
 - `syn`: to place together, organize, form in order (e.g. system)
   - From stem of `synistanai`
+- `tain`: to hold, to stretch (e.g. contain, detain, retain)
+- `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
+  - From Latin `technicus`, also from Greek `tekhnikos`
+- `tine`: sharp point, spike (e.g. quarantine)
 - `tire`: become weary, exhausted (e.g. overtire)
 - `tom`: divide (e.g. atom, prostatectomy)
 - `top`: top
-- `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
-  - From Latin `technicus`, also from Greek `tekhnikos`
 - `under`: under (e.g. underline)
 - `vi`: road (e.g. via, obviate, obvious, previous, trivia)
 - `via`: the same as `vi`
@@ -233,7 +407,7 @@ English thinking:
   - After Caesar put down the rebellion, he issued a three-V instrument, which
     is "Veni, Vedi, Vici", and it means "I came, I saw, I conquered".
 - `vis`: see (e.g. visit, vision)
-- `voc`: voice (e.g. vocal, vocational)
+- `voc`: voice, call (e.g. voice, vocational, advocate)
 - `voy`: way, journey (e.g. voyage)
   - From French
 - `watch`: keep watch, be awake (e.g. watchdog)
@@ -242,11 +416,11 @@ English thinking:
 
 ## Prefix
 
-- `a`: off, of, away from (e.g. away, apart, ascribe, atom)
+- `a`: off, of, away from; emphatic (e.g. away, apart, ascribe, atom, abandon)
   - From Latin
 - `ab`: away, from, from off, down (e.g. abuse)
 - `acu`: cusp (e.g. acupressure)
-- `ad`: to
+- `ad`: to (e.g. advocate)
 - `aero`: air (e.g. aerostat)
 - `as`: the same as `ad` (e.g. assist)
 - `agri`: relating to farming (e.g. agriculture, agribusiness)
@@ -264,7 +438,7 @@ English thinking:
 - `com`: with, together, together with, in combination; sometimes merely
   emphatic; (e.g. compress)
   - From Latin `com`, `cum`
-- `con`: the same as `com` (e.g. confirm, convergence, constant)
+- `con`: the same as `com` (e.g. confirm, convergence, constant, constitute)
   - It is the form of `com-` used in Latin before consonants except `-b-`,
     `-p-`, `-l-`, `-m-`, or `-r-`.
 - `cor`: same as `con` (e.g. corrupt, correct)
@@ -275,7 +449,8 @@ English thinking:
   counterfeit, countermove)
   - from Anglo-French countre-, French `contre-`, from Latin contra "opposite,
     contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
-- `de`: opposite, remove, reduce (e.g. deform, deviate, describe, demote)
+- `de`: opposite, remove, reduce (e.g. deform, deviate, describe, demote,
+  debate, deserve)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence)
@@ -305,6 +480,9 @@ English thinking:
   - Often reduced to `e-` before `-b-`, `-d-`, `-g-`, consonantal `-i-`, `-l-`,
     `-m-`, `-n-`, `-v-` (as in elude, emerge, evaporate, etc.).
 - `geo`: relating to the Earth or its surface (e.g. geostationary)
+- `gyre`: the same as `gyro` (e.g. gyrencephalic)
+- `gyro`: a ring, circle (e.g. gyrate, gyroscope)
+  - From Greek `gyros`
 - `hetero`: other, opposite, different (e.g. heterosexual)
 - `hypo`: less than usual, especially too little; the same as `sub-`, under
   (e.g. hypotherm, hypostatic)
@@ -328,6 +506,7 @@ English thinking:
 - `mal`: bad (e.g. malware)
 - `main`: main (e.g. main)
 - `magn`: big
+- `matri`: mother (e.g. matrimony)
 - `meta`: beyond or at a higher level; relating to a change of state or
   position; (e.g. metaphysical, metabolism, metastatic)
 - `micro`: extremely small (e.g. microphone)
@@ -351,7 +530,7 @@ English thinking:
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal
   (e.g. paramedic, parastatal)
   - From Greek `para-`, before vowels, par-, word-forming element.
-- `per`: every, entire (e.g. perfect, perform, persist)
+- `per`: through; throughout; thoroughly; entirely, utterly (e.g. perfect, perform, persist)
 - `pir`: pear (e.g. piriform)
 - `plat`: small place (e.g. platform)
 - `poly`: multiple, entire (e.g. polytechnic)
@@ -391,7 +570,8 @@ English thinking:
 - `therm`: heat, hot, warm (e.g. hetertherm, thermostat)
 - `trans`: across, beyond, through, on the other side of, to go beyond (e.g.
   transparent, transcribe)
-- `tri`: three (e.g. trivia)
+- `tri`: three, having three, once every three (e.g. trivia, triangle)
+- `twi`: two, twice, double, in two ways (e.g. twilight)
 - `un`: not, one (e.g. uninformed, uniform)
 - `uni`: one, single, `un` + `i` (e.g. uniform)
 - `use`: use (e.g. usage)
@@ -429,7 +609,7 @@ Variants:
     ultimately from Latin `-ata`, `fem`.
 - `ase`: noun, used in naming enzymes, from ending of diastase (biochemistry).
   (e.g. transcriptase)
-- `age`: noun, the same as `ic` (e.g. formage)
+- `age`: noun, the same as `ic` (e.g. formage, sausage)
   - Word-forming element in nouns of act, process, function, condition, from
   - From Old French and French `-age`, from Late Latin -aticum "belonging to,
     related to," originally neuter adjectival suffix
@@ -444,7 +624,7 @@ Variants:
 - `acy`: noun; quality, state, or condition (e.g. obstinacy)
 - `ar`: noun same as `-er`
 - `ary`: adjective or noun; having to do with, characterized by, tending to,
-  place for (e.g. arbitrary)
+  place for (e.g. arbitrary, monetary)
   - from Middle English `-orie`, from Old North French `-ory`, `-orie` (Old
     French `-oir`, `-oire`), from Latin `-orius`, `-oria`, `-orium`
 - `at`: noun or verb (e.g. formate)
@@ -462,8 +642,9 @@ Variants:
 - `dom`: noun, abstract suffix of state (e.g. freedom, random)
   - From Old English dom "statute, judgment" (see `doom`)
 - `don`: verb (e.g. abandon)
-- `e`: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme)
-  - Some time is adjective (e.g. remote)
+- `e`: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme, sauce,
+  tine, square, crime)
+  - Sometime is adjective (e.g. remote, marine)
 - `ed`: adjective
 - `el`: noun (e.g. barrel)
   - instrumental word-forming element, expressing "appliance, tool," from Old
@@ -525,6 +706,7 @@ Variants:
 - `ly`: adverb
 - `ment`: noun, to show actions, the people who do them, or their results (e.g. government)
   - Used to form a noun from a verb
+- `mony`: noun, action, state, condition (e.g. matrimony)
 - `ness`: noun (e.g. formlessness)
   - A quality or a condition (used to form nouns from adjectives)
 - `nomy`: subject
@@ -554,7 +736,7 @@ Variants:
 - `ure`: noun or verb (e.g. structure)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
     `-ura`, an ending of fem. nouns denoting employment or result.
-- `us`: noun (e.g. exodus, humerus, rectus)
+- `us`: noun (e.g. exodus, humerus, rectus, stimulus)
 - `ute`: verb or noun (e.g. institute)
   - verb is same as `-ate`
 - ...
@@ -664,3 +846,8 @@ Variants:
 - `wielding`: `wield` + `ing` (e.g. hammer-wielding)
 - `vice`: vice (e.g. vice-president)
 - ...
+
+## References
+
+- [原始迦南字母](https://www.wikiwand.com/zh-sg/%E5%8E%9F%E5%A7%8B%E8%BF%A6%E5%8D%97%E5%AD%97%E6%AF%8D]
+- [List of English words of French origin](https://www.wikiwand.com/en/List_of_English_words_of_French_origin)
