@@ -16,6 +16,7 @@ way many Brits feel about American English.
 ## Pronunciation
 
 - after (ˈæftər / ˈɑːftə)
+- beta (ˈbeɪtə / biːtə)
 - common (ˈkɑː.mən / ˈkɒm.ən)
 - computer (kəmˈpjuːtər / kəmˈpjuːtə)
 - current (ˈkɜːrənt / ˈkʌrənt)
