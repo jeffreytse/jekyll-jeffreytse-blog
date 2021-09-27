@@ -183,7 +183,36 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - peep (watch with your palm around your eyes)
 - `G/g`: tool
   - dog
-- `H/h`: home
+- `H/h`: fence -> shelter -> ladder -> aspirate
+  - hack
+  - hall
+  - hammer
+  - hand
+  - happy
+  - hard
+  - hash
+  - hat
+  - heave
+  - head
+  - heart
+  - height
+  - helmet
+  - hello
+  - hey
+  - hi
+  - hit
+  - home
+  - honest
+  - honor
+  - hood
+  - hope
+  - horse
+  - hot
+  - house
+  - hug
+  - huge
+  - human
+  - hut
 - `L/l`: long
   - lash
 - `M/m`: peak
