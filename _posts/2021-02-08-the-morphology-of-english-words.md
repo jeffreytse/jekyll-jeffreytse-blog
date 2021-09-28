@@ -651,6 +651,8 @@ Variants:
 - `ability`: noun (`able` + `i` + `ty`)
 - `acle`: noun (e.g. obstacle)
 - `acy`: noun; quality, state, or condition (e.g. obstinacy)
+- `ade`: noun (e.g. blockade)
+  - Word-forming delement denoting an action or product of an action
 - `ar`: noun same as `-er`
 - `ary`: adjective or noun; having to do with, characterized by, tending to,
   place for (e.g. arbitrary, monetary)
@@ -765,7 +767,7 @@ Variants:
 - `ure`: noun or verb (e.g. structure)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
     `-ura`, an ending of fem. nouns denoting employment or result.
-- `us`: noun (e.g. exodus, humerus, rectus, stimulus)
+- `us`: noun (e.g. exodus, humerus, rectus, stimulus, genius)
 - `ute`: verb or noun (e.g. institute)
   - verb is same as `-ate`
 - ...
