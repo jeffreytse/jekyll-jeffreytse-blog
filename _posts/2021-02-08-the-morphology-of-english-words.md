@@ -365,7 +365,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `quar`: four (e.g. square, quarantine)
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
 - `rive`: shore, bank, break
-- `rupt`: to break apart (e.g. corrupt)
+- `rupt`: to break apart (e.g. corrupt, bankrupt)
 - `sal`: something from sea (e.g. salt, salty)
 - `sau`: to salt (e.g. sauce, salad = `sauce` + `laid`, sausage = `sauce` + `age`)
   - From root `sal`
@@ -476,10 +476,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `contra`: against or opposite (e.g. contraband, contradictory)
 - `counter`: against, in opposition; in return; corresponding, (e.g. counteract,
   counterfeit, countermove)
-  - from Anglo-French countre-, French `contre-`, from Latin contra "opposite,
+  - from Anglo-French `countre-`, French `contre-`, from Latin contra "opposite,
     contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
-- `de`: opposite, remove, reduce (e.g. deform, deviate, describe, demote,
-  debate, deserve)
+- `de`: opposite, remove, reduce, from (e.g. deform, deviate, describe, demote,
+  debate, deserve, derive)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence)
