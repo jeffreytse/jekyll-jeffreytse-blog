@@ -250,6 +250,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ban`: the same as `bar` (e.g. abandon, banner, banquet, bank)
   - Italian `banchi`, the root of the Italian word for banks
 - `bat`: to beat (e.g. battle, debate)
+- `canon`: a rule or law (e.g. canonical)
 - `carn`: flesh (e.g. carnage)
 - `cerebr`: brain (e.g. cerebral)
 - `cess`: movement, migration (e.g. process)
@@ -303,6 +304,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lat`: take (e.g. relate, `re` + `lat` + `ate`)
 - `land`: land (e.g. motherland, fatherland, landmark, mainland)
 - `late`: late
+- `lect`: to collect, gather (e.g. collect, lecture)
 - `lic`: to be allowed, be lawful (e.g. license)
   - Possibly source also of Lettish likstu "I come to terms"
 - `loc`: a place, spot (e.g. local, locomote)
@@ -326,6 +328,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `neo`: new (e.g. neonatal)
 - `news`: message (e.g. newspaper, newsstand)
   - Message from North, East, West and South
+- `nocu`: to hurt, injure, harm (e.g. nocuous)
 - `non`: no (e.g. nonperformance)
 - `grand`: big, great; full, abundant, full-grown, strong, powerful, weighty, severe
   (e.g. grandparent)
@@ -427,6 +430,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tom`: divide (e.g. atom, prostatectomy)
 - `top`: top
 - `under`: under (e.g. underline)
+- `verb`: a word; to speak, say (e.g. verbal)
 - `vi`: road (e.g. via, obviate, obvious, previous, trivia)
 - `via`: the same as `vi`
 - `vict` win (e.g. victim)
@@ -632,7 +636,7 @@ Variants:
 ## Suffix
 
 - `a`: noun (e.g formula, primipara, quota)
-- `al`: noun or adjective
+- `al`: noun or adjective (e.g. verbal)
 - `ade`: noun (e.g. barriecade)
   - Denoting an action or product of an action, via French, Spanish, or Italian,
     ultimately from Latin `-ata`, `fem`.
