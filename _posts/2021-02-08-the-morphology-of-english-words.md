@@ -86,6 +86,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - altitude
   - arrow
   - ash
+  - aspect
   - cash
   - dash
   - lash
@@ -270,6 +271,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `dek`: to take, accept (e.g. decorate)
 - `dent`: a hollow area in the surface of something (e.g. dental)
   - From Latin `dint`
+- `dict`: to say, speak; say often, prescribe (e.g. dictionary, dictate. verdict)
 - `digm`: to show (e.g. paramdigm)
   - Cognate with Latin `dicere` "to show;"
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
@@ -286,18 +288,20 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `flu`: the affects between objects (e.g. influence, flush)
   - From Latin `fluere`
 - `flux`: the same as `flu` (e.g. fluctuate)
-- `fore`: former, earlier (e.g. forearm, forehand)
+- `fore`: former, earlier (e.g. forearm, forehand, foresee)
 - `form`: shape, look, etc. (e.g. transform, formula)
   - It comes from Latin `formare`
 - `glossa` language, tongue
   - From Greek `glōtta`
 - `glotta`: the same as `glossa` (e.g. polyglot)
+- `graph`: draw (e.g. photograph, biography, autograph)
 - `half`: half (e.g. halfway)
 - `heal`: heal (e.g. healthy)
 - `hemo`: blood (e.g. hemostat)
 - `high`: high (e.g. highlight)
 - `hu`: clay (e.g. human)
-- `hydr`: hydrogen, water (e.g. hydrate)
+- `hydra`: water; wet (e.g. hydrate, hydrant)
+- `hydro`: the same as `hydra` (e.g. hydrogen, hydroplane)
 - `ill`: bad, from evil (e.g. illness)
 - `image`: copy, statue, picture (e.g. imagination)
   - From Latin `imago`
@@ -345,7 +349,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `out`: out (e.g. outperform)
 - `pear`: to come forth, be visible; submit, obey (e.g. appear)
 - `par`: the same as `pear` (e.g. parent, primipara, fissiparous)
-- `phone`: related to language (e.g. phonetic)
+- `phone`: voice; related to language (e.g. phonetic, telephone)
   - English comes from Proto-Phoenician
 - `phot`: light (e.g. photo, photostat)
 - `play`: play (e.g. playbook)
@@ -364,6 +368,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pol`: citadel, fort, city (e.g. politic, polite, police)
   - From Greek `polis`
 - `poor`: poor
+- `port`: to lead, pass over (e.g. import, export, transport, portable)
 - `pos`: powerful; lord; (e.g. possess)
 - `quar`: four (e.g. square, quarantine)
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
@@ -378,10 +383,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `scribe`: to write or something written (e.g. subscribe)
 - `scribble`: careless writing, drawing
 - `script`: the same as `scribe`
-- `sect`: seprate
+- `sect`: to cut (e.g. sector)
 - `short`: short
 - `smog`: smog
-- `spek`: look at, to observe (e.g. respect)
+- `spect`: look at, to observe (e.g. aspect, respect, inspect, suspect, spectator)
   - From Latin `specere`
 - `spir`: breath (e.g. spirit, conspire, inspire, expire)
 - `spond`: to pledge (e.g. respond)
@@ -420,8 +425,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sui`: one's own (e.g. suicide)
   - From Latin sui "of oneself" (genitive of se "self")
 - `swim`: swim
-- `syn`: to place together, organize, form in order (e.g. system)
+- `syn`: to place together, organize, form in order
   - From stem of `synistanai`
+- `sys`: the same as `syn` (e.g. system)
+- `tail`: to cut in pieces (e.g. tailor, detail)
 - `tain`: to hold, to stretch (e.g. contain, detain, retain)
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
@@ -430,6 +437,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tom`: divide (e.g. atom, prostatectomy)
 - `top`: top
 - `under`: under (e.g. underline)
+- `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
 - `vi`: road (e.g. via, obviate, obvious, previous, trivia)
 - `via`: the same as `vi`
@@ -455,14 +463,16 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `acu`: cusp (e.g. acupressure)
 - `ad`: to (e.g. advocate)
 - `aero`: air (e.g. aerostat)
+- `ant`: in front of, before (e.g. antedate, anteroom, anticipate, antique)
+- `anti`: opposed to or against something (e.g. anti-virus, antibiotic)
 - `as`: the same as `ad` (e.g. assist)
 - `agri`: relating to farming (e.g. agriculture, agribusiness)
 - `agro`: the same as `agri` (e.g. agrobiology, agro-industry)
 - `al`: all (e.g. alway)
 - `apo`: off, away from (e.g. apology, apostate)
   - From Greek
-- `bi`: two (e.g. binary)
-- `bi(o)`: relating to or using living things (e.g. biomedical)
+- `bi`: two (e.g. binary, biweekly, bicycle, bicentennial, bisexual, bilingual)
+- `bi(o)`: relating to or using living things (e.g. biomedical, biography)
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
@@ -482,8 +492,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   counterfeit, countermove)
   - from Anglo-French `countre-`, French `contre-`, from Latin contra "opposite,
     contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
-- `de`: opposite, remove, reduce, from (e.g. deform, deviate, describe, demote,
-  debate, deserve, derive)
+- `de`: opposite, remove, reduce, from, entirely (e.g. deform, deviate, describe,
+  demote, debate, deserve, derive, derail, deduct, detail)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence)
@@ -497,7 +507,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Word-forming element generally before vowels `ect-`
   - From Latinized form of Greek adverb `ektos` "outside, out of; free from; exempt"
 - `electro`: electrical, electricity (e.g. electrotechnics)
-- `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower)
+- `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower, embody)
+- `en`: in, into (e.g. enslave)
 - `endo`: inside, within, internal (e.g. endogenous)
   - Word-forming element from Greek `endon` "in, within"
 - `epi`: on, upon, above;in addition to; toward, among; (e.g. epistemic)
@@ -519,13 +530,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `hetero`: other, opposite, different (e.g. heterosexual)
 - `hypo`: less than usual, especially too little; the same as `sub-`, under
   (e.g. hypotherm, hypostatic)
+- `il`: used instead of `in-` before the letter `l` (e.g. illegal)
 - `im`: not, opposite of; in,into (e.g. immobile, impersonal, implant, impress,
   immovable)
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
 - `in`: not, emphatic, inside (e.g. invalid, insufficient, inform, inland)
 - `infra`: below, under (e.g. infrastructure)
-- `inter`: between or involving two or more different things (e.g. internet)
+- `inter`: between or involving two or more different things (e.g. internet, interact)
 - `intro`: into, especially into the inside (e.g. introduce)
 - `immun`: free, exempt (e.g. immunosuppression)
   - From Latin `immunis` "exempt from public service, untaxed; unburdened, not
@@ -533,18 +545,18 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     "not, opposite of" (see `in-`) + munis "performing services" (compare
     municipal), suffixed form of root \*mei- "to change, go, move." Specific
     modern medical sense of "exempt (from a disease)
-- `ir`: used instead of `in-` before the letter `r`
+- `ir`: used instead of `in-` before the letter `r` (e.g. irregular)
 - `is`: separate, apart (e.g. island)
-- `macro`: extremely large
+- `macro`: extremely large (e.g. macromedia)
 - `mal`: bad (e.g. malware)
 - `main`: main (e.g. main)
 - `magn`: big
 - `matri`: mother (e.g. matrimony)
 - `meta`: beyond or at a higher level; relating to a change of state or
   position; (e.g. metaphysical, metabolism, metastatic)
-- `micro`: extremely small (e.g. microphone)
+- `micro`: extremely small (e.g. microphone, microwave)
 - `mini`: very small (e.g. minimum)
-- `mis`: miss (e.g. mistake, misinform)
+- `mis`: badly, wrongly (e.g. mistake, misinform, misunderstand)
 - `mono`: one, single
 - `multi`: multiple (e.g. multiform)
 - `nano`: nano (e.g. nanostructure, nanotechnology)
@@ -579,7 +591,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - From Greek `pyr` (genitive `pyros`)
 - `quad`: related to quantity of four
 - `quasi`: as if, as it were (e.g. quasi-static)
-- `re`: repeat, back (e.g. response)
+- `re`: repeat, back (e.g. response, review, reunite)
 - `rheo`: a flowing, stream, current (e.g. rheostat)
   - from Greek `rheos`, which is related to rhein "to flow"
 - `semi`: half
@@ -590,7 +602,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin salvificus "saving"
 - `stereo`: solid, firm; three-dimensional; stereophonic (e.g. stereotype)
   - From Greek stereos "solid", before vowels `stere-`, word-forming element
-- `sub`: under (e.g. subway(Americanism, underway is british style), substructure)
+- `sub`: under (e.g. subway(Americanism, underway is british style),
+  substructure, subtitle, submarine)
 - `sup`: the same as `sub` (e.g. suppress, support)
   - Assimilated form of `sub-` before `-p-`
 - `sur`: over, above, beyond, in addition; the same as `sub` (e.g. surface)
@@ -600,10 +613,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sus`: the same as `sub` (e.g. sustain)
   - Assimilated form of `sub-` before `-s-`.
 - `super`: above (e.g. superstructure)
+- `tele`: at or over a long distance (e.g. television, telephone, telegraph, telecast)
 - `therm`: heat, hot, warm (e.g. hetertherm, thermostat)
 - `trans`: across, beyond, through, on the other side of, to go beyond (e.g.
   transparent, transcribe)
-- `tri`: three, having three, once every three (e.g. trivia, triangle)
+- `tri`: three, having three, once every three (e.g. trivia, triangle, tricycle)
 - `twi`: two, twice, double, in two ways (e.g. twilight)
 - `un`: not, one (e.g. uninformed, uniform)
 - `uni`: one, single, `un` + `i` (e.g. uniform)
@@ -627,7 +641,7 @@ Variants:
 
 - `com-` = `con-` = `col-` = `cor-` = `co-`
 - `di-` = `dis-` = `de-` = `is-`
-- `in-` = `im-` = `un-`
+- `in-` = `im-` = `il` = `ir` = `un-` (e.g. impolite, illigal, irregular)
 - `sub-` = `sup-` = `sur-` = `sus-`
 - `en-` = `em-` = `in-` (e.g. enrich, enlarge, encourage)
 - `super-` = `over-`
@@ -739,10 +753,11 @@ Variants:
   useless, regardless)
 - `logy`: noun, study
 - `ly`: adverb
-- `ment`: noun, to show actions, the people who do them, or their results (e.g. government)
+- `ment`: noun, to show actions, the people who do them, or their results
+  (e.g. government, judgment)
   - Used to form a noun from a verb
 - `mony`: noun, action, state, condition (e.g. matrimony)
-- `ness`: noun (e.g. formlessness)
+- `ness`: noun (e.g. formlessness, sickness, highness)
   - A quality or a condition (used to form nouns from adjectives)
 - `nomy`: subject
 - `or`: the same as `-er` (e.g. resistor)
@@ -796,7 +811,6 @@ Variants:
 ## Composition
 
 - `age`: age, era, epoch (e.g. information-age)
-- `anti`: opposed to or against something (e.g. anti-virus)
 - `approved`: opproved (e.g. state-approved)
 - `appointed`: appointed (e.g. state-appointed)
 - `based`: based on something, `base` + `ed` (e.g. information-based, rule-based)
@@ -812,7 +826,7 @@ Variants:
 - `cross`: cross (e.g. cross-platform)
 - `dominated`: dominated (e.g. state-dominated)
 - `driven`: driven (e.g. technology-driven)
-- `ex`: outward, before (e.g. ex-boyfriend, ex-president)
+- `ex`: outward, before (e.g. ex-boyfriend, ex-president, ex-wife)
 - `era`: era, epoch (e.g. Victorian-era, Depression-era)
 - `enforced`: enforced (e.g. state-enforced)
 - `enhancing`: `enhance` + `ing` (e.g. performance-enhancing)
@@ -884,5 +898,5 @@ Variants:
 
 ## References
 
-- [原始迦南字母](https://www.wikiwand.com/zh-sg/%E5%8E%9F%E5%A7%8B%E8%BF%A6%E5%8D%97%E5%AD%97%E6%AF%8D]
+- [原始迦南字母](https://www.wikiwand.com/zh-sg/%E5%8E%9F%E5%A7%8B%E8%BF%A6%E5%8D%97%E5%AD%97%E6%AF%8D)
 - [List of English words of French origin](https://www.wikiwand.com/en/List_of_English_words_of_French_origin)
