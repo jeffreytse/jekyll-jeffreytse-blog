@@ -291,6 +291,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fore`: former, earlier (e.g. forearm, forehand, foresee)
 - `form`: shape, look, etc. (e.g. transform, formula)
   - It comes from Latin `formare`
+- `gene`: give birth, beget; race, kind (e.g. general, generation)
 - `glossa` language, tongue
   - From Greek `glōtta`
 - `glotta`: the same as `glossa` (e.g. polyglot)
@@ -311,12 +312,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lect`: to collect, gather (e.g. collect, lecture)
 - `lic`: to be allowed, be lawful (e.g. license)
   - Possibly source also of Lettish likstu "I come to terms"
+- `lith`: stone (e.g. monolith, lithography)
 - `loc`: a place, spot (e.g. local, locomote)
 - `log`: language, symbol (e.g. logger)
 - `logos`: speech (e.g. apology)
   - From Greek
 - `low`: low
-- `manu`: hand (e.g. manufactor, manuscript)
+- `mand`: to order (e.g. demand)
+- `man`: hand (e.g. manufactor, manuscript, mandate)
+  - From Latin `manus`
 - `mark`: mark
 - `mari`: of the sea; body of the sea (e.g. marine)
 - `mel`: honey (e.g. mellifluous)
@@ -358,6 +362,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `please`: please, aggreeable (e.g. unpleasant)
 - `pli`: to fold, weave (e.g. complicate)
   - From Latin `plicare`
+- `plo`: the same as `pli` (e.g. employ, deploy)
 - `prehend`: grap, grasp, arrest (e.g. comprehension)
   - From Latin, prehendere
 - `press`: press (e.g. pressman)
@@ -432,6 +437,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tain`: to hold, to stretch (e.g. contain, detain, retain)
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
+- `termin`: end, limit (e.g. terminal, determine)
 - `tine`: sharp point, spike (e.g. quarantine)
 - `tire`: become weary, exhausted (e.g. overtire)
 - `tom`: divide (e.g. atom, prostatectomy)
@@ -449,6 +455,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     is "Veni, Vedi, Vici", and it means "I came, I saw, I conquered".
 - `vis`: see (e.g. visit, vision)
 - `voc`: voice, call (e.g. voice, vocational, advocate)
+- `vol`: to turn, revolve, roll (e.g. revolve, evolve, involve, volume)
 - `voy`: way, journey (e.g. voyage)
   - From French
 - `watch`: keep watch, be awake (e.g. watchdog)
@@ -484,7 +491,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `con`: the same as `com` (e.g. confirm, convergence, constant, constitute)
   - It is the form of `com-` used in Latin before consonants except `-b-`,
     `-p-`, `-l-`, `-m-`, or `-r-`.
-- `cor`: same as `con` (e.g. corrupt, correct)
+- `cor`: same as `con` (e.g. corrupt, correct, correlate)
   - The form used for `com-` before the letter `r`
 - `cryo`: of or involving very low temperatures (e.g. cryostat)
 - `contra`: against or opposite (e.g. contraband, contradictory)
@@ -492,8 +499,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   counterfeit, countermove)
   - from Anglo-French `countre-`, French `contre-`, from Latin contra "opposite,
     contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
-- `de`: opposite, remove, reduce, from, entirely (e.g. deform, deviate, describe,
-  demote, debate, deserve, derive, derail, deduct, detail)
+- `de`: opposite, remove, reduce, from, entirely, completely, off (e.g. deform,
+  deviate, describe, demote, debate, deserve, derive, derail, deduct, detail,
+  determine, demand, deploy)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence)
@@ -508,7 +516,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latinized form of Greek adverb `ektos` "outside, out of; free from; exempt"
 - `electro`: electrical, electricity (e.g. electrotechnics)
 - `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower, embody)
-- `en`: in, into (e.g. enslave)
+- `en`: in, into (e.g. enslave, envalope)
 - `endo`: inside, within, internal (e.g. endogenous)
   - Word-forming element from Greek `endon` "in, within"
 - `epi`: on, upon, above;in addition to; toward, among; (e.g. epistemic)
@@ -527,7 +535,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `gyre`: the same as `gyro` (e.g. gyrencephalic)
 - `gyro`: a ring, circle (e.g. gyrate, gyroscope)
   - From Greek `gyros`
-- `hetero`: other, opposite, different (e.g. heterosexual)
+- `hetero`: other, opposite, different (e.g. heterogeneous, heterosexual)
+- `homo`: same (e.g. homogeneous, homosexual)
 - `hypo`: less than usual, especially too little; the same as `sub-`, under
   (e.g. hypotherm, hypostatic)
 - `il`: used instead of `in-` before the letter `l` (e.g. illegal)
@@ -557,7 +566,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `micro`: extremely small (e.g. microphone, microwave)
 - `mini`: very small (e.g. minimum)
 - `mis`: badly, wrongly (e.g. mistake, misinform, misunderstand)
-- `mono`: one, single
+- `mono`: single, alone (e.g. monolith)
 - `multi`: multiple (e.g. multiform)
 - `nano`: nano (e.g. nanostructure, nanotechnology)
 - `net`: net (e.g. internet)
@@ -591,7 +600,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - From Greek `pyr` (genitive `pyros`)
 - `quad`: related to quantity of four
 - `quasi`: as if, as it were (e.g. quasi-static)
-- `re`: repeat, back (e.g. response, review, reunite)
+- `re`: back, again (e.g. response, review, reunite, revolve)
 - `rheo`: a flowing, stream, current (e.g. rheostat)
   - from Greek `rheos`, which is related to rhein "to flow"
 - `semi`: half
@@ -619,7 +628,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   transparent, transcribe)
 - `tri`: three, having three, once every three (e.g. trivia, triangle, tricycle)
 - `twi`: two, twice, double, in two ways (e.g. twilight)
-- `un`: not, one (e.g. uninformed, uniform)
+- `under`: below, beneath; between, among; before (e.g. undertake, understand)
 - `uni`: one, single, `un` + `i` (e.g. uniform)
 - `use`: use (e.g. usage)
 - `vore`: devour (e.g. devore)
@@ -661,7 +670,7 @@ Variants:
   - From Old French and French `-age`, from Late Latin -aticum "belonging to,
     related to," originally neuter adjectival suffix
 - `an`: noun or adjective
-- `ance`: noun (e.g. performance, appearance, balance)
+- `ance`: noun (e.g. performance, appearance, balance, governance)
   - The action, state, or quality of doing something or of being something
 - `ant`: noun (e.g. informant, assistant, redundant, significant)
   - Someone or something that does something
@@ -692,7 +701,7 @@ Variants:
   - From Old English dom "statute, judgment" (see `doom`)
 - `don`: verb (e.g. abandon)
 - `e`: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme, sauce,
-  tine, square, crime)
+  tine, square, crime, envalope)
   - Sometime is adjective (e.g. remote, marine)
 - `ed`: adjective
 - `el`: noun (e.g. barrel)
@@ -710,6 +719,8 @@ Variants:
 - `ette`: noun, a small thing of a particular type (e.g. barrette, snackette, statuette)
 - `fic`: adjective, making, creating (e.g. scientific)
   - From French `-fique` and directly from Latin `-ficus` "making, doing"
+- `ful`: full of, having, characterized by (e.g. hateful, hopeful, bellyful)
+  - Word-forming element attached to nouns (and in modern English to verb stems)
 - `fy`: verb, make, make into (e.g. rectify, verify, falsify, qualify, specify)
   - From French `-fier`
   - From Latin `-ficare`, combining form of facere "to make"
@@ -761,7 +772,7 @@ Variants:
   - A quality or a condition (used to form nouns from adjectives)
 - `nomy`: subject
 - `or`: the same as `-er` (e.g. resistor)
-- `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary)
+- `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary, mandatory)
 - `ous`: adjective, refer to a quality or condition (e.g. numerous)
 - `phile`: noun, someone who likes something (e.g. technophile)
 - `phobe`: noun, someone who dislikes or hates something (e.g. technophobe)
@@ -833,7 +844,7 @@ Variants:
 - `fed`: feed (e.g. formula-fed)
 - `fecal`: fecal (e.g. fecal-coliform)
 - `financed`: financed (e.g. state-financed)
-- `fine`: fine (e.g. fine-structure)
+- `fine`: fine (e.g. fine-structure, fine-grained)
 - `first`: first (e.g. keyboard-first)
 - `fitting`: `fit` + `ing` (e.g. form-fitting)
 - `forming`: `form` + `ing` (e.g. star-forming)
