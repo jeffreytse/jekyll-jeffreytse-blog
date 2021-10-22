@@ -243,8 +243,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `act`: to do (e.g. action)
   - From Latin `actus`, `agere`
 - `alt`: tall
-- `anim`: life
-- `astr`: star
+- `anim`: life (e.g. animal)
+- `astr`: star (e.g. astronaut)
 - `bar`: bar, obstacle (e.g. embarrass, barrack)
   - From Latin `barra`
 - `bal`: the same as `bar` (e.g. balance, balk, baluster)
@@ -333,6 +333,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mot`: the same as `mov` (e.g. promote, locomote, emote)
 - `mov`: act of moving from a stationary position, a change of position or
   relation (e.g. move, movie)
+- `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
 - `neo`: new (e.g. neonatal)
 - `news`: message (e.g. newspaper, newsstand)
   - Message from North, East, West and South
@@ -351,8 +352,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ori`: rise (e.g. oriented )
   - From Latin, the position that sun rising from.
 - `out`: out (e.g. outperform)
-- `pear`: to come forth, be visible; submit, obey (e.g. appear)
+- `pact`: to fix, fasten (e.g. compact, pactum, package)
 - `par`: the same as `pear` (e.g. parent, primipara, fissiparous)
+- `pear`: to come forth, be visible; submit, obey (e.g. appear)
 - `phone`: voice; related to language (e.g. phonetic, telephone)
   - English comes from Proto-Phoenician
 - `phot`: light (e.g. photo, photostat)
@@ -374,7 +376,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek `polis`
 - `poor`: poor
 - `port`: to lead, pass over (e.g. import, export, transport, portable)
-- `pos`: powerful; lord; (e.g. possess)
+- `pos`: powerful; lord; (e.g. possess, possible, position)
+- `pot`: the same as `pos` (e.g. potential)
 - `quar`: four (e.g. square, quarantine)
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
 - `rive`: shore, bank, break
@@ -401,7 +404,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sid`: to sit, to settle (e.g. consider, preside, reside)
   - From Latin `sidere`, opposite with `st`
   - The `sid` (`sideris`) means heavenly body, star, constellation
-- `sit`: the same as `sid` (e.g. site, situate)
+- `sit`: the same as `sid` (e.g. site, situate, position)
 - `sed`: the same as `sid` (e.g. supersede, sediment, sedate, sedentary)
 - `sess`: the same as `sid` (e.g. possess, obsess, assess, session, sessile)
 - `st`: to stand, make or be firm (e.g. state, stand, still, stage, stay, rest,
