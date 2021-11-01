@@ -291,7 +291,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fore`: former, earlier (e.g. forearm, forehand, foresee)
 - `form`: shape, look, etc. (e.g. transform, formula)
   - It comes from Latin `formare`
-- `gene`: give birth, beget; race, kind (e.g. general, generation)
+- `gene`: give birth, beget; race, kind; native, natural (e.g. general,
+  generation, genuine)
 - `glossa` language, tongue
   - From Greek `glōtta`
 - `glotta`: the same as `glossa` (e.g. polyglot)
@@ -445,6 +446,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tire`: become weary, exhausted (e.g. overtire)
 - `tom`: divide (e.g. atom, prostatectomy)
 - `top`: top
+- `tutor`: to protect; to be strong (e.g. tutorial, tuition)
 - `under`: under (e.g. underline)
 - `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
