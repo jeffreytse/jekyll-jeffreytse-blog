@@ -2,6 +2,9 @@
 layout: post
 title: The keyboard shortcuts in Windows
 author: Jeffrey Tse
+banner:
+  image: https://www.agilitypr.com/wp-content/uploads/2019/07/techtrends-1.jpg
+  opacity: 0.76
 categories: computer
 tags:
   - computer
@@ -75,6 +78,7 @@ tags:
 - Alt-F4: Close the active item, or exit the active app
 - Alt-F8: Show your password on the sign-in screen
 - Alt-P: Display and hide the preview in File Explorer
+- Alt-Shift-P: Display and hide the details preview in File Explorer
 - Alt-Underlined Letter: Perform the command for that letter
 
 - Ctrl-Esc: Open Start
