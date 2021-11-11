@@ -259,7 +259,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `circum`: circle (e.g. circumscribe)
 - `cite`: to move, set in motion, stir, rouse, call, invite (e.g. recite)
 - `clude`: to shut, close (e.g. include)
-  - From Latin `cludere`, the more literal sense of "close, shut up, prevent access to"
+  - From Latin `cludere`, the more literal sense of "close, shut up, prevent
+  access to"
 - `col`: column (e.g. coliform, `col` + `i` + `form`)
 - `cri`: to sieve (e.g. crisis, crime)
 - `cribr`: sieve, tube with holes (e.g. cribriform)
@@ -280,7 +281,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fect`: doing (e.g. perfect)
-- `fer`: to carry, to bear (e.g. confer, transfer)
+- `fer`: to carry, to bear (e.g. confer, infer, transfer)
   - From Latin `ferre`
 - `for`: the same as `fer`
 - `fine`: end, limit, acme (e.g. define)
@@ -296,11 +297,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `glossa` language, tongue
   - From Greek `glōtta`
 - `glotta`: the same as `glossa` (e.g. polyglot)
-- `graph`: draw (e.g. photograph, biography, autograph)
+- `gram`: that which is drawn; a picture, a drawing (e.g. program)
+- `graph`: process of writing or recording (e.g. photograph, biography, autograph)
 - `half`: half (e.g. halfway)
 - `heal`: heal (e.g. healthy)
 - `hemo`: blood (e.g. hemostat)
 - `high`: high (e.g. highlight)
+- `hol`: whole, entire, complete (e.g. whole, holistic, holocaust, hologram)
+  - From Greek `holos`
 - `hu`: clay (e.g. human)
 - `hydra`: water; wet (e.g. hydrate, hydrant)
 - `hydro`: the same as `hydra` (e.g. hydrogen, hydroplane)
@@ -310,7 +314,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lat`: take (e.g. relate, `re` + `lat` + `ate`)
 - `land`: land (e.g. motherland, fatherland, landmark, mainland)
 - `late`: late
-- `lect`: to collect, gather (e.g. collect, lecture)
+- `lect`: to collect, gather (e.g. collect, lecture, lexicon)
+- `lex`: about dict (e.g. lexicon, lexicography)
 - `lic`: to be allowed, be lawful (e.g. license)
   - Possibly source also of Lettish likstu "I come to terms"
 - `lith`: stone (e.g. monolith, lithography)
