@@ -385,6 +385,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pos`: powerful; lord; (e.g. possess, possible, position)
 - `pot`: the same as `pos` (e.g. potential)
 - `quar`: four (e.g. square, quarantine)
+- `que`: to ask, to seek (e.g. quest)
+- `quire` the same as `que` (e.g. require, inquire)
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
 - `rive`: shore, bank, break
 - `rupt`: to break apart (e.g. corrupt, bankrupt)
