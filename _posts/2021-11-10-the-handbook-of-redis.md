@@ -13,7 +13,7 @@ tags:
 ---
 
 Redis is an in-memory data structure store, used as a distributed, in-memory
-key–value database. Here is a easy handbook for your reference to quickly
+key–value database. Here is an easy handbook for your reference to quickly
 start it.
 
 ## Setup
@@ -156,6 +156,7 @@ OK
 ### List
 
 ```bash
+# Push an element to the end of list
 127.0.0.1:6379> lpush users foo
 (integer) 1
 
@@ -165,9 +166,11 @@ OK
 127.0.0.1:6379> lpush users baz
 (integer) 3
 
+# Get the length of list
 127.0.0.1:6379> llen users
 (integer) 3
 
+# Get a range of elements of list
 127.0.0.1:6379> lrange users 0 10
 1) "foo"
 2) "bar"
