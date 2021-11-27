@@ -262,6 +262,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `cludere`, the more literal sense of "close, shut up, prevent
   access to"
 - `col`: column (e.g. coliform, `col` + `i` + `form`)
+- `cover`: cover (e.g. coverall, bedcover, covert)
 - `cri`: to sieve (e.g. crisis, crime)
 - `cribr`: sieve, tube with holes (e.g. cribriform)
 - `cruc`: cross (e.g. cruciform)
@@ -336,7 +337,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mobile`: mobile (e.g. mobility)
 - `morph`: form, shape (e.g. morphology)
   - From Greek `morphe`
-- `mot`: the same as `mov` (e.g. promote, locomote, emote)
+- `mot`: the same as `mov` (e.g. promote, locomote, emote, motif)
 - `mov`: act of moving from a stationary position, a change of position or
   relation (e.g. move, movie)
 - `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
@@ -365,12 +366,16 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - English comes from Proto-Phoenician
 - `phot`: light (e.g. photo, photostat)
 - `play`: play (e.g. playbook)
-- `ple`: to fill (e.g. complement)
+- `ple`: to plait, to weave together (e.g. complement)
   - From Latin `plere`
+- `plect`: the same as `ple` (e.g. complect)
+- `plex`: the same as `ple` (e.g. perplex, complex)
 - `please`: please, aggreeable (e.g. unpleasant)
 - `pli`: to fold, weave (e.g. complicate)
   - From Latin `plicare`
-- `plo`: the same as `pli` (e.g. employ, deploy)
+- `plic`: the same as `pli` (e.g. explicate, implicate)
+- `plo`: the same as `pli` (e.g. employ, deploy, diploma)
+- `ply`: the same as `pli`
 - `prehend`: grap, grasp, arrest (e.g. comprehension)
   - From Latin, prehendere
 - `press`: press (e.g. pressman)
@@ -516,7 +521,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   determine, demand, deploy)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
-- `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence)
+- `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence, diploma)
   - From Greek, cognate with `bi-`, meaning "two, twice"
   - From Latin, `dis-`, meaning "apart, asunder"
 - `dis`: not or opposite
@@ -774,6 +779,7 @@ Variants:
 - `le`: noun, verb, repeat (e.g. scribble)
 - `less`: adjective, negation (e.g. homeless, hopeless, careless, meaningless,
   useless, regardless)
+- `let`: noun, small one (e.g. booklet, outlet, coverlet)
 - `logy`: noun, study
 - `ly`: adverb
 - `ment`: noun, to show actions, the people who do them, or their results
@@ -843,9 +849,10 @@ Variants:
 - `chartered`: chartered (e.g. state-chartered)
 - `co`: company (e.g. co-operation, co-president)
 - `cold`: cold (e.g. cold-pressed)
+- `concent`: concent (e.g. informed-consent)
 - `cost`: cost (e.g. cost-cutting, cost-sharing, low-cost)
 - `counter`: anti (e.g. counter-reformation)
-- `concent`: concent (e.g. informed-consent)
+- `covered`: covered (e.g. ice-covered, ivy-covered)
 - `cross`: cross (e.g. cross-platform)
 - `dominated`: dominated (e.g. state-dominated)
 - `driven`: driven (e.g. technology-driven)
