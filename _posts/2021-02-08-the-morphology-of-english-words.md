@@ -260,7 +260,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cite`: to move, set in motion, stir, rouse, call, invite (e.g. recite)
 - `clude`: to shut, close (e.g. include)
   - From Latin `cludere`, the more literal sense of "close, shut up, prevent
-  access to"
+    access to"
 - `col`: column (e.g. coliform, `col` + `i` + `form`)
 - `cover`: cover (e.g. coverall, bedcover, covert)
 - `cri`: to sieve (e.g. crisis, crime)
@@ -366,16 +366,17 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - English comes from Proto-Phoenician
 - `phot`: light (e.g. photo, photostat)
 - `play`: play (e.g. playbook)
-- `ple`: to plait, to weave together (e.g. complement)
+- `ple`: the same as `pli` (e.g. complement)
   - From Latin `plere`
-- `plect`: the same as `ple` (e.g. complect)
-- `plex`: the same as `ple` (e.g. perplex, complex)
+- `plect`: the same as `pli` (e.g. complect)
+- `plex`: the same as `pli` (e.g. perplex, complex)
 - `please`: please, aggreeable (e.g. unpleasant)
-- `pli`: to fold, weave (e.g. complicate)
+- `pli`: to fold, to plait, to weave together, (e.g. complicate, explicit,
+  duplicate)
   - From Latin `plicare`
-- `plic`: the same as `pli` (e.g. explicate, implicate)
+- `plic`: the same as `pli` (e.g. explicate, implicate, supplicate)
 - `plo`: the same as `pli` (e.g. employ, deploy, diploma)
-- `ply`: the same as `pli`
+- `ply`: the same as `pli` (e.g. apply, imply, reply)
 - `prehend`: grap, grasp, arrest (e.g. comprehension)
   - From Latin, prehendere
 - `press`: press (e.g. pressman)
@@ -481,7 +482,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 
 ## Prefix
 
-- `a`: off, of, away from; emphatic (e.g. away, apart, ascribe, atom, abandon)
+- `a`: off, of, away from; emphatic (e.g. away, apart, ascribe, atom, abandon,
+  apply)
   - From Latin
 - `ab`: away, from, from off, down (e.g. abuse)
 - `acu`: cusp (e.g. acupressure)
@@ -525,6 +527,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek, cognate with `bi-`, meaning "two, twice"
   - From Latin, `dis-`, meaning "apart, asunder"
 - `dis`: not or opposite
+- `du`: the same as `di` (e.g. duplicate)
 - `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction)
   - From Greek `dys-`
 - `e`: same as `ex` (e.g. evict)
@@ -761,7 +764,7 @@ Variants:
 - `ish`: noun or adjective, something of one place, quite
 - `ism`: noun, principle (something's abstraction)
 - `ist`: noun, people, principle (e.g. formalist)
-- `it`: the same as `id` (e.g. unit)
+- `it`: the same as `id` (e.g. unit, complicit, explicit)
 - `itude`: noun (something's abstraction)
 - `ity`: noun, related to a state or quality, `i` + `ty` (e.g. performatity)
   - Added to adjectives to form nouns
