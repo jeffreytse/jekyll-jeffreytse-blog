@@ -301,9 +301,10 @@ xxxx
 
 ## Miscellaneous
 
-### Expansion
+### Variable Expansion
 
-About [Enable Delay Expansion](http://ss64.com/nt/delayedexpansion.html)
+To expand variables at execution time rather than at parse time, we should
+use the option [Enable Delay Expansion](http://ss64.com/nt/delayedexpansion.html)
 
 ```bat
 :: Enable delayed expansion of variables (Available in Batch file)
@@ -344,3 +345,4 @@ del c:\foo.txt 1>nul 2>nul
 ## References
 
 - [An A-Z Index of Windows CMD commands](https://ss64.com/nt/)
+- [SetLocal Command](https://ss64.com/nt/setlocal.html)
