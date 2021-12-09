@@ -102,6 +102,33 @@ echo %var:~-3,2%
 baz
 ```
 
+## Loop
+
+```bat
+:: Iterate items
+for %%i in (a b c) do @echo %%i
+a
+b
+c
+
+:: Iterate numbers
+for /l %%i in (1, 2, 5) do @echo %%i
+1
+3
+5
+7
+9
+
+:: Iterate string output
+for /f "delims=," %%i in ("ab,cd") do @echo %%i
+ab
+
+:: Iterate command output
+for /f "delims=" %i in ('echo 123 ^& echo 456') do @echo %i
+123
+456
+```
+
 ## Function
 
 ```bat
