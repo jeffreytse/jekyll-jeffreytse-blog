@@ -2,9 +2,6 @@
 layout: post
 title: The handbook of Algorithm Analysis
 author: Jeffrey Tse
-banner:
-  image: 
-  opacity: 0.76
 categories: computer
 tags:
   - computer
@@ -17,7 +14,14 @@ with one another. When two programs solve the same problem but look
 different, is one program better than the other? Here is a handbook to
 help us do the algorithm analysis.
 
-## Big-O Notation
+## Analysis Dimensions
+
+- Time
+- Space
+
+## Analysis Method
+
+We use the "Big-O Notation".
 
 Here is some common algorithm complexities:
 
@@ -36,6 +40,6 @@ Big-O Complexity Chart
 
 ## References
 
-- [](https://runestone.academy/runestone/books/published/pythonds3/AlgorithmAnalysis/toctree.html)
+- [Algorithm Analysis](https://runestone.academy/runestone/books/published/pythonds3/AlgorithmAnalysis/toctree.html)
 - [Know Thy Complexities!](https://www.bigocheatsheet.com/)
 
