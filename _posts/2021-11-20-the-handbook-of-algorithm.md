@@ -26,7 +26,13 @@ different, is one program better than the other?
 
 ### Analysis Method
 
-We use the "Big-O Notation" to expression complexsity of a algorithm.
+Notations:
+
+- Big O (The worst)
+- Big Omega (The best)
+- Big Delta (The range between the worst and the best)
+
+We use the "Big-O Notation" to expression complexity of a algorithm.
 
 Here is some common algorithm complexities:
 
@@ -82,6 +88,7 @@ algorithm strategy has its own design ideas and problem-solving steps.
   - Classic Problems
     - Depth First Search (DFS)
     - Breadth First Search (BFS)
+    - N Queens Problem
 - Dynamic Programming (DP)
   - Features
     - Optimal Substructure
@@ -92,6 +99,10 @@ algorithm strategy has its own design ideas and problem-solving steps.
   - Classic Problems
     - Fibonacci Sequence
     - Making change using the fewest coins
+    - Longest Common Subsequence (LCS)
+    - Shortest Common Supersequence (SCS)
+    - Longest Increasing Subsequence (LIS)
+    - The Levenshtein distance (Edit Distance)
 
 ### Algorithm Implementation
 
