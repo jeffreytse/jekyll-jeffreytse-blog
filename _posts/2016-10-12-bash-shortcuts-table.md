@@ -12,7 +12,7 @@ tags:
 
 ## Table
 
-Here’s a table of the shortcuts in Bash.
+As Bash use Emacs mode, here’s a table of the shortcuts in Bash.
 
 | Shortcuts     | Description                                                        |
 | ------------- | ------------------------------------------------------------------ |
@@ -44,7 +44,7 @@ Here’s a table of the shortcuts in Bash.
 | ctrl-q        | Allow output to the screen                                         |
 | ctrl-c        | Exit current running (SIGINT)                                      |
 | ctrl-d        | Exit the current shell                                             |
-| ctrl-z        | Suspend the current foreground process                             |
+| ctrl-z        | Suspend the current foreground process (recover by `fg` command)   |
 | alt-h         | Goto manual of current command (Help)                              |
 | alt-l         | List the files of current folder (Similar to the ls command)       |
 | alt-L         | Lower the case from current cursor to the word end                 |
