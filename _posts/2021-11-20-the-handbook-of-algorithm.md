@@ -54,10 +54,29 @@ Big-O Complexity Chart
 - Linear
   - List or Array
   - Queue
+    - Simple Queue
+    - Circular Queue
+    - Priority Queue
+    - Double Ended Queue (Deque)
   - Deque
   - Stack
+  - Linked List
+    - Singly Linked List
+    - Doubly Linked List
+    - Circular Linked List
 - Non-linear
+  - Heap
+    - Binary Heap
+      - Max Heap
+      - Min Heap
   - Tree
+    - Binary Tree
+    - Full Binary Tree
+    - Perfect Binary Tree
+    - Complete Binary Tree
+    - Balanced Binary Tree
+    - Binary Search Tree
+    - AVL Tree
   - Graph
 
 
