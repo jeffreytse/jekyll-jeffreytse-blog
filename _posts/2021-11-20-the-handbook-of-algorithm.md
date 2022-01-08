@@ -125,7 +125,10 @@ algorithm strategy has its own design ideas and problem-solving steps.
 
 ### Algorithm Implementation
 
-Recursion is one implement of the algorithm strategies
+We should understand `Strategy != Algorithm`, algorithms are just means of
+implementing strategies. Recursion is an implementation of the algorithm
+strategies.
+
 
 
 ## References
