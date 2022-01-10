@@ -2,6 +2,9 @@
 layout: post
 title: The handbook of algorithm
 author: Jeffrey Tse
+banner:
+  image: https://wallpaperbat.com/img/79553-city-wallpaper-free-hd-download-hq.jpg
+  opacity: 0.618
 categories: computer
 tags:
   - computer
@@ -128,7 +131,6 @@ algorithm strategy has its own design ideas and problem-solving steps.
 We should understand `Strategy != Algorithm`, algorithms are just means of
 implementing strategies. Recursion is an implementation of the algorithm
 strategies.
-
 
 
 ## References
