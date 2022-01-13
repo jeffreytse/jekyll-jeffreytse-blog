@@ -14,6 +14,16 @@ an artifact of an object-oriented, software-intensive system under development.
 This article is a guide for us to learn this important tool in software
 engineering.
 
+## Tools
+
+There are many tools for implementing UML, here we choose PlantUML instead of
+common drawing software. It uses a descriptive language to build models, which
+has the following benefits:
+
+- Focus on content rather than typography and style
+- Plain text content, which can be version controlled
+- Readable, intuitive, and low learning cost
+
 ## Models
 
 - Functional Model: Shows the functionality of the system from the user's
@@ -23,3 +33,4 @@ engineering.
   category diagrams and object diagrams.
 - Dynamic Model: Shows the internal behavior of the system. Including sequence
   diagrams, activity diagrams, state diagrams.
+
