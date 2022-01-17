@@ -9,10 +9,12 @@ tags:
   - note
 ---
 
-UML is an open method for specifying, visualizing, constructing and writing
-an artifact of an object-oriented, software-intensive system under development.
-This article is a guide for us to learn this important tool in software
-engineering.
+The UML (Unified Modeling Language) is a general-purpose, developmental,
+modeling language in the field of software engineering that is intended to
+provide a standard way to visualize the design of a system. This article is
+a guide for us to learn this important tool in software engineering.
+
+![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/UML_logo.svg/440px-UML_logo.svg.png)
 
 ## Tools
 
@@ -21,16 +23,57 @@ common drawing software. It uses a descriptive language to build models, which
 has the following benefits:
 
 - Focus on content rather than typography and style
-- Plain text content, which can be version controlled
+- Plain text content, which can be versionlized
 - Readable, intuitive, and low learning cost
 
 ## Models
 
-- Functional Model: Shows the functionality of the system from the user's
+- __Functional Model__: Shows the functionality of the system from the user's
   perspective, including use case diagrams.
-- Object model: uses concepts such as objects, attributes, operations, and
+- __Object model__: uses concepts such as objects, attributes, operations, and
   associations to display the structure and foundation of the system, including
   category diagrams and object diagrams.
-- Dynamic Model: Shows the internal behavior of the system. Including sequence
+- __Dynamic Model__: Shows the internal behavior of the system. Including sequence
   diagrams, activity diagrams, state diagrams.
 
+## Diagrams
+
+There are two main categories, `structure diagrams` and `behavioral diagrams`.
+The following are the different UML Diagram Types:
+
+- Structure Diagrams
+  - __Class Diagram__
+  - __Component Diagram__
+  - __Deployment Diagram__
+  - __Object Diagram__
+  - Package Diagram
+  - Profile Diagram
+  - Composite Structure Diagram
+- Behavioral Diagrams
+  - __Use Case Diagram__
+  - __Activity Diagram__
+  - __State Machine Diagram__
+  - __Sequence Diagram__
+  - __Timing Diagram__
+  - Communication Diagram
+  - Interaction Overview Diagram
+
+Note: The bold font of diagrams are supported by PlantUML.
+
+## PlantUML Tutorial
+
+### Basic Elements
+
+- `actor`
+- `boundary`
+- `control`
+- `entity`
+- `database`
+- `collections`
+- `queue`
+
+## References
+
+- [Unified Modeling Language](https://www.wikiwand.com/en/Unified_Modeling_Language)
+- [PlantUML Official Website](https://plantuml.com/)
+- [The Unified Modeling Language Orgnization](https://www.uml-diagrams.org/)
