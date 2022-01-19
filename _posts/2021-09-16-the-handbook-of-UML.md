@@ -38,25 +38,25 @@ has the following benefits:
 
 ## Diagrams
 
-There are two main categories, `structure diagrams` and `behavioral diagrams`.
+There are two main categories, `behavioral diagrams` and `structure diagrams`.
 The following are the different UML Diagram Types:
 
-- Structure Diagrams
-  - __Class Diagram__
-  - __Component Diagram__
-  - __Deployment Diagram__
-  - __Object Diagram__
-  - Package Diagram
-  - Profile Diagram
-  - Composite Structure Diagram
 - Behavioral Diagrams
+  - __Sequence Diagram__
   - __Use Case Diagram__
   - __Activity Diagram__
   - __State Machine Diagram__
-  - __Sequence Diagram__
   - __Timing Diagram__
   - Communication Diagram
   - Interaction Overview Diagram
+- Structure Diagrams
+  - __Class Diagram__
+  - __Object Diagram__
+  - __Component Diagram__
+  - __Deployment Diagram__
+  - Package Diagram
+  - Profile Diagram
+  - Composite Structure Diagram
 
 Note: The bold font of diagrams are supported by PlantUML.
 
