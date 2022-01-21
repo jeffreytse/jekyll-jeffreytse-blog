@@ -62,7 +62,7 @@ Note: The bold font of diagrams are supported by PlantUML.
 
 ## PlantUML Tutorial
 
-### Basic Elements
+Below are the supported `participant` in PlantUML:
 
 - `actor`
 - `boundary`
@@ -71,6 +71,44 @@ Note: The bold font of diagrams are supported by PlantUML.
 - `database`
 - `collections`
 - `queue`
+
+### Sequence Diagram
+
+A __sequence diagram__ or __system sequence diagram (SSD)__ shows object
+interactions arranged in time sequence in the field of software engineering.
+
+A system sequence diagram should specify and show the following:
+
+- __Actor__
+- __Message__
+- __Lifeline__
+- __Activation__
+
+In PlantUML:
+
+- `->`: Arrow is used for delivery message
+- `-->`: Dotted Arrow is used for return message
+
+```plantuml
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml
+```
+
+```plantuml!
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml
+```
+
 
 ## References
 
