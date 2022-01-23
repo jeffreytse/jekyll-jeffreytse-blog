@@ -369,10 +369,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ple`: the same as `pli` (e.g. complement)
   - From Latin `plere`
 - `plect`: the same as `pli` (e.g. complect)
-- `plex`: the same as `pli` (e.g. perplex, complex)
+- `plex`: the same as `pli` (e.g. perplex, complex, multiplex)
 - `please`: please, aggreeable (e.g. unpleasant)
 - `pli`: to fold, to plait, to weave together, (e.g. complicate, explicit,
-  duplicate)
+  duplicate, application, simple)
   - From Latin `plicare`
 - `plic`: the same as `pli` (e.g. explicate, implicate, supplicate)
 - `plo`: the same as `pli` (e.g. employ, deploy, diploma)
@@ -406,6 +406,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `scribble`: careless writing, drawing
 - `script`: the same as `scribe`
 - `sect`: to cut (e.g. sector)
+- `sem`: one; as one, together with
+  - Proto-Indo-European root
+- `sim`: the same as `sem` (e.g. simple)
+- `som`: the same as `sem` (e.g. some)
+- `sm`: the same as `sem`
 - `short`: short
 - `smog`: smog
 - `spect`: look at, to observe (e.g. aspect, respect, inspect, suspect, spectator)
@@ -722,7 +727,7 @@ Variants:
 - `don`: verb (e.g. abandon)
 - `e`: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme, sauce,
   tine, square, crime, envalope)
-  - Sometime is adjective (e.g. remote, marine)
+  - Sometime is adjective (e.g. remote, marine, simple)
 - `ed`: adjective
 - `el`: noun (e.g. barrel)
   - instrumental word-forming element, expressing "appliance, tool," from Old
