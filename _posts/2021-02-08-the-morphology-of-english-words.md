@@ -243,6 +243,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `act`: to do (e.g. action)
   - From Latin `actus`, `agere`
 - `alt`: tall
+- `alter`: the other (e.g. alternate)
 - `anim`: life (e.g. animal)
 - `astr`: star (e.g. astronaut)
 - `bar`: bar, obstacle (e.g. embarrass, barrack)
@@ -278,6 +279,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Cognate with Latin `dicere` "to show;"
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
 - `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
+- `duc`: to lead (e.g. educate, introduce)
+  - From Latin `ducere`
 - `earth`: ground, soil, dirt, dry land; country, district (e.g. earthmover)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
@@ -340,6 +343,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mot`: the same as `mov` (e.g. promote, locomote, emote, motif)
 - `mov`: act of moving from a stationary position, a change of position or
   relation (e.g. move, movie)
+- `nat`: be born (e.g. native)
 - `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
 - `neo`: new (e.g. neonatal)
 - `news`: message (e.g. newspaper, newsstand)
@@ -366,7 +370,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - English comes from Proto-Phoenician
 - `phot`: light (e.g. photo, photostat)
 - `play`: play (e.g. playbook)
-- `ple`: the same as `pli` (e.g. complement)
+- `ple`: the same as `pli` (e.g. complement, supple)
   - From Latin `plere`
 - `plect`: the same as `pli` (e.g. complect)
 - `plex`: the same as `pli` (e.g. perplex, complex, multiplex)
@@ -502,8 +506,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `al`: all (e.g. alway)
 - `apo`: off, away from (e.g. apology, apostate)
   - From Greek
+- `be`: about, around, on all sides (e.g. bemuse)
 - `bi`: two (e.g. binary, biweekly, bicycle, bicentennial, bisexual, bilingual)
 - `bi(o)`: relating to or using living things (e.g. biomedical, biography)
+- `by`: the same as `be` (e.g. bypass, bygone, bylaw, bystander)
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
@@ -532,7 +538,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek, cognate with `bi-`, meaning "two, twice"
   - From Latin, `dis-`, meaning "apart, asunder"
 - `dis`: not or opposite
-- `du`: the same as `di` (e.g. duplicate)
+- `du`: the same as `di` (e.g. duplicate, duplex)
 - `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction)
   - From Greek `dys-`
 - `e`: same as `ex` (e.g. evict)
@@ -546,9 +552,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Word-forming element from Greek `endon` "in, within"
 - `epi`: on, upon, above;in addition to; toward, among; (e.g. epistemic)
   - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
+- `erg`: to do; works (e.g. energy)
 - `es`: to be (emphatic) (e.g. essence, espresso)
   - Proto-Indo-European root meaning "to be."
-- `ex`: out of, from, upwards, completely, deprive of, former (e.g. express)
+- `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
+  extra = `ex` + `trans`)
   - From Latin `ex` "out of, from within; from which time, since; according to;
     in regard to"
   - From PIE `*eghs` "out" (source also of Gaulish `ex-`, Old Irish `ess-`, Old
@@ -593,6 +601,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mis`: badly, wrongly (e.g. mistake, misinform, misunderstand)
 - `mono`: single, alone (e.g. monolith)
 - `multi`: multiple (e.g. multiform)
+- `mus`: music, art, entertainment (e.g. music, museum)
+  - In classical Greece, any art in which the **Muses** presided, but especially
+    music and lyric poetry.
 - `nano`: nano (e.g. nanostructure, nanotechnology)
 - `net`: net (e.g. internet)
 - `non`: not, none = no one (e.g. nonformal)
@@ -600,6 +611,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional)
 - `op`: the same as `ob` (e.g. oppress)
   - assimilated form of `ob-` before `-p-`
+- `org`: the same as `erg` (e.g. organize)
 - `ortho`: straight, true, correct, regular (e.g. orthostatic)
   - before vowels, word-forming element, now mostly in scientific and technical
     compounds, from Greek orthos.
@@ -638,7 +650,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek stereos "solid", before vowels `stere-`, word-forming element
 - `sub`: under (e.g. subway(Americanism, underway is british style),
   substructure, subtitle, submarine)
-- `sup`: the same as `sub` (e.g. suppress, support)
+- `sup`: the same as `sub` (e.g. suppress, support, supple)
   - Assimilated form of `sub-` before `-p-`
 - `sur`: over, above, beyond, in addition; the same as `sub` (e.g. surface)
   - From Anglo-French and Old French, from Old French `sour-`, `sor-`, `sur-`,
@@ -651,10 +663,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `therm`: heat, hot, warm (e.g. hetertherm, thermostat)
 - `trans`: across, beyond, through, on the other side of, to go beyond (e.g.
   transparent, transcribe)
-- `tri`: three, having three, once every three (e.g. trivia, triangle, tricycle)
+- `tri`: three, having three, once every three (e.g. trivia, triangle, tricycle,
+  triplex)
 - `twi`: two, twice, double, in two ways (e.g. twilight)
 - `under`: below, beneath; between, among; before (e.g. undertake, understand)
 - `uni`: one, single, `un` + `i` (e.g. uniform)
+- `urg`: the same as `erg` (e.g. urge)
 - `use`: use (e.g. usage)
 - `vore`: devour (e.g. devore)
 - `vaso`: container, vessel (e.g. vasopressin, vasopressor)
@@ -757,10 +771,11 @@ Variants:
 - `ible`: the same as `able` (e.g. invincible)
 - `ibility`: noun (`ible` + `i` + `ty`)
 - `ic`: adjective, having to do with, having the nature of, being, made of,
-  caused by, similar to (e.g. iconic)
+  caused by, similar to (e.g. iconic, music)
   - From French `-ique` and directly from Latin `-icus` or from cognate Greek `-ikos`
 - `ics`: noun, `ic` + `s`, the study of something (e.g. bioinformatics)
-- `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid, `sol` + `id`)
+- `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
+  polyploid = `poly` + `plo` + `id`)
 - `ile`: the same as `ible`
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
@@ -794,7 +809,7 @@ Variants:
   (e.g. government, judgment)
   - Used to form a noun from a verb
 - `mony`: noun, action, state, condition (e.g. matrimony)
-- `ness`: noun (e.g. formlessness, sickness, highness)
+- `ness`: noun (e.g. formlessness, sickness, highness, suppleness)
   - A quality or a condition (used to form nouns from adjectives)
 - `nomy`: subject
 - `or`: the same as `-er` (e.g. resistor)
@@ -802,7 +817,7 @@ Variants:
 - `ous`: adjective, refer to a quality or condition (e.g. numerous)
 - `phile`: noun, someone who likes something (e.g. technophile)
 - `phobe`: noun, someone who dislikes or hates something (e.g. technophobe)
-- `ship`: noun, abstraction (e.g. friendship, directorship)
+- `ship`: noun, abstraction (e.g. friendship, directorship, musicianship)
 - `some`: adjective
   - Word-forming element used in making adjectives from nouns or adjectives (and
     sometimes verbs)
@@ -848,6 +863,7 @@ Variants:
 ## Composition
 
 - `age`: age, era, epoch (e.g. information-age)
+- `alternative`: alternative (e.g. alternative-energy)
 - `approved`: opproved (e.g. state-approved)
 - `appointed`: appointed (e.g. state-appointed)
 - `based`: based on something, `base` + `ed` (e.g. information-based, rule-based)
@@ -855,6 +871,7 @@ Variants:
 - `blood`: blod (e.g. blood-pressure)
 - `certified`: certified (e.g. state-certified)
 - `chartered`: chartered (e.g. state-chartered)
+- `clean`: clean (e.g. clean-energy)
 - `co`: company (e.g. co-operation, co-president)
 - `cold`: cold (e.g. cold-pressed)
 - `concent`: concent (e.g. informed-consent)
@@ -894,7 +911,7 @@ Variants:
 - `mandated`: mandated (e.g. state-mandated)
 - `neo`: new (e.g. neo-Victorian)
 - `newly`: new (e.g. newly-formed)
-- `non`: none (e.g. non-structural, non-parental)
+- `non`: none (e.g. non-structural, non-parental, non-energy)
 - `oft`: often (e.g. oft-stated)
 - `operated`: operated (e.g. state-operated)
 - `oriented`: `orient` + `ed` (e.g. performance-oriented, technology-oriented)
@@ -908,6 +925,7 @@ Variants:
 - `regulated`: `regulate` + `ed` (e.g. state-regulated)
 - `related`: `relate` + `ed` (e.g. performance-related)
 - `related`: `relate` + `ed` (e.g. technology-related)
+- `renewable`: `renew` + `able` (e.g. renewable-energy)
 - `rich`: rich (e.g. information-rich)
 - `sanctioned`: `sanction` + `ed` (e.g. state-sanctioned)
 - `self`: self (e.g. self-instruction)
@@ -917,6 +935,7 @@ Variants:
 - `short`: short (e.g. short-period)
 - `single`: single (e.g. single-parent)
 - `social`: social (e.g. social-structural)
+- `solar`: solar (e.g. solar-energy)
 - `step`: step (e.g. step-parent)
 - `state`: state (e.g. state-specific)
 - `stage`: stage (e.g. stage-managed)
@@ -932,6 +951,7 @@ Variants:
 - `welfare`: welfare (e.g. welfare-reform)
 - `wielding`: `wield` + `ing` (e.g. hammer-wielding)
 - `vice`: vice (e.g. vice-president)
+- `zero`: zero (e.g. zero-energy)
 - ...
 
 ## References
