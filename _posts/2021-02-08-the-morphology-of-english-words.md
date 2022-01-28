@@ -242,9 +242,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 
 - `act`: to do (e.g. action)
   - From Latin `actus`, `agere`
+- `al`: beyond (e.g. allergy)
 - `alt`: tall
 - `alter`: the other (e.g. alternate)
 - `anim`: life (e.g. animal)
+- `art`: to do, make (e.g. artificial)
 - `astr`: star (e.g. astronaut)
 - `bar`: bar, obstacle (e.g. embarrass, barrack)
   - From Latin `barra`
@@ -282,6 +284,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `duc`: to lead (e.g. educate, introduce)
   - From Latin `ducere`
 - `earth`: ground, soil, dirt, dry land; country, district (e.g. earthmover)
+- `erg`: to do; work; activity (e.g. energy, synergy)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fect`: doing (e.g. perfect)
@@ -318,10 +321,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lat`: take (e.g. relate, `re` + `lat` + `ate`)
 - `land`: land (e.g. motherland, fatherland, landmark, mainland)
 - `late`: late
-- `lect`: to collect, gather (e.g. collect, lecture, lexicon)
-- `lex`: about dict (e.g. lexicon, lexicography)
+- `lect`: to pick out, choose; to collect, gather (e.g. collect, lecture,
+  lexicon, elect, select, neglect)
+- `leg`: the same as `lect`
+- `legis`: the same as `leg` (e.g. legisation)
+- `lex`: the same as `lect` (e.g. lexicon, lexicography)
 - `lic`: to be allowed, be lawful (e.g. license)
   - Possibly source also of Lettish likstu "I come to terms"
+- `lig`: the same as `lect` (e.g. intelligent)
 - `lith`: stone (e.g. monolith, lithography)
 - `loc`: a place, spot (e.g. local, locomote)
 - `log`: language, symbol (e.g. logger)
@@ -360,6 +367,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `od`: a way or manner (e.g. method, period, odograph)
   - Method from Latin `methodus` "way of teaching or going", `meta-` + `hodos`,
     `meth` originally pursuit, a following after
+- `org`: the same as `erg` (e.g. organize)
 - `ori`: rise (e.g. oriented )
   - From Latin, the position that sun rising from.
 - `out`: out (e.g. outperform)
@@ -456,7 +464,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sui`: one's own (e.g. suicide)
   - From Latin sui "of oneself" (genitive of se "self")
 - `swim`: swim
-- `syn`: to place together, organize, form in order
+- `syn`: to place together, organize, form in order (e.g. synergy)
   - From stem of `synistanai`
 - `sys`: the same as `syn` (e.g. system)
 - `tail`: to cut in pieces (e.g. tailor, detail)
@@ -470,6 +478,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `top`: top
 - `tutor`: to protect; to be strong (e.g. tutorial, tuition)
 - `under`: under (e.g. underline)
+- `urg`: the same as `erg` (e.g. urge, surgery=`s` hand + `urg` + `ery`)
 - `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
 - `vi`: road (e.g. via, obviate, obvious, previous, trivia)
@@ -531,7 +540,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
 - `de`: opposite, remove, reduce, from, entirely, completely, off (e.g. deform,
   deviate, describe, demote, debate, deserve, derive, derail, deduct, detail,
-  determine, demand, deploy)
+  determine, demand, deploy, deselect)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence, diploma)
@@ -552,7 +561,6 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Word-forming element from Greek `endon` "in, within"
 - `epi`: on, upon, above;in addition to; toward, among; (e.g. epistemic)
   - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
-- `erg`: to do; works (e.g. energy)
 - `es`: to be (emphatic) (e.g. essence, espresso)
   - Proto-Indo-European root meaning "to be."
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
@@ -611,7 +619,6 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional)
 - `op`: the same as `ob` (e.g. oppress)
   - assimilated form of `ob-` before `-p-`
-- `org`: the same as `erg` (e.g. organize)
 - `ortho`: straight, true, correct, regular (e.g. orthostatic)
   - before vowels, word-forming element, now mostly in scientific and technical
     compounds, from Greek orthos.
@@ -640,6 +647,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `re`: back, again (e.g. response, review, reunite, revolve)
 - `rheo`: a flowing, stream, current (e.g. rheostat)
   - from Greek `rheos`, which is related to rhein "to flow"
+- `se`: without, apart, aside, on one's own (e.g. select, secret)
 - `semi`: half
 - `sens`: understanding or feeling of something (e.g. sense)
 - `sent`: the same as `sens` (e.g. consent)
@@ -668,7 +676,6 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `twi`: two, twice, double, in two ways (e.g. twilight)
 - `under`: below, beneath; between, among; before (e.g. undertake, understand)
 - `uni`: one, single, `un` + `i` (e.g. uniform)
-- `urg`: the same as `erg` (e.g. urge)
 - `use`: use (e.g. usage)
 - `vore`: devour (e.g. devore)
 - `vaso`: container, vessel (e.g. vasopressin, vasopressor)
@@ -811,7 +818,7 @@ Variants:
 - `mony`: noun, action, state, condition (e.g. matrimony)
 - `ness`: noun (e.g. formlessness, sickness, highness, suppleness)
   - A quality or a condition (used to form nouns from adjectives)
-- `nomy`: subject
+- `nomy`: subject; manage (e.g. economy, economic)
 - `or`: the same as `-er` (e.g. resistor)
 - `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary, mandatory)
 - `ous`: adjective, refer to a quality or condition (e.g. numerous)
@@ -869,6 +876,7 @@ Variants:
 - `based`: based on something, `base` + `ed` (e.g. information-based, rule-based)
 - `best`: best (e.g. best-informed)
 - `blood`: blod (e.g. blood-pressure)
+- `by`: by (e.g. by-election)
 - `certified`: certified (e.g. state-certified)
 - `chartered`: chartered (e.g. state-chartered)
 - `clean`: clean (e.g. clean-energy)
@@ -910,7 +918,7 @@ Variants:
 - `managed`: managed (e.g. state-managed, stage-managed)
 - `mandated`: mandated (e.g. state-mandated)
 - `neo`: new (e.g. neo-Victorian)
-- `newly`: new (e.g. newly-formed)
+- `newly`: new (e.g. newly-formed, newly-elected)
 - `non`: none (e.g. non-structural, non-parental, non-energy)
 - `oft`: often (e.g. oft-stated)
 - `operated`: operated (e.g. state-operated)
