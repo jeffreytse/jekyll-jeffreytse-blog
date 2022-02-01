@@ -276,6 +276,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `dek`: to take, accept (e.g. decorate)
 - `dent`: a hollow area in the surface of something (e.g. dental)
   - From Latin `dint`
+- `dia`: across, between (e.g. dialect, dialog)
 - `dict`: to say, speak; say often, prescribe (e.g. dictionary, dictate. verdict)
 - `digm`: to show (e.g. paramdigm)
   - Cognate with Latin `dicere` "to show;"
@@ -322,13 +323,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `land`: land (e.g. motherland, fatherland, landmark, mainland)
 - `late`: late
 - `lect`: to pick out, choose; to collect, gather (e.g. collect, lecture,
-  lexicon, elect, select, neglect)
-- `leg`: the same as `lect`
+  lexicon, elect, select, neglect, dialect, idiolect)
+- `leg`: the same as `lect` (e.g. delegate, legal)
 - `legis`: the same as `leg` (e.g. legisation)
 - `lex`: the same as `lect` (e.g. lexicon, lexicography)
 - `lic`: to be allowed, be lawful (e.g. license)
   - Possibly source also of Lettish likstu "I come to terms"
-- `lig`: the same as `lect` (e.g. intelligent)
+- `lig`: the same as `lect` (e.g. intelligent, eligible, negligent)
 - `lith`: stone (e.g. monolith, lithography)
 - `loc`: a place, spot (e.g. local, locomote)
 - `log`: language, symbol (e.g. logger)
@@ -352,6 +353,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   relation (e.g. move, movie)
 - `nat`: be born (e.g. native)
 - `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
+- `nec`: not (e.g. neglect)
 - `neo`: new (e.g. neonatal)
 - `news`: message (e.g. newspaper, newsstand)
   - Message from North, East, West and South
@@ -546,7 +548,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence, diploma)
   - From Greek, cognate with `bi-`, meaning "two, twice"
   - From Latin, `dis-`, meaning "apart, asunder"
-- `dis`: not or opposite
+- `dis`: not or opposite (e.g. disagree)
 - `du`: the same as `di` (e.g. duplicate, duplex)
 - `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction)
   - From Greek `dys-`
@@ -580,6 +582,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `homo`: same (e.g. homogeneous, homosexual)
 - `hypo`: less than usual, especially too little; the same as `sub-`, under
   (e.g. hypotherm, hypostatic)
+- `idio`: one's own, personal (e.g. idiolect)
 - `il`: used instead of `in-` before the letter `l` (e.g. illegal)
 - `im`: not, opposite of; in,into (e.g. immobile, impersonal, implant, impress,
   immovable)
@@ -626,7 +629,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pan`: all, every, whole, all-inclusive (e.g. pandemic)
   - From Greek `pan-`, combining form of pas
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal
-  (e.g. paramedic, parastatal)
+  (e.g. paramedic, parastatal, paralegal)
   - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: through; throughout; thoroughly; entirely, utterly (e.g. perfect, perform, persist)
 - `pir`: pear (e.g. piriform)
@@ -761,6 +764,7 @@ Variants:
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
 - `ery`: noun or adjective, the same as `-ary` (e.g. stationery)
+- `ese`: nount, language name (e.g. legalese)
 - `ess`: noun, female (e.g. actress, waitress, tigress, directress)
 - `ette`: noun, a small thing of a particular type (e.g. barrette, snackette, statuette)
 - `fic`: adjective, making, creating (e.g. scientific)
