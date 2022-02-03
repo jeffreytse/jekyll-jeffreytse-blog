@@ -322,9 +322,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lat`: take (e.g. relate, `re` + `lat` + `ate`)
 - `land`: land (e.g. motherland, fatherland, landmark, mainland)
 - `late`: late
-- `lect`: to pick out, choose; to collect, gather (e.g. collect, lecture,
+- `lect`: to pick out, choose; to collect, gather; law (e.g. collect, lecture,
   lexicon, elect, select, neglect, dialect, idiolect)
-- `leg`: the same as `lect` (e.g. delegate, legal)
+- `leg`: the same as `lect` (e.g. delegate, legal, privilege)
 - `legis`: the same as `leg` (e.g. legisation)
 - `lex`: the same as `lect` (e.g. lexicon, lexicography)
 - `lic`: to be allowed, be lawful (e.g. license)
@@ -397,6 +397,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `pressare`
 - `prem`: the same as `prim` (e.g. premier, premium)
 - `prim`: very first, original (e.g. primipara)
+- `priv`: private (e.g. privilege)
 - `put`: think
 - `pol`: citadel, fort, city (e.g. politic, polite, police)
   - From Greek `polis`
@@ -631,7 +632,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal
   (e.g. paramedic, parastatal, paralegal)
   - From Greek `para-`, before vowels, par-, word-forming element.
-- `per`: through; throughout; thoroughly; entirely, utterly (e.g. perfect, perform, persist)
+- `per`: through; throughout; thoroughly; entirely, utterly (e.g. perfect,
+  perform, persist)
 - `pir`: pear (e.g. piriform)
 - `plat`: small place (e.g. platform)
 - `poly`: multiple, entire (e.g. polytechnic)
@@ -646,7 +648,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pyro`: something related to fire (e.g. pyrotechnics)
 - From Greek `pyr` (genitive `pyros`)
 - `quad`: related to quantity of four
-- `quasi`: as if, as it were (e.g. quasi-static)
+- `quasi`: as if, as it were (e.g. quasi-static, quasi-legal)
 - `re`: back, again (e.g. response, review, reunite, revolve)
 - `rheo`: a flowing, stream, current (e.g. rheostat)
   - from Greek `rheos`, which is related to rhein "to flow"
