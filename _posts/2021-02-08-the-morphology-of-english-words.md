@@ -322,14 +322,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lat`: take (e.g. relate, `re` + `lat` + `ate`)
 - `land`: land (e.g. motherland, fatherland, landmark, mainland)
 - `late`: late
-- `lect`: to pick out, choose; to collect, gather; law (e.g. collect, lecture,
-  lexicon, elect, select, neglect, dialect, idiolect)
-- `leg`: the same as `lect` (e.g. delegate, legal, privilege)
+- `lect`: to pick out, choose; to collect, gather; law; to speak (e.g. collect,
+  lecture, lexicon, elect, select, neglect, dialect, idiolect)
+- `leg`: the same as `lect` (e.g. delegate, legal, privilege, legend, legacy, college)
 - `legis`: the same as `leg` (e.g. legisation)
 - `lex`: the same as `lect` (e.g. lexicon, lexicography)
 - `lic`: to be allowed, be lawful (e.g. license)
   - Possibly source also of Lettish likstu "I come to terms"
-- `lig`: the same as `lect` (e.g. intelligent, eligible, negligent)
+- `lig`: the same as `lect` (e.g. intelligent, eligible, negligent, diligent)
 - `lith`: stone (e.g. monolith, lithography)
 - `loc`: a place, spot (e.g. local, locomote)
 - `log`: language, symbol (e.g. logger)
@@ -554,6 +554,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction)
   - From Greek `dys-`
 - `e`: same as `ex` (e.g. evict)
+- `ec`: the same as `ex-` (e.g. eclectic)
 - `ecto`: outside, external (e.g. ectoderm)
   - Word-forming element generally before vowels `ect-`
   - From Latinized form of Greek adverb `ektos` "outside, out of; free from; exempt"
@@ -692,7 +693,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 Vowel + 2 Consonant patterns:
 
 - `a??`: emphatic (e.g. attention, apprehend, afflux, assure, assiduous,
-  apparent, acquire)
+  apparent, acquire, allege)
 - `e??`: out of, same as `ex-` (e.g. eccentric, effluent, efflux)
 - `i??`: not, emphatic, same as `ir-` (e.g. irregular)
 - `o??`: opposite of, emphatic, same as `op-` (e.g. oppress)
@@ -728,7 +729,7 @@ Variants:
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
 - `acle`: noun (e.g. obstacle)
-- `acy`: noun; quality, state, or condition (e.g. obstinacy)
+- `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy)
 - `ade`: noun (e.g. blockade)
   - Word-forming delement denoting an action or product of an action
 - `ar`: noun same as `-er`
@@ -739,7 +740,8 @@ Variants:
 - `at`: noun or verb (e.g. formate)
 - `ate`: verb or adjective or noun
   - Verb, make something doing (e.g. regulate, control somthing or make it regular)
-  - Adjective, full of or showing a particular quality (e.g. affectionate)
+  - Adjective, full of or showing a particular quality (e.g. affectionate,
+    collegiate)
   - Noun, job, rank, or degree of a particular quality/type/duty...
 - `ation`: noun (`ate` + `ion`)
 - `ative`: noun (`ate` + `ive`)
@@ -762,7 +764,8 @@ Variants:
   - Suffix `-al` origins from here
 - `en`: verb, adjective or noun is rarely seen (e.g. barren)
 - `ence`: the same as `ance` (e.g. violence)
-- `ent`: (e.g. different, recipient)
+- `end`: noun (e.g. legend)
+- `ent`: adjective (e.g. different, recipient)
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
 - `ery`: noun or adjective, the same as `-ary` (e.g. stationery)
@@ -816,8 +819,8 @@ Variants:
 - `less`: adjective, negation (e.g. homeless, hopeless, careless, meaningless,
   useless, regardless)
 - `let`: noun, small one (e.g. booklet, outlet, coverlet)
-- `logy`: noun, study
-- `ly`: adverb
+- `logy`: noun, study (e.g. philosophy)
+- `ly`: adverb (e.g. easily)
 - `ment`: noun, to show actions, the people who do them, or their results
   (e.g. government, judgment)
   - Used to form a noun from a verb
@@ -865,7 +868,7 @@ Variants:
 - `-ate` = `-ite` = `-ute`
   - `-ation` = `-ition` = `-ution`
 - `-um` = `-im` = (`-am` = `-em`)
-- `-ant` = `-ent` = `-and` = `-end` (e.g. important, student)
+- `-ant` = `-ent` = `-and` = `-end` (e.g. important, student, legend)
   - noun or adjective; none means man in general
 - `-ance` = `-ence` = `-ancy` = `-ency` (e.g. balance, fluence)
   - noun; occasionally verb
@@ -875,13 +878,14 @@ Variants:
 
 ## Composition
 
-- `age`: age, era, epoch (e.g. information-age)
+- `age`: age, era, epoch (e.g. information-age, college-age)
 - `alternative`: alternative (e.g. alternative-energy)
 - `approved`: opproved (e.g. state-approved)
 - `appointed`: appointed (e.g. state-appointed)
 - `based`: based on something, `base` + `ed` (e.g. information-based, rule-based)
 - `best`: best (e.g. best-informed)
 - `blood`: blod (e.g. blood-pressure)
+- `bound`: bound (e.g. college-bound)
 - `by`: by (e.g. by-election)
 - `certified`: certified (e.g. state-certified)
 - `chartered`: chartered (e.g. state-chartered)
