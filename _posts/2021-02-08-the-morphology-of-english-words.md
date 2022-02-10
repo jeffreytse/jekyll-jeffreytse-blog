@@ -243,6 +243,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `act`: to do (e.g. action)
   - From Latin `actus`, `agere`
 - `al`: beyond (e.g. allergy)
+- `algi`: pain (e.g. neuralgia)
 - `alt`: tall
 - `alter`: the other (e.g. alternate)
 - `anim`: life (e.g. animal)
@@ -276,7 +277,6 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `dek`: to take, accept (e.g. decorate)
 - `dent`: a hollow area in the surface of something (e.g. dental)
   - From Latin `dint`
-- `dia`: across, between (e.g. dialect, dialog)
 - `dict`: to say, speak; say often, prescribe (e.g. dictionary, dictate. verdict)
 - `digm`: to show (e.g. paramdigm)
   - Cognate with Latin `dicere` "to show;"
@@ -332,9 +332,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lig`: the same as `lect` (e.g. intelligent, eligible, negligent, diligent)
 - `lith`: stone (e.g. monolith, lithography)
 - `loc`: a place, spot (e.g. local, locomote)
-- `log`: language, symbol (e.g. logger)
-- `logos`: speech (e.g. apology)
-  - From Greek
+- `log`: speech; to speek; word, speech, thought (e.g. logo, logger, apology)
+  - From Greek `legein` = to speak, `logos` = word, speech, though
+  - From Latin `loqui` = to speak
+- `logos`: the same as `log`
 - `low`: low
 - `mand`: to order (e.g. demand)
 - `man`: hand (e.g. manufactor, manuscript, mandate)
@@ -355,6 +356,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
 - `nec`: not (e.g. neglect)
 - `neo`: new (e.g. neonatal)
+- `nerv`: tendon, sinew; to give strength or vigor (e.g. nervous, eneravte)
+  - From Latin `nervus`, Greek `neuros`
+- `neur`: the same as `nerv` (e.g. neural)
 - `news`: message (e.g. newspaper, newsstand)
   - Message from North, East, West and South
 - `nocu`: to hurt, injure, harm (e.g. nocuous)
@@ -549,6 +553,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence, diploma)
   - From Greek, cognate with `bi-`, meaning "two, twice"
   - From Latin, `dis-`, meaning "apart, asunder"
+- `dia`: across, between; through, throughout (e.g. dialect, dialog)
+  - before vowels, `di-`, word-forming element meaning "through, in different
+    directions, between,"
 - `dis`: not or opposite (e.g. disagree)
 - `du`: the same as `di` (e.g. duplicate, duplex)
 - `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction)
@@ -754,7 +761,7 @@ Variants:
   - From Old English dom "statute, judgment" (see `doom`)
 - `don`: verb (e.g. abandon)
 - `e`: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme, sauce,
-  tine, square, crime, envalope)
+  tine, square, crime, envalope, nerve)
   - Sometime is adjective (e.g. remote, marine, simple)
 - `ed`: adjective
 - `el`: noun (e.g. barrel)
