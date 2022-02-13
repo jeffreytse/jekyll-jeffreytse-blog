@@ -267,7 +267,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     access to"
 - `col`: column (e.g. coliform, `col` + `i` + `form`)
 - `cover`: cover (e.g. coverall, bedcover, covert)
-- `cri`: to sieve (e.g. crisis, crime)
+- `cri`: to sieve (e.g. crisis, crime, endocrine)
 - `cribr`: sieve, tube with holes (e.g. cribriform)
 - `cruc`: cross (e.g. cruciform)
 - `cunei`: cunei (e.g. cuneiform)
@@ -292,6 +292,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fer`: to carry, to bear (e.g. confer, infer, transfer)
   - From Latin `ferre`
 - `for`: the same as `fer`
+- `fibr` a thread, string (e.g. fiber, neurofibroma)
 - `fine`: end, limit, acme (e.g. define)
 - `fiss`: to split (e.g. fission, fissiparous)
 - `flu`: the affects between objects (e.g. influence, flush)
@@ -301,7 +302,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `form`: shape, look, etc. (e.g. transform, formula)
   - It comes from Latin `formare`
 - `gene`: give birth, beget; race, kind; native, natural (e.g. general,
-  generation, genuine)
+  generation, genuine, antigen, pathogen)
 - `glossa` language, tongue
   - From Greek `glōtta`
 - `glotta`: the same as `glossa` (e.g. polyglot)
@@ -311,6 +312,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `heal`: heal (e.g. healthy)
 - `hemo`: blood (e.g. hemostat)
 - `high`: high (e.g. highlight)
+- `hist`: tissue (e.g. histoplasmin, histopathology)
 - `hol`: whole, entire, complete (e.g. whole, holistic, holocaust, hologram)
   - From Greek `holos`
 - `hu`: clay (e.g. human)
@@ -352,7 +354,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mot`: the same as `mov` (e.g. promote, locomote, emote, motif)
 - `mov`: act of moving from a stationary position, a change of position or
   relation (e.g. move, movie)
-- `nat`: be born (e.g. native)
+- `nat`: be born (e.g. native, nature, naturopathic)
 - `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
 - `nec`: not (e.g. neglect)
 - `neo`: new (e.g. neonatal)
@@ -377,6 +379,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ori`: rise (e.g. oriented )
   - From Latin, the position that sun rising from.
 - `out`: out (e.g. outperform)
+- `passi`: the same as `patho` (e.g. passion, passive, compassion)
+- `patho`: to feel, to suffer (e.g. pathology)
+  - From Greek `pathos`
+- `pathy`: the same as `patho` (e.g. pathetic, apathy, sympathy)
+- `pati`: the same as `patho` (e.g. patient, compatible)
+  - From Latin `pat(i)`
 - `pact`: to fix, fasten (e.g. compact, pactum, package)
 - `par`: the same as `pear` (e.g. parent, primipara, fissiparous)
 - `pear`: to come forth, be visible; submit, obey (e.g. appear)
@@ -402,6 +410,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `prem`: the same as `prim` (e.g. premier, premium)
 - `prim`: very first, original (e.g. primipara)
 - `priv`: private (e.g. privilege)
+- `psycho`: breath, spirit, soul (e.g. psychology, psychopathology)
+  - From Greek `psykhē`
 - `put`: think
 - `pol`: citadel, fort, city (e.g. politic, polite, police)
   - From Greek `polis`
@@ -450,7 +460,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   obstacle, obstinate, stall, stiff, install, prostitute, destiny, destination,
   stalemate, stalwart, oust, stiff, stub, stem, stamp)
 - `sist`: the same as `st` (e.g. assist, exist, insist, persist)
-- `soci`: companion, ally (e.g. social)
+- `soci`: companion, ally (e.g. social, sociopath)
 - `star`: star
 - `stat`: the same as `st` (e.g. state `st` + `ate`, upstate, overstate)
 - `stil`: the same as `st` (e.g. still)
@@ -462,6 +472,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     German, Middle Dutch `stille`, Dutch `stil`, Old High German `stilli`,
     German `still`)
 - `sti`: point, prick, pierce (e.g. stick, stimulus)
+- `str`: draw tight, bind tight, compress, press together
+- `strain`: the same as `str` (e.g. strain)
+- `strang`: the same as `str`
+- `stress`: the same as `str`
+- `strict`: the same as `str` (e.g. stricture, restrict, district)
+- `string`: the same as `str`
 - `struct`: build (e.g. construct)
   - From Latin, structura, from struere, the way an organization, system,
     market etc is organized or put together.
@@ -483,9 +499,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tire`: become weary, exhausted (e.g. overtire)
 - `tom`: divide (e.g. atom, prostatectomy)
 - `top`: top
+- `toxi`: poison (e.g. toxic, toxin = `toxic` + `in`)
 - `tutor`: to protect; to be strong (e.g. tutorial, tuition)
 - `under`: under (e.g. underline)
 - `urg`: the same as `erg` (e.g. urge, surgery=`s` hand + `urg` + `ery`)
+- `vas`: a tube, duct, or conduit for conveying blood, lymph, semen, etc.
+  (e.g. vasopressor, vasoconstriction)
 - `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
 - `vi`: road (e.g. via, obviate, obvious, previous, trivia)
@@ -508,14 +527,18 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 ## Prefix
 
 - `a`: off, of, away from; emphatic (e.g. away, apart, ascribe, atom, abandon,
-  apply)
+  apply, apathy)
   - From Latin
 - `ab`: away, from, from off, down (e.g. abuse)
 - `acu`: cusp (e.g. acupressure)
 - `ad`: to (e.g. advocate)
 - `aero`: air (e.g. aerostat)
+- `ana`: on, upon, above; back; again (e.g. analog, anatomy)
+  - Before vowels an-, word-forming element
+- `andeno`: gland-like (e.g. andenoma, andenovirus)
 - `ant`: in front of, before (e.g. antedate, anteroom, anticipate, antique)
-- `anti`: opposed to or against something (e.g. anti-virus, antibiotic)
+- `anti`: opposed to or against something (e.g. anti-virus, antibiotic,
+  antipathetic, anti-cheating)
 - `as`: the same as `ad` (e.g. assist)
 - `agri`: relating to farming (e.g. agriculture, agribusiness)
 - `agro`: the same as `agri` (e.g. agrobiology, agro-industry)
@@ -526,6 +549,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `bi`: two (e.g. binary, biweekly, bicycle, bicentennial, bisexual, bilingual)
 - `bi(o)`: relating to or using living things (e.g. biomedical, biography)
 - `by`: the same as `be` (e.g. bypass, bygone, bylaw, bystander)
+- `cardio`: relating to the heart (e.g. cardiograph)
+- `cephal`: head, uppermost or top part, source (e.g. cephalopod, encephalopathy)
+  - Modern Latin combining form of Greek `kephalē`
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
@@ -568,7 +594,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `electro`: electrical, electricity (e.g. electrotechnics)
 - `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower, embody)
 - `en`: in, into (e.g. enslave, envalope)
-- `endo`: inside, within, internal (e.g. endogenous)
+- `endo`: inside, within, internal (e.g. endogenous, endocrine)
   - Word-forming element from Greek `endon` "in, within"
 - `epi`: on, upon, above;in addition to; toward, among; (e.g. epistemic)
   - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
@@ -588,13 +614,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `gyro`: a ring, circle (e.g. gyrate, gyroscope)
   - From Greek `gyros`
 - `hetero`: other, opposite, different (e.g. heterogeneous, heterosexual)
-- `homo`: same (e.g. homogeneous, homosexual)
+- `homo`:  one and the same (e.g. homogeneous, homosexual)
+- `homeo`: like, resembling, of the same kind; equal (e.g. homeopathy)
+  - Latinized from Greek `homio-`, from `homoios`
 - `hypo`: less than usual, especially too little; the same as `sub-`, under
   (e.g. hypotherm, hypostatic)
-- `idio`: one's own, personal (e.g. idiolect)
+- `idio`: one's own, personal, private (e.g. idiolect, idiomatic, idiopathic)
 - `il`: used instead of `in-` before the letter `l` (e.g. illegal)
 - `im`: not, opposite of; in,into (e.g. immobile, impersonal, implant, impress,
-  immovable)
+  immovable, impassion)
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
 - `in`: not, emphatic, inside (e.g. invalid, insufficient, inform, inland)
@@ -624,9 +652,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mus`: music, art, entertainment (e.g. music, museum)
   - In classical Greece, any art in which the **Muses** presided, but especially
     music and lyric poetry.
+- `myo`: relating to the muscle tissue (e.g. myocardial, cardiomyopathy)
 - `nano`: nano (e.g. nanostructure, nanotechnology)
 - `net`: net (e.g. internet)
 - `non`: not, none = no one (e.g. nonformal)
+- `nephro`: kidney (e.g. nephrology)
 - `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct, obsess)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional)
 - `op`: the same as `ob` (e.g. oppress)
@@ -634,6 +664,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ortho`: straight, true, correct, regular (e.g. orthostatic)
   - before vowels, word-forming element, now mostly in scientific and technical
     compounds, from Greek orthos.
+- `osteo`: relating to bones (e.g. osteopath)
 - `over`: over (e.g. overfly)
 - `pan`: all, every, whole, all-inclusive (e.g. pandemic)
   - From Greek `pan-`, combining form of pas
@@ -658,6 +689,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `quad`: related to quantity of four
 - `quasi`: as if, as it were (e.g. quasi-static, quasi-legal)
 - `re`: back, again (e.g. response, review, reunite, revolve)
+- `retina`: net-like tunic (e.g. retinal, retinopathy)
+  - From Latin `rete` "net"
 - `rheo`: a flowing, stream, current (e.g. rheostat)
   - from Greek `rheos`, which is related to rhein "to flow"
 - `se`: without, apart, aside, on one's own (e.g. select, secret)
@@ -711,7 +744,7 @@ Variants:
 - `di-` = `dis-` = `de-` = `is-`
 - `in-` = `im-` = `il` = `ir` = `un-` (e.g. impolite, illigal, irregular)
 - `sub-` = `sup-` = `sur-` = `sus-`
-- `en-` = `em-` = `in-` (e.g. enrich, enlarge, encourage)
+- `en-` = `em-` = `in-` = `im-` (e.g. enrich, enlarge, encourage, impassion)
 - `super-` = `over-`
 - `inter-` = `intel-` = `enter-` (e.g. )
 
@@ -739,7 +772,8 @@ Variants:
 - `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy)
 - `ade`: noun (e.g. blockade)
   - Word-forming delement denoting an action or product of an action
-- `ar`: noun same as `-er`
+- `ar`: noun, the same as `-er`, someone who does somthing; adjective, relating
+  to somthing (e.g. liar, polar, circular, stellar)
 - `ary`: adjective or noun; having to do with, characterized by, tending to,
   place for (e.g. arbitrary, monetary)
   - from Middle English `-orie`, from Old North French `-ory`, `-orie` (Old
@@ -748,7 +782,7 @@ Variants:
 - `ate`: verb or adjective or noun
   - Verb, make something doing (e.g. regulate, control somthing or make it regular)
   - Adjective, full of or showing a particular quality (e.g. affectionate,
-    collegiate)
+    collegiate, passionate)
   - Noun, job, rank, or degree of a particular quality/type/duty...
 - `ation`: noun (`ate` + `ion`)
 - `ative`: noun (`ate` + `ive`)
@@ -772,12 +806,15 @@ Variants:
 - `en`: verb, adjective or noun is rarely seen (e.g. barren)
 - `ence`: the same as `ance` (e.g. violence)
 - `end`: noun (e.g. legend)
-- `ent`: adjective (e.g. different, recipient)
+- `ent`: adjective or noun (e.g. different, recipient, patient)
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
 - `ery`: noun or adjective, the same as `-ary` (e.g. stationery)
 - `ese`: nount, language name (e.g. legalese)
 - `ess`: noun, female (e.g. actress, waitress, tigress, directress)
+- `esis`: noun, the same as `etic` (e.g. pathogenesis)
+- `etic`: adjective, pertaining to (e.g. pathetic)
+  - From Greek `-etikos`, adjectival suffix for nouns ending in `-esis`
 - `ette`: noun, a small thing of a particular type (e.g. barrette, snackette, statuette)
 - `fic`: adjective, making, creating (e.g. scientific)
   - From French `-fique` and directly from Latin `-ficus` "making, doing"
@@ -802,6 +839,8 @@ Variants:
 - `ile`: the same as `ible`
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
+- `ine`: adjective, of, like (e.g. aniline, aquiline)
+- `ina`: the same as `ine` (e.g. retina = `rete` + `ina`)
 - `ing`: adjective (e.g. fitting)
 - `ion`: noun (e.g. formation, vision)
 - `ish`: noun or adjective, something of one place, quite
@@ -811,6 +850,8 @@ Variants:
 - `itude`: noun (something's abstraction)
 - `ity`: noun, related to a state or quality, `i` + `ty` (e.g. performatity)
   - Added to adjectives to form nouns
+- `itis`: noun, an illness or infection that affects a particular part of your
+  body (e.g. neuritis)
 - `ium`: noun (e.g. scriptorium, technetium, medium)
 - `ive`: adjective (e.g. active)
 - `ise`: verb (Americanism)
@@ -828,6 +869,7 @@ Variants:
 - `let`: noun, small one (e.g. booklet, outlet, coverlet)
 - `logy`: noun, study (e.g. philosophy)
 - `ly`: adverb (e.g. easily)
+- `ma`: noun, mass or lump (e.g. phyma, neuroma, gemma)
 - `ment`: noun, to show actions, the people who do them, or their results
   (e.g. government, judgment)
   - Used to form a noun from a verb
@@ -838,6 +880,10 @@ Variants:
 - `or`: the same as `-er` (e.g. resistor)
 - `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary, mandatory)
 - `ous`: adjective, refer to a quality or condition (e.g. numerous)
+- `pathy`: adjective, `path` + `y`; feeling, suffering, emotion; disorder, disease
+  (e.g. neuropathy, homeopathy, sympathy)
+  - From Latin `-pathia`, from Greek `-patheia`
+- `pathic`: adjective, the same as `path` + `ic` (e.g. neuropathic)
 - `phile`: noun, someone who likes something (e.g. technophile)
 - `phobe`: noun, someone who dislikes or hates something (e.g. technophobe)
 - `ship`: noun, abstraction (e.g. friendship, directorship, musicianship)
