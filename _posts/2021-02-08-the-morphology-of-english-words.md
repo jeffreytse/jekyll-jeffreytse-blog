@@ -255,6 +255,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ban`: the same as `bar` (e.g. abandon, banner, banquet, bank)
   - Italian `banchi`, the root of the Italian word for banks
 - `bat`: to beat (e.g. battle, debate)
+- `bow`: to bend (e.g. bowstring)
 - `canon`: a rule or law (e.g. canonical)
 - `carn`: flesh (e.g. carnage)
 - `cerebr`: brain (e.g. cerebral)
@@ -282,6 +283,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Cognate with Latin `dicere` "to show;"
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
 - `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
+- `draw`: act of pulling (e.g. drawstring)
 - `duc`: to lead (e.g. educate, introduce)
   - From Latin `ducere`
 - `earth`: ground, soil, dirt, dry land; country, district (e.g. earthmover)
@@ -309,6 +311,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `gram`: that which is drawn; a picture, a drawing (e.g. program)
 - `graph`: process of writing or recording (e.g. photograph, biography, autograph)
 - `half`: half (e.g. halfway)
+- `ham`: hollow or bend of the knee (e.g. hamstring)
 - `heal`: heal (e.g. healthy)
 - `hemo`: blood (e.g. hemostat)
 - `high`: high (e.g. highlight)
@@ -344,6 +347,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `manus`
 - `mark`: mark
 - `mari`: of the sea; body of the sea (e.g. marine)
+- `mast`: great; chief, head, director, teacher (e.g. master)
+- `mist`: the same as `mast` (e.g. mistress)
 - `mel`: honey (e.g. mellifluous)
   - From Latin `mel`, related to Greek `meli`
 - `mit`: send (e.g. submit, permit)
@@ -473,11 +478,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     German `still`)
 - `sti`: point, prick, pierce (e.g. stick, stimulus)
 - `str`: draw tight, bind tight, compress, press together
-- `strain`: the same as `str` (e.g. strain)
-- `strang`: the same as `str`
-- `stress`: the same as `str`
+- `strain`: the same as `str` (e.g. constrain, restrain, eyestrain)
+- `strang`: the same as `str` (e.g. strange, strangle, estrange)
+- `stress`: the same as `str` (e.g. distress)
 - `strict`: the same as `str` (e.g. stricture, restrict, district)
-- `string`: the same as `str`
+- `string`: the same as `str` (e.g. drawstring, hamstring, bowstring)
 - `struct`: build (e.g. construct)
   - From Latin, structura, from struere, the way an organization, system,
     market etc is organized or put together.
@@ -645,7 +650,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `meta`: beyond or at a higher level; relating to a change of state or
   position; (e.g. metaphysical, metabolism, metastatic)
 - `micro`: extremely small (e.g. microphone, microwave)
-- `mini`: very small (e.g. minimum)
+- `mini`: less; subordinate; small (e.g. minimum, minister)
 - `mis`: badly, wrongly (e.g. mistake, misinform, misunderstand)
 - `mono`: single, alone (e.g. monolith)
 - `multi`: multiple (e.g. multiform)
@@ -694,6 +699,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `rheo`: a flowing, stream, current (e.g. rheostat)
   - from Greek `rheos`, which is related to rhein "to flow"
 - `se`: without, apart, aside, on one's own (e.g. select, secret)
+- `seam`: to bind, sew (e.g. seamstress)
 - `semi`: half
 - `sens`: understanding or feeling of something (e.g. sense)
 - `sent`: the same as `sens` (e.g. consent)
@@ -712,7 +718,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Assimilated form of `sub-` before `-r-`.
 - `sus`: the same as `sub` (e.g. sustain)
   - Assimilated form of `sub-` before `-s-`.
-- `super`: above (e.g. superstructure)
+- `super`: above (e.g. superstructure, superstring)
 - `tele`: at or over a long distance (e.g. television, telephone, telegraph, telecast)
 - `therm`: heat, hot, warm (e.g. hetertherm, thermostat)
 - `trans`: across, beyond, through, on the other side of, to go beyond (e.g.
@@ -723,6 +729,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `under`: below, beneath; between, among; before (e.g. undertake, understand)
 - `uni`: one, single, `un` + `i` (e.g. uniform)
 - `use`: use (e.g. usage)
+- `vac`: be empty, free, or at leisure (e.g. vacation)
+- `vacu`: the same as `vac`
+- `vain`: the same as `vac`
+- `van`: the same as `vac` (e.g. vanity, vanish)
+- `void`: the same as `vac`
 - `vore`: devour (e.g. devore)
 - `vaso`: container, vessel (e.g. vasopressin, vasopressor)
   - Combining form of Latin `vas` (see `vas`)
@@ -811,7 +822,7 @@ Variants:
 - `er`: noun, executor of an action
 - `ery`: noun or adjective, the same as `-ary` (e.g. stationery)
 - `ese`: nount, language name (e.g. legalese)
-- `ess`: noun, female (e.g. actress, waitress, tigress, directress)
+- `ess`: noun, female (e.g. actress, waitress, tigress, directress, mistress)
 - `esis`: noun, the same as `etic` (e.g. pathogenesis)
 - `etic`: adjective, pertaining to (e.g. pathetic)
   - From Greek `-etikos`, adjectival suffix for nouns ending in `-esis`
@@ -843,7 +854,8 @@ Variants:
 - `ina`: the same as `ine` (e.g. retina = `rete` + `ina`)
 - `ing`: adjective (e.g. fitting)
 - `ion`: noun (e.g. formation, vision)
-- `ish`: noun or adjective, something of one place, quite
+- `ish`: noun or adjective or verb, something of one place, quite (e.g. nourish,
+  youngish finish, vanish)
 - `ism`: noun, principle (something's abstraction)
 - `ist`: noun, people, principle (e.g. formalist)
 - `it`: the same as `id` (e.g. unit, complicit, explicit)
@@ -863,7 +875,7 @@ Variants:
   - From Greek `-latreia` "worship, service paid to the gods, hired labor,"
     related to latron (n.) "pay, hire," latris "servant, worshipper," from PIE
     \*le- (1) "to get" (see larceny).
-- `le`: noun, verb, repeat (e.g. scribble)
+- `le`: noun, verb, repeat (e.g. scribble, strangle)
 - `less`: adjective, negation (e.g. homeless, hopeless, careless, meaningless,
   useless, regardless)
 - `let`: noun, small one (e.g. booklet, outlet, coverlet)
