@@ -55,18 +55,20 @@ Big-O Complexity Chart
 ## Data Structure
 
 - Linear
-  - List or Array
+  - Array (List)
   - Queue
     - Simple Queue
     - Circular Queue
     - Priority Queue
     - Double Ended Queue (Deque)
+    - Multi-level Feedback Queue，MLFQ
   - Deque
   - Stack
   - Linked List
     - Singly Linked List
     - Doubly Linked List
     - Circular Linked List
+    - Skip Linked List
 - Non-linear
   - Heap
     - Binary Heap
@@ -80,7 +82,11 @@ Big-O Complexity Chart
     - Balanced Binary Tree
     - Binary Search Tree
     - AVL Tree
+    - Disjoint-set
   - Graph
+    - Directed Graph
+      - Directed Acyclic Graph
+    - Indirected Graph
 
 
 ## Algorithm Design
