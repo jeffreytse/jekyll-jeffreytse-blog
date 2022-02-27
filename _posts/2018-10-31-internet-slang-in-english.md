@@ -237,6 +237,8 @@ collection in my daily learning:
 - **:-)** - Smiley
 - **:-P** - Cheekiness or Playfulness
 - **(-)** - Smile
+- **:))** - Laugh out loudly
+- **=)** - Happy
 - **(?\_?)** - What?
 - **(\*\_\*)** - Jesus
 - **\\(o)/** - Boo
@@ -279,3 +281,7 @@ collection in my daily learning:
   gets sent out in bulk.
 - **Troll** - A troll is a person who starts flame wars on the Internet.
   E.g. Don’t feed the trolls.
+
+## References
+
+- [Internet Slang](https://www.internetslang.com/)
