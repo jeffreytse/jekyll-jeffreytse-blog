@@ -89,7 +89,7 @@ If you feel you have mastered it completely, you can move on to the next step.
 
 Think of yourself as a teacher, without looking at any materials, succinctly
 tell the concept-related content you learned in the previous step to one or
-more people (e.g. your father, mother, etc.) who unfamiliar with the concept
+more people (e.g. your father, mother, etc.) who is unfamiliar with the concept
 the field.
 
 ### Step 3: Identify gaps on the concept
