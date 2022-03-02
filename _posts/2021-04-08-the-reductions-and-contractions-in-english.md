@@ -33,6 +33,7 @@ more natural and understand conversations between native English speakers.
 - outta = out to
 - sorta = sort of (Americanism)
 - shoulda = should have
+- tryna = try to
 - typa = type of
 - wanna = want to
 - wassup = what's up (sortest: sup)
