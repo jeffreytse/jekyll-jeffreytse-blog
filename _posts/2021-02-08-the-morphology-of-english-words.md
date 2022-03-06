@@ -397,13 +397,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - English comes from Proto-Phoenician
 - `phot`: light (e.g. photo, photostat)
 - `play`: play (e.g. playbook)
-- `ple`: the same as `pli` (e.g. complement, supple)
+- `ple`: to fill, full (e.g. complement, accomplish, compliant)
   - From Latin `plere`
+- `plet`: the same as `ple` (e.g. complete, deplete, replete, expletive)
 - `plect`: the same as `pli` (e.g. complect)
 - `plex`: the same as `pli` (e.g. perplex, complex, multiplex)
 - `please`: please, aggreeable (e.g. unpleasant)
 - `pli`: to fold, to plait, to weave together, (e.g. complicate, explicit,
-  duplicate, application, simple)
+  duplicate, application, simple, supple)
   - From Latin `plicare`
 - `plic`: the same as `pli` (e.g. explicate, implicate, supplicate)
 - `plo`: the same as `pli` (e.g. employ, deploy, diploma)
@@ -508,6 +509,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tutor`: to protect; to be strong (e.g. tutorial, tuition)
 - `under`: under (e.g. underline)
 - `urg`: the same as `erg` (e.g. urge, surgery=`s` hand + `urg` + `ery`)
+- `vac`: be empty, free, or at leisure (e.g. vacation, evacuate)
+- `vacu`: the same as `vac` (e.g. vacuity, vacuous, vacuum)
+- `vain`: the same as `vac`
+- `van`: the same as `vac` (e.g. vanity, vanish, evanish, evanesce)
+- `void`: the same as `vac`
 - `vas`: a tube, duct, or conduit for conveying blood, lymph, semen, etc.
   (e.g. vasopressor, vasoconstriction)
 - `ver`: true, trustworthy (e.g. verdict)
@@ -578,7 +584,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
 - `de`: opposite, remove, reduce, from, entirely, completely, off (e.g. deform,
   deviate, describe, demote, debate, deserve, derive, derail, deduct, detail,
-  determine, demand, deploy, deselect)
+  determine, demand, deploy, deselect, deplete)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence, diploma)
@@ -693,7 +699,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - From Greek `pyr` (genitive `pyros`)
 - `quad`: related to quantity of four
 - `quasi`: as if, as it were (e.g. quasi-static, quasi-legal)
-- `re`: back, again (e.g. response, review, reunite, revolve)
+- `re`: back, again (e.g. response, review, reunite, revolve, replete)
 - `retina`: net-like tunic (e.g. retinal, retinopathy)
   - From Latin `rete` "net"
 - `rheo`: a flowing, stream, current (e.g. rheostat)
@@ -729,11 +735,6 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `under`: below, beneath; between, among; before (e.g. undertake, understand)
 - `uni`: one, single, `un` + `i` (e.g. uniform)
 - `use`: use (e.g. usage)
-- `vac`: be empty, free, or at leisure (e.g. vacation)
-- `vacu`: the same as `vac`
-- `vain`: the same as `vac`
-- `van`: the same as `vac` (e.g. vanity, vanish)
-- `void`: the same as `vac`
 - `vore`: devour (e.g. devore)
 - `vaso`: container, vessel (e.g. vasopressin, vasopressor)
   - Combining form of Latin `vas` (see `vas`)
@@ -821,7 +822,8 @@ Variants:
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
 - `ery`: noun or adjective, the same as `-ary` (e.g. stationery)
-- `ese`: nount, language name (e.g. legalese)
+- `ese`: noun, language name (e.g. legalese)
+- `esce`: verb, to leave, abandon, give out (e.g. evanesce)
 - `ess`: noun, female (e.g. actress, waitress, tigress, directress, mistress)
 - `esis`: noun, the same as `etic` (e.g. pathogenesis)
 - `etic`: adjective, pertaining to (e.g. pathetic)
@@ -855,7 +857,7 @@ Variants:
 - `ing`: adjective (e.g. fitting)
 - `ion`: noun (e.g. formation, vision)
 - `ish`: noun or adjective or verb, something of one place, quite (e.g. nourish,
-  youngish finish, vanish)
+  youngish, finish, vanish)
 - `ism`: noun, principle (something's abstraction)
 - `ist`: noun, people, principle (e.g. formalist)
 - `it`: the same as `id` (e.g. unit, complicit, explicit)
@@ -914,7 +916,7 @@ Variants:
   - From French `-ude`, from Latin `-udo` (stem `-udin-`). The equivalent of
     native `-ness`
 - `ul`: adjective, the same as `al` (e.g. formula, `form` + `ul` + `a`)
-- `um`: noun (e.g. forum, museum, premium)
+- `um`: noun (e.g. forum, museum, premium, vacuum)
 - `ur`: noun, the same as `-er` (e.g. voyageur)
 - `ure`: noun or verb (e.g. structure)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
