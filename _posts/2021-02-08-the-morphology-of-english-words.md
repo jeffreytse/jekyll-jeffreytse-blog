@@ -288,6 +288,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `ducere`
 - `earth`: ground, soil, dirt, dry land; country, district (e.g. earthmover)
 - `erg`: to do; work; activity (e.g. energy, synergy)
+- `ev`: age (e.g. medieval)
+  - From Latin `aevum`
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fect`: doing (e.g. perfect)
@@ -349,6 +351,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mari`: of the sea; body of the sea (e.g. marine)
 - `mast`: great; chief, head, director, teacher (e.g. master)
 - `mist`: the same as `mast` (e.g. mistress)
+- `med`: to mix (e.g. meddle)
+- `medi`: in the middle, between; from the middle; intermediate (e.g. immediate,
+  medieval, mediaeval)
+- `medit`: to meditate, think over, reflect, consider (e.g. meditate)
 - `mel`: honey (e.g. mellifluous)
   - From Latin `mel`, related to Greek `meli`
 - `mit`: send (e.g. submit, permit)
@@ -377,6 +383,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `graph`: write, draw, measure (e.g. photograph)
   - From Greek
 - `gress`: walk (e.g. progress)
+- `ocre`: be sharp, rise (out) to a point, pierce. (e.g. mediocre, ocrea)
 - `od`: a way or manner (e.g. method, period, odograph)
   - Method from Latin `methodus` "way of teaching or going", `meta-` + `hodos`,
     `meth` originally pursuit, a following after
@@ -397,7 +404,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - English comes from Proto-Phoenician
 - `phot`: light (e.g. photo, photostat)
 - `play`: play (e.g. playbook)
-- `ple`: to fill, full (e.g. complement, accomplish, compliant)
+- `ple`: to fill, full (e.g. complement, accomplish, compliant, plenty)
   - From Latin `plere`
 - `plet`: the same as `ple` (e.g. complete, deplete, replete, expletive)
 - `plect`: the same as `pli` (e.g. complect)
@@ -408,7 +415,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `plicare`
 - `plic`: the same as `pli` (e.g. explicate, implicate, supplicate)
 - `plo`: the same as `pli` (e.g. employ, deploy, diploma)
-- `ply`: the same as `pli` (e.g. apply, imply, reply)
+- `ply`: the same as `pli` (e.g. apply, imply, reply, supply, comply)
+- `preci`: reward, honor, fame, prize, value, worth (e.g. precious, appreciate)
+- `prais`: the same as `preci`
+- `pric`: the same as `preci` (e.g. price)
+- `priz`: the same as `preci`
 - `prehend`: grap, grasp, arrest (e.g. comprehension)
   - From Latin, prehendere
 - `press`: press (e.g. pressman)
@@ -471,7 +482,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `stat`: the same as `st` (e.g. state `st` + `ate`, upstate, overstate)
 - `stil`: the same as `st` (e.g. still)
 - `stem`: the same as `st` (e.g. system)
-- `stin`: the same as `st`
+- `stin`: the same as `st` (e.g. mediastinal)
 - `stit`: the same as `st` (e.g. constitute)
   - Meaning motionless, stable, fixed, stationary
   - From Proto-Germanic `*stilli-` (source also of Old Frisian, Middle Low
@@ -500,6 +511,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tain`: to hold, to stretch (e.g. contain, detain, retain)
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
+- `terra`: earth (e.g. mediterranean)
 - `termin`: end, limit (e.g. terminal, determine)
 - `tine`: sharp point, spike (e.g. quarantine)
 - `tire`: become weary, exhausted (e.g. overtire)
@@ -625,7 +637,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `gyro`: a ring, circle (e.g. gyrate, gyroscope)
   - From Greek `gyros`
 - `hetero`: other, opposite, different (e.g. heterogeneous, heterosexual)
-- `homo`:  one and the same (e.g. homogeneous, homosexual)
+- `homo`: one and the same (e.g. homogeneous, homosexual)
 - `homeo`: like, resembling, of the same kind; equal (e.g. homeopathy)
   - Latinized from Greek `homio-`, from `homoios`
 - `hypo`: less than usual, especially too little; the same as `sub-`, under
@@ -762,8 +774,8 @@ Variants:
 
 ## Suffix
 
-- `a`: noun (e.g formula, primipara, quota)
-- `al`: noun or adjective (e.g. verbal)
+- `a`: noun (e.g formula, primipara, quota, plena, media)
+- `al`: noun or adjective (e.g. verbal, medial)
 - `ade`: noun (e.g. barriecade)
   - Denoting an action or product of an action, via French, Spanish, or Italian,
     ultimately from Latin `-ata`, `fem`.
@@ -773,7 +785,7 @@ Variants:
   - Word-forming element in nouns of act, process, function, condition, from
   - From Old French and French `-age`, from Late Latin -aticum "belonging to,
     related to," originally neuter adjectival suffix
-- `an`: noun or adjective
+- `an`: noun or adjective (e.g. median)
 - `ance`: noun (e.g. performance, appearance, balance, governance)
   - The action, state, or quality of doing something or of being something
 - `ant`: noun (e.g. informant, assistant, redundant, significant)
@@ -781,13 +793,13 @@ Variants:
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
 - `acle`: noun (e.g. obstacle)
-- `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy)
+- `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy, mediacy)
 - `ade`: noun (e.g. blockade)
   - Word-forming delement denoting an action or product of an action
 - `ar`: noun, the same as `-er`, someone who does somthing; adjective, relating
   to somthing (e.g. liar, polar, circular, stellar)
 - `ary`: adjective or noun; having to do with, characterized by, tending to,
-  place for (e.g. arbitrary, monetary)
+  place for (e.g. arbitrary, monetary, plenary)
   - from Middle English `-orie`, from Old North French `-ory`, `-orie` (Old
     French `-oir`, `-oire`), from Latin `-orius`, `-oria`, `-orium`
 - `at`: noun or verb (e.g. formate)
@@ -861,7 +873,7 @@ Variants:
 - `ism`: noun, principle (something's abstraction)
 - `ist`: noun, people, principle (e.g. formalist)
 - `it`: the same as `id` (e.g. unit, complicit, explicit)
-- `itude`: noun (something's abstraction)
+- `itude`: noun, something's abstraction (e.g. plenitude)
 - `ity`: noun, related to a state or quality, `i` + `ty` (e.g. performatity)
   - Added to adjectives to form nouns
 - `itis`: noun, an illness or infection that affects a particular part of your
@@ -892,6 +904,7 @@ Variants:
   - A quality or a condition (used to form nouns from adjectives)
 - `nomy`: subject; manage (e.g. economy, economic)
 - `or`: the same as `-er` (e.g. resistor)
+- `ora`: noun (e.g. plethora)
 - `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary, mandatory)
 - `ous`: adjective, refer to a quality or condition (e.g. numerous)
 - `pathy`: adjective, `path` + `y`; feeling, suffering, emotion; disorder, disease
@@ -916,7 +929,7 @@ Variants:
   - From French `-ude`, from Latin `-udo` (stem `-udin-`). The equivalent of
     native `-ness`
 - `ul`: adjective, the same as `al` (e.g. formula, `form` + `ul` + `a`)
-- `um`: noun (e.g. forum, museum, premium, vacuum)
+- `um`: noun (e.g. forum, museum, premium, vacuum, plenum, medium)
 - `ur`: noun, the same as `-er` (e.g. voyageur)
 - `ure`: noun or verb (e.g. structure)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
