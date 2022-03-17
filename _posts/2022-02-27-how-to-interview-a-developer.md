@@ -18,7 +18,7 @@ of different developers based on the numbers.
 
 | Item                       | Remark                                             | Weight (1-5) |
 | :------------------------- | :------------------------------------------------- | :----------: |
-| CS Basic Knowledge         | OS? Network? Language? Framework?                  |      5       |
+| CS Basic Knowledge         | OS? Network? Language? Framework? Code Style?      |      5       |
 | Data Structure + Algorithm | Basic DSA is necessary, DP/Tree/Graph?             |      4       |
 | Project Experience         | Open-source? interesting? Valuable? Match the job? |      4       |
 | Job/Education Experience   | Well-known companies/schools are preferred.        |      2       |
@@ -26,6 +26,8 @@ of different developers based on the numbers.
 | Character                  | Perseverance? Passionate about tech?               |      1       |
 | Teamwork                   | Comunication? Cooperation? Management?             |      1       |
 | Others                     | Award? Hoby? Geek?                                 |      1       |
+
+- For a senior candidate, his thinking and answers should be systematically.
 
 ## Assessment
 
