@@ -2,6 +2,9 @@
 layout: post
 title: How to interview a developer
 author: Jeffrey Tse
+banner:
+  image: https://shorturl.at/puRW2
+  opacity: 0.76
 categories: computer
 tags:
   - computer
@@ -12,7 +15,7 @@ tags:
 How to interview a developer? This is a very common problem. Different people
 have different criteria for judging. Here is a mathematical method for me to
 score a developer quantitatively, so that we can roughly compare the quality
-of different developers based on the numbers.
+of different developers based on the scores.
 
 ## Quantitative Table
 
@@ -27,7 +30,26 @@ of different developers based on the numbers.
 | Teamwork                   | Comunication? Cooperation? Management?             |      1       |
 | Others                     | Award? Hoby? Geek?                                 |      1       |
 
-- For a senior candidate, his thinking and answers should be systematically.
+For an interviewer, the important are:
+
+- Read the candidate's resume carefully and annotate it before the interview.
+- Be like a friend, you can get to know a real and natural performance
+  of candidate.
+- Give the candidate more time to talk about his experience and demonstrate
+  his abilities.
+- Be careful to guide candidates, as most candidates don't know exactly what
+  they need to show.
+- ...
+
+For a candidate, the important are:
+
+- The ability of systematical thinking.
+- The ability to find knowledge and digest knowledge.
+- The mindset of problem-solving.
+- The ability to use existing resources like software.
+- The ability of communication and teamwork.
+- ...
+
 
 ## Assessment
 
