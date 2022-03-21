@@ -351,6 +351,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mari`: of the sea; body of the sea (e.g. marine)
 - `mast`: great; chief, head, director, teacher (e.g. master)
 - `mist`: the same as `mast` (e.g. mistress)
+- `miss`: the same as `mit` (e.g. mission, admission)
+- `mit`: let go, send (e.g. admit, permit, commit)
+  - From Latin `mittere`
 - `med`: to mix (e.g. meddle)
 - `medi`: in the middle, between; from the middle; intermediate (e.g. immediate,
   medieval, mediaeval)
@@ -417,9 +420,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `plo`: the same as `pli` (e.g. employ, deploy, diploma)
 - `ply`: the same as `pli` (e.g. apply, imply, reply, supply, comply)
 - `preci`: reward, honor, fame, prize, value, worth (e.g. precious, appreciate)
-- `prais`: the same as `preci`
-- `pric`: the same as `preci` (e.g. price)
-- `priz`: the same as `preci`
+- `prais`: the same as `preci` (e.g. appraise)
+- `pric`: the same as `preci` (e.g. price, pricy, pricey)
+- `priz`: the same as `preci` (e.g. prize, prizefight)
 - `prehend`: grap, grasp, arrest (e.g. comprehension)
   - From Latin, prehendere
 - `press`: press (e.g. pressman)
@@ -554,7 +557,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin
 - `ab`: away, from, from off, down (e.g. abuse)
 - `acu`: cusp (e.g. acupressure)
-- `ad`: to (e.g. advocate)
+- `ad`: to (e.g. advocate, admit)
 - `aero`: air (e.g. aerostat)
 - `ana`: on, upon, above; back; again (e.g. analog, anatomy)
   - Before vowels an-, word-forming element
@@ -1007,6 +1010,7 @@ Variants:
 - `long`: long (e.g. long-period, long-term, long-standing)
 - `managed`: managed (e.g. state-managed, stage-managed)
 - `mandated`: mandated (e.g. state-mandated)
+- `much`: much-praised (e.g. much-praised)
 - `neo`: new (e.g. neo-Victorian)
 - `newly`: new (e.g. newly-formed, newly-elected)
 - `non`: none (e.g. non-structural, non-parental, non-energy)
