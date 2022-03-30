@@ -338,6 +338,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Possibly source also of Lettish likstu "I come to terms"
 - `lig`: the same as `lect` (e.g. intelligent, eligible, negligent, diligent)
 - `lith`: stone (e.g. monolith, lithography)
+- `liter`: letter, alphabetic sign; literature, books (e.g. literature)
+  - From Latin `litera/littera`
 - `loc`: a place, spot (e.g. local, locomote)
 - `log`: speech; to speek; word, speech, thought (e.g. logo, logger, apology)
   - From Greek `legein` = to speak, `logos` = word, speech, though
@@ -345,14 +347,16 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `logos`: the same as `log`
 - `low`: low
 - `mand`: to order (e.g. demand)
-- `man`: hand (e.g. manufactor, manuscript, mandate)
+- `man`: hand (e.g. manufactor, manuscript, mandate, manumit)
   - From Latin `manus`
 - `mark`: mark
 - `mari`: of the sea; body of the sea (e.g. marine)
 - `mast`: great; chief, head, director, teacher (e.g. master)
 - `mist`: the same as `mast` (e.g. mistress)
-- `miss`: the same as `mit` (e.g. mission, admission)
-- `mit`: let go, send (e.g. admit, permit, commit)
+- `miss`: the same as `mit` (e.g. mission, admission, commission, dismiss,
+  missle, promise)
+- `mit`: let go, send (e.g. admit, permit, commit, submit, manumit, omit,
+  transmit, emit, remit, immit)
   - From Latin `mittere`
 - `med`: to mix (e.g. meddle)
 - `medi`: in the middle, between; from the middle; intermediate (e.g. immediate,
@@ -647,11 +651,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   (e.g. hypotherm, hypostatic)
 - `idio`: one's own, personal, private (e.g. idiolect, idiomatic, idiopathic)
 - `il`: used instead of `in-` before the letter `l` (e.g. illegal)
-- `im`: not, opposite of; in,into (e.g. immobile, impersonal, implant, impress,
-  immovable, impassion)
+- `im`: not, opposite of; in,into; emphatic (e.g. immobile, impersonal, implant,
+  impress, immovable, impassion, immit, impossible)
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
-- `in`: not, emphatic, inside (e.g. invalid, insufficient, inform, inland)
+- `in`: the same as `im-` (e.g. invalid, insufficient, inform, inland, inquire)
 - `infra`: below, under (e.g. infrastructure)
 - `inter`: between or involving two or more different things (e.g. internet, interact)
 - `intro`: into, especially into the inside (e.g. introduce)
@@ -683,9 +687,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `net`: net (e.g. internet)
 - `non`: not, none = no one (e.g. nonformal)
 - `nephro`: kidney (e.g. nephrology)
-- `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct, obsess)
+- `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct,
+  obsess, omit)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional)
-- `op`: the same as `ob` (e.g. oppress)
+- `op`: the same as `ob-` (e.g. oppress)
   - assimilated form of `ob-` before `-p-`
 - `ortho`: straight, true, correct, regular (e.g. orthostatic)
   - before vowels, word-forming element, now mostly in scientific and technical
@@ -698,7 +703,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   (e.g. paramedic, parastatal, paralegal)
   - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: through; throughout; thoroughly; entirely, utterly (e.g. perfect,
-  perform, persist)
+  perform, persist, permit)
 - `pir`: pear (e.g. piriform)
 - `plat`: small place (e.g. platform)
 - `poly`: multiple, entire (e.g. polytechnic)
@@ -800,12 +805,12 @@ Variants:
 - `ade`: noun (e.g. blockade)
   - Word-forming delement denoting an action or product of an action
 - `ar`: noun, the same as `-er`, someone who does somthing; adjective, relating
-  to somthing (e.g. liar, polar, circular, stellar)
+  to somthing (e.g. liar, polar, circular, stellar, commissar)
 - `ary`: adjective or noun; having to do with, characterized by, tending to,
   place for (e.g. arbitrary, monetary, plenary)
   - from Middle English `-orie`, from Old North French `-ory`, `-orie` (Old
     French `-oir`, `-oire`), from Latin `-orius`, `-oria`, `-orium`
-- `at`: noun or verb (e.g. formate)
+- `at`: noun or verb (e.g. formate, commissariat)
 - `ate`: verb or adjective or noun
   - Verb, make something doing (e.g. regulate, control somthing or make it regular)
   - Adjective, full of or showing a particular quality (e.g. affectionate,
@@ -892,7 +897,7 @@ Variants:
   - From Greek `-latreia` "worship, service paid to the gods, hired labor,"
     related to latron (n.) "pay, hire," latris "servant, worshipper," from PIE
     \*le- (1) "to get" (see larceny).
-- `le`: noun, verb, repeat (e.g. scribble, strangle)
+- `le`: noun, verb, repeat (e.g. scribble, strangle, missile)
 - `less`: adjective, negation (e.g. homeless, hopeless, careless, meaningless,
   useless, regardless)
 - `let`: noun, small one (e.g. booklet, outlet, coverlet)
