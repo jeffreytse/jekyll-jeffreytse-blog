@@ -290,6 +290,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `erg`: to do; work; activity (e.g. energy, synergy)
 - `ev`: age (e.g. medieval)
   - From Latin `aevum`
+- `fact`: to form, build (e.g. factor)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fect`: doing (e.g. perfect)
@@ -297,6 +298,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `ferre`
 - `for`: the same as `fer`
 - `fibr` a thread, string (e.g. fiber, neurofibroma)
+- `fict`: the same as `fact` (e.g. fiction)
 - `fine`: end, limit, acme (e.g. define)
 - `fiss`: to split (e.g. fission, fissiparous)
 - `flu`: the affects between objects (e.g. influence, flush)
@@ -452,7 +454,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sal`: something from sea (e.g. salt, salty)
 - `sau`: to salt (e.g. sauce, salad = `sauce` + `laid`, sausage = `sauce` + `age`)
   - From root `sal`
-- `sci`: to know (e.g. science)
+- `sci`: to know (e.g. science, conscious)
   - From Latin `scire/scientis`
 - `scop`: mirror (e.g. fluoroscopy)
 - `scribe`: to write or something written (e.g. subscribe)
@@ -590,7 +592,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `com`: with, together, together with, in combination; sometimes merely
   emphatic; (e.g. compress)
   - From Latin `com`, `cum`
-- `con`: the same as `com` (e.g. confirm, convergence, constant, constitute)
+- `con`: the same as `com` (e.g. confirm, convergence, constant, constitute,
+  conscious)
   - It is the form of `com-` used in Latin before consonants except `-b-`,
     `-p-`, `-l-`, `-m-`, or `-r-`.
 - `cor`: same as `con` (e.g. corrupt, correct, correlate)
@@ -689,7 +692,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `nephro`: kidney (e.g. nephrology)
 - `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct,
   obsess, omit)
-- `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional)
+- `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
+  omniscient)
 - `op`: the same as `ob-` (e.g. oppress)
   - assimilated form of `ob-` before `-p-`
 - `ortho`: straight, true, correct, regular (e.g. orthostatic)
@@ -718,7 +722,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pyro`: something related to fire (e.g. pyrotechnics)
 - From Greek `pyr` (genitive `pyros`)
 - `quad`: related to quantity of four
-- `quasi`: as if, as it were (e.g. quasi-static, quasi-legal)
+- `quasi`: as if, as it were (e.g. quasi-static, quasi-legal, quasi-science)
 - `re`: back, again (e.g. response, review, reunite, revolve, replete)
 - `retina`: net-like tunic (e.g. retinal, retinopathy)
   - From Latin `rete` "net"
@@ -838,7 +842,7 @@ Variants:
 - `en`: verb, adjective or noun is rarely seen (e.g. barren)
 - `ence`: the same as `ance` (e.g. violence)
 - `end`: noun (e.g. legend)
-- `ent`: adjective or noun (e.g. different, recipient, patient)
+- `ent`: adjective or noun (e.g. different, recipient, patient, scient)
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
 - `ery`: noun or adjective, the same as `-ary` (e.g. stationery)
