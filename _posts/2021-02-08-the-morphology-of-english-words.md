@@ -454,7 +454,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sal`: something from sea (e.g. salt, salty)
 - `sau`: to salt (e.g. sauce, salad = `sauce` + `laid`, sausage = `sauce` + `age`)
   - From root `sal`
-- `sci`: to know (e.g. science, conscious)
+- `sci`: to know (e.g. science, conscious, prescience, nescience)
   - From Latin `scire/scientis`
 - `scop`: mirror (e.g. fluoroscopy)
 - `scribe`: to write or something written (e.g. subscribe)
@@ -509,7 +509,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     market etc is organized or put together.
 - `suit`: to follow (e.g. suitcase)
   - From Latin `sequi`
+- `sum`: whole, totality, gist; highest, uppermost (e.g. summary, consume,
+  asumme, resume)
 - `sume`: use up (e.g. consume)
+- `sumpt`: the same as `sum`
 - `sui`: one's own (e.g. suicide)
   - From Latin sui "of oneself" (genitive of se "self")
 - `swim`: swim
@@ -653,7 +656,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `hypo`: less than usual, especially too little; the same as `sub-`, under
   (e.g. hypotherm, hypostatic)
 - `idio`: one's own, personal, private (e.g. idiolect, idiomatic, idiopathic)
-- `il`: used instead of `in-` before the letter `l` (e.g. illegal)
+- `il`: used instead of `in-` before the letter `l` (e.g. illegal, illiterate)
 - `im`: not, opposite of; in,into; emphatic (e.g. immobile, impersonal, implant,
   impress, immovable, impassion, immit, impossible)
   - The form used for `in-` before `b`, `m`, or `p`
@@ -687,11 +690,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     music and lyric poetry.
 - `myo`: relating to the muscle tissue (e.g. myocardial, cardiomyopathy)
 - `nano`: nano (e.g. nanostructure, nanotechnology)
+- `ne`: the same as `neg` (e.g. nescience)
+- `neg`: not; to deny (e.g. negtive)
 - `net`: net (e.g. internet)
 - `non`: not, none = no one (e.g. nonformal)
 - `nephro`: kidney (e.g. nephrology)
 - `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct,
-  obsess, omit)
+  obsess, omit, obliterate)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
   omniscient)
 - `op`: the same as `ob-` (e.g. oppress)
@@ -769,7 +774,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 Vowel + 2 Consonant patterns:
 
 - `a??`: emphatic (e.g. attention, apprehend, afflux, assure, assiduous,
-  apparent, acquire, allege)
+  apparent, acquire, allege, alliterate)
 - `e??`: out of, same as `ex-` (e.g. eccentric, effluent, efflux)
 - `i??`: not, emphatic, same as `ir-` (e.g. irregular)
 - `o??`: opposite of, emphatic, same as `op-` (e.g. oppress)
@@ -786,7 +791,7 @@ Variants:
 
 ## Suffix
 
-- `a`: noun (e.g formula, primipara, quota, plena, media)
+- `a`: noun (e.g formula, primipara, quota, plena, media, summa)
 - `al`: noun or adjective (e.g. verbal, medial)
 - `ade`: noun (e.g. barriecade)
   - Denoting an action or product of an action, via French, Spanish, or Italian,
@@ -862,6 +867,8 @@ Variants:
   - From Latin `-ficare`, combining form of facere "to make"
 - `hood`: noun (e.g. likelihood, parenthood, childhood, neighborhood)
   - state or condition of being, from old English
+- `i`: noun (e.g. literati)
+  - The same as `-a`, `-e`
 - `ia`: noun, in names of countries, diseases, and flowers (e.g. Asia)
   - From Latin and Greek -ia, noun ending, in Greek especially used in forming
     abstract nouns (typically of feminine gender);
@@ -946,7 +953,7 @@ Variants:
 - `ure`: noun or verb (e.g. structure)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
     `-ura`, an ending of fem. nouns denoting employment or result.
-- `us`: noun (e.g. exodus, humerus, rectus, stimulus, genius)
+- `us`: noun (e.g. exodus, humerus, rectus, stimulus, genius, literatus)
 - `ute`: verb or noun (e.g. institute)
   - verb is same as `-ate`
 - ...
