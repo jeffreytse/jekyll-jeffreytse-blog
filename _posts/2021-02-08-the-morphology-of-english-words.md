@@ -470,6 +470,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `smog`: smog
 - `spect`: look at, to observe (e.g. aspect, respect, inspect, suspect, spectator)
   - From Latin `specere`
+- `speci`: the same as `spect`
+- `spec`: the same as `spect`
+- `spic`: the same as `spect`
+- `spi`: the same as `spect`
+- `spy`: the same as `spect`
 - `spir`: breath (e.g. spirit, conspire, inspire, expire)
 - `spond`: to pledge (e.g. respond)
   - From Latin `spondere`
@@ -509,10 +514,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     market etc is organized or put together.
 - `suit`: to follow (e.g. suitcase)
   - From Latin `sequi`
-- `sum`: whole, totality, gist; highest, uppermost (e.g. summary, consume,
-  asumme, resume)
-- `sume`: use up (e.g. consume)
-- `sumpt`: the same as `sum`
+- `sum`: whole, totality, gist; highest, uppermost (e.g. summary, summitry)
+- `sume`: to take, obtain, buy, distribute (e.g. consume, presume, subsume,
+  assume, resume)
+  - From Latin `sumere`
+- `sumpt`: the same as `sum` (e.g. consumption, sumpter)
 - `sui`: one's own (e.g. suicide)
   - From Latin sui "of oneself" (genitive of se "self")
 - `swim`: swim
