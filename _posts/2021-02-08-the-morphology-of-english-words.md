@@ -468,11 +468,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sm`: the same as `sem`
 - `short`: short
 - `smog`: smog
-- `spect`: look at, to observe (e.g. aspect, respect, inspect, suspect, spectator)
+- `spect`: look at, to observe (e.g. aspect, respect, inspect, suspect, spectator,
+  perspective, circumspect, conspectus, prospect, spectacle, retrospect)
   - From Latin `specere`
-- `speci`: the same as `spect`
-- `spec`: the same as `spect`
-- `spic`: the same as `spect`
+- `speci`: the same as `spect` (e.g. special, especial, specify)
+- `spec`: the same as `spect` (e.g. suspecion)
+- `sper`: to hope (e.g. desperate)
+  - From Latin `sperare`
+- `spic`: the same as `spect` (e.g. spice, suspicion)
 - `spi`: the same as `spect`
 - `spy`: the same as `spect`
 - `spir`: breath (e.g. spirit, conspire, inspire, expire)
@@ -613,9 +616,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   counterfeit, countermove)
   - from Anglo-French `countre-`, French `contre-`, from Latin contra "opposite,
     contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
-- `de`: opposite, remove, reduce, from, entirely, completely, off (e.g. deform,
-  deviate, describe, demote, debate, deserve, derive, derail, deduct, detail,
-  determine, demand, deploy, deselect, deplete)
+- `de`: opposite, remove, reduce, from, entirely, completely, off, without
+  (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
+  deduct, detail, determine, demand, deploy, deselect, deplete, desperate)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence, diploma)
@@ -762,10 +765,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `super`: above (e.g. superstructure, superstring)
 - `tele`: at or over a long distance (e.g. television, telephone, telegraph, telecast)
 - `therm`: heat, hot, warm (e.g. hetertherm, thermostat)
+- `tra`: the same as `trans`
+- `traf`: the same as `trans`
 - `trans`: across, beyond, through, on the other side of, to go beyond (e.g.
   transparent, transcribe)
 - `tri`: three, having three, once every three (e.g. trivia, triangle, tricycle,
   triplex)
+- `tro`: the same as `trans` (e.g. retrospect)
 - `twi`: two, twice, double, in two ways (e.g. twilight)
 - `under`: below, beneath; between, among; before (e.g. undertake, understand)
 - `uni`: one, single, `un` + `i` (e.g. uniform)
@@ -794,6 +800,7 @@ Variants:
 - `en-` = `em-` = `in-` = `im-` (e.g. enrich, enlarge, encourage, impassion)
 - `super-` = `over-`
 - `inter-` = `intel-` = `enter-` (e.g. )
+- `trans-` = `tra-` = `tro` = `tro` (e.g. extra, extro, intra, intro, retra, retro)
 
 ## Suffix
 
@@ -815,7 +822,7 @@ Variants:
   - Someone or something that does something
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
-- `acle`: noun (e.g. obstacle)
+- `acle`: noun (e.g. obstacle, spectacle)
 - `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy, mediacy)
 - `ade`: noun (e.g. blockade)
   - Word-forming delement denoting an action or product of an action
