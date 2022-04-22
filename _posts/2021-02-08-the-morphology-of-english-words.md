@@ -456,7 +456,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From root `sal`
 - `sci`: to know (e.g. science, conscious, prescience, nescience)
   - From Latin `scire/scientis`
-- `scop`: mirror (e.g. fluoroscopy)
+- `scop`: to observe; to look (e.g. fluoroscopy, spectroscope, telecsope, microscope)
+  - suffixed form of root `spec`
 - `scribe`: to write or something written (e.g. subscribe)
 - `scribble`: careless writing, drawing
 - `script`: the same as `scribe`
@@ -468,21 +469,23 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sm`: the same as `sem`
 - `short`: short
 - `smog`: smog
-- `spect`: look at, to observe (e.g. aspect, respect, inspect, suspect, spectator,
-  perspective, circumspect, conspectus, prospect, spectacle, retrospect)
+- `spec`: look at, to observe (e.g. suspecion, speculate, spectrum, spectroscope)
   - From Latin `specere`
-- `speci`: the same as `spect` (e.g. special, especial, specify)
-- `spec`: the same as `spect` (e.g. suspecion)
-- `sper`: to hope (e.g. desperate)
+- `speci`: the same as `spec` (e.g. special, especial, specify, specie)
+- `spect`: the same as `spec` (e.g. aspect, respect, inspect, suspect, spectator,
+  perspective, circumspect, conspectus, prospect, spectacle, retrospect,
+  introspect, bespectacled)
+- `sper`: to hope (e.g. desperate, prosperity)
   - From Latin `sperare`
-- `spic`: the same as `spect` (e.g. spice, suspicion)
-- `spi`: the same as `spect`
-- `spy`: the same as `spect`
+- `spic`: the same as `spec` (e.g. spice, suspicion)
+- `spi`: the same as `spec`
 - `spir`: breath (e.g. spirit, conspire, inspire, expire)
+- `spite`: dislike, regard with ill will (e.g. despite)
 - `spond`: to pledge (e.g. respond)
   - From Latin `spondere`
 - `spons`: the same as `spond`
 - `spong`: spong (e.g. spongiform)
+- `spy`: the same as `spec`
 - `sid`: to sit, to settle (e.g. consider, preside, reside)
   - From Latin `sidere`, opposite with `st`
   - The `sid` (`sideris`) means heavenly body, star, constellation
