@@ -409,6 +409,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pact`: to fix, fasten (e.g. compact, pactum, package)
 - `par`: the same as `pear` (e.g. parent, primipara, fissiparous)
 - `pear`: to come forth, be visible; submit, obey (e.g. appear)
+- `pheme`: speech, voice, utterance, a speaking (e.g. eupheme)
 - `phone`: voice; related to language (e.g. phonetic, telephone)
   - English comes from Proto-Phoenician
 - `phot`: light (e.g. photo, photostat)
@@ -477,19 +478,19 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   introspect, bespectacled)
 - `sper`: to hope (e.g. desperate, prosperity)
   - From Latin `sperare`
-- `spic`: the same as `spec` (e.g. spice, suspicion)
+- `spic`: the same as `spec` (e.g. spice, suspicion, auspice)
 - `spi`: the same as `spec`
 - `spir`: breath (e.g. spirit, conspire, inspire, expire)
-- `spite`: dislike, regard with ill will (e.g. despite)
+- `spite`: dislike, regard with ill will (e.g. despite, spiteful, respite)
 - `spond`: to pledge (e.g. respond)
   - From Latin `spondere`
 - `spons`: the same as `spond`
 - `spong`: spong (e.g. spongiform)
-- `spy`: the same as `spec`
+- `spy`: the same as `spec` (e.g. spyglass, espy)
 - `sid`: to sit, to settle (e.g. consider, preside, reside)
   - From Latin `sidere`, opposite with `st`
   - The `sid` (`sideris`) means heavenly body, star, constellation
-- `sit`: the same as `sid` (e.g. site, situate, position)
+- `sit`: the same as `sid` (e.g. site, situate, position, visit)
 - `sed`: the same as `sid` (e.g. supersede, sediment, sedate, sedentary)
 - `sess`: the same as `sid` (e.g. possess, obsess, assess, session, sessile)
 - `st`: to stand, make or be firm (e.g. state, stand, still, stage, stay, rest,
@@ -562,7 +563,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - It comes from Latin word `vincere`.
   - After Caesar put down the rebellion, he issued a three-V instrument, which
     is "Veni, Vedi, Vici", and it means "I came, I saw, I conquered".
-- `vis`: see (e.g. visit, vision)
+- `vis`: to see (e.g. visit, vision, advise, revision, visual, supervise)
 - `voc`: voice, call (e.g. voice, vocational, advocate)
 - `vol`: to turn, revolve, roll (e.g. revolve, evolve, involve, volume)
 - `voy`: way, journey (e.g. voyage)
@@ -592,6 +593,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `al`: all (e.g. alway)
 - `apo`: off, away from (e.g. apology, apostate)
   - From Greek
+- `au`: the same as `eu` (e.g. auspice)
 - `be`: about, around, on all sides (e.g. bemuse)
 - `bi`: two (e.g. binary, biweekly, bicycle, bicentennial, bisexual, bilingual)
 - `bi(o)`: relating to or using living things (e.g. biomedical, biography)
@@ -621,7 +623,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
 - `de`: opposite, remove, reduce, from, entirely, completely, off, without
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
-  deduct, detail, determine, demand, deploy, deselect, deplete, desperate)
+  deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
+  descend, despite)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence, diploma)
@@ -648,6 +651,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
 - `es`: to be (emphatic) (e.g. essence, espresso)
   - Proto-Indo-European root meaning "to be."
+- `eu`: good, well (e.g. eupheme)
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
   extra = `ex` + `trans`)
   - From Latin `ex` "out of, from within; from which time, since; according to;
@@ -990,6 +994,8 @@ Variants:
 - `-id` = `-it` (e.g. liquid, fluid)
 - `-ize` = `-ise`
 - `-ous` (= `-ious` = `-eous` = `-uous`)
+- `-acle` = `-acel` = `-acul` (e.g. spectacle)
+  - `acul` + `-ar` = `acular` (e.g. spectacular)
 
 ## Composition
 
