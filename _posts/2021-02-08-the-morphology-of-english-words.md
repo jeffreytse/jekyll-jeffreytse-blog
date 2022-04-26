@@ -360,6 +360,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mit`: let go, send (e.g. admit, permit, commit, submit, manumit, omit,
   transmit, emit, remit, immit)
   - From Latin `mittere`
+- `me`: to measure (e.g. meter, measure)
 - `med`: to mix (e.g. meddle)
 - `medi`: in the middle, between; from the middle; intermediate (e.g. immediate,
   medieval, mediaeval)
@@ -563,7 +564,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - It comes from Latin word `vincere`.
   - After Caesar put down the rebellion, he issued a three-V instrument, which
     is "Veni, Vedi, Vici", and it means "I came, I saw, I conquered".
-- `vis`: to see (e.g. visit, vision, advise, revision, visual, supervise)
+- `vid`: the same as `vis` (e.g. provide)
+  From Latin `videre`
+- `vis`: to see (e.g. visit, vision, advise, revision, visual, supervise,
+  previse, televise, improvise)
 - `voc`: voice, call (e.g. voice, vocational, advocate)
 - `vol`: to turn, revolve, roll (e.g. revolve, evolve, involve, volume)
 - `voy`: way, journey (e.g. voyage)
@@ -770,7 +774,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sus`: the same as `sub` (e.g. sustain)
   - Assimilated form of `sub-` before `-s-`.
 - `super`: above (e.g. superstructure, superstring)
-- `tele`: at or over a long distance (e.g. television, telephone, telegraph, telecast)
+- `tele`: at or over a long distance (e.g. television, telephone, telegraph,
+  telecast, telemeter)
 - `therm`: heat, hot, warm (e.g. hetertherm, thermostat)
 - `tra`: the same as `trans`
 - `traf`: the same as `trans`
