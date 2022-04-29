@@ -564,10 +564,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - It comes from Latin word `vincere`.
   - After Caesar put down the rebellion, he issued a three-V instrument, which
     is "Veni, Vedi, Vici", and it means "I came, I saw, I conquered".
-- `vid`: the same as `vis` (e.g. provide)
+- `vid`: the same as `vis` (e.g. video, provide, providence, evident)
   From Latin `videre`
 - `vis`: to see (e.g. visit, vision, advise, revision, visual, supervise,
-  previse, televise, improvise)
+  previse, televise, improvise, proviso, provision, visa, visage)
 - `voc`: voice, call (e.g. voice, vocational, advocate)
 - `vol`: to turn, revolve, roll (e.g. revolve, evolve, involve, volume)
 - `voy`: way, journey (e.g. voyage)
@@ -816,7 +816,7 @@ Variants:
 
 ## Suffix
 
-- `a`: noun (e.g formula, primipara, quota, plena, media, summa)
+- `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa)
 - `al`: noun or adjective (e.g. verbal, medial)
 - `ade`: noun (e.g. barriecade)
   - Denoting an action or product of an action, via French, Spanish, or Italian,
@@ -947,6 +947,8 @@ Variants:
 - `ness`: noun (e.g. formlessness, sickness, highness, suppleness)
   - A quality or a condition (used to form nouns from adjectives)
 - `nomy`: subject; manage (e.g. economy, economic)
+- `o`: noun (e.g. proviso)
+  - The same as `-a`, `-e`, `-i`
 - `or`: the same as `-er` (e.g. resistor)
 - `ora`: noun (e.g. plethora)
 - `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary, mandatory)
