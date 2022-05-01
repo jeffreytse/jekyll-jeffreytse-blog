@@ -328,12 +328,17 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ill`: bad, from evil (e.g. illness)
 - `image`: copy, statue, picture (e.g. imagination)
   - From Latin `imago`
-- `lat`: take (e.g. relate, `re` + `lat` + `ate`)
+- `lat`:take, borne, to bear, to carry (e.g. relate = `re` + `lat` + `ate`,
+  oblate, collate, translate, illation, ablate, dilate, prelate, superlative,
+  legislate)
+  - The same as `fer`
 - `land`: land (e.g. motherland, fatherland, landmark, mainland)
 - `late`: late
+- `lax`: loose (e.g. laxity, relax)
 - `lect`: to pick out, choose; to collect, gather; law; to speak (e.g. collect,
   lecture, lexicon, elect, select, neglect, dialect, idiolect)
-- `leg`: the same as `lect` (e.g. delegate, legal, privilege, legend, legacy, college)
+- `leg`: the same as `lect` (e.g. delegate, legal, privilege, legend, legacy,
+  college, legislate)
 - `legis`: the same as `leg` (e.g. legisation)
 - `lex`: the same as `lect` (e.g. lexicon, lexicography)
 - `lic`: to be allowed, be lawful (e.g. license)
@@ -449,7 +454,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pot`: the same as `pos` (e.g. potential)
 - `quar`: four (e.g. square, quarantine)
 - `que`: to ask, to seek (e.g. quest)
-- `quire` the same as `que` (e.g. require, inquire)
+- `quire`: the same as `que` (e.g. require, inquire)
+- `rear`: back, behind; to rise (e.g. rearview, rearrange)
+  - From Latin `retro`
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
 - `rive`: shore, bank, break
 - `rupt`: to break apart (e.g. corrupt, bankrupt)
@@ -464,9 +471,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `scribble`: careless writing, drawing
 - `script`: the same as `scribe`
 - `sect`: to cut (e.g. sector)
-- `sem`: one; as one, together with
+- `sem`: one; as one, together with (e.g. seminar)
   - Proto-Indo-European root
+- `sembl`: the same as `sem` (e.g. resemble, semblance, assemble)
+- `seri`: heavy, weighty (e.g. serious)
+- `sev`: the same as `seri` (e.g. severe)
 - `sim`: the same as `sem` (e.g. simple)
+- `simil`: the same as `sem` (e.g. similar, facsimile)
+- `simul`: the same as `sem` (e.g. simulate)
 - `som`: the same as `sem` (e.g. some)
 - `sm`: the same as `sem`
 - `short`: short
@@ -556,6 +568,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   (e.g. vasopressor, vasoconstriction)
 - `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
+- `vey`: the same as `vid` (e.g. survey, purvey)
 - `vi`: road (e.g. via, obviate, obvious, previous, trivia)
 - `via`: the same as `vi`
 - `vict` win (e.g. victim)
@@ -566,6 +579,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     is "Veni, Vedi, Vici", and it means "I came, I saw, I conquered".
 - `vid`: the same as `vis` (e.g. video, provide, providence, evident)
   From Latin `videre`
+- `view`: the same as `vid` (e.g. viewpoint, interview, review, preview,
+  overview, rearview, purview)
 - `vis`: to see (e.g. visit, vision, advise, revision, visual, supervise,
   previse, televise, improvise, proviso, provision, visa, visage)
 - `voc`: voice, call (e.g. voice, vocational, advocate)
@@ -716,7 +731,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `non`: not, none = no one (e.g. nonformal)
 - `nephro`: kidney (e.g. nephrology)
 - `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct,
-  obsess, omit, obliterate)
+  obsess, omit, obliterate, oblate)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
   omniscient)
 - `op`: the same as `ob-` (e.g. oppress)
@@ -740,7 +755,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `prae-`, before, ahead
 - `pro`: forward (e.g. promote)
   - It comes from `Prometheus`, who can predict the future.
-- `pur`: the same as `pro`
+- `pur`: the same as `pro` (e.g. purpose, purview, purvey)
   - A variant of Latin pro "before, for" (see `pro-`)
   - The earliest form of the prefix in English, and it is retained in some words,
     but in others it has been corrected to Latinate `pro-`.
@@ -767,7 +782,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   substructure, subtitle, submarine)
 - `sup`: the same as `sub` (e.g. suppress, support, supple)
   - Assimilated form of `sub-` before `-p-`
-- `sur`: over, above, beyond, in addition; the same as `sub` (e.g. surface)
+- `sur`: over, above, beyond, in addition; the same as `sub` (e.g. surface, survey)
   - From Anglo-French and Old French, from Old French `sour-`, `sor-`, `sur-`,
     from Latin `super`
   - Assimilated form of `sub-` before `-r-`.
@@ -789,7 +804,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `uni`: one, single, `un` + `i` (e.g. uniform)
 - `use`: use (e.g. usage)
 - `vore`: devour (e.g. devore)
-- `vaso`: container, vessel (e.g. vasopressin, vasopressor)
+- `vaso`: container, vessel (e.g. vasopressin, vasopressor, vasodilation)
   - Combining form of Latin `vas` (see `vas`)
 - `zymo`: make, brew (e.g. zymotechnics)
   - From Greek `zymo-`, branch of chemistry which deals with wine-making and brewing
@@ -817,7 +832,7 @@ Variants:
 ## Suffix
 
 - `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa)
-- `al`: noun or adjective (e.g. verbal, medial)
+- `al`: noun or adjective (e.g. verbal, medial, similar)
 - `ade`: noun (e.g. barriecade)
   - Denoting an action or product of an action, via French, Spanish, or Italian,
     ultimately from Latin `-ata`, `fem`.
