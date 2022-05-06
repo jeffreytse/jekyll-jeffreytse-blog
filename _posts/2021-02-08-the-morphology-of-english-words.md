@@ -257,10 +257,16 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `bat`: to beat (e.g. battle, debate)
 - `bow`: to bend (e.g. bowstring)
 - `canon`: a rule or law (e.g. canonical)
+- `cap`: the same as `cept`
+- `capt`: the same as `cept`
 - `carn`: flesh (e.g. carnage)
+- `ceit`: the same as `cept`
+- `ceiv`: the same as `cept`
+- `cept`: to take; to grasp (e.g. except, concept)
 - `cerebr`: brain (e.g. cerebral)
 - `cess`: movement, migration (e.g. process)
 - `chlor`: chlor (e.g. chloroform)
+- `cip`: the same as `cept`
 - `circum`: circle (e.g. circumscribe)
 - `cite`: to move, set in motion, stir, rouse, call, invite (e.g. recite)
 - `clude`: to shut, close (e.g. include)
@@ -272,6 +278,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cribr`: sieve, tube with holes (e.g. cribriform)
 - `cruc`: cross (e.g. cruciform)
 - `cunei`: cunei (e.g. cuneiform)
+- `cup`: the same as `cept`
 - `cuss`: strike, hit, shake (e.g. percuss)
 - `deme`: people (e.g. pandemic)
   - From Greek `demos`
@@ -317,6 +324,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `half`: half (e.g. halfway)
 - `ham`: hollow or bend of the knee (e.g. hamstring)
 - `heal`: heal (e.g. healthy)
+- `helic`: spiral (e.g. helicopter)
+- `helix`: the same as `helic`
 - `hemo`: blood (e.g. hemostat)
 - `high`: high (e.g. highlight)
 - `hist`: tissue (e.g. histoplasmin, histopathology)
