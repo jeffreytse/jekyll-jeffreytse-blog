@@ -257,12 +257,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `bat`: to beat (e.g. battle, debate)
 - `bow`: to bend (e.g. bowstring)
 - `canon`: a rule or law (e.g. canonical)
-- `cap`: the same as `cept`
-- `capt`: the same as `cept`
+- `cap`: the same as `cept` (e.g. capable, capsule)
+- `capt`: the same as `cept` (e.g. captor, capture, captivate)
 - `carn`: flesh (e.g. carnage)
 - `ceit`: the same as `cept`
-- `ceiv`: the same as `cept`
-- `cept`: to take; to grasp (e.g. except, concept)
+- `ceiv`: the same as `cept` (e.g. perceive)
+- `cept`: to take; to grasp (e.g. accept, except, concept, recept, incept,
+  percept, intercept, deception, precept, contracept)
 - `cerebr`: brain (e.g. cerebral)
 - `cess`: movement, migration (e.g. process)
 - `chlor`: chlor (e.g. chloroform)
@@ -644,7 +645,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cor`: same as `con` (e.g. corrupt, correct, correlate)
   - The form used for `com-` before the letter `r`
 - `cryo`: of or involving very low temperatures (e.g. cryostat)
-- `contra`: against or opposite (e.g. contraband, contradictory)
+- `contra`: against or opposite (e.g. contraband, contradictory, contracept)
 - `counter`: against, in opposition; in return; corresponding, (e.g. counteract,
   counterfeit, countermove)
   - from Anglo-French `countre-`, French `contre-`, from Latin contra "opposite,
