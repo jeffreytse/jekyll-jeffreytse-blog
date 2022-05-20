@@ -131,6 +131,65 @@ over and over again.
 - Bye
   - Look, I have got going
 
+- I'm very tired
+  - I'm beat
+
+- I don't understand what you are saying
+  - You lost me
+
+- I don't understand
+  - I don't get it
+
+- I don't know
+  - Beats me
+
+- I know
+  - I got it
+  - I see
+  - Sure, no problem
+  - Yeah, I see what you mean
+
+- I will pay the bill
+  - I got this
+
+- I made a big mistake
+  - I screwed up
+
+- That sounds familiar
+  - That rings a bells
+
+- You did that perfectly
+  - You nailed it
+
+- Just so so
+  - It was all right
+  - Not too bad
+  - Not really
+  - I'm pretty average
+
+- You should try it
+  - Give it a shot
+
+- I slept very well
+  - I slept like a baby
+
+- It's easy
+  - Piece of a cake
+
+- Give me more details
+  - Fill me in
+
+- I'm very hungry
+  - I'm starving
+
+- I have to leave
+  - I gotta run
+
+- Don't worry
+  - Pace yourself
+  - Easy does it
+  - Take your time
+
 - Others
   - Get in rut
   - A dap and dip
