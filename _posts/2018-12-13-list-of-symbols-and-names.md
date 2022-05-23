@@ -28,10 +28,12 @@ _         underscore
 <>        angle brackets
 <<        left guillemet, left double angle quotation marks
 >>        right guillemet, right double angle quotation marks
+《》      French quotes
 :         colon
 ;         semi-colon
 ,         comma
 |         pipe or bar or vertical bar/line
+‖         parallel
 "         double quote, inverted commas(UK) or quotation marks(US)
 '         single quote, apostrophe, single inverted commas(UK) or single quotation marks(US)
 $         dollar sign or generic currency
@@ -44,10 +46,13 @@ $         dollar sign or generic currency
 ®         registered sign
 ™         trade mark sign
 °         degree
+′         minute
+″         second
 ✓         check mark
 …         ellipsis points
 ≈         almost equal to
 ≡         identical to sign
+≌         is equal to or approximately equal to
 ≠         not equal to sign
 ¬         not sign
 ∞         infinity
@@ -75,6 +80,18 @@ $         dollar sign or generic currency
 ¾         three quarters fraction
 ⅔         two thirds fraction
 ⁂         asterism
+∠         angle
+⌒         semicircle
+⊙         circle
+○         circumference
+π         pi
+△         triangle
+⊥         perpendicular to
+∪         union of
+∩         intersection of
+∫         the integral of
+∑         (sigma) summation of
+℃         degree Celsius
 
 NOTE:     left/open and right/close for the pair of symbols.
 ```
