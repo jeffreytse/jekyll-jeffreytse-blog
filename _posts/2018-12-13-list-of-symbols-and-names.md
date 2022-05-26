@@ -80,6 +80,9 @@ $         dollar sign or generic currency
 ¾         three quarters fraction
 ⅔         two thirds fraction
 ⁂         asterism
+∵         since/because
+∴         hence
+∷         equals, as(proportion)
 ∠         angle
 ⌒         semicircle
 ⊙         circle
