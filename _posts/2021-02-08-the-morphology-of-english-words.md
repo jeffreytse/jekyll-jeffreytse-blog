@@ -26,16 +26,22 @@ prefix-root-suffix
 - Suffix: property, meaning (sometimes)
 - Phonological change:
   - letter: vowel + consonant
-  - vowel: a,e,i,o,u
-  - semivowel: y,w
+  - vowel: a, e, i , o, u (e.g. rest/rust, shirt/short)
+  - semivowel: y, w (e.g. yes/fly)
   - function: hyphen (i,u is the most common use) and no meaning
   - consonant: pronunciation is similar, and they can be replaced
     - voiced: suffix is often for verb (d,t,s)(e.g. scribe)
     - voiceless: suffix is often for noun or adjective (e.g. script)
-  - approximation:
+  - sound laws in the Indo-European languages:
     - Grimm's law
-    - r,n,l (e.g. palm = `p` + `arm`, bank = `bar` + `k`, desert = `de` + `sand`)
-    - y,i (e.g. crisis = `cry` + `sis`, crime = `cry` + `me`)
+    - Verner's law
+    - Winter's law
+    - b = p = m = f = v (e.g. fin/pin/pen)
+    - g = k = c = h (e.g. glue/clue, horn/corn)
+    - m = n = l = r (e.g. sum/sol, moon/lun, palm = `p` + `arm`, bank = `bar` + `k`, desert = `de` + `sand`)
+    - d = t = s = c = th (e.g. dent/teeth)
+    - u = v = w
+    - y = i (e.g. crisis = `cry` + `sis`, crime = `cry` + `me`)
 
 The first three are the most important. Pronunciation change in English does
 not change its meaning, just extend in meaning, such as `vinc` and `vict`,
@@ -51,7 +57,8 @@ Latin, French, Germanic.
 - Germanic: machine, automatic
 - Greek: democracy, liberty
 - Japanese: tofu (Chinese, 豆腐)
-- Chinese: katchup (Cantonese, 茄汁), kowtow (Cantonese, 叩头), lychee (荔枝), typhoon (台风)
+- Chinese: katchup (Cantonese, 茄汁), kowtow (Cantonese, 叩头), lychee (荔枝),
+  typhoon (台风), mandarin (满大人)
 - ...
 
 English has a history of 2,300 years. In the course of historical development,
@@ -80,10 +87,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - ache
   - acid
   - acupuncture
+  - acute
   - alphabet
   - alps
   - alt
   - altitude
+  - anger
+  - angle
   - arrow
   - ash
   - aspect
@@ -91,34 +101,49 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - dash
   - lash
   - sharp
-- `B/b`: home -> bet(ween) -> wood -> born
+- `B/b`: home -> two -> bet(ween) -> wood -> born
   - abandon (`a` + `ban` + `dan`)
   - back
   - bag
   - bald (`ball` + `d`)
+  - band
   - bank
   - bar
   - bare
   - basket
+  - base
   - be
   - belly
   - belt (`belly` + `tie`)
+  - bend
+  - bike
+  - bind
+  - bio
   - birth
   - board
   - boil
+  - bond
   - born
+  - both
   - boundary
   - bounce
+  - bund
   - bundle
   - bow
   - box
+  - bra
+  - brace
+  - brain
   - branch
   - breed
   - breast
   - brew
   - bright
   - broom
+  - brother
+  - brow
   - bud
+  - build
   - burn
   - by
 - `C/c`: spear -> gamma -> sunken (borrow pronunciation like g, k)
@@ -214,8 +239,17 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - huge
   - human
   - hut
-- `L/l`: long
+- `L/l`: long -> horizontal
   - lash
+  - lect
+  - leg
+  - level
+  - line
+  - lingua
+  - light
+  - long
+  - look
+  - love
 - `M/m`: peak
   - mountain (mountains with several peaks)
   - man, male (man is reliable as a mountain)
@@ -232,6 +266,18 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Seed
 - `T/t`: symbol
   - cat
+- `V/v`: valley -> hollow
+  - vase
+  - vagina
+  - vent
+  - vest
+  - village
+  - villa
+  - vessel
+  - v = w
+    - wind
+    - want
+    - white
 - `W/w`: water
   - woman (woman is mild like water)
   - watch (man play match, woman watch it)
@@ -255,13 +301,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ban`: the same as `bar` (e.g. abandon, banner, banquet, bank)
   - Italian `banchi`, the root of the Italian word for banks
 - `bat`: to beat (e.g. battle, debate)
+- `bene`: fine (e.g. benefit, benefactor)
 - `bow`: to bend (e.g. bowstring)
 - `canon`: a rule or law (e.g. canonical)
 - `cap`: the same as `cept` (e.g. capable, capsule)
 - `capt`: the same as `cept` (e.g. captor, capture, captivate)
 - `carn`: flesh (e.g. carnage)
 - `ceit`: the same as `cept`
-- `ceiv`: the same as `cept` (e.g. perceive)
+- `ceiv`: the same as `cept` (e.g. perceive, receive)
 - `cept`: to take; to grasp (e.g. accept, except, concept, recept, incept,
   percept, intercept, deception, precept, contracept)
 - `cerebr`: brain (e.g. cerebral)
@@ -307,7 +354,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `for`: the same as `fer`
 - `fibr` a thread, string (e.g. fiber, neurofibroma)
 - `fict`: the same as `fact` (e.g. fiction)
-- `fine`: end, limit, acme (e.g. define)
+- `fin`: end, limit, acme (e.g. define, final, finance, infinite, confine)
 - `fiss`: to split (e.g. fission, fissiparous)
 - `flu`: the affects between objects (e.g. influence, flush)
   - From Latin `fluere`
@@ -363,6 +410,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `loqui` = to speak
 - `logos`: the same as `log`
 - `low`: low
+- `lun`: moon (e.g. lunar)
 - `mand`: to order (e.g. demand)
 - `man`: hand (e.g. manufactor, manuscript, mandate, manumit)
   - From Latin `manus`
@@ -481,7 +529,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `scribble`: careless writing, drawing
 - `script`: the same as `scribe`
 - `sect`: to cut (e.g. sector)
-- `sem`: one; as one, together with (e.g. seminar)
+- `sem`: one; as one, together with; same (e.g. seminar)
   - Proto-Indo-European root
 - `sembl`: the same as `sem` (e.g. resemble, semblance, assemble)
 - `seri`: heavy, weighty (e.g. serious)
@@ -557,6 +605,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sys`: the same as `syn` (e.g. system)
 - `tail`: to cut in pieces (e.g. tailor, detail)
 - `tain`: to hold, to stretch (e.g. contain, detain, retain)
+- `tane`: time (e.g. simultaneously)
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
 - `terra`: earth (e.g. mediterranean)
@@ -572,10 +621,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `vac`: be empty, free, or at leisure (e.g. vacation, evacuate)
 - `vacu`: the same as `vac` (e.g. vacuity, vacuous, vacuum)
 - `vain`: the same as `vac`
+- `vall`: valley (e.g. )
 - `van`: the same as `vac` (e.g. vanity, vanish, evanish, evanesce)
 - `void`: the same as `vac`
 - `vas`: a tube, duct, or conduit for conveying blood, lymph, semen, etc.
   (e.g. vasopressor, vasoconstriction)
+- `vent`: wind (e.g. adventure)
 - `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
 - `vey`: the same as `vid` (e.g. survey, purvey)
@@ -589,17 +640,20 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     is "Veni, Vedi, Vici", and it means "I came, I saw, I conquered".
 - `vid`: the same as `vis` (e.g. video, provide, providence, evident)
   From Latin `videre`
+- `vil`: the same as `vall` (e.g. village, villa)
 - `view`: the same as `vid` (e.g. viewpoint, interview, review, preview,
   overview, rearview, purview)
 - `vis`: to see (e.g. visit, vision, advise, revision, visual, supervise,
   previse, televise, improvise, proviso, provision, visa, visage)
 - `voc`: voice, call (e.g. voice, vocational, advocate)
-- `vol`: to turn, revolve, roll (e.g. revolve, evolve, involve, volume)
+- `vol`: to turn, revolve, roll; will (e.g. revolve, evolve, involve, volume)
 - `voy`: way, journey (e.g. voyage)
   - From French
 - `watch`: keep watch, be awake (e.g. watchdog)
 - `way`: way
 - `wave`: wave (e.g. waveform )
+- `wis`: the same as `vis` (e.g. wish, wise)
+- `wit`: the same as `vis` (e.g. witness)
 
 ## Prefix
 
@@ -1130,3 +1184,4 @@ Variants:
 
 - [原始迦南字母](https://www.wikiwand.com/zh-sg/%E5%8E%9F%E5%A7%8B%E8%BF%A6%E5%8D%97%E5%AD%97%E6%AF%8D)
 - [List of English words of French origin](https://www.wikiwand.com/en/List_of_English_words_of_French_origin)
+- [Glossary of sound laws in the Indo-European languages](https://www.wikiwand.com/en/Glossary_of_sound_laws_in_the_Indo-European_languages)
