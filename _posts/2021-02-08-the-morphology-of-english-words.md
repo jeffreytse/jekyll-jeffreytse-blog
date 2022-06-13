@@ -56,7 +56,7 @@ Latin, French, Germanic.
 - French: beef (English call cow), pork (English call pig)
 - Germanic: machine, automatic
 - Greek: democracy, liberty
-- Japanese: tofu (Chinese, 豆腐)
+- Japanese: tofu (Chinese, 豆腐), sensei (Chinese, 先生)，senpai(Chinese, 先辈)
 - Chinese: katchup (Cantonese, 茄汁), kowtow (Cantonese, 叩头), lychee (荔枝),
   typhoon (台风), mandarin (满大人)
 - ...
