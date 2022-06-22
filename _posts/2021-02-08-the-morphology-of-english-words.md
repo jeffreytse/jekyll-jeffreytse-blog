@@ -306,11 +306,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `canon`: a rule or law (e.g. canonical)
 - `cap`: the same as `cept` (e.g. capable, capsule)
 - `capt`: the same as `cept` (e.g. captor, capture, captivate)
+- `cas`: the same as `cept` (eg. cassette)
 - `carn`: flesh (e.g. carnage)
 - `ceit`: the same as `cept`
-- `ceiv`: the same as `cept` (e.g. perceive, receive)
-- `cept`: to take; to grasp (e.g. accept, except, concept, recept, incept,
-  percept, intercept, deception, precept, contracept)
+- `ceiv`: the same as `cept` (e.g. perceive, receive, deceive)
+- `cept`: to take; to grasp; to hold (e.g. accept, except, concept, recept,
+  incept, percept, intercept, deception, precept, contracept)
+- `cip`: the same as `cept` (e.g. emancipate)
 - `cerebr`: brain (e.g. cerebral)
 - `cess`: movement, migration (e.g. process)
 - `chlor`: chlor (e.g. chloroform)
@@ -326,7 +328,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cribr`: sieve, tube with holes (e.g. cribriform)
 - `cruc`: cross (e.g. cruciform)
 - `cunei`: cunei (e.g. cuneiform)
-- `cup`: the same as `cept`
+- `cup`: the same as `cept` (e.g. occupy)
 - `cuss`: strike, hit, shake (e.g. percuss)
 - `deme`: people (e.g. pandemic)
   - From Greek `demos`
@@ -364,6 +366,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - It comes from Latin `formare`
 - `gene`: give birth, beget; race, kind; native, natural (e.g. general,
   generation, genuine, antigen, pathogen)
+- `gn`: the same as `gene` (e.g. pregnant)
 - `glossa` language, tongue
   - From Greek `glōtta`
 - `glotta`: the same as `glossa` (e.g. polyglot)
@@ -412,7 +415,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `low`: low
 - `lun`: moon (e.g. lunar)
 - `mand`: to order (e.g. demand)
-- `man`: hand (e.g. manufactor, manuscript, mandate, manumit)
+- `man`: hand (e.g. manufactor, manuscript, mandate, manumit, emancipate)
   - From Latin `manus`
 - `mark`: mark
 - `mari`: of the sea; body of the sea (e.g. marine)
@@ -796,6 +799,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `nephro`: kidney (e.g. nephrology)
 - `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct,
   obsess, omit, obliterate, oblate)
+- `oc`: the same as `ob-` (e.g. occupy)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
   omniscient)
 - `op`: the same as `ob-` (e.g. oppress)
@@ -961,7 +965,8 @@ Variants:
 - `esis`: noun, the same as `etic` (e.g. pathogenesis)
 - `etic`: adjective, pertaining to (e.g. pathetic)
   - From Greek `-etikos`, adjectival suffix for nouns ending in `-esis`
-- `ette`: noun, a small thing of a particular type (e.g. barrette, snackette, statuette)
+- `ette`: noun, a small thing of a particular type (e.g. barrette, snackette,
+  statuette, cassette)
 - `fic`: adjective, making, creating (e.g. scientific)
   - From French `-fique` and directly from Latin `-ficus` "making, doing"
 - `ful`: full of, having, characterized by (e.g. hateful, hopeful, bellyful)
@@ -1123,7 +1128,7 @@ Variants:
 - `health`: health (e.g. health-reform)
 - `high`: high (e.g. high-performance, high-technology)
 - `hot`: hot (e.g. hot-pressed)
-- `ill`: ill (e.g. ill-informed)
+- `ill`: ill (e.g. ill-informed, ill-conceived)
 - `imposed`: imposed (e.g. state-imposed)
 - `late`: late (e.g. late-Victorian)
 - `led`: lead (e.g. state-led)
@@ -1174,7 +1179,7 @@ Variants:
 - `top`: top (e.g. top-performing)
 - `technology`: `techn` + `o` + `logy` (e.g. information-technology)
 - `well`: well (e.g. well-informed, well-known)
-- `welfare`: welfare (e.g. welfare-reform)
+- `welfare`: welfare (e.g. welfare-reform, well-conceived)
 - `wielding`: `wield` + `ing` (e.g. hammer-wielding)
 - `vice`: vice (e.g. vice-president)
 - `zero`: zero (e.g. zero-energy)
