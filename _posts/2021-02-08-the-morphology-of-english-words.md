@@ -308,11 +308,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `capt`: the same as `cept` (e.g. captor, capture, captivate)
 - `cas`: the same as `cept` (eg. cassette)
 - `carn`: flesh (e.g. carnage)
-- `ceit`: the same as `cept`
-- `ceiv`: the same as `cept` (e.g. perceive, receive, deceive)
+- `ceit`: the same as `cept` (e.g. conceit, deceit)
+- `ceiv`: the same as `cept` (e.g. perceive, receive, deceive, conceive, transceiver)
 - `cept`: to take; to grasp; to hold (e.g. accept, except, concept, recept,
-  incept, percept, intercept, deception, precept, contracept)
-- `cip`: the same as `cept` (e.g. emancipate)
+  incept, percept, intercept, deception, precept, contracept, sceptic)
+- `cip`: the same as `cept` (e.g. emancipate, recipe, incipient)
 - `cerebr`: brain (e.g. cerebral)
 - `cess`: movement, migration (e.g. process)
 - `chlor`: chlor (e.g. chloroform)
@@ -328,7 +328,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cribr`: sieve, tube with holes (e.g. cribriform)
 - `cruc`: cross (e.g. cruciform)
 - `cunei`: cunei (e.g. cuneiform)
-- `cup`: the same as `cept` (e.g. occupy)
+- `cup`: the same as `cept` (e.g. occupy, recuperate)
 - `cuss`: strike, hit, shake (e.g. percuss)
 - `deme`: people (e.g. pandemic)
   - From Greek `demos`
@@ -388,6 +388,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ill`: bad, from evil (e.g. illness)
 - `image`: copy, statue, picture (e.g. imagination)
   - From Latin `imago`
+- `kep`: the same as `cep` (e.g. skeptic, keep)
 - `lat`:take, borne, to bear, to carry (e.g. relate = `re` + `lat` + `ate`,
   oblate, collate, translate, illation, ablate, dilate, prelate, superlative,
   legislate)
@@ -436,11 +437,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mit`: send (e.g. submit, permit)
 - `mob`: the same as `mov` (e.g. mob, mobster)
 - `mobile`: mobile (e.g. mobility)
+- `mon`: the same as `mun` (e.g. common)
 - `morph`: form, shape (e.g. morphology)
   - From Greek `morphe`
 - `mot`: the same as `mov` (e.g. promote, locomote, emote, motif)
 - `mov`: act of moving from a stationary position, a change of position or
   relation (e.g. move, movie)
+- `mun`: mutual, exchange (e.g. municipal)
+  - From Latin `munus`
+- `mut`: the same as `mun` (e.g. mutual)
 - `nat`: be born (e.g. native, nature, naturopathic)
 - `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
 - `nec`: not (e.g. neglect)
@@ -670,7 +675,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ana`: on, upon, above; back; again (e.g. analog, anatomy)
   - Before vowels an-, word-forming element
 - `andeno`: gland-like (e.g. andenoma, andenovirus)
-- `ant`: in front of, before (e.g. antedate, anteroom, anticipate, antique)
+- `ant`: in front of, forehead, before (e.g. antedate, anteroom, anticipate, antique)
 - `anti`: opposed to or against something (e.g. anti-virus, antibiotic,
   antipathetic, anti-cheating)
 - `as`: the same as `ad` (e.g. assist)
@@ -821,7 +826,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `poly`: multiple, entire (e.g. polytechnic)
 - `pre`: before, ahead (e.g. preformed)
   - From Latin `prae-`, before, ahead
-- `pro`: forward (e.g. promote)
+- `pro`: forward, before (e.g. promote, prostitute)
   - It comes from `Prometheus`, who can predict the future.
 - `pur`: the same as `pro` (e.g. purpose, purview, purvey)
   - A variant of Latin pro "before, for" (see `pro-`)
@@ -831,7 +836,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - From Greek `pyr` (genitive `pyros`)
 - `quad`: related to quantity of four
 - `quasi`: as if, as it were (e.g. quasi-static, quasi-legal, quasi-science)
-- `re`: back, again (e.g. response, review, reunite, revolve, replete)
+- `re`: back, again (e.g. response, review, reunite, revolve, replete, recipe)
 - `retina`: net-like tunic (e.g. retinal, retinopathy)
   - From Latin `rete` "net"
 - `rheo`: a flowing, stream, current (e.g. rheostat)
