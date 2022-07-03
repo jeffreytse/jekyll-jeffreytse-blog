@@ -328,7 +328,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cribr`: sieve, tube with holes (e.g. cribriform)
 - `cruc`: cross (e.g. cruciform)
 - `cunei`: cunei (e.g. cuneiform)
-- `cup`: the same as `cept` (e.g. occupy, recuperate)
+- `cup`: the same as `cept` (e.g. occupy, recuperate, cupidity)
 - `cuss`: strike, hit, shake (e.g. percuss)
 - `deme`: people (e.g. pandemic)
   - From Greek `demos`
@@ -341,8 +341,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
 - `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
 - `draw`: act of pulling (e.g. drawstring)
-- `duc`: to lead (e.g. educate, introduce)
+- `duc`: to lead (e.g. produce, educate, introduce)
   - From Latin `ducere`
+- `duct`: the same as `duc` (e.g. conduct, product)
 - `earth`: ground, soil, dirt, dry land; country, district (e.g. earthmover)
 - `erg`: to do; work; activity (e.g. energy, synergy)
 - `ev`: age (e.g. medieval)
@@ -540,7 +541,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sem`: one; as one, together with; same (e.g. seminar)
   - Proto-Indo-European root
 - `sembl`: the same as `sem` (e.g. resemble, semblance, assemble)
-- `seri`: heavy, weighty (e.g. serious)
+- `ser`: to join together, bind together, put in a row, to line up, link, arrange
+  (e.g. series)
+- `sert`:  (e.g. assert, desert, insert, exert)
+- `seri`: weighty, important, grave (e.g. serious)
+  - From Latin `serius`
 - `sev`: the same as `seri` (e.g. severe)
 - `sim`: the same as `sem` (e.g. simple)
 - `simil`: the same as `sem` (e.g. similar, facsimile)
@@ -634,6 +639,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `void`: the same as `vac`
 - `vas`: a tube, duct, or conduit for conveying blood, lymph, semen, etc.
   (e.g. vasopressor, vasoconstriction)
+- `ven`: to come (e.g. revenue)
+  - From Latin `venire`
 - `vent`: wind (e.g. adventure)
 - `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
@@ -817,7 +824,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pan`: all, every, whole, all-inclusive (e.g. pandemic)
   - From Greek `pan-`, combining form of pas
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal
-  (e.g. paramedic, parastatal, paralegal)
+  (e.g. paramedic, parastatal, paralegal, paraeducator)
   - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: through; throughout; thoroughly; entirely, utterly (e.g. perfect,
   perform, persist, permit)
@@ -826,7 +833,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `poly`: multiple, entire (e.g. polytechnic)
 - `pre`: before, ahead (e.g. preformed)
   - From Latin `prae-`, before, ahead
-- `pro`: forward, before (e.g. promote, prostitute)
+- `pro`: forward, before, forth (e.g. promote, prostitute, produce)
   - It comes from `Prometheus`, who can predict the future.
 - `pur`: the same as `pro` (e.g. purpose, purview, purvey)
   - A variant of Latin pro "before, for" (see `pro-`)
@@ -836,7 +843,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - From Greek `pyr` (genitive `pyros`)
 - `quad`: related to quantity of four
 - `quasi`: as if, as it were (e.g. quasi-static, quasi-legal, quasi-science)
-- `re`: back, again (e.g. response, review, reunite, revolve, replete, recipe)
+- `re`: back, again (e.g. response, review, reunite, revolve, replete, recipe,
+  revenue)
 - `retina`: net-like tunic (e.g. retinal, retinopathy)
   - From Latin `rete` "net"
 - `rheo`: a flowing, stream, current (e.g. rheostat)
