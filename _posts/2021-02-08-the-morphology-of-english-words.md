@@ -341,9 +341,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
 - `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
 - `draw`: act of pulling (e.g. drawstring)
-- `duc`: to lead (e.g. produce, educate, introduce)
+- `duc`: to lead (e.g. produce, educate, introduce, seduce, induce)
   - From Latin `ducere`
-- `duct`: the same as `duc` (e.g. conduct, product)
+- `duct`: the same as `duc` (e.g. conduct, product, abduct, seduction, induct)
 - `earth`: ground, soil, dirt, dry land; country, district (e.g. earthmover)
 - `erg`: to do; work; activity (e.g. energy, synergy)
 - `ev`: age (e.g. medieval)
@@ -486,6 +486,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `phone`: voice; related to language (e.g. phonetic, telephone)
   - English comes from Proto-Phoenician
 - `phot`: light (e.g. photo, photostat)
+- `phys`: of nature, natural (e.g. physical)
 - `play`: play (e.g. playbook)
 - `ple`: to fill, full (e.g. complement, accomplish, compliant, plenty)
   - From Latin `plere`
@@ -621,8 +622,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tane`: time (e.g. simultaneously)
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
+- `ten`: the same as `tain` (e.g. content)
 - `terra`: earth (e.g. mediterranean)
 - `termin`: end, limit (e.g. terminal, determine)
+- `tin`: the same as `tain` (e.g. continue)
 - `tine`: sharp point, spike (e.g. quarantine)
 - `tire`: become weary, exhausted (e.g. overtire)
 - `tom`: divide (e.g. atom, prostatectomy)
@@ -675,7 +678,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `a`: off, of, away from; emphatic (e.g. away, apart, ascribe, atom, abandon,
   apply, apathy)
   - From Latin
-- `ab`: away, from, from off, down (e.g. abuse)
+- `ab`: away, from, from off, down (e.g. abuse, abduct)
 - `acu`: cusp (e.g. acupressure)
 - `ad`: to (e.g. advocate, admit)
 - `aero`: air (e.g. aerostat)
@@ -849,7 +852,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `rete` "net"
 - `rheo`: a flowing, stream, current (e.g. rheostat)
   - from Greek `rheos`, which is related to rhein "to flow"
-- `se`: without, apart, aside, on one's own (e.g. select, secret)
+- `se`: without, apart, aside, on one's own (e.g. select, secret, seduce)
 - `seam`: to bind, sew (e.g. seamstress)
 - `semi`: half
 - `sens`: understanding or feeling of something (e.g. sense)
