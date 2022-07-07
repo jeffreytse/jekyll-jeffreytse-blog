@@ -293,6 +293,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `alt`: tall
 - `alter`: the other (e.g. alternate)
 - `anim`: life (e.g. animal)
+- `aqu`: water (e.g. aqua, aqueduct)
+  - From Latin `aqua`
 - `art`: to do, make (e.g. artificial)
 - `astr`: star (e.g. astronaut)
 - `bar`: bar, obstacle (e.g. embarrass, barrack)
@@ -341,9 +343,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
 - `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
 - `draw`: act of pulling (e.g. drawstring)
-- `duc`: to lead (e.g. produce, educate, introduce, seduce, induce)
+- `duc`: to lead (e.g. produce, educate, introduce, seduce, induce, educe,
+  edduce, transduce)
   - From Latin `ducere`
-- `duct`: the same as `duc` (e.g. conduct, product, abduct, seduction, induct)
+- `duct`: the same as `duc` (e.g. conduct, product, abduct, seduction, induct,
+  viaduct, ventiduct)
 - `earth`: ground, soil, dirt, dry land; country, district (e.g. earthmover)
 - `erg`: to do; work; activity (e.g. energy, synergy)
 - `ev`: age (e.g. medieval)
@@ -389,6 +393,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ill`: bad, from evil (e.g. illness)
 - `image`: copy, statue, picture (e.g. imagination)
   - From Latin `imago`
+- `journ`: a day (e.g. journey)
+  - From Old French `journée`
 - `kep`: the same as `cep` (e.g. skeptic, keep)
 - `lat`:take, borne, to bear, to carry (e.g. relate = `re` + `lat` + `ate`,
   oblate, collate, translate, illation, ablate, dilate, prelate, superlative,
@@ -482,6 +488,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pact`: to fix, fasten (e.g. compact, pactum, package)
 - `par`: the same as `pear` (e.g. parent, primipara, fissiparous)
 - `pear`: to come forth, be visible; submit, obey (e.g. appear)
+- `per`: to try, risk
+- `peri`: the same as `per` (e.g. experience, peril)
+- `pert`: the same as `per` (e.g. expert)
 - `pheme`: speech, voice, utterance, a speaking (e.g. eupheme)
 - `phone`: voice; related to language (e.g. phonetic, telephone)
   - English comes from Proto-Phoenician
@@ -531,6 +540,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sal`: something from sea (e.g. salt, salty)
 - `sau`: to salt (e.g. sauce, salad = `sauce` + `laid`, sausage = `sauce` + `age`)
   - From root `sal`
+- `scen`: to set, tent, booth (e.g. scene, scenario = `scen` + `ary` + `o`,
+  obscene)
 - `sci`: to know (e.g. science, conscious, prescience, nescience)
   - From Latin `scire/scientis`
 - `scop`: to observe; to look (e.g. fluoroscopy, spectroscope, telecsope, microscope)
@@ -644,12 +655,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   (e.g. vasopressor, vasoconstriction)
 - `ven`: to come (e.g. revenue)
   - From Latin `venire`
-- `vent`: wind (e.g. adventure)
+- `vent`: wind (e.g. adventure, ventiduct)
 - `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
 - `vey`: the same as `vid` (e.g. survey, purvey)
 - `vi`: road (e.g. via, obviate, obvious, previous, trivia)
-- `via`: the same as `vi`
+- `via`: the same as `vi` (e.g. viaduct)
 - `vict` win (e.g. victim)
   - The ancient Roman mythological character `Victoria`, goddess of victory.
 - `vinc`: overcome, conquer (e.g. convince)
@@ -680,7 +691,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin
 - `ab`: away, from, from off, down (e.g. abuse, abduct)
 - `acu`: cusp (e.g. acupressure)
-- `ad`: to (e.g. advocate, admit)
+- `ad`: to (e.g. advocate, admit, adduce)
 - `aero`: air (e.g. aerostat)
 - `ana`: on, upon, above; back; again (e.g. analog, anatomy)
   - Before vowels an-, word-forming element
@@ -738,7 +749,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `du`: the same as `di` (e.g. duplicate, duplex)
 - `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction)
   - From Greek `dys-`
-- `e`: same as `ex` (e.g. evict)
+- `e`: same as `ex` (e.g. evict, educe)
 - `ec`: the same as `ex-` (e.g. eclectic)
 - `ecto`: outside, external (e.g. ectoderm)
   - Word-forming element generally before vowels `ect-`
@@ -813,7 +824,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `non`: not, none = no one (e.g. nonformal)
 - `nephro`: kidney (e.g. nephrology)
 - `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct,
-  obsess, omit, obliterate, oblate)
+  obsess, omit, obliterate, oblate, obscene)
 - `oc`: the same as `ob-` (e.g. occupy)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
   omniscient)
@@ -1005,7 +1016,7 @@ Variants:
 - `ics`: noun, `ic` + `s`, the study of something (e.g. bioinformatics)
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
   polyploid = `poly` + `plo` + `id`)
-- `ile`: the same as `ible`
+- `ile`: the same as `ible` (e.g. ductile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline)
@@ -1145,6 +1156,7 @@ Variants:
 - `high`: high (e.g. high-performance, high-technology)
 - `hot`: hot (e.g. hot-pressed)
 - `ill`: ill (e.g. ill-informed, ill-conceived)
+- `induced`: induced (e.g. drug-induced, noise-induced)
 - `imposed`: imposed (e.g. state-imposed)
 - `late`: late (e.g. late-Victorian)
 - `led`: lead (e.g. state-led)
