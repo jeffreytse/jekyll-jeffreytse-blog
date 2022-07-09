@@ -318,8 +318,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cerebr`: brain (e.g. cerebral)
 - `cess`: movement, migration (e.g. process)
 - `chlor`: chlor (e.g. chloroform)
+- `cid`: to cut (e.g. suicide)
+- `cis`: the same as `cid` (e.g. circumcise)
 - `cip`: the same as `cept`
-- `circum`: circle (e.g. circumscribe)
+- `circ`: round, circle, ring, to turn, bend (e.g. circuit, circus, circulate,
+  encircle, circadian)
+- `circum`: the same as `circ` (e.g. circumscribe, circumvent, circumstance,
+  circumpolar, circumstellar)
 - `cite`: to move, set in motion, stir, rouse, call, invite (e.g. recite)
 - `clude`: to shut, close (e.g. include)
   - From Latin `cludere`, the more literal sense of "close, shut up, prevent
@@ -332,6 +337,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cunei`: cunei (e.g. cuneiform)
 - `cup`: the same as `cept` (e.g. occupy, recuperate, cupidity)
 - `cuss`: strike, hit, shake (e.g. percuss)
+- `cycl`: the same as `circ` (e.g. cycle, cyclo, bicycle, unicycle)
 - `deme`: people (e.g. pandemic)
   - From Greek `demos`
 - `dek`: to take, accept (e.g. decorate)
@@ -393,7 +399,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ill`: bad, from evil (e.g. illness)
 - `image`: copy, statue, picture (e.g. imagination)
   - From Latin `imago`
-- `journ`: a day (e.g. journey)
+- `journ`: of a day, to last long (e.g. journey, adjourn)
   - From Old French `journée`
 - `kep`: the same as `cep` (e.g. skeptic, keep)
 - `lat`:take, borne, to bear, to carry (e.g. relate = `re` + `lat` + `ate`,
@@ -559,6 +565,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `seri`: weighty, important, grave (e.g. serious)
   - From Latin `serius`
 - `sev`: the same as `seri` (e.g. severe)
+- `sol`: sole (e.g. sojourn)
 - `sim`: the same as `sem` (e.g. simple)
 - `simil`: the same as `sem` (e.g. similar, facsimile)
 - `simul`: the same as `sem` (e.g. simulate)
@@ -595,7 +602,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   stalemate, stalwart, oust, stiff, stub, stem, stamp)
 - `sist`: the same as `st` (e.g. assist, exist, insist, persist)
 - `soci`: companion, ally (e.g. social, sociopath)
-- `star`: star
+- `star`: the same as `ster`
+- `ster`: star (e.g. )
+- `stel`: the same as `ster` (e.g. stellar)
 - `stat`: the same as `st` (e.g. state `st` + `ate`, upstate, overstate)
 - `stil`: the same as `st` (e.g. still)
 - `stem`: the same as `st` (e.g. system)
@@ -691,7 +700,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin
 - `ab`: away, from, from off, down (e.g. abuse, abduct)
 - `acu`: cusp (e.g. acupressure)
-- `ad`: to (e.g. advocate, admit, adduce)
+- `ad`: to (e.g. advocate, admit, adduce, adjourn)
 - `aero`: air (e.g. aerostat)
 - `ana`: on, upon, above; back; again (e.g. analog, anatomy)
   - Before vowels an-, word-forming element
@@ -706,6 +715,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `apo`: off, away from (e.g. apology, apostate)
   - From Greek
 - `au`: the same as `eu` (e.g. auspice)
+- `auto`: self, one's own, of oneself, of itself (e.g. autograph, autocycle)
 - `be`: about, around, on all sides (e.g. bemuse)
 - `bi`: two (e.g. binary, biweekly, bicycle, bicentennial, bisexual, bilingual)
 - `bi(o)`: relating to or using living things (e.g. biomedical, biography)
@@ -777,7 +787,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `gyre`: the same as `gyro` (e.g. gyrencephalic)
 - `gyro`: a ring, circle (e.g. gyrate, gyroscope)
   - From Greek `gyros`
-- `hetero`: other, opposite, different (e.g. heterogeneous, heterosexual)
+- `hemi`: the same as `semi` (e.g. hemicycle)
+- `hetero`: other, opposite, different (e.g. heterogeneous, heterosexual,
+  heterocyclic)
 - `homo`: one and the same (e.g. homogeneous, homosexual)
 - `homeo`: like, resembling, of the same kind; equal (e.g. homeopathy)
   - Latinized from Greek `homio-`, from `homoios`
@@ -844,7 +856,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   perform, persist, permit)
 - `pir`: pear (e.g. piriform)
 - `plat`: small place (e.g. platform)
-- `poly`: multiple, entire (e.g. polytechnic)
+- `poly`: multiple, entire (e.g. polytechnic, polycyclic)
 - `pre`: before, ahead (e.g. preformed)
   - From Latin `prae-`, before, ahead
 - `pro`: forward, before, forth (e.g. promote, prostitute, produce)
@@ -1133,7 +1145,7 @@ Variants:
 - `cold`: cold (e.g. cold-pressed)
 - `concent`: concent (e.g. informed-consent)
 - `cost`: cost (e.g. cost-cutting, cost-sharing, low-cost)
-- `counter`: anti (e.g. counter-reformation)
+- `counter`: anti (e.g. counter-reformation, counter-cyclical)
 - `covered`: covered (e.g. ice-covered, ivy-covered)
 - `cross`: cross (e.g. cross-platform)
 - `dominated`: dominated (e.g. state-dominated)
