@@ -378,7 +378,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `form`: shape, look, etc. (e.g. transform, formula)
   - It comes from Latin `formare`
 - `gene`: give birth, beget; race, kind; native, natural (e.g. general,
-  generation, genuine, antigen, pathogen)
+  generation, genuine, antigen, pathogen, parthenogenesis)
 - `gn`: the same as `gene` (e.g. pregnant)
 - `gest`: carry, bear, wage, perform (e.g. gesture)
 - `gist`: the same as `gest` (e.g. register)
@@ -493,6 +493,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `out`: out (e.g. outperform)
 - `oxy`: sharp, acid, oxygen (e.g. oxygen, oxymoron)
 - `passi`: the same as `patho` (e.g. passion, passive, compassion)
+- `patheno`: a virgin (e.g. parthenogenesis)
+  - From Greek `parthenos`
 - `patho`: to feel, to suffer (e.g. pathology)
   - From Greek `pathos`
 - `pathy`: the same as `patho` (e.g. pathetic, apathy, sympathy)
@@ -500,7 +502,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `pat(i)`
 - `pact`: to fix, fasten (e.g. compact, pactum, package)
 - `par`: the same as `pear` (e.g. parent, primipara, fissiparous)
-- `part`: part (e.g. subpart, partial, impartial, counterpart, apart, particle)
+- `part`: to divide, separate; to produce, procure (e.g. subpart, partial,
+  impartial, counterpart, apart, particle, impart, partake, parturient)
 - `pear`: to come forth, be visible; submit, obey (e.g. appear)
 - `per`: to try, risk
 - `peri`: the same as `per` (e.g. experience, peril)
@@ -813,7 +816,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `idio`: one's own, personal, private (e.g. idiolect, idiomatic, idiopathic)
 - `il`: used instead of `in-` before the letter `l` (e.g. illegal, illiterate)
 - `im`: not, opposite of; in,into; emphatic (e.g. immobile, impersonal, implant,
-  impress, immovable, impassion, immit, impossible)
+  impress, immovable, impassion, immit, impossible, impart)
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
 - `in`: the same as `im-` (e.g. invalid, insufficient, inform, inland, inquire)
@@ -955,7 +958,7 @@ Variants:
 
 ## Suffix
 
-- `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa)
+- `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa, partita)
 - `al`: noun or adjective (e.g. verbal, medial, similar)
 - `ade`: noun (e.g. barriecade)
   - Denoting an action or product of an action, via French, Spanish, or Italian,
@@ -1059,6 +1062,7 @@ Variants:
 - `ism`: noun, principle (something's abstraction)
 - `ist`: noun, people, principle (e.g. formalist)
 - `it`: the same as `id` (e.g. unit, complicit, explicit)
+- `ite`: the same as `ate` (e.g. tripartite)
 - `itude`: noun, something's abstraction (e.g. plenitude)
 - `ity`: noun, related to a state or quality, `i` + `ty` (e.g. performatity)
   - Added to adjectives to form nouns
