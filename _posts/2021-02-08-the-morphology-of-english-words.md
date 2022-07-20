@@ -390,6 +390,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   cyclograph)
 - `half`: half (e.g. halfway)
 - `ham`: hollow or bend of the knee (e.g. hamstring)
+- `haust`: to draw up, to scoop (e.g. exhaust)
 - `heal`: heal (e.g. healthy)
 - `helic`: spiral (e.g. helicopter)
 - `helix`: the same as `helic`
@@ -679,9 +680,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `void`: the same as `vac`
 - `vas`: a tube, duct, or conduit for conveying blood, lymph, semen, etc.
   (e.g. vasopressor, vasoconstriction)
-- `ven`: to come (e.g. revenue)
-  - From Latin `venire`
-- `vent`: wind (e.g. adventure, ventiduct)
+- `ven`: to come, to go (e.g. revenue, intervene, contravene, avenue, souvenir,
+  provenance)
+  - From Latin `venire`, from the three-V instrument.
+- `vent`: the same as `ven` (e.g. advent, ventiduct, event, convention, invent,
+  prevent, circumvent, convenient, venture, subvention)
 - `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
 - `vey`: the same as `vid` (e.g. survey, purvey)
@@ -713,7 +716,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 ## Prefix
 
 - `a`: off, of, away from; emphatic (e.g. away, apart, ascribe, atom, abandon,
-  apply, apathy)
+  apply, apathy, avenue)
   - From Latin
 - `ab`: away, from, from off, down (e.g. abuse, abduct)
 - `acu`: cusp (e.g. acupressure)
@@ -755,7 +758,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cor`: same as `con` (e.g. corrupt, correct, correlate)
   - The form used for `com-` before the letter `r`
 - `cryo`: of or involving very low temperatures (e.g. cryostat)
-- `contra`: against or opposite (e.g. contraband, contradictory, contracept)
+- `contra`: against or opposite (e.g. contraband, contradictory, contracept,
+  contravene)
 - `counter`: against, in opposition; in return; corresponding, (e.g. counteract,
   counterfeit, countermove, counterpart)
   - from Anglo-French `countre-`, French `contre-`, from Latin contra "opposite,
@@ -902,6 +906,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `soci`: partner (e.g. social, `soci` + `al`)
 - `sol`: uninjured, in good health, safe (e.g. solid)
   - From Latin salvificus "saving"
+- `sou`: the same as `sub` (e.g. souvenir)
 - `stereo`: solid, firm; three-dimensional; stereophonic (e.g. stereotype)
   - From Greek stereos "solid", before vowels `stere-`, word-forming element
 - `sub`: under (e.g. subway(Americanism, underway is british style),
@@ -950,7 +955,7 @@ Variants:
 - `com-` = `con-` = `col-` = `cor-` = `co-`
 - `di-` = `dis-` = `de-` = `is-`
 - `in-` = `im-` = `il` = `ir` = `un-` (e.g. impolite, illigal, irregular)
-- `sub-` = `sup-` = `sur-` = `sus-`
+- `sub-` = `sup-` = `sur-` = `sus-` = `sou-` (e.g. subway, souvenir)
 - `en-` = `em-` = `in-` = `im-` (e.g. enrich, enlarge, encourage, impassion)
 - `super-` = `over-`
 - `inter-` = `intel-` = `enter-` (e.g. )
@@ -1107,7 +1112,7 @@ Variants:
 - `phobe`: noun, someone who dislikes or hates something (e.g. technophobe)
 - `rama`: noun, sight, view, spectacular display or instance of (e.g. cyclorama)
 - `ship`: noun, abstraction (e.g. friendship, directorship, musicianship)
-- `some`: adjective
+- `some`: adjective (e.g. venturesome, troublesome)
   - Word-forming element used in making adjectives from nouns or adjectives (and
     sometimes verbs)
   - Meaning "tending to; causing; to a considerable degree," from Old English `-sum`
