@@ -568,7 +568,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - suffixed form of root `spec`
 - `scribe`: to write or something written (e.g. subscribe)
 - `scribble`: careless writing, drawing
-- `script`: the same as `scribe`
+- `script`: the same as `scribe` (e.g. prescription)
 - `sect`: to cut (e.g. sector)
 - `sem`: one; as one, together with; same (e.g. seminar)
   - Proto-Indo-European root
@@ -667,6 +667,17 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `top`: top
 - `tort`: to twist (e.g. extort)
 - `toxi`: poison (e.g. toxic, toxin = `toxic` + `in`)
+- `tra`: to pull, draw, drag (e.g. portray = `por` + `tra` + `y`)
+  - From Latin `trahere`
+- `trac`: the same as `tra` (e.g. trace, traceble)
+- `track`: the same as `tra` (e.g. tracksuit)
+- `tract`: the same as `tra` (e.g. traction, attract, contract, extract, distract,
+  abstract, protract, retract, detract, intractable)
+- `trail`: the same as `tra` (e.g. trailer, trailhead, contrail)
+- `train`: the same as `tra`
+- `trait`: the same as `tra` (e.g. portrait, traitor)
+- `traught`: the same as `tra`
+- `treat`: the same as `tra` (e.g. treatment, mistreat, maltreat, entreat)
 - `tutor`: to protect; to be strong (e.g. tutorial, tuition)
 - `twi`: two, twice, double, in two ways; to divide, separate (e.g. twilight,
   twist)
@@ -880,6 +891,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pir`: pear (e.g. piriform)
 - `plat`: small place (e.g. platform)
 - `poly`: multiple, many, entire (e.g. polytechnic, polycyclic, polyglot)
+- `por`: the same as `pro` (e.g. portray, portrait)
 - `pre`: before, ahead (e.g. preformed)
   - From Latin `prae-`, before, ahead
 - `pro`: forward, before, forth (e.g. promote, prostitute, produce)
@@ -992,7 +1004,7 @@ Variants:
   - from Middle English `-orie`, from Old North French `-ory`, `-orie` (Old
     French `-oir`, `-oire`), from Latin `-orius`, `-oria`, `-orium`
 - `at`: noun or verb (e.g. formate, commissariat)
-- `ate`: verb or adjective or noun
+- `ate`: verb or adjective or noun (e.g. tractate)
   - Verb, make something doing (e.g. regulate, control somthing or make it regular)
   - Adjective, full of or showing a particular quality (e.g. affectionate,
     collegiate, passionate)
@@ -1055,7 +1067,7 @@ Variants:
 - `icle`: the same as `-acle` (e.g. particle)
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
   polyploid = `poly` + `plo` + `id`)
-- `ile`: the same as `ible` (e.g. ductile)
+- `ile`: the same as `ible` (e.g. ductile, protractile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline)
@@ -1076,6 +1088,7 @@ Variants:
 - `ium`: noun (e.g. scriptorium, technetium, medium)
 - `ive`: adjective (e.g. active)
 - `ise`: verb (Americanism)
+  - none, from French (e.g. treatise)
 - `ize`: verb (British Style)
 - `istic`: `ist` + `ic` (e.g. formalistic)
 - `itis`: noun (e.g. periodontitis)
@@ -1136,6 +1149,7 @@ Variants:
 - `us`: noun (e.g. exodus, humerus, rectus, stimulus, genius, literatus)
 - `ute`: verb or noun (e.g. institute)
   - verb is same as `-ate`
+- `y`: verb (e.g. portray)
 - ...
 
 Variants:
