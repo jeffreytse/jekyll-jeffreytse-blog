@@ -367,6 +367,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fer`: to carry, to bear (e.g. confer, infer, transfer)
   - From Latin `ferre`
 - `for`: the same as `fer`
+- `fortun`: chance, fate, good luck (e.g. fortune)
+  - From Latin `fortuna`, Fortuna, in Roman religion, goddess of chance or lot
+  who became identified with the Greek Tyche
 - `fibr` a thread, string (e.g. fiber, neurofibroma)
 - `fict`: the same as `fact` (e.g. fiction)
 - `fin`: end, limit, acme (e.g. define, final, finance, infinite, confine)
@@ -377,6 +380,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fore`: former, earlier (e.g. forearm, forehand, foresee)
 - `form`: shape, look, etc. (e.g. transform, formula)
   - It comes from Latin `formare`
+- `gage`: pledge, have responsibility for (e.g. engage)
 - `gene`: give birth, beget; race, kind; native, natural (e.g. general,
   generation, genuine, antigen, pathogen, parthenogenesis)
 - `gn`: the same as `gene` (e.g. pregnant)
@@ -427,7 +431,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lith`: stone (e.g. monolith, lithography)
 - `liter`: letter, alphabetic sign; literature, books (e.g. literature)
   - From Latin `litera/littera`
-- `loc`: a place, spot (e.g. local, locomote)
+- `loc`: a place, spot (e.g. local, locality, locomote, matrilocal, allocate,
+  relocate)
+  - From Latin `locus`
 - `log`: speech; to speek; word, speech, thought (e.g. logo, logger, apology)
   - From Greek `legein` = to speak, `logos` = word, speech, though
   - From Latin `loqui` = to speak
@@ -453,6 +459,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `medit`: to meditate, think over, reflect, consider (e.g. meditate)
 - `mel`: honey (e.g. mellifluous)
   - From Latin `mel`, related to Greek `meli`
+- `merg`: plunge, dip, to wash (e.g. immersion)
+- `mers`: the same as `gerg` (e.g. immerse)
 - `mit`: send (e.g. submit, permit)
 - `mob`: the same as `mov` (e.g. mob, mobster)
 - `mobile`: mobile (e.g. mobility)
@@ -506,6 +514,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `part`: to divide, separate; to produce, procure (e.g. subpart, partial,
   impartial, counterpart, apart, particle, impart, partake, parturient)
 - `pear`: to come forth, be visible; submit, obey (e.g. appear)
+- `pel`: to thrust, strike, drive (e.g. compel)
 - `per`: to try, risk
 - `peri`: the same as `per` (e.g. experience, peril)
 - `pert`: the same as `per` (e.g. expert)
@@ -543,9 +552,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `put`: think
 - `pol`: citadel, fort, city (e.g. politic, polite, police)
   - From Greek `polis`
+- `pon`: the same as `loc` (e.g. )
 - `poor`: poor
 - `port`: to lead, pass over (e.g. import, export, transport, portable)
-- `pos`: powerful; lord; (e.g. possess, possible, position)
+- `pos`: the same as `loc` (e.g. position)
+- `poss`: powerful; lord; (e.g. possess, possible)
 - `pot`: the same as `pos` (e.g. potential)
 - `quar`: four (e.g. square, quarantine)
 - `que`: to ask, to seek (e.g. quest)
@@ -660,12 +671,16 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `terra`: earth (e.g. mediterranean)
 - `termin`: end, limit (e.g. terminal, determine)
 - `thentes`: doer, being (e.g. authentic = `auto` + `thentes`)
+- `thes`: the same as `loc`
 - `tin`: the same as `tain` (e.g. continue)
 - `tine`: sharp point, spike (e.g. quarantine)
 - `tire`: become weary, exhausted (e.g. overtire)
 - `tom`: divide (e.g. atom, prostatectomy)
 - `top`: top
+- `torn`: a turn, trick, round, circuit, circumference (e.g. attorney, tornado)
 - `tort`: to twist (e.g. extort)
+- `tour`: the same as `torn` (e.g. tourist, detour, contour, entourage)
+- `tourn`: the same as `torn` (e.g. tournament, touriquet, tourney)
 - `toxi`: poison (e.g. toxic, toxin = `toxic` + `in`)
 - `tra`: to pull, draw, drag (e.g. portray = `por` + `tra` + `y`)
   - From Latin `trahere`
@@ -676,12 +691,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `trail`: the same as `tra` (e.g. trailer, trailhead, contrail)
 - `train`: the same as `tra`
 - `trait`: the same as `tra` (e.g. portrait, traitor)
-- `traught`: the same as `tra`
+- `traught`: the same as `tra` (e.g. distraught)
 - `treat`: the same as `tra` (e.g. treatment, mistreat, maltreat, entreat)
 - `tutor`: to protect; to be strong (e.g. tutorial, tuition)
 - `twi`: two, twice, double, in two ways; to divide, separate (e.g. twilight,
   twist)
 - `under`: under (e.g. underline)
+- `urb`: city, walled town (e.g. urban, suburb, exburb, interurban, conurbation)
 - `urg`: the same as `erg` (e.g. urge, surgery=`s` hand + `urg` + `ery`)
 - `vac`: be empty, free, or at leisure (e.g. vacation, evacuate)
 - `vacu`: the same as `vac` (e.g. vacuity, vacuous, vacuum)
@@ -714,13 +730,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   overview, rearview, purview)
 - `vis`: to see (e.g. visit, vision, advise, revision, visual, supervise,
   previse, televise, improvise, proviso, provision, visa, visage)
+- `vir`: a man, a hero (e.g. virile, virtue, virilocal)
 - `voc`: voice, call (e.g. voice, vocational, advocate)
 - `vol`: to turn, revolve, roll; will (e.g. revolve, evolve, involve, volume)
 - `voy`: way, journey (e.g. voyage)
   - From French
 - `watch`: keep watch, be awake (e.g. watchdog)
 - `way`: way
-- `wave`: wave (e.g. waveform )
+- `wave`: wave (e.g. waveform)
+- `wed`: pledge (e.g. wedding)
 - `wis`: the same as `vis` (e.g. wish, wise)
 - `wit`: the same as `vis` (e.g. witness)
 
@@ -826,8 +844,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `homo`: one and the same (e.g. homogeneous, homosexual)
 - `homeo`: like, resembling, of the same kind; equal (e.g. homeopathy)
   - Latinized from Greek `homio-`, from `homoios`
-- `hypo`: less than usual, especially too little; the same as `sub-`, under
-  (e.g. hypotherm, hypostatic)
+- `hypo`:  less than usual, especially too little; the same as `sub-`, under
+  (e.g. hypotherm, hypostatic, hypothesis)
 - `idio`: one's own, personal, private (e.g. idiolect, idiomatic, idiopathic)
 - `il`: used instead of `in-` before the letter `l` (e.g. illegal, illiterate)
 - `im`: not, opposite of; in,into; emphatic (e.g. immobile, impersonal, implant,
@@ -851,7 +869,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mal`: bad (e.g. malware)
 - `main`: main (e.g. main)
 - `magn`: big
-- `matri`: mother (e.g. matrimony)
+- `matri`: of or relating to women, mother (e.g. matrimony, matrilocal)
 - `meta`: beyond or at a higher level; relating to a change of state or
   position; (e.g. metaphysical, metabolism, metastatic)
 - `micro`: extremely small (e.g. microphone, microwave)
@@ -947,6 +965,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `under`: below, beneath; between, among; before (e.g. undertake, understand)
 - `uni`: one, single, `un` + `i` (e.g. uniform)
 - `use`: use (e.g. usage)
+- `uxor`: wife (e.g. uxorious, uxoricide)
 - `vore`: devour (e.g. devore)
 - `vaso`: container, vessel (e.g. vasopressin, vasopressor, vasodilation)
   - Combining form of Latin `vas` (see `vas`)
@@ -976,38 +995,39 @@ Variants:
 ## Suffix
 
 - `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa, partita)
-- `al`: noun or adjective (e.g. verbal, medial, similar)
-- `ade`: noun (e.g. barriecade)
-  - Denoting an action or product of an action, via French, Spanish, or Italian,
-    ultimately from Latin `-ata`, `fem`.
-- `ase`: noun, used in naming enzymes, from ending of diastase (biochemistry).
-  (e.g. transcriptase)
-- `age`: noun, the same as `ic` (e.g. formage, sausage)
-  - Word-forming element in nouns of act, process, function, condition, from
-  - From Old French and French `-age`, from Late Latin -aticum "belonging to,
-    related to," originally neuter adjectival suffix
-- `an`: noun or adjective (e.g. median, partisan)
-- `ance`: noun (e.g. performance, appearance, balance, governance)
-  - The action, state, or quality of doing something or of being something
-- `ant`: noun (e.g. informant, assistant, redundant, significant)
-  - Someone or something that does something
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
 - `acle`: noun (e.g. obstacle, spectacle)
 - `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy, mediacy)
-- `ade`: noun (e.g. blockade)
+- `ade`: noun (e.g. blockade, barriecade)
   - Word-forming delement denoting an action or product of an action
+  - Denoting an action or product of an action, via French, Spanish, or Italian,
+    ultimately from Latin `-ata`, `fem`.
+- `ado`: the same as `ade` (e.g. tornado)
+- `adu`: the same as `ade` (e.g. )
+- `age`: noun, the same as `ic` (e.g. formage, sausage, entourage)
+  - Word-forming element in nouns of act, process, function, condition, from
+  - From Old French and French `-age`, from Late Latin -aticum "belonging to,
+    related to," originally neuter adjectival suffix
+- `al`: noun or adjective (e.g. verbal, medial, similar)
+- `an`: noun or adjective (e.g. median, partisan, urban)
+- `ance`: noun (e.g. performance, appearance, balance, governance)
+  - The action, state, or quality of doing something or of being something
+- `ant`: noun (e.g. informant, assistant, redundant, significant)
+  - Someone or something that does something
 - `ar`: noun, the same as `-er`, someone who does somthing; adjective, relating
   to somthing (e.g. liar, polar, circular, stellar, commissar)
 - `ary`: adjective or noun; having to do with, characterized by, tending to,
   place for (e.g. arbitrary, monetary, plenary)
   - from Middle English `-orie`, from Old North French `-ory`, `-orie` (Old
     French `-oir`, `-oire`), from Latin `-orius`, `-oria`, `-orium`
+- `ase`: noun, used in naming enzymes, from ending of diastase (biochemistry).
+  (e.g. transcriptase)
 - `at`: noun or verb (e.g. formate, commissariat)
-- `ate`: verb or adjective or noun (e.g. tractate)
+- `ate`: verb or adjective or noun (e.g. tractate, fortunate)
   - Verb, make something doing (e.g. regulate, control somthing or make it regular)
-  - Adjective, full of or showing a particular quality (e.g. affectionate,
-    collegiate, passionate)
+  - Adjective, full of or showing a particular quality; connected with or
+    belonging to  (e.g. affectionate, collegiate, passionate)
   - Noun, job, rank, or degree of a particular quality/type/duty...
 - `ation`: noun (`ate` + `ion`)
 - `ative`: noun (`ate` + `ive`)
@@ -1020,7 +1040,7 @@ Variants:
   - From Old English dom "statute, judgment" (see `doom`)
 - `don`: verb (e.g. abandon)
 - `e`: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme, sauce,
-  tine, square, crime, envalope, nerve)
+  tine, square, crime, envalope, nerve, urbane)
   - Sometime is adjective (e.g. remote, marine, simple)
 - `ed`: adjective
 - `el`: noun (e.g. barrel)
@@ -1055,7 +1075,7 @@ Variants:
   - state or condition of being, from old English
 - `i`: noun (e.g. literati)
   - The same as `-a`, `-e`
-- `ia`: noun, in names of countries, diseases, and flowers (e.g. Asia)
+- `ia`: noun, in names of countries, diseases, and flowers (e.g. Asia, suburbia)
   - From Latin and Greek -ia, noun ending, in Greek especially used in forming
     abstract nouns (typically of feminine gender);
 - `ible`: the same as `able` (e.g. invincible)
@@ -1067,7 +1087,7 @@ Variants:
 - `icle`: the same as `-acle` (e.g. particle)
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
   polyploid = `poly` + `plo` + `id`)
-- `ile`: the same as `ible` (e.g. ductile, protractile)
+- `ile`: the same as `ible` (e.g. ductile, protractile, virile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline)
@@ -1076,10 +1096,10 @@ Variants:
 - `ion`: noun (e.g. formation, vision)
 - `ish`: noun or adjective or verb, something of one place, quite (e.g. nourish,
   youngish, finish, vanish)
-- `ism`: noun, principle (something's abstraction)
+- `ism`: noun, principle (something's abstraction) (e.g. tourism)
 - `ist`: noun, people, principle (e.g. formalist)
 - `it`: the same as `id` (e.g. unit, complicit, explicit)
-- `ite`: the same as `ate` (e.g. tripartite)
+- `ite`: the same as `ate` (e.g. tripartite, urbanite)
 - `itude`: noun, something's abstraction (e.g. plenitude)
 - `ity`: noun, related to a state or quality, `i` + `ty` (e.g. performatity)
   - Added to adjectives to form nouns
@@ -1146,7 +1166,7 @@ Variants:
 - `ure`: noun or verb (e.g. structure)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
     `-ura`, an ending of fem. nouns denoting employment or result.
-- `us`: noun (e.g. exodus, humerus, rectus, stimulus, genius, literatus)
+- `us`: noun (e.g. exodus, humerus, rectus, stimulus, genius, literatus, locus)
 - `ute`: verb or noun (e.g. institute)
   - verb is same as `-ate`
 - `y`: verb (e.g. portray)
