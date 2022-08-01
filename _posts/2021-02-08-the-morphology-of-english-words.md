@@ -476,14 +476,20 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `nat`: be born (e.g. native, nature, naturopathic)
 - `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
 - `nec`: not (e.g. neglect)
+- `nec`: the same as `noc`
 - `neo`: new (e.g. neonatal)
 - `nerv`: tendon, sinew; to give strength or vigor (e.g. nervous, eneravte)
   - From Latin `nervus`, Greek `neuros`
 - `neur`: the same as `nerv` (e.g. neural)
 - `news`: message (e.g. newspaper, newsstand)
   - Message from North, East, West and South
+- `noc`: to harm (e.g. nocent, innocent, nocuous)
+  - From Latin `nocere`
 - `nocu`: to hurt, injure, harm (e.g. nocuous)
 - `non`: no (e.g. nonperformance)
+- `nox`: the same as `noc`
+- `noxi`: the same as `noc`
+- `nui`: the same as `noc`
 - `grand`: big, great; full, abundant, full-grown, strong, powerful, weighty, severe
   (e.g. grandparent)
 - `gram`: something is written or marked, a picture, a drawing (e.g. telegram, aerogram)
@@ -902,7 +908,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pan`: all, every, whole, all-inclusive (e.g. pandemic)
   - From Greek `pan-`, combining form of pas
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal
-  (e.g. paramedic, parastatal, paralegal, paraeducator)
+  (e.g. paramedic, parastatal, paralegal, paraeducator, paranormal)
   - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: through; throughout; thoroughly; entirely, utterly (e.g. perfect,
   perform, persist, permit)
@@ -1277,6 +1283,8 @@ Variants:
 - `still`: still (e.g. still-life, still-living, still-warm, still-young)
 - `style`: style (e.g. Victorian-style)
 - `subsidized`: subsidized (e.g. state-subsidized)
+- `teria`: place where something is done (e.g. cafeteria)
+  - From Spanish `-tería`
 - `then`: then (e.g. then-president)
 - `treated`: treated (e.g. pressure-treated)
 - `total`: total (e.g. total-coliform)
