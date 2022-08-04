@@ -476,20 +476,19 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `nat`: be born (e.g. native, nature, naturopathic)
 - `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
 - `nec`: not (e.g. neglect)
-- `nec`: the same as `noc`
+- `nec`: the same as `noc` (e.g. internecine)
 - `neo`: new (e.g. neonatal)
 - `nerv`: tendon, sinew; to give strength or vigor (e.g. nervous, eneravte)
   - From Latin `nervus`, Greek `neuros`
 - `neur`: the same as `nerv` (e.g. neural)
 - `news`: message (e.g. newspaper, newsstand)
   - Message from North, East, West and South
-- `noc`: to harm (e.g. nocent, innocent, nocuous)
+- `noc`: to harm (e.g. nocent, innocent, nocuous, innocuity)
   - From Latin `nocere`
-- `nocu`: to hurt, injure, harm (e.g. nocuous)
 - `non`: no (e.g. nonperformance)
-- `nox`: the same as `noc`
-- `noxi`: the same as `noc`
-- `nui`: the same as `noc`
+- `nox`: the same as `noc` (e.g. noxious, obnoxious)
+- `nui`: the same as `noc` (e.g. nuisance)
+- `gorg`: to swallow, throat (e.g. gorge, gorgeous, disgorge)
 - `grand`: big, great; full, abundant, full-grown, strong, powerful, weighty, severe
   (e.g. grandparent)
 - `gram`: something is written or marked, a picture, a drawing (e.g. telegram, aerogram)
@@ -553,6 +552,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `prem`: the same as `prim` (e.g. premier, premium)
 - `prim`: very first, original (e.g. primipara)
 - `priv`: private (e.g. privilege)
+- `proach`: come nearer (e.g. approach, reproach)
+- `proxim` the same as `proach` (e.g. proximal)
 - `psycho`: breath, spirit, soul (e.g. psychology, psychopathology)
   - From Greek `psykhē`
 - `put`: think
@@ -1096,7 +1097,7 @@ Variants:
 - `ile`: the same as `ible` (e.g. ductile, protractile, virile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
-- `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline)
+- `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine)
 - `ina`: the same as `ine` (e.g. retina = `rete` + `ina`)
 - `ing`: adjective (e.g. fitting)
 - `ion`: noun (e.g. formation, vision)
