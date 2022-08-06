@@ -295,6 +295,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `anim`: life (e.g. animal)
 - `aqu`: water (e.g. aqua, aqueduct)
   - From Latin `aqua`
+- `arch`: chief, to rule, to begin, beginning, origin, first place (e.g.
+  architect, archaic, archive. monarch, patriarch, matriarch, oligarch,
+  anarchy, archetype)
 - `art`: to do, make (e.g. artificial)
 - `astr`: star (e.g. astronaut)
 - `author`: one who causes to grow, to increase (e.g. authority)
@@ -445,6 +448,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `manus`
 - `mark`: mark
 - `mari`: of the sea; body of the sea (e.g. marine)
+- `matri`: mother, woman (e.g. matriarch)
 - `mast`: great; chief, head, director, teacher (e.g. master)
 - `mist`: the same as `mast` (e.g. mistress)
 - `miss`: the same as `mit` (e.g. mission, admission, commission, dismiss,
@@ -465,6 +469,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mob`: the same as `mov` (e.g. mob, mobster)
 - `mobile`: mobile (e.g. mobility)
 - `mon`: the same as `mun` (e.g. common)
+- `mono`: alone (e.g. monarch)
 - `morph`: form, shape (e.g. morphology)
   - From Greek `morphe`
 - `mot`: the same as `mov` (e.g. promote, locomote, emote, motif)
@@ -488,7 +493,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `non`: no (e.g. nonperformance)
 - `nox`: the same as `noc` (e.g. noxious, obnoxious)
 - `nui`: the same as `noc` (e.g. nuisance)
-- `gorg`: to swallow, throat (e.g. gorge, gorgeous, disgorge)
+- `gorg`: to swallow, throat (e.g. gorge, gorgeous, disgorge, engorge)
 - `grand`: big, great; full, abundant, full-grown, strong, powerful, weighty, severe
   (e.g. grandparent)
 - `gram`: something is written or marked, a picture, a drawing (e.g. telegram, aerogram)
@@ -500,6 +505,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `od`: a way or manner (e.g. method, period, odograph)
   - Method from Latin `methodus` "way of teaching or going", `meta-` + `hodos`,
     `meth` originally pursuit, a following after
+- `olig`: few, small, little (e.g. oligarch)
 - `opt`: eyes; to choose, to take, grab (e.g. option, optic, cycloops)
 - `org`: the same as `erg` (e.g. organize)
 - `ori`: rise (e.g. oriented )
@@ -518,6 +524,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `par`: the same as `pear` (e.g. parent, primipara, fissiparous)
 - `part`: to divide, separate; to produce, procure (e.g. subpart, partial,
   impartial, counterpart, apart, particle, impart, partake, parturient)
+- `patr`: chief or head of a family, father, man (e.g. patriarch, patriot)
 - `pear`: to come forth, be visible; submit, obey (e.g. appear)
 - `pel`: to thrust, strike, drive (e.g. compel)
 - `per`: to try, risk
@@ -674,6 +681,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tane`: time (e.g. simultaneously)
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
+- `text`: to weave, to fabricate (e.g. )
+- `tect`: the same as `text` (e.g. architect)
 - `ten`: the same as `tain` (e.g. content)
 - `terra`: earth (e.g. mediterranean)
 - `termin`: end, limit (e.g. terminal, determine)
@@ -758,6 +767,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `acu`: cusp (e.g. acupressure)
 - `ad`: to (e.g. advocate, admit, adduce, adjourn)
 - `aero`: air (e.g. aerostat)
+- `an`: the same as `un` (e.g. anarchy)
 - `ana`: on, upon, above; back; again (e.g. analog, anatomy)
   - Before vowels an-, word-forming element
 - `andeno`: gland-like (e.g. andenoma, andenovirus)
