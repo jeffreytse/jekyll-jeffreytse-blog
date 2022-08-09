@@ -288,6 +288,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 
 - `act`: to do (e.g. action)
   - From Latin `actus`, `agere`
+- `agro`: a field, a farm; the country (e.g. agronomy)
 - `al`: beyond (e.g. allergy)
 - `algi`: pain (e.g. neuralgia)
 - `alt`: tall
@@ -482,6 +483,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
 - `nec`: not (e.g. neglect)
 - `nec`: the same as `noc` (e.g. internecine)
+- `neme`: assign, allot; take; manage; law or custom, administering (e.g.
+  nemesis, nemeses)
 - `neo`: new (e.g. neonatal)
 - `nerv`: tendon, sinew; to give strength or vigor (e.g. nervous, eneravte)
   - From Latin `nervus`, Greek `neuros`
@@ -490,6 +493,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Message from North, East, West and South
 - `noc`: to harm (e.g. nocent, innocent, nocuous, innocuity)
   - From Latin `nocere`
+- `nomo`: the same as `neme` (e.g. autonomy)
+- `nomy`: the same as `neme` (e.g. economy, astronomy, agronomy)
 - `non`: no (e.g. nonperformance)
 - `nox`: the same as `noc` (e.g. noxious, obnoxious)
 - `nui`: the same as `noc` (e.g. nuisance)
