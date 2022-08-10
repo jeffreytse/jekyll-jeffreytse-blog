@@ -370,6 +370,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fect`: doing (e.g. perfect)
 - `fer`: to carry, to bear (e.g. confer, infer, transfer)
   - From Latin `ferre`
+- `fess`: to speak, tell, say (e.g. profess)
 - `for`: the same as `fer`
 - `fortun`: chance, fate, good luck (e.g. fortune)
   - From Latin `fortuna`, Fortuna, in Roman religion, goddess of chance or lot
@@ -464,6 +465,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `medit`: to meditate, think over, reflect, consider (e.g. meditate)
 - `mel`: honey (e.g. mellifluous)
   - From Latin `mel`, related to Greek `meli`
+- `men`: moon; month (e.g. menarche)
 - `merg`: plunge, dip, to wash (e.g. immersion)
 - `mers`: the same as `gerg` (e.g. immerse)
 - `mit`: send (e.g. submit, permit)
@@ -584,7 +586,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `retro`
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
 - `reg`: move in a straight line; to ask, to quest (e.g. )
-- `rive`: shore, bank, break
+- `rive`: shore, bank, break, brook (e.g. rival, archrival)
 - `rog`: the same as `reg` line (e.g. interrogate, rogatory, roger)
 - `rupt`: to break apart (e.g. corrupt, bankrupt)
 - `sal`: something from sea (e.g. salt, salty)
@@ -934,7 +936,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `por`: the same as `pro` (e.g. portray, portrait)
 - `pre`: before, ahead (e.g. preformed)
   - From Latin `prae-`, before, ahead
-- `pro`: forward, before, forth (e.g. promote, prostitute, produce)
+- `pro`: forward, before, forth (e.g. promote, prostitute, produce, profess)
   - It comes from `Prometheus`, who can predict the future.
 - `pur`: the same as `pro` (e.g. purpose, purview, purvey)
   - A variant of Latin pro "before, for" (see `pro-`)
