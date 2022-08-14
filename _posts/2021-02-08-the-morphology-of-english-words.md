@@ -368,9 +368,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fect`: doing (e.g. perfect)
+- `fest`: (able to be) seized (e.g. manifest, infest)
 - `fer`: to carry, to bear (e.g. confer, infer, transfer)
   - From Latin `ferre`
-- `fess`: to speak, tell, say (e.g. profess)
+- `fess`: to speak, tell, say (e.g. profess, confess)
 - `for`: the same as `fer`
 - `fortun`: chance, fate, good luck (e.g. fortune)
   - From Latin `fortuna`, Fortuna, in Roman religion, goddess of chance or lot
@@ -446,7 +447,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `low`: low
 - `lun`: moon (e.g. lunar)
 - `mand`: to order (e.g. demand)
-- `man`: hand (e.g. manufactor, manuscript, mandate, manumit, emancipate)
+- `man`: hand (e.g. manufactor, manuscript, mandate, manumit, emancipate, manner,
+  manage, manacle, manumission, maintain, manifest, emancipate)
   - From Latin `manus`
 - `mark`: mark
 - `mari`: of the sea; body of the sea (e.g. marine)
@@ -684,13 +686,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From stem of `synistanai`
 - `sys`: the same as `syn` (e.g. system)
 - `tail`: to cut in pieces (e.g. tailor, detail)
-- `tain`: to hold, to stretch (e.g. contain, detain, retain)
+- `tain`: to hold, to stretch (e.g. contain, detain, retain, maintain)
 - `tane`: time (e.g. simultaneously)
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
 - `text`: to weave, to fabricate (e.g. )
 - `tect`: the same as `text` (e.g. architect)
-- `ten`: the same as `tain` (e.g. content)
+- `ten`: the same as `tain` (e.g. content, maintenance)
 - `terra`: earth (e.g. mediterranean)
 - `termin`: end, limit (e.g. terminal, determine)
 - `thentes`: doer, being (e.g. authentic = `auto` + `thentes`)
@@ -805,7 +807,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   emphatic; (e.g. compress)
   - From Latin `com`, `cum`
 - `con`: the same as `com` (e.g. confirm, convergence, constant, constitute,
-  conscious)
+  conscious, confess)
   - It is the form of `com-` used in Latin before consonants except `-b-`,
     `-p-`, `-l-`, `-m-`, or `-r-`.
 - `cor`: same as `con` (e.g. corrupt, correct, correlate)
@@ -1021,7 +1023,7 @@ Variants:
 - `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa, partita)
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
-- `acle`: noun (e.g. obstacle, spectacle)
+- `acle`: noun (e.g. obstacle, spectacle, manacle)
 - `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy, mediacy)
 - `ade`: noun (e.g. blockade, barriecade)
   - Word-forming delement denoting an action or product of an action
@@ -1087,6 +1089,8 @@ Variants:
   - From Greek `-etikos`, adjectival suffix for nouns ending in `-esis`
 - `ette`: noun, a small thing of a particular type (e.g. barrette, snackette,
   statuette, cassette)
+- `fest`: noun, referring to events that have a lot of a particular thing or
+  have a very great effect of a particular kind (e.g. talkfest)
 - `fic`: adjective, making, creating (e.g. scientific)
   - From French `-fique` and directly from Latin `-ficus` "making, doing"
 - `ful`: full of, having, characterized by (e.g. hateful, hopeful, bellyful)
