@@ -341,6 +341,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cruc`: cross (e.g. cruciform)
 - `cunei`: cunei (e.g. cuneiform)
 - `cup`: the same as `cept` (e.g. occupy, recuperate, cupidity)
+- `cur`: care, concern (e.g. manicure)
 - `cuss`: strike, hit, shake (e.g. percuss)
 - `cycl`: the same as `circ` (e.g. cycle, cyclo, bicycle, unicycle, cyclograph,
   cyclorama)
@@ -367,6 +368,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fact`: to form, build (e.g. factor)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
+- `fasc`: bundle of wood (e.g. fascine, fascicle, fascia)
 - `fect`: doing (e.g. perfect)
 - `fest`: (able to be) seized (e.g. manifest, infest)
 - `fer`: to carry, to bear (e.g. confer, infer, transfer)
@@ -448,7 +450,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lun`: moon (e.g. lunar)
 - `mand`: to order (e.g. demand)
 - `man`: hand (e.g. manufactor, manuscript, mandate, manumit, emancipate, manner,
-  manage, manacle, manumission, maintain, manifest, emancipate)
+  manage, manacle, manumission, maintain, manifest, emancipate, manicure)
   - From Latin `manus`
 - `mark`: mark
 - `mari`: of the sea; body of the sea (e.g. marine)
@@ -732,6 +734,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `void`: the same as `vac`
 - `vas`: a tube, duct, or conduit for conveying blood, lymph, semen, etc.
   (e.g. vasopressor, vasoconstriction)
+- `veg`: the same as `viv` (e.g. vegetal, vegetable)
 - `ven`: to come, to go (e.g. revenue, intervene, contravene, avenue, souvenir,
   provenance)
   - From Latin `venire`, from the three-V instrument.
@@ -756,6 +759,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `vis`: to see (e.g. visit, vision, advise, revision, visual, supervise,
   previse, televise, improvise, proviso, provision, visa, visage)
 - `vir`: a man, a hero (e.g. virile, virtue, virilocal)
+- `vit`: the same as `viv` (e.g. vital, vitamin)
+- `viv`: to live, life (e.g. survive = `super` + `vive`, vivid, revive,
+  convivial, viviarium = `viv` + `i` + `ary` + `um`, viva)
+  - From Latin `vivere`
 - `voc`: voice, call (e.g. voice, vocational, advocate)
 - `vol`: to turn, revolve, roll; will (e.g. revolve, evolve, involve, volume)
 - `voy`: way, journey (e.g. voyage)
@@ -1112,13 +1119,14 @@ Variants:
   caused by, similar to (e.g. iconic, music)
   - From French `-ique` and directly from Latin `-icus` or from cognate Greek `-ikos`
 - `ics`: noun, `ic` + `s`, the study of something (e.g. bioinformatics)
-- `icle`: the same as `-acle` (e.g. particle)
+- `icle`: the same as `-acle` (e.g. particle, fascicle)
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
-  polyploid = `poly` + `plo` + `id`)
+  polyploid = `poly` + `plo` + `id`, vivid)
 - `ile`: the same as `ible` (e.g. ductile, protractile, virile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
-- `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine)
+- `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine,
+  facine)
 - `ina`: the same as `ine` (e.g. retina = `rete` + `ina`)
 - `ing`: adjective (e.g. fitting)
 - `ion`: noun (e.g. formation, vision)
@@ -1189,7 +1197,7 @@ Variants:
   - From French `-ude`, from Latin `-udo` (stem `-udin-`). The equivalent of
     native `-ness`
 - `ul`: adjective, the same as `al` (e.g. formula, `form` + `ul` + `a`)
-- `um`: noun (e.g. forum, museum, premium, vacuum, plenum, medium)
+- `um`: noun (e.g. forum, museum, premium, vacuum, plenum, medium, viviarium)
 - `ur`: noun, the same as `-er` (e.g. voyageur)
 - `ure`: noun or verb (e.g. structure)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
