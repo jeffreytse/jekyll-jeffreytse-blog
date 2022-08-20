@@ -684,12 +684,17 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sui`: one's own (e.g. suicide)
   - From Latin sui "of oneself" (genitive of se "self")
 - `swim`: swim
-- `syn`: to place together, organize, form in order (e.g. synergy)
+- `syn`: to place together, organize, form in order (e.g. synergy, syntactic)
   - From stem of `synistanai`
 - `sys`: the same as `syn` (e.g. system)
+- `tact`: the same as `tag` (e.g. contact, tactual, tactile, intact, tactless,
+  tactic, syntactic)
+- `tag`: to touch, handle; arrange (e.g. contagion)
 - `tail`: to cut in pieces (e.g. tailor, detail)
 - `tain`: to hold, to stretch (e.g. contain, detain, retain, maintain)
 - `tane`: time (e.g. simultaneously)
+- `tang`: the same as `tag` (e.g. entangle, tangent, tangible)
+- `tast`: the same as `tag` (e.g. )
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
 - `text`: to weave, to fabricate (e.g. )
@@ -699,10 +704,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `termin`: end, limit (e.g. terminal, determine)
 - `thentes`: doer, being (e.g. authentic = `auto` + `thentes`)
 - `thes`: the same as `loc`
+- `tig`: the same as `tag` (e.g. )
 - `tin`: the same as `tain` (e.g. continue)
 - `tine`: sharp point, spike (e.g. quarantine)
+- `ting`: the same as `tag` (e.g. contingency)
 - `tire`: become weary, exhausted (e.g. overtire)
 - `tom`: divide (e.g. atom, prostatectomy)
+- `tong`: the same as `tag` (e.g. tongue)
 - `top`: top
 - `torn`: a turn, trick, round, circuit, circumference (e.g. attorney, tornado)
 - `tort`: to twist (e.g. extort)
@@ -885,7 +893,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   impress, immovable, impassion, immit, impossible, impart)
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
-- `in`: the same as `im-` (e.g. invalid, insufficient, inform, inland, inquire)
+- `in`: the same as `im-` (e.g. invalid, insufficient, inform, inland, inquire,
+  intact)
 - `infra`: below, under (e.g. infrastructure)
 - `inter`: between or involving two or more different things (e.g. internet, interact)
 - `intra`: the same as `intro` (e.g. intraparty)
@@ -970,7 +979,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sol`: uninjured, in good health, safe (e.g. solid)
   - From Latin salvificus "saving"
 - `sou`: the same as `sub` (e.g. souvenir)
-- `stereo`: solid, firm; three-dimensional; stereophonic (e.g. stereotype)
+- `stereo`: solid, firm; three-dimensional; stereophonic (e.g. stereotype,
+  stereotactic)
   - From Greek stereos "solid", before vowels `stere-`, word-forming element
 - `sub`: under (e.g. subway(Americanism, underway is british style),
   substructure, subtitle, submarine, subtle)
@@ -1095,7 +1105,7 @@ Variants:
 - `etic`: adjective, pertaining to (e.g. pathetic)
   - From Greek `-etikos`, adjectival suffix for nouns ending in `-esis`
 - `ette`: noun, a small thing of a particular type (e.g. barrette, snackette,
-  statuette, cassette)
+  statuette, cassette, serviette)
 - `fest`: noun, referring to events that have a lot of a particular thing or
   have a very great effect of a particular kind (e.g. talkfest)
 - `fic`: adjective, making, creating (e.g. scientific)
@@ -1122,7 +1132,7 @@ Variants:
 - `icle`: the same as `-acle` (e.g. particle, fascicle)
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
   polyploid = `poly` + `plo` + `id`, vivid)
-- `ile`: the same as `ible` (e.g. ductile, protractile, virile)
+- `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine,
@@ -1149,6 +1159,7 @@ Variants:
 - `istic`: `ist` + `ic` (e.g. formalistic)
 - `itis`: noun (e.g. periodontitis)
   - An illness or infection that affects a particular part of your body
+- `kin`: little (e.g. napkin)
 - `latry`: noun, worship of (e.g. technolatry, bardolatry)
   - From Greek `-latreia` "worship, service paid to the gods, hired labor,"
     related to latron (n.) "pay, hire," latris "servant, worshipper," from PIE
