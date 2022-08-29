@@ -41,6 +41,7 @@ most important annotations.
   - @PostConstruct
   - @PreDestroy
   - @Override
+  - @Transient
   - @Deprecated
   - @SuppressWarnings
   - Servlet API (JAVA EE Platform)
