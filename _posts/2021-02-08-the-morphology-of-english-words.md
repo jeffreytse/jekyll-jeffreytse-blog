@@ -288,6 +288,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 
 - `act`: to do (e.g. action)
   - From Latin `actus`, `agere`
+- `after`: more away, farther off (e.g. afternoon, afterward)
+  - From of `off` + `-ter`, a comparative suffix
 - `agro`: a field, a farm; the country (e.g. agronomy)
 - `al`: beyond (e.g. allergy)
 - `algi`: pain (e.g. neuralgia)
@@ -362,9 +364,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `duct`: the same as `duc` (e.g. conduct, product, abduct, seduction, induct,
   viaduct, ventiduct)
 - `earth`: ground, soil, dirt, dry land; country, district (e.g. earthmover)
+- `electr`: resembling amber; electric (e.g. electric)
 - `erg`: to do; work; activity (e.g. energy, synergy)
 - `ev`: age (e.g. medieval)
   - From Latin `aevum`
+- `ever`: at any time (e.g. forever)
 - `fact`: to form, build (e.g. factor)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
@@ -385,7 +389,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `flu`: the affects between objects (e.g. influence, flush)
   - From Latin `fluere`
 - `flux`: the same as `flu` (e.g. fluctuate)
-- `fore`: former, earlier (e.g. forearm, forehand, foresee)
+- `fore`: former, earlier (e.g. forearm, forehand, foresee, foretaste)
 - `form`: shape, look, etc. (e.g. transform, formula)
   - It comes from Latin `formare`
 - `gage`: pledge, have responsibility for (e.g. engage)
@@ -413,7 +417,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek `holos`
 - `hu`: clay (e.g. human)
 - `hydra`: water; wet (e.g. hydrate, hydrant)
-- `hydro`: the same as `hydra` (e.g. hydrogen, hydroplane)
+- `hydro`: the same as `hydra` (e.g. hydrogen, hydroplane, hydroelectric)
 - `ill`: bad, from evil (e.g. illness)
 - `image`: copy, statue, picture (e.g. imagination)
   - From Latin `imago`
@@ -436,6 +440,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lic`: to be allowed, be lawful (e.g. license)
   - Possibly source also of Lettish likstu "I come to terms"
 - `lig`: the same as `lect` (e.g. intelligent, eligible, negligent, diligent)
+- `liqu`: to flow, run (e.g. liquid, liquidate, liquidity, semiliquid, illiquid,
+  liquefy, liquefaction, liqueur)
 - `lith`: stone (e.g. monolith, lithography)
 - `liter`: letter, alphabetic sign; literature, books (e.g. literature)
   - From Latin `litera/littera`
@@ -473,6 +479,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `merg`: plunge, dip, to wash (e.g. immersion)
 - `mers`: the same as `gerg` (e.g. immerse)
 - `mit`: send (e.g. submit, permit)
+- `mix`: to mix (e.g. admix, endomixis)
+- `mixt`: the same as `mix` (e.g. mixture)
+- `misc`: the same as `mix` (e.g. miscellaneous, miscegenation, promiscuity, remix)
 - `mob`: the same as `mov` (e.g. mob, mobster)
 - `mobile`: mobile (e.g. mobility)
 - `mon`: the same as `mun` (e.g. common)
@@ -517,12 +526,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Method from Latin `methodus` "way of teaching or going", `meta-` + `hodos`,
     `meth` originally pursuit, a following after
 - `olig`: few, small, little (e.g. oligarch)
-- `opt`: eyes; to choose, to take, grab (e.g. option, optic, cycloops)
+- `opt`: eyes; to choose, to take, grab (e.g. option, optic, cycloops,
+  optoelectronic)
 - `org`: the same as `erg` (e.g. organize)
 - `ori`: rise (e.g. oriented )
   - From Latin, the position that sun rising from.
 - `out`: out (e.g. outperform)
 - `oxy`: sharp, acid, oxygen (e.g. oxygen, oxymoron)
+- `pand`: to spread, stretch (e.g. expand)
+- `pans`: the same as `pand` (e.g. expanse)
 - `passi`: the same as `patho` (e.g. passion, passive, compassion)
 - `patheno`: a virgin (e.g. parthenogenesis)
   - From Greek `parthenos`
@@ -544,7 +556,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pheme`: speech, voice, utterance, a speaking (e.g. eupheme)
 - `phone`: voice; related to language (e.g. phonetic, telephone)
   - English comes from Proto-Phoenician
-- `phot`: light (e.g. photo, photostat)
+- `phot`: light (e.g. photo, photostat, photoelectric)
 - `phys`: of nature, natural (e.g. physical)
 - `play`: play (e.g. playbook)
 - `ple`: to fill, full (e.g. complement, accomplish, compliant, plenty)
@@ -689,12 +701,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sys`: the same as `syn` (e.g. system)
 - `tact`: the same as `tag` (e.g. contact, tactual, tactile, intact, tactless,
   tactic, syntactic)
-- `tag`: to touch, handle; arrange (e.g. contagion)
+- `tag`: to touch, handle; arrange (e.g. tag, contagion)
 - `tail`: to cut in pieces (e.g. tailor, detail)
 - `tain`: to hold, to stretch (e.g. contain, detain, retain, maintain)
 - `tane`: time (e.g. simultaneously)
-- `tang`: the same as `tag` (e.g. entangle, tangent, tangible)
-- `tast`: the same as `tag` (e.g. )
+- `tang`: the same as `tag` (e.g. entangle, tangent, tangible, tango, tangy)
+- `tast`: the same as `tag` (e.g. taste, foretaste, aftertaste)
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
 - `text`: to weave, to fabricate (e.g. )
@@ -703,6 +715,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `terra`: earth (e.g. mediterranean)
 - `termin`: end, limit (e.g. terminal, determine)
 - `thentes`: doer, being (e.g. authentic = `auto` + `thentes`)
+- `thermo`: to heat, warm (e.g. thermostat, thermoelectric)
 - `thes`: the same as `loc`
 - `tig`: the same as `tag` (e.g. )
 - `tin`: the same as `tain` (e.g. continue)
@@ -773,6 +786,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `vivere`
 - `voc`: voice, call (e.g. voice, vocational, advocate)
 - `vol`: to turn, revolve, roll; will (e.g. revolve, evolve, involve, volume)
+- `vola`: to fly; to steal (e.g. volatile, volant)
 - `voy`: way, journey (e.g. voyage)
   - From French
 - `watch`: keep watch, be awake (e.g. watchdog)
@@ -789,7 +803,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin
 - `ab`: away, from, from off, down (e.g. abuse, abduct)
 - `acu`: cusp (e.g. acupressure)
-- `ad`: to (e.g. advocate, admit, adduce, adjourn)
+- `ad`: to (e.g. advocate, admit, adduce, adjourn, admix)
 - `aero`: air (e.g. aerostat)
 - `an`: the same as `un` (e.g. anarchy)
 - `ana`: on, upon, above; back; again (e.g. analog, anatomy)
@@ -819,7 +833,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `co`: the same as `com` (e.g. costar, cognate, cooperate, coexist, coeducation)
 - `col`: the same as `com` (e.g. colleague)
 - `com`: with, together, together with, in combination; sometimes merely
-  emphatic; (e.g. compress)
+  emphatic; (e.g. compress, commix)
   - From Latin `com`, `cum`
 - `con`: the same as `com` (e.g. confirm, convergence, constant, constitute,
   conscious, confess)
@@ -840,7 +854,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   descend, despite)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
-- `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence, diploma)
+- `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence,
+  diploma, dielectric)
   - From Greek, cognate with `bi-`, meaning "two, twice"
   - From Latin, `dis-`, meaning "apart, asunder"
 - `dia`: across, between; through, throughout (e.g. dialect, dialog)
@@ -858,7 +873,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `electro`: electrical, electricity (e.g. electrotechnics)
 - `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower, embody)
 - `en`: in, into (e.g. enslave, envalope)
-- `endo`: inside, within, internal (e.g. endogenous, endocrine)
+- `endo`: inside, within, internal (e.g. endogenous, endocrine, endomixis)
   - Word-forming element from Greek `endon` "in, within"
 - `epi`: on, upon, above;in addition to; toward, among; (e.g. epistemic)
   - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
@@ -888,7 +903,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `hypo`:  less than usual, especially too little; the same as `sub-`, under
   (e.g. hypotherm, hypostatic, hypothesis)
 - `idio`: one's own, personal, private (e.g. idiolect, idiomatic, idiopathic)
-- `il`: used instead of `in-` before the letter `l` (e.g. illegal, illiterate)
+- `il`: used instead of `in-` before the letter `l` (e.g. illegal, illiterate,
+  illiquid)
 - `im`: not, opposite of; in,into; emphatic (e.g. immobile, impersonal, implant,
   impress, immovable, impassion, immit, impossible, impart)
   - The form used for `in-` before `b`, `m`, or `p`
@@ -922,7 +938,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mus`: music, art, entertainment (e.g. music, museum)
   - In classical Greece, any art in which the **Muses** presided, but especially
     music and lyric poetry.
-- `myo`: relating to the muscle tissue (e.g. myocardial, cardiomyopathy)
+- `myo`: relating to the muscle tissue (e.g. myocardial, cardiomyopathy,
+  myoelectric)
 - `nano`: nano (e.g. nanostructure, nanotechnology)
 - `ne`: the same as `neg` (e.g. nescience)
 - `neg`: not; to deny (e.g. negtive)
@@ -1126,13 +1143,13 @@ Variants:
 - `ible`: the same as `able` (e.g. invincible)
 - `ibility`: noun (`ible` + `i` + `ty`)
 - `ic`: adjective, having to do with, having the nature of, being, made of,
-  caused by, similar to (e.g. iconic, music)
+  caused by, similar to (e.g. iconic, music, electric)
   - From French `-ique` and directly from Latin `-icus` or from cognate Greek `-ikos`
 - `ics`: noun, `ic` + `s`, the study of something (e.g. bioinformatics)
 - `icle`: the same as `-acle` (e.g. particle, fascicle)
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
   polyploid = `poly` + `plo` + `id`, vivid)
-- `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile)
+- `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile, volatile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine,
@@ -1180,7 +1197,7 @@ Variants:
 - `nomy`: subject; manage (e.g. economy, economic)
 - `o`: noun (e.g. proviso)
   - The same as `-a`, `-e`, `-i`
-- `or`: the same as `-er` (e.g. resistor)
+- `or`: the same as `-er` (e.g. resistor, liquor)
 - `ora`: noun (e.g. plethora)
 - `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary, mandatory)
 - `ous`: adjective, refer to a quality or condition (e.g. numerous)
@@ -1209,8 +1226,8 @@ Variants:
     native `-ness`
 - `ul`: adjective, the same as `al` (e.g. formula, `form` + `ul` + `a`)
 - `um`: noun (e.g. forum, museum, premium, vacuum, plenum, medium, viviarium)
-- `ur`: noun, the same as `-er` (e.g. voyageur)
-- `ure`: noun or verb (e.g. structure)
+- `ur`: noun, the same as `-er` (e.g. voyageur, liqueur)
+- `ure`: noun or verb (e.g. structure, mixture)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
     `-ura`, an ending of fem. nouns denoting employment or result.
 - `us`: noun (e.g. exodus, humerus, rectus, stimulus, genius, literatus, locus)
@@ -1265,6 +1282,7 @@ Variants:
 - `era`: era, epoch (e.g. Victorian-era, Depression-era)
 - `enforced`: enforced (e.g. state-enforced)
 - `enhancing`: `enhance` + `ing` (e.g. performance-enhancing)
+- `ever`: ever (e.g. ever-expanding)
 - `fed`: feed (e.g. formula-fed)
 - `fecal`: fecal (e.g. fecal-coliform)
 - `financed`: financed (e.g. state-financed)
