@@ -301,6 +301,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `arch`: chief, to rule, to begin, beginning, origin, first place (e.g.
   architect, archaic, archive. monarch, patriarch, matriarch, oligarch,
   anarchy, archetype)
+- `aristo`: best of its kind, noblest, bravest, most virtuous (e.g. aristocracy)
 - `art`: to do, make (e.g. artificial)
 - `astr`: star (e.g. astronaut)
 - `author`: one who causes to grow, to increase (e.g. authority)
@@ -338,6 +339,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     access to"
 - `col`: column (e.g. coliform, `col` + `i` + `form`)
 - `cover`: cover (e.g. coverall, bedcover, covert)
+- `cracy`: rule, power (e.g. aristocracy, democracy)
 - `cri`: to sieve (e.g. crisis, crime, endocrine)
 - `cribr`: sieve, tube with holes (e.g. cribriform)
 - `cruc`: cross (e.g. cruciform)
@@ -347,8 +349,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cuss`: strike, hit, shake (e.g. percuss)
 - `cycl`: the same as `circ` (e.g. cycle, cyclo, bicycle, unicycle, cyclograph,
   cyclorama)
-- `deme`: people (e.g. pandemic)
+- `deme`: common people, district (e.g. pandemic)
   - From Greek `demos`
+- `demo`: the same as `deme` (e.g. democracy)
 - `dek`: to take, accept (e.g. decorate)
 - `dent`: a hollow area in the surface of something (e.g. dental)
   - From Latin `dint`
@@ -431,8 +434,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `land`: land (e.g. motherland, fatherland, landmark, mainland)
 - `late`: late
 - `lax`: loose (e.g. laxity, relax)
-- `lect`: to pick out, choose; to collect, gather; law; to speak (e.g. collect,
-  lecture, lexicon, elect, select, neglect, dialect, idiolect)
+- `lect`: to pick out, choose; to collect, gather; law; to say, to speak; count
+  (e.g. collect, lecture, lexicon, elect, select, neglect, dialect, idiolect)
 - `leg`: the same as `lect` (e.g. delegate, legal, privilege, legend, legacy,
   college, legislate)
 - `legis`: the same as `leg` (e.g. legisation)
@@ -448,7 +451,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `loc`: a place, spot (e.g. local, locality, locomote, matrilocal, allocate,
   relocate)
   - From Latin `locus`
-- `log`: speech; to speek; word, speech, thought (e.g. logo, logger, apology)
+- `log`: speech; to speek; word, speech, thought; the same as `lect` (e.g. logo,
+  logger, apology, catalogue)
   - From Greek `legein` = to speak, `logos` = word, speech, though
   - From Latin `loqui` = to speak
 - `logos`: the same as `log`
@@ -683,6 +687,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `stress`: the same as `str` (e.g. distress)
 - `strict`: the same as `str` (e.g. stricture, restrict, district)
 - `string`: the same as `str` (e.g. drawstring, hamstring, bowstring)
+- `stroph`: to wind, turn (e.g. catastrophe)
 - `struct`: build (e.g. construct)
   - From Latin, structura, from struere, the way an organization, system,
     market etc is organized or put together.
@@ -701,7 +706,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sys`: the same as `syn` (e.g. system)
 - `tact`: the same as `tag` (e.g. contact, tactual, tactile, intact, tactless,
   tactic, syntactic)
-- `tag`: to touch, handle; arrange (e.g. tag, contagion)
+- `tag`: to touch, handle; arrange (e.g. tag, contagion, integer)
 - `tail`: to cut in pieces (e.g. tailor, detail)
 - `tain`: to hold, to stretch (e.g. contain, detain, retain, maintain)
 - `tane`: time (e.g. simultaneously)
@@ -827,6 +832,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cardio`: relating to the heart (e.g. cardiograph)
 - `cephal`: head, uppermost or top part, source (e.g. cephalopod, encephalopathy)
   - Modern Latin combining form of Greek `kephalē`
+- `cata`: down; completely (e.g. catastrophe, catalyst)
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
@@ -900,7 +906,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `homo`: one and the same (e.g. homogeneous, homosexual)
 - `homeo`: like, resembling, of the same kind; equal (e.g. homeopathy)
   - Latinized from Greek `homio-`, from `homoios`
-- `hypo`:  less than usual, especially too little; the same as `sub-`, under
+- `hypo`: under, less than usual, especially too little; the same as `sub-`, under
   (e.g. hypotherm, hypostatic, hypothesis)
 - `idio`: one's own, personal, private (e.g. idiolect, idiomatic, idiopathic)
 - `il`: used instead of `in-` before the letter `l` (e.g. illegal, illiterate,
