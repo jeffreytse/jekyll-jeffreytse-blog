@@ -205,7 +205,16 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - drop
   - dusk
   - dust
-- `E/e`: eye
+- `E/e`: cheer -> spread -> symmetry
+  - eager
+  - eat
+  - echo
+  - egg
+  - eight
+  - elite
+  - epic
+  - exit
+  - eye
   - peep (watch with your palm around your eyes)
 - `G/g`: tool
   - dog
@@ -320,9 +329,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `carn`: flesh (e.g. carnage)
 - `ceit`: the same as `cept` (e.g. conceit, deceit)
 - `ceiv`: the same as `cept` (e.g. perceive, receive, deceive, conceive, transceiver)
+- `cel`: rise high, tower (e.g. excel, excellent)
 - `cept`: to take; to grasp; to hold (e.g. accept, except, concept, recept,
   incept, percept, intercept, deception, precept, contracept, sceptic)
 - `cip`: the same as `cept` (e.g. emancipate, recipe, incipient, participant)
+- `cit`: set in motion, call; refer (e.g. cite, excite)
 - `cerebr`: brain (e.g. cerebral)
 - `cess`: movement, migration (e.g. process)
 - `chlor`: chlor (e.g. chloroform)
@@ -466,6 +477,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mari`: of the sea; body of the sea (e.g. marine)
 - `matri`: mother, woman (e.g. matriarch)
 - `mast`: great; chief, head, director, teacher (e.g. master)
+- `migr`: to change, go, move (e.g. immigrate)
 - `mist`: the same as `mast` (e.g. mistress)
 - `miss`: the same as `mit` (e.g. mission, admission, commission, dismiss,
   missle, promise)
@@ -498,6 +510,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mun`: mutual, exchange (e.g. municipal)
   - From Latin `munus`
 - `mut`: the same as `mun` (e.g. mutual)
+- `nap`: to doze, slumber, sleep lightly (e.g. night)
 - `nat`: be born (e.g. native, nature, naturopathic)
 - `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
 - `nec`: not (e.g. neglect)
