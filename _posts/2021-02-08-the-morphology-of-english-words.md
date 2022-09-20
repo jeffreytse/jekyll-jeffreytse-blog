@@ -216,6 +216,27 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - exit
   - eye
   - peep (watch with your palm around your eyes)
+- `F/f`: hook -> flow, palm
+  - factory
+  - fall
+  - fan
+  - farm
+  - fast
+  - fight
+  - find
+  - finger
+  - first
+  - five
+  - fix
+  - flirt
+  - float
+  - flu
+  - flurry
+  - fly
+  - force
+  - free
+  - fury
+  - future
 - `G/g`: tool
   - dog
 - `H/h`: fence -> shelter -> ladder -> aspirate
