@@ -13,7 +13,7 @@ This post is a summary about changing the boring overused words and phrases.
 Some are used all the time in daily English conversation, here gives you
 some more advanced or specialized alternatives, that you can use on your
 daily basis, this is perfect for you if you don't want to repeat yourself
-over and over again.
+over and over again, and you'll be like a native.
 
 - Yes (More formal)
   - Yep/Yup
@@ -131,11 +131,43 @@ over and over again.
 - Bye
   - Look, I have got going
 
+- Relax, please
+  - Take it easy
+
+- That's hard to said
+  - It's complicated
+
+- It's very bad
+  - It's awful
+
+- It's very good
+  - It's awesome
+
+- I'm very happy
+  - I'm thrilled
+  - I'm on cloud nine
+
+- I'm very sad
+  - I'm devastated
+
+- I'm so busy
+  - I'm so swamped
+
 - I'm very tired
   - I'm beat
+  - I'm wiped out
+  - I'm exhausted
+
+- I'm disappointed
+  - This really bums me out
+  - I'm bummed out
+
+- Do you understand
+  - Are you with me
 
 - I don't understand what you are saying
   - You lost me
+  - I'm totally lost
 
 - I don't understand
   - I don't get it
@@ -158,6 +190,18 @@ over and over again.
 - That sounds familiar
   - That rings a bells
 
+- Are you competent
+  - Can you handle that
+
+- Are you angry
+  - Are you cool
+
+- I accepted
+  - I'm open to it
+
+- I'll try it
+  - I'll give it a shot
+
 - You did that perfectly
   - You nailed it
 
@@ -176,8 +220,26 @@ over and over again.
 - It's easy
   - Piece of a cake
 
+- It's very difficult
+  - That's a tough one
+  - It's a tough decision
+
+- This seems strange and suspicious
+  - It seems kinda fishy
+
+- They haven't told me about anything
+  - They have kept me in the dark
+  - I'm in the dark about this
+
 - Give me more details
   - Fill me in
+
+- I'm very difficult
+  - I'm a total nightmare
+
+- I'm very angry
+  - I'm pissed off
+  - I'm furious
 
 - I'm very hungry
   - I'm starving
