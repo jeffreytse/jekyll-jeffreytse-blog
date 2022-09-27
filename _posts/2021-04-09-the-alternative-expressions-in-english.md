@@ -252,6 +252,11 @@ over and over again, and you'll be like a native.
   - Easy does it
   - Take your time
 
+- As usual
+  - As always
+  - Like normal
+  - Same old same old
+
 - Others
   - Get in rut
   - A dap and dip
@@ -261,4 +266,11 @@ over and over again, and you'll be like a native.
   - Help yourself
   - After you
   - I see
+  - What have you been up to?
+  - Enough about you
+  - Not a lot. Just chill out
+  - Catch you later
+  - I should pop into somewhere
+  - If you don't mind me/my asking
+  - It'd be nice if we could doing something
 
