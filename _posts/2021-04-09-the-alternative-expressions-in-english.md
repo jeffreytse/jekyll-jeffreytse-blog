@@ -128,6 +128,12 @@ over and over again, and you'll be like a native.
   - You talk crazy
   - You talk nonsense
 
+- Take a time
+  - Sleep on it
+
+- I want to do something
+  - I'm dying to do something
+
 - Bye
   - Look, I have got going
 
@@ -247,6 +253,9 @@ over and over again, and you'll be like a native.
 - I have to leave
   - I gotta run
 
+- I have something coming up
+  - I've got something coming up
+
 - Don't worry
   - Pace yourself
   - Easy does it
@@ -256,6 +265,15 @@ over and over again, and you'll be like a native.
   - As always
   - Like normal
   - Same old same old
+
+- What do you want to do tonight?
+  - What are you up to tonight?
+
+- I think I'd better do something
+  - I figure I'd better do something
+
+- Here is the thing
+  - Here is the deal
 
 - Others
   - Get in rut
@@ -273,4 +291,6 @@ over and over again, and you'll be like a native.
   - I should pop into somewhere
   - If you don't mind me/my asking
   - It'd be nice if we could doing something
+  - Did you hear about something
+  - How come you two did something
 
