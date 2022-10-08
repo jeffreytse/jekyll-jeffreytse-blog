@@ -65,7 +65,7 @@ most important annotations.
   - @EnableAutoConfiguration
   - @Autowired
     - spring2.5
-  - @Resource(等同于@Autowired)
+  - @Resource(The same as @Autowired)
   - @Qualifier
   - @Bean
   - @Scope
@@ -77,6 +77,7 @@ most important annotations.
   - @Configuration
   - @Service
   - @Repository
+  - @PropertySource
   - @Value
 - Spring Cloud (MVC)
   - EnableDiscoveryClient
