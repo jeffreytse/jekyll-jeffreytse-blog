@@ -275,6 +275,12 @@ over and over again, and you'll be like a native.
 - Here is the thing
   - Here is the deal
 
+- This is very important to me
+  - This is near and dear to me
+
+- I worked very hard every day
+  - I worked around the clock
+
 - Others
   - Get in rut
   - A dap and dip
