@@ -1,6 +1,9 @@
 ---
 layout: post
-title: How do I Learn Programming Languages
+title: The handbook of programming languages
+banner:
+  image: https://user-images.githubusercontent.com/9413601/196836913-385eec05-6e38-4f91-adf4-c9a7365e4d87.png
+  opacity: 0.76
 author: Jeffrey Tse
 categories: computer
 tags:
@@ -14,11 +17,19 @@ stage after another, from machine language to high-level language, it is
 also closer to the way of human thinking, easy to write, good readability,
 and more efficient to develop.
 
+- Machine-oriented programming (MOP)
+- Procedure-oriented Programming (POP)
+- Object-oriented Programming (OOP)
+- ...
+
 Programming itself is engineering, not science. This means that all roads
 lead to Rome, and there is no one size fits all. So, in fact, many people
-argue about them by different aspects, from coding style to performance,
-which language is the best, which framework is better, these are actually
-philosophical questions, because there is no unified standard answer.
+argue about them by different aspects (e.g. coding style, performance, the
+difficulty of mastering), which language is the best, which framework is
+better, these are actually philosophical questions, because there is no
+unified standard answer.
+
+![Difficulty of Mastering](https://user-images.githubusercontent.com/9413601/196746710-a3eaa742-4494-405b-b836-33236b212771.png)
 
 Different programming languages have some similarities in common, but also
 have their own uniqueness, they are all born to solve certain problems, no
@@ -88,13 +99,9 @@ cannot be changed at runtime.
 
 ### Strongly Typed Language
 
-A strongly typed language is a language that enforces the definition of data
-types. That is to say, once a variable is assigned a data type, if it is not
-casted, it will always be this data type.
-
-Typical of strongly typed languages, they don't handle an operation that
-clearly contradicts the type definition, but instead flag it as a problem and
-throw it as an error.
+Strongly typed means that the type of a value doesn't change in unexpected
+ways. A string containing only digits doesn't magically become a number, as
+may happen in Perl. Every change of type requires an explicit conversion.
 
 E.g. `1 / 3 = 0`, `int / int = int`
 
@@ -153,6 +160,46 @@ for execution.
 
 - [StackOverflow - Is Java a Compiled or an Interpreted programming language?](https://stackoverflow.com/questions/1326071/is-java-a-compiled-or-an-interpreted-programming-language)
 
+## Programming Paradigm
+
+### Functional Programming
+
+- Erlang
+- Scala
+- ...
+
+### Structured or modular programming
+
+- C#
+- PHP
+- ...
+
+### Imperative programming
+
+This alternative to OOP focuses on function rather than models.
+
+- C++
+- Java
+- ...
+
+### Declarative programming
+
+This programming method involves statements on what the task or desired
+outcome is but not how to achieve it.
+
+- Prolog
+- Lisp
+- ...
+
+### Logical programming
+
+This programming method, which is based mostly in formal logic. It contains
+a set of sentences that express facts or rules about a problem domain. It
+focuses on tasks that can benefit from rule-based logical queries.
+
+- Prolog
+- ...
+
 ## Basic
 
 ### Data Types
@@ -189,3 +236,8 @@ Accessibility:
 
 ### Meta Programming
 
+
+## References
+
+- [Declarative programming](https://www.wikiwand.com/en/Declarative_programming)
+- [The principal programming paradigms](https://www.info.ucl.ac.be/~pvr/paradigmsDIAGRAMeng108.pdf)
