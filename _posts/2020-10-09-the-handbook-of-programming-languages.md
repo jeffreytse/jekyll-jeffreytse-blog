@@ -36,6 +36,8 @@ have their own uniqueness, they are all born to solve certain problems, no
 one language is absolutely good, and they all have their own philosophical
 ideas.
 
+Languages:
+
 - Ruby: Optimized for programmer happiness
 - Python: Beautiful is better than ugly
 - PHP: Quick and dirty
@@ -48,6 +50,8 @@ ideas.
 
 A language that checks the type of data at runtime. Such languages do not
 assign a type to a variable, but get the data type when a value is assigned.
+
+Languages:
 
 - ECMAScript (JavaScript)
 - Python
@@ -63,6 +67,8 @@ assign a type to a variable, but get the data type when a value is assigned.
 
 Statically typed languages check the type at compile time before running.
 When writing code, each variable declared must specify the type.
+
+Languages:
 
 - C/C++
 - C#
@@ -80,6 +86,8 @@ to whether the language is typesafe, don't tie them together.
 Dynamic languages (Dynamic Programming Languages) are a class of languages
 that can change their structure at runtime.
 
+Languages:
+
 - C#
 - Object-C
 - Python
@@ -93,6 +101,8 @@ that can change their structure at runtime.
 Static languages (Static Programming Languages) are languages whose structure
 cannot be changed at runtime.
 
+Languages:
+
 - C/C++
 - Java
 - ...
@@ -105,12 +115,15 @@ may happen in Perl. Every change of type requires an explicit conversion.
 
 E.g. `1 / 3 = 0`, `int / int = int`
 
+Languages:
+
 - C/C++
 - C#
 - Object-C
 - Java
 - Python
 - Ruby
+- Go
 - ...
 
 ### Weakly (Loosely) Typed Language
@@ -118,7 +131,12 @@ E.g. `1 / 3 = 0`, `int / int = int`
 Weakly typed languages are looser in checking variable types and tolerate
 implicit type conversions.
 
-E.g. `1 / 3 = 0.33333...`, `int / int = float`
+E.g.
+
+- `1 / 3 = 0.33333...`, `int / int = float`
+- `1 + "3" = 13`, `int / string = string`
+
+Languages:
 
 - JavaScript
   - Duck Typing (i.e. looks like a duck, talks like a duck, it's a duck)
@@ -132,6 +150,8 @@ the program is executed, and the program source file is compiled into a file
 in machine language, which can be executed by the machine and has high
 execution efficiency.
 
+Languages:
+
 - C/C++
 - Object-C
 - Pascal
@@ -142,6 +162,8 @@ execution efficiency.
 
 Interpreted language means that the source code does not need to be compiled
 in advance, at runtime, it must be interpreted before running.
+
+Languages:
 
 - JavaScript
 - Python
@@ -159,6 +181,37 @@ language. The source code needs to be converted into an intermediate file
 for execution.
 
 - [StackOverflow - Is Java a Compiled or an Interpreted programming language?](https://stackoverflow.com/questions/1326071/is-java-a-compiled-or-an-interpreted-programming-language)
+
+## Basic
+
+### Data Types
+
+- Basic
+  - Number
+    - Integer
+    - Float
+    - Double
+  - String
+  - Boolean
+  - Null
+  - Undefined
+- Collection
+  - Linear
+    - List
+    - Linked list
+    - Tuple
+    - Queue
+    - Stack
+  - Non-linear
+    - Map
+
+### Basic Structure
+
+In structured programming, a program is written with only 3 basic structure:
+
+- Sequences
+- Selections
+- Loops
 
 ## Programming Paradigm
 
@@ -200,17 +253,7 @@ focuses on tasks that can benefit from rule-based logical queries.
 - Prolog
 - ...
 
-## Basic
-
-### Data Types
-
-### Tree Basic Structure
-
-- Sequences
-- Selections
-- Loops
-
-## Object-oriented Programming (OOP)
+### Object-oriented Programming (OOP)
 
 Abstraction:
 
@@ -220,7 +263,48 @@ Abstraction:
 
 Accessibility:
 
+
+## Programming Model
+
+In programming, the way of abstraction, organization or reuse of code. The
+programming model is mainly methods and ideas.
+
+- Event-driven (Publish/Subscribe Model)
+  - Basic
+    - Don't care about who is the receiver
+  - Components
+    - Event Queue
+    - Event Mediator
+    - Event Channel
+    - Event Processor
+  - Frameworks
+    - select
+    - poll
+    - epoll
+    - libev
+    - interrupt system
+- Message-driven
+  - Basic
+    - Care about who is the receiver
+  - Framework
+    - API Gateway
+    - gRPC
+    - Micro-service Architect
+- Data-driven
+
 ## Advanced
+
+### Exception Handle
+
+### Asynchronous Programming
+
+- .NET: delegate
+- Java:
+  - Anonymous inner class
+  - Closure (Java 7)
+- C++
+  - tr1::function/bind (C++0X)
+- ...
 
 ### Generics Programming
 
@@ -236,6 +320,33 @@ Accessibility:
 
 ### Meta Programming
 
+- Introspection
+  - JAVA: Reflection
+
+### Serialization & Deserialization
+
+
+## Language Characteristics
+
+- Ruby
+  - Block
+  - Range
+  - Symbols
+- Java
+  - Dynamic Proxy
+- C#
+  - LINQ
+  - Extension Method
+
+## How to choose a language?
+
+- Whether the developer is familiar with a language.
+- Which language provides more powerful features that can be applied to
+  the current project.
+- Focus on robustness or flexibility and expressiveness.
+- Whether there are tools to improve development efficiency, such as
+  peripheral frameworks (libraries), etc.
+- ...
 
 ## References
 
