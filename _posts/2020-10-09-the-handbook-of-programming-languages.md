@@ -188,9 +188,13 @@ for execution.
 
 - Basic
   - Number
+    - Byte
+    - Short
     - Integer
+    - Long
     - Float
     - Double
+  - Character
   - String
   - Boolean
   - Null
@@ -205,6 +209,11 @@ for execution.
   - Non-linear
     - Map
 
+### Variable Lifecycle
+
+- Static
+- Dynamic
+
 ### Basic Structure
 
 In structured programming, a program is written with only 3 basic structure:
@@ -212,6 +221,12 @@ In structured programming, a program is written with only 3 basic structure:
 - Sequences
 - Selections
 - Loops
+
+### Functions
+
+- Variadic function
+- Default value
+- Keyword arguments
 
 ## Programming Paradigm
 
@@ -259,10 +274,21 @@ Abstraction:
 
 - Encapsulation
 - Inheritance
+  - Override (Type and quantity of parameters are the same)
+  - Overload (Anyone of type and quantity of parameters is different)
 - Polymorphism
 
-Accessibility:
+Accessibility (Access modifier):
 
+- Public
+- Protected
+- Friendly
+- Private
+
+Lifecycle:
+
+- Construction
+- Destruction
 
 ## Programming Model
 
@@ -294,7 +320,17 @@ programming model is mainly methods and ideas.
 
 ## Advanced
 
+### Iterator
+
+### Generator
+
+### Decorator
+
 ### Exception Handle
+
+### Lambda
+
+### Closure
 
 ### Asynchronous Programming
 
@@ -308,11 +344,7 @@ programming model is mainly methods and ideas.
 
 ### Generics Programming
 
-### Lambda
-
 ### Garbage Collection (GC)
-
-### Closure
 
 ### Higher-order Function (HOF)
 
