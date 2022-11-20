@@ -145,6 +145,8 @@ over and over again, and you'll be like a native.
 
 - It's very bad
   - It's awful
+  - It's rubbish (British)
+  - It's sucked (American)
 
 - It's very good
   - It's awesome
@@ -163,6 +165,7 @@ over and over again, and you'll be like a native.
   - I'm beat
   - I'm wiped out
   - I'm exhausted
+  - I'm knackered
 
 - I'm disappointed
   - This really bums me out
@@ -184,6 +187,7 @@ over and over again, and you'll be like a native.
 - I know
   - I got it
   - I see
+  - I hear you
   - Sure, no problem
   - Yeah, I see what you mean
 
@@ -299,4 +303,6 @@ over and over again, and you'll be like a native.
   - It'd be nice if we could doing something
   - Did you hear about something
   - How come you two did something
+  - What are you on about?
+  - Can you budge up?
 
