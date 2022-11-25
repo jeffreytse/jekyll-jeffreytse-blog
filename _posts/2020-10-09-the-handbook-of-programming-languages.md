@@ -281,9 +281,13 @@ Abstraction:
 Accessibility (Access modifier):
 
 - Public
+  - Access by any class
 - Protected
+  - Access by subclass
 - Friendly
+  - Access by friend's class (e.g. the same package)
 - Private
+  - Access by the class itself
 
 Lifecycle:
 
