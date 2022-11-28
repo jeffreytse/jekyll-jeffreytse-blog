@@ -39,15 +39,22 @@ The most noticeable difference between American and British English is
 vocabulary. There are hundreds of everyday words that are different:
 
 - apartment / flat
+- bathing suit / swimming costume
 - cookie / biscuit
+- diaper / nappy
 - elevator / lift
+- flashlight / torch
+- freeway / motorway
 - french fries / chips
 - garbage / rubbish
+- gasoline / petrol
 - hood / bonnet
 - line / queue
 - parking lot / car park
+- restroom or bathroom / toilet or lavatory
 - truck / lorry
 - silverware / cutlery
+- sneakers / trainers
 - sweater / jumper
 - vacation / holiday or hols
 - ...
