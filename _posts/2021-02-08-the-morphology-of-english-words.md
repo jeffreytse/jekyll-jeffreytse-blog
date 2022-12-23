@@ -843,7 +843,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ab`: away, from, from off, down (e.g. abuse, abduct)
 - `acu`: cusp (e.g. acupressure)
 - `ad`: to (e.g. advocate, admit, adduce, adjourn, admix)
-- `aero`: air (e.g. aerostat)
+- `aero`: air (e.g. aerostat, aerobatics)
 - `an`: the same as `un` (e.g. anarchy)
 - `ana`: on, upon, above; back; again (e.g. analog, anatomy)
   - Before vowels an-, word-forming element
@@ -1142,7 +1142,8 @@ Variants:
 - `e`: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme, sauce,
   tine, square, crime, envalope, nerve, urbane)
   - Sometime is adjective (e.g. remote, marine, simple)
-- `ed`: adjective
+- `ed`: adjective, past tens
+  - For the past tens, `ed` = `end` = `en`, `given` = `give` + `end`
 - `el`: noun (e.g. barrel)
   - instrumental word-forming element, expressing "appliance, tool," from Old
     English `-ol`, `-ul`, `-el`, representing PIE \*-lo- (see -ule). In modern
@@ -1189,7 +1190,8 @@ Variants:
 - `icle`: the same as `-acle` (e.g. particle, fascicle)
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
   polyploid = `poly` + `plo` + `id`, vivid)
-- `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile, volatile)
+- `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile,
+  volatile, mobile, exile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine,
@@ -1259,7 +1261,7 @@ Variants:
 - `tron`: noun, ion, an atom or small group of atoms (e.g. electron, cyclotron)
 - `tude`: the same as `-ude` (e.g. attitude, aptitude, latitude)
 - `ty`: noun
-- `ude` noun, adjective (e.g. attitude, rectitude)
+- `ude` noun, adjective (e.g. attitude, rectitude, magnitude)
   - Making abstract nouns from adjectives and participles, is fixed to a base or
     to another suffix ending in `-t` or `-te`
   - From French `-ude`, from Latin `-udo` (stem `-udin-`). The equivalent of
@@ -1322,7 +1324,7 @@ Variants:
 - `era`: era, epoch (e.g. Victorian-era, Depression-era)
 - `enforced`: enforced (e.g. state-enforced)
 - `enhancing`: `enhance` + `ing` (e.g. performance-enhancing)
-- `ever`: ever (e.g. ever-expanding)
+- `ever`: ever (e.g. ever-expanding, ever-increasing)
 - `fed`: feed (e.g. formula-fed)
 - `fecal`: fecal (e.g. fecal-coliform)
 - `financed`: financed (e.g. state-financed)
@@ -1337,6 +1339,7 @@ Variants:
 - `high`: high (e.g. high-performance, high-technology)
 - `hot`: hot (e.g. hot-pressed)
 - `ill`: ill (e.g. ill-informed, ill-conceived)
+- `in`: inside, go to inside (e.g. in-depth, in-memory)
 - `induced`: induced (e.g. drug-induced, noise-induced)
 - `imposed`: imposed (e.g. state-imposed)
 - `late`: late (e.g. late-Victorian)
