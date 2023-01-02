@@ -305,4 +305,6 @@ over and over again, and you'll be like a native.
   - How come you two did something
   - What are you on about?
   - Can you budge up?
+  - Keep sb. in the loop
+  - Tackle the problem
 
