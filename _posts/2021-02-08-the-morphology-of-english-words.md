@@ -407,7 +407,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fact`: to form, build (e.g. factor)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
-- `fasc`: bundle of wood (e.g. fascine, fascicle, fascia)
+- `fasc`: bundle of wood (e.g. fascine, fascicle, fascia, fascist)
 - `fect`: doing (e.g. perfect)
 - `fest`: (able to be) seized (e.g. manifest, infest)
 - `fer`: to carry, to bear (e.g. confer, infer, transfer)
@@ -558,7 +558,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek `gramma`, that which is drawn
 - `graph`: write, draw, measure (e.g. photograph)
   - From Greek
-- `gress`: walk (e.g. progress)
+- `gress`: walk (e.g. progress, ingress)
 - `ocre`: be sharp, rise (out) to a point, pierce. (e.g. mediocre, ocrea)
 - `od`: a way or manner (e.g. method, period, odograph)
   - Method from Latin `methodus` "way of teaching or going", `meta-` + `hodos`,
@@ -739,7 +739,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From stem of `synistanai`
 - `sys`: the same as `syn` (e.g. system)
 - `tact`: the same as `tag` (e.g. contact, tactual, tactile, intact, tactless,
-  tactic, syntactic)
+  tactic, syntactic, stereotactic)
 - `tag`: to touch, handle; arrange (e.g. tag, contagion, integer)
 - `tail`: to cut in pieces (e.g. tailor, detail)
 - `tain`: to hold, to stretch (e.g. contain, detain, retain, maintain)
@@ -876,7 +876,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   emphatic; (e.g. compress, commix)
   - From Latin `com`, `cum`
 - `con`: the same as `com` (e.g. confirm, convergence, constant, constitute,
-  conscious, confess)
+  conscious, confess, contact)
   - It is the form of `com-` used in Latin before consonants except `-b-`,
     `-p-`, `-l-`, `-m-`, or `-r-`.
 - `cor`: same as `con` (e.g. corrupt, correct, correlate)
