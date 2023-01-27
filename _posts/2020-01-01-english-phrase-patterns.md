@@ -1,0 +1,84 @@
+---
+layout: post
+title: English Phrase Patterns
+author: Jeffrey Tse
+categories: linguistics
+tags:
+  - linguistics
+  - english
+  - note
+---
+
+Here are some phrase patterns for daily usage:
+
+- As opposed to sth.
+- Both you and I are students.
+- Can you tell me the definition of sth.
+- Either you or he is wrong.
+- Either he nor I am a student.
+- For sure
+- Get out of my mind
+- Good for you
+- Guess what?
+- Have fun doing sth.
+- He's pretty laid back
+- Hit me up later
+- How do you like sth.?
+- How would you do sth.?
+- How many of sth. are there?
+- I ask over sb.
+- I could have done sth.
+- I didn't mean to do sth.
+- I feel like...
+- I get sb. sth.
+- I'm down for whatever
+- I'm knackered = I'm very tired
+- I'm gutted to do hear that
+- I'm so screwed!
+- I'm twenty-freaking-nine!
+- I'm willing to do sth.
+- I'm up for sth.
+- I've ever done sth.
+- I've got to do sth.
+- I've got it.
+- I was so tired that I didn’t want to speak
+- I will get sb. to do sth.
+- I would like to do sth.
+- I would have done sth.
+- If I were you, I would do sth.
+- It's a bit more adj...
+- It's a kind of...
+- It's sort of...
+- It's no use doing something
+- It's none of my business, but...
+- It is said that...
+- It gets to decide what to do
+- It must be something that comes with...
+- It's perfectly natural when sb. do sth.
+- It's been doing sth.
+- It's been really adj. doing sth.
+- It's no biggie.
+- It is no longer able to do sth.
+- It seems to do sth./be + adj.
+- It's the ability to do sth.
+- It was never supposed to do sth.
+- No biggie
+- No matter when you come，you are welcomed.
+- No one is able to do sth.
+- Not all sharks are alike.
+- Sb. might as well do sth.
+- Screw sth. up
+- That was rubbish
+- That's what sb. do sth.
+- That's why in part they were able to do sth.
+- The more one has，the more one wants.
+- These are all things that can do sth.
+- This is exactly how it does sth.
+- Too bad you can't do sth.
+- What’s wrong with＋sb./sth.?
+- What do you like about sth.?
+- What does that come to?
+- What've you been up to?
+- With one’s help...
+- sth. and stuff
+- ...
