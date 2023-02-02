@@ -1,14 +1,14 @@
+## 🏡 Jeffrey Tse's Personal Blog
+
 ![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-1f425f.svg)
 [![Website Monitoring](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fjeffreytse.net%2F)](https://jeffreytse.net/)
-[![Github Pages](https://travis-ci.org/jeffreytse/jekyll-jeffreytse-blog.svg?branch=master)](https://travis-ci.org/jeffreytse/jekyll-jeffreytse-blog/)
+[![Github Pages](https://github.com/jeffreytse/jekyll-jeffreytse-blog/actions/workflows/build-jekyll.yml/badge.svg)](https://github.com/jeffreytse/jekyll-jeffreytse-blog/actions/workflows/build-jekyll.yml)
 [![Donate (Liberapay)](http://img.shields.io/liberapay/goal/jeffreytse.svg?logo=liberapay)](https://liberapay.com/jeffreytse)
 [![Donate (Patreon)](https://img.shields.io/badge/support-patreon-F96854.svg?style=flat-square)](https://patreon.com/jeffreytse)
 <a href="https://ko-fi.com/jeffreytse">
   <img height="20" src="https://www.ko-fi.com/img/githubbutton_sm.svg"
     alt="Donate (Ko-fi)" />
 </a>
-
-## 🏡 Jeffrey Tse's Personal Blog
 
 This site is a very personal website. I hope you will better enjoy my content.
 
@@ -27,7 +27,7 @@ better.
 Would you like to buy me a coffee? I would really appreciate it if you could
 support me for my stuff.
 
-<a href="https://ko-fi.com/jeffreytse"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5cbed8a4cf61ec6d7e012820_BuyMeACoffeeofi_Red.png" alt="Buy Me A Coffee" height="48px"></a>
+<a href="https://ko-fi.com/jeffreytse"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5cbed8a4cf61ec6d7e012820_BuyMeACoffeeofi_Red.png" alt="Buy Me A Coffee" height="38px"></a>
 
 ## ⚖ Copyright
 
