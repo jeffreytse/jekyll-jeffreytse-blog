@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Handbook of Software Architecture
-subtitle: ->
+subtitle: >-
     Not only techniques, but also arts for the minimization
     of manpower in all phases of development.
 author: Jeffrey Tse
@@ -12,7 +12,7 @@ categories:
   - computer
 tags:
   - software
-  - architect
+  - architecture
   - note
 ---
 
@@ -32,12 +32,14 @@ Main Streaming:
 
 - Monolithic
 - Service-Oriented Architecture (SOA)
+  - ESB is one of the main technologies to realize SOA
 - Microservice
 
 Others:
 
 - Event-driven Architectures (EDA)
   - **Event Producer** -> **Event Router** -> **Event Consumer**
+  - Event Router can be Kafka, etc.
 - Cloud Native (Utilize cloud services such as EC2, S3, AWS Lambda, etc.)
 
 ## Communication between Different Architecture
