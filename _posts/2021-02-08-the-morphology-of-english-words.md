@@ -358,6 +358,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cerebr`: brain (e.g. cerebral)
 - `cess`: movement, migration (e.g. process)
 - `chlor`: chlor (e.g. chloroform)
+- `chutd`: a fall (e.g. parachute)
 - `cid`: to cut (e.g. suicide)
 - `cis`: the same as `cid` (e.g. circumcise)
 - `cip`: the same as `cept`
@@ -1000,8 +1001,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `over`: over (e.g. overfly)
 - `pan`: all, every, whole, all-inclusive (e.g. pandemic)
   - From Greek `pan-`, combining form of pas
-- `para`: alongside, beyond; altered; contrary; irregular, abnormal
-  (e.g. paramedic, parastatal, paralegal, paraeducator, paranormal)
+- `para`: alongside, beyond; altered; contrary; irregular, abnormal; defense
+  against (e.g. paramedic, parastatal, paralegal, paraeducator, paranormal,
+  parachute)
   - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: through; throughout; thoroughly; entirely, utterly (e.g. perfect,
   perform, persist, permit)
