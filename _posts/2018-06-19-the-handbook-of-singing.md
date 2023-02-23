@@ -4,7 +4,7 @@ title: The Handbook of Singing
 author: Jeffrey Tse
 banner:
   image: https://user-images.githubusercontent.com/9413601/220664720-efc7d581-6180-4aa5-8d09-85aafb90be52.png
-  opacity: 0.818
+  opacity: 0.618
 categories: music
 tags:
   - music
