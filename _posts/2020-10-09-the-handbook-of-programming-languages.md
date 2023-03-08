@@ -228,15 +228,60 @@ In structured programming, a program is written with only 3 basic structure:
 - Default value
 - Keyword arguments
 
-## Programming Paradigm
+## Programming Paradigms
 
 ### Functional Programming
 
+FP is a high level way of programming, the level stands for the degree of
+abstraction, the higher the programming level is, the least the concern of
+machine execution details is, such as memory allocation and release, all
+low level stuff just let the compiler to handle. And it is very worthwhile
+to exchange a little performance for a clean program.
+
+Behavior: Use imperative rather than declarative
+
+- Imperative
+  - Focus on the steps of execution (machine-oriented)
+  - Examples
+    - Assembly Language
+- Declarative
+  - Focus on the expression of execution (human-oriented)
+    - `numbers.filter(num => num % 2)`
+    - `SELECT name, age from Students`
+  - Examples
+    - SQL
+
+Basic Concept:
+
+- Pure Functions
+  - It's actually a kind of functions
+  - But it must meet certain restrictions
+    - The same input always result the same output
+    - No side effects (i.e. Closure)
+    - How to handle the side effects
+      - It's to use monad to push the impure part to the boundary of
+        the program, and keep the core part pure
+  - Try to make all functions pure as much as possible
+  - Advantages
+    - Its result is predictable
+    - Make unit test very easy, as no any external dependency
+- State Immutability
+  - All variables can't be changed once they are declared.
+- Avoid Loops
+  - Recursion > Loops
+  - Using recursion rather than explicit looping structure
+  - The nature of the loop is actually very mutable
+
+Languages:
+
+- Haskell
 - Erlang
 - Scala
 - ...
 
 ### Structured or modular programming
+
+Languages:
 
 - C#
 - PHP
@@ -245,6 +290,8 @@ In structured programming, a program is written with only 3 basic structure:
 ### Imperative programming
 
 This alternative to OOP focuses on function rather than models.
+
+Languages:
 
 - C++
 - Java
@@ -255,6 +302,8 @@ This alternative to OOP focuses on function rather than models.
 This programming method involves statements on what the task or desired
 outcome is but not how to achieve it.
 
+Languages:
+
 - Prolog
 - Lisp
 - ...
@@ -264,6 +313,8 @@ outcome is but not how to achieve it.
 This programming method, which is based mostly in formal logic. It contains
 a set of sentences that express facts or rules about a problem domain. It
 focuses on tasks that can benefit from rule-based logical queries.
+
+Languages:
 
 - Prolog
 - ...
