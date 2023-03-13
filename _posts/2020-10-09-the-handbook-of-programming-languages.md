@@ -230,6 +230,40 @@ In structured programming, a program is written with only 3 basic structure:
 
 ## Programming Paradigms
 
+![Paradigms Relationship](https://user-images.githubusercontent.com/9413601/224235137-b947c43b-3b13-4b26-a468-0fa454ae8faf.png)
+
+### Imperative programming
+
+This alternative to OOP focuses on function rather than models.
+
+Languages:
+
+- C++
+- Java
+- ...
+
+### Declarative programming
+
+This programming method involves statements on what the task or desired
+outcome is but not how to achieve it.
+
+Languages:
+
+- Prolog
+- Lisp
+- ...
+
+### Logical programming
+
+This programming method, which is based mostly in formal logic. It contains
+a set of sentences that express facts or rules about a problem domain. It
+focuses on tasks that can benefit from rule-based logical queries.
+
+Languages:
+
+- Prolog
+- ...
+
 ### Functional Programming
 
 FP is a high level way of programming, the level stands for the degree of
@@ -281,6 +315,13 @@ Languages:
 
 ### Structured or modular programming
 
+The structured is any programming when functionality is divided into units
+like `for loop, while loop, if`... then etc block structure. The modular
+is one can create a physical form of package, which are fairly general
+purpose and re-usable. So one can hardly see modular programs which are
+not structured and vice versa; the technical definition is subtly different
+but mostly structured code can be made modular and other way.
+
 Languages:
 
 - C#
@@ -320,6 +361,8 @@ Languages:
 - ...
 
 ### Object-oriented Programming (OOP)
+
+OOP is a form of structured programming by definition.
 
 Abstraction:
 
@@ -439,3 +482,4 @@ programming model is mainly methods and ideas.
 
 - [Declarative programming](https://www.wikiwand.com/en/Declarative_programming)
 - [The principal programming paradigms](https://www.info.ucl.ac.be/~pvr/paradigmsDIAGRAMeng108.pdf)
+- [What's The Difference Between Imperative, Procedural and Structured Programming?](https://softwareengineering.stackexchange.com/questions/117092/whats-the-difference-between-imperative-procedural-and-structured-programming)
