@@ -75,6 +75,7 @@ over and over again, and you'll be like a native.
   - My pleasure
   - Anytime
   - Don't mention it
+  - You shouldn't have
 
 - Because
   - As
@@ -291,6 +292,7 @@ over and over again, and you'll be like a native.
   - Calm down
   - What's new?
   - It's a nice day!
+  - I'm sorry to bug you
   - Help yourself
   - After you
   - I see
@@ -307,4 +309,10 @@ over and over again, and you'll be like a native.
   - Can you budge up?
   - Keep sb. in the loop
   - Tackle the problem
+  - Can I take a rain check
+  - How dare you!
+  - I'm rooting for you
+  - Sleep on it
+  - I don't buy it
+  - Do me a favor
 
