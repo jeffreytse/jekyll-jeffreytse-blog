@@ -17,6 +17,7 @@ Here are some phrase patterns for daily usage:
 - Either you or he is wrong.
 - Either he nor I am a student.
 - For sure
+- For the sake of doing...
 - Get out of my mind
 - Good for you
 - Guess what?
