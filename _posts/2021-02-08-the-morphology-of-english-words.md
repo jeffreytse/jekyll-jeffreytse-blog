@@ -1,6 +1,7 @@
 ---
 layout: post
-title: The morphology of English words
+title: The Morphology of English Words
+subtitle: No matter what language, it condenses rich cultural and historical heritage
 author: Jeffrey Tse
 banner: https://www.britishlibrary.cn/wp-content/uploads/2017/02/London_banner_desktop.jpg
 categories: linguistics
@@ -316,10 +317,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 
 ## Root
 
-- `act`: to do (e.g. action)
+- `act`: the same as `ag` (e.g. action, active, counteract, actual, exact)
   - From Latin `actus`, `agere`
 - `after`: more away, farther off (e.g. afternoon, afterward)
   - From of `off` + `-ter`, a comparative suffix
+- `ag`: to do, perform, to drive, draw out or forth, move (e.g. agent, agenda,
+  agile, agitate)
+  - From Latin `agere`
 - `agro`: a field, a farm; the country (e.g. agronomy)
 - `al`: beyond (e.g. allergy)
 - `algi`: pain (e.g. neuralgia)
@@ -367,9 +371,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `circum`: the same as `circ` (e.g. circumscribe, circumvent, circumstance,
   circumpolar, circumstellar)
 - `cite`: to move, set in motion, stir, rouse, call, invite (e.g. recite)
-- `clude`: to shut, close (e.g. include)
+- `claus`: the same as `clude` (e.g. clause)
+- `clois`: the same as `clude` (e.g. cloister)
+- `clos`: the same as `clude` (e.g. close, enclose, closet)
+- `clot`: the same as `clude` (e.g. cloture)
+- `clude`: to shut, close (e.g. include, seclude, occlude, preclude, exclude,
+  conclude)
   - From Latin `cludere`, the more literal sense of "close, shut up, prevent
     access to"
+- `clus`: the same as `clude` (e.g. recluse)
 - `col`: column (e.g. coliform, `col` + `i` + `form`)
 - `cover`: cover (e.g. coverall, bedcover, covert)
 - `cracy`: rule, power (e.g. aristocracy, democracy)
@@ -417,7 +427,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `for`: the same as `fer`
 - `fortun`: chance, fate, good luck (e.g. fortune)
   - From Latin `fortuna`, Fortuna, in Roman religion, goddess of chance or lot
-  who became identified with the Greek Tyche
+    who became identified with the Greek Tyche
 - `fibr` a thread, string (e.g. fiber, neurofibroma)
 - `fict`: the same as `fact` (e.g. fiction)
 - `fin`: end, limit, acme (e.g. define, final, finance, infinite, confine)
@@ -623,7 +633,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `priv`: private (e.g. privilege)
 - `proach`: come nearer (e.g. approach, reproach)
 - `proxim` the same as `proach` (e.g. proximal)
-- `psycho`: breath, spirit, soul (e.g. psychology, psychopathology)
+- `psycho`: breath, spirit, soul (e.g. psychology, psychopathology, psychoactive)
   - From Greek `psykhē`
 - `put`: think
 - `pol`: citadel, fort, city (e.g. politic, polite, police)
@@ -662,7 +672,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sembl`: the same as `sem` (e.g. resemble, semblance, assemble)
 - `ser`: to join together, bind together, put in a row, to line up, link, arrange
   (e.g. series)
-- `sert`:  (e.g. assert, desert, insert, exert)
+- `sert`: (e.g. assert, desert, insert, exert)
 - `seri`: weighty, important, grave (e.g. serious)
   - From Latin `serius`
 - `sev`: the same as `seri` (e.g. severe)
@@ -892,7 +902,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `de`: opposite, remove, reduce, from, entirely, completely, off, without
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
-  descend, despite)
+  descend, despite, deactive)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence,
@@ -922,7 +932,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Proto-Indo-European root meaning "to be."
 - `eu`: good, well (e.g. eupheme)
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
-  extra = `ex` + `trans`, extort)
+  extra = `ex` + `trans`, extort, exact)
   - From Latin `ex` "out of, from within; from which time, since; according to;
     in regard to"
   - From PIE `*eghs` "out" (source also of Gaulish `ex-`, Old Irish `ess-`, Old
@@ -989,7 +999,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `nephro`: kidney (e.g. nephrology)
 - `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct,
   obsess, omit, obliterate, oblate, obscene)
-- `oc`: the same as `ob-` (e.g. occupy)
+- `oc`: the same as `ob-` (e.g. occupy, occlude)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
   omniscient)
 - `op`: the same as `ob-` (e.g. oppress)
@@ -1027,9 +1037,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   revenue)
 - `retina`: net-like tunic (e.g. retinal, retinopathy)
   - From Latin `rete` "net"
+- `retro`: backward, reverse (e.g. retrospect, retroactive)
 - `rheo`: a flowing, stream, current (e.g. rheostat)
   - from Greek `rheos`, which is related to rhein "to flow"
-- `se`: without, apart, aside, on one's own (e.g. select, secret, seduce)
+- `se`: without, apart, aside, on one's own (e.g. select, secret, seduce,
+  seclude)
 - `seam`: to bind, sew (e.g. seamstress)
 - `semi`: half
 - `sens`: understanding or feeling of something (e.g. sense)
@@ -1096,7 +1108,8 @@ Variants:
 
 ## Suffix
 
-- `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa, partita)
+- `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa, partita,
+  agenda = `ag` + `end` + `a`)
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
 - `acle`: noun (e.g. obstacle, spectacle, manacle)
@@ -1129,7 +1142,7 @@ Variants:
 - `ate`: verb or adjective or noun (e.g. tractate, fortunate)
   - Verb, make something doing (e.g. regulate, control somthing or make it regular)
   - Adjective, full of or showing a particular quality; connected with or
-    belonging to  (e.g. affectionate, collegiate, passionate)
+    belonging to (e.g. affectionate, collegiate, passionate)
   - Noun, job, rank, or degree of a particular quality/type/duty...
 - `ation`: noun (`ate` + `ion`)
 - `ative`: noun (`ate` + `ive`)
