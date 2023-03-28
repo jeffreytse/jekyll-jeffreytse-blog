@@ -317,7 +317,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 
 ## Root
 
-- `act`: the same as `ag` (e.g. action, active, counteract, actual, exact)
+- `act`: the same as `ag` (e.g. action, active, counteract, actual, exact,
+  transact)
   - From Latin `actus`, `agere`
 - `after`: more away, farther off (e.g. afternoon, afterward)
   - From of `off` + `-ter`, a comparative suffix
@@ -464,6 +465,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `hu`: clay (e.g. human)
 - `hydra`: water; wet (e.g. hydrate, hydrant)
 - `hydro`: the same as `hydra` (e.g. hydrogen, hydroplane, hydroelectric)
+- `ig`: the same as `ag` (e.g. exigent, navigate)
 - `ill`: bad, from evil (e.g. illness)
 - `image`: copy, statue, picture (e.g. imagination)
   - From Latin `imago`
@@ -488,6 +490,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lig`: the same as `lect` (e.g. intelligent, eligible, negligent, diligent)
 - `liqu`: to flow, run (e.g. liquid, liquidate, liquidity, semiliquid, illiquid,
   liquefy, liquefaction, liqueur)
+- `lit`: to dispute, carry on a suit (e.g. litigate)
+  - From Latin `litigare`
 - `lith`: stone (e.g. monolith, lithography)
 - `liter`: letter, alphabetic sign; literature, books (e.g. literature)
   - From Latin `litera/littera`
@@ -544,7 +548,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mut`: the same as `mun` (e.g. mutual)
 - `nap`: to doze, slumber, sleep lightly (e.g. night)
 - `nat`: be born (e.g. native, nature, naturopathic)
-- `nau`: boat, sailor (e.g. astronaut, nausea, nautical)
+- `nau`: boat, ship, sailor (e.g. astronaut, nausea, nautical)
+- `nav`: the same as `nau` (e.g. navigate = `nav` + `ig` + `ate`)
 - `nec`: not (e.g. neglect)
 - `nec`: the same as `noc` (e.g. internecine)
 - `neme`: assign, allot; take; manage; law or custom, administering (e.g.
@@ -577,6 +582,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `olig`: few, small, little (e.g. oligarch)
 - `opt`: eyes; to choose, to take, grab (e.g. option, optic, cycloops,
   optoelectronic)
+- `ord`: row, order (e.g. order, orderly)
+- `ordain`: the same as `ord` (e.g. preordain)
+- `ordin`: the same as `ord` (e.g. ordinary, coordinate, subordinate,
+  insubordinate, ordinal)
 - `org`: the same as `erg` (e.g. organize)
 - `ori`: rise (e.g. oriented )
   - From Latin, the position that sun rising from.
@@ -713,6 +722,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   stalemate, stalwart, oust, stiff, stub, stem, stamp)
 - `sist`: the same as `st` (e.g. assist, exist, insist, persist)
 - `soci`: companion, ally (e.g. social, sociopath)
+- `solu`: the same as `solv` (e.g. solute, dissolute, absolute, soluble,
+  insoluble)
+- `solv`: to loosen, divide, cut apart (e.g. solve, solver, absolve, dissolve,
+  resolve)
 - `star`: the same as `ster`
 - `ster`: star (e.g. )
 - `stel`: the same as `ster` (e.g. stellar)
@@ -932,7 +945,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Proto-Indo-European root meaning "to be."
 - `eu`: good, well (e.g. eupheme)
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
-  extra = `ex` + `trans`, extort, exact)
+  extra = `ex` + `trans`, extort, exact, exigent)
   - From Latin `ex` "out of, from within; from which time, since; according to;
     in regard to"
   - From PIE `*eghs` "out" (source also of Gaulish `ex-`, Old Irish `ess-`, Old
@@ -1206,7 +1219,7 @@ Variants:
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
   polyploid = `poly` + `plo` + `id`, vivid)
 - `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile,
-  volatile, mobile, exile)
+  volatile, mobile, exile, agile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine,
