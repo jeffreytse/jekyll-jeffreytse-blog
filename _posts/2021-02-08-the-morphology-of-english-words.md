@@ -416,11 +416,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ev`: age (e.g. medieval)
   - From Latin `aevum`
 - `ever`: at any time (e.g. forever)
-- `fact`: to form, build (e.g. factor)
+- `fact`: to form, build, to make, to do (e.g. factor, factoid, artefact,
+  factious, facture, faction)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fasc`: bundle of wood (e.g. fascine, fascicle, fascia, fascist)
-- `fect`: doing (e.g. perfect)
+- `feas`: the same as `fact`
+- `feat`: the same as `fact`
+- `fect`: the same as `fact` (e.g. perfect)
+- `feit`: the same as `fact`
 - `fest`: (able to be) seized (e.g. manifest, infest)
 - `fer`: to carry, to bear (e.g. confer, infer, transfer)
   - From Latin `ferre`
@@ -433,6 +437,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fict`: the same as `fact` (e.g. fiction)
 - `fin`: end, limit, acme (e.g. define, final, finance, infinite, confine)
 - `fiss`: to split (e.g. fission, fissiparous)
+- `fit`: the same as `fact`
+- `flam`: to shine, flash, burn (e.g. flame, aflame, flamboyance, inflame)
+- `flagr`: the same as `flam` (e.g. flagrant, conflagrate)
 - `flu`: the affects between objects (e.g. influence, flush)
   - From Latin `fluere`
 - `flux`: the same as `flu` (e.g. fluctuate)
@@ -645,6 +652,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `psycho`: breath, spirit, soul (e.g. psychology, psychopathology, psychoactive)
   - From Greek `psykhē`
 - `put`: think
+- `putr`: to rot, stink (e.g. putrefaction)
+  - From Latin `putrere`
 - `pol`: citadel, fort, city (e.g. politic, polite, police)
   - From Greek `polis`
 - `pon`: the same as `loc` (e.g. )
@@ -749,6 +758,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `struct`: build (e.g. construct)
   - From Latin, structura, from struere, the way an organization, system,
     market etc is organized or put together.
+- `stub`: to push, stick, knock, beat; be stunned, amazed, confounded (e.g. )
+- `stup`: the same as `stub` (e.g. stupid, stupefaction, stupor)
 - `suit`: to follow (e.g. suitcase)
   - From Latin `sequi`
 - `sum`: whole, totality, gist; highest, uppermost (e.g. summary, summitry)
@@ -1217,7 +1228,7 @@ Variants:
 - `ics`: noun, `ic` + `s`, the study of something (e.g. bioinformatics)
 - `icle`: the same as `-acle` (e.g. particle, fascicle)
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
-  polyploid = `poly` + `plo` + `id`, vivid)
+  polyploid = `poly` + `plo` + `id`, vivid, factoid, stupid)
 - `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile,
   volatile, mobile, exile, agile)
 - `ine`: none (e.g. vaccine)
