@@ -58,8 +58,8 @@ Latin, French, Germanic.
 - Germanic: machine, automatic
 - Greek: democracy, liberty
 - Japanese: tofu (Chinese, 豆腐), sensei (Chinese, 先生)，senpai(Chinese, 先辈)
-- Chinese: katchup (Cantonese, 茄汁), kowtow (Cantonese, 叩头), lychee (荔枝),
-  typhoon (台风), mandarin (满大人)
+- Chinese: ketchup (Cantonese, 茄汁), kowtow (Cantonese, 叩头), lychee (荔枝),
+  typhoon (台风), mandarin (满大人), wok (锅), wonton (云吞)
 - ...
 
 English has a history of 2,300 years. In the course of historical development,
@@ -337,7 +337,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   architect, archaic, archive. monarch, patriarch, matriarch, oligarch,
   anarchy, archetype)
 - `aristo`: best of its kind, noblest, bravest, most virtuous (e.g. aristocracy)
-- `art`: to do, make (e.g. artificial)
+- `art`: to do, make (e.g. artifact, artificial)
 - `astr`: star (e.g. astronaut)
 - `author`: one who causes to grow, to increase (e.g. authority)
 - `bar`: bar, obstacle (e.g. embarrass, barrack)
@@ -416,15 +416,17 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ev`: age (e.g. medieval)
   - From Latin `aevum`
 - `ever`: at any time (e.g. forever)
+- `fac`: the same as `fact` (e.g. facile, facility, facsimile, faculty)
 - `fact`: to form, build, to make, to do (e.g. factor, factoid, artefact,
-  factious, facture, faction)
+  factious, facture, faction, artifact, olfaction)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fasc`: bundle of wood (e.g. fascine, fascicle, fascia, fascist)
 - `feas`: the same as `fact`
 - `feat`: the same as `fact`
-- `fect`: the same as `fact` (e.g. perfect)
-- `feit`: the same as `fact`
+- `fect`: the same as `fact` (e.g. perfect, pluperfect, effect, defect, affect,
+  infect, disinfect, confect)
+- `feit`: the same as `fact` (e.g. )
 - `fest`: (able to be) seized (e.g. manifest, infest)
 - `fer`: to carry, to bear (e.g. confer, infer, transfer)
   - From Latin `ferre`
@@ -434,6 +436,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `fortuna`, Fortuna, in Roman religion, goddess of chance or lot
     who became identified with the Greek Tyche
 - `fibr` a thread, string (e.g. fiber, neurofibroma)
+- `fic`: the same as `fact` (e.g. office, officious, efficient, deficit)
 - `fict`: the same as `fact` (e.g. fiction)
 - `fin`: end, limit, acme (e.g. define, final, finance, infinite, confine)
 - `fiss`: to split (e.g. fission, fissiparous)
@@ -586,6 +589,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `od`: a way or manner (e.g. method, period, odograph)
   - Method from Latin `methodus` "way of teaching or going", `meta-` + `hodos`,
     `meth` originally pursuit, a following after
+- `ol`: to smell (e.g. olfaction)
 - `olig`: few, small, little (e.g. oligarch)
 - `opt`: eyes; to choose, to take, grab (e.g. option, optic, cycloops,
   optoelectronic)
@@ -999,7 +1003,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ir`: used instead of `in-` before the letter `r` (e.g. irregular)
 - `is`: separate, apart (e.g. island)
 - `macro`: extremely large (e.g. macromedia)
-- `mal`: bad (e.g. malware)
+- `mal`: bad (e.g. malware, malefactor)
 - `main`: main (e.g. main)
 - `magn`: big
 - `matri`: of or relating to women, mother (e.g. matrimony, matrilocal)
@@ -1175,7 +1179,7 @@ Variants:
 - `craft`: noun, skill
 - `crat`: noun, governing (e.g. democrat)
 - `cracy`: noun, same as `ocrat` (e.g. e.g. democracy)
-- `dom`: noun, abstract suffix of state (e.g. freedom, random)
+- `dom`: noun, abstract suffix of state (e.g. freedom, random, officialdom)
   - From Old English dom "statute, judgment" (see `doom`)
 - `don`: verb (e.g. abandon)
 - `e`: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme, sauce,
@@ -1195,7 +1199,7 @@ Variants:
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
 - `ery`: noun or adjective, the same as `-ary` (e.g. stationery)
-- `ese`: noun, language name (e.g. legalese)
+- `ese`: noun, language name (e.g. legalese, officialese)
 - `esce`: verb, to leave, abandon, give out (e.g. evanesce)
 - `ess`: noun, female (e.g. actress, waitress, tigress, directress, mistress)
 - `esis`: noun, the same as `etic` (e.g. pathogenesis)
@@ -1230,7 +1234,7 @@ Variants:
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
   polyploid = `poly` + `plo` + `id`, vivid, factoid, stupid)
 - `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile,
-  volatile, mobile, exile, agile)
+  volatile, mobile, exile, agile, facile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine,
@@ -1391,6 +1395,7 @@ Variants:
 - `managed`: managed (e.g. state-managed, stage-managed)
 - `mandated`: mandated (e.g. state-mandated)
 - `much`: much-praised (e.g. much-praised)
+- `near`: near (e.g. near-perfect)
 - `neo`: new (e.g. neo-Victorian)
 - `newly`: new (e.g. newly-formed, newly-elected)
 - `non`: none (e.g. non-structural, non-parental, non-energy)
