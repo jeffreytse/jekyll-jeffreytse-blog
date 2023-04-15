@@ -337,7 +337,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   architect, archaic, archive. monarch, patriarch, matriarch, oligarch,
   anarchy, archetype)
 - `aristo`: best of its kind, noblest, bravest, most virtuous (e.g. aristocracy)
-- `art`: to do, make (e.g. artifact, artificial)
+- `art`: to do, make (e.g. artifact, artificial, artifice)
 - `astr`: star (e.g. astronaut)
 - `author`: one who causes to grow, to increase (e.g. authority)
 - `bar`: bar, obstacle (e.g. embarrass, barrack)
@@ -346,7 +346,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ban`: the same as `bar` (e.g. abandon, banner, banquet, bank)
   - Italian `banchi`, the root of the Italian word for banks
 - `bat`: to beat (e.g. battle, debate)
-- `bene`: fine (e.g. benefit, benefactor)
+- `bene`: fine (e.g. benefit, benefactor, benefice)
 - `bow`: to bend (e.g. bowstring)
 - `canon`: a rule or law (e.g. canonical)
 - `cap`: the same as `cept` (e.g. capable, capsule)
@@ -417,16 +417,16 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `aevum`
 - `ever`: at any time (e.g. forever)
 - `fac`: the same as `fact` (e.g. facile, facility, facsimile, faculty)
-- `fact`: to form, build, to make, to do (e.g. factor, factoid, artefact,
-  factious, facture, faction, artifact, olfaction)
+- `fact`: to form, build, to make, to do, to set, to put (e.g. factor, factoid,
+  artefact, factious, facture, faction, artifact, olfaction)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
 - `fasc`: bundle of wood (e.g. fascine, fascicle, fascia, fascist)
-- `feas`: the same as `fact`
-- `feat`: the same as `fact`
+- `feas`: the same as `fact` (e.g. fease, feasible, misfeasance)
+- `feat`: the same as `fact` (e.g. defeat, feature)
 - `fect`: the same as `fact` (e.g. perfect, pluperfect, effect, defect, affect,
   infect, disinfect, confect)
-- `feit`: the same as `fact` (e.g. )
+- `feit`: the same as `fact` (e.g. forfeit, surfeit, counterfeit)
 - `fest`: (able to be) seized (e.g. manifest, infest)
 - `fer`: to carry, to bear (e.g. confer, infer, transfer)
   - From Latin `ferre`
@@ -436,11 +436,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `fortuna`, Fortuna, in Roman religion, goddess of chance or lot
     who became identified with the Greek Tyche
 - `fibr` a thread, string (e.g. fiber, neurofibroma)
-- `fic`: the same as `fact` (e.g. office, officious, efficient, deficit)
-- `fict`: the same as `fact` (e.g. fiction)
+- `fic`: the same as `fact` (e.g. office, officious, efficient, deficit,
+  benefice, difficult, traffic, suffice, proficient, artifice, aficionado,
+  maleficent)
+- `fict`: the same as `fact` (e.g. fiction, fictive)
+- `fig`: the same as `fact` (e.g. figure)
 - `fin`: end, limit, acme (e.g. define, final, finance, infinite, confine)
 - `fiss`: to split (e.g. fission, fissiparous)
-- `fit`: the same as `fact`
+- `fit`: the same as `fact` (e.g. profit, outfit, soffit)
 - `flam`: to shine, flash, burn (e.g. flame, aflame, flamboyance, inflame)
 - `flagr`: the same as `flam` (e.g. flagrant, conflagrate)
 - `flu`: the affects between objects (e.g. influence, flush)
@@ -915,7 +918,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   emphatic; (e.g. compress, commix)
   - From Latin `com`, `cum`
 - `con`: the same as `com` (e.g. confirm, convergence, constant, constitute,
-  conscious, confess, contact)
+  conscious, confess, contact, configure)
   - It is the form of `com-` used in Latin before consonants except `-b-`,
     `-p-`, `-l-`, `-m-`, or `-r-`.
 - `cor`: same as `con` (e.g. corrupt, correct, correlate)
@@ -930,7 +933,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `de`: opposite, remove, reduce, from, entirely, completely, off, without
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
-  descend, despite, deactive)
+  descend, despite, deactive, defeat)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence,
@@ -940,7 +943,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `dia`: across, between; through, throughout (e.g. dialect, dialog)
   - before vowels, `di-`, word-forming element meaning "through, in different
     directions, between,"
-- `dis`: not or opposite (e.g. disagree)
+- `dis`: not or opposite (e.g. disagree, disfigure, difficult)
 - `du`: the same as `di` (e.g. duplicate, duplex)
 - `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction)
   - From Greek `dys-`
@@ -968,6 +971,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - In some cases also from Greek cognate `ex`, `ek`
   - Often reduced to `e-` before `-b-`, `-d-`, `-g-`, consonantal `-i-`, `-l-`,
     `-m-`, `-n-`, `-v-` (as in elude, emerge, evaporate, etc.).
+- `for`: outside, beyond (e.g. forfeit, forgive, foreign)
+  - From Latin `foris`
 - `geo`: relating to the Earth or its surface (e.g. geostationary)
 - `glot`: language, tongue (e.g. polyglot)
 - `gyre`: the same as `gyro` (e.g. gyrencephalic)
@@ -1003,7 +1008,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ir`: used instead of `in-` before the letter `r` (e.g. irregular)
 - `is`: separate, apart (e.g. island)
 - `macro`: extremely large (e.g. macromedia)
-- `mal`: bad (e.g. malware, malefactor)
+- `mal`: bad (e.g. malware, malefactor, malfeasance)
 - `main`: main (e.g. main)
 - `magn`: big
 - `matri`: of or relating to women, mother (e.g. matrimony, matrilocal)
@@ -1049,9 +1054,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `plat`: small place (e.g. platform)
 - `poly`: multiple, many, entire (e.g. polytechnic, polycyclic, polyglot)
 - `por`: the same as `pro` (e.g. portray, portrait)
-- `pre`: before, ahead (e.g. preformed)
+- `pre`: before, ahead (e.g. preformed, prefigure)
   - From Latin `prae-`, before, ahead
-- `pro`: forward, before, forth (e.g. promote, prostitute, produce, profess)
+- `pro`: forward, before, forth (e.g. promote, prostitute, produce, profess,
+  profit)
   - It comes from `Prometheus`, who can predict the future.
 - `pur`: the same as `pro` (e.g. purpose, purview, purvey)
   - A variant of Latin pro "before, for" (see `pro-`)
@@ -1075,17 +1081,20 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sens`: understanding or feeling of something (e.g. sense)
 - `sent`: the same as `sens` (e.g. consent)
 - `soci`: partner (e.g. social, `soci` + `al`)
+- `sof`: the same as `sub` (e.g. soffit)
 - `sol`: uninjured, in good health, safe (e.g. solid)
   - From Latin salvificus "saving"
 - `sou`: the same as `sub` (e.g. souvenir)
 - `stereo`: solid, firm; three-dimensional; stereophonic (e.g. stereotype,
   stereotactic)
   - From Greek stereos "solid", before vowels `stere-`, word-forming element
-- `sub`: under (e.g. subway(Americanism, underway is british style),
+- `sub`: under, up to (e.g. subway(Americanism, underway is british style),
   substructure, subtitle, submarine, subtle)
+- `suf`: the same as `sub` (e.g. suffice)
 - `sup`: the same as `sub` (e.g. suppress, support, supple)
   - Assimilated form of `sub-` before `-p-`
-- `sur`: over, above, beyond, in addition; the same as `sub` (e.g. surface, survey)
+- `sur`: over, above, beyond, in addition; the same as `sub` (e.g. surface, survey,
+  surfeit)
   - From Anglo-French and Old French, from Old French `sour-`, `sor-`, `sur-`,
     from Latin `super`
   - Assimilated form of `sub-` before `-r-`.
@@ -1098,7 +1107,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - before vowels `tetr-`, word-forming element
 - `therm`: heat, hot, warm (e.g. hetertherm, thermostat)
 - `tra`: the same as `trans`
-- `traf`: the same as `trans`
+- `traf`: the same as `trans` (e.g. traffic)
 - `trans`: across, beyond, through, on the other side of, to go beyond (e.g.
   transparent, transcribe)
 - `tri`: three, having three, once every three (e.g. trivia, triangle, tricycle,
@@ -1234,11 +1243,11 @@ Variants:
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
   polyploid = `poly` + `plo` + `id`, vivid, factoid, stupid)
 - `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile,
-  volatile, mobile, exile, agile, facile)
+  volatile, mobile, exile, agile, facile, fictile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine,
-  facine)
+  facine, figurine)
 - `ina`: the same as `ine` (e.g. retina = `rete` + `ina`)
 - `ing`: adjective (e.g. fitting)
 - `ion`: noun (e.g. formation, vision)
@@ -1254,7 +1263,7 @@ Variants:
 - `itis`: noun, an illness or infection that affects a particular part of your
   body (e.g. neuritis)
 - `ium`: noun (e.g. scriptorium, technetium, medium)
-- `ive`: adjective (e.g. active)
+- `ive`: adjective (e.g. active, fictive)
 - `ise`: verb (Americanism)
   - none, from French (e.g. treatise)
 - `ize`: verb (British Style)
@@ -1274,7 +1283,7 @@ Variants:
 - `ly`: adverb (e.g. easily)
 - `ma`: noun, mass or lump (e.g. phyma, neuroma, gemma)
 - `ment`: noun, to show actions, the people who do them, or their results
-  (e.g. government, judgment)
+  (e.g. government, judgment, figment)
   - Used to form a noun from a verb
 - `mony`: noun, action, state, condition (e.g. matrimony)
 - `ness`: noun (e.g. formlessness, sickness, highness, suppleness)
@@ -1285,7 +1294,7 @@ Variants:
 - `or`: the same as `-er` (e.g. resistor, liquor)
 - `ora`: noun (e.g. plethora)
 - `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary, mandatory)
-- `ous`: adjective, refer to a quality or condition (e.g. numerous)
+- `ous`: adjective, refer to a quality or condition (e.g. numerous, fictious)
 - `pathy`: adjective, `path` + `y`; feeling, suffering, emotion; disorder, disease
   (e.g. neuropathy, homeopathy, sympathy)
   - From Latin `-pathia`, from Greek `-patheia`
@@ -1312,7 +1321,7 @@ Variants:
 - `ul`: adjective, the same as `al` (e.g. formula, `form` + `ul` + `a`)
 - `um`: noun (e.g. forum, museum, premium, vacuum, plenum, medium, viviarium)
 - `ur`: noun, the same as `-er` (e.g. voyageur, liqueur)
-- `ure`: noun or verb (e.g. structure, mixture)
+- `ure`: noun or verb (e.g. structure, mixture, figure, feature)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
     `-ura`, an ending of fem. nouns denoting employment or result.
 - `us`: noun (e.g. exodus, humerus, rectus, stimulus, genius, literatus, locus)
