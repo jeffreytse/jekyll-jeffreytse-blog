@@ -56,6 +56,40 @@ Classic examples:
 
 ## Distributed System
 
+### Basic Theories
+
+#### CAP Theorem
+
+In theoretical computer science, the CAP theorem, also named Brewer's theorem
+after computer scientist Eric Brewer, states that any distributed data store
+can provide only two of the following three guarantees:
+
+- Consistency
+  - Every read receives the most recent write or an error.
+- Availability
+  - Every request receives a (non-error) response, without the guarantee that
+  it contains the most recent write.
+- Partition Tolerance
+  - The system continues to operate despite an arbitrary number of messages
+  being dropped (or delayed) by the network between nodes.
+
+![CAP Theorem](https://user-images.githubusercontent.com/9413601/233882737-6f5cfce3-d5dd-4c6c-8657-af872a5daee9.png)
+
+#### Consensus Algorithm
+
+**Paxos Algorithm**
+
+Paxos is a distributed consensus algorithm. An algorithm that ensures that a
+change you make on one object is propagated to all of its replicas over an
+asynchronous network, is called a consensus algorithm.
+
+**Raft Algorithm**
+
+Raft is a consensus algorithm designed as an alternative to the Paxos family
+of algorithms. It was meant to be more understandable than Paxos by means of
+separation of logic, but it is also formally proven safe and offers some
+additional features.
+
 ### Fallacies of Distributed Systems
 
 - Network is Reliable
