@@ -342,6 +342,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `author`: one who causes to grow, to increase (e.g. authority)
 - `bar`: bar, obstacle (e.g. embarrass, barrack)
   - From Latin `barra`
+- `bari`: heavy, deep (e.g. baritone)
 - `bal`: the same as `bar` (e.g. balance, balk, baluster)
 - `ban`: the same as `bar` (e.g. abandon, banner, banquet, bank)
   - Italian `banchi`, the root of the Italian word for banks
@@ -443,7 +444,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fig`: the same as `fact` (e.g. figure)
 - `fin`: end, limit, acme (e.g. define, final, finance, infinite, confine)
 - `fiss`: to split (e.g. fission, fissiparous)
-- `fit`: the same as `fact` (e.g. profit, outfit, soffit)
+- `fit`: the same as `fact` (e.g. profit, outfit, soffit, refit, discomfit,
+  befit, soffit, maleficent)
 - `flam`: to shine, flash, burn (e.g. flame, aflame, flamboyance, inflame)
 - `flagr`: the same as `flam` (e.g. flagrant, conflagrate)
 - `flu`: the affects between objects (e.g. influence, flush)
@@ -784,7 +786,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   tactic, syntactic, stereotactic)
 - `tag`: to touch, handle; arrange (e.g. tag, contagion, integer)
 - `tail`: to cut in pieces (e.g. tailor, detail)
-- `tain`: to hold, to stretch (e.g. contain, detain, retain, maintain)
+- `tain`: to hold, to stretch (e.g. attain, contain, detain, retain, maintain)
 - `tane`: time (e.g. simultaneously)
 - `tang`: the same as `tag` (e.g. entangle, tangent, tangible, tango, tangy)
 - `tast`: the same as `tag` (e.g. taste, foretaste, aftertaste)
@@ -804,6 +806,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ting`: the same as `tag` (e.g. contingency)
 - `tire`: become weary, exhausted (e.g. overtire)
 - `tom`: divide (e.g. atom, prostatectomy)
+- `ton`: a sound, tone, accent; the same as `tain` (e.g. tone, tonic, tonal,
+  tony, diatonic, baritone, intone, monotone, tongue)
 - `tong`: the same as `tag` (e.g. tongue)
 - `top`: top
 - `torn`: a turn, trick, round, circuit, circumference (e.g. attorney, tornado)
@@ -822,6 +826,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `trait`: the same as `tra` (e.g. portrait, traitor)
 - `traught`: the same as `tra` (e.g. distraught)
 - `treat`: the same as `tra` (e.g. treatment, mistreat, maltreat, entreat)
+- `tun`: the same as `ton` (e.g. tune, attune)
 - `tutor`: to protect; to be strong (e.g. tutorial, tuition)
 - `twi`: two, twice, double, in two ways; to divide, separate (e.g. twilight,
   twist)
@@ -844,6 +849,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   prevent, circumvent, convenient, venture, subvention)
 - `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
+- `vert` to turn, bend (e.g. convert, subvert)
 - `vey`: the same as `vid` (e.g. survey, purvey)
 - `vi`: road (e.g. via, obviate, obvious, previous, trivia)
 - `via`: the same as `vi` (e.g. viaduct)
@@ -940,7 +946,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   diploma, dielectric)
   - From Greek, cognate with `bi-`, meaning "two, twice"
   - From Latin, `dis-`, meaning "apart, asunder"
-- `dia`: across, between; through, throughout (e.g. dialect, dialog)
+- `dia`: across, between; through, throughout (e.g. dialect, dialog, diatonic)
   - before vowels, `di-`, word-forming element meaning "through, in different
     directions, between,"
 - `dis`: not or opposite (e.g. disagree, disfigure, difficult)
@@ -1155,7 +1161,7 @@ Variants:
   - Word-forming delement denoting an action or product of an action
   - Denoting an action or product of an action, via French, Spanish, or Italian,
     ultimately from Latin `-ata`, `fem`.
-- `ado`: the same as `ade` (e.g. tornado)
+- `ado`: the same as `ade` (e.g. tornado, aficionado)
 - `adu`: the same as `ade` (e.g. )
 - `age`: noun, the same as `ic` (e.g. formage, sausage, entourage)
   - Word-forming element in nouns of act, process, function, condition, from
