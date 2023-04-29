@@ -520,6 +520,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `logos`: the same as `log`
 - `low`: low
 - `lun`: moon (e.g. lunar)
+- `main`: the same as `man` (e.g. maintain)
 - `mand`: to order (e.g. demand)
 - `man`: hand (e.g. manufactor, manuscript, mandate, manumit, emancipate, manner,
   manage, manacle, manumission, maintain, manifest, emancipate, manicure)
@@ -786,7 +787,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   tactic, syntactic, stereotactic)
 - `tag`: to touch, handle; arrange (e.g. tag, contagion, integer)
 - `tail`: to cut in pieces (e.g. tailor, detail)
-- `tain`: to hold, to stretch (e.g. attain, contain, detain, retain, maintain)
+- `tain`: to hold, to stretch (e.g. attain, contain, detain, retain, maintain,
+  countenance, entertain, obtain, sustain, abstain)
 - `tane`: time (e.g. simultaneously)
 - `tang`: the same as `tag` (e.g. entangle, tangent, tangible, tango, tangy)
 - `tast`: the same as `tag` (e.g. taste, foretaste, aftertaste)
@@ -794,7 +796,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `technicus`, also from Greek `tekhnikos`
 - `text`: to weave, to fabricate (e.g. )
 - `tect`: the same as `text` (e.g. architect)
-- `ten`: the same as `tain` (e.g. content, maintenance)
+- `ten`: the same as `tain` (e.g. content, maintenance, sustenance, abstention)
 - `terra`: earth (e.g. mediterranean)
 - `termin`: end, limit (e.g. terminal, determine)
 - `thentes`: doer, being (e.g. authentic = `auto` + `thentes`)
@@ -888,7 +890,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `a`: off, of, away from; emphatic (e.g. away, apart, ascribe, atom, abandon,
   apply, apathy, avenue)
   - From Latin
-- `ab`: away, from, from off, down (e.g. abuse, abduct)
+- `ab`: away, from, from off, down (e.g. abuse, abduct, abstain)
 - `acu`: cusp (e.g. acupressure)
 - `ad`: to (e.g. advocate, admit, adduce, adjourn, admix)
 - `aero`: air (e.g. aerostat, aerobatics)
@@ -963,6 +965,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `en`: in, into (e.g. enslave, envalope)
 - `endo`: inside, within, internal (e.g. endogenous, endocrine, endomixis)
   - Word-forming element from Greek `endon` "in, within"
+- `enter`: the same as `inter` (e.g. entertain)
 - `epi`: on, upon, above;in addition to; toward, among; (e.g. epistemic)
   - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
 - `es`: to be (emphatic) (e.g. essence, espresso)
@@ -1002,7 +1005,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `in`: the same as `im-` (e.g. invalid, insufficient, inform, inland, inquire,
   intact)
 - `infra`: below, under (e.g. infrastructure)
-- `inter`: between or involving two or more different things (e.g. internet, interact)
+- `inter`: among, between or involving two or more different things (e.g.
+  internet, interact)
 - `intra`: the same as `intro` (e.g. intraparty)
 - `intro`: inside, into, especially into the inside (e.g. introduce)
 - `immun`: free, exempt (e.g. immunosuppression)
@@ -1037,7 +1041,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `non`: not, none = no one (e.g. nonformal)
 - `nephro`: kidney (e.g. nephrology)
 - `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct,
-  obsess, omit, obliterate, oblate, obscene)
+  obsess, omit, obliterate, oblate, obscene, obtain)
 - `oc`: the same as `ob-` (e.g. occupy, occlude)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
   omniscient)
