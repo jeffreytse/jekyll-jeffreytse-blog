@@ -438,7 +438,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     who became identified with the Greek Tyche
 - `fibr` a thread, string (e.g. fiber, neurofibroma)
 - `fic`: the same as `fact` (e.g. office, officious, efficient, deficit,
-  benefice, difficult, traffic, suffice, proficient, artifice, aficionado,
+  efficacy, benefice, difficult, traffic, suffice, proficient, artifice,
+  aficionado,
   maleficent)
 - `fict`: the same as `fact` (e.g. fiction, fictive)
 - `fig`: the same as `fact` (e.g. figure)
@@ -1160,7 +1161,8 @@ Variants:
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
 - `acle`: noun (e.g. obstacle, spectacle, manacle)
-- `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy, mediacy)
+- `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy, mediacy,
+  efficacy)
 - `ade`: noun (e.g. blockade, barriecade)
   - Word-forming delement denoting an action or product of an action
   - Denoting an action or product of an action, via French, Spanish, or Italian,
