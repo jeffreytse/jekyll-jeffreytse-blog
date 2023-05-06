@@ -789,7 +789,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tag`: to touch, handle; arrange (e.g. tag, contagion, integer)
 - `tail`: to cut in pieces (e.g. tailor, detail)
 - `tain`: to hold, to stretch (e.g. attain, contain, detain, retain, maintain,
-  countenance, entertain, obtain, sustain, abstain)
+  countenance, entertain, obtain, sustain, abstain, pertain)
 - `tane`: time (e.g. simultaneously)
 - `tang`: the same as `tag` (e.g. entangle, tangent, tangible, tango, tangy)
 - `tast`: the same as `tag` (e.g. taste, foretaste, aftertaste)
@@ -797,14 +797,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `technicus`, also from Greek `tekhnikos`
 - `text`: to weave, to fabricate (e.g. )
 - `tect`: the same as `text` (e.g. architect)
-- `ten`: the same as `tain` (e.g. content, maintenance, sustenance, abstention)
+- `ten`: the same as `tain` (e.g. content, maintenance, sustenance, abstention,
+  tenant, tenancy, tenement, detente)
 - `terra`: earth (e.g. mediterranean)
 - `termin`: end, limit (e.g. terminal, determine)
 - `thentes`: doer, being (e.g. authentic = `auto` + `thentes`)
 - `thermo`: to heat, warm (e.g. thermostat, thermoelectric)
 - `thes`: the same as `loc`
 - `tig`: the same as `tag` (e.g. )
-- `tin`: the same as `tain` (e.g. continue)
+- `tin`: the same as `tain` (e.g. continue, continent, pertiner, tenet, tenure)
 - `tine`: sharp point, spike (e.g. quarantine)
 - `ting`: the same as `tag` (e.g. contingency)
 - `tire`: become weary, exhausted (e.g. overtire)
@@ -942,7 +943,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `de`: opposite, remove, reduce, from, entirely, completely, off, without
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
-  descend, despite, deactive, defeat)
+  descend, despite, deactive, defeat, detain)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence,
