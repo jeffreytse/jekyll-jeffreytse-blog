@@ -95,7 +95,9 @@ performance requirements, scalability needs, and security concerns.
             - Amazon DynamoDB
         - Document DB
           - Products
+            - MongoDB
             - Amazon DocumentDB
+            - Apache Cassandra (Started by Facebook in 2008)
         - Graph DB
           - Graph databases are a good idea when you have many many-to-many
             relationships.
@@ -125,15 +127,26 @@ performance requirements, scalability needs, and security concerns.
           one of the reasons for moving away from SQL)
   - Storage
     - Block storage
+      - A hight-performance block storage for both throughput and transaction-
+        intensive workloads at scale
+      - Products
+        - Amazon Elastic Block Store (EBS)
     - File storage
+      - A file system for you to share file data without managing storage
+      - Products
+        - Amazon Elastic File System (EFS)
     - Object storage
+      - A storage for you to store and retrieve any amount of data from anywhere
+      - Products
+        - Amazon Simple Storage Service (S3)
     - Redundant Disk Arrays (RAID)
   - File systems
     - Google File System (GFS)
     - Hadoop Distributed File System (HDFS)
   - Message queues (Pub/Sub)
     - RabbitMQ
-    - Kafka
+    - Kafka (a messaging system for LinkedIn but has since grown to become a
+      popular distributed event streaming platform)
   - ...
 
 Related Tools:
