@@ -357,6 +357,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ceit`: the same as `cept` (e.g. conceit, deceit)
 - `ceiv`: the same as `cept` (e.g. perceive, receive, deceive, conceive, transceiver)
 - `cel`: rise high, tower (e.g. excel, excellent)
+- `cent`: hundred (e.g. centimeter, century, percent, centipede, bicentennial)
 - `cept`: to take; to grasp; to hold (e.g. accept, except, concept, recept,
   incept, percept, intercept, deception, precept, contracept, sceptic)
 - `cip`: the same as `cept` (e.g. emancipate, recipe, incipient, participant)
@@ -625,6 +626,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   impartial, counterpart, apart, particle, impart, partake, parturient)
 - `patr`: chief or head of a family, father, man (e.g. patriarch, patriot)
 - `pear`: to come forth, be visible; submit, obey (e.g. appear)
+- `ped`: foot (e.g. centipede)
 - `pel`: to thrust, strike, drive (e.g. compel)
 - `per`: to try, risk
 - `peri`: the same as `per` (e.g. experience, peril)
@@ -695,6 +697,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `scribe`: to write or something written (e.g. subscribe)
 - `scribble`: careless writing, drawing
 - `script`: the same as `scribe` (e.g. prescription)
+- `se`: to sow (e.g. seed, seminar)
 - `sect`: to cut (e.g. sector)
 - `sem`: one; as one, together with; same (e.g. seminar)
   - Proto-Indo-European root
