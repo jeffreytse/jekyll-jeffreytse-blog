@@ -22,6 +22,14 @@ personal computer.
 - On-Premise
 - Cloud-Providers
 
+Different cloud system architectures include:
+
+- Multi-cloud
+- Hybrid cloud
+- Single cloud
+- Public cloud
+- Private cloud
+
 ## Cloud Computing Technologies
 
 - Compute
