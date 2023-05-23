@@ -32,6 +32,25 @@ Do remember: Everything is a trade-off.
 
 > The right architecture = Coming up potential solutions + Managing trade-offs
 
+About trade-off:
+
+- All architectures start from requirements. When one person maintains several
+  microservices, you will go crazy.
+- Under the premise of meeting the requirements, the simpler the implementation,
+the better.
+- Execution performance and development efficiency are a pair of contradictions
+  in software development.
+  - Performance issues are troubles after success, while development efficiency
+    is a problem that is faced on the first day of the project.
+  - Most projects die before they encounter performance problems.
+  - The moment the product faces the user, you may only begin to know exactly
+    what the user needs, so let’s launch it as soon as possible.
+  - The cost of people is always the highest, leave the thinking time to
+    yourself, and leave the hard work to the machine.
+  - The main problems faced at different stages are different. It is the right
+    choice to seek a quick solution to the problem. No application architecture
+    is ever the same.
+
 Approaching a Design Problem:
 
 - Breaking down the problem
