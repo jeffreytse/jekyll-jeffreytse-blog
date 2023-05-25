@@ -50,6 +50,14 @@ the better.
   - The main problems faced at different stages are different. It is the right
     choice to seek a quick solution to the problem. No application architecture
     is ever the same.
+  - Don't optimize prematurely. In actual projects, you can find the most
+    time-consuming places to optimize.
+- Consistency, sometimes not so important, can be sacrificed in exchange for
+  performance.
+  - If it is a stateless service, such as a general API service, you don’t need
+    to consider CAP. The consistency is generally guaranteed by the later
+    storage. For very critical places, you can deal with it according to the
+    specific situation.
 
 Approaching a Design Problem:
 
