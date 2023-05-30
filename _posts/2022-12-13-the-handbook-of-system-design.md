@@ -21,6 +21,8 @@ of how you solve a particular design problem, how you respond when
 there is more than expected traffic on your system, how you design the
 database of your system and many more.
 
+## Basic
+
 All design decisions are based on below 4 factors:
 
 - Scalability
@@ -65,9 +67,11 @@ Approaching a Design Problem:
 - Communicating your ideas
 - Assumptions that make sense
 
+## Approaching
+
 Approaching a System Design (Mainly according to the Software Engineering):
 
-**1. Requirements Analysis/Clarifications**
+### Requirements Analysis/Clarifications
 
 Outline the scope of the system, and come out SRS (Software Requirements
 Specification). This includes gathering information about the problem space,
@@ -190,7 +194,7 @@ Related Constraints/Bottleneck:
 - The average R/W speed of HDD is 60-80MB/s.
 - ...
 
-**2. High-Level Design (HLD, known as General Design) **
+### High-Level Design (HLD, known as General Design)
 
 Outline a high level architecture design, such as identifying the major system
 components, choosing appropriate technology route.
@@ -219,7 +223,7 @@ components, choosing appropriate technology route.
   - Relationship of components
     - Horizontal Relationship
     - Vertical Relationship
-- Scale the design
+- Scale the design (Scale problems)
   - Scalability refers to an application’s ability to handle and withstand an
     increased workload without sacrificing latency
   - Identify bottlenecks
@@ -269,7 +273,7 @@ components, choosing appropriate technology route.
       - What type of sharding key are we going to be using?
 - Justify your ideas
 
-**3. Detail design (LLD, Low Level Design)**
+### Detail design (LLD, Low Level Design)
 
 Dive into details for each component, such as interface, algorithm, process,
 state transition, etc.
@@ -288,9 +292,163 @@ With the detailed design done, do remember to keep your design simple, things
 will not always go your way, so you may have to come back and make some changes
 on the go, as in the real-world, everything is evolving and changing.
 
-**4. Implementation**
+### Implementation
 
-**5. Testing (Validate the design)**
+#### SOLID Design Principles
+
+The SOLID principles were introduced by Robert C. Martin in his 2000 paper "
+Design Principles and Design Patterns". These design principles encourage us to
+create more maintainable, understandable, and flexible software.
+
+SOLID is an acronym that stands for five key design principles:
+
+- Single Responsibility Principle (SRP)
+  - Testing – A class with one responsibility will have far fewer test cases.
+  - Lower coupling – Less functionality in a single class will have fewer
+    dependencies.
+  - Organization – Smaller, well-organized classes are easier to search than
+    monolithic ones.
+- Open-closed Principle
+  - By extending the class, we can be sure that our existing application won't
+    be affected.
+- Liskov Substitution Principle
+  - It states that a subclass should be replaceable by its base class.
+  - Because inheritance assumes that subclasses inherit everything from their
+    parent class, subclasses can extend behavior but not narrow it down.
+    Therefore, when a class violates this principle, it can lead to some nasty
+    bugs that are hard to find.
+  - For example, a square inherits a rectangle, and the function to calculate
+    the area will indirectly violate this principle. Because it violates the
+    characteristics of the square, you can change the width and height to be
+    unequal.
+- Interface Segregation Principle
+  - It means interfaces remain separate, A specific interface is better than a
+    general-purpose interface. The class shouldn't be forced to implement
+    functions they don't need.
+- Dependency Inversion Principle
+  - Our class should depend on interfaces and abstract classes instead of
+    concrete classes and functions.
+  - We rely on interfaces rather than concrete classes.
+
+All five are commonly used by software engineers and provide some important
+benefits for developers, which also are used to Object-Oriented class design.
+
+#### Performance Optimization
+
+- Utilize resource pools to reduce the cost of creating and recycling reusable
+  objects.
+  - Common cases:
+    - Thread pool
+    - Connection pool
+- Sequential read and write, reduce random IO, reduce cache miss.
+  - The performance of memory sequential read and write is much better than
+    random read and write.
+  - Disk sequential read and write performance is much better than random read
+    and write.
+  - Ordered list, a dictionary structure based on ordered arrays.
+  - In Java, everything is an object, so in an array, seemingly continuous
+    objects are actually discrete in physical memory, so the traversal effect
+    will be much worse.
+  - For languages such as C, C++ and so on, they all support `struct`. When the
+    object is defined as a `struct`, the memory occupied by an array of this
+    type is continuous, and the traversal effect will be much better than that
+    of Java.
+  - Why kafka is faster, because it reads and writes disks sequentially.
+- Any large-scale data problem can be settled by splitting
+  - Such as batching, framing, paging, time-sharing, slicing, partitioning,
+    database sharding.
+  - Routing schemes can be simply divided into two categories
+    - Non-deterministic routing
+      - The same key can be mapped to different computing units for multiple
+        routes
+      - It's mostly used for distributed systems between stateless nodes
+      - Common solutions
+        - Round Robin
+        - Random
+    - Deterministic routing
+      - The same key must be mapped to the same computing unit no matter how
+        many times it passes through the route
+      - It's mostly used for distributed systems between stateful nodes
+      - Common solutions
+        - Range
+        - Hash
+        - Configuration table (e.g. MySQL's List in partitioning types)
+  - Batching
+    - There will be differences in capacity and performance in the IO of
+      different components in the system.
+    - Read optimization relies on caching, writing optimization relies on
+      buffering, and batching ≈ caching + buffering. A cache is a piece of
+      memory for reading, and a buffer is a piece of memory for writing.
+    - The disadvantage of batching is that the data consistency is poor, whether
+      it is caching or buffering, the same problem exists.
+    - Batching is one of the most important IO optimization methods whenever IO
+      performance bottlenecks are encountered, as it has simple logic, does not
+      involve multi-thread concurrency, has no special requirements for data
+      structures, and has low system transformation costs.
+  - Framing
+    - Operations that will take a long time also need to be distributed to
+      multiple frames for execution, thereby reducing the waiting time for
+      blocking.
+    - The single-threaded nature of UI rendering
+    - The single-threaded nature of Redis
+  - Paging
+    - It can be regarded as an alternative framing operation, which can avoid
+      the DB loading pressure and network transmission pressure caused by
+      one-time data acquisition.
+  - Time-sharing
+    - It refers to the technology that multiple objects use the same hardware
+      in turn, and it is more common in the underlying software that deals with
+      hardware.
+    - time-sharing operating system
+    - time-sharing network
+    - I/O multiplexing
+  - Slicing
+  - Partitioning
+    - When only some tables in the database have a large amount of data, use the
+      table partitioning in the same database.
+  - Database sharding
+    - The entire database has a large amount of data and high access pressure,
+      use the database sharding
+- Separation
+  - It's the SRP (Single responsibility principle) of SOLID principle.
+  - It can reduce development and maintenance costs while increasing reusability\
+    of functional units.
+  - Common designs
+    - Read-write separation (Separate by functions)
+      - In a broad sense, the focus of read-write separation is: the read does
+        not care about writing, and the write path does not care about reading.
+        Both focus on their own function realization without making any
+        sacrifices or concessions for the other.
+    - Storage-computing separation (Separate by resources)
+      - Cloud Native Database Architecture. In essence, it's Microservice
+        Architecture
+      - Computing nodes are stateless, storage nodes are non-computing;
+        computing nodes scale out, storage nodes scale up.
+      - Although the functions were separated, but as the words in The Duck
+        Test: If it looks like a duck, swims like a duck, and quacks like a
+        duck, then it probably is a duck.
+- Reducing
+  - Do not optimize prematurely, because in the initial stage of most
+    businesses, the amount of data is very small, and performance problems are
+    unlikely to occur in any design.
+  - Faster realization of business has higher priority than business running
+    faster.
+  - Reduce the amount of data per processing unit, algorithmically reduced and
+    physically reduced.
+  - Common solutions
+    - Optimizing data structures and algorithms
+    - Clipping data
+      - Java GC
+      - DB Archive
+- Concurrency
+  - The utilization rate of a single machine can be improved through
+    concurrency, and the upper limit of the overall processing capacity can be
+    expanded through multi-machine concurrency.
+  - The introduction of concurrency will greatly increase the complexity of the
+    code and increase the difficulty of maintaining data consistency. It's often
+    only used as the ultimate optimization method.
+
+### Testing (Validate the design)
 
 Software testing is the process of executing a program in order to find bugs, so
 that we can verify whether the software meets various requirements. When writing
