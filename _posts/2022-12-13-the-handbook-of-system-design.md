@@ -39,7 +39,7 @@ About trade-off:
 - All architectures start from requirements. When one person maintains several
   microservices, you will go crazy.
 - Under the premise of meeting the requirements, the simpler the implementation,
-the better.
+  the better.
 - Execution performance and development efficiency are a pair of contradictions
   in software development.
   - Performance issues are troubles after success, while development efficiency
@@ -69,7 +69,16 @@ Approaching a Design Problem:
 
 ## Approaching
 
-Approaching a System Design (Mainly according to the Software Engineering):
+Approaching a System Design (Mainly according to the Software Engineering),
+there are 4 steps of the framework:
+
+- Understand the problem and establish design scope (10%)
+- Propose high-level deign and get buy-in (30%)
+- Design deep dive (25%)
+- Wrap up (10%)
+  - Summarize the design, here we should focus on the parts that are unique to
+    the particular situation, and keep this short and sweet.
+  - Ask some questions about the company.
 
 ### Requirements Analysis/Clarifications
 
@@ -88,26 +97,41 @@ performance requirements, scalability needs, and security concerns.
     - Who is going to use it?
     - How are they going to use it?
     - What does the system do?
+    - What's the format of the input data?
     - ...
 - Non-functional Requirements (Constraints, restrict the system design through
   different qualities)
+  - The more senior the role is, the more important it is for us to demonstrate
+    our ability to handle non-functional requirements.
   - Include performance, security, reliability, scalability, maintainability,
-    availability, etc.
+    availability, consistency, freshness, accuracy, etc.
+    - Focusing on scale and performance
   - Mainly identify **traffic and data handling** constraints at scale.
   - Scale of the system such as requests per second, requests types, data
     written per second, data read per second)
   - Special system requirements such as multi-threading, read or write oriented.
   - Examples
     - High availability
+      - 99.999%
     - Consistency
+      - Strong consistency
+      - Weak consistency
+      - Eventual consistency
     - A latency of around 300ms for timeline generation
-    - Scale: serves 10 million users
+    - Scale
+      - Serves 10 million users
+      - 150 million of DAU (Daily Active Users)
     - ...
-  - Assumptions (Estimation of important parts)
+  - Assumptions (Estimation of important parts, do some rough
+    back-of-the-envelope calculation here)
     - Storage
       - How many files would be upload daily?
+      - Examples
+        - Videos 5MB per video \* 2 = 10MB/day/user
+        - Users meta data 1K/user/day
     - Bandwidth
       - Ingress
+        - QPS(Queries per second) = 150 millions \* 0.2
       - Egress
     - ...
 - Data Flows (Data models and data flows between them)
@@ -269,8 +293,13 @@ components, choosing appropriate technology route.
       - Means adding more power (CPU, RAM) to your existing machine, it
         increases the power of the hardware running the application.
     - Database optimization
-    - Database sharding (Scale Database)
-      - What type of sharding key are we going to be using?
+    - Database scaling
+      - Database sharding (Scale Database)
+        - What type of sharding key are we going to be using?
+    - High Concurrency
+    - Failure Scenarios
+    - Request Rate Limiter
+    - Circuit Breaker
 - Justify your ideas
 
 ### Detail design (LLD, Low Level Design)
@@ -291,6 +320,61 @@ Related Tools:
 With the detailed design done, do remember to keep your design simple, things
 will not always go your way, so you may have to come back and make some changes
 on the go, as in the real-world, everything is evolving and changing.
+
+#### API Design
+
+1. What APIs would we need? It should be clear after gathering the requirements.
+
+Return all bookshops on a user's location.
+
+|          API          | Remark |
+| :-------------------: | :----: |
+| GET /v1/search/nearby |        |
+
+Bookshop owner can add, delete or update a bookshop.
+
+| API                      | Remark                                       |
+| :----------------------- | :------------------------------------------- |
+| GET /v1/bookshops/:id    | Return detailed information about a bookshop |
+| POST /v1/bookshops       | Add a bookshop                               |
+| PUT /v1/bookshops/:id    | Update details of a bookshop                 |
+| DELETE /v1/bookshops/:id | Delete a bookshop                            |
+
+2. Define the input parameters and output responses carefully.
+
+Input parameters:
+
+| Field       | Description               | Type   |
+| :---------- | :------------------------ | :----- |
+| Name        | ABC                       | String |
+| Author      | Foo                       | String |
+| Description | An interesting story book | String |
+| Price       | The book price            | Float  |
+
+Output Response:
+
+```json
+{
+    "total": 100,
+    "books": [
+       {
+           "name": "ABC",
+           "author": "Foo",
+           "price": 100.0
+       },
+       {
+           "name": "DFG",
+           "author": "Bar",
+           "price": 50.0
+       },
+       ...
+    ]
+}
+```
+
+#### Database Schema Design
+
+To hash out the data model and schema
 
 ### Implementation
 
