@@ -44,9 +44,46 @@ Others:
 
 ## Communication between Different Architecture
 
+Network protocols, also known as API architecture styles:
+
 - SOAP = HTTP + XML
-- RESTful = HTTP + JSON
+- RESTful = Resource = HTTP + JSON
+- GraphQL
+  - It's more difficult to cache as a single point of entry and using HTTP POST
+    by default, this prevent the full use of HTTP caching. But it could be
+    configured to better leverage HTTP caching
 - RPC = SOCKET + CUSTOM
+- Websocket
+  - Primarily used for two-way communication between a client and server
+  - Make the server stateful as it now contains the active connection, and
+    therefore more difficult to scale
+  - Examples
+    - A web document editing service that allows multiple people to edit and
+      update a document in real-time via their browsers
+- Webhook (Async callback)
+  - Primarily used for one-way communication
+  - It's event-driven compared with HTTP/RESTful (poll, time-driven)
+  - Inherently stateless as they don’t need to keep an open connection, so
+    scaling them is far easier
+  - Examples
+    - A service that regularly publish updates to many different consumers
+    - GitHub
+      - New Branch
+      - Code Push
+      - Pull Request
+    - Slack
+      - New Message
+      - @ Mention
+      - App Notification
+    - Stripe
+      - New Payment
+      - Payment Dispute
+      - New Subscription
+- FTP = SOCKET
+
+![Architectural API Patterns](https://github.com/jeffreytse/jekyll-jeffreytse-blog/assets/9413601/a1e47bda-3df2-4356-9c20-a03eea8afcd3)
+
+![API Patterns History](https://github.com/jeffreytse/jekyll-jeffreytse-blog/assets/9413601/80188e2f-2660-47db-9997-b6ce1a4d5585)
 
 Classic examples:
 
@@ -54,9 +91,24 @@ Classic examples:
 - Dubbo is a RPC framework
 - SpringCloud is a RESTful eco-system
 
+Moving from monolithic applications to microservices faces several problems:
+
+- Management of microservices.
+- Microservice direct access.
+- Load balancing of the microservice itself.
+- Microservices are broken and downgraded.
+- Distributed transaction tracing for microservices.
+- Microservice log collection and analysis.
+
 ## Distributed System
 
 ### Basic Theories
+
+The transformation of computer systems from centralized to distributed, along
+with a series of problems and challenges including distributed networks,
+distributed transactions, and distributed data consistency, has also led to the
+rapid development of a large number of classic theories, such as ACID, CAP and
+BASE, etc.
 
 #### CAP Theorem
 
@@ -65,17 +117,129 @@ after computer scientist Eric Brewer, states that any distributed data store
 can provide only two of the following three guarantees:
 
 - Consistency
-  - Every read receives the most recent write or an error.
+  - This refers to strong consistency. All the servers in the system will have
+    the same data so users will get the same copy regardless of which server
+    answers their request.
 - Availability
-  - Every request receives a (non-error) response, without the guarantee that
-  it contains the most recent write.
+  - The system will always respond to a request (even if it's not the latest
+    data or consistent across the system or just a message saying the system
+    isn't working).
 - Partition Tolerance
-  - The system continues to operate despite an arbitrary number of messages
-  being dropped (or delayed) by the network between nodes.
+  - The system continues to operate as a whole even if individual servers fail
+    or can't be reached.
+  - If the system cannot achieve data consistency within the time limit, it
+    means that a partition has occurred, and a choice must be made between C and
+    A for the current operation.
 
 ![CAP Theorem](https://user-images.githubusercontent.com/9413601/233882737-6f5cfce3-d5dd-4c6c-8657-af872a5daee9.png)
 
+The CAP theorem provides a tool to make design choices while building a
+distributed system.
+
+Cassandra is an AP system, Mongo DB is CP. MySQL is a CA system, but it’s not
+distributed.
+
+![Some Examples](https://github.com/jeffreytse/jekyll-jeffreytse-blog/assets/9413601/6124bfa7-4ecc-4d38-8014-f403c465f3f2)
+
+#### ACID Theorem
+
+ACID compliance guarantees the validity of data in events of errors, hardware,
+or power failures.
+
+- Atomicity
+  - All the changes which are part of a single transaction are performed or
+    everything is rolled back and none of these changes take effect.
+- Consistency
+  - It refers to guarantee that all data that is written to the database will
+    confirm to defined schema and constraints at the time of saving the data.
+- Isolation
+  - It refers to the ability of a database to isolate data among transactions
+    providing an independent view of the data.
+  - Thus if multiple transactions are executed concurrently, these should not
+    interfere or see intermediate or incorrect data and the result should be the
+    same as if they were run sequentially.
+  - Isolation levels are configurable in most DBMS, providing control to
+    Database Administrators to decide the level of isolation.
+  - Most DBMS provides the following levels of Isolation:
+    - Serializable
+    - Repeatable reads
+    - Read committed
+    - Read uncommitted
+- Durability
+  - It refers to the permanent nature of the data that was stored as a part of
+    the transaction once it is successful.
+  - Once the transaction is complete the subsequent reads should fetch the last
+    written data.
+
+#### BASE Theorem
+
+BASE is the result of the trade-off between consistency and availability in CAP.
+It comes from the conclusion of the distributed practice of large-scale Internet
+systems. It is gradually evolved based on the CAP theorem. Its core idea is that
+even if strong consistency cannot be achieved (Strong Consistency), but each
+application can use an appropriate method according to its own business
+characteristics to make the system achieve eventual consistency.
+
+- Basically Available
+  - It means the system is mostly available and every working node responds to
+    requests in a reasonable amount of time.
+- Soft State
+  - It refers that the state of a system might vary over time, even without any
+    new input.
+- Eventually Consistent
+  - It refers to the ability of all nodes of a system to become consistent,
+    given enough time.
+  - The data across different nodes will reflect the same value.
+
+BASE model isn’t suitable for all types of systems: For example, systems that
+require strict consistency, such as financial systems, or real-time data
+processing applications, may be unable to tolerate eventual consistency.
+
+The variants of eventual consistency model:
+
+- Causal consistency
+  - If process A has communicated to process B that it has updated a data item,
+    a subsequent access by process B will return the updated value, and a write
+    is guaranteed to supersede the earlier write. Access by process C that has
+    no causal relationship to process A is subject to the normal eventual
+    consistency rules.
+- Read-your-writes consistency
+  - This is an important model where process A, after it has updated a data
+    item, always accesses the updated value and will never see an older value.
+    This is a special case of the causal consistency model.
+- Session consistency
+  - This is a practical version of the previous model, where a process accesses
+    the storage system in the context of a session. As long as the session
+    exists, the system guarantees read-your-writes consistency. If the session
+    terminates because of a certain failure scenario, a new session needs to be
+    created and the guarantees do not overlap the sessions.
+- Monotonic read consistency
+  - If a process has seen a particular value for the object, any subsequent
+    accesses will never return any previous values.
+- Monotonic write consistency
+  - In this case the system guarantees to serialize the writes by the same
+    process. Systems that do not guarantee this level of consistency are
+    notoriously hard to program.
+
+In actual practice, these variants are often used in combination to build a
+distributed system with eventual consistency.
+
+ACID is a commonly used design concept in traditional databases, pursuing a
+strong consistency model. BASE supports large-scale distributed systems, and
+proposes to obtain high availability by sacrificing strong consistency. ACID and
+BASE represent two diametrically opposed design philosophies. In the scenario of
+distributed system design, system components have different requirements for
+consistency, so ACID and BASE will be used in combination.
+
 #### Consensus Algorithm
+
+Strong consistency aims to provide a higher level of consistency. Unlike
+eventual consistency, strong consistency ensures that all nodes see the same
+data without any temporary inconsistencies.
+
+Strong consistency guarantees that every read operation returns the latest write
+operation’s result, regardless of the node on which the read operation is
+executed. This is typically achieved using consensus algorithms.
 
 **Paxos Algorithm**
 
@@ -131,3 +295,31 @@ additional features.
   - Examples:
     - Nginx
     - AWS ELB
+
+### Typical Applications
+
+Distributed system is a very broad concept. It must be implemented to solve
+practical problems. Different problems have different methods and architectures.
+
+- A type of application based on leader election (e.g. paxos, viewstamp)
+  - Zookeeper
+  - Chuby
+- A type of applications for distributed transactions
+  - Distributed database manager
+- A type of applications based on weak consistency
+  - Cassandra's W, R, N adjustable consistency
+- A type of application based on leasing mechanism
+  - It is mainly the concept of some distributed locks
+- A type of applications based on failure detection
+  - Gossip failure detection algorithms
+  - Phi failure detection algorithms
+  - Simple heartbeat
+- A type of applications based on weak consistency, causal consistency, and
+  sequential consistency
+- A type of applications based on asynchronous decoupling
+  - Various types of queues
+
+## References
+
+- [Principles of Transaction-Oriented Database Recovery](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.2812&rep=rep1&type=pdf)
+- [Eventual Consistency vs. Strong Eventual Consistency vs. Strong Consistency](https://www.baeldung.com/cs/eventual-consistency-vs-strong-eventual-consistency-vs-strong-consistency)
