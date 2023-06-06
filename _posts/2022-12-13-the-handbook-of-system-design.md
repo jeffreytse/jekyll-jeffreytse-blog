@@ -69,16 +69,43 @@ Approaching a Design Problem:
 
 ## Approaching
 
-Approaching a System Design (Mainly according to the Software Engineering),
-there are 4 steps of the framework:
+To approach a system design, you need to ensure in a systematic way (mainly
+according to the Software Engineering).
 
-- Understand the problem and establish design scope (10%)
-- Propose high-level deign and get buy-in (30%)
+For interview, The purpose of this section is to assess a candidate’s experience
+in designing large scale distributed systems. In general, there are 4 steps to
+solve a system design problem:
+
+- Understand the problem and clarify exact design scope (10%)
+  - Clarify requirements (functional & non-functional)
+  - Functional requirements could go in different directions depending on the
+    goals of the interviewer.
+  - Non-functional requirements should always be assumed a large scale
+    distributed system which handles hundreds of thousands of concurrent
+    requests, request latency is low and the system requires big storages.
+- Sketch the high-level design and get buy-in (30%)
 - Design deep dive (25%)
+  - Articulate the problem
+    - Discuss database & storage layer
+    - Discuss core components
+    - Add in high availability considerations
+  - Come up with at least two solutions
+  - Discuss the trade-offs of the solutions
+  - Pick up a solution and discuss it
+  - Repeat the process with another dive topic
 - Wrap up (10%)
   - Summarize the design, here we should focus on the parts that are unique to
     the particular situation, and keep this short and sweet.
   - Ask some questions about the company.
+
+Moreover, do remember the below tips:
+
+- You're expected to take the ownership and lead the discussion. Hence, you
+  should be active to deliver the information and clarify with the interviewer
+  which directions they want you to go further.
+- As system design interview questions are open-ended and unstructured, you
+  should organize your solution with a clear plan and justify the choices for
+  the sake of better chances of success.
 
 ### Requirements Analysis/Clarifications
 
@@ -98,6 +125,8 @@ performance requirements, scalability needs, and security concerns.
     - How are they going to use it?
     - What does the system do?
     - What's the format of the input data?
+    - Should users be able to register an account, delete an account and
+      recover the password?
     - ...
 - Non-functional Requirements (Constraints, restrict the system design through
   different qualities)
@@ -112,15 +141,22 @@ performance requirements, scalability needs, and security concerns.
   - Special system requirements such as multi-threading, read or write oriented.
   - Examples
     - High availability
-      - 99.999%
+      - Service has high availability 99.999%
+      - It should be highly available no matter what operation you perform
+        (expanding storage, backup, when new nodes are added, etc)
     - Consistency
       - Strong consistency
       - Weak consistency
       - Eventual consistency
-    - A latency of around 300ms for timeline generation
+    - Low latency
+      - A latency of around 300ms for timeline generation
+      - Under 150 milliseconds for viewing pages
+      - Under 400 milliseconds for conducting searches
     - Scale
       - Serves 10 million users
       - 150 million of DAU (Daily Active Users)
+    - Security
+      - Prevent from DDos attacks (WAF, Web Application Firewall)
     - ...
   - Assumptions (Estimation of important parts, do some rough
     back-of-the-envelope calculation here)
@@ -130,16 +166,75 @@ performance requirements, scalability needs, and security concerns.
         - Videos 5MB per video \* 2 = 10MB/day/user
         - Users meta data 1K/user/day
     - Bandwidth
-      - Ingress
-        - QPS(Queries per second) = 150 millions \* 0.2
-      - Egress
+      - Ingress (write bandwidth)
+        - 50TB per day ~= 500MB/s
+      - Egress (read bandwidth)
+        - ~= 100x write access ~= 50GB/s
+    - Traffic
+      - W/R QPS(Queries per second) = 150 millions \* 0.2
+    - RAM
+      - At 1M concurrent users, assuming each user connection needs 10K of
+        memory on the server, about 10GB of memory to hold all the connections
     - ...
 - Data Flows (Data models and data flows between them)
   - Database (Choose database system is also part of this)
+    - Database Indexes
+      - A database index is used for the purpose of speeding up reads
+        conditioned on the value of a specific key.
+      - Be careful to not overuse indexes, as they slow down database writes.
+      - Two main types
+        - LSM Trees + SSTables
+          - Writes first go to a balanced binary search tree in memory
+          - Tree flushed to a sorted table on disk when it gets to0 big
+          - Can binary search SSTables for the value of a key
+          - If there are too many SSTables they can be merged together (old
+            values of keys will be discarded)
+          - Pros
+            - Fast writes to memory
+          - Cons
+            - May have to search many SSTables for value of key
+        - B-Trees
+          - A binary tree using pointers on disk
+          - Writes iterate through the binary tree and either overwrite the
+            existing key value or create a new page on disk and modify the
+            parent pointer to the new page
+          - Pros
+            - Faster reads, know exactly where key is located
+          - Cons
+            - Slow writes to disk instead of memory
+    - How to choose the right database?
+      - Consideration from aspects
+        - Performance
+          - CPU
+          - Memory
+          - I/O
+          - Network
+          - Query tuning
+        - Limitations
+          - The page size limit
+          - SQL Join is not supported
+          - Doesn't provide read-after-write consistency
+        - Others
+          - Benchmark, pay attention to the outliers, the average is not
+            meaningful.
+          - Find the hidden cost of effortless horizontal scalability
+      - Bad choice
+        - Extend downtime
+        - Customer impact
+        - Data lost
     - Relational DB (SQL DB)
       - You’re building the first version of your system and aren’t
         completely sure about the data access patterns
       - You want to maintain zero data redundancy
+      - When correctness and consistency is of more importance than speed
+      - Key features
+        - Relational/Normalized data - changes to one table may require others
+          - E.g. adding an author and their books to different tables on
+            different nodes, may need two phases commit (Expensive)
+        - Have transactional (ACID guarantees)
+          - Excessively slow if you don't need them (due to two phase locking)
+        - Typically use B-trees
+          - Better for reads than writes in theory
       - Products
         - Amazon RDS
     - Non-relational DB (NoSQL DB)
@@ -151,17 +246,52 @@ performance requirements, scalability needs, and security concerns.
         - Document DB
           - Products
             - MongoDB
+              - Key features
+                - Documented data model (NoSQL)
+                  - Data is written in large nested documents, better data
+                    locality (if you choose to organize your data in a way that
+                    take advantage of this), but denormalized
+                - B-trees and transactions supported
+              - Rarely makes sense to use in a system design interview since
+                nothing is "special" about it, but good if you want SQL like
+                guarantees on data with more flexibility via the document model
             - Amazon DocumentDB
             - Apache Cassandra (Started by Facebook in 2008)
+              - Key features
+                - Wide-column data store (NoSQL), has a shard key and a sort
+                  key
+                  - Allow flexible schemas ease of partitioning
+                - MultiLeader/Leaderless replication (configurable)
+                  - Super fast writes, albeit uses last write wins for conflict
+                    resolution
+                  - May clobber existing writes if they were not the winner of
+                    LWW
+                - Index based off of LSM trees and SSTables
+                  - Fast writes
+                  - Uses LSTM rather than B+ Tree used by SQL
+              - Benefits of a wide-column NoSQL database include speed of
+                querying, scalability, and a flexible data model.
+              - Great for application with high write volume, consistency is not
+                as important, all writes and reads go to the same shard (no
+                transactions)
         - Graph DB
           - Graph databases are a good idea when you have many many-to-many
             relationships.
           - Products
             - Amazon Neptune
+            - Neo4j
         - In-memory DB
           - Products
             - Redis
+              - Key features
+                - Key-value stores implemented in memory (Redis a bit more
+                  feature rich)
+                  - Uses hashmap under the hood
+                - Good for caches, certain essential app feature
+              - Useful for data that needs to be written and retrieved
+                extremely, memory is expensive so good for small datasets
             - Amazon MemoryDB
+            - Memcached
         - Time-series DB
         - Search DB
     - Trade-off
@@ -170,6 +300,7 @@ performance requirements, scalability needs, and security concerns.
         - Do we need normalization and joins to reduce data redundancy?
         - ...
       - For choosing SQL
+        - Much less space compared with NoSQL
       - For choosing NoSQL
         - Consistency is not as important as availability : Netflix is not a
           banking application so this is a huge factor. ACID is also not as
@@ -180,6 +311,16 @@ performance requirements, scalability needs, and security concerns.
         - If models DO require that rare change -> SQL involves some sort of
           downtime. NoSQL has a distinct advantage here. (This was cited as
           one of the reasons for moving away from SQL)
+        - Much higher scale, as they often claim to support near linearly
+          horizontal scalability
+        - Eliminate or limit transactional guarantees (ACID)
+        - Severely limit data modeling flexibility. There are no data queries
+          across data entities, the data is highly denormalized where the same
+          piece of data is stored in many collections to support different data
+          access patterns.
+        - The disadvantage of this option is the difficulty in handling complex
+          relationship queries, storing redundant data and more expensive than
+          relational databases.
   - Storage
     - Block storage
       - A hight-performance block storage for both throughput and transaction-
@@ -240,6 +381,7 @@ components, choosing appropriate technology route.
       - Checksum
       - Merkle trees
       - Leader election
+    - Data Access Patterns
   - Components
     - High cohesion and low coupling for the independence of components
     - Divide by functions
@@ -250,9 +392,11 @@ components, choosing appropriate technology route.
 - Scale the design (Scale problems)
   - Scalability refers to an application’s ability to handle and withstand an
     increased workload without sacrificing latency
-  - Identify bottlenecks
+  - Identify bottlenecks (Articulate problems)
     - Types
       - Traffic
+        - Based on Read/Write Ratio, as known as IOPS (Input/output operations
+          per second)
       - Data
       - Storage
       - Availability
@@ -266,12 +410,24 @@ components, choosing appropriate technology route.
       - Do you have enough data replicas to serve the user in case you lose a
         few servers?
       - Do we have enough copies of our services to prevent shutdown?
-  - Resolve bottlenecks
+  - Resolve bottlenecks (Come up with solutions)
     - Caching
+      - Benefits
+        - Improve application performance
+        - Reduce database cost
+        - Reduce the load on the backend
+        - Predictable performance
+        - Eliminate database hotspots
+        - Increase read throughput and lower the data retrieval latency (IOPS,
+          Input/Output operations per second)
       - Types
         - Application Caching
+          - CDN
+          - DNS
         - Database Caching
         - In-memory Caches
+          - Redis
+          - Memcached
       - Cache invalidation
         - Write-through cache
         - Write-around cache
@@ -283,24 +439,53 @@ components, choosing appropriate technology route.
         - Most recently used (MRU)
         - Least frequently used (LFU)
         - Random replacement (RR)
-    - Content Delivery Network (CDN)
-      - CloudFlare
-      - Fastly
+    - DNS (Domain Name System)
+      - Instances of the app server might be located in different data centers
+        at different physical locations. We can add geolocation-based policy DNS
+        to provide the client with a server IP address that is physically
+        located closer to the client.
+      - Products
+        - Amazon Route 53
+    - CDN (Content Delivery Network)
+      - A content delivery network (CDN) is a globally distributed network of
+        proxy servers, serving content from locations closer to the user. We can
+        serve static contents via CDN to improve user experiences.
+      - Products
+        - CloudFlare
+        - Fastly
+        - Amazon CloudFront
     - Load balancing
     - Horizontal scaling (or scaling out)
       - Means adding more machines into your pool of resources.
     - Vertical scaling (or scaling up)
       - Means adding more power (CPU, RAM) to your existing machine, it
         increases the power of the hardware running the application.
+    - Change database
+      - NoSQL database for handling high R/W ratio of QPS
+      - Schemaless Database
     - Database optimization
     - Database scaling
       - Database sharding (Scale Database)
         - What type of sharding key are we going to be using?
+      - Database replication
+        - Single leader replication
+          - All writes go to one database, reads come from any database
+        - Multi leader replication
+          - Writes can go to a small subset of leader databases, reads can come
+            from any database
+        - Leaderless replication
+          - Writes go to all databases, reads come from all databases
+        - Comparison
+          - Single leader is useful to ensure that there are no data conflicts,
+            all writes will go to one node
+          - Multi leader and leaderless replication is useful for increasing
+            write throughput beyond just one database node (at the cost of
+            potential write conflicts)
     - High Concurrency
     - Failure Scenarios
     - Request Rate Limiter
     - Circuit Breaker
-- Justify your ideas
+- Justify your ideas (Discuss the trade-offs of your solutions)
 
 ### Detail design (LLD, Low Level Design)
 
@@ -321,7 +506,7 @@ With the detailed design done, do remember to keep your design simple, things
 will not always go your way, so you may have to come back and make some changes
 on the go, as in the real-world, everything is evolving and changing.
 
-#### API Design
+#### System API Design
 
 1. What APIs would we need? It should be clear after gathering the requirements.
 
@@ -333,12 +518,20 @@ Return all bookshops on a user's location.
 
 Bookshop owner can add, delete or update a bookshop.
 
-| API                      | Remark                                       |
-| :----------------------- | :------------------------------------------- |
-| GET /v1/bookshops/:id    | Return detailed information about a bookshop |
-| POST /v1/bookshops       | Add a bookshop                               |
-| PUT /v1/bookshops/:id    | Update details of a bookshop                 |
-| DELETE /v1/bookshops/:id | Delete a bookshop                            |
+| API                      | Remark                                          |
+| :----------------------- | :---------------------------------------------- |
+| GET /v1/bookshops        | Return detailed information about all bookshops |
+| GET /v1/bookshops/:id    | Return detailed information about a bookshop    |
+| POST /v1/bookshops       | Add a bookshop                                  |
+| PUT /v1/bookshops/:id    | Update details of a bookshop                    |
+| DELETE /v1/bookshops/:id | Delete a bookshop                               |
+
+This part may involve the way to handle pagination, infinite scroll supporting,
+etc.
+
+```md
+GET /v1/bookshops?page=1&per_page=20
+```
 
 2. Define the input parameters and output responses carefully.
 
@@ -375,6 +568,17 @@ Output Response:
 #### Database Schema Design
 
 To hash out the data model and schema
+
+| Field  | Type      |
+| :----- | :-------- |
+| userId | UUID      |
+| Name   | String    |
+| BOD    | Timestamp |
+| Remark | String    |
+
+#### Class Diagram Design
+
+To design class diagram with respect OOP concepts
 
 ### Implementation
 
@@ -597,3 +801,5 @@ system meets their needs and expectations.
 - [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 - [The complete guide to System Design in 2023](https://www.educative.io/blog/complete-guide-to-system-design)
 - [What are NoSQL Databases](https://aws.amazon.com/nosql/)
+- [Work through my solution to a system design interview question](https://levelup.gitconnected.com/work-through-my-solution-to-a-system-design-interview-question-a8ea4b60513b)
+- [System Design of Uber App – Uber System Architecture](https://www.geeksforgeeks.org/system-design-of-uber-app-uber-system-architecture/)
