@@ -34,6 +34,10 @@ Main Streaming:
 - Service-Oriented Architecture (SOA)
   - ESB is one of the main technologies to realize SOA
 - Microservice
+  - API Gateway
+  - Service Mesh
+    - Data Plane
+    - Control Plane
 
 Others:
 
@@ -253,6 +257,37 @@ Raft is a consensus algorithm designed as an alternative to the Paxos family
 of algorithms. It was meant to be more understandable than Paxos by means of
 separation of logic, but it is also formally proven safe and offers some
 additional features.
+
+#### Distributed Memberships Algorithm
+
+In distributed systems, failures are the norm rather than the exception. This is
+because members (or processes) of a group communicate among themselves over an
+unreliable network and members can crash at some point. The purpose of every
+Membership Protocol is to provide to each member of a group an updated list with
+their peers alive. Most modern systems use this peer-to-peer protocol to
+disseminate information to all the members in a network or cluster.
+
+__SWIM membership protocol__
+
+SWIM is the acronym of Scalable Weakly-consistent Infection-style Process Group
+Membership Protocol. A membership protocol ensures that each process of a group
+updates a local list of non-faulty members of the group. When a new process
+joins or leaves the group, every local list has to be updated.
+
+There are four key properties that any membership protocol needs to ensure
+efficiency and scalability:
+
+- Strong Completeness
+  - Each failure in the system is detected
+- Accuracy
+  - No mistakes when detecting failures. In real life this is not 100%
+    guarantee, so we need to reduce false positives
+- Speed of failure detection
+  - Time to detect a failure
+- Scale
+  - The network load is generated and distributed equally between processes
+
+__Gossip Protocol__
 
 ### Fallacies of Distributed Systems
 
