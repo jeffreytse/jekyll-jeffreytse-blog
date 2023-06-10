@@ -77,6 +77,10 @@ over and over again, and you'll be like a native.
   - Don't mention it
   - You shouldn't have
 
+- Boring
+  - Tedious
+  - Trivial
+
 - Because
   - As
   - Due to
@@ -121,6 +125,7 @@ over and over again, and you'll be like a native.
   - I won't take that crap
   - I won't buy that beef
   - You make me sick
+  - I'm sick of sth.
 
 - Agree
   - I have totally sold out to your idea
@@ -128,6 +133,9 @@ over and over again, and you'll be like a native.
 - Disagree
   - You talk crazy
   - You talk nonsense
+
+- Satisfy sth.
+  - cater to sth.
 
 - Take a time
   - Sleep on it
@@ -222,6 +230,31 @@ over and over again, and you'll be like a native.
   - Not really
   - I'm pretty average
 
+- Very
+  - immensely
+
+- Happen
+  - Occur
+  - Take place
+  - Come up
+
+- Although
+  - Though
+  - Notwithstanding
+  - Albeit
+  - Even so
+  - After all
+
+- For
+  - In order to
+  - For the sake of
+  - So as to
+  - So that
+
+- In the end
+  - At last
+  - Ultimately
+
 - You should try it
   - Give it a shot
 
@@ -274,6 +307,13 @@ over and over again, and you'll be like a native.
 - What do you want to do tonight?
   - What are you up to tonight?
 
+- I feel ...
+  - It's giving me a vibe of ...
+
+- I think
+  - In my opinion, ...
+  - As far as I see, ...
+
 - I think I'd better do something
   - I figure I'd better do something
 
@@ -285,6 +325,21 @@ over and over again, and you'll be like a native.
 
 - I worked very hard every day
   - I worked around the clock
+
+- Ways
+  - Approaches
+  - Avenues
+
+- A lot of
+  - Lots of
+  - A bunch of
+  - A bundle of
+  - A crowd of
+  - A number of
+  - A variety of
+  - A (wide) range of
+  - A multitude of
+  - Numerous
 
 - Others
   - Get in rut
