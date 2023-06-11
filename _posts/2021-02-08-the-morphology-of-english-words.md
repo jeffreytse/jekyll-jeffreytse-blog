@@ -468,6 +468,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `gram`: that which is drawn; a picture, a drawing (e.g. program)
 - `graph`: process of writing or recording (e.g. photograph, biography, autograph,
   cyclograph)
+- `greg`: herd, flock (e.g. segregate)
 - `half`: half (e.g. halfway)
 - `ham`: hollow or bend of the knee (e.g. hamstring)
 - `haust`: to draw up, to scoop (e.g. exhaust)
@@ -555,7 +556,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mob`: the same as `mov` (e.g. mob, mobster)
 - `mobile`: mobile (e.g. mobility)
 - `mon`: the same as `mun` (e.g. common)
-- `mono`: alone (e.g. monarch)
+- `mono`: single, alone (e.g. monarch, monolithic, monopoly)
 - `morph`: form, shape (e.g. morphology)
   - From Greek `morphe`
 - `mot`: the same as `mov` (e.g. promote, locomote, emote, motif)
@@ -1090,7 +1091,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `rheo`: a flowing, stream, current (e.g. rheostat)
   - from Greek `rheos`, which is related to rhein "to flow"
 - `se`: without, apart, aside, on one's own (e.g. select, secret, seduce,
-  seclude)
+  seclude, segregate)
 - `seam`: to bind, sew (e.g. seamstress)
 - `semi`: half
 - `sens`: understanding or feeling of something (e.g. sense)
