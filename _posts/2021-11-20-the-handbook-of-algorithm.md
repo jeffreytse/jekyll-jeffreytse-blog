@@ -131,6 +131,25 @@ algorithm strategy has its own design ideas and problem-solving steps.
     - Shortest Common Supersequence (SCS)
     - Longest Increasing Subsequence (LIS)
     - The Levenshtein distance (Edit Distance)
+- Sliding Window
+  - Features
+    - Consecutive elements
+    - Calculate maximum value
+  - Classic Problems
+    - Max sum of any k consecutive elements in the array
+    - Longest substring without repeating characters
+- Finite State Machine (FSM)
+  - Features
+    - The sub-problem can be divided to different states
+    - Helps to avoid so many nested if-else statements in your code and make the
+      code much simpler
+  - Steps
+    - Draw the finite state machine diagram
+      - Identify all types of input data
+      - Identify all possible states for the FSM
+      - Identify the valid transitions between states for given inputs
+    - Follow the FSM diagram to implement the algorithm
+  - Classic Problems
 
 ### Algorithm Implementation
 
