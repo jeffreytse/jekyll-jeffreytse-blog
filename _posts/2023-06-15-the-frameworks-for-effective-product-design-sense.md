@@ -9,7 +9,7 @@ banner:
 categories: methodology
 tags:
   - methodology
-  - marketing
+  - product
   - note
 ---
 
@@ -27,6 +27,27 @@ product or thinking about a new one from scratch. The more you think about
 users, the better you can define the problem and solve for those who need it
 the most. It might be helpful to start with a framework to get the right
 structure set to your audiences.
+
+The 3 key elements of product sense:
+
+- Empathy
+  - This is how the user is likely to react
+  - Keys
+    - Cognitive Biases
+    - Behavioral Economics
+    - Psychology Literature
+- Domain Knowledge
+  - This approach gives us an advantage over them
+  - Keys
+    - Customers
+    - Competition
+    - Technology
+    - Books
+    - Online resources
+    - Podcasts
+    - ...
+- Creativity
+  - Here's a novel solution to this hard usability problem
 
 The key traits you should be aware:
 
@@ -61,28 +82,61 @@ One of the famous ones is Lewis Lin’s CIRCLES ™ framework that lets you prov
 a well-rounded and thoughtful answer. And it's a checklist or guideline on what
 makes a complete, thoughtful response to any product design process.
 
-- Comprehend situation (Clarify by asking clarifying questions on the mission)
+- Comprehend situation (Clarify by asking clarifying questions)
   - What?
+    - What's the timeline?
+    - What's the target OS?
+    - What's the goal/mission?
+    - What's the geography?
   - Who?
   - Why?
+    - Build communities and bringing the world closer together
   - How?
 - Identify users (Define the users and segment users)
   - Personas
-- Report user needs (Go over user motivations)
-  - As..., I want..., so that...
+  - User Segments
+    - Groups
+      - Company
+      - School
+    - Individuals
+      - Staff
+      - Student
+    - ...
+  - MECE principle for segmentation
+    - Stands for
+      - Mutually
+      - Exclusive
+      - Collectively
+      - Exhaustive
+    - Grouping customers by
+      - Defined age brackets where there is no category overlap
+      - Country of Birth, assuming no geographical overlap
+      - Highest level of education obtained
+      - Defined revenue brackets
+      - Number of employee brackets
+- Report user needs (Go over user motivations, user journey, come up pain points)
+  - As a..., I want..., so that I can...
 - Cut, through prioritization (Come up with user pain points)
   - ROI (Return on Investment) estimate?
-- List solutions
-  - Talk about the success metrics
-  - Have a go to market or a rollout plan
-- Evaluate trade-offs (Call out any risks and trade-offs)
+  - LOE (Level of Effort) estimate?
+- List potential solutions (Brainstorm)
+- Evaluate trade-offs (Call out any trade-offs, as Nash equilibrium)
   - Thoughtful?
   - Analytical?
   - Objective?
   - Risks?
-- Summarize recommendation
+- Summarize recommendation (Choose one according to priority, and paint vision)
   - What?
   - Recap
+    - Talk about the success metrics (how you'd measure success? guardrail metrics)
+      - Customer churn rate
+      - NPS (Net Promoter Score) score
+        - It's used to gauge customer loyalty, satisfaction, and enthusiasm
+      - Number of product returns
+      - Number of customer complaints
+      - Number of product defects
+    - Have a go to market or a rollout plan
+    - Mockup and wireframe user experience
   - Why? vs Others
 
 ## BUS Framework
@@ -91,11 +145,15 @@ It's a three-step pyramid-like approach to tackle almost every product design
 problem:
 
 - Business problem/objective
-  - What is the actual root business problem?
+  - What is the actual root business problem/objective?
     - Company KPI is being affected
     - Revenue
-    - Cost
-    - Engagement
+      - Units sold
+      - Price per unit
+    - Costs
+      - Fixed cost
+      - Variable cost
+    - User Engagement
     - Impact
     - Monetization
     - Partnering with others
@@ -124,6 +182,11 @@ problem:
 - Solutions
   - Which idea will solve the user problem, thereby solving the business problem?
     - User tests
+      - Split testing
+      - A/B testing
+        - Control
+        - Experiment
+      - Multivariate testing
     - Interviews
     - Beta tests
     - Paper prototypes
@@ -132,6 +195,7 @@ problem:
   - The metrics to know the solution is successful
     - Adoption
     - Retention
+    - Monetization
   - Watch out for things (As you are not your product)
     - Confirmation bias
     - Plain old ego
@@ -162,6 +226,7 @@ Examples:
 - Design a jobs product for Facebook
 - Design a product to help users find a doctor on Facebook
 - Design a better way to find roommates in a new city
+- Design an alarm clock for the blind
 
 ### Product Improvement
 
@@ -175,7 +240,9 @@ Examples:
 - How would you improve Facebook birthdays?
 - What would you build to differentiate Instagram Reels from TikTok?
 - How would you improve the peer-to-peer payments product on either Messenger
-  or Whatsapp?
+  or WhatsApp?
+- Why was this button put in this place?
+- Why was this animation done in that manner?
 
 ### Product Strategy
 
@@ -194,3 +261,4 @@ Examples:
 
 - [Intro to the CIRCLES Method™ Product Design Framework](https://www.impactinterview.com/2016/06/circles-method-product-design-framework/)
 - [How to easily Systemize your Product Design Process](https://medium.muz.li/the-bus-product-design-framework-af5c527b4518)
+- [MECE Framework / Principle](https://caseinterview.com/mece)
