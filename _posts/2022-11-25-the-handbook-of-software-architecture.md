@@ -31,6 +31,11 @@ architecture, and hope it can get you systematic domain knowledge.
 Main Streaming:
 
 - Monolithic
+  - If an old monolithic application wants to move forward and expand, there is
+    another cost-effective way, which is the modular monolith. It first divides
+    the single application itself into modules and establishes boundaries, which
+    can not only reduce the burden on new engineers to understand business
+    knowledge, but also reuse the existing architecture.
 - Service-Oriented Architecture (SOA)
   - ESB is one of the main technologies to realize SOA
 - Microservice
@@ -95,11 +100,11 @@ Classic examples:
 - Dubbo is a RPC framework
 - SpringCloud is a RESTful eco-system
 
-Moving from monolithic applications to microservices faces several problems:
+Moving from monolithic applications to microservice faces several problems:
 
 - Management of microservices.
 - Microservice direct access.
-- Load balancing of the microservice itself.
+- Load balancing of the microservices themselves.
 - Microservices are broken and downgraded.
 - Distributed transaction tracing for microservices.
 - Microservice log collection and analysis.
@@ -140,15 +145,20 @@ can provide only two of the following three guarantees:
 The CAP theorem provides a tool to make design choices while building a
 distributed system.
 
-Cassandra is an AP system, Mongo DB is CP. MySQL is a CA system, but it’s not
-distributed.
+Cassandra is an AP system, distributed Redis is AP system, etcd is CP system,
+Mongo DB is CP. MySQL is a CA system, but it’s not distributed.
 
 ![Some Examples](https://github.com/jeffreytse/jekyll-jeffreytse-blog/assets/9413601/6124bfa7-4ecc-4d38-8014-f403c465f3f2)
 
+Before designing the architecture, do consider whether the business is an AP
+model or a CP model.
+
 #### ACID Theorem
 
-ACID compliance guarantees the validity of data in events of errors, hardware,
-or power failures.
+Transactions have four properties: atomicity, consistency, isolation, and
+persistence. These four properties are commonly referred to as ACID
+characteristics. ACID compliance guarantees the validity of data in events of
+errors, hardware, or power failures.
 
 - Atomicity
   - All the changes which are part of a single transaction are performed or
@@ -354,7 +364,339 @@ practical problems. Different problems have different methods and architectures.
 - A type of applications based on asynchronous decoupling
   - Various types of queues
 
+## Microservice Architecture
+
+The main features of microservice architecture:
+
+- Microservices are an architecture in themselves, and each microservice can be
+  implemented in a suitable language.
+- Each microservice should be as cohesive as possible to avoid external
+  transfers and cross-service transactions.
+
+The main components of microservice architecture:
+
+### Service Discovery
+
+Types:
+
+- Server-side Discovery
+- Client-side Discovery
+
+Products:
+
+- ZooKeeper
+  - ZK satisfies the CP principle. ZK must contain a master-slave
+    relationship, one master and many slaves. When the cluster has no master,
+    it does not provide external services
+  - ZK adopts the pub/sub mode. When ZK is started for the first time, it
+    subscribes to the service information it needs and caches it locally
+- HashiCorp Consul
+- Spring Cloud Consul
+  - Service governance component based on Hashicorp Consul
+- Netflix Eureka
+  - Eureka satisfies the AP principle. All nodes in the Eureka cluster are
+  equal and there is no master-slave relationship, so data inconsistency
+  may occur.
+  - Eureka adopts the service active pull strategy, and consumers go to
+  pull at a fixed frequency (default 30 seconds) and cache them locally
+- SkyDNS
+- etcd
+- Alibaba Nacos
+- Ctripcorp Apollo
+- Kubernates
+
+### Service Calling
+
+Protocols:
+
+- protobuf (Based on RPC)
+- Triple (Based on HTTP/2)
+- Dubbo2
+- gRPC
+- RESTful (Based on HTTP)
+- Thrift (Based on RPC)
+- ...
+
+Products:
+
+- OpenFeign
+  - HTTP + RESTful
+- Dubbo
+  - TCP + Custom (Serialization)
+
+### Service Monitoring
+
+We also call it APM (Application Performance Management), which belongs to the
+category of ITOM (IT operation and maintenance management).
+
+Products:
+
+- Dubbo Monitoring
+- Spring Admin
+
+### API Gateway
+
+Functions:
+
+- Authentication
+- Filtering
+- QPS Limitation
+- Downgrade
+- Load Balancing
+- Special Use Cases
+  - Grayscale Releases
+  - Canary Releases
+  - A/B Tests
+  - ....
+
+Products:
+
+- Zuul
+- Orange
+- Kong
+- Tyk
+
+### Load Balancing
+
+Products:
+
+- Ribbon
+- Nginx
+
+### Circuit Breaker
+
+Isolate access to remote services and third-party libraries to prevent cascading
+failures.
+
+Common fault tolerance approaches:
+
+- Thread Isolation
+- service Fusing
+
+Products:
+
+- Alibaba Sentinel
+- Netflix Hystrix
+- Resilience4j
+- Envoy
+
+### Distributed Configuration
+
+Products:
+
+- Spring Cloud Config
+  - By default, Git is used to store configuration, which can support client
+    configuration refresh, encryption and decryption operations
+- Consul
+- Alibaba Nacos
+- Ctripcorp Apollo
+
+### Distributed Tracing
+
+The relationship between microservice calls is complex, and it is necessary to
+use this type of component for monitoring and troubleshooting.
+
+Goals:
+
+- Performance monitoring
+- Full Link Tracking
+  - Certain code
+  - Certain sql
+  - CPU Operation Status
+  - Link Operation time-consuming
+  - ...
+
+Products:
+
+- Zipkin
+- Sky Walking
+- Jaeger
+- HTrace
+- Pinpoint
+
+### Distributed Transactions
+
+Use Cases:
+
+- Distributed ID generator
+
+Solutions:
+
+- AT
+- TCC
+- Saga
+- XA Specification
+- Local-Message-Based Distributed Transactions
+- Transactional-Message-Based Distributed Transactions
+
+### Distributed Batch Task
+
+Products:
+
+- Spring Cloud Task
+
+### Distributed Cache
+
+Products:
+
+- Redis
+- ETCD
+
+### Distributed Message Queue
+
+A message queue consists of publishers and consumers, and delivers messages to
+one or more consumers on first-in-first-out (FIFO).
+
+Products:
+
+- RabbitMQ
+- Kafka
+- ActiveMQ
+- AmazonSQS
+- IronMQ
+- Pulsar
+- Redis
+
+### Message Bus
+
+The message bus does not guarantee first-in-first-out (FIFO). Subscribers to a
+message bus can receive published messages without knowing the publisher. These
+modes are also known as pub/sub.
+
+Messages are published to the bus by the sending API, and any receiving API
+subscribed to a message of any type will then receive the corresponding message.
+
+Use Cases:
+
+- Used to propagate cluster state changes
+
+Products:
+
+- Microsoft Azure Service Bus
+- Oracle Enterprise Service Bus
+- RabbitMQ (MassTransit)
+
+### Log Monitoring (Collect and Analyze)
+
+Products:
+
+- ELK Stack
+  - Elasticsearch
+  - Logstash
+  - Kibana
+- GrayLog
+
+### Security
+
+Authentication and Authorization Solutions:
+
+- SSO
+- Distributed Session
+- Client-side Token
+  - JWT (JSON Web Tokens)
+- Combination of Client-side Token and API Gateway
+
+Products:
+
+- Spring Security
+- Apache Shiro
+
+## Microservice Stacks
+
+### Spring Cloud Official
+
+- Dynamic Configuration
+  - Spring Cloud Config (SCC)
+  - SCC Client/Server
+- Service Calling
+  - OpenFeign
+  - RestTemplate
+- API Gateway
+  - Spring Cloud Gateway
+- Load Balancing
+  - Spring Cloud LoadBalancer
+- Circuit Breaker
+  - Spring Cloud Circuit Breaker
+- Service Monitoring
+  - Spring Boot Admin
+- Distributed Tracing
+  - Spring Cloud Sleuth
+- Distributed Transactions
+  - NA
+- Distributed Message
+  - Spring Cloud Stream (SCS)
+  - SCS RabbitMQ/Kafka
+- Message Bus
+  - Spring Cloud Bus
+
+### Spring Cloud Netflix
+
+- Dynamic Configuration
+  - Netflix Archaius
+- Service Discovery
+  - Netflix Eureka
+- Service Calling
+  - Feign
+- API Gateway
+  - Netflix Zuul
+- Load Balancing
+  - Netflix Ribbon
+- Circuit Breaker(Fault Tolerance)
+  - Netflix Hystrix
+- Distributed Tracing
+  - NA
+- Distributed Transactions
+  - NA
+- Distributed Messages
+  - NA
+- Message Bus
+  - NA
+
+### Spring Cloud Alibaba
+
+- Dynamic Configuration
+  - Alibaba Nacos Configuration
+- Service Discovery
+  - Alibaba Nacos Service Registry
+- Service Calling
+  - Dubbo RPC
+- API Gateway
+  - Spring Cloud Gateway (Spring Cloud official support, after Finchley
+    version)
+  - Dubbo + Servlet
+- Load Balancing
+  - Spring Cloud LoadBalancer (Spring Cloud official support, after Hoxton
+    version)
+  - Dubbo LB
+- Circuit Breaker
+  - Alibaba Sentinel
+- Distributed Tracing
+  - NA
+- Distributed Transactions
+  - Seata
+- Distributed Message
+  - SCS RocketMQ
+- Message Bus
+  - Spring Cloud Bus (SCB)
+
+### Service Orchestration
+
+Products:
+
+- Docker
+- OpenStack
+- Kubernates
+
+### API Gateway
+
+### Service Mesh
+
+#### Data Plane
+
+#### Control Plane
+
 ## References
 
 - [Principles of Transaction-Oriented Database Recovery](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.2812&rep=rep1&type=pdf)
 - [Eventual Consistency vs. Strong Eventual Consistency vs. Strong Consistency](https://www.baeldung.com/cs/eventual-consistency-vs-strong-eventual-consistency-vs-strong-consistency)
+- [An In-Depth Analysis of Distributed Transaction Solutions](https://www.alibabacloud.com/blog/an-in-depth-analysis-of-distributed-transaction-solutions_597232)
