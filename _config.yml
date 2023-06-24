@@ -39,8 +39,8 @@ yat:
 # If you want transparent header, you can set true
 # header_transparent: false
 
-# Google analytics
-google_analytics: "UA-96513476-2"
+# Google analytics - GA4
+google_analytics: "G-N54MN13CMZ"
 enableDNT: "false"
 
 # If you want to generate website sitemap, you can set true
