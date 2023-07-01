@@ -230,27 +230,6 @@ over and over again, and you'll be like a native.
   - Not really
   - I'm pretty average
 
-- Very
-  - immensely
-
-- Happen
-  - Occur
-  - Take place
-  - Come up
-
-- Although
-  - Though
-  - Notwithstanding
-  - Albeit
-  - Even so
-  - After all
-
-- For
-  - In order to
-  - For the sake of
-  - So as to
-  - So that
-
 - In the end
   - At last
   - Ultimately
@@ -326,24 +305,136 @@ over and over again, and you'll be like a native.
 - I worked very hard every day
   - I worked around the clock
 
+- A lot of
+  - A bunch of
+  - A bundle of
+  - A crowd of
+  - A multitude of
+  - A myriad of
+  - A number of
+  - A ton of
+  - A variety of
+  - A (wide) range of
+  - Lots of
+  - Numerous
+
+- Root cause
+  - Rationale
+
+- Although
+  - Though
+  - Notwithstanding
+  - Albeit
+  - Even so
+  - After all
+
+- Concise
+  - Terse
+  - Succinct
+
+- Detailed
+  - Blow-by-blow
+  - Elaborate
+  - Exhaustive
+
+- Difficult
+  - Tough
+
+- Disadvantage
+  - Blemish
+  - Defect
+  - Downside
+  - Drawback
+  - Flaw
+
+- Execute
+  - Carry out
+  - Give a go
+
+- Explain sth.
+  - Reason sth.
+
+- For
+  - In order to
+  - For the sake of
+  - In/On behalf of
+  - So as to
+  - So that
+
+- Happen
+  - Occur
+  - Take place
+  - Come up
+
+- Immediately
+  - Instantly
+  - Promptly
+
+- Like
+  - Resemble
+
+- Mainly
+  - Mostly
+  - Predominantly
+
+- Outstanding
+  - Highlighted
+  - Prominent
+  - Salient
+
+- Promote
+  - Foster
+
+- Prototype
+  - Archetype
+
+- Taste
+  - Flavor
+  - Palate
+
+- Tiny
+  - Bite-sized
+
+- True
+  - Authentic
+  - Genuine
+
+- Turn around
+  - Pivot
+
+- Very
+  - Fairly
+  - Immensely
+  - Quite
+  - Tremendously
+
 - Ways
   - Approaches
   - Avenues
 
-- A lot of
-  - Lots of
-  - A bunch of
-  - A bundle of
-  - A crowd of
-  - A number of
-  - A variety of
-  - A (wide) range of
-  - A multitude of
-  - Numerous
+- Passionate
+  - Go crazy for
+
+- Polite
+  - Courteous
+  - Good-mannered
+
+- Probably
+  - Presumably
+  - Roughly
+
+- Realize
+  - Be aware of
+  - Notice
+  - Perceive
+
+- Unreadable
+  - Elusive
 
 - Others
   - Get in rut
   - A dap and dip
+  - Arm with
   - Calm down
   - What's new?
   - It's a nice day!
