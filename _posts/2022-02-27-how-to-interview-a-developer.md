@@ -19,16 +19,16 @@ of different developers based on the scores.
 
 ## Quantitative Table
 
-| Item                       | Remark                                             | Weight (1-5) |
-| :------------------------- | :------------------------------------------------- | :----------: |
-| CS Basic Knowledge         | OS? Network? Language? Framework? Code Style?      |      5       |
-| Data Structure + Algorithm | Basic DSA is necessary, DP/Tree/Graph?             |      4       |
-| Project Experience         | Open-source? interesting? Valuable? Match the job? |      4       |
-| Job/Education Experience   | Well-known companies/schools are preferred.        |      2       |
-| Clever                     | Self-study? Self-driven? Good at taking notes?     |      2       |
-| Character                  | Perseverance? Passionate about tech?               |      1       |
-| Teamwork                   | Comunication? Cooperation? Management?             |      1       |
-| Others                     | Award? Hoby? Geek?                                 |      1       |
+| Item                       | Remark                                                | Weight (1-5) |
+| :------------------------- | :---------------------------------------------------- | :----------: |
+| CS Basic Knowledge         | OS? Network? Language? Framework? Code Style?         |      5       |
+| Data Structure + Algorithm | Basic DSA is necessary, DP/Tree/Graph?                |      4       |
+| Project Experience         | Open-source? interesting? Valuable? Match the job?    |      4       |
+| Job/Education Experience   | Well-known companies/schools are preferred.           |      2       |
+| Clever                     | Self-study? Self-driven? Savvy? Good at taking notes? |      2       |
+| Character                  | Perseverance? Passionate about tech?                  |      1       |
+| Teamwork                   | Communication? Cooperation? Management?               |      1       |
+| Others                     | Award? Hobby? Geek?                                   |      1       |
 
 For an interviewer, the important are:
 
@@ -49,7 +49,6 @@ For a candidate, the important are:
 - The ability to use existing resources like software.
 - The ability of communication and teamwork.
 - ...
-
 
 ## Assessment
 
