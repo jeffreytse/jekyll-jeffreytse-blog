@@ -312,6 +312,7 @@ over and over again, and you'll be like a native.
   - A multitude of
   - A myriad of
   - A number of
+  - A pile of
   - A ton of
   - A variety of
   - A (wide) range of
@@ -327,6 +328,13 @@ over and over again, and you'll be like a native.
   - Albeit
   - Even so
   - After all
+
+- Casually
+  - Haphazardly
+
+- Certainly
+  - Assuredly
+  - Reliably
 
 - Concise
   - Terse
@@ -347,12 +355,22 @@ over and over again, and you'll be like a native.
   - Drawback
   - Flaw
 
+- Dramatically
+  - Notably
+  - Markedly
+  - Memorably
+  - Observably
+  - Signally
+
 - Execute
   - Carry out
   - Give a go
 
 - Explain sth.
   - Reason sth.
+
+- Extraordinary
+  - Nontrivial
 
 - For
   - In order to
@@ -403,6 +421,7 @@ over and over again, and you'll be like a native.
   - Pivot
 
 - Very
+  - Enormously
   - Fairly
   - Immensely
   - Quite
@@ -427,6 +446,9 @@ over and over again, and you'll be like a native.
   - Be aware of
   - Notice
   - Perceive
+
+- Suddenly
+  - Abruptly
 
 - Unreadable
   - Elusive
