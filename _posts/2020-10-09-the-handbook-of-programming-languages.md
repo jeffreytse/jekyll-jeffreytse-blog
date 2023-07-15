@@ -184,23 +184,42 @@ for execution.
 
 ## Basic
 
+### Automatic Checking
+
+It’s useful to think about three kinds of automatic checking that a language can
+provide:
+
+- __Static checking:__ the bug is found automatically before the program even runs.
+- __Dynamic checking:__ the bug is found automatically when the code is executed.
+- __No checking:__ the language doesn’t help you find the error at all. You have
+  to watch for it yourself, or end up with wrong answers.
+
+Needless to say, catching a bug statically is better than catching it
+dynamically, and catching it dynamically is better than not catching it at all.
+
+### Comment
+
+- Single-line comment
+- Multi-line comment
+- Documentation comment (Docstring)
+
 ### Data Types
 
 - Basic
-  - Number
-    - Byte
-    - Short
-    - Integer
-    - Long
-    - Float
-    - Double
-  - Character
-  - String
-  - Boolean
-  - Null
-  - Undefined
-- Collection
+  - Primitive
+    - Number
+      - Byte (1 Byte)
+      - Short (2 Bytes)
+      - Integer (4 Bytes)
+      - Long (8 Bytes)
+      - Float (4 Bytes)
+      - Double (8 Bytes)
+    - Character
+    - Boolean
+- Arrays and Collection
   - Linear
+    - Array
+    - String
     - List
     - Linked list
     - Tuple
@@ -209,10 +228,41 @@ for execution.
   - Non-linear
     - Map
 
-### Variable Lifecycle
+### Keywords
 
-- Static
-- Dynamic
+- Case Sensitive
+- Case Insensitive
+
+### Value Notation
+
+- Definition
+  - Literal
+  - Constant
+  - Variable
+- Lifecycle
+  - Static
+  - Dynamic
+- Value
+  - Mutating values
+    - Final
+    - Readonly
+  - Reassigning variables
+
+Examples:
+
+- null
+- undefined
+- NaN (Not a Number)
+- POSITIVE\_INFINITY
+- NEGATIVE\_INFINITY
+- 123
+- 1.23
+- true
+- false
+- 123f
+- '1'
+- "123"
+- ...
 
 ### Basic Structure
 
@@ -232,7 +282,7 @@ In structured programming, a program is written with only 3 basic structure:
 
 ![Paradigms Relationship](https://user-images.githubusercontent.com/9413601/224235137-b947c43b-3b13-4b26-a468-0fa454ae8faf.png)
 
-### Imperative programming
+### Imperative Programming
 
 This alternative to OOP focuses on function rather than models.
 
@@ -242,7 +292,7 @@ Languages:
 - Java
 - ...
 
-### Declarative programming
+### Declarative Programming
 
 This programming method involves statements on what the task or desired
 outcome is but not how to achieve it.
@@ -253,7 +303,7 @@ Languages:
 - Lisp
 - ...
 
-### Logical programming
+### Logical Programming
 
 This programming method, which is based mostly in formal logic. It contains
 a set of sentences that express facts or rules about a problem domain. It
@@ -264,7 +314,7 @@ Languages:
 - Prolog
 - ...
 
-### Functional Programming
+### Functional Programming (FP)
 
 FP is a high level way of programming, the level stands for the degree of
 abstraction, the higher the programming level is, the least the concern of
@@ -313,7 +363,7 @@ Languages:
 - Scala
 - ...
 
-### Structured or modular programming
+### Structured or Modular Programming
 
 The structured is any programming when functionality is divided into units
 like `for loop, while loop, if`... then etc block structure. The modular
@@ -328,7 +378,7 @@ Languages:
 - PHP
 - ...
 
-### Imperative programming
+### Imperative Programming
 
 This alternative to OOP focuses on function rather than models.
 
@@ -338,7 +388,7 @@ Languages:
 - Java
 - ...
 
-### Declarative programming
+### Declarative Programming
 
 This programming method involves statements on what the task or desired
 outcome is but not how to achieve it.
@@ -349,7 +399,7 @@ Languages:
 - Lisp
 - ...
 
-### Logical programming
+### Logical Programming
 
 This programming method, which is based mostly in formal logic. It contains
 a set of sentences that express facts or rules about a problem domain. It
@@ -440,6 +490,8 @@ programming model is mainly methods and ideas.
   - tr1::function/bind (C++0X)
 - ...
 
+### Destructuring Assignment
+
 ### Generics Programming
 
 ### Garbage Collection (GC)
@@ -483,3 +535,4 @@ programming model is mainly methods and ideas.
 - [Declarative programming](https://www.wikiwand.com/en/Declarative_programming)
 - [The principal programming paradigms](https://www.info.ucl.ac.be/~pvr/paradigmsDIAGRAMeng108.pdf)
 - [What's The Difference Between Imperative, Procedural and Structured Programming?](https://softwareengineering.stackexchange.com/questions/117092/whats-the-difference-between-imperative-procedural-and-structured-programming)
+- [Software Construction](http://web.mit.edu/6.031/www/sp21/)
