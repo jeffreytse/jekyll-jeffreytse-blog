@@ -2,8 +2,8 @@
 layout: post
 title: The Handbook of Software Architecture
 subtitle: >-
-    Not only techniques, but also arts for the minimization
-    of manpower in all phases of development.
+  Not only techniques, but also arts for the minimization
+  of manpower in all phases of development.
 author: Jeffrey Tse
 banner:
   image: https://user-images.githubusercontent.com/9413601/213461408-ffecd351-d963-4d8a-af57-f2d0d8af61b2.png
@@ -39,10 +39,45 @@ Main Streaming:
 - Service-Oriented Architecture (SOA)
   - ESB is one of the main technologies to realize SOA
 - Microservice
-  - API Gateway
-  - Service Mesh
-    - Data Plane
-    - Control Plane
+  - Microservice is an implementation methodology to implement SOA.
+  - Design Patterns
+    - Decomposition Design Patterns
+      - Decompose by Business Capability
+      - Decompose by Subdomain
+      - Decompose by Strangler
+    - Integration Design Patterns
+      - API Gateway
+      - Aggregator
+      - Proxy
+      - Client Side UI Composition
+      - Chain Of Responsibilities
+      - Branch
+    - Database Design Patterns
+      - Database per Service
+      - Shared Database per Service
+      - Command Query Responsibility Segregator (CQRS)
+      - Saga
+      - Asynchronous Messaging
+      - Event Sourcing
+    - Observability Design Patterns
+      - Log Aggregation
+      - Performance Metrics
+      - Distributed Tracing
+      - Health Check
+    - Cross Cutting Concern Design Patterns
+      - External Configuration
+      - Service Discovery
+      - Circuit Breaker
+      - Blue Green Deployment
+        - Blue Environment: The old application running in the production is
+          called blue environment.
+        - Green Environment: The new services deployed which replicates the
+          given part of old application is called the green environment.
+  - Categories
+    - API Gateway
+    - Service Mesh
+      - Data Plane
+      - Control Plane
 
 Others:
 
@@ -110,6 +145,37 @@ Moving from monolithic applications to microservice faces several problems:
 - Microservice log collection and analysis.
 
 ## Distributed System
+
+Nowadays, it's already the norm for the ordinary PC-level servers to reach tens
+of thousands of TPS on a standalone machine with an average latency of 500ms or
+less in distributed systems.
+
+Some problems for Internet business:
+
+- C10K problem (Concurrent 10K connections)
+- C1000K problem (Concurrent 1000K connections)
+
+Some ideas for distributed systems for massive data on the Internet:
+
+- Hot/cold separation
+- Load balancing
+- Parallel scaling
+- Parallel Processing
+- Split repository and split table
+- Service clustering
+- Tiered design
+  - Access layer
+    - Load balancing and flexible route distribution based on various policies
+  - Service layer
+    - It can be grouped by function
+  - Data layer
+    - Spread data across different database instances based on rules such as
+      business types
+  - ...
+- Performance expansion approaches
+  - Parallel expansion
+  - Elastic expansion
+  - 3D expansion
 
 ### Basic Theories
 
@@ -277,7 +343,7 @@ Membership Protocol is to provide to each member of a group an updated list with
 their peers alive. Most modern systems use this peer-to-peer protocol to
 disseminate information to all the members in a network or cluster.
 
-__SWIM membership protocol__
+**SWIM membership protocol**
 
 SWIM is the acronym of Scalable Weakly-consistent Infection-style Process Group
 Membership Protocol. A membership protocol ensures that each process of a group
@@ -297,7 +363,7 @@ efficiency and scalability:
 - Scale
   - The network load is generated and distributed equally between processes
 
-__Gossip Protocol__
+**Gossip Protocol**
 
 ### Fallacies of Distributed Systems
 
@@ -395,10 +461,10 @@ Products:
   - Service governance component based on Hashicorp Consul
 - Netflix Eureka
   - Eureka satisfies the AP principle. All nodes in the Eureka cluster are
-  equal and there is no master-slave relationship, so data inconsistency
-  may occur.
+    equal and there is no master-slave relationship, so data inconsistency
+    may occur.
   - Eureka adopts the service active pull strategy, and consumers go to
-  pull at a fixed frequency (default 30 seconds) and cache them locally
+    pull at a fixed frequency (default 30 seconds) and cache them locally
 - SkyDNS
 - etcd
 - Alibaba Nacos
@@ -438,11 +504,21 @@ Products:
 
 Functions:
 
-- Authentication
+- Authentication (Front Desk Design)
+  - Pros:
+    – Easy to iterate on
+    – Easy to develop quickly
+    – Shortens go-to-market time
+  - Cons:
+    – Single point of failure
+    – Potentially costly
+    – Rigid architectural constraints
 - Filtering
 - QPS Limitation
 - Downgrade
 - Load Balancing
+- Analytics
+- Performance Monitoring
 - Special Use Cases
   - Grayscale Releases
   - Canary Releases
@@ -454,7 +530,7 @@ Products:
 - Zuul
 - Orange
 - Kong
-- Tyk
+- Tyk (GoLang and Open Source)
 
 ### Load Balancing
 
@@ -685,7 +761,7 @@ Products:
 
 - Docker
 - OpenStack
-- Kubernates
+- Kubernates (K8S)
 
 ### API Gateway
 
@@ -700,3 +776,5 @@ Products:
 - [Principles of Transaction-Oriented Database Recovery](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.2812&rep=rep1&type=pdf)
 - [Eventual Consistency vs. Strong Eventual Consistency vs. Strong Consistency](https://www.baeldung.com/cs/eventual-consistency-vs-strong-eventual-consistency-vs-strong-consistency)
 - [An In-Depth Analysis of Distributed Transaction Solutions](https://www.alibabacloud.com/blog/an-in-depth-analysis-of-distributed-transaction-solutions_597232)
+- [Token Design for a Better API Architecture](https://nordicapis.com/token-design-better-api-architecture/)
+- [Microservices Design Patterns Tutorial](https://www.tutorialspoint.com/microservices_design_patterns/index.htm)
