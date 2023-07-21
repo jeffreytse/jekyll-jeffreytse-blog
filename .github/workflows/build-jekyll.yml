@@ -23,4 +23,4 @@ jobs:
       - uses: jeffreytse/jekyll-deploy-action@master
         with:
           provider: 'github'
-          token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
