@@ -180,8 +180,12 @@ over and over again, and you'll be like a native.
   - This really bums me out
   - I'm bummed out
 
-- Do you understand
-  - Are you with me
+- Do you understand?
+  - Are you with me?
+  - Are we clear?
+  - Do I make myself clear?
+  - Do you get it?
+  - Do you know what I mean?
 
 - I don't understand what you are saying
   - You lost me
@@ -318,6 +322,7 @@ over and over again, and you'll be like a native.
   - A (wide) range of
   - Lots of
   - Numerous
+  - Plenty of
 
 - Root cause
   - Rationale
@@ -329,12 +334,18 @@ over and over again, and you'll be like a native.
   - Even so
   - After all
 
+- Boring
+  - Lame
+
 - Casually
   - Haphazardly
 
 - Certainly
   - Assuredly
   - Reliably
+
+- Circumstance
+  - Plot
 
 - Concise
   - Terse
@@ -362,6 +373,17 @@ over and over again, and you'll be like a native.
   - Observably
   - Signally
 
+- Enough
+  - Adequate
+  - Sufficient
+
+- Embarrassing
+  - Awkward
+  - Cringey
+
+- Exhausted
+  - Beat
+
 - Execute
   - Carry out
   - Give a go
@@ -379,6 +401,18 @@ over and over again, and you'll be like a native.
   - So as to
   - So that
 
+- Forget it
+  - Never mind
+  - Discard that
+  - Ignore what I said
+  - Don't worry about it
+  - It's not important
+
+- Great
+  - Grand
+  - Epic
+  - Exceptional
+
 - Happen
   - Occur
   - Take place
@@ -387,6 +421,19 @@ over and over again, and you'll be like a native.
 - Immediately
   - Instantly
   - Promptly
+
+- Imply
+  - Allude
+
+- Implicit
+  - Alluding
+  - Implied
+  - Veiled
+
+- Kind of
+  - Appreciably
+  - A bit
+  - A touch of
 
 - Like
   - Resemble
@@ -447,8 +494,18 @@ over and over again, and you'll be like a native.
   - Notice
   - Perceive
 
+- Relaxed
+  - Cushy
+
+- Strange
+  - Peculiar
+  - Weird
+
 - Suddenly
   - Abruptly
+
+- Tough
+  - Arduous
 
 - Unreadable
   - Elusive
