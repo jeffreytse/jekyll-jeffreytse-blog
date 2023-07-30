@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The handbook of programming languages
+title: The Handbook of Programming Languages
 banner:
   image: https://user-images.githubusercontent.com/9413601/196836913-385eec05-6e38-4f91-adf4-c9a7365e4d87.png
   opacity: 0.76
@@ -181,102 +181,6 @@ language. The source code needs to be converted into an intermediate file
 for execution.
 
 - [StackOverflow - Is Java a Compiled or an Interpreted programming language?](https://stackoverflow.com/questions/1326071/is-java-a-compiled-or-an-interpreted-programming-language)
-
-## Basic
-
-### Automatic Checking
-
-It’s useful to think about three kinds of automatic checking that a language can
-provide:
-
-- __Static checking:__ the bug is found automatically before the program even runs.
-- __Dynamic checking:__ the bug is found automatically when the code is executed.
-- __No checking:__ the language doesn’t help you find the error at all. You have
-  to watch for it yourself, or end up with wrong answers.
-
-Needless to say, catching a bug statically is better than catching it
-dynamically, and catching it dynamically is better than not catching it at all.
-
-### Comment
-
-- Single-line comment
-- Multi-line comment
-- Documentation comment (Docstring)
-
-### Data Types
-
-- Basic
-  - Primitive
-    - Number
-      - Byte (1 Byte)
-      - Short (2 Bytes)
-      - Integer (4 Bytes)
-      - Long (8 Bytes)
-      - Float (4 Bytes)
-      - Double (8 Bytes)
-    - Character
-    - Boolean
-- Arrays and Collection
-  - Linear
-    - Array
-    - String
-    - List
-    - Linked list
-    - Tuple
-    - Queue
-    - Stack
-  - Non-linear
-    - Map
-
-### Keywords
-
-- Case Sensitive
-- Case Insensitive
-
-### Value Notation
-
-- Definition
-  - Literal
-  - Constant
-  - Variable
-- Lifecycle
-  - Static
-  - Dynamic
-- Value
-  - Mutating values
-    - Final
-    - Readonly
-  - Reassigning variables
-
-Examples:
-
-- null
-- undefined
-- NaN (Not a Number)
-- POSITIVE\_INFINITY
-- NEGATIVE\_INFINITY
-- 123
-- 1.23
-- true
-- false
-- 123f
-- '1'
-- "123"
-- ...
-
-### Basic Structure
-
-In structured programming, a program is written with only 3 basic structure:
-
-- Sequences
-- Selections
-- Loops
-
-### Functions
-
-- Variadic function
-- Default value
-- Keyword arguments
 
 ## Programming Paradigms
 
@@ -466,6 +370,110 @@ programming model is mainly methods and ideas.
     - Micro-service Architect
 - Data-driven
 
+
+## Basic
+
+### Automatic Checking
+
+It’s useful to think about three kinds of automatic checking that a language can
+provide:
+
+- __Static checking:__ the bug is found automatically before the program even runs.
+- __Dynamic checking:__ the bug is found automatically when the code is executed.
+- __No checking:__ the language doesn’t help you find the error at all. You have
+  to watch for it yourself, or end up with wrong answers.
+
+Needless to say, catching a bug statically is better than catching it
+dynamically, and catching it dynamically is better than not catching it at all.
+
+### Comment
+
+- Single-line comment
+- Multi-line comment
+- Documentation comment (Docstring)
+
+### Data Types
+
+According to the classification:
+
+- Basic
+  - Number
+    - Byte (1 Byte = 8 Bits)
+    - Short (2 Bytes = 16 Bits)
+    - Integer (4 Bytes = 32 Bits)
+    - Long (8 Bytes = 64 Bits)
+    - Float (4 Bytes = 32 Bits)
+    - Double (8 Bytes = 64 Bits)
+  - Character (1 Byte = 8 Bits)
+  - Boolean
+- Arrays and Collection
+  - Linear
+    - Array
+    - String
+    - List
+    - Linked list
+    - Tuple
+    - Queue
+    - Stack
+  - Non-linear
+    - Set
+    - Map
+
+According to the structure:
+
+- Primitive Types
+- Object Types
+
+### Keywords and Identifier
+
+- Case Sensitive
+- Case Insensitive
+
+### Value Notation
+
+- Definition
+  - Literal
+  - Constant
+  - Variable
+- Lifecycle
+  - Static
+  - Dynamic
+- Value
+  - Mutating values
+    - Final
+    - Readonly
+  - Reassigning variables
+
+Examples:
+
+- null
+- undefined
+- NaN (Not a Number)
+- POSITIVE\_INFINITY
+- NEGATIVE\_INFINITY
+- 123
+- 1.23
+- true
+- false
+- 123f
+- '1'
+- "123"
+- ...
+
+### Basic Structures
+
+In structured programming, a program is written with only 3 basic structures:
+
+- Sequences
+- Selections
+- Loops
+
+### Functions
+
+- Variadic function
+- Default value
+- Keyword arguments
+
 ## Advanced
 
 ### Iterator
@@ -507,6 +515,7 @@ programming model is mainly methods and ideas.
 
 ### Serialization & Deserialization
 
+### Hash Value Omission
 
 ## Language Characteristics
 
