@@ -22,11 +22,11 @@ each approach is most likely to be effective will help you succeed.
 
 6 leadership approaches:
 
-- Visionary: Share a vision
+- Visionary: Share a vision and motivate the team
 - Collaborative: Foster ideas or agreement from the group
 - Directive: Tell employees what to do
-- Pacesetting: Inspire by example of commitment and hard work
-- Affiliative: Build connection and closeness in the team
+- Pacesetting: Inspire by example of commitment and hard work with self-awareness
+- Affiliative: Build connection and closeness with empathy in the team
 - Coaching: Provide instruction or coaching
 
 ### Visionary
