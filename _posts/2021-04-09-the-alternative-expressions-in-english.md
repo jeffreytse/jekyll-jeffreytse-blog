@@ -16,15 +16,18 @@ daily basis, this is perfect for you if you don't want to repeat yourself
 over and over again, and you'll be like a native.
 
 - Yes (More formal)
+  - Certainly (An Americanism)
+  - Don't mention it
+  - I do/will/have
+  - Indeed
+  - It's my pleasure
+  - I would love to
+  - No problem
+  - Of course (More casual)
+  - Sure
+  - Why not?
   - Yep/Yup
   - Yeah (More casual, informal)
-  - I do/will/have
-  - Sure
-  - Indeed
-  - Certainly (An Americanism)
-  - Of course
-  - Why not?
-  - I would love to
   - You have my word
 
 - No
@@ -69,7 +72,7 @@ over and over again, and you'll be like a native.
   - Right-oh
   - Fair enough (British style)
 
-- You're welcome
+- You're (very) welcome
   - No problem
   - No worries
   - My pleasure
@@ -77,9 +80,14 @@ over and over again, and you'll be like a native.
   - Don't mention it
   - You shouldn't have
 
+- Also
+  - As well
+  - Likewise
+
 - Boring
   - Tedious
   - Trivial
+  - Verbose
 
 - Because
   - As
@@ -198,6 +206,7 @@ over and over again, and you'll be like a native.
   - Beats me
 
 - I know
+  - I'm aware of
   - I got it
   - I see
   - I hear you
@@ -351,13 +360,32 @@ over and over again, and you'll be like a native.
   - Terse
   - Succinct
 
+- Compulsory
+  - Obligatory
+
+- Decline
+  - Decrease
+  - Deteriorate
+  - Drop down
+  - Fall
+  - Go down
+  - Go south
+
 - Detailed
   - Blow-by-blow
   - Elaborate
   - Exhaustive
+  - Thorough
 
 - Difficult
   - Tough
+
+- Differentiate
+  - Discriminate
+  - Distinguish
+
+- Disabled
+  - Handicapped
 
 - Disadvantage
   - Blemish
@@ -365,6 +393,12 @@ over and over again, and you'll be like a native.
   - Downside
   - Drawback
   - Flaw
+
+- Do
+  - Cope
+  - Deal
+  - Handle
+  - Tackle
 
 - Dramatically
   - Notably
@@ -381,6 +415,9 @@ over and over again, and you'll be like a native.
   - Awkward
   - Cringey
 
+- Excited
+  - Thrilled
+
 - Exhausted
   - Beat
 
@@ -394,12 +431,19 @@ over and over again, and you'll be like a native.
 - Extraordinary
   - Nontrivial
 
+- Familiar
+  - Acquainted
+  - Conversant
+
 - For
   - In order to
   - For the sake of
   - In/On behalf of
   - So as to
   - So that
+
+- Force
+  - Coerce
 
 - Forget it
   - Never mind
@@ -418,6 +462,9 @@ over and over again, and you'll be like a native.
   - Take place
   - Come up
 
+- If...
+  - In case...
+
 - Immediately
   - Instantly
   - Promptly
@@ -430,6 +477,10 @@ over and over again, and you'll be like a native.
   - Implied
   - Veiled
 
+- Improve
+  - Amend
+  - Revamp
+
 - Kind of
   - Appreciably
   - A bit
@@ -438,9 +489,17 @@ over and over again, and you'll be like a native.
 - Like
   - Resemble
 
+- Lucky
+  - Blessed
+
 - Mainly
   - Mostly
   - Predominantly
+
+- On the other hand
+  - Conversely
+  - On the contrary
+  - Oppositely
 
 - Outstanding
   - Highlighted
@@ -452,31 +511,6 @@ over and over again, and you'll be like a native.
 
 - Prototype
   - Archetype
-
-- Taste
-  - Flavor
-  - Palate
-
-- Tiny
-  - Bite-sized
-
-- True
-  - Authentic
-  - Genuine
-
-- Turn around
-  - Pivot
-
-- Very
-  - Enormously
-  - Fairly
-  - Immensely
-  - Quite
-  - Tremendously
-
-- Ways
-  - Approaches
-  - Avenues
 
 - Passionate
   - Go crazy for
@@ -497,6 +531,20 @@ over and over again, and you'll be like a native.
 - Relaxed
   - Cushy
 
+- Replace
+  - Alternate
+  - Displace
+  - Substitute
+  - Supersede
+
+- Same
+  - Identical
+
+- So
+  - Consequently
+  - Hence
+  - Therefore
+
 - Strange
   - Peculiar
   - Weird
@@ -504,11 +552,45 @@ over and over again, and you'll be like a native.
 - Suddenly
   - Abruptly
 
+- Taste
+  - Flavor
+  - Palate
+
+- Terrible
+  - Awful
+  - Dreaded
+  - Dreadful
+  - Fearful
+  - Frightful
+  - Scary
+
+- Tiny
+  - Bite-sized
+
 - Tough
   - Arduous
 
+- True
+  - Authentic
+  - Genuine
+
+- Turn around
+  - Pivot
+
 - Unreadable
   - Elusive
+
+- Very
+  - Enormously
+  - Fairly
+  - Freaking
+  - Immensely
+  - Quite
+  - Tremendously
+
+- Ways
+  - Approaches
+  - Avenues
 
 - Others
   - Get in rut
