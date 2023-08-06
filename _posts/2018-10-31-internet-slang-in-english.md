@@ -188,6 +188,7 @@ collection in my daily learning:
 - **RIP** - Rest in peace
 - **RLRT** - Real life retweet
 - **ROFL** - Rolling on the floor laughing
+- **RSVP** - Respond, if you please
 - **RT** - Retweet
 - **RTFA** - Read the fucking article
 - **RTFM** - Read the fucking manual
