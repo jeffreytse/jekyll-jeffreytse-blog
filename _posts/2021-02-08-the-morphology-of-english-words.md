@@ -406,6 +406,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Cognate with Latin `dicere` "to show;"
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
 - `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
+- `dose`: back, of the back (e.g. endorse)
 - `draw`: act of pulling (e.g. drawstring)
 - `duc`: to lead (e.g. produce, educate, introduce, seduce, induce, educe,
   edduce, transduce)
@@ -477,6 +478,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `helix`: the same as `helic`
 - `hemo`: blood (e.g. hemostat)
 - `high`: high (e.g. highlight)
+- `hind`: back, rear (e.g. behind, hindsight)
 - `hist`: tissue (e.g. histoplasmin, histopathology)
 - `hol`: whole, entire, complete (e.g. whole, holistic, holocaust, hologram)
   - From Greek `holos`
@@ -968,7 +970,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latinized form of Greek adverb `ektos` "outside, out of; free from; exempt"
 - `electro`: electrical, electricity (e.g. electrotechnics)
 - `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower, embody)
-- `en`: in, into (e.g. enslave, envalope)
+- `en`: in, into; put on (e.g. enslave, envalope, endorse, entitle)
 - `endo`: inside, within, internal (e.g. endogenous, endocrine, endomixis)
   - Word-forming element from Greek `endon` "in, within"
 - `enter`: the same as `inter` (e.g. entertain)
@@ -978,7 +980,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Proto-Indo-European root meaning "to be."
 - `eu`: good, well (e.g. eupheme)
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
-  extra = `ex` + `trans`, extort, exact, exigent)
+  extra = `ex` + `trans`, extort, exact, exigent, explicit)
   - From Latin `ex` "out of, from within; from which time, since; according to;
     in regard to"
   - From PIE `*eghs` "out" (source also of Gaulish `ex-`, Old Irish `ess-`, Old
@@ -1031,7 +1033,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `meta`: beyond or at a higher level; relating to a change of state or
   position; (e.g. metaphysical, metabolism, metastatic)
 - `micro`: extremely small (e.g. microphone, microwave)
-- `mini`: less; subordinate; small (e.g. minimum, minister)
+- `mini`: less; subordinate; small (e.g. minimum, minister, minutia)
 - `mis`: badly, wrongly (e.g. mistake, misinform, misunderstand)
 - `mono`: single, alone (e.g. monolith)
 - `multi`: multiple (e.g. multiform)
