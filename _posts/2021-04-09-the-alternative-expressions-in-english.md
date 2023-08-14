@@ -333,6 +333,9 @@ over and over again, and you'll be like a native.
   - Numerous
   - Plenty of
 
+- A series of
+  - A spectrum of
+
 - Root cause
   - Rationale
 
@@ -359,6 +362,11 @@ over and over again, and you'll be like a native.
 - Concise
   - Terse
   - Succinct
+
+- Consist
+  - Compose
+  - Comprise
+  - Constitute
 
 - Compulsory
   - Obligatory
@@ -481,6 +489,9 @@ over and over again, and you'll be like a native.
   - Amend
   - Revamp
 
+- Rareness
+  - Scarcity
+
 - Kind of
   - Appreciably
   - A bit
@@ -496,8 +507,7 @@ over and over again, and you'll be like a native.
   - Mostly
   - Predominantly
 
-- On the other hand
-  - Conversely
+- Conversely
   - On the contrary
   - Oppositely
 
@@ -546,6 +556,9 @@ over and over again, and you'll be like a native.
   - Therefore
 
 - Strange
+  - Anticly
+  - Cranky
+  - Odd
   - Peculiar
   - Weird
 
@@ -622,4 +635,5 @@ over and over again, and you'll be like a native.
   - Sleep on it
   - I don't buy it
   - Do me a favor
+  - I'm at the loss for words
 
