@@ -65,7 +65,7 @@ Latin, French, Germanic.
 English has a history of 2,300 years. In the course of historical development,
 its meaning will be gradually extended.
 
-![Word Matrix](https://cdn.shortpixel.ai/client/q_lossless,ret_img,w_560,h_315/https://www.garfortheducation.com/wp-content/uploads/2019/07/Add-a-subheading-2.jpg)
+![Word Matrix](https://github.com/jeffreytse/jekyll-jeffreytse-blog/assets/9413601/db937163-8a25-4458-a6f9-3112202e9904)
 
 English thinking:
 
@@ -360,6 +360,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cent`: hundred (e.g. centimeter, century, percent, centipede, bicentennial)
 - `cept`: to take; to grasp; to hold (e.g. accept, except, concept, recept,
   incept, percept, intercept, deception, precept, contracept, sceptic)
+- `cerebr`: brain (e.g. cerebral)
 - `cip`: the same as `cept` (e.g. emancipate, recipe, incipient, participant)
 - `cit`: set in motion, call; refer (e.g. cite, excite)
 - `cerebr`: brain (e.g. cerebral)
@@ -384,8 +385,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     access to"
 - `clus`: the same as `clude` (e.g. recluse)
 - `col`: column (e.g. coliform, `col` + `i` + `form`)
+- `corn`: horn (e.g. unicorn)
 - `cover`: cover (e.g. coverall, bedcover, covert)
 - `cracy`: rule, power (e.g. aristocracy, democracy)
+- `crani`: head (e.g. cranial)
 - `cri`: to sieve (e.g. crisis, crime, endocrine)
 - `cribr`: sieve, tube with holes (e.g. cribriform)
 - `cruc`: cross (e.g. cruciform)
@@ -485,6 +488,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `hu`: clay (e.g. human)
 - `hydra`: water; wet (e.g. hydrate, hydrant)
 - `hydro`: the same as `hydra` (e.g. hydrogen, hydroplane, hydroelectric)
+- `hypno`: sleep (e.g. hypnosis, hypnotize)
 - `ig`: the same as `ag` (e.g. exigent, navigate)
 - `ill`: bad, from evil (e.g. illness)
 - `image`: copy, statue, picture (e.g. imagination)
@@ -564,6 +568,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mot`: the same as `mov` (e.g. promote, locomote, emote, motif)
 - `mov`: act of moving from a stationary position, a change of position or
   relation (e.g. move, movie)
+- `mow`: cut (e.g. mowable)
 - `mun`: mutual, exchange (e.g. municipal)
   - From Latin `munus`
 - `mut`: the same as `mun` (e.g. mutual)
@@ -685,6 +690,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `retro`
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
 - `reg`: move in a straight line; to ask, to quest (e.g. )
+- `rhine`: nose (e.g. rhinoceros)
 - `rive`: shore, bank, break, brook (e.g. rival, archrival)
 - `rog`: the same as `reg` line (e.g. interrogate, rogatory, roger)
 - `rupt`: to break apart (e.g. corrupt, bankrupt)
@@ -752,6 +758,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   insoluble)
 - `solv`: to loosen, divide, cut apart (e.g. solve, solver, absolve, dissolve,
   resolve)
+- `sphere`: globe, ball (e.g. hemisphere, atmosphere)
 - `star`: the same as `ster`
 - `ster`: star (e.g. )
 - `stel`: the same as `ster` (e.g. stellar)
@@ -915,6 +922,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `al`: all (e.g. alway)
 - `apo`: off, away from (e.g. apology, apostate)
   - From Greek
+- `atmo` vapor, steam (e.g. atmosphere)
 - `au`: the same as `eu` (e.g. auspice)
 - `auto`: self, one's own, of oneself, of itself (e.g. autograph, autocycle)
 - `be`: about, around, on all sides (e.g. bemuse)
@@ -995,7 +1003,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `gyre`: the same as `gyro` (e.g. gyrencephalic)
 - `gyro`: a ring, circle (e.g. gyrate, gyroscope)
   - From Greek `gyros`
-- `hemi`: the same as `semi` (e.g. hemicycle)
+- `hemi`: the same as `semi` (e.g. hemicycle, hemisphere)
 - `hetero`: other, opposite, different (e.g. heterogeneous, heterosexual,
   heterocyclic)
 - `homo`: one and the same (e.g. homogeneous, homosexual)
@@ -1095,7 +1103,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `se`: without, apart, aside, on one's own (e.g. select, secret, seduce,
   seclude, segregate)
 - `seam`: to bind, sew (e.g. seamstress)
-- `semi`: half
+- `semi`: half (e.g. semicolon)
 - `sens`: understanding or feeling of something (e.g. sense)
 - `sent`: the same as `sens` (e.g. consent)
 - `soci`: partner (e.g. social, `soci` + `al`)
