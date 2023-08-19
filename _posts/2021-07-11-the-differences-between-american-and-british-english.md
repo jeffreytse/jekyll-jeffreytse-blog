@@ -23,6 +23,7 @@ way many Brits feel about American English.
 - direct (daɪˈrekt / dəˈrekt)
 - either (ˈiːðər / ˈaɪðə)
 - example (ɪɡˈzæmpəl / ɪɡˈzɑːmpəl)
+- mobile (moʊbiːl / məʊbaɪl)
 - neither (ˈniːðər / ˈnaɪðə)
 - novice (ˈnɑːvɪs / ˈnɒvɪs)
 - pass (pæs / pɑːs)
