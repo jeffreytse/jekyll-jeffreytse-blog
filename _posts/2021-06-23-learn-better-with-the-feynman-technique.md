@@ -12,6 +12,7 @@ tags:
   - theory
   - learning
   - note
+top: 1
 ---
 
 If I asked you how do you learn? More importantly, is your method efficient and
