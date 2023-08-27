@@ -388,6 +388,9 @@ over and over again, and you'll be like a native.
 - Difficult
   - Tough
 
+- Difficulty
+  - Complication
+
 - Differentiate
   - Discriminate
   - Distinguish
@@ -432,6 +435,9 @@ over and over again, and you'll be like a native.
 - Execute
   - Carry out
   - Give a go
+
+- Expect
+  - Anticipate
 
 - Explain sth.
   - Reason sth.
@@ -636,4 +642,5 @@ over and over again, and you'll be like a native.
   - I don't buy it
   - Do me a favor
   - I'm at the loss for words
+  - Why are you trippin
 
