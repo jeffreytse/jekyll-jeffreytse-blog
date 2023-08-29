@@ -39,25 +39,56 @@ way many Brits feel about American English.
 The most noticeable difference between American and British English is
 vocabulary. There are hundreds of everyday words that are different:
 
+- allowance / pocket money
+- autumn or fall / autumn
 - apartment / flat
+- apartment building / block of flats
+- attorney / barrister
+- backside / bottom
+- bill or check / bill
 - bathing suit / swimming costume
+- can / tin
+- candy / sweets
 - cookie / biscuit
+- corn / maize
+- counter-clockwise / anti-clockwise
+- detour / diversion
 - diaper / nappy
 - elevator / lift
+- eraser / rubber
 - flashlight / torch
 - freeway / motorway
-- french fries / chips
+- french fries or fries / chips
 - garbage / rubbish
+- garbage can, trash can / dustbin
+- garbage collector / dustman
 - gasoline / petrol
-- hood / bonnet
+- gearshift / gear-lever
+- hat / bonnet (clothing)
+- hood / bonnet (car)
+- intersection; crossroads (rural) / crossroads
 - line / queue
+- mail / post
+- mailbox / postbox
+- overpass / flyover
+- pacifier / dummy (for baby)
 - parking lot / car park
+- potato chips / crisps
+- railroad / railway
 - restroom or bathroom / toilet or lavatory
+- trailer / caravan
+- trailer truck / articulated lorry
 - truck / lorry
+- trunk / boot
+- schedule / timetable
+- sidewalk / pavement
 - silverware / cutlery
 - sneakers / trainers
 - sweater / jumper
+- undershirt / vest
 - vacation / holiday or hols
+- windshield / windscreen
+- wrench / spanner
 - ...
 
 ## Spelling
