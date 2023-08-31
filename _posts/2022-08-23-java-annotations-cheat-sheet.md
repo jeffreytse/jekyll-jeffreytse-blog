@@ -80,7 +80,7 @@ most important annotations.
   - @PropertySource
   - @Value
 - Spring Cloud (MVC)
-  - EnableDiscoveryClient
+  - @EnableDiscoveryClient
   - @ControllerAdvice
     - Spring 3.0
   - @Controller
@@ -104,6 +104,9 @@ most important annotations.
   - @InitBinder
   - @EnableCaching
   - @RefreshScope
+  - @ModelAttribute
+  - @RequestAttribute
+  - @SessionAttribute
 - Spring Security
   - @EnableWebSecurity
   - @CrossOrigin
