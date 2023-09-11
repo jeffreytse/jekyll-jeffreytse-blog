@@ -408,6 +408,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `digm`: to show (e.g. paramdigm)
   - Cognate with Latin `dicere` "to show;"
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
+- `domin`: lord, master (e.g. dominate, dominant)
 - `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
 - `dose`: back, of the back (e.g. endorse)
 - `draw`: act of pulling (e.g. drawstring)
@@ -593,6 +594,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `non`: no (e.g. nonperformance)
 - `nox`: the same as `noc` (e.g. noxious, obnoxious)
 - `nui`: the same as `noc` (e.g. nuisance)
+- `god`: god (e.g. demigod)
 - `gorg`: to swallow, throat (e.g. gorge, gorgeous, disgorge, engorge)
 - `grand`: big, great; full, abundant, full-grown, strong, powerful, weighty, severe
   (e.g. grandparent)
@@ -722,6 +724,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `simil`: the same as `sem` (e.g. similar, facsimile)
 - `simul`: the same as `sem` (e.g. simulate)
 - `som`: the same as `sem` (e.g. some)
+- `son`: to sound (e.g. sony, sonic)
 - `sm`: the same as `sem`
 - `short`: short
 - `smog`: smog
@@ -959,6 +962,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
   descend, despite, deactive, defeat, detain)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
+- `demi`: the same as `semi` (e.g. demigod, demitasse)
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence,
   diploma, dielectric)
