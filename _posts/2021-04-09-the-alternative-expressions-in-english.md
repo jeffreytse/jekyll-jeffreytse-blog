@@ -103,6 +103,10 @@ over and over again, and you'll be like a native.
   - How is everything?
   - Are you ok?
 
+- My fault
+  - My mistake
+  - My bad (An Americanism)
+
 - Why/Question
   - How come?
   - What do you mean?
@@ -204,6 +208,8 @@ over and over again, and you'll be like a native.
 
 - I don't know
   - Beats me
+  - I have no idea
+  - You guess as good as mine
 
 - I know
   - I'm aware of
@@ -336,8 +342,8 @@ over and over again, and you'll be like a native.
 - A series of
   - A spectrum of
 
-- Root cause
-  - Rationale
+- Accidentally
+  - Inadvertently
 
 - Although
   - Though
@@ -345,6 +351,14 @@ over and over again, and you'll be like a native.
   - Albeit
   - Even so
   - After all
+
+- Angry
+  - Irritated
+  - Mad
+  - Offended
+  - Take umbrage
+  - Unhappy
+  - Unpleasant
 
 - Boring
   - Lame
@@ -445,6 +459,12 @@ over and over again, and you'll be like a native.
 - Extraordinary
   - Nontrivial
 
+- Extremely happy
+  - High spirits
+  - Light hearted
+  - Upbeat
+  - Walk on air
+
 - Familiar
   - Acquainted
   - Conversant
@@ -467,9 +487,10 @@ over and over again, and you'll be like a native.
   - It's not important
 
 - Great
-  - Grand
   - Epic
   - Exceptional
+  - Grand
+  - Marvelous
 
 - Happen
   - Occur
@@ -495,6 +516,11 @@ over and over again, and you'll be like a native.
   - Amend
   - Revamp
 
+- Good luck
+  - Best wishes
+  - Break a leg
+  - Stroke of luck
+
 - Rareness
   - Scarcity
 
@@ -505,6 +531,9 @@ over and over again, and you'll be like a native.
 
 - Like
   - Resemble
+
+- Likely
+  - Apt
 
 - Lucky
   - Blessed
@@ -553,6 +582,9 @@ over and over again, and you'll be like a native.
   - Substitute
   - Supersede
 
+- Root cause
+  - Rationale
+
 - Same
   - Identical
 
@@ -583,6 +615,10 @@ over and over again, and you'll be like a native.
   - Frightful
   - Scary
 
+- Think carefully
+  - Deliberate on
+  - Ponder
+
 - Tiny
   - Bite-sized
 
@@ -610,6 +646,13 @@ over and over again, and you'll be like a native.
 - Ways
   - Approaches
   - Avenues
+
+- You are great
+  - You rock
+  - You're amazing
+
+- To postpone something
+  - Put something on ice
 
 - Others
   - Get in rut
@@ -643,4 +686,6 @@ over and over again, and you'll be like a native.
   - Do me a favor
   - I'm at the loss for words
   - Why are you trippin
+  - On cloud nine
+  - Out of wind/breath
 
