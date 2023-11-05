@@ -404,11 +404,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `dek`: to take, accept (e.g. decorate)
 - `dent`: a hollow area in the surface of something (e.g. dental)
   - From Latin `dint`
-- `dict`: to say, speak; say often, prescribe (e.g. dictionary, dictate. verdict)
-- `digm`: to show (e.g. paramdigm)
+- `dic`: to show (e.g. dedicate, indicate)
   - Cognate with Latin `dicere` "to show;"
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
-- `domin`: lord, master (e.g. dominate, dominant)
+- `dict`: to say, speak; say often, prescribe (e.g. dictionary, dictate. verdict)
+- `digm`: the same as `dic` (e.g. paramdigm)
+- `domin`: lord, master, owner (e.g. dominate, dominant, condominium)
 - `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
 - `dose`: back, of the back (e.g. endorse)
 - `draw`: act of pulling (e.g. drawstring)
@@ -423,6 +424,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ev`: age (e.g. medieval)
   - From Latin `aevum`
 - `ever`: at any time (e.g. forever)
+- `evite`: to shun, avoid (e.g. inevitable)
 - `fac`: the same as `fact` (e.g. facile, facility, facsimile, faculty)
 - `fact`: to form, build, to make, to do, to set, to put (e.g. factor, factoid,
   artefact, factious, facture, faction, artifact, olfaction)
@@ -716,9 +718,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ser`: to join together, bind together, put in a row, to line up, link, arrange
   (e.g. series)
 - `sert`: (e.g. assert, desert, insert, exert)
-- `seri`: weighty, important, grave (e.g. serious)
+- `seri`: weighty, important, serious, grave, strict, austere (e.g. serious)
   - From Latin `serius`
-- `sev`: the same as `seri` (e.g. severe)
+- `sev`: the same as `seri` (e.g. severe, persevere)
 - `sol`: sole (e.g. sojourn)
 - `sim`: the same as `sem` (e.g. simple)
 - `simil`: the same as `sem` (e.g. similar, facsimile)
@@ -957,10 +959,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   counterfeit, countermove, counterpart)
   - from Anglo-French `countre-`, French `contre-`, from Latin contra "opposite,
     contrary to, against, in return," also used as a prefix (see `contra` (prep., adv.)
-- `de`: opposite, remove, reduce, from, entirely, completely, off, without
+- `de`: opposite, remove, reduce, from, entirely, completely, off, away, without
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
-  descend, despite, deactive, defeat, detain)
+  descend, despite, deactive, defeat, detain, dedicate)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `demi`: the same as `semi` (e.g. demigod, demitasse)
 - `detrite`: erosion (e.g. detrition)
@@ -982,7 +984,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latinized form of Greek adverb `ektos` "outside, out of; free from; exempt"
 - `electro`: electrical, electricity (e.g. electrotechnics)
 - `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower, embody)
-- `en`: in, into; put on (e.g. enslave, envalope, endorse, entitle)
+- `en`: in, into, on, upon; put on (e.g. enslave, envalope, endorse, entitle)
 - `endo`: inside, within, internal (e.g. endogenous, endocrine, endomixis)
   - Word-forming element from Greek `endon` "in, within"
 - `enter`: the same as `inter` (e.g. entertain)
@@ -1018,12 +1020,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `idio`: one's own, personal, private (e.g. idiolect, idiomatic, idiopathic)
 - `il`: used instead of `in-` before the letter `l` (e.g. illegal, illiterate,
   illiquid)
-- `im`: not, opposite of; in,into; emphatic (e.g. immobile, impersonal, implant,
-  impress, immovable, impassion, immit, impossible, impart)
+- `im`: not, opposite of; in, into, on, upon; emphatic (e.g. immobile,
+  impersonal, implant, impress, immovable, impassion, immit, impossible, impart)
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
-- `in`: the same as `im-` (e.g. invalid, insufficient, inform, inland, inquire,
-  intact)
+- `in`: the same as `im-` and `en-` (e.g. invalid, insufficient, inform, inland,
+  inquire, intact, indicate, inevitable)
 - `infra`: below, under (e.g. infrastructure)
 - `inter`: among, between or involving two or more different things (e.g.
   internet, interact)
@@ -1078,8 +1080,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   against (e.g. paramedic, parastatal, paralegal, paraeducator, paranormal,
   parachute)
   - From Greek `para-`, before vowels, par-, word-forming element.
-- `per`: through; throughout; thoroughly; entirely, utterly (e.g. perfect,
-  perform, persist, permit)
+- `per`: through; throughout; thoroughly; entirely, utterly; very (e.g. perfect,
+  perform, persist, permit, persevere)
+- `pedo`: boy, child; foot (e.g. pedology, pedophile, pedometer)
 - `pir`: pear (e.g. piriform)
 - `plat`: small place (e.g. platform)
 - `poly`: multiple, many, entire (e.g. polytechnic, polycyclic, polyglot)
@@ -1278,7 +1281,7 @@ Variants:
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine,
-  facine, figurine)
+  facine, figurine, masculine, feminine)
 - `ina`: the same as `ine` (e.g. retina = `rete` + `ina`)
 - `ing`: adjective (e.g. fitting)
 - `ion`: noun (e.g. formation, vision)
