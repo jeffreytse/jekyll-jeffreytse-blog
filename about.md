@@ -10,7 +10,7 @@ blog what I have learnt or thought in my daily life.
 
 About me 😄:
 
-- 🧑 30 years old
+- 🧑 0x92 years old
 - 🇨🇳 From China
 - 👨‍💻 Software Developer
 - 🔨 Passionate Technician
@@ -24,7 +24,7 @@ When I am not at the keyboard, you will likely find me surfing or lounging
 on the beach with a good book. If you are interested in knowing more, read my
 articles or take a look at my pictures.
 
-![](https://ghchart.rshah.org/jeffreytse)
+![GH Chart](https://ghchart.rshah.org/jeffreytse)
 
 I also develop and maintain open-source projects that boost developer
 productivity. In addition, I practice playing piano and guitar in my spare
