@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Frameworks for Effective Product Design Sense
+title: The Frameworks of Effective Product Design Sense
 subtitle: Craft products better with better systematic design judgment
 author: Jeffrey Tse
 banner:
