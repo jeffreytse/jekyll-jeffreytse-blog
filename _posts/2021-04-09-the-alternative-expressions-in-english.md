@@ -126,7 +126,7 @@ over and over again, and you'll be like a native.
   - Get a job within couching distance
   - Couch potato
   - Yummy
-  - I’ll be in touch
+ - I’ll be in touch
 
 - Dislike
   - To be pissed off/ piss sb off
@@ -515,6 +515,10 @@ over and over again, and you'll be like a native.
 - Improve
   - Amend
   - Revamp
+
+- In conclusion
+  - In summation
+  - To encapsulate
 
 - Good luck
   - Best wishes
