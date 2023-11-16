@@ -18,7 +18,20 @@ tags:
 
 Software Development and Management Models of Software Engineering
 
+- Plan
+- Design
+- Build
+- Test
+- Release
+- Monitor
+
 ## Waterfall model
+
+- Requirements
+- Design
+- Implementation
+- Verification
+- Maintenance
 
 ## Incremental build model
 
@@ -89,6 +102,15 @@ Scrum 4 Meetings:
 - Retrospective
   - You look back on the process and reflect what you can improve as a team for
   the next sprint
+
+Definition of Ready (DoR) and Definition of Done (DoD):
+
+- DoR: It's the standard for a requirement to be accepted by the team. It is
+considered that the requirement is ready and can flow into the research and
+development task queue. It is the standard for requirement admission.
+- DoD: The purpose of DoD is to give everyone a unified understanding of the
+"completion" standard and prevent misunderstandings. It can be divided into
+different dimensions to define.
 
 ### XP
 
