@@ -28,6 +28,8 @@ vividly, and make the other party feel more familiar and authentic.
 - A penny for your thoughts
 - A perfect storm
 - A shot in the arm
+- A silver bullet
+  - A simple solution to a complicated problem
 - A snowball effect
 - A snowball's chance in hell
   - To be very unlikely to succeed at something
@@ -202,6 +204,7 @@ vividly, and make the other party feel more familiar and authentic.
 - On a roll
 - On thin ice
 - One for the road
+- One's ass off
 - Out of blue
 
 ## P
