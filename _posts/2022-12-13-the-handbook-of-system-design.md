@@ -786,6 +786,13 @@ Key concepts:
 - Write tests at different granularities
 - The higher the level, the fewer tests you should write
 
+Test automation strategy:
+
+- Unite Testing (DEV)
+- Component Testing (DEV+QA)
+- Integration Testing (DEV+QA)
+- End-to-End (E2E) Testing (QA)
+
 ## Conclusion
 
 It’s important to keep in mind that system design is an iterative process, and
