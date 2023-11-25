@@ -441,6 +441,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `ferre`
 - `fess`: to speak, tell, say (e.g. profess, confess)
 - `for`: the same as `fer`
+- `fore`: outside, beyond (e.g. foreign, forfeit)
+  - From Latin foris (adv.) "outside," literally "out of doors"
 - `fortun`: chance, fate, good luck (e.g. fortune)
   - From Latin `fortuna`, Fortuna, in Roman religion, goddess of chance or lot
     who became identified with the Greek Tyche
