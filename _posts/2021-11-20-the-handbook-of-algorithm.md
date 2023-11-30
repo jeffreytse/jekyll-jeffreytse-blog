@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The handbook of algorithm
+title: The Handbook of Algorithm
 author: Jeffrey Tse
 banner:
   image: https://wallpaperbat.com/img/79553-city-wallpaper-free-hd-download-hq.jpg
@@ -29,7 +29,7 @@ different, is one program better than the other?
 
 ### Analysis Method
 
-Notations:
+There are mainly 3 asymptotic notations:
 
 - Big O (The worst)
 - Big Omega (The best)
@@ -77,8 +77,8 @@ Big-O Complexity Chart
   - Tree
     - Binary Tree
     - Full Binary Tree
-    - Perfect Binary Tree
     - Complete Binary Tree
+    - Perfect Binary Tree
     - Balanced Binary Tree
     - Binary Search Tree
     - AVL Tree
@@ -87,7 +87,6 @@ Big-O Complexity Chart
     - Directed Graph
       - Directed Acyclic Graph
     - Indirected Graph
-
 
 ## Algorithm Design
 
