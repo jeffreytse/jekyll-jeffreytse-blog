@@ -558,6 +558,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mel`: honey (e.g. mellifluous)
   - From Latin `mel`, related to Greek `meli`
 - `men`: moon; month (e.g. menarche)
+- `mem`: to think (e.g. remember, mnemonic, memory)
 - `merg`: plunge, dip, to wash (e.g. immersion)
 - `mers`: the same as `gerg` (e.g. immerse)
 - `mit`: send (e.g. submit, permit)
@@ -861,6 +862,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `vacu`: the same as `vac` (e.g. vacuity, vacuous, vacuum)
 - `vain`: the same as `vac`
 - `vall`: valley (e.g. )
+- `vamp`: patch up, repair (e.g. revamp)
 - `van`: the same as `vac` (e.g. vanity, vanish, evanish, evanesce)
 - `void`: the same as `vac`
 - `vas`: a tube, duct, or conduit for conveying blood, lymph, semen, etc.
@@ -1103,7 +1105,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `quad`: related to quantity of four
 - `quasi`: as if, as it were (e.g. quasi-static, quasi-legal, quasi-science)
 - `re`: back, again (e.g. response, review, reunite, revolve, replete, recipe,
-  revenue)
+  revenue, revamp)
 - `retina`: net-like tunic (e.g. retinal, retinopathy)
   - From Latin `rete` "net"
 - `retro`: backward, reverse (e.g. retrospect, retroactive)
