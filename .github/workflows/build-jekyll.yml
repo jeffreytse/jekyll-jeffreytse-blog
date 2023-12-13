@@ -24,3 +24,4 @@ jobs:
         with:
           provider: 'github'
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          bundler_ver: '~>2.4.0'
