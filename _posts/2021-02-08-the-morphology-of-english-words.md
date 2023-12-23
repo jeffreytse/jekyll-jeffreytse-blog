@@ -350,6 +350,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `bene`: fine (e.g. benefit, benefactor, benefice)
 - `bow`: to bend (e.g. bowstring)
 - `canon`: a rule or law (e.g. canonical)
+- `capit`: head (e.g. capital, capitol, captain, capitate, decapitate,
+  capitulate, handicap, per-capita, escape = `ex` + `cap` + `e`, escapade)
 - `cap`: the same as `cept` (e.g. capable, capsule)
 - `capt`: the same as `cept` (e.g. captor, capture, captivate)
 - `cas`: the same as `cept` (eg. cassette)
@@ -998,7 +1000,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Proto-Indo-European root meaning "to be."
 - `eu`: good, well (e.g. eupheme)
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
-  extra = `ex` + `trans`, extort, exact, exigent, explicit)
+  extra = `ex` + `trans`, extort, exact, exigent, explicit, escape)
   - From Latin `ex` "out of, from within; from which time, since; according to;
     in regard to"
   - From PIE `*eghs` "out" (source also of Gaulish `ex-`, Old Irish `ess-`, Old
@@ -1183,13 +1185,13 @@ Variants:
 ## Suffix
 
 - `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa, partita,
-  agenda = `ag` + `end` + `a`)
+  agenda = `ag` + `end` + `a`, per-capita)
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
 - `acle`: noun (e.g. obstacle, spectacle, manacle)
 - `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy, mediacy,
   efficacy)
-- `ade`: noun (e.g. blockade, barriecade)
+- `ade`: noun (e.g. blockade, barriecade, escapade)
   - Word-forming delement denoting an action or product of an action
   - Denoting an action or product of an action, via French, Spanish, or Italian,
     ultimately from Latin `-ata`, `fem`.
@@ -1329,6 +1331,7 @@ Variants:
 - `nomy`: subject; manage (e.g. economy, economic)
 - `o`: noun (e.g. proviso)
   - The same as `-a`, `-e`, `-i`
+- `ol` the same as `al` (e.g. capitol)
 - `or`: the same as `-er` (e.g. resistor, liquor)
 - `ora`: noun (e.g. plethora)
 - `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary, mandatory)
