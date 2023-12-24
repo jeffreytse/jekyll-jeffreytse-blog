@@ -352,7 +352,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `canon`: a rule or law (e.g. canonical)
 - `capit`: head (e.g. capital, capitol, captain, capitate, decapitate,
   capitulate, handicap, per-capita, escape = `ex` + `cap` + `e`, escapade)
-- `cap`: the same as `cept` (e.g. capable, capsule)
+- `cap`: the same as `capit`; the same as `cept` (e.g. capable, capsule, cape,
+  capful, uncap, recap, capstone)
 - `capt`: the same as `cept` (e.g. captor, capture, captivate)
 - `cas`: the same as `cept` (eg. cassette)
 - `carn`: flesh (e.g. carnage)
@@ -362,11 +363,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cent`: hundred (e.g. centimeter, century, percent, centipede, bicentennial)
 - `cept`: to take; to grasp; to hold (e.g. accept, except, concept, recept,
   incept, percept, intercept, deception, precept, contracept, sceptic)
+- `cephal`: the same as `capit` (e.g. cephalopod, anencephaly, autocephalous)
 - `cerebr`: brain (e.g. cerebral)
-- `cip`: the same as `cept` (e.g. emancipate, recipe, incipient, participant)
+- `cip`: the same as `cap` (e.g. emancipate, recipe, incipient, participant,
+  precipice, precipitate, occipital)
 - `cit`: set in motion, call; refer (e.g. cite, excite)
 - `cerebr`: brain (e.g. cerebral)
 - `cess`: movement, migration (e.g. process)
+- `chapt`: the same as `capit` (e.g. chapter)
+- `chief` the same as `capit`
 - `chlor`: chlor (e.g. chloroform)
 - `chutd`: a fall (e.g. parachute)
 - `cid`: to cut (e.g. suicide)
@@ -494,7 +499,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek `holos`
 - `hu`: clay (e.g. human)
 - `hydra`: water; wet (e.g. hydrate, hydrant)
-- `hydro`: the same as `hydra` (e.g. hydrogen, hydroplane, hydroelectric)
+- `hydro`: the same as `hydra` (e.g. hydrogen, hydroplane, hydroelectric,
+  hydrocephalus)
 - `hypno`: sleep (e.g. hypnosis, hypnotize)
 - `ig`: the same as `ag` (e.g. exigent, navigate)
 - `ill`: bad, from evil (e.g. illness)
@@ -684,6 +690,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `put`: think
 - `putr`: to rot, stink (e.g. putrefaction)
   - From Latin `putrere`
+- `pod`: the same as `ped` (e.g. cephalopod)
 - `pol`: citadel, fort, city (e.g. politic, polite, police)
   - From Greek `polis`
 - `pon`: the same as `loc` (e.g. )
@@ -1070,7 +1077,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `nephro`: kidney (e.g. nephrology)
 - `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct,
   obsess, omit, obliterate, oblate, obscene, obtain)
-- `oc`: the same as `ob-` (e.g. occupy, occlude)
+- `oc`: the same as `ob-` (e.g. occupy, occlude, occipital)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
   omniscient)
 - `op`: the same as `ob-` (e.g. oppress)
@@ -1301,7 +1308,7 @@ Variants:
 - `ity`: noun, related to a state or quality, `i` + `ty` (e.g. performatity)
   - Added to adjectives to form nouns
 - `itis`: noun, an illness or infection that affects a particular part of your
-  body (e.g. neuritis)
+  body (e.g. neuritis, encephalitis)
 - `ium`: noun (e.g. scriptorium, technetium, medium)
 - `ive`: adjective (e.g. active, fictive)
 - `ise`: verb (Americanism)
