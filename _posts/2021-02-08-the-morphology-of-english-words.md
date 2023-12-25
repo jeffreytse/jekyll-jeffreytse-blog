@@ -368,8 +368,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cip`: the same as `cap` (e.g. emancipate, recipe, incipient, participant,
   precipice, precipitate, occipital)
 - `cit`: set in motion, call; refer (e.g. cite, excite)
+- `ced`: movement, migration (e.g. precede, intercede)
+  - From Latin `cedere`
+- `ceed`: the same as `ced` (e.g. proceed, succeed, exceed)
 - `cerebr`: brain (e.g. cerebral)
-- `cess`: movement, migration (e.g. process)
+- `cess`: the same as `ced` (e.g. process)
 - `chapt`: the same as `capit` (e.g. chapter)
 - `chief` the same as `capit`
 - `chlor`: chlor (e.g. chloroform)
