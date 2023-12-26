@@ -331,6 +331,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `alt`: tall
 - `alter`: the other (e.g. alternate)
 - `anim`: life (e.g. animal)
+- `ant`: front, forehead (e.g. antecede)
 - `aqu`: water (e.g. aqua, aqueduct)
   - From Latin `aqua`
 - `arch`: chief, to rule, to begin, beginning, origin, first place (e.g.
@@ -368,11 +369,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cip`: the same as `cap` (e.g. emancipate, recipe, incipient, participant,
   precipice, precipitate, occipital)
 - `cit`: set in motion, call; refer (e.g. cite, excite)
-- `ced`: movement, migration (e.g. precede, intercede)
+- `ced`: movement, migration, to go, withdraw (e.g. precede, intercede,
+  antecede, recede, retrocede, intercede, concede, secede, decedent, accede,
+  supercede)
   - From Latin `cedere`
 - `ceed`: the same as `ced` (e.g. proceed, succeed, exceed)
 - `cerebr`: brain (e.g. cerebral)
-- `cess`: the same as `ced` (e.g. process)
+- `cess`: the same as `ced` (e.g. process, excess, recess, necessary, abscess,
+  incessant, cesspool)
 - `chapt`: the same as `capit` (e.g. chapter)
 - `chief` the same as `capit`
 - `chlor`: chlor (e.g. chloroform)
@@ -924,9 +928,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 ## Prefix
 
 - `a`: off, of, away from; emphatic (e.g. away, apart, ascribe, atom, abandon,
-  apply, apathy, avenue)
+  apply, apathy, avenue, accede)
   - From Latin
-- `ab`: away, from, from off, down (e.g. abuse, abduct, abstain)
+- `ab`: away from, off from, down (e.g. abuse, abduct, abstain, abscess)
 - `acu`: cusp (e.g. acupressure)
 - `ad`: to (e.g. advocate, admit, adduce, adjourn, admix)
 - `aero`: air (e.g. aerostat, aerobatics)
@@ -978,7 +982,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `de`: opposite, remove, reduce, from, entirely, completely, off, away, without
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
-  descend, despite, deactive, defeat, detain, dedicate)
+  descend, despite, deactive, defeat, detain, dedicate, decedent)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `demi`: the same as `semi` (e.g. demigod, demitasse)
 - `detrite`: erosion (e.g. detrition)
@@ -1044,7 +1048,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   inquire, intact, indicate, inevitable)
 - `infra`: below, under (e.g. infrastructure)
 - `inter`: among, between or involving two or more different things (e.g.
-  internet, interact)
+  internet, interact, intercede)
 - `intra`: the same as `intro` (e.g. intraparty)
 - `intro`: inside, into, especially into the inside (e.g. introduce)
 - `immun`: free, exempt (e.g. immunosuppression)
@@ -1120,11 +1124,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   revenue, revamp)
 - `retina`: net-like tunic (e.g. retinal, retinopathy)
   - From Latin `rete` "net"
-- `retro`: backward, reverse (e.g. retrospect, retroactive)
+- `retro`: backward, reverse (e.g. retrospect, retroactive, retrocede)
 - `rheo`: a flowing, stream, current (e.g. rheostat)
   - from Greek `rheos`, which is related to rhein "to flow"
 - `se`: without, apart, aside, on one's own (e.g. select, secret, seduce,
-  seclude, segregate)
+  seclude, segregate, secede)
 - `seam`: to bind, sew (e.g. seamstress)
 - `semi`: half (e.g. semicolon)
 - `sens`: understanding or feeling of something (e.g. sense)
