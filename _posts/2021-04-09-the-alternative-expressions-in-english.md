@@ -385,6 +385,16 @@ over and over again, and you'll be like a native.
 - Compulsory
   - Obligatory
 
+- Come on
+  - Keep going
+  - Keep pushing
+  - Hanging there
+  - (You) go girl/boy, go get them
+  - You're doing great
+  - You can do it
+  - You've got this
+  - Stay strong
+
 - Decline
   - Decrease
   - Deteriorate
