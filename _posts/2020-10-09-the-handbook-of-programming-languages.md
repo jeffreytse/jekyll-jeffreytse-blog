@@ -342,6 +342,9 @@ Lifecycle:
 - Construction
 - Destruction
 
+- Instance function
+- Class function (i.e. Also known as Static Function in POP)
+
 ## Programming Model
 
 In programming, the way of abstraction, organization or reuse of code. The
@@ -385,6 +388,8 @@ provide:
 
 Needless to say, catching a bug statically is better than catching it
 dynamically, and catching it dynamically is better than not catching it at all.
+
+### Preprocessors
 
 ### Comment
 
@@ -460,13 +465,41 @@ Examples:
 - "123"
 - ...
 
+### Operators
+
+- Arithmetic Operators
+  - `+`, `-`, `*`, `/`, `%`, `++`, `--`, ...
+- Relational Operators
+  - `==`, `!=`, `>`, `<`, `>=`, `<=`, ..
+- Logical Operators
+  - `&&`, `||`, `!`, ...
+- Bitwise Operators
+  - AND `&`
+  - OR `|`
+  - XOR `^`
+  - FLIPPING `~`
+  - LEFT SHIFT `<<`
+  - RIGHT SHIFT `>>`
+  - ...
+- Assignment Operators
+  - `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `<<=`, `>>=`, `&=`, `|=`, `|=`, ...
+- Misc Operators
+  - `sizeof()`
+  - Conditional Expression `Condition ? Exp1 : Exp2`
+  - Address Operator `&variable`
+  - Pointer Operator `*variable`
+
 ### Basic Structures
 
 In structured programming, a program is written with only 3 basic structures:
 
 - Sequences
 - Selections
+  - if statement
+  - switch statement
 - Loops
+  - for loop
+  - while loop
 
 ### Functions
 
