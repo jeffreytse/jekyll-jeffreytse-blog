@@ -526,7 +526,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `lect`: to pick out, choose; to collect, gather; law; to say, to speak; count
   (e.g. collect, lecture, lexicon, elect, select, neglect, dialect, idiolect)
 - `leg`: the same as `lect` (e.g. delegate, legal, privilege, legend, legacy,
-  college, legislate)
+  college, legislate, decalogue)
 - `legis`: the same as `leg` (e.g. legisation)
 - `lex`: the same as `lect` (e.g. lexicon, lexicography)
 - `lic`: to be allowed, be lawful (e.g. license)
@@ -542,11 +542,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `loc`: a place, spot (e.g. local, locality, locomote, matrilocal, allocate,
   relocate)
   - From Latin `locus`
-- `log`: speech; to speek; word, speech, thought; the same as `lect` (e.g. logo,
-  logger, apology, catalogue)
+- `locut`: the same as `log`
+- `log`: speech; to speak; word, speech, thought; the same as `lect` (e.g. logo,
+  logger, apology, catalogue, waterlog, logarithm, syllogism, blog = weblog,
+  ideologue, homologue, decalogue, apology, dialog, logic, monologue, eulogy,
+  epilogue, neologize, slogan)
   - From Greek `legein` = to speak, `logos` = word, speech, though
   - From Latin `loqui` = to speak
 - `logos`: the same as `log`
+- `loqu`: the same as `log`
 - `low`: low
 - `lun`: moon (e.g. lunar)
 - `main`: the same as `man` (e.g. maintain)
@@ -818,6 +822,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sui`: one's own (e.g. suicide)
   - From Latin sui "of oneself" (genitive of se "self")
 - `swim`: swim
+- `syl`: the same as `syn` (e.g. syllogism)
 - `syn`: to place together, organize, form in order (e.g. synergy, syntactic)
   - From stem of `synistanai`
 - `sys`: the same as `syn` (e.g. system)
@@ -957,7 +962,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cardio`: relating to the heart (e.g. cardiograph)
 - `cephal`: head, uppermost or top part, source (e.g. cephalopod, encephalopathy)
   - Modern Latin combining form of Greek `kephalē`
-- `cata`: down; completely (e.g. catastrophe, catalyst)
+- `cata`: down; completely (e.g. catastrophe, catalyst, catalog)
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
@@ -984,6 +989,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
   descend, despite, deactive, defeat, detain, dedicate, decedent)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
+- `deca`: ten (e.g. decalogue)
+- `deci`: the same as `deca` (e.g. decimal)
 - `demi`: the same as `semi` (e.g. demigod, demitasse)
 - `detrite`: erosion (e.g. detrition)
 - `di`: two, double, twice, twofold; apart, asunder(e.g. direct, divergence,
@@ -1008,11 +1015,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `endo`: inside, within, internal (e.g. endogenous, endocrine, endomixis)
   - Word-forming element from Greek `endon` "in, within"
 - `enter`: the same as `inter` (e.g. entertain)
-- `epi`: on, upon, above;in addition to; toward, among; (e.g. epistemic)
+- `epi`: on, upon, above;in addition to; toward, among; (e.g. epimetheus,
+  epistemic, episode, epilogue)
   - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
 - `es`: to be (emphatic) (e.g. essence, espresso)
   - Proto-Indo-European root meaning "to be."
-- `eu`: good, well (e.g. eupheme)
+- `eu`: good, well, pleasant (e.g. eupheme, eulogy, euphony)
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
   extra = `ex` + `trans`, extort, exact, exigent, explicit, escape)
   - From Latin `ex` "out of, from within; from which time, since; according to;
@@ -1032,7 +1040,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `hemi`: the same as `semi` (e.g. hemicycle, hemisphere)
 - `hetero`: other, opposite, different (e.g. heterogeneous, heterosexual,
   heterocyclic)
-- `homo`: one and the same (e.g. homogeneous, homosexual)
+- `homo`: one and the same (e.g. homogeneous, homosexual, homologue)
 - `homeo`: like, resembling, of the same kind; equal (e.g. homeopathy)
   - Latinized from Greek `homio-`, from `homoios`
 - `hypo`: under, less than usual, especially too little; the same as `sub-`, under
@@ -1098,7 +1106,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek `pan-`, combining form of pas
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal; defense
   against (e.g. paramedic, parastatal, paralegal, paraeducator, paranormal,
-  parachute)
+  parachute, paramount)
   - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: through; throughout; thoroughly; entirely, utterly; very (e.g. perfect,
   perform, persist, permit, persevere)
@@ -1199,7 +1207,7 @@ Variants:
 ## Suffix
 
 - `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa, partita,
-  agenda = `ag` + `end` + `a`, per-capita)
+  agenda = `ag` + `end` + `a`, per-capita, apologia)
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
 - `acle`: noun (e.g. obstacle, spectacle, manacle)
