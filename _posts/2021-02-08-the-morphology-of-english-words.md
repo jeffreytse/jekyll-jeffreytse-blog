@@ -399,6 +399,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     access to"
 - `clus`: the same as `clude` (e.g. recluse)
 - `col`: column (e.g. coliform, `col` + `i` + `form`)
+- `cor`: heart (e.g. cordial)
 - `corn`: horn (e.g. unicorn)
 - `cover`: cover (e.g. coverall, bedcover, covert)
 - `cracy`: rule, power (e.g. aristocracy, democracy)
@@ -450,6 +451,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fect`: the same as `fact` (e.g. perfect, pluperfect, effect, defect, affect,
   infect, disinfect, confect)
 - `feit`: the same as `fact` (e.g. forfeit, surfeit, counterfeit)
+- `fenc`: the same as `fend` (e.g. fence, defence)
+- `fend`: to strike, hit, push (e.g. defend, fender, defendable)
+- `fens`: the same as `fend` (e.g. defensible, indefensible, defenceless)
 - `fest`: (able to be) seized (e.g. manifest, infest)
 - `fer`: to carry, to bear (e.g. confer, infer, transfer)
   - From Latin `ferre`
@@ -542,15 +546,17 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `loc`: a place, spot (e.g. local, locality, locomote, matrilocal, allocate,
   relocate)
   - From Latin `locus`
-- `locut`: the same as `log`
+- `locut`: the same as `log` (e.g. locution, elocution, interlocutor)
 - `log`: speech; to speak; word, speech, thought; the same as `lect` (e.g. logo,
   logger, apology, catalogue, waterlog, logarithm, syllogism, blog = weblog,
   ideologue, homologue, decalogue, apology, dialog, logic, monologue, eulogy,
-  epilogue, neologize, slogan)
+  epilogue, neologize, slogan, philology, analog, phonological, genealogical,
+  tautological, prologue, pseudology, antilogy, dyslogy)
   - From Greek `legein` = to speak, `logos` = word, speech, though
   - From Latin `loqui` = to speak
 - `logos`: the same as `log`
-- `loqu`: the same as `log`
+- `loqu`: the same as `log` (e.g. eloquence, quoloquy, ventriloquy, soliloquy,
+  loquacious, grandiloquent)
 - `low`: low
 - `lun`: moon (e.g. lunar)
 - `main`: the same as `man` (e.g. maintain)
@@ -744,7 +750,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `seri`: weighty, important, serious, grave, strict, austere (e.g. serious)
   - From Latin `serius`
 - `sev`: the same as `seri` (e.g. severe, persevere)
-- `sol`: sole (e.g. sojourn)
+- `sol`: sole (e.g. sojourn, soliloquy)
 - `sim`: the same as `sem` (e.g. simple)
 - `simil`: the same as `sem` (e.g. similar, facsimile)
 - `simul`: the same as `sem` (e.g. simulate)
@@ -894,6 +900,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `venire`, from the three-V instrument.
 - `vent`: the same as `ven` (e.g. advent, ventiduct, event, convention, invent,
   prevent, circumvent, convenient, venture, subvention)
+- `ventr` belly (e.g. ventriloquy)
 - `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
 - `vert` to turn, bend (e.g. convert, subvert)
@@ -945,7 +952,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `andeno`: gland-like (e.g. andenoma, andenovirus)
 - `ant`: in front of, forehead, before (e.g. antedate, anteroom, anticipate, antique)
 - `anti`: opposed to or against something (e.g. anti-virus, antibiotic,
-  antipathetic, anti-cheating)
+  antipathetic, anti-cheating, antilogy)
 - `as`: the same as `ad` (e.g. assist)
 - `agri`: relating to farming (e.g. agriculture, agribusiness)
 - `agro`: the same as `agri` (e.g. agrobiology, agro-industry)
@@ -1002,7 +1009,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     directions, between,"
 - `dis`: not or opposite (e.g. disagree, disfigure, difficult)
 - `du`: the same as `di` (e.g. duplicate, duplex)
-- `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction)
+- `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction,
+  dyslogy)
   - From Greek `dys-`
 - `e`: same as `ex` (e.g. evict, educe)
 - `ec`: the same as `ex-` (e.g. eclectic)
@@ -1111,6 +1119,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `per`: through; throughout; thoroughly; entirely, utterly; very (e.g. perfect,
   perform, persist, permit, persevere)
 - `pedo`: boy, child; foot (e.g. pedology, pedophile, pedometer)
+- `pseudo`: false, lying; falsely; deceived (e.g. pseudologue)
 - `pir`: pear (e.g. piriform)
 - `plat`: small place (e.g. platform)
 - `poly`: multiple, many, entire (e.g. polytechnic, polycyclic, polyglot)
@@ -1118,7 +1127,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pre`: before, ahead (e.g. preformed, prefigure)
   - From Latin `prae-`, before, ahead
 - `pro`: forward, before, forth (e.g. promote, prostitute, produce, profess,
-  profit)
+  profit, prologue)
   - It comes from `Prometheus`, who can predict the future.
 - `pur`: the same as `pro` (e.g. purpose, purview, purvey)
   - A variant of Latin pro "before, for" (see `pro-`)
@@ -1162,6 +1171,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sus`: the same as `sub` (e.g. sustain)
   - Assimilated form of `sub-` before `-s-`.
 - `super`: above (e.g. superstructure, superstring)
+- `tauto`: the same (e.g. tautological)
 - `tele`: at or over a long distance (e.g. television, telephone, telegraph,
   telecast, telemeter)
 - `tetra`: four (e.g. teracycline)
