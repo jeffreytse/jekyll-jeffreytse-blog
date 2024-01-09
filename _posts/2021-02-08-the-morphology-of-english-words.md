@@ -361,7 +361,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ceit`: the same as `cept` (e.g. conceit, deceit)
 - `ceiv`: the same as `cept` (e.g. perceive, receive, deceive, conceive, transceiver)
 - `cel`: rise high, tower (e.g. excel, excellent)
-- `cent`: hundred (e.g. centimeter, century, percent, centipede, bicentennial)
+- `cent`: hundred (e.g. centimeter, century, percent, centipede, bicentennial,
+  centigrade)
 - `cept`: to take; to grasp; to hold (e.g. accept, except, concept, recept,
   incept, percept, intercept, deception, precept, contracept, sceptic)
 - `cephal`: the same as `capit` (e.g. cephalopod, anencephaly, autocephalous)
@@ -404,6 +405,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cover`: cover (e.g. coverall, bedcover, covert)
 - `cracy`: rule, power (e.g. aristocracy, democracy)
 - `crani`: head (e.g. cranial)
+- `cre`: arise, be born, increase, grow (e.g. create, increase, decrease,
+  recreate, procreate, crease)
+- `cresc`: the same as `cre` (e.g. crescent, increscent, excrescent)
+- `cret`: the same as `cre` (e.g. concrete, accrete, excrete)
 - `cri`: to sieve (e.g. crisis, crime, endocrine)
 - `cribr`: sieve, tube with holes (e.g. cribriform)
 - `cruc`: cross (e.g. cruciform)
@@ -452,8 +457,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   infect, disinfect, confect)
 - `feit`: the same as `fact` (e.g. forfeit, surfeit, counterfeit)
 - `fenc`: the same as `fend` (e.g. fence, defence)
-- `fend`: to strike, hit, push (e.g. defend, fender, defendable)
-- `fens`: the same as `fend` (e.g. defensible, indefensible, defenceless)
+- `fend`: to strike, hit, push (e.g. defend, fender, defendable, offend)
+- `fens`: the same as `fend` (e.g. defensible, indefensible, defenceless, offense)
 - `fest`: (able to be) seized (e.g. manifest, infest)
 - `fer`: to carry, to bear (e.g. confer, infer, transfer)
   - From Latin `ferre`
@@ -492,6 +497,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `glossa` language, tongue
   - From Greek `glōtta`
 - `glotta`: the same as `glossa` (e.g. polyglot)
+- `grad`: to walk, step, go (e.g. grade)
 - `gram`: that which is drawn; a picture, a drawing (e.g. program)
 - `graph`: process of writing or recording (e.g. photograph, biography, autograph,
   cyclograph)
@@ -779,6 +785,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sid`: to sit, to settle (e.g. consider, preside, reside)
   - From Latin `sidere`, opposite with `st`
   - The `sid` (`sideris`) means heavenly body, star, constellation
+- `sign`: seal, imprint, sign, mark (e.g. signal, signet, signature)
 - `sit`: the same as `sid` (e.g. site, situate, position, visit)
 - `sed`: the same as `sid` (e.g. supersede, sediment, sedate, sedentary)
 - `sess`: the same as `sid` (e.g. possess, obsess, assess, session, sessile)
@@ -1061,7 +1068,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
 - `in`: the same as `im-` and `en-` (e.g. invalid, insufficient, inform, inland,
-  inquire, intact, indicate, inevitable)
+  inquire, intact, indicate, inevitable, increase)
 - `infra`: below, under (e.g. infrastructure)
 - `inter`: among, between or involving two or more different things (e.g.
   internet, interact, intercede)
@@ -1137,6 +1144,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - From Greek `pyr` (genitive `pyros`)
 - `quad`: related to quantity of four
 - `quasi`: as if, as it were (e.g. quasi-static, quasi-legal, quasi-science)
+- `quin`: five, fifth (e.g. quincentennial)
 - `re`: back, again (e.g. response, review, reunite, revolve, replete, recipe,
   revenue, revamp)
 - `retina`: net-like tunic (e.g. retinal, retinopathy)
@@ -1150,6 +1158,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `semi`: half (e.g. semicolon)
 - `sens`: understanding or feeling of something (e.g. sense)
 - `sent`: the same as `sens` (e.g. consent)
+- `sesqui` one and a half; one-half more (e.g. sesquicentennial)
 - `soci`: partner (e.g. social, `soci` + `al`)
 - `sof`: the same as `sub` (e.g. soffit)
 - `sol`: uninjured, in good health, safe (e.g. solid)
@@ -1181,6 +1190,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `traf`: the same as `trans` (e.g. traffic)
 - `trans`: across, beyond, through, on the other side of, to go beyond (e.g.
   transparent, transcribe)
+- `tre`: fourteen (e.g. trecento)
 - `tri`: three, having three, once every three (e.g. trivia, triangle, tricycle,
   triplex)
 - `tro`: the same as `trans` (e.g. retrospect)
@@ -1217,7 +1227,7 @@ Variants:
 ## Suffix
 
 - `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa, partita,
-  agenda = `ag` + `end` + `a`, per-capita, apologia)
+  agenda = `ag` + `end` + `a`, per-capita, apologia, excreta, insignia)
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
 - `acle`: noun (e.g. obstacle, spectacle, manacle)
@@ -1242,11 +1252,11 @@ Variants:
 - `ar`: noun, the same as `-er`, someone who does somthing; adjective, relating
   to somthing (e.g. liar, polar, circular, stellar, commissar)
 - `ary`: adjective or noun; having to do with, characterized by, tending to,
-  place for (e.g. arbitrary, monetary, plenary)
+  place for (e.g. arbitrary, monetary, plenary, centenary)
   - from Middle English `-orie`, from Old North French `-ory`, `-orie` (Old
     French `-oir`, `-oire`), from Latin `-orius`, `-oria`, `-orium`
-- `ase`: noun, used in naming enzymes, from ending of diastase (biochemistry).
-  (e.g. transcriptase)
+- `ase`: noun, used in naming enzymes, from ending of diastase (biochemistry);
+  verb, the same as `-ise` (e.g. transcriptase, increase, crease)
 - `at`: noun or verb (e.g. formate, commissariat)
 - `ate`: verb or adjective or noun (e.g. tractate, fortunate)
   - Verb, make something doing (e.g. regulate, control somthing or make it regular)
@@ -1284,6 +1294,7 @@ Variants:
 - `esce`: verb, to leave, abandon, give out (e.g. evanesce)
 - `ess`: noun, female (e.g. actress, waitress, tigress, directress, mistress)
 - `esis`: noun, the same as `etic` (e.g. pathogenesis)
+- `et`: noun, small or lesser (e.g. signet)
 - `etic`: adjective, pertaining to (e.g. pathetic)
   - From Greek `-etikos`, adjectival suffix for nouns ending in `-esis`
 - `ette`: noun, a small thing of a particular type (e.g. barrette, snackette,
@@ -1294,7 +1305,8 @@ Variants:
   - From French `-fique` and directly from Latin `-ficus` "making, doing"
 - `ful`: full of, having, characterized by (e.g. hateful, hopeful, bellyful)
   - Word-forming element attached to nouns (and in modern English to verb stems)
-- `fy`: verb, make, make into (e.g. rectify, verify, falsify, qualify, specify)
+- `fy`: verb, make, make into (e.g. rectify, verify, falsify, qualify, specify,
+  signify)
   - From French `-fier`
   - From Latin `-ficare`, combining form of facere "to make"
 - `heid`: noun, cognate with `hood` (e.g. apartheid, cepheid)
@@ -1315,7 +1327,7 @@ Variants:
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
   polyploid = `poly` + `plo` + `id`, vivid, factoid, stupid)
 - `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile,
-  volatile, mobile, exile, agile, facile, fictile)
+  volatile, mobile, exile, agile, facile, fictile, percentile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine,
