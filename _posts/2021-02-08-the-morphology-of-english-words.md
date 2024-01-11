@@ -363,6 +363,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cel`: rise high, tower (e.g. excel, excellent)
 - `cent`: hundred (e.g. centimeter, century, percent, centipede, bicentennial,
   centigrade)
+- `centr`: sharp point, goad, sting of a wasp (e.g. centre)
 - `cept`: to take; to grasp; to hold (e.g. accept, except, concept, recept,
   incept, percept, intercept, deception, precept, contracept, sceptic)
 - `cephal`: the same as `capit` (e.g. cephalopod, anencephaly, autocephalous)
@@ -429,6 +430,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
 - `dict`: to say, speak; say often, prescribe (e.g. dictionary, dictate. verdict)
 - `digm`: the same as `dic` (e.g. paramdigm)
+- `doc`: to take, accept; to show, teach, cause to know (e.g. document, docile,
+  docent)
+- `doct`: the same as `doc` (e.g. doctor, doctrine)
 - `domin`: lord, master, owner (e.g. dominate, dominant, condominium)
 - `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
 - `dose`: back, of the back (e.g. endorse)
@@ -574,6 +578,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mari`: of the sea; body of the sea (e.g. marine)
 - `matri`: mother, woman (e.g. matriarch)
 - `mast`: great; chief, head, director, teacher (e.g. master)
+- `milit`: to fight; soldier (e.g. military, paramilitary)
 - `migr`: to change, go, move (e.g. immigrate)
 - `mist`: the same as `mast` (e.g. mistress)
 - `miss`: the same as `mit` (e.g. mission, admission, commission, dismiss,
@@ -785,7 +790,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sid`: to sit, to settle (e.g. consider, preside, reside)
   - From Latin `sidere`, opposite with `st`
   - The `sid` (`sideris`) means heavenly body, star, constellation
-- `sign`: seal, imprint, sign, mark (e.g. signal, signet, signature)
+- `sign`: seal, imprint, sign, mark (e.g. signal, signet, signature, signitory,
+  design, resign, assign, consign, ensign)
 - `sit`: the same as `sid` (e.g. site, situate, position, visit)
 - `sed`: the same as `sid` (e.g. supersede, sediment, sedate, sedentary)
 - `sess`: the same as `sid` (e.g. possess, obsess, assess, session, sessile)
@@ -947,7 +953,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 ## Prefix
 
 - `a`: off, of, away from; emphatic (e.g. away, apart, ascribe, atom, abandon,
-  apply, apathy, avenue, accede)
+  apply, apathy, avenue, accede, acentric)
   - From Latin
 - `ab`: away from, off from, down (e.g. abuse, abduct, abstain, abscess)
 - `acu`: cusp (e.g. acupressure)
@@ -957,7 +963,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ana`: on, upon, above; back; again (e.g. analog, anatomy)
   - Before vowels an-, word-forming element
 - `andeno`: gland-like (e.g. andenoma, andenovirus)
+- `andro`: man, male, masculine (e.g. androcentric)
 - `ant`: in front of, forehead, before (e.g. antedate, anteroom, anticipate, antique)
+- `anthropo`: like or concerning human beings (e.g. anthropocentric)
 - `anti`: opposed to or against something (e.g. anti-virus, antibiotic,
   antipathetic, anti-cheating, antilogy)
 - `as`: the same as `ad` (e.g. assist)
@@ -971,7 +979,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `auto`: self, one's own, of oneself, of itself (e.g. autograph, autocycle)
 - `be`: about, around, on all sides (e.g. bemuse)
 - `bi`: two (e.g. binary, biweekly, bicycle, bicentennial, bisexual, bilingual)
-- `bi(o)`: relating to or using living things (e.g. biomedical, biography)
+- `bi(o)`: relating to or using living things (e.g. biomedical, biography,
+  biocentric)
 - `by`: the same as `be` (e.g. bypass, bygone, bylaw, bystander)
 - `cardio`: relating to the heart (e.g. cardiograph)
 - `cephal`: head, uppermost or top part, source (e.g. cephalopod, encephalopathy)
@@ -1021,9 +1030,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek `dys-`
 - `e`: same as `ex` (e.g. evict, educe)
 - `ec`: the same as `ex-` (e.g. eclectic)
+- `eco`: house, dwelling place, habitation; clan (e.g. ecocentric)
 - `ecto`: outside, external (e.g. ectoderm)
   - Word-forming element generally before vowels `ect-`
   - From Latinized form of Greek adverb `ektos` "outside, out of; free from; exempt"
+- `ego`: the self; that which feels, acts, or thinks; I (e.g. egocentric)
 - `electro`: electrical, electricity (e.g. electrotechnics)
 - `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower, embody)
 - `en`: in, into, on, upon; put on (e.g. enslave, envalope, endorse, entitle)
@@ -1035,6 +1046,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
 - `es`: to be (emphatic) (e.g. essence, espresso)
   - Proto-Indo-European root meaning "to be."
+- `ethno`: race, culture (e.g. ethnocentric)
 - `eu`: good, well, pleasant (e.g. eupheme, eulogy, euphony)
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
   extra = `ex` + `trans`, extort, exact, exigent, explicit, escape)
@@ -1052,6 +1064,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `gyre`: the same as `gyro` (e.g. gyrencephalic)
 - `gyro`: a ring, circle (e.g. gyrate, gyroscope)
   - From Greek `gyros`
+- `helio`: sun (e.g. heliocentric)
 - `hemi`: the same as `semi` (e.g. hemicycle, hemisphere)
 - `hetero`: other, opposite, different (e.g. heterogeneous, heterosexual,
   heterocyclic)
@@ -1127,6 +1140,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   perform, persist, permit, persevere)
 - `pedo`: boy, child; foot (e.g. pedology, pedophile, pedometer)
 - `pseudo`: false, lying; falsely; deceived (e.g. pseudologue)
+- `phallo`: penis; male (e.g. phallocentric)
 - `pir`: pear (e.g. piriform)
 - `plat`: small place (e.g. platform)
 - `poly`: multiple, many, entire (e.g. polytechnic, polycyclic, polyglot)
@@ -1185,6 +1199,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   telecast, telemeter)
 - `tetra`: four (e.g. teracycline)
   - before vowels `tetr-`, word-forming element
+- `theo`: god (e.g. theocentric)
 - `therm`: heat, hot, warm (e.g. hetertherm, thermostat)
 - `tra`: the same as `trans`
 - `traf`: the same as `trans` (e.g. traffic)
@@ -1227,7 +1242,7 @@ Variants:
 ## Suffix
 
 - `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa, partita,
-  agenda = `ag` + `end` + `a`, per-capita, apologia, excreta, insignia)
+  agenda = `ag` + `end` + `a`, per-capita, apologia, excreta, insignia, militia)
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
 - `acle`: noun (e.g. obstacle, spectacle, manacle)
@@ -1325,13 +1340,13 @@ Variants:
 - `ics`: noun, `ic` + `s`, the study of something (e.g. bioinformatics)
 - `icle`: the same as `-acle` (e.g. particle, fascicle)
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
-  polyploid = `poly` + `plo` + `id`, vivid, factoid, stupid)
+  polyploid = `poly` + `plo` + `id`, vivid, factoid, stupid, centroid)
 - `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile,
-  volatile, mobile, exile, agile, facile, fictile, percentile)
+  volatile, mobile, exile, agile, facile, fictile, percentile, docile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine,
-  facine, figurine, masculine, feminine)
+  facine, figurine, masculine, feminine, doctrine)
 - `ina`: the same as `ine` (e.g. retina = `rete` + `ina`)
 - `ing`: adjective (e.g. fitting)
 - `ion`: noun (e.g. formation, vision)
@@ -1404,7 +1419,8 @@ Variants:
   - From French `-ude`, from Latin `-udo` (stem `-udin-`). The equivalent of
     native `-ness`
 - `ul`: adjective, the same as `al` (e.g. formula, `form` + `ul` + `a`)
-- `um`: noun (e.g. forum, museum, premium, vacuum, plenum, medium, viviarium)
+- `um`: noun (e.g. forum, museum, premium, vacuum, plenum, medium, viviarium,
+  centrum)
 - `ur`: noun, the same as `-er` (e.g. voyageur, liqueur)
 - `ure`: noun or verb (e.g. structure, mixture, figure, feature)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
