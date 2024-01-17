@@ -83,6 +83,7 @@ collection in my daily learning:
 - **FITB** - Fill in the blank
 - **FML** - Fuck my life
 - **FOAF** - Friend of a friend
+- **FOMO** - Fear of missing out
 - **FTL** - For the loss
 - **FTW** - For the win
 - **FYE** - For your entertainment
