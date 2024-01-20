@@ -99,6 +99,15 @@ over and over again, and you'll be like a native.
   - Out of
   - Now that
 
+- Funny
+  - Hilarious
+
+- Go ahead
+  - Ask away
+  - Fire away
+  - I'm all ears
+  - Shoot
+
 - How
   - How is everything?
   - Are you ok?
