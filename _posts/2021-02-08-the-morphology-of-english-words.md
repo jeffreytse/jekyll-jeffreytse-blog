@@ -406,6 +406,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cover`: cover (e.g. coverall, bedcover, covert)
 - `cracy`: rule, power (e.g. aristocracy, democracy)
 - `crani`: head (e.g. cranial)
+- `cras`: tomorrow (e.g. procrastinate)
 - `cre`: arise, be born, increase, grow (e.g. create, increase, decrease,
   recreate, procreate, crease)
 - `cresc`: the same as `cre` (e.g. crescent, increscent, excrescent)
@@ -916,7 +917,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ventr` belly (e.g. ventriloquy)
 - `ver`: true, trustworthy (e.g. verdict)
 - `verb`: a word; to speak, say (e.g. verbal)
-- `vert` to turn, bend (e.g. convert, subvert)
+- `vers`: the same as `vert` (e.g. versatile)
+- `vert` to turn, bend (e.g. convert, subvert, versatile)
 - `vey`: the same as `vid` (e.g. survey, purvey)
 - `vi`: road (e.g. via, obviate, obvious, previous, trivia)
 - `via`: the same as `vi` (e.g. viaduct)
@@ -1046,7 +1048,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
 - `es`: to be (emphatic) (e.g. essence, espresso)
   - Proto-Indo-European root meaning "to be."
-- `ethno`: race, culture (e.g. ethnocentric)
+- `ethno`: race, culture (e.g. ethnocentric, ethnomusicology)
 - `eu`: good, well, pleasant (e.g. eupheme, eulogy, euphony)
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
   extra = `ex` + `trans`, extort, exact, exigent, explicit, escape)
@@ -1148,7 +1150,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pre`: before, ahead (e.g. preformed, prefigure)
   - From Latin `prae-`, before, ahead
 - `pro`: forward, before, forth (e.g. promote, prostitute, produce, profess,
-  profit, prologue)
+  profit, prologue, procrastinate)
   - It comes from `Prometheus`, who can predict the future.
 - `pur`: the same as `pro` (e.g. purpose, purview, purvey)
   - A variant of Latin pro "before, for" (see `pro-`)
