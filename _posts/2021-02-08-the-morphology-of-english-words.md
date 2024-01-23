@@ -363,7 +363,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cel`: rise high, tower (e.g. excel, excellent)
 - `cent`: hundred (e.g. centimeter, century, percent, centipede, bicentennial,
   centigrade)
-- `centr`: sharp point, goad, sting of a wasp (e.g. centre)
+- `centr`: sharp point, goad, sting of a wasp (e.g. centre, centripetal,
+  centroplasm, orthocenter)
 - `cept`: to take; to grasp; to hold (e.g. accept, except, concept, recept,
   incept, percept, intercept, deception, precept, contracept, sceptic)
 - `cephal`: the same as `capit` (e.g. cephalopod, anencephaly, autocephalous)
@@ -455,6 +456,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   artefact, factious, facture, faction, artifact, olfaction)
 - `fall`: downward movement (e.g. waterfall)
 - `fame`: fame, reputation
+- `fan`: to show, to appear, to bring to light (e.g. fancy, fantasy, fanatic,
+  fanfare)
 - `fasc`: bundle of wood (e.g. fascine, fascicle, fascia, fascist)
 - `feas`: the same as `fact` (e.g. fease, feasible, misfeasance)
 - `feat`: the same as `fact` (e.g. defeat, feature)
@@ -477,11 +480,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fibr` a thread, string (e.g. fiber, neurofibroma)
 - `fic`: the same as `fact` (e.g. office, officious, efficient, deficit,
   efficacy, benefice, difficult, traffic, suffice, proficient, artifice,
-  aficionado,
-  maleficent)
+  aficionado, maleficent)
 - `fict`: the same as `fact` (e.g. fiction, fictive)
 - `fig`: the same as `fact` (e.g. figure)
-- `fin`: end, limit, acme (e.g. define, final, finance, infinite, confine)
+- `fin`: a limit, an end, close, conclusion; an extremity, highest point;
+  greatest degree (e.g. define, final, finish, finance, infinite, confine,
+  semifinal, quarterfinal, affinal, finale, finite, confine, refine)
 - `fiss`: to split (e.g. fission, fissiparous)
 - `fit`: the same as `fact` (e.g. profit, outfit, soffit, refit, discomfit,
   befit, soffit, maleficent)
@@ -680,9 +684,16 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pear`: to come forth, be visible; submit, obey (e.g. appear)
 - `ped`: foot (e.g. centipede)
 - `pel`: to thrust, strike, drive (e.g. compel)
+- `penc`: the same as `pend` (e.g. )
+- `pend`: to hang, cause to hang; weigh; to draw, stretch, spin (e.g. depend,
+  suspend)
+- `pens`: the same as `pend` (e.g. )
+- `pet`: to rush, to fly (e.g. centripetal)
 - `per`: to try, risk
 - `peri`: the same as `per` (e.g. experience, peril)
 - `pert`: the same as `per` (e.g. expert)
+- `phan`: the same as `fan` (e.g. phantasy, phantom, diaphanous, sycophant)
+- `pher`: the same as `fer` (e.g. periphery)
 - `pheme`: speech, voice, utterance, a speaking (e.g. eupheme)
 - `phone`: voice; related to language (e.g. phonetic, telephone)
   - English comes from Proto-Phoenician
@@ -701,6 +712,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `plic`: the same as `pli` (e.g. explicate, implicate, supplicate)
 - `plo`: the same as `pli` (e.g. employ, deploy, diploma)
 - `ply`: the same as `pli` (e.g. apply, imply, reply, supply, comply)
+- `pond`: the same as `pend` (e.g. )
 - `preci`: reward, honor, fame, prize, value, worth (e.g. precious, appreciate)
 - `prais`: the same as `preci` (e.g. appraise)
 - `pric`: the same as `preci` (e.g. price, pricy, pricey)
@@ -806,7 +818,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   insoluble)
 - `solv`: to loosen, divide, cut apart (e.g. solve, solver, absolve, dissolve,
   resolve)
-- `sphere`: globe, ball (e.g. hemisphere, atmosphere)
+- `sphere`: globe, ball (e.g. hemisphere, atmosphere, centrosphere)
 - `star`: the same as `ster`
 - `ster`: star (e.g. )
 - `stel`: the same as `ster` (e.g. stellar)
@@ -961,6 +973,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `acu`: cusp (e.g. acupressure)
 - `ad`: to (e.g. advocate, admit, adduce, adjourn, admix)
 - `aero`: air (e.g. aerostat, aerobatics)
+- `af`: the same as `ad` (e.g. affinal)
 - `an`: the same as `un` (e.g. anarchy)
 - `ana`: on, upon, above; back; again (e.g. analog, anatomy)
   - Before vowels an-, word-forming element
@@ -997,7 +1010,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   emphatic; (e.g. compress, commix)
   - From Latin `com`, `cum`
 - `con`: the same as `com` (e.g. confirm, convergence, constant, constitute,
-  conscious, confess, contact, configure)
+  conscious, confess, confine, contact, configure)
   - It is the form of `com-` used in Latin before consonants except `-b-`,
     `-p-`, `-l-`, `-m-`, or `-r-`.
 - `cor`: same as `con` (e.g. corrupt, correct, correlate)
@@ -1012,7 +1025,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `de`: opposite, remove, reduce, from, entirely, completely, off, away, without
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
-  descend, despite, deactive, defeat, detain, dedicate, decedent)
+  descend, despite, deactive, defeat, detain, dedicate, decedent, define)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `deca`: ten (e.g. decalogue)
 - `deci`: the same as `deca` (e.g. decimal)
@@ -1022,7 +1035,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   diploma, dielectric)
   - From Greek, cognate with `bi-`, meaning "two, twice"
   - From Latin, `dis-`, meaning "apart, asunder"
-- `dia`: across, between; through, throughout (e.g. dialect, dialog, diatonic)
+- `dia`: across, between; through, throughout (e.g. dialect, dialog, diatonic,
+  diaphanous)
   - before vowels, `di-`, word-forming element meaning "through, in different
     directions, between,"
 - `dis`: not or opposite (e.g. disagree, disfigure, difficult)
@@ -1044,7 +1058,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Word-forming element from Greek `endon` "in, within"
 - `enter`: the same as `inter` (e.g. entertain)
 - `epi`: on, upon, above;in addition to; toward, among; (e.g. epimetheus,
-  epistemic, episode, epilogue)
+  epistemic, episode, epilogue, epicenter)
   - Before vowels reduced to `ep-`, before aspirated vowels `eph-`
 - `es`: to be (emphatic) (e.g. essence, espresso)
   - Proto-Indo-European root meaning "to be."
@@ -1127,7 +1141,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   omniscient)
 - `op`: the same as `ob-` (e.g. oppress)
   - assimilated form of `ob-` before `-p-`
-- `ortho`: straight, true, correct, regular (e.g. orthostatic)
+- `ortho`: straight, true, correct, regular (e.g. orthostatic, orthocenter)
   - before vowels, word-forming element, now mostly in scientific and technical
     compounds, from Greek orthos.
 - `osteo`: relating to bones (e.g. osteopath)
@@ -1140,6 +1154,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: through; throughout; thoroughly; entirely, utterly; very (e.g. perfect,
   perform, persist, permit, persevere)
+- `peri`: round about (e.g. periphery)
 - `pedo`: boy, child; foot (e.g. pedology, pedophile, pedometer)
 - `pseudo`: false, lying; falsely; deceived (e.g. pseudologue)
 - `phallo`: penis; male (e.g. phallocentric)
@@ -1168,7 +1183,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `retro`: backward, reverse (e.g. retrospect, retroactive, retrocede)
 - `rheo`: a flowing, stream, current (e.g. rheostat)
   - from Greek `rheos`, which is related to rhein "to flow"
-- `se`: without, apart, aside, on one's own (e.g. select, secret, seduce,
+- `se`: without, apart, aside, away, on one's own (e.g. select, secret, seduce,
   seclude, segregate, secede)
 - `seam`: to bind, sew (e.g. seamstress)
 - `semi`: half (e.g. semicolon)
@@ -1262,7 +1277,7 @@ Variants:
     related to," originally neuter adjectival suffix
 - `al`: noun or adjective (e.g. verbal, medial, similar)
 - `an`: noun or adjective (e.g. median, partisan, urban)
-- `ance`: noun (e.g. performance, appearance, balance, governance)
+- `ance`: noun (e.g. performance, appearance, balance, governance, finance)
   - The action, state, or quality of doing something or of being something
 - `ant`: noun (e.g. informant, assistant, redundant, significant)
   - Someone or something that does something
@@ -1291,7 +1306,7 @@ Variants:
   - From Old English dom "statute, judgment" (see `doom`)
 - `don`: verb (e.g. abandon)
 - `e`: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme, sauce,
-  tine, square, crime, envalope, nerve, urbane)
+  tine, square, crime, envalope, nerve, urbane, finale)
   - Sometime is adjective (e.g. remote, marine, simple)
 - `ed`: adjective, past tens
   - For the past tens, `ed` = `end` = `en`, `given` = `give` + `end`
@@ -1403,6 +1418,7 @@ Variants:
 - `pathic`: adjective, the same as `path` + `ic` (e.g. neuropathic)
 - `phile`: noun, someone who likes something (e.g. technophile)
 - `phobe`: noun, someone who dislikes or hates something (e.g. technophobe)
+- `plasm`: a growth, a development; something molded (e.g. centroplasm)
 - `rama`: noun, sight, view, spectacular display or instance of (e.g. cyclorama)
 - `ship`: noun, abstraction (e.g. friendship, directorship, musicianship)
 - `some`: adjective (e.g. venturesome, troublesome)
