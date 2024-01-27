@@ -685,9 +685,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ped`: foot (e.g. centipede)
 - `pel`: to thrust, strike, drive (e.g. compel)
 - `penc`: the same as `pend` (e.g. )
-- `pend`: to hang, cause to hang; weigh; to draw, stretch, spin (e.g. depend,
-  suspend)
-- `pens`: the same as `pend` (e.g. )
+- `pend`: to hang, cause to hang; weigh; to draw, stretch, spin; pay (e.g.
+  depend, suspend, expend, spend = `dis` + `spend`, impend)
+- `pens`: the same as `pend` (e.g. suspense, dispense, pension)
 - `pet`: to rush, to fly (e.g. centripetal)
 - `per`: to try, risk
 - `peri`: the same as `per` (e.g. experience, peril)
@@ -970,6 +970,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   apply, apathy, avenue, accede, acentric)
   - From Latin
 - `ab`: away from, off from, down (e.g. abuse, abduct, abstain, abscess)
+- `ac`: the same as `ad` (e.g. account)
 - `acu`: cusp (e.g. acupressure)
 - `ad`: to (e.g. advocate, admit, adduce, adjourn, admix)
 - `aero`: air (e.g. aerostat, aerobatics)
@@ -983,6 +984,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `anthropo`: like or concerning human beings (e.g. anthropocentric)
 - `anti`: opposed to or against something (e.g. anti-virus, antibiotic,
   antipathetic, anti-cheating, antilogy)
+- `ap`: the same as `ad` (e.g. append)
 - `as`: the same as `ad` (e.g. assist)
 - `agri`: relating to farming (e.g. agriculture, agribusiness)
 - `agro`: the same as `agri` (e.g. agrobiology, agro-industry)
@@ -1039,7 +1041,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   diaphanous)
   - before vowels, `di-`, word-forming element meaning "through, in different
     directions, between,"
-- `dis`: not or opposite (e.g. disagree, disfigure, difficult)
+- `dis`: not or opposite; apart, away (e.g. disagree, disfigure, difficult,
+  spend)
 - `du`: the same as `di` (e.g. duplicate, duplex)
 - `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction,
   dyslogy)
@@ -1208,7 +1211,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Anglo-French and Old French, from Old French `sour-`, `sor-`, `sur-`,
     from Latin `super`
   - Assimilated form of `sub-` before `-r-`.
-- `sus`: the same as `sub` (e.g. sustain)
+- `sus`: the same as `sub` (e.g. sustain, suspend)
   - Assimilated form of `sub-` before `-s-`.
 - `super`: above (e.g. superstructure, superstring)
 - `tauto`: the same (e.g. tautological)
@@ -1259,7 +1262,8 @@ Variants:
 ## Suffix
 
 - `a`: noun (e.g formula, primipara, quota, plena, media, summa, visa, partita,
-  agenda = `ag` + `end` + `a`, per-capita, apologia, excreta, insignia, militia)
+  agenda = `ag` + `end` + `a`, per-capita, apologia, excreta, insignia, militia,
+  curricula)
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
 - `acle`: noun (e.g. obstacle, spectacle, manacle)
@@ -1306,7 +1310,7 @@ Variants:
   - From Old English dom "statute, judgment" (see `doom`)
 - `don`: verb (e.g. abandon)
 - `e`: noun (e.g. promote, movie, motorcade, cycle, home, vehicle, creme, sauce,
-  tine, square, crime, envalope, nerve, urbane, finale)
+  tine, square, crime, envalope, nerve, urbane, finale, suspense)
   - Sometime is adjective (e.g. remote, marine, simple)
 - `ed`: adjective, past tens
   - For the past tens, `ed` = `end` = `en`, `given` = `give` + `end`
@@ -1386,6 +1390,7 @@ Variants:
 - `istic`: `ist` + `ic` (e.g. formalistic)
 - `itis`: noun (e.g. periodontitis)
   - An illness or infection that affects a particular part of your body
+- `ix`: the same as `ics` (e.g. appendix)
 - `kin`: little (e.g. napkin)
 - `latry`: noun, worship of (e.g. technolatry, bardolatry)
   - From Greek `-latreia` "worship, service paid to the gods, hired labor,"
@@ -1438,7 +1443,7 @@ Variants:
     native `-ness`
 - `ul`: adjective, the same as `al` (e.g. formula, `form` + `ul` + `a`)
 - `um`: noun (e.g. forum, museum, premium, vacuum, plenum, medium, viviarium,
-  centrum)
+  centrum, curriculum)
 - `ur`: noun, the same as `-er` (e.g. voyageur, liqueur)
 - `ure`: noun or verb (e.g. structure, mixture, figure, feature)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
