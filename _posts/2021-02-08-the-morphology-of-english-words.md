@@ -686,8 +686,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pel`: to thrust, strike, drive (e.g. compel)
 - `penc`: the same as `pend` (e.g. )
 - `pend`: to hang, cause to hang; weigh; to draw, stretch, spin; pay (e.g.
-  depend, suspend, expend, spend = `dis` + `spend`, impend)
-- `pens`: the same as `pend` (e.g. suspense, dispense, pension)
+  depend, suspend, expend, spend = `dis` + `spend`, impend, perpend, stipend)
+- `pens`: the same as `pend` (e.g. suspense, dispense, pension, compensate,
+  propensity)
 - `pet`: to rush, to fly (e.g. centripetal)
 - `per`: to try, risk
 - `peri`: the same as `per` (e.g. experience, peril)
@@ -735,6 +736,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pol`: citadel, fort, city (e.g. politic, polite, police)
   - From Greek `polis`
 - `pon`: the same as `loc` (e.g. )
+- `pond`: the same as `pend` (e.g. ponder)
 - `poor`: poor
 - `port`: to lead, pass over (e.g. import, export, transport, portable)
 - `pos`: the same as `loc` (e.g. position)
@@ -1443,7 +1445,7 @@ Variants:
     native `-ness`
 - `ul`: adjective, the same as `al` (e.g. formula, `form` + `ul` + `a`)
 - `um`: noun (e.g. forum, museum, premium, vacuum, plenum, medium, viviarium,
-  centrum, curriculum)
+  centrum, curriculum, pendulum)
 - `ur`: noun, the same as `-er` (e.g. voyageur, liqueur)
 - `ure`: noun or verb (e.g. structure, mixture, figure, feature)
   - Suffix forming abstract nouns of action, from Old French `-ure`, from Latin
