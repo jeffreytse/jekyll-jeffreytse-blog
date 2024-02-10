@@ -80,6 +80,10 @@ over and over again, and you'll be like a native.
   - Don't mention it
   - You shouldn't have
 
+- Almost
+  - Practically
+  - Virtually
+
 - Also
   - As well
   - Likewise
@@ -99,6 +103,10 @@ over and over again, and you'll be like a native.
   - Out of
   - Now that
 
+- Completely
+  - Definitely
+  - Outrightly
+
 - Funny
   - Hilarious
 
@@ -111,6 +119,10 @@ over and over again, and you'll be like a native.
 - How
   - How is everything?
   - Are you ok?
+
+- Miss
+  - Ignore
+  - Overlook
 
 - My fault
   - My mistake
