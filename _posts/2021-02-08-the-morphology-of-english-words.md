@@ -856,8 +856,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sui`: one's own (e.g. suicide)
   - From Latin sui "of oneself" (genitive of se "self")
 - `swim`: swim
-- `syl`: the same as `syn` (e.g. syllogism)
-- `syn`: to place together, organize, form in order (e.g. synergy, syntactic)
+- `syl`: the same as `syn` (e.g. syllogism, syllabus)
+- `syn`: with, to place together, organize, form in order (e.g. synergy, syntactic)
   - From stem of `synistanai`
 - `sys`: the same as `syn` (e.g. system)
 - `tact`: the same as `tag` (e.g. contact, tactual, tactile, intact, tactless,
@@ -919,6 +919,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `vall`: valley (e.g. )
 - `vamp`: patch up, repair (e.g. revamp)
 - `van`: the same as `vac` (e.g. vanity, vanish, evanish, evanesce)
+- `vanc`: the same as `vant` (e.g. advance, vanguard, vanward)
+- `vant`: front, forehead (e.g. vantage, advantage)
 - `void`: the same as `vac`
 - `vas`: a tube, duct, or conduit for conveying blood, lymph, semen, etc.
   (e.g. vasopressor, vasoconstriction)
@@ -971,10 +973,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `a`: off, of, away from; emphatic (e.g. away, apart, ascribe, atom, abandon,
   apply, apathy, avenue, accede, acentric)
   - From Latin
-- `ab`: away from, off from, down (e.g. abuse, abduct, abstain, abscess)
+- `ab`: away from, off from, down; to (e.g. abuse, abduct, abstain, abscess)
 - `ac`: the same as `ad` (e.g. account)
 - `acu`: cusp (e.g. acupressure)
-- `ad`: to (e.g. advocate, admit, adduce, adjourn, admix)
+- `ad`: the same as `ab` (e.g. advocate, admit, adduce, adjourn, admix, advance)
 - `aero`: air (e.g. aerostat, aerobatics)
 - `af`: the same as `ad` (e.g. affinal)
 - `an`: the same as `un` (e.g. anarchy)
@@ -1453,6 +1455,8 @@ Variants:
 - `us`: noun (e.g. exodus, humerus, rectus, stimulus, genius, literatus, locus)
 - `ute`: verb or noun (e.g. institute)
   - verb is same as `-ate`
+- `ward`: adverbial suffix expressing direction, toward (e.g. inward, onward,
+  upward, award, backward, downward, eastward, vanward)
 - `y`: verb (e.g. portray)
 - ...
 
