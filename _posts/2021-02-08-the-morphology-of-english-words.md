@@ -427,6 +427,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `dek`: to take, accept (e.g. decorate)
 - `dent`: a hollow area in the surface of something (e.g. dental)
   - From Latin `dint`
+- `di`: day; to shine (e.g. `diet` = `di` + `et` (eat), diary, meridian,
+  meridional, antemeridian, postmeridian)
+  - From Latin `dies` a day.
 - `dic`: to show (e.g. dedicate, indicate)
   - Cognate with Latin `dicere` "to show;"
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
@@ -497,6 +500,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `fore`: former, earlier (e.g. forearm, forehand, foresee, foretaste)
 - `form`: shape, look, etc. (e.g. transform, formula)
   - It comes from Latin `formare`
+- `freq`: to cram together; common, usual; happening at short intervals, often
+  recurring (e.g. frequent, frequency, infrequency)
 - `gage`: pledge, have responsibility for (e.g. engage)
 - `gene`: give birth, beget; race, kind; native, natural (e.g. general,
   generation, genuine, antigen, pathogen, parthenogenesis)
@@ -984,7 +989,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Before vowels an-, word-forming element
 - `andeno`: gland-like (e.g. andenoma, andenovirus)
 - `andro`: man, male, masculine (e.g. androcentric)
-- `ant`: in front of, forehead, before (e.g. antedate, anteroom, anticipate, antique)
+- `ant`: in front of, forehead, before (e.g. antedate, anteroom, anticipate,
+  antique, antemeridian)
 - `anthropo`: like or concerning human beings (e.g. anthropocentric)
 - `anti`: opposed to or against something (e.g. anti-virus, antibiotic,
   antipathetic, anti-cheating, antilogy)
@@ -1123,9 +1129,11 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `main`: main (e.g. main)
 - `magn`: big
 - `matri`: of or relating to women, mother (e.g. matrimony, matrilocal)
+- `merid`: the same as `mid` (e.g. meridian)
 - `meta`: beyond or at a higher level; relating to a change of state or
   position; (e.g. metaphysical, metabolism, metastatic)
 - `micro`: extremely small (e.g. microphone, microwave)
+- `mid`: middle (e.g. middle)
 - `mini`: less; subordinate; small (e.g. minimum, minister, minutia)
 - `mis`: badly, wrongly (e.g. mistake, misinform, misunderstand)
 - `mono`: single, alone (e.g. monolith)
@@ -1159,8 +1167,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   against (e.g. paramedic, parastatal, paralegal, paraeducator, paranormal,
   parachute, paramount)
   - From Greek `para-`, before vowels, par-, word-forming element.
-- `per`: through; throughout; thoroughly; entirely, utterly; very (e.g. perfect,
-  perform, persist, permit, persevere)
+- `per`: forward; through; throughout; thoroughly; entirely, utterly; very
+  (e.g. perfect, perform, persist, permit, persevere, pertain)
 - `peri`: round about (e.g. periphery)
 - `pedo`: boy, child; foot (e.g. pedology, pedophile, pedometer)
 - `pseudo`: false, lying; falsely; deceived (e.g. pseudologue)
@@ -1169,6 +1177,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `plat`: small place (e.g. platform)
 - `poly`: multiple, many, entire (e.g. polytechnic, polycyclic, polyglot)
 - `por`: the same as `pro` (e.g. portray, portrait)
+- `post`: later than, after (e.g. postmeridian)
 - `pre`: before, ahead (e.g. preformed, prefigure)
   - From Latin `prae-`, before, ahead
 - `pro`: forward, before, forth (e.g. promote, prostitute, produce, profess,
