@@ -381,6 +381,11 @@ over and over again, and you'll be like a native.
   - Unhappy
   - Unpleasant
 
+- Big
+  - Huge
+  - Massive
+  - Gigantic
+
 - Boring
   - Lame
 
@@ -517,11 +522,22 @@ over and over again, and you'll be like a native.
   - Don't worry about it
   - It's not important
 
+- Good
+  - Great
+  - Pleasant
+  - Superb
+
 - Great
   - Epic
   - Exceptional
   - Grand
   - Marvelous
+  - Terrific
+
+- Happy
+  - Joyful
+  - Elated
+  - Ecstatic
 
 - Happen
   - Occur
@@ -563,9 +579,19 @@ over and over again, and you'll be like a native.
   - Appreciably
   - A bit
   - A touch of
+  - Somewhat
+
+- Interesting
+  - Fascinating
+  - Captivating
+  - Engaging
 
 - Like
   - Resemble
+
+- Like (as a filler word)
+  - Um...
+  - You know...
 
 - Likely
   - Apt
@@ -576,6 +602,11 @@ over and over again, and you'll be like a native.
 - Mainly
   - Mostly
   - Predominantly
+
+- Nice
+  - Lovely
+  - Charming
+  - Delightful
 
 - Conversely
   - On the contrary
@@ -620,8 +651,18 @@ over and over again, and you'll be like a native.
 - Root cause
   - Rationale
 
+- Sad
+  - Gloomy
+  - Heartbroken
+  - Upset
+
 - Same
   - Identical
+
+- Small
+  - Tiny
+  - Compact
+  - Petite (For woman)
 
 - So
   - Consequently
@@ -637,6 +678,9 @@ over and over again, and you'll be like a native.
 
 - Suddenly
   - Abruptly
+
+- Surprise
+  - Astonish
 
 - Taste
   - Flavor
@@ -671,11 +715,14 @@ over and over again, and you'll be like a native.
   - Elusive
 
 - Very
+  - Extremely
   - Enormously
   - Fairly
   - Freaking
   - Immensely
+  - Incrediblely
   - Quite
+  - Remarkablely
   - Tremendously
 
 - Ways
