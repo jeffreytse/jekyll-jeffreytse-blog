@@ -579,6 +579,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   loquacious, grandiloquent)
 - `low`: low
 - `lun`: moon (e.g. lunar)
+- `ly`: to loosen, divide, cut apart (e.g. paralysis)
 - `main`: the same as `man` (e.g. maintain)
 - `mand`: to order (e.g. demand)
 - `man`: hand (e.g. manufactor, manuscript, mandate, manumit, emancipate, manner,
@@ -750,6 +751,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `quar`: four (e.g. square, quarantine)
 - `que`: to ask, to seek (e.g. quest)
 - `quire`: the same as `que` (e.g. require, inquire)
+- `rar`: to separate; adjoin (e.g. rare, rarely, rarity, rarefy)
 - `rear`: back, behind; to rise (e.g. rearview, rearrange)
   - From Latin `retro`
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
@@ -782,6 +784,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin `serius`
 - `sev`: the same as `seri` (e.g. severe, persevere)
 - `sol`: sole (e.g. sojourn, soliloquy)
+- `solet`: to be used to, be accustomed (e.g. obsolete)
 - `sim`: the same as `sem` (e.g. simple)
 - `simil`: the same as `sem` (e.g. similar, facsimile)
 - `simul`: the same as `sem` (e.g. simulate)
@@ -891,8 +894,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ting`: the same as `tag` (e.g. contingency)
 - `tire`: become weary, exhausted (e.g. overtire)
 - `tom`: divide (e.g. atom, prostatectomy)
-- `ton`: a sound, tone, accent; the same as `tain` (e.g. tone, tonic, tonal,
-  tony, diatonic, baritone, intone, monotone, tongue)
+- `ton`: a sound, tone, accent; to thunder; the same as `tain` (e.g. tone,
+  tonic, tonal, tony, diatonic, baritone, intone, monotone, tongue, astonish)
 - `tong`: the same as `tag` (e.g. tongue)
 - `top`: top
 - `torn`: a turn, trick, round, circuit, circumference (e.g. attorney, tornado)
@@ -995,7 +998,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `anti`: opposed to or against something (e.g. anti-virus, antibiotic,
   antipathetic, anti-cheating, antilogy)
 - `ap`: the same as `ad` (e.g. append)
-- `as`: the same as `ad` (e.g. assist)
+- `as`: the same as `ad`; the same as `ex` (e.g. assist, astonish)
 - `agri`: relating to farming (e.g. agriculture, agribusiness)
 - `agro`: the same as `agri` (e.g. agrobiology, agro-industry)
 - `al`: all (e.g. alway)
@@ -1149,8 +1152,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `net`: net (e.g. internet)
 - `non`: not, none = no one (e.g. nonformal)
 - `nephro`: kidney (e.g. nephrology)
-- `ob`: toward(emphatic), against, before, near, across, down (e.g. obstruct,
-  obsess, omit, obliterate, oblate, obscene, obtain)
+- `ob`: toward(emphatic), against, before, near, across, down, away (e.g.
+  obstruct, obsess, omit, obliterate, oblate, obscene, obtain, obsolete)
 - `oc`: the same as `ob-` (e.g. occupy, occlude, occipital)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
   omniscient)
@@ -1165,7 +1168,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek `pan-`, combining form of pas
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal; defense
   against (e.g. paramedic, parastatal, paralegal, paraeducator, paranormal,
-  parachute, paramount)
+  parachute, paramount, paralysis)
   - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: forward; through; throughout; thoroughly; entirely, utterly; very
   (e.g. perfect, perform, persist, permit, persevere, pertain)
@@ -1439,6 +1442,7 @@ Variants:
 - `plasm`: a growth, a development; something molded (e.g. centroplasm)
 - `rama`: noun, sight, view, spectacular display or instance of (e.g. cyclorama)
 - `ship`: noun, abstraction (e.g. friendship, directorship, musicianship)
+- `sis`: nouns, denoting action, process, state, condition (e.g. paralysis)
 - `some`: adjective (e.g. venturesome, troublesome)
   - Word-forming element used in making adjectives from nouns or adjectives (and
     sometimes verbs)
