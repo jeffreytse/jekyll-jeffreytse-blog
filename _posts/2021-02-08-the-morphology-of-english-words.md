@@ -441,6 +441,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `domin`: lord, master, owner (e.g. dominate, dominant, condominium)
 - `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
 - `dose`: back, of the back (e.g. endorse)
+- `dot`: the same as `don` (e.g. anecdote)
+- `dox`: opinion (e.g. paradox)
 - `draw`: act of pulling (e.g. drawstring)
 - `duc`: to lead (e.g. produce, educate, introduce, seduce, induce, educe,
   edduce, transduce)
@@ -641,8 +643,6 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Message from North, East, West and South
 - `noc`: to harm (e.g. nocent, innocent, nocuous, innocuity)
   - From Latin `nocere`
-- `nomo`: the same as `neme` (e.g. autonomy)
-- `nomy`: the same as `neme` (e.g. economy, astronomy, agronomy)
 - `non`: no (e.g. nonperformance)
 - `nox`: the same as `noc` (e.g. noxious, obnoxious)
 - `nui`: the same as `noc` (e.g. nuisance)
@@ -870,7 +870,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sys`: the same as `syn` (e.g. system)
 - `tact`: the same as `tag` (e.g. contact, tactual, tactile, intact, tactless,
   tactic, syntactic, stereotactic)
-- `tag`: to touch, handle; arrange (e.g. tag, contagion, integer)
+- `tag`: to touch, handle; arrange (e.g. tag, contagion, integer, taxonomy)
 - `tail`: to cut in pieces (e.g. tailor, detail)
 - `tain`: to hold, to stretch (e.g. attain, contain, detain, retain, maintain,
   countenance, entertain, obtain, sustain, abstain, pertain)
@@ -987,7 +987,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ad`: the same as `ab` (e.g. advocate, admit, adduce, adjourn, admix, advance)
 - `aero`: air (e.g. aerostat, aerobatics)
 - `af`: the same as `ad` (e.g. affinal)
-- `an`: the same as `un` (e.g. anarchy)
+- `an`: the same as `un` (e.g. anarchy, anecodote = `an` + `ec`=`ex` + `dot`=`to give`)
 - `ana`: on, upon, above; back; again (e.g. analog, anatomy)
   - Before vowels an-, word-forming element
 - `andeno`: gland-like (e.g. andenoma, andenovirus)
@@ -1020,7 +1020,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
 - `co`: the same as `com` (e.g. costar, cognate, cooperate, coexist, coeducation)
-- `col`: the same as `com` (e.g. colleague)
+- `col`: the same as `com` (e.g. colleague, collocation, collection)
 - `com`: with, together, together with, in combination; sometimes merely
   emphatic; (e.g. compress, commix)
   - From Latin `com`, `cum`
@@ -1168,7 +1168,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek `pan-`, combining form of pas
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal; defense
   against (e.g. paramedic, parastatal, paralegal, paraeducator, paranormal,
-  parachute, paramount, paralysis)
+  parachute, paramount, paralysis, paradox)
   - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: forward; through; throughout; thoroughly; entirely, utterly; very
   (e.g. perfect, perform, persist, permit, persevere, pertain)
@@ -1241,6 +1241,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `traf`: the same as `trans` (e.g. traffic)
 - `trans`: across, beyond, through, on the other side of, to go beyond (e.g.
   transparent, transcribe)
+- `tres`: the same as `trans` (e.g. trespass)
 - `tre`: fourteen (e.g. trecento)
 - `tri`: three, having three, once every three (e.g. trivia, triangle, tricycle,
   triplex)
@@ -1425,7 +1426,8 @@ Variants:
 - `mony`: noun, action, state, condition (e.g. matrimony)
 - `ness`: noun (e.g. formlessness, sickness, highness, suppleness)
   - A quality or a condition (used to form nouns from adjectives)
-- `nomy`: subject; manage (e.g. economy, economic)
+- `nomy`: method; subject; manage (e.g. autonomy, economy, economic, astronomy,
+  agronomy, taxonomy)
 - `o`: noun (e.g. proviso)
   - The same as `-a`, `-e`, `-i`
 - `ol` the same as `al` (e.g. capitol)
