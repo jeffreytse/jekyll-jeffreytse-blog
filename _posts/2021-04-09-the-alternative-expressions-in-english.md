@@ -107,6 +107,9 @@ over and over again, and you'll be like a native.
   - Definitely
   - Outrightly
 
+- Especially
+  - Notably
+
 - Funny
   - Hilarious
 
@@ -345,6 +348,12 @@ over and over again, and you'll be like a native.
 - I worked very hard every day
   - I worked around the clock
 
+- I don't care
+  - It's up to you
+  - Either one is okay
+  - I'm cool with anything
+  - Whatever
+
 - A lot of
   - A bunch of
   - A bundle of
@@ -386,6 +395,11 @@ over and over again, and you'll be like a native.
   - Massive
   - Gigantic
 
+- Blur
+  - Hazy
+  - Nebulous
+  - Vague
+
 - Boring
   - Lame
 
@@ -420,6 +434,8 @@ over and over again, and you'll be like a native.
   - You can do it
   - You've got this
   - Stay strong
+  - I believe in you
+  - I got your back, bro
 
 - Decline
   - Decrease
@@ -526,6 +542,8 @@ over and over again, and you'll be like a native.
   - Great
   - Pleasant
   - Superb
+  - Super-duper
+  - Excellent
 
 - Great
   - Epic
@@ -566,6 +584,9 @@ over and over again, and you'll be like a native.
 - In conclusion
   - In summation
   - To encapsulate
+
+- In fact
+  - Factually
 
 - Good luck
   - Best wishes
@@ -658,6 +679,9 @@ over and over again, and you'll be like a native.
 
 - Same
   - Identical
+
+- Simple
+  - Straightforward
 
 - Small
   - Tiny
