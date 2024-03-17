@@ -383,6 +383,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `chapt`: the same as `capit` (e.g. chapter)
 - `chief` the same as `capit`
 - `chlor`: chlor (e.g. chloroform)
+- `chor`: dance (e.g. choreography)
 - `chutd`: a fall (e.g. parachute)
 - `cid`: to cut (e.g. suicide)
 - `cis`: the same as `cid` (e.g. circumcise)
@@ -417,7 +418,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cruc`: cross (e.g. cruciform)
 - `cunei`: cunei (e.g. cuneiform)
 - `cup`: the same as `cept` (e.g. occupy, recuperate, cupidity)
-- `cur`: care, concern (e.g. manicure)
+- `cur`: to run (e.g. occur)
+- `cure`: care, concern (e.g. manicure)
 - `cuss`: strike, hit, shake (e.g. percuss)
 - `cycl`: the same as `circ` (e.g. cycle, cyclo, bicycle, unicycle, cyclograph,
   cyclorama)
@@ -749,8 +751,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `poss`: powerful; lord; (e.g. possess, possible)
 - `pot`: the same as `pos` (e.g. potential)
 - `quar`: four (e.g. square, quarantine)
-- `que`: to ask, to seek (e.g. quest)
-- `quire`: the same as `que` (e.g. require, inquire)
+- `que`: to ask, to seek (e.g. quest, exquesite, requisite)
+- `quire`: the same as `que` (e.g. require, inquire, query)
 - `rar`: to separate; adjoin (e.g. rare, rarely, rarity, rarefy)
 - `rear`: back, behind; to rise (e.g. rearview, rearrange)
   - From Latin `retro`
@@ -918,6 +920,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tutor`: to protect; to be strong (e.g. tutorial, tuition)
 - `twi`: two, twice, double, in two ways; to divide, separate (e.g. twilight,
   twist)
+- `unda`: a wave; to flow (e.g. inundate)
 - `under`: under (e.g. underline)
 - `urb`: city, walled town (e.g. urban, suburb, exburb, interurban, conurbation)
 - `urg`: the same as `erg` (e.g. urge, surgery=`s` hand + `urg` + `ery`)
@@ -1069,7 +1072,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ego`: the self; that which feels, acts, or thinks; I (e.g. egocentric)
 - `electro`: electrical, electricity (e.g. electrotechnics)
 - `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower, embody)
-- `en`: in, into, on, upon; put on (e.g. enslave, envalope, endorse, entitle)
+- `en`: in, into, on, onto, upon; put on (e.g. enslave, envalope, endorse,
+  entitle)
 - `endo`: inside, within, internal (e.g. endogenous, endocrine, endomixis)
   - Word-forming element from Greek `endon` "in, within"
 - `enter`: the same as `inter` (e.g. entertain)
@@ -1113,7 +1117,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
 - `in`: the same as `im-` and `en-` (e.g. invalid, insufficient, inform, inland,
-  inquire, intact, indicate, inevitable, increase)
+  inquire, intact, indicate, inevitable, increase, inundate)
 - `infra`: below, under (e.g. infrastructure)
 - `inter`: among, between or involving two or more different things (e.g.
   internet, interact, intercede)
@@ -1154,7 +1158,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `nephro`: kidney (e.g. nephrology)
 - `ob`: toward(emphatic), against, before, near, across, down, away (e.g.
   obstruct, obsess, omit, obliterate, oblate, obscene, obtain, obsolete)
-- `oc`: the same as `ob-` (e.g. occupy, occlude, occipital)
+- `oc`: the same as `ob-` (e.g. occupy, occlude, occipital, occur)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
   omniscient)
 - `op`: the same as `ob-` (e.g. oppress)
