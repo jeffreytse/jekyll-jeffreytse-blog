@@ -232,6 +232,12 @@ errors, hardware, or power failures.
 - Consistency
   - It refers to guarantee that all data that is written to the database will
     confirm to defined schema and constraints at the time of saving the data.
+  - 2 Categories
+    - Transaction Consistency (i.e. ACID)
+    - Data Consistency
+      - Distributed storage of data is the only reason for consistency
+      - In distributed systems, consistency refers to data consistency in
+        multi-replica problems.
 - Isolation
   - It refers to the ability of a database to isolate data among transactions
     providing an independent view of the data.
@@ -599,8 +605,19 @@ Use Cases:
 Solutions:
 
 - AT
-- TCC
+- 2PC (Two Phase Commit)
+  - Strong consistency
+- TCC (Try Confirm Cancel)
+  - Eventual consistency
 - Saga
+  - Advantages
+    - Long lived transaction
+  - Execution strategies
+    - Forward recovery (The premise is that each sub-transaction will eventually succeed.)
+    - Backward recovery (Rollback via per-subtransaction compensation mechanism)
+  - Transaction Coordination
+    - Choreography
+    - Orchestration
 - XA Specification
 - Local-Message-Based Distributed Transactions
 - Transactional-Message-Based Distributed Transactions
