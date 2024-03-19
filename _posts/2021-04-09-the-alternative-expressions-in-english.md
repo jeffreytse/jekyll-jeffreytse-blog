@@ -88,6 +88,9 @@ over and over again, and you'll be like a native.
   - As well
   - Likewise
 
+- Annoying
+  - Pesky
+
 - Boring
   - Tedious
   - Trivial
@@ -607,6 +610,11 @@ over and over again, and you'll be like a native.
   - Captivating
   - Engaging
 
+- Just so so
+  - It's alright
+  - It's ok
+  - It's not bad
+
 - Like
   - Resemble
 
@@ -624,6 +632,9 @@ over and over again, and you'll be like a native.
   - Mostly
   - Predominantly
 
+- My English isn't so good
+  - My English is shit
+
 - Nice
   - Lovely
   - Charming
@@ -637,6 +648,13 @@ over and over again, and you'll be like a native.
   - Highlighted
   - Prominent
   - Salient
+
+- Pitiful
+  - Poor you
+  - That sucks
+  - Sorry to hear that
+  - I feel your pain
+  - I getcha(I get you)
 
 - Promote
   - Foster
@@ -679,6 +697,12 @@ over and over again, and you'll be like a native.
 
 - Same
   - Identical
+
+- Seldom
+  - Rarely
+  - Hardly ever
+  - I don't really do...
+  - That's not for me
 
 - Simple
   - Straightforward
@@ -725,6 +749,16 @@ over and over again, and you'll be like a native.
 - Tiny
   - Bite-sized
 
+- Trick
+  - Bamboozle
+
+- Troublesome
+  - It's a pain in the arse
+  - It's a pain in the butt
+  - It's a pain in the bottocks
+  - It's a pain in the booty
+  - It's a pain in the neck
+
 - Tough
   - Arduous
 
@@ -752,6 +786,11 @@ over and over again, and you'll be like a native.
 - Ways
   - Approaches
   - Avenues
+
+- What a pity
+  - That sucks
+  - (That's) too bad
+  - That's a shame
 
 - You are great
   - You rock
