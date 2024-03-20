@@ -17,6 +17,8 @@ over and over again, and you'll be like a native.
 
 - Yes (More formal)
   - Certainly (An Americanism)
+  - Absolutely
+  - Definitely
   - Don't mention it
   - I do/will/have
   - Indeed
@@ -29,6 +31,7 @@ over and over again, and you'll be like a native.
   - Yep/Yup
   - Yeah (More casual, informal)
   - You have my word
+  - You bet
 
 - No
   - Nope
@@ -79,6 +82,8 @@ over and over again, and you'll be like a native.
   - Anytime
   - Don't mention it
   - You shouldn't have
+  - It's nothing
+  - That's ok
 
 - Almost
   - Practically
@@ -109,6 +114,9 @@ over and over again, and you'll be like a native.
 - Completely
   - Definitely
   - Outrightly
+
+- Crazy
+  - Losing someone's mind
 
 - Especially
   - Notably
@@ -168,6 +176,7 @@ over and over again, and you'll be like a native.
 
 - Agree
   - I have totally sold out to your idea
+  - That makes sense
 
 - Disagree
   - You talk crazy
@@ -202,8 +211,10 @@ over and over again, and you'll be like a native.
 - I'm very happy
   - I'm thrilled
   - I'm on cloud nine
+  - I'm pumped
 
 - I'm very sad
+  - I'm down
   - I'm devastated
 
 - I'm so busy
@@ -214,6 +225,9 @@ over and over again, and you'll be like a native.
   - I'm wiped out
   - I'm exhausted
   - I'm knackered
+
+- I'm under too much pressure
+  - I'm stressed out
 
 - I'm disappointed
   - This really bums me out
@@ -240,11 +254,14 @@ over and over again, and you'll be like a native.
 
 - I know
   - I'm aware of
-  - I got it
+  - I got it/got you
   - I see
   - I hear you
   - Sure, no problem
   - Yeah, I see what you mean
+  - I take your point
+  - I catch your drift
+  - I see/get/understand where you're coming from
 
 - I will pay the bill
   - I got this
@@ -261,11 +278,17 @@ over and over again, and you'll be like a native.
 - Are you angry
   - Are you cool
 
+- I'm angry
+  - I'm upset
+
 - I accepted
   - I'm open to it
 
 - I'll try it
   - I'll give it a shot
+
+- Laugh at you
+  - Mocking you
 
 - You did that perfectly
   - You nailed it
@@ -292,6 +315,10 @@ over and over again, and you'll be like a native.
 - It's very difficult
   - That's a tough one
   - It's a tough decision
+  - It's arduous
+
+- It's very crowded
+  - It's bustling
 
 - This seems strange and suspicious
   - It seems kinda fishy
@@ -312,6 +339,9 @@ over and over again, and you'll be like a native.
 
 - I'm very hungry
   - I'm starving
+
+- I'm very scared
+  - I'm petrified
 
 - I have to leave
   - I gotta run
@@ -352,10 +382,19 @@ over and over again, and you'll be like a native.
   - I worked around the clock
 
 - I don't care
-  - It's up to you
+  - It's up to you/You decide
   - Either one is okay
   - I'm cool with anything
   - Whatever
+  - Anything will do
+  - It's your call
+  - Have it your way
+  - Whatever floats your boat
+
+- Long time no see
+  - It's been ages
+  - It's been a while
+  - Good to see you again
 
 - A lot of
   - A bunch of
@@ -497,6 +536,7 @@ over and over again, and you'll be like a native.
 
 - Excited
   - Thrilled
+  - Psyched
 
 - Exhausted
   - Beat
@@ -554,6 +594,8 @@ over and over again, and you'll be like a native.
   - Grand
   - Marvelous
   - Terrific
+  - Phenomenal
+  - Top-notch
 
 - Happy
   - Joyful
@@ -833,4 +875,49 @@ over and over again, and you'll be like a native.
   - Why are you trippin
   - On cloud nine
   - Out of wind/breath
+  - Six of one
+  - Give it to me straight
+  - Right as rain
+  - Having second thoughts
+  - Do I look like I care?
+  - I call the shots
+  - Keep your chin up
+  - Suit yourself
+  - Don't beat yourself up
+  - Bob's your uncle
+  - I don't know jack about something
+  - Jackass
+  - Can I can a can
+  - I saw a saw
+  - Duck the problem
+  - Dog someone
+  - Monkey around
+  - Two to two
+  - Fox someone
+  - Take a leak
+  - Take a dump
+  - Take a rain check
+  - It's good to do something
+  - The greatest of all time
+  - name your price
+  - Let me be clear
+  - Seize the day
+  - Be right here
+  - Be right back
+  - Keep it to yourself
+  - No sweat
+  - I'm not myself
+  - Mayday
+  - Broke you down
+  - Chatter on
+  - Count me in
+  - Easy touch
+  - You asked for it
+  - You deserve it
+  - Smart-ass
+  - Piss off
+  - I have two left feet
+  - Cut in line
+  - He's so trashy
+  - He'll play dumb
 
