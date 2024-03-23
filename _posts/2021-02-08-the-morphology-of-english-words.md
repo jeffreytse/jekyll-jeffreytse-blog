@@ -330,6 +330,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `algi`: pain (e.g. neuralgia)
 - `alt`: tall
 - `alter`: the other (e.g. alternate)
+- `annu`: year (e.g. annual)
 - `anim`: life (e.g. animal)
 - `ant`: front, forehead (e.g. antecede)
 - `aqu`: water (e.g. aqua, aqueduct)
@@ -341,7 +342,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `art`: to do, make (e.g. artifact, artificial, artifice)
 - `astr`: star (e.g. astronaut)
 - `author`: one who causes to grow, to increase (e.g. authority)
-- `bar`: bar, obstacle (e.g. embarrass, barrack)
+- `bar`: bar, obstacle (e.g. embarrass, barrack, barricade)
   - From Latin `barra`
 - `bari`: heavy, deep (e.g. baritone)
 - `bal`: the same as `bar` (e.g. balance, balk, baluster)
@@ -358,6 +359,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `capt`: the same as `cept` (e.g. captor, capture, captivate)
 - `cas`: the same as `cept` (eg. cassette)
 - `carn`: flesh (e.g. carnage)
+- `ceipt`: the same as `cept` (e.g. receipt)
 - `ceit`: the same as `cept` (e.g. conceit, deceit)
 - `ceiv`: the same as `cept` (e.g. perceive, receive, deceive, conceive, transceiver)
 - `cel`: rise high, tower (e.g. excel, excellent)
@@ -365,12 +367,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   centigrade)
 - `centr`: sharp point, goad, sting of a wasp (e.g. centre, centripetal,
   centroplasm, orthocenter)
-- `cept`: to take; to grasp; to hold (e.g. accept, except, concept, recept,
-  incept, percept, intercept, deception, precept, contracept, sceptic)
+- `cept`: to take; to grasp; to hold, contain (e.g. accept, except, concept,
+  recept, incept, percept, intercept, deception, precept, contracept, sceptic)
 - `cephal`: the same as `capit` (e.g. cephalopod, anencephaly, autocephalous)
 - `cerebr`: brain (e.g. cerebral)
-- `cip`: the same as `cap` (e.g. emancipate, recipe, incipient, participant,
-  precipice, precipitate, occipital)
+- `cip`: the same as `cap`; the same as `cept` (e.g. emancipate, recipe,
+  incipient, participant, precipice, precipitate, occipital)
 - `cit`: set in motion, call; refer (e.g. cite, excite)
 - `ced`: movement, migration, to go, withdraw (e.g. precede, intercede,
   antecede, recede, retrocede, intercede, concede, secede, decedent, accede,
@@ -387,7 +389,6 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `chutd`: a fall (e.g. parachute)
 - `cid`: to cut (e.g. suicide, genocide)
 - `cis`: the same as `cid` (e.g. circumcise)
-- `cip`: the same as `cept`
 - `circ`: round, circle, ring, to turn, bend (e.g. circuit, circus, circulate,
   encircle, circadian, semicircle)
 - `circum`: the same as `circ` (e.g. circumscribe, circumvent, circumstance,
@@ -395,6 +396,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cite`: to move, set in motion, stir, rouse, call, invite (e.g. recite)
 - `claim`: to shout (e.g. acclaim, exclaim, disclaim, proclaim)
 - `claus`: the same as `clude` (e.g. clause)
+- `cli`: to wash, clean (e.g. clean)
+- `cly`: the same as `cli` (e.g. cataclysm)
 - `clois`: the same as `clude` (e.g. cloister)
 - `clos`: the same as `clude` (e.g. close, enclose, closet)
 - `clot`: the same as `clude` (e.g. cloture)
@@ -459,12 +462,16 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   viaduct, ventiduct)
 - `earth`: ground, soil, dirt, dry land; country, district (e.g. earthmover)
 - `electr`: resembling amber; electric (e.g. electric)
+- `ennu`: year (e.g. perennial)
 - `erg`: to do; work; activity (e.g. energy, synergy)
 - `ev`: age (e.g. medieval)
   - From Latin `aevum`
 - `ever`: at any time (e.g. forever)
 - `evite`: to shun, avoid (e.g. inevitable)
 - `fac`: the same as `fact` (e.g. facile, facility, facsimile, faculty, face)
+- `facil`: easy to do (e.g. facile, facility, facilitate)
+  - From root `fac`
+- `facul`: the same as `facil` (e.g. faculity)
 - `fact`: to form, build, to make, to do, to set, to put; appearance, face
   (e.g. factor, factoid, artefact, factious, facture, faction, artifact,
   olfaction)
@@ -513,7 +520,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - It comes from Latin `formare`
 - `freq`: to cram together; common, usual; happening at short intervals, often
   recurring (e.g. frequent, frequency, infrequency)
-- `gage`: pledge, have responsibility for (e.g. engage)
+- `gage`: pledge, have responsibility for; contact, on (e.g. engage)
 - `gene`: give birth, beget; race, kind; native, natural (e.g. general,
   generation, genuine, antigen, pathogen, parthenogenesis, genocide)
 - `gn`: the same as `gene` (e.g. pregnant)
@@ -545,10 +552,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `hydro`: the same as `hydra` (e.g. hydrogen, hydroplane, hydroelectric,
   hydrocephalus)
 - `hypno`: sleep (e.g. hypnosis, hypnotize)
+- `ident`: the same (e.g. identify, identical)
+  - From Latin `idem`
 - `ig`: the same as `ag` (e.g. exigent, navigate)
 - `ill`: bad, from evil (e.g. illness)
 - `image`: copy, statue, picture (e.g. imagination)
   - From Latin `imago`
+- `it`: to go (e.g. exit, init, initial)
 - `journ`: of a day, to last long (e.g. journey, adjourn)
   - From Old French `journée`
 - `kep`: the same as `cep` (e.g. skeptic, keep)
@@ -706,12 +716,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pathy`: the same as `patho` (e.g. pathetic, apathy, sympathy)
 - `pati`: the same as `patho` (e.g. patient, compatible)
   - From Latin `pat(i)`
-- `pact`: to fix, fasten (e.g. compact, pactum, package)
-- `par`: the same as `pear` (e.g. parent, primipara, fissiparous)
-- `part`: to divide, separate; to produce, procure (e.g. subpart, partial,
-  impartial, counterpart, apart, particle, impart, partake, parturient)
+- `pact`: to fix, fasten (e.g. compact, impact, pactum, package)
+- `par`: to come forth, be visible; submit, obey (e.g. parent, primipara,
+  fissiparous)
+- `part`: to divide, separate; to produce, procure; a part, piece, a share,
+  a division (e.g. subpart, partial, impartial, counterpart, apart, depart,
+  impart, compart, partake, particle, participate, parturient)
 - `patr`: chief or head of a family, father, man (e.g. patriarch, patriot)
-- `pear`: to come forth, be visible; submit, obey (e.g. appear)
+- `peal`: the same as `pel` (e.g. appeal, repeal)
+- `pear`: the same as `par` (e.g. appear, disappear, transparent)
 - `ped`: foot (e.g. centipede)
 - `pel`: to thrust, strike, drive (e.g. compel)
 - `penc`: the same as `pend` (e.g. )
@@ -775,15 +788,21 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `quar`: four (e.g. square, quarantine)
 - `que`: to ask, to seek (e.g. quest, exquesite, requisite)
 - `quire`: the same as `que` (e.g. require, inquire, query)
+- `raign`: the same as `reign` (e.g. arraign)
+- `ramp`: a leap, spring, bound (e.g. rampage)
+- `rang`: the same as `reign`; rank (e.g. arrange)
 - `rar`: to separate; adjoin (e.g. rare, rarely, rarity, rarefy)
 - `rear`: back, behind; to rise (e.g. rearview, rearrange)
   - From Latin `retro`
+- `reign`: to rule, to direct, keep straight, guide; to direct in a straight line
+  (e.g. region, foreign)
 - `rect`: rect, right angle, a straight line (e.g. correct, direct)
 - `reg`: move in a straight line; to ask, to quest (e.g. )
 - `render`: to give (e.g. surrender)
 - `rhine`: nose (e.g. rhinoceros)
 - `rive`: shore, bank, break, brook (e.g. rival, archrival)
 - `rog`: the same as `reg` line (e.g. interrogate, rogatory, roger)
+- `rout`: the same as `rupt` (e.g. route, routine)
 - `rupt`: to break apart (e.g. corrupt, bankrupt)
 - `sal`: something from sea (e.g. salt, salty)
 - `sau`: to salt (e.g. sauce, salad = `sauce` + `laid`, sausage = `sauce` + `age`)
@@ -800,12 +819,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `script`: the same as `scribe` (e.g. prescription)
 - `se`: to sow (e.g. seed, seminar)
 - `sect`: to cut (e.g. sector)
-- `sem`: one; as one, together with; same (e.g. seminar)
+- `sem`: one; as one, together with; something; same (e.g. seminar)
   - Proto-Indo-European root
 - `sembl`: the same as `sem` (e.g. resemble, semblance, assemble)
 - `ser`: to join together, bind together, put in a row, to line up, link, arrange
   (e.g. series)
 - `sert`: (e.g. assert, desert, insert, exert)
+- `serv`: the same as `slav` (e.g. serve, service)
+- `serv`: to protect; keep watch, maintain (e.g. conserve, preserve)
+  - From Latin `conservare`
 - `seri`: weighty, important, serious, grave, strict, austere (e.g. serious)
   - From Latin `serius`
 - `sev`: the same as `seri` (e.g. severe, persevere)
@@ -814,7 +836,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sim`: the same as `sem` (e.g. simple)
 - `simil`: the same as `sem` (e.g. similar, facsimile)
 - `simul`: the same as `sem` (e.g. simulate)
-- `som`: the same as `sem` (e.g. some)
+- `sist`: the same as `st`; take a stand, stand firm, to place (e.g. resist,
+  consist)
+- `slav`: slave (e.g. slave)
+- `som`: the same as `sem` (e.g. some, sometime, something, someone)
 - `son`: to sound (e.g. sony, sonic)
 - `sm`: the same as `sem`
 - `short`: short
@@ -859,7 +884,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `star`: the same as `ster`
 - `ster`: star (e.g. )
 - `stel`: the same as `ster` (e.g. stellar)
-- `stat`: the same as `st` (e.g. state `st` + `ate`, upstate, overstate)
+- `stat`: the same as `st` (e.g. state `st` + `ate`, upstate, restate, overstate)
 - `stil`: the same as `st` (e.g. still)
 - `stem`: the same as `st` (e.g. system)
 - `stin`: the same as `st` (e.g. mediastinal)
@@ -898,7 +923,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tact`: the same as `tag` (e.g. contact, tactual, tactile, intact, tactless,
   tactic, syntactic, stereotactic)
 - `tag`: to touch, handle; arrange (e.g. tag, contagion, integer, taxonomy)
-- `tail`: to cut in pieces (e.g. tailor, detail)
+- `tail`: to cut in pieces (e.g. tailor, detail, retail)
+- `tail`: the base of the back (e.g. tailer)
 - `tain`: to hold, to stretch, strain, tight (e.g. attain, contain, detain,
   retain, maintain, countenance, entertain, obtain, sustain, abstain, pertain)
 - `tane`: time (e.g. simultaneously)
@@ -910,8 +936,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tect`: the same as `text` (e.g. architect)
 - `ten`: the same as `tain` (e.g. content, maintenance, sustenance, abstention,
   tenant, tenancy, tenement, detente)
-- `tend`: the same as `tain` (e.g. intend, extend)
+- `tend`: the same as `tain` (e.g. intend, extend, distend, content, tendency)
 - `tens`: the same as `tain` (e.g. tense, intense, extension)
+- `tent`: the same as `tain` (e.g. extent)
 - `terra`: earth (e.g. mediterranean)
 - `term`: boundary, end (e.g. term)
 - `termin`: the same as `term` (e.g. terminal, terminate, determine, exterminate)
@@ -961,6 +988,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `van`: the same as `vac` (e.g. vanity, vanish, evanish, evanesce)
 - `vanc`: the same as `vant` (e.g. advance, vanguard, vanward)
 - `vant`: front, forehead (e.g. vantage, advantage)
+- `var`: varied, different, spotted (e.g. vary, various, invariable, variform)
 - `void`: the same as `vac`
 - `vas`: a tube, duct, or conduit for conveying blood, lymph, semen, etc.
   (e.g. vasopressor, vasoconstriction)
@@ -971,7 +999,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `vent`: the same as `ven` (e.g. advent, ventiduct, event, convention, invent,
   prevent, circumvent, convenient, venture, subvention)
 - `ventr` belly (e.g. ventriloquy)
-- `ver`: true, trustworthy (e.g. verdict)
+- `ver`: true, trustworthy (e.g. verdict, very, verify, aver)
+  - From Greek `Veritas`
 - `verb`: a word; to speak, say (e.g. verbal)
 - `vers`: the same as `vert` (e.g. versatile, version, reverse, universe,
   diverse)
@@ -1013,10 +1042,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `were`: the same as `vir` (e.g. werewolf)
 - `wis`: the same as `vis` (e.g. wish, wise)
 - `wit`: the same as `vis` (e.g. witness)
+- `with`: to take back, away; against, opposite, from, toward, by, near
+  (e.g. to withdraw, withhold, withstand)
 
 ## Prefix
 
-- `a`: off, of, off from, away from; down, aside, to; emphatic (e.g. away,
+- `a`: off, of, off from, away from; down, aside, to; emphatic (e.g. away, alike
   apart, ascribe, atom, abandon, apply, apathy, avenue, accede, acentric)
   - From Latin
 - `ab`: the same as `a`(e.g. abuse, abduct, abstain, abscess, abnormal)
@@ -1035,7 +1066,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `anthropo`: like or concerning human beings (e.g. anthropocentric)
 - `anti`: opposed to or against something (e.g. anti-virus, antibiotic,
   antipathetic, anti-cheating, antilogy)
-- `ap`: the same as `a` (e.g. append)
+- `ap`: the same as `a` (e.g. append, appeal, appear)
 - `as`: the same as `a`; the same as `ex` (e.g. assist, assign, astonish)
 - `agri`: relating to farming (e.g. agriculture, agribusiness)
 - `agro`: the same as `agri` (e.g. agrobiology, agro-industry)
@@ -1054,14 +1085,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cardio`: relating to the heart (e.g. cardiograph)
 - `cephal`: head, uppermost or top part, source (e.g. cephalopod, encephalopathy)
   - Modern Latin combining form of Greek `kephalē`
-- `cata`: down; completely (e.g. catastrophe, catalyst, catalog)
+- `cata`: down; completely (e.g. catastrophe, catalyst, catalog, cataclysm)
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
 - `co`: the same as `com` (e.g. costar, cognate, cooperate, coexist, coeducation)
 - `col`: the same as `com` (e.g. colleague, collocation, collection)
 - `com`: with, together, together with, in combination; sometimes merely
-  emphatic; (e.g. compress, commix)
+  emphatic; (e.g. compress, commix, compart)
   - From Latin `com`, `cum`
 - `con`: the same as `com` (e.g. confirm, convergence, constant, constitute,
   conscious, confess, confine, contact, configure)
@@ -1079,7 +1110,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `de`: opposite, remove, reduce, from, entirely, completely, off, away, without
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
-  descend, despite, deactive, defeat, detain, dedicate, decedent, define)
+  descend, despite, deactive, defeat, detain, dedicate, decedent, define,
+  depart)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `deca`: ten (e.g. decalogue)
 - `deci`: the same as `deca` (e.g. decimal)
@@ -1099,7 +1131,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `dys`: bad, ill; hard, difficult; abnormal, imperfect (e.g. dysfunction,
   dyslogy)
   - From Greek `dys-`
-- `e`: same as `ex` (e.g. evict, educe, emigrate)
+- `e`: same as `ex` (e.g. evict, educe, emigrate, route)
 - `ec`: the same as `ex-` (e.g. eclectic)
 - `eco`: house, dwelling place, habitation; clan (e.g. ecocentric)
 - `ecto`: outside, external (e.g. ectoderm)
@@ -1180,7 +1212,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `mini`: less; subordinate; small (e.g. minimum, minister, minutia)
 - `mis`: badly, wrongly (e.g. mistake, misinform, misunderstand)
 - `mono`: single, alone (e.g. monolith)
-- `multi`: multiple (e.g. multiform)
+- `multi`: multiple (e.g. multiform, multicolor, multination, multiuse)
 - `mus`: music, art, entertainment (e.g. music, museum)
   - In classical Greece, any art in which the **Muses** presided, but especially
     music and lyric poetry.
@@ -1204,7 +1236,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     compounds, from Greek orthos.
 - `osteo`: relating to bones (e.g. osteopath)
 - `over`: beyond; above, in place or position higher than; upon; in;
-  across, past; more than; on high (e.g. overfly)
+  across, past; more than; on high (e.g. overfly, overstate)
   - From Old English `ofer`, PIE root `uper`.
 - `pan`: all, every, whole, all-inclusive (e.g. pandemic)
   - From Greek `pan-`, combining form of pas
@@ -1238,7 +1270,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `quasi`: as if, as it were (e.g. quasi-static, quasi-legal, quasi-science)
 - `quin`: five, fifth (e.g. quincentennial)
 - `re`: back, again (e.g. response, review, reunite, revolve, replete, recipe,
-  revenue, revamp, resign, reverse, relevant)
+  revenue, revamp, resign, reverse, relevant, restate)
 - `retina`: net-like tunic (e.g. retinal, retinopathy)
   - From Latin `rete` "net"
 - `retro`: backward, reverse (e.g. retrospect, retroactive, retrocede)
@@ -1328,13 +1360,13 @@ Variants:
 - `acle`: noun (e.g. obstacle, spectacle, manacle)
 - `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy, mediacy,
   efficacy)
-- `ade`: noun (e.g. blockade, barriecade, escapade)
+- `ade`: noun (e.g. blockade, barricade, escapade)
   - Word-forming delement denoting an action or product of an action
   - Denoting an action or product of an action, via French, Spanish, or Italian,
     ultimately from Latin `-ata`, `fem`.
 - `ado`: the same as `ade` (e.g. tornado, aficionado)
 - `adu`: the same as `ade` (e.g. )
-- `age`: noun, the same as `ic` (e.g. formage, sausage, entourage)
+- `age`: noun, the same as `ic` (e.g. formage, sausage, entourage, rampage)
   - Word-forming element in nouns of act, process, function, condition, from
   - From Old French and French `-age`, from Late Latin -aticum "belonging to,
     related to," originally neuter adjectival suffix
@@ -1354,7 +1386,7 @@ Variants:
 - `ase`: noun, used in naming enzymes, from ending of diastase (biochemistry);
   verb, the same as `-ise` (e.g. transcriptase, increase, crease)
 - `at`: noun or verb (e.g. formate, commissariat)
-- `ate`: verb or adjective or noun (e.g. tractate, fortunate)
+- `ate`: verb or adjective or noun (e.g. tractate, fortunate, state)
   - Verb, make something doing (e.g. regulate, control somthing or make it regular)
   - Adjective, full of or showing a particular quality; connected with or
     belonging to (e.g. affectionate, collegiate, passionate)
@@ -1382,7 +1414,7 @@ Variants:
 - `en`: verb, adjective or noun is rarely seen (e.g. barren)
 - `ence`: the same as `ance` (e.g. violence)
 - `end`: noun (e.g. legend)
-- `ent`: adjective or noun (e.g. different, recipient, patient, scient)
+- `ent`: adjective or noun (e.g. different, recipient, patient, parent, scient)
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
 - `ery`: noun or adjective, the same as `-ary` (e.g. stationery)
@@ -1426,8 +1458,8 @@ Variants:
   volatile, mobile, exile, agile, facile, fictile, percentile, docile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
-- `ine`: adjective, of, like (e.g. aniline, aquiline, tetracycline, internecine,
-  facine, figurine, masculine, feminine, doctrine)
+- `ine`: adjective or none, of, like (e.g. aniline, aquiline, tetracycline,
+  internecine, facine, figurine, masculine, feminine, doctrine, routine, marine)
 - `ina`: the same as `ine` (e.g. retina = `rete` + `ina`)
 - `ing`: adjective (e.g. fitting)
 - `ion`: noun (e.g. formation, vision)
