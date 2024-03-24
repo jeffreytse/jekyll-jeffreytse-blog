@@ -43,6 +43,7 @@ over and over again, and you'll be like a native.
   - I'm afraid not
   - If only
   - I'll pass
+  - I'm gonna have to pass
   - I'm good/fine/ok
   - I'd love to, but...
 
@@ -207,11 +208,13 @@ over and over again, and you'll be like a native.
 
 - It's very good
   - It's awesome
+  - It's fab
 
 - I'm very happy
   - I'm thrilled
   - I'm on cloud nine
   - I'm pumped
+  - I'm over the moon
 
 - I'm very sad
   - I'm down
@@ -223,6 +226,7 @@ over and over again, and you'll be like a native.
 - I'm very tired
   - I'm beat
   - I'm wiped out
+  - I'm worn out
   - I'm exhausted
   - I'm knackered
 
@@ -280,6 +284,7 @@ over and over again, and you'll be like a native.
 
 - I'm angry
   - I'm upset
+  - I'm pissed off
 
 - I accepted
   - I'm open to it
@@ -390,6 +395,9 @@ over and over again, and you'll be like a native.
   - It's your call
   - Have it your way
   - Whatever floats your boat
+  - Whatever works for you
+  - I'm all yours
+  - At your disposal
 
 - Long time no see
   - It's been ages
@@ -647,6 +655,10 @@ over and over again, and you'll be like a native.
   - A touch of
   - Somewhat
 
+- Impressive
+  - Breathtaking
+  - Exciting
+
 - Interesting
   - Fascinating
   - Captivating
@@ -669,6 +681,7 @@ over and over again, and you'll be like a native.
 
 - Lucky
   - Blessed
+  - Jammy
 
 - Mainly
   - Mostly
@@ -677,10 +690,26 @@ over and over again, and you'll be like a native.
 - My English isn't so good
   - My English is shit
 
+- My instincts tell me...
+  - I have a hunch...
+  - My gut said...
+  - I felt it in my gut
+  - It's just a gut feeling
+
 - Nice
   - Lovely
   - Charming
   - Delightful
+
+- Not working
+  - Down
+  - Blocked
+  - Clogged
+  - Out of order
+  - Obstructed
+  - Frozen
+  - Jammed
+  - Malfunctioning
 
 - Conversely
   - On the contrary
@@ -751,6 +780,7 @@ over and over again, and you'll be like a native.
 
 - Small
   - Tiny
+  - Teeny
   - Compact
   - Petite (For woman)
 
@@ -761,10 +791,12 @@ over and over again, and you'll be like a native.
 
 - Strange
   - Anticly
+  - Bizarre
   - Cranky
   - Odd
   - Peculiar
   - Weird
+  - Unusual
 
 - Suddenly
   - Abruptly
@@ -825,6 +857,12 @@ over and over again, and you'll be like a native.
   - Remarkablely
   - Tremendously
 
+- Very rarely
+  - Once in a blue moon
+
+- Waste time
+  - Faffing around
+
 - Ways
   - Approaches
   - Avenues
@@ -833,6 +871,9 @@ over and over again, and you'll be like a native.
   - That sucks
   - (That's) too bad
   - That's a shame
+
+- Well done
+  - Way to go
 
 - You are great
   - You rock
@@ -887,6 +928,7 @@ over and over again, and you'll be like a native.
   - Bob's your uncle
   - I don't know jack about something
   - Jackass
+  - It baffles me
   - Can I can a can
   - I saw a saw
   - Duck the problem
@@ -920,4 +962,29 @@ over and over again, and you'll be like a native.
   - Cut in line
   - He's so trashy
   - He'll play dumb
+  - Don't be an ass
+  - You crack me up
+  - You freak me out
+  - You're driving me crazy
+  - You're getting on my nerves
+  - You piss me off
+  - Life of the party
+  - What a bummer
+  - It's a huge bummer
+  - Scoot over
+  - Catch you at a bad time?
+  - Don't sugarcoat it
+  - Cut to the chase
+  - What's your take?
+  - What are you getting at?
+  - With all due respect
+  - You put me on the spot
+  - Rise and shine
+  - Without further ado
+  - What's it to you?
+  - Same old same old
+    - Just usual
+    - You know how it goes
+  - I'll pass
+  - Clutching somebody pearls
 
