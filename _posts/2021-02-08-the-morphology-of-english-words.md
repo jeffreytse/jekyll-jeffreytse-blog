@@ -535,6 +535,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `graph`: process of writing or recording (e.g. photograph, biography, autograph,
   cyclograph)
 - `greg`: herd, flock (e.g. segregate)
+- `hale`: breath (e.g. exhale, inhale)
 - `half`: half (e.g. halfway)
 - `ham`: hollow or bend of the knee (e.g. hamstring)
 - `haust`: to draw up, to scoop (e.g. exhaust)
@@ -1153,7 +1154,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `ethno`: race, culture (e.g. ethnocentric, ethnomusicology)
 - `eu`: good, well, pleasant (e.g. eupheme, eulogy, euphony)
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
-  extra = `ex` + `trans`, extort, exact, exigent, explicit, escape, exclaim)
+  extra = `ex` + `trans`, extort, exact, exigent, explicit, escape, exclaim,
+  exhale)
   - From Latin `ex` "out of, from within; from which time, since; according to;
     in regard to"
   - From PIE `*eghs` "out" (source also of Gaulish `ex-`, Old Irish `ess-`, Old
@@ -1185,7 +1187,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - The form used for `in-` before `b`, `m`, or `p`
   - In some English words it alternates with `em-`
 - `in`: the same as `im-` and `en-` (e.g. invalid, insufficient, inform, inland,
-  inquire, intact, indicate, inevitable, increase, inundate, instant)
+  inquire, intact, indicate, inevitable, increase, inundate, instant, inhale)
 - `infra`: below, under (e.g. infrastructure)
 - `inter`: among, between or involving two or more different things (e.g.
   internet, interact, intercede)
@@ -1224,8 +1226,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `net`: net (e.g. internet)
 - `non`: not, none = no one (e.g. nonformal)
 - `nephro`: kidney (e.g. nephrology)
-- `ob`: toward(emphatic), against, before, near, across, down, away (e.g.
-  obstruct, obsess, omit, obliterate, oblate, obscene, obtain, obsolete)
+- `ob`: toward(emphatic), against, before, near, across, down, away;
+  in front of, in the way of (e.g. obstruct, obsess, omit, obliterate, oblate,
+  obscene, obtain, obsolete)
 - `oc`: the same as `ob-` (e.g. occupy, occlude, occipital, occur)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
   omniscient)
@@ -1455,7 +1458,8 @@ Variants:
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
   polyploid = `poly` + `plo` + `id`, vivid, factoid, stupid, centroid)
 - `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile,
-  volatile, mobile, exile, agile, facile, fictile, percentile, docile)
+  turnstile, volatile, mobile, exile, agile, facile, fictile, percentile,
+  docile, versatile)
 - `ine`: none (e.g. vaccine)
 - `im`: noun, meaning man (e.g. victim)
 - `ine`: adjective or none, of, like (e.g. aniline, aquiline, tetracycline,
