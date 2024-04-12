@@ -56,6 +56,11 @@ over and over again, and you'll be like a native.
   - Don't get me wrong
   - I don't mean to cross the line, is she your new GF?
 
+- It's okay
+  - It's all good
+  - Don't worry about it
+  - No need to apologize
+
 - Thank you
   - You're a star!
   - You're an absolutely star!
@@ -162,7 +167,7 @@ over and over again, and you'll be like a native.
   - Get a job within couching distance
   - Couch potato
   - Yummy
- - I’ll be in touch
+  - I’ll be in touch
 
 - Dislike
   - To be pissed off/ piss sb off
@@ -188,6 +193,9 @@ over and over again, and you'll be like a native.
 
 - Take a time
   - Sleep on it
+
+- I like it
+  - It's growing on me
 
 - I want to do something
   - I'm dying to do something
@@ -664,6 +672,13 @@ over and over again, and you'll be like a native.
   - Captivating
   - Engaging
 
+- What's up?
+  - How're you?
+
+- Not bad
+  - Nothing, how about you?
+  - Not much, you?
+
 - Just so so
   - It's alright
   - It's ok
@@ -960,6 +975,7 @@ over and over again, and you'll be like a native.
   - Piss off
   - I have two left feet
   - Cut in line
+    - Budge in line
   - He's so trashy
   - He'll play dumb
   - Don't be an ass
@@ -987,4 +1003,5 @@ over and over again, and you'll be like a native.
     - You know how it goes
   - I'll pass
   - Clutching somebody pearls
+
 
