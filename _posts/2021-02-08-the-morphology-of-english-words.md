@@ -1005,7 +1005,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `verb`: a word; to speak, say (e.g. verbal)
 - `vers`: the same as `vert` (e.g. versatile, version, reverse, universe,
   diverse)
-- `vert` to turn, bend (e.g. convert, revert, subvert, versatile)
+- `vert` to turn, bend (e.g. convert, revert, subvert, versatile, extrovert,
+  introvert)
 - `vey`: the same as `vid` (e.g. survey, purvey)
 - `vi`: road (e.g. via, obviate, obvious, previous, trivia)
 - `via`: the same as `vi` (e.g. viaduct)
@@ -1163,6 +1164,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - In some cases also from Greek cognate `ex`, `ek`
   - Often reduced to `e-` before `-b-`, `-d-`, `-g-`, consonantal `-i-`, `-l-`,
     `-m-`, `-n-`, `-v-` (as in elude, emerge, evaporate, etc.).
+- `extra`: outwards, outside
+- `extro`: the same as `extra`  (e.g. extrovert)
 - `for`: outside, beyond (e.g. forfeit, forgive, foreign)
   - From Latin `foris`
 - `geo`: relating to the Earth or its surface (e.g. geostationary)
@@ -1192,7 +1195,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `inter`: among, between or involving two or more different things (e.g.
   internet, interact, intercede)
 - `intra`: the same as `intro` (e.g. intraparty)
-- `intro`: inside, into, especially into the inside (e.g. introduce)
+- `intro`: inside, into, especially into the inside (e.g. introduce, introvert)
 - `immun`: free, exempt (e.g. immunosuppression)
   - From Latin `immunis` "exempt from public service, untaxed; unburdened, not
     tributary," literally "not paying a share," from assimilated form of `in-`
