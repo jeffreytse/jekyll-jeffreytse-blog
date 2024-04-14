@@ -311,6 +311,8 @@ over and over again, and you'll be like a native.
   - Not too bad
   - Not really
   - I'm pretty average
+  - Not up to much
+  - Not so hot
 
 - In the end
   - At last
@@ -1003,5 +1005,6 @@ over and over again, and you'll be like a native.
     - You know how it goes
   - I'll pass
   - Clutching somebody pearls
+  - That's the last straw
 
 
