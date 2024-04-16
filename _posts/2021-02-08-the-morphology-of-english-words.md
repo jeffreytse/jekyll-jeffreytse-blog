@@ -455,6 +455,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `dot`: the same as `don` (e.g. anecdote)
 - `dox`: opinion (e.g. paradox)
 - `draw`: act of pulling (e.g. drawstring)
+- `dress`: straight, direct (e.g. address)
 - `duc`: to lead (e.g. produce, educate, introduce, seduce, induce, educe,
   edduce, transduce)
   - From Latin `ducere`
@@ -681,6 +682,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `nui`: the same as `noc` (e.g. nuisance)
 - `number`: to count, number
 - `numer`: the same as `number` (e.g. numerous, innumerous)
+- `nym`: name (e.g. acronym)
 - `god`: god (e.g. demigod)
 - `gorg`: to swallow, throat (e.g. gorge, gorgeous, disgorge, engorge)
 - `grand`: big, great; full, abundant, full-grown, strong, powerful, weighty, severe
@@ -691,7 +693,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek
 - `gress`: walk (e.g. progress, ingress)
 - `ocre`: be sharp, rise (out) to a point, pierce. (e.g. mediocre, ocrea)
-- `od`: a way or manner (e.g. method, period, odograph)
+- `od`: a way, path, track, road or manner (e.g. method, period, odograph,
+  anode, cathode)
   - Method from Latin `methodus` "way of teaching or going", `meta-` + `hodos`,
     `meth` originally pursuit, a following after
 - `ol`: to smell (e.g. olfaction)
@@ -745,14 +748,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `phot`: light (e.g. photo, photostat, photoelectric)
 - `phys`: of nature, natural (e.g. physical)
 - `play`: play (e.g. playbook)
-- `ple`: to fill, full (e.g. complement, accomplish, compliant, plenty)
+- `ple`: to fill, full (e.g. complement, accomplish, compliant, implement)
   - From Latin `plere`
+- `plen`: the same as `ple` (e.g. plenty)
 - `plet`: the same as `ple` (e.g. complete, deplete, replete, expletive)
 - `plect`: the same as `pli` (e.g. complect)
 - `plex`: the same as `pli` (e.g. perplex, complex, multiplex)
 - `please`: please, aggreeable (e.g. unpleasant)
-- `pli`: to fold, to plait, to weave together, (e.g. complicate, explicit,
-  duplicate, application, simple, supple)
+- `pli`: to fold, to plait, to weave together; the same as `ple` (e.g.
+  complicate, compliment, explicit, duplicate, application, simple, supple)
   - From Latin `plicare`
 - `plic`: the same as `pli` (e.g. explicate, implicate, supplicate)
 - `plo`: the same as `pli` (e.g. employ, deploy, diploma)
@@ -1008,7 +1012,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `vert` to turn, bend (e.g. convert, revert, subvert, versatile, extrovert,
   introvert)
 - `vey`: the same as `vid` (e.g. survey, purvey)
-- `vi`: road (e.g. via, obviate, obvious, previous, trivia)
+- `vi`: road (e.g. via, obviate, obvious, previous, trivia, diviate)
 - `via`: the same as `vi` (e.g. viaduct)
 - `vict` win (e.g. victim)
   - The ancient Roman mythological character `Victoria`, goddess of victory.
@@ -1054,8 +1058,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Latin
 - `ab`: the same as `a`(e.g. abuse, abduct, abstain, abscess, abnormal)
 - `ac`: the same as `a` (e.g. account, acclaim)
+- `acro`: highest, topmost (e.g. acronym)
 - `acu`: cusp (e.g. acupressure)
-- `ad`: the same as `a` (e.g. advocate, admit, adduce, adjourn, admix, advance)
+- `ad`: the same as `a` (e.g. advocate, admit, adduce, adjourn, admix, advance,
+  address)
 - `aero`: air (e.g. aerostat, aerobatics)
 - `af`: the same as `a` (e.g. affinal)
 - `an`: the same as `un` (e.g. anarchy, anecodote = `an` + `ec`=`ex` + `dot`=`to give`)
@@ -1088,6 +1094,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cephal`: head, uppermost or top part, source (e.g. cephalopod, encephalopathy)
   - Modern Latin combining form of Greek `kephalē`
 - `cata`: down; completely (e.g. catastrophe, catalyst, catalog, cataclysm)
+- `cath`: the same as `cath` (e.g. cathode)
 - `circum`: around, round about, all around, on all sides (e.g. circumstance)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
