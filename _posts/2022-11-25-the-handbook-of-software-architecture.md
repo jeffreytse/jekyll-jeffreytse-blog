@@ -643,12 +643,60 @@ one or more consumers on first-in-first-out (FIFO).
 Products:
 
 - RabbitMQ
+  - Based on AMQP, supports to JMS
+  - Written by Erlang
+  - High stability, high consistency
 - Kafka
+  - Distributed Message System
+  - High throughput
 - ActiveMQ
+  - Based on JMS
 - AmazonSQS
+- RocketMQ
+  - Based on JMS
+  - Alibaba's product, and hosted by Apache Foundation now
 - IronMQ
 - Pulsar
 - Redis
+  - Supports to JMS
+
+Because the production and consumption of messages are asynchronous, and only
+care about the sending and receiving of messages, without the intrusion of
+business logic, the decoupling of producers and consumers is achieved.
+
+MQ is a message communication model, not a specific implementation. The
+mainstream ways to implement MQ are as following:
+
+- AMQP (Advanced Message Queuing Protocol)
+  - Basic
+    - Just a protocol of data exchange
+    - No limit in programming languages, and has various kinds of message models
+  - Concepts
+    - Producer
+    - Consumer
+    - vHost
+    - Channel
+    - Broker
+      - Durability
+        - Location
+          - Disk
+          - RAM
+        - Types
+          - Exchange
+          - Queue
+          - Message
+      - Components
+        - Exchange
+          - Direct (Routing, by default)
+          - Fanout (Publish/Subscribe)
+          - Headers
+          - Topic
+          - Dead Letter
+        - Queue
+- JMS (Java Message Service)
+  - Basic
+    - Actually refers to JMS API for Java, including create, send and receive
+    - Limited in Java, and has only 2 kinds of message models
 
 ### Message Bus
 
