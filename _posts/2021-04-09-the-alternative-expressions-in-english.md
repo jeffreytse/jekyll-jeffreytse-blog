@@ -181,8 +181,11 @@ over and over again, and you'll be like a native.
   - I'm sick of sth.
 
 - Agree
+  - Absolutely
   - I have totally sold out to your idea
   - That makes sense
+  - I couldn't agree more
+  - My thoughts exactly
 
 - Disagree
   - You talk crazy
@@ -673,6 +676,8 @@ over and over again, and you'll be like a native.
   - Fascinating
   - Captivating
   - Engaging
+  - Attractive
+  - Glamorous
 
 - What's up?
   - How're you?
@@ -1006,5 +1011,11 @@ over and over again, and you'll be like a native.
   - I'll pass
   - Clutching somebody pearls
   - That's the last straw
+  - Forgive and forget
+  - Over my dead body
+  - Tooth and nail
+  - One and only
+  - Safe and sound
+  - Fair and square
 
 
