@@ -11,9 +11,16 @@ tags:
 
 Here are some phrase patterns for daily usage:
 
+- A mixed blessing
+- A stepping stone
+- An eye-opening experience
 - As opposed to sth.
+- At first glance, I’d say… However, at the end of the day, I’d say…
+- Bear out
 - Both you and I are students.
+- By and large
 - Can you tell me the definition of sth.
+- Cut both ways
 - Either you or he is wrong.
 - Either he nor I am a student.
 - For sure
@@ -24,17 +31,21 @@ Here are some phrase patterns for daily usage:
 - Have fun doing sth.
 - He's pretty laid back
 - Hit me up later
+- Hold water
 - How do you like sth.?
 - How would you do sth.?
 - How many of sth. are there?
 - I ask over sb.
 - I could have done sth.
+- I delight in something/doing something
 - I didn't mean to do sth.
 - I feel like...
 - I get sb. sth.
+- I have an enduring passion for something
 - I'm down for whatever
-- I'm knackered = I'm very tired
 - I'm gutted to do hear that
+- I’m in two minds about this, I suppose…but on the other hand…
+- I'm knackered = I'm very tired
 - I'm so screwed!
 - I'm twenty-freaking-nine!
 - I'm willing to do sth.
@@ -47,6 +58,7 @@ Here are some phrase patterns for daily usage:
 - I would like to do sth.
 - I would have done sth.
 - If I were you, I would do sth.
+- In my honest opinion, I strongly believe that…
 - It's a bit more adj...
 - It's a kind of...
 - It's sort of...
@@ -67,19 +79,26 @@ Here are some phrase patterns for daily usage:
 - No matter when you come，you are welcomed.
 - No one is able to do sth.
 - Not all sharks are alike.
+- Not crazy about something
+- On the bright side; On the flip side
+- Over the moon
 - Sb. might as well do sth.
 - Screw sth. up
 - That was rubbish
 - That's what sb. do sth.
 - That's why in part they were able to do sth.
-- The more one has，the more one wants.
+- The more one has, the more one wants.
+- The way I see it, it doesn’t make sense because…
 - These are all things that can do sth.
 - This is exactly how it does sth.
 - Too bad you can't do sth.
+- Turn (someone or something) upside down
 - What’s wrong with＋sb./sth.?
 - What do you like about sth.?
 - What does that come to?
 - What've you been up to?
 - With one’s help...
-- sth. and stuff
+- Wrestle with
+- Sth. and stuff
+- Stumbling block
 - ...
