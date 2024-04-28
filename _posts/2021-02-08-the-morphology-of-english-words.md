@@ -730,7 +730,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `peal`: the same as `pel` (e.g. appeal, repeal)
 - `pear`: the same as `par` (e.g. appear, disappear, transparent)
 - `ped`: foot (e.g. centipede)
-- `pel`: to thrust, strike, drive (e.g. compel)
+- `pel`: to thrust, strike, drive (e.g. compel; propel)
 - `penc`: the same as `pend` (e.g. )
 - `pend`: to hang, cause to hang; weigh; to draw, stretch, spin; pay (e.g.
   depend, suspend, expend, spend = `dis` + `spend`, impend, perpend, stipend)
@@ -747,6 +747,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - English comes from Proto-Phoenician
 - `phot`: light (e.g. photo, photostat, photoelectric)
 - `phys`: of nature, natural (e.g. physical)
+- `pin`: peak, point (e.g. pinacle)
 - `play`: play (e.g. playbook)
 - `ple`: to fill, full (e.g. complement, accomplish, compliant, implement)
   - From Latin `plere`
@@ -768,7 +769,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `priz`: the same as `preci` (e.g. prize, prizefight)
 - `prehend`: grap, grasp, arrest (e.g. comprehension)
   - From Latin, prehendere
-- `press`: press (e.g. pressman)
+- `press`: press (e.g. pressman, oppress)
   - From Latin `pressare`
 - `prem`: the same as `prim` (e.g. premier, premium)
 - `prim`: very first, original (e.g. primipara)
@@ -1057,7 +1058,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   apart, ascribe, atom, abandon, apply, apathy, avenue, accede, acentric)
   - From Latin
 - `ab`: the same as `a`(e.g. abuse, abduct, abstain, abscess, abnormal)
-- `ac`: the same as `a` (e.g. account, acclaim)
+- `ac`: the same as `a` (e.g. account, acclaim, accredit)
 - `acro`: highest, topmost (e.g. acronym)
 - `acu`: cusp (e.g. acupressure)
 - `ad`: the same as `a` (e.g. advocate, admit, adduce, adjourn, admix, advance,
@@ -1075,7 +1076,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `anti`: opposed to or against something (e.g. anti-virus, antibiotic,
   antipathetic, anti-cheating, antilogy)
 - `ap`: the same as `a` (e.g. append, appeal, appear)
-- `as`: the same as `a`; the same as `ex` (e.g. assist, assign, astonish)
+- `as`: the same as `a`; the same as `ex` (e.g. assist, assign, astonish, assure)
 - `agri`: relating to farming (e.g. agriculture, agribusiness)
 - `agro`: the same as `agri` (e.g. agrobiology, agro-industry)
 - `al`: all; the same as `a` (e.g. alway, allay, alleviate)
@@ -1188,7 +1189,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `homeo`: like, resembling, of the same kind; equal (e.g. homeopathy)
   - Latinized from Greek `homio-`, from `homoios`
 - `hypo`: under, less than usual, especially too little; the same as `sub-`, under
-  (e.g. hypotherm, hypostatic, hypothesis)
+  (e.g. hypotherm, hypostatic, hypothesis, hypocrisy)
 - `idio`: one's own, personal, private (e.g. idiolect, idiomatic, idiopathic)
 - `il`: used instead of `in-` before the letter `l` (e.g. illegal, illiterate,
   illiquid)
@@ -1260,7 +1261,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `per`: forward; through; throughout; thoroughly; entirely, utterly; very
   (e.g. perfect, perform, persist, permit, persevere, pertain)
 - `peri`: round about; around (e.g. periphery, periscope)
-- `pedo`: boy, child; foot (e.g. pedology, pedophile, pedometer)
+- `pedo`: boy, child; foot (e.g. pedology, pedophile, pedometer, pedestrian)
 - `pseudo`: false, lying; falsely; deceived (e.g. pseudologue)
 - `phallo`: penis; male (e.g. phallocentric)
 - `pir`: pear (e.g. piriform)
@@ -1271,7 +1272,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pre`: before, ahead (e.g. preformed, prefigure)
   - From Latin `prae-`, before, ahead
 - `pro`: forward, before, forth (e.g. promote, prostitute, produce, profess,
-  profit, prologue, procrastinate, proclaim)
+  profit, prologue, procrastinate, proclaim, propel)
   - It comes from `Prometheus`, who can predict the future.
 - `pur`: the same as `pro` (e.g. purpose, purview, purvey)
   - A variant of Latin pro "before, for" (see `pro-`)
@@ -1370,7 +1371,7 @@ Variants:
   curricula)
 - `able`: adjective
 - `ability`: noun (`able` + `i` + `ty`)
-- `acle`: noun (e.g. obstacle, spectacle, manacle)
+- `acle`: noun (e.g. obstacle, spectacle, manacle, pinacle)
 - `acy`: noun; quality, state, or condition (e.g. obstinacy, legacy, mediacy,
   efficacy)
 - `ade`: noun (e.g. blockade, barricade, escapade)
@@ -1466,7 +1467,7 @@ Variants:
 - `ics`: noun, `ic` + `s`, the study of something (e.g. bioinformatics)
 - `icle`: the same as `-acle` (e.g. particle, fascicle)
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
-  polyploid = `poly` + `plo` + `id`, vivid, factoid, stupid, centroid)
+  polyploid = `poly` + `plo` + `id`, vivid, factoid, stupid, centroid, rancid)
 - `ile`: the same as `ible` (e.g. ductile, protractile, virile, tactile,
   turnstile, volatile, mobile, exile, agile, facile, fictile, percentile,
   docile, versatile)
