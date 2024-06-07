@@ -103,6 +103,7 @@ over and over again, and you'll be like a native.
   - Pesky
 
 - Boring
+  - Long-winded
   - Tedious
   - Trivial
   - Verbose
@@ -120,6 +121,7 @@ over and over again, and you'll be like a native.
 - Completely
   - Definitely
   - Outrightly
+  - Utterly
 
 - Crazy
   - Losing someone's mind
@@ -135,6 +137,12 @@ over and over again, and you'll be like a native.
   - Fire away
   - I'm all ears
   - Shoot
+
+- Goodnight
+  - Sleep tight
+
+- Hello
+  - What's up?
 
 - How
   - How is everything?
@@ -221,6 +229,9 @@ over and over again, and you'll be like a native.
   - It's awesome
   - It's fab
 
+- I'm fine
+  - Never better
+
 - I'm very happy
   - I'm thrilled
   - I'm on cloud nine
@@ -240,6 +251,10 @@ over and over again, and you'll be like a native.
   - I'm worn out
   - I'm exhausted
   - I'm knackered
+
+- I'm on my way
+  - I'll be right there
+  - I'm almost there
 
 - I'm under too much pressure
   - I'm stressed out
@@ -371,6 +386,8 @@ over and over again, and you'll be like a native.
   - Pace yourself
   - Easy does it
   - Take your time
+  - Don't sweat it
+  - Let it go
 
 - As usual
   - As always
@@ -466,6 +483,9 @@ over and over again, and you'll be like a native.
 - Boring
   - Lame
 
+- Boast
+  - Brag
+
 - Casually
   - Haphazardly
 
@@ -539,6 +559,7 @@ over and over again, and you'll be like a native.
   - Deal
   - Handle
   - Tackle
+  - Wrestle with
 
 - Dramatically
   - Notably
@@ -561,6 +582,7 @@ over and over again, and you'll be like a native.
 
 - Exhausted
   - Beat
+  - Knackered
 
 - Execute
   - Carry out
@@ -584,6 +606,10 @@ over and over again, and you'll be like a native.
 - Familiar
   - Acquainted
   - Conversant
+
+- Fashion
+  - Chic
+  - Trendy
 
 - For
   - In order to
@@ -618,6 +644,14 @@ over and over again, and you'll be like a native.
   - Phenomenal
   - Top-notch
 
+- Giant
+  - Enormous
+  - Mammoth
+  - Gigantic
+
+- Goal
+  - Objective
+
 - Happy
   - Joyful
   - Elated
@@ -645,9 +679,11 @@ over and over again, and you'll be like a native.
 
 - Improve
   - Amend
+  - Enhance
   - Revamp
 
 - In conclusion
+  - By and large
   - In summation
   - To encapsulate
 
@@ -762,9 +798,16 @@ over and over again, and you'll be like a native.
   - Courteous
   - Good-mannered
 
+- Poor
+  - Pathetic
+
 - Probably
   - Presumably
   - Roughly
+  - Sketchily
+
+- Prove
+  - Bear out
 
 - Realize
   - Be aware of
@@ -788,6 +831,10 @@ over and over again, and you'll be like a native.
   - Heartbroken
   - Upset
 
+- Salary
+  - Compensation
+  - Remuneration
+
 - Same
   - Identical
 
@@ -797,8 +844,15 @@ over and over again, and you'll be like a native.
   - I don't really do...
   - That's not for me
 
+- Show
+  - Demonstrate
+  - Shed light on
+
 - Simple
   - Straightforward
+
+- Silly
+  - Absurd
 
 - Small
   - Tiny
@@ -810,6 +864,12 @@ over and over again, and you'll be like a native.
   - Consequently
   - Hence
   - Therefore
+
+- Spread
+  - Disseminate
+
+- Start
+  - embark
 
 - Strange
   - Anticly
@@ -825,6 +885,7 @@ over and over again, and you'll be like a native.
 
 - Surprise
   - Astonish
+  - Stun
 
 - Taste
   - Flavor
@@ -868,16 +929,24 @@ over and over again, and you'll be like a native.
 - Unreadable
   - Elusive
 
+- Use
+  - Exploit
+  - Leverage
+  - Utilize
+
 - Very
   - Extremely
   - Enormously
   - Fairly
+  - Ferociously
   - Freaking
   - Immensely
   - Incrediblely
   - Quite
   - Remarkablely
+  - Stunningly
   - Tremendously
+  - Vastly
 
 - Very rarely
   - Once in a blue moon
@@ -928,6 +997,7 @@ over and over again, and you'll be like a native.
   - Can you budge up?
   - Keep sb. in the loop
   - Tackle the problem
+  - Come/get to grips with something
   - Can I take a rain check
   - How dare you!
   - I'm rooting for you
@@ -1017,5 +1087,38 @@ over and over again, and you'll be like a native.
   - One and only
   - Safe and sound
   - Fair and square
-
+  - I don't give a shit
+  - I don't give a damn
+  - I don't buy it
+  - I had a brain fart
+  - You shouldn't have
+  - You're a pain in the neck
+  - We don't get alone
+  - You are neither inferior nor superior to anyone
+  - Knock it off
+    - Call it off
+  - Make up your mind
+  - Call the shots
+  - Face the music
+  - Own up to it
+  - Make an effort
+  - Give it your best shot
+  - Look on the bright side
+  - Keep your chin up
+  - Hold your horses
+  - Hang in there
+  - That's very big of you
+  - You know jack
+    - Ok, I'm on it
+  - On the bright side; On the flip side
+  - Cut both ways
+  - A mixed blessing
+  - A stepping stone
+  - Stumbling block
+  - Hold water
+  - Way way better/easier
+  - All or nothing
+  - Now or never
+  - Make or break
+  - Do or die
 
