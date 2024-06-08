@@ -22,6 +22,7 @@ vividly, and make the other party feel more familiar and authentic.
   - Something that will never happened
 - A dime a dozen
 - A dog's breakfast
+- A drop in the ocean
 - A fish out of water
 - A Piece of cake
   - Something very easy to do
@@ -77,6 +78,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Break a leg
   - Good luck
 - Break ice
+- Bread and butter
 - Burn the midnight oil
 - Burn your boats/bridges
 - By the ear
@@ -132,6 +134,7 @@ vividly, and make the other party feel more familiar and authentic.
   - Get out of control
 - Get the ball rolling
 - Gild the lily
+- Give somebody food for thought
 - Go against the grain
 - Go down in flames
 - Go Dutch
@@ -170,6 +173,7 @@ vividly, and make the other party feel more familiar and authentic.
 ## K
 
 - Knock it off
+- Know something like the back of my hand
 - Kick the bucket
   - A euphemistic meaning 'to die'
 
@@ -198,11 +202,14 @@ vividly, and make the other party feel more familiar and authentic.
 - No pain, no gain
   - You have to work for what you want
 - Not rocket science
+- Not my cup of tea
 
 ## O
 
+- Off the top of my head
 - On a roll
 - On thin ice
+- Once in a blue moon
 - One for the road
 - One's ass off
 - Out of blue
@@ -213,6 +220,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Pull a rabbit out of the hat
 - Put on your thinking cap (on)
 - Put something on ice
+- Put yourself in their shoes
 
 ## R
 
@@ -223,6 +231,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Read the riot act
   - To reprimand someone for behaving badly, with the intention of improving
     that person’s behavior
+- Right back at you
 - Ring a bell
   - Sounds familiar
 - Rise and shine
@@ -260,6 +269,8 @@ vividly, and make the other party feel more familiar and authentic.
 - Tag alone
 - Take umbrage
 - Take the fall
+- That was a blast
+- The best of both worlds
 - The calm before the storm
 - The devil is beating his wife
 - The icing on the cake
@@ -275,6 +286,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Top dog
 - Top-notch
 - Top of one's head
+- To put all your eggs in one basket
 - Turn a blind eye
   - To refuse to acknowledge a known truth
 - Turn the tables
