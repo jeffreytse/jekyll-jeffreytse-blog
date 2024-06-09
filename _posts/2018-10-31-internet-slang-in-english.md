@@ -139,6 +139,7 @@ collection in my daily learning:
 - **JK** - Just kidding
 - **JOOC** - Just out of curiosity
 - **JSYK** - Just so you know
+- **LGTM** - Looks good to me (frequently used when reviewing documents)
 - **LMK** - Let me know
 - **LMAO** - Laughing my ass off
 - **LMBO** - Laughing my butt off
@@ -283,6 +284,7 @@ collection in my daily learning:
   gets sent out in bulk.
 - **Troll** - A troll is a person who starts flame wars on the Internet.
   E.g. Don’t feed the trolls.
+- **Nam' sayin'** - Do you know what I'm saying
 
 ## References
 
