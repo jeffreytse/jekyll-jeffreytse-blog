@@ -486,6 +486,9 @@ over and over again, and you'll be like a native.
 - Boast
   - Brag
 
+- Bullshit = Not true
+  - Poppycock
+
 - Casually
   - Haphazardly
 
@@ -848,11 +851,14 @@ over and over again, and you'll be like a native.
   - Demonstrate
   - Shed light on
 
+- Silly
+  - Absurd
+
 - Simple
   - Straightforward
 
-- Silly
-  - Absurd
+- Similarly
+  - Likewise
 
 - Small
   - Tiny
@@ -875,6 +881,7 @@ over and over again, and you'll be like a native.
   - Anticly
   - Bizarre
   - Cranky
+  - Eerie
   - Odd
   - Peculiar
   - Weird
@@ -978,6 +985,7 @@ over and over again, and you'll be like a native.
   - A dap and dip
   - Arm with
   - Calm down
+    - Keep your shirt on
   - What's new?
   - It's a nice day!
   - I'm sorry to bug you
@@ -1121,4 +1129,21 @@ over and over again, and you'll be like a native.
   - Now or never
   - Make or break
   - Do or die
+  - Go with the flow
+  - Based on what?
+  - You're bluffing
+  - Teach a men to fish
+  - Cross my heart
+  - The more the merrier
+  - What are the odds
+  - Six of one
+  - Give it to me straight
+  - Go to hell
+    - Drop dead
+  - Bullshit = Not true
+  - Horseshit = Unfair
+  - Dogshit = Bad quality
+  - Apeshit = Anger
+  - Batshit = Crazy
+  - Dipshit = Stupid person
 
