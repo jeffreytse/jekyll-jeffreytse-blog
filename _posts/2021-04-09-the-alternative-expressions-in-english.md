@@ -129,6 +129,21 @@ over and over again, and you'll be like a native.
 - Especially
   - Notably
 
+- Expensive
+  - A bit steep
+  - A daylight robbery
+  - A pretty penny
+  - Break the bank for me
+  - Costly
+  - Cost the earth
+  - Cost an arm and a leg
+  - Exorbitant
+  - Extortionate
+  - High-priced
+  - Overpriced
+  - Pricey
+  - Sky-high
+
 - Funny
   - Hilarious
 
@@ -279,7 +294,9 @@ over and over again, and you'll be like a native.
 
 - I don't know
   - Beats me
-  - I have no idea
+  - I've no idea
+  - I've no clue
+  - I wouldn't know
   - You guess as good as mine
 
 - I know
@@ -952,6 +969,7 @@ over and over again, and you'll be like a native.
   - Quite
   - Remarkablely
   - Stunningly
+  - Superduper
   - Tremendously
   - Vastly
 
@@ -1146,4 +1164,25 @@ over and over again, and you'll be like a native.
   - Apeshit = Anger
   - Batshit = Crazy
   - Dipshit = Stupid person
+  - Why the long face?
+  - I clocked her
+  - How'd it go?
+  - On the plus side
+  - I thought it would be...
+  - I came over to help
+  - I'm on the phone
+  - I'm right there
+  - I can't remember
+    - I'm drawing a blank
+    - I'm at a loss
+    - Slipped my mind
+    - It's on the tip of my tongue
+  - The police are coming
+  - He is a smart cookie
+  - He is full of beans
+  - My friend went bananas
+  - I've got a lot on my plate
+  - He is the big cheese
+  - I have bigger fish to fry
+  - Sugar coat it
 
