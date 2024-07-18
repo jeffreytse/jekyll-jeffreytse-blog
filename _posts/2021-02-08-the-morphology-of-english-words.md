@@ -443,7 +443,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `dic`: to show (e.g. dedicate, indicate)
   - Cognate with Latin `dicere` "to show;"
   - from PIE root `*deik`- "to show," also "pronounce solemnly"
-- `dict`: to say, speak; say often, prescribe (e.g. dictionary, dictate. verdict)
+- `dict`: to say, speak; to show; say often, prescribe (e.g. dictionary,
+  dictate, verdict)
 - `digm`: the same as `dic` (e.g. paramdigm)
 - `doc`: to take, accept; to show, teach, cause to know (e.g. document, docile,
   docent)
@@ -617,10 +618,12 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `man`: hand (e.g. manufactor, manuscript, mandate, manumit, emancipate, manner,
   manage, manacle, manumission, maintain, manifest, emancipate, manicure)
   - From Latin `manus`
-- `mark`: mark
+- `marc`: the same as `mark` (e.g. demarcate)
+- `mark`: boundary, border (demark, marker)
 - `mari`: of the sea; body of the sea (e.g. marine)
 - `matri`: mother, woman (e.g. matriarch)
 - `mast`: great; chief, head, director, teacher (e.g. master)
+- `merit`: to earn (money) (e.g. demerit)
 - `milit`: to fight; soldier (e.g. military, paramilitary)
 - `migr`: to change, go, move (e.g. migrate, immigrate, emigrate)
 - `mist`: the same as `mast` (e.g. mistress)
@@ -692,6 +695,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `graph`: write, draw, measure (e.g. photograph)
   - From Greek
 - `gress`: walk (e.g. progress, ingress)
+- `gyne`: woman (e.g. gynecology, misogyny)
 - `ocre`: be sharp, rise (out) to a point, pierce. (e.g. mediocre, ocrea)
 - `od`: a way, path, track, road or manner (e.g. method, period, odograph,
   anode, cathode)
@@ -1121,7 +1125,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
   descend, despite, deactive, defeat, detain, dedicate, decedent, define,
-  depart)
+  depart, demerit)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `deca`: ten (e.g. decalogue)
 - `deci`: the same as `deca` (e.g. decimal)
@@ -1152,7 +1156,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `em`: the form used for `en-` before `b`, `m`, or `p` (e.g. empower, embody)
 - `en`: in, into, on, onto, upon; put on (e.g. enslave, envalope, endorse,
   entitle)
-- `endo`: inside, within, internal (e.g. endogenous, endocrine, endomixis)
+- `endo`: inside, within, internal (e.g. endogenous, endocrine, endomixis,
+  endothermic)
   - Word-forming element from Greek `endon` "in, within"
 - `enter`: the same as `inter` (e.g. entertain)
 - `epi`: on, upon, above;in addition to; toward, among; (e.g. epimetheus,
@@ -1231,6 +1236,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     music and lyric poetry.
 - `myo`: relating to the muscle tissue (e.g. myocardial, cardiomyopathy,
   myoelectric)
+- `miso`: hate, hatred (e.g. misogyny, misanthropy)
 - `nano`: nano (e.g. nanostructure, nanotechnology)
 - `ne`: the same as `neg` (e.g. nescience)
 - `neg`: not; to deny (e.g. negtive)
@@ -1255,8 +1261,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pan`: all, every, whole, all-inclusive (e.g. pandemic)
   - From Greek `pan-`, combining form of pas
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal; defense
-  against (e.g. paramedic, parastatal, paralegal, paraeducator, paranormal,
-  parachute, paramount, paralysis, paradox)
+  against (e.g. paradigm, paramedic, parastatal, paralegal, paraeducator,
+  paranormal, parachute, paramount, paralysis, paradox)
   - From Greek `para-`, before vowels, par-, word-forming element.
 - `per`: forward; through; throughout; thoroughly; entirely, utterly; very
   (e.g. perfect, perform, persist, permit, persevere, pertain)
