@@ -16,6 +16,7 @@ way many Brits feel about American English.
 ## Pronunciation
 
 - after (ˈæftər / ˈɑːftə)
+- aunt (ænt / ɑːnt)
 - beta (ˈbeɪtə / biːtə)
 - common (ˈkɑː.mən / ˈkɒm.ən)
 - computer (kəmˈpjuːtər / kəmˈpjuːtə)
@@ -23,15 +24,25 @@ way many Brits feel about American English.
 - direct (daɪˈrekt / dəˈrekt)
 - either (ˈiːðər / ˈaɪðə)
 - example (ɪɡˈzæmpəl / ɪɡˈzɑːmpəl)
+- garage (ɡəˈrɑːʒ / ˈɡærɪdʒ)
+- herb (ɜːrb / hɜːrb)
+- leisure (ˈliːʒər / ˈlɛʒər)
 - mobile (moʊbiːl / məʊbaɪl)
 - neither (ˈniːðər / ˈnaɪðə)
 - novice (ˈnɑːvɪs / ˈnɒvɪs)
 - pass (pæs / pɑːs)
+- pasta (ˈpæstə / ˈpɑːstə)
 - possible (ˈpɑːsəbəl / ˈpɒsəbəl)
+- route (raʊt / ruːt)
 - supermarket (ˈsjuːpərˌmɑrːkɪt / ˈsuːpəˌmɑːkɪt)
 - telecom (ˈtel.ɪ.kɑːm / ˈtel.ɪ.kɒm)
 - them (ðem / ðəm)
+- tomato (təˈmeɪtoʊ / təˈmɑːtoʊ)
+- vase (veɪs / vɑːz)
 - via (ˈviːə / ˈvaɪə)
+- vitamin (ˈvaɪtəmɪn / ˈvɪtəmɪn)
+- water (ˈwɔːtər / ˈwɒtər)
+- zebra (ˈziːbrə / ˈzɛbrə)
 - ...
 
 ## Vocabulary
@@ -44,51 +55,90 @@ vocabulary. There are hundreds of everyday words that are different:
 - apartment / flat
 - apartment building / block of flats
 - attorney / barrister
+- backpack / rucksack
 - backside / bottom
-- bill or check / bill
+- band-aid / plaster
+- bangs / fringe
 - bathing suit / swimming costume
+- bill or check / bill
+- cafeteria / canteen
 - can / tin
 - candy / sweets
+- cell phone / mobile phone
+- chest / cabinet
+- chips / crisps
+- closet / wardrobe
 - cookie / biscuit
 - corn / maize
 - counter-clockwise / anti-clockwise
+- crib / cot
+- crosswalk / zebra crossing
 - detour / diversion
 - diaper / nappy
+- drape / curtain
+- drugstore / chemist's
+- dust bin / trash can
+- elementary school / primary school
 - elevator / lift
 - eraser / rubber
+- facuet / tap
+- fall / autumn
 - flashlight / torch
+- flyover / overpass
 - freeway / motorway
 - french fries or fries / chips
-- garbage / rubbish
+- garbage (trash) / rubbish
 - garbage can, trash can / dustbin
 - garbage collector / dustman
-- gasoline / petrol
+- gas (gasoline) / petrol (fuel)
 - gearshift / gear-lever
 - hat / bonnet (clothing)
+- hight way / motorway
+- high school / secondary school
 - hood / bonnet (car)
 - intersection; crossroads (rural) / crossroads
+- ladybug / ladybird
 - line / queue
 - mail / post
 - mailbox / postbox
+- math / maths
+- movie / film
 - overpass / flyover
-- pacifier / dummy (for baby)
-- parking lot / car park
+- pacifier (binky) / dummy (for baby)
+- pajamas / pyjamas
+- pants / trousers
+- pants / underwear
+- parking lot / carpark
 - potato chips / crisps
+- principal / headteacher
 - railroad / railway
+- recess / break time
 - restroom or bathroom / toilet or lavatory
+- resume / CV
+- takeout / takeaway
+- tie / draw
+- tire / tyre
 - trailer / caravan
 - trailer truck / articulated lorry
 - truck / lorry
 - trunk / boot
+- semester / term
 - schedule / timetable
 - sidewalk / pavement
 - silverware / cutlery
 - sneakers / trainers
+- soccer / football
+- subway / underground
 - sweater / jumper
+- test / exam
+- trunk / boot
 - undershirt / vest
 - vacation / holiday or hols
+- vest / waistcoat
 - windshield / windscreen
 - wrench / spanner
+- zip code / postcode
+- zuccini / courgette
 - ...
 
 ## Spelling
@@ -101,6 +151,7 @@ this. Below are three rules you can follow:
   - behavior / behaviour
   - color / colour
   - favor / favour
+  - honor / honour
   - humor / humour
   - labor / labour
   - neighbor / neighbour
@@ -108,8 +159,10 @@ this. Below are three rules you can follow:
   - center / centre
   - liter / litre
 - `-ize` / `-ise` (Many verbs)
+  - analyze / analyse
   - organize / organise
   - realize / realise
+  - recognize / recognise
 
 [noah webster]: https://www.wikiwand.com/en/Noah_Webster
 
