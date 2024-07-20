@@ -91,6 +91,13 @@ over and over again, and you'll be like a native.
   - It's nothing
   - That's ok
 
+- Afraid
+  - Panicked
+  - Scared
+  - Terrified
+  - Frieghtened
+  - Fricking out
+
 - Almost
   - Practically
   - Virtually
@@ -98,6 +105,9 @@ over and over again, and you'll be like a native.
 - Also
   - As well
   - Likewise
+
+- Amazing
+  - A wale of a time
 
 - Annoying
   - Pesky
@@ -124,7 +134,14 @@ over and over again, and you'll be like a native.
   - Utterly
 
 - Crazy
-  - Losing someone's mind
+  - Lost one's marbles
+  - Lost one's mind
+  - Lost one's underwear
+  - Nuts
+  - Off one's rocker (American)
+  - Off one's trolley (British)
+  - Out of one's mind
+  - Sick
 
 - Especially
   - Notably
@@ -143,6 +160,7 @@ over and over again, and you'll be like a native.
   - Overpriced
   - Pricey
   - Sky-high
+  - Transcendent
 
 - Funny
   - Hilarious
@@ -162,6 +180,9 @@ over and over again, and you'll be like a native.
 - How
   - How is everything?
   - Are you ok?
+
+- Hurry
+  - Expedite
 
 - Miss
   - Ignore
@@ -194,6 +215,7 @@ over and over again, and you'll be like a native.
 
 - Dislike
   - To be pissed off/ piss sb off
+  - So cheesed off
   - I hate his/him guts
   - Yukky
   - (Don't push me) I cannot take it any more / I cannot stand him any longer
@@ -202,6 +224,7 @@ over and over again, and you'll be like a native.
   - I won't buy that beef
   - You make me sick
   - I'm sick of sth.
+  - Obnoxious
 
 - Agree
   - Absolutely
@@ -220,6 +243,12 @@ over and over again, and you'll be like a native.
 - Take a time
   - Sleep on it
 
+- I fell asleep
+  - I dozed off
+  - I nodded off
+  - I passed out
+  - I zonked out
+
 - I like it
   - It's growing on me
 
@@ -229,8 +258,15 @@ over and over again, and you'll be like a native.
 - Bye
   - Look, I have got going
 
-- Relax, please
+- Relax
+  - Chill out
+  - Leave alone
+  - Let's take a break
+  - Let your hair down
+  - Give yourself a break
+  - Put your feet up
   - Take it easy
+  - Unwind
 
 - That's hard to said
   - It's complicated
@@ -248,6 +284,7 @@ over and over again, and you'll be like a native.
   - Never better
 
 - I'm very happy
+  - I'm chuffed to bits (British)
   - I'm thrilled
   - I'm on cloud nine
   - I'm pumped
@@ -258,10 +295,12 @@ over and over again, and you'll be like a native.
   - I'm devastated
 
 - I'm so busy
+  - I'm snowed under
   - I'm so swamped
 
 - I'm very tired
   - I'm beat
+  - I'm listless
   - I'm wiped out
   - I'm worn out
   - I'm exhausted
@@ -324,10 +363,13 @@ over and over again, and you'll be like a native.
 
 - Are you angry
   - Are you cool
+  - Are you miffed
 
 - I'm angry
   - I'm upset
+  - I'm furious
   - I'm pissed off
+  - I'm cheesed off
 
 - I accepted
   - I'm open to it
@@ -383,10 +425,6 @@ over and over again, and you'll be like a native.
 - I'm very difficult
   - I'm a total nightmare
 
-- I'm very angry
-  - I'm pissed off
-  - I'm furious
-
 - I'm very hungry
   - I'm starving
 
@@ -400,11 +438,12 @@ over and over again, and you'll be like a native.
   - I've got something coming up
 
 - Don't worry
-  - Pace yourself
-  - Easy does it
-  - Take your time
   - Don't sweat it
+  - Easy does it
   - Let it go
+  - Pace yourself
+  - Suit yourself
+  - Take your time
 
 - As usual
   - As always
@@ -418,8 +457,25 @@ over and over again, and you'll be like a native.
   - It's giving me a vibe of ...
 
 - I think
-  - In my opinion, ...
   - As far as I see, ...
+  - From my perspective, ...
+  - From my point of view, ...
+  - In my book, ... (Emphasize personal belief or judgment)
+  - In my opinion, ...
+  - In my judgment, ...
+  - I'd say, ...
+  - I believe, ...
+  - I consider, ...
+  - I contemplate, ...
+  - I deem, ...
+  - I feel, ...
+  - I feel like ...
+  - I guess, ...
+  - I reckon, ...
+  - I take into account, ...
+  - My take is ...
+    - My take on this is ...
+    - My take or my take on this, ...
 
 - I think I'd better do something
   - I figure I'd better do something
@@ -452,6 +508,7 @@ over and over again, and you'll be like a native.
   - Good to see you again
 
 - A lot of
+  - Abundant
   - A bunch of
   - A bundle of
   - A crowd of
@@ -505,6 +562,10 @@ over and over again, and you'll be like a native.
 
 - Bullshit = Not true
   - Poppycock
+
+- Careful
+  - Prudent
+  - Thoughtful
 
 - Casually
   - Haphazardly
@@ -629,6 +690,7 @@ over and over again, and you'll be like a native.
 
 - Fashion
   - Chic
+  - Posh
   - Trendy
 
 - For
@@ -647,6 +709,9 @@ over and over again, and you'll be like a native.
   - Ignore what I said
   - Don't worry about it
   - It's not important
+
+- Give up
+  - Throw in the towel
 
 - Good
   - Great
@@ -697,6 +762,12 @@ over and over again, and you'll be like a native.
   - Implied
   - Veiled
 
+- Impossible
+  - That's not going to happen
+  - Unattainable
+  - Unfeasible
+  - Unlikely
+
 - Improve
   - Amend
   - Enhance
@@ -735,6 +806,15 @@ over and over again, and you'll be like a native.
   - Attractive
   - Glamorous
 
+- Just
+  - Solely
+
+- Lack
+  - Deficiency
+  - Paucity
+  - Scarcity
+  - Shortage
+
 - What's up?
   - How're you?
 
@@ -764,6 +844,11 @@ over and over again, and you'll be like a native.
 - Mainly
   - Mostly
   - Predominantly
+
+- Momentary
+  - Fleeting
+  - Transient
+  - Instantaneous
 
 - My English isn't so good
   - My English is shit
@@ -894,6 +979,14 @@ over and over again, and you'll be like a native.
 - Start
   - embark
 
+- Stop
+  - Cease
+
+- Stubborn
+  - Adamant
+  - Intractable
+  - Obstinate
+
 - Strange
   - Anticly
   - Bizarre
@@ -903,6 +996,12 @@ over and over again, and you'll be like a native.
   - Peculiar
   - Weird
   - Unusual
+
+- Strong
+  - Firm
+  - Robust
+  - Sturdy
+  - Solid
 
 - Suddenly
   - Abruptly
@@ -926,6 +1025,10 @@ over and over again, and you'll be like a native.
 - Think carefully
   - Deliberate on
   - Ponder
+
+- Thingy
+  - Whatchamacallit
+  - Thingamajig
 
 - Tiny
   - Bite-sized
@@ -972,9 +1075,11 @@ over and over again, and you'll be like a native.
   - Superduper
   - Tremendously
   - Vastly
+  - Way too
 
 - Very rarely
   - Once in a blue moon
+  - Go beyond the ordinary
 
 - Waste time
   - Faffing around
@@ -982,6 +1087,9 @@ over and over again, and you'll be like a native.
 - Ways
   - Approaches
   - Avenues
+
+- Weak
+  - Tenuous
 
 - What a pity
   - That sucks
@@ -994,6 +1102,15 @@ over and over again, and you'll be like a native.
 - You are great
   - You rock
   - You're amazing
+  - You're brilliant
+  - You're good
+  - You're great
+  - You're killing it
+  - You're on fire
+  - You're perfect
+  - You're smashing
+  - You're smart
+  - You're terrific
 
 - To postpone something
   - Put something on ice
@@ -1076,6 +1193,7 @@ over and over again, and you'll be like a native.
   - You deserve it
   - Smart-ass
   - Piss off
+    - Cheese off
   - I have two left feet
   - Cut in line
     - Budge in line
@@ -1185,4 +1303,55 @@ over and over again, and you'll be like a native.
   - He is the big cheese
   - I have bigger fish to fry
   - Sugar coat it
+  - Could you help me?
+    - Could you do me a favor?
+    - Is it okay if I...?
+    - Is it possible if I...?
+    - I was wondering if you could...
+  - The goat = the greatest of all time
+  - I've heard so much about you
+  - How you holding up?
+  - Pretty please
+  - Up top
+  - Day in day out
+  - Make a fresh start
+  - Right as rain
+  - Fight fire with fire
+  - No time like the present
+  - Mum's the word (To be silent or Keep it a secret)
+  - Dog eat dog
+  - Talk shop (To talk about work)
+  - It's okay to not be okay
+  - That make two of us
+  - Count your blessings
+  - Stop whining
+  - We'll see about that
+  - Money talks
+  - Money is no object
+  - What is it to you?
+  - Don't fall for it
+  - The signal is weak
+    - I'm losing you
+    - The signal is bad
+    - You're breaking up
+  - I don't think so
+    - I beg to differ
+    - I don't see it that way
+  - Hands down (Without a doubt)
+  - Don't sass me
+  - Do you have a death wish?
+  - I messing with you
+  - Suck it up
+  - Oh my golly gosh!
+  - I'm in hot water with my boss
+  - Don't throw the towel
+  - I wasn't born yesterday
+  - I'm gonna hit the road
+  - He's very tight-fisted
+  - Get the gold buzz
+  - On the right track
+  - Let's get on the lash
+    - Let's hit the town
+  - Go far away
+    - Go far beyond
 
