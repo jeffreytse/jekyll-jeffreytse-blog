@@ -15,29 +15,46 @@ way many Brits feel about American English.
 
 ## Pronunciation
 
+- Adidas (əˈdiːdəs / ˈɑdidɑs)
+- adult (əˈdʌlt / ˈædʌlt)
+- advertisement (ˈædvɜːrtaɪzmənt / ədˈvɜːrtɪzmənt)
 - after (ˈæftər / ˈɑːftə)
+- ask (æsk / ɑːsk)
 - aunt (ænt / ɑːnt)
 - beta (ˈbeɪtə / biːtə)
+- brochures (ˈbroʊʃʊrz / ˈbrəʊʃərz)
+- chance (tʃæns / tʃɑːns)
+- class (klæs / klɑːs)
 - common (ˈkɑː.mən / ˈkɒm.ən)
 - computer (kəmˈpjuːtər / kəmˈpjuːtə)
 - current (ˈkɜːrənt / ˈkʌrənt)
 - direct (daɪˈrekt / dəˈrekt)
 - either (ˈiːðər / ˈaɪðə)
 - example (ɪɡˈzæmpəl / ɪɡˈzɑːmpəl)
+- finale (fɪˈnæli / fɪˈnɑːli)
 - garage (ɡəˈrɑːʒ / ˈɡærɪdʒ)
 - herb (ɜːrb / hɜːrb)
+- Jaguar (ˈdʒæɡwɑːr / ˈdʒæɡjuːər)
+- laugh (læf / lɑːf)
 - leisure (ˈliːʒər / ˈlɛʒər)
+- mask (mæsk / mɑːsk)
+- mascara (mæˈskɛrə / məˈskɑːrə)
 - mobile (moʊbiːl / məʊbaɪl)
 - neither (ˈniːðər / ˈnaɪðə)
+- Nike (ˈnaɪki / ˈnaɪk)
 - novice (ˈnɑːvɪs / ˈnɒvɪs)
 - pass (pæs / pɑːs)
 - pasta (ˈpæstə / ˈpɑːstə)
+- path (pæθ / pɑːθ)
 - possible (ˈpɑːsəbəl / ˈpɒsəbəl)
+- respide (ˈrɛspɪd / rɪˈspaɪd)
 - route (raʊt / ruːt)
+- status (ˈstætəs / ˈsteɪtəs)
 - supermarket (ˈsjuːpərˌmɑrːkɪt / ˈsuːpəˌmɑːkɪt)
 - telecom (ˈtel.ɪ.kɑːm / ˈtel.ɪ.kɒm)
 - them (ðem / ðəm)
 - tomato (təˈmeɪtoʊ / təˈmɑːtoʊ)
+- vaccine (ˈvækˌsiːn / ˈvɑkˌsiːn)
 - vase (veɪs / vɑːz)
 - via (ˈviːə / ˈvaɪə)
 - vitamin (ˈvaɪtəmɪn / ˈvɪtəmɪn)
@@ -51,6 +68,7 @@ The most noticeable difference between American and British English is
 vocabulary. There are hundreds of everyday words that are different:
 
 - allowance / pocket money
+- aluminum / aluminium
 - autumn or fall / autumn
 - apartment / flat
 - apartment building / block of flats
@@ -78,6 +96,7 @@ vocabulary. There are hundreds of everyday words that are different:
 - drape / curtain
 - drugstore / chemist's
 - dust bin / trash can
+- eggplant / aubergine
 - elementary school / primary school
 - elevator / lift
 - eraser / rubber
@@ -92,6 +111,7 @@ vocabulary. There are hundreds of everyday words that are different:
 - garbage collector / dustman
 - gas (gasoline) / petrol (fuel)
 - gearshift / gear-lever
+- gray / grey
 - hat / bonnet (clothing)
 - hight way / motorway
 - high school / secondary school
@@ -109,6 +129,7 @@ vocabulary. There are hundreds of everyday words that are different:
 - pants / trousers
 - pants / underwear
 - parking lot / carpark
+- poop / poo
 - potato chips / crisps
 - principal / headteacher
 - railroad / railway
@@ -128,6 +149,7 @@ vocabulary. There are hundreds of everyday words that are different:
 - silverware / cutlery
 - sneakers / trainers
 - soccer / football
+- stroller / pushchair or pram
 - subway / underground
 - sweater / jumper
 - test / exam
