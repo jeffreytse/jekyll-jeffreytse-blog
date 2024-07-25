@@ -575,7 +575,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `late`: late
 - `lax`: loose (e.g. laxity, relax)
 - `lay`: leave, let (e.g. delay, relay, inlay, allay, layoff, overlay, underlay
-   outlay, layer)
+  outlay, layer)
 - `lect`: to pick out, choose; to collect, gather; law; to say, to speak; count
   (e.g. collect, lecture, lexicon, elect, select, neglect, dialect, idiolect)
 - `leg`: the same as `lect` (e.g. delegate, legal, privilege, legend, legacy,
@@ -681,6 +681,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `non`: no (e.g. nonperformance)
 - `norm`: carpenter's square, rule, pattern (e.g. normal, enormous, abnormal,
   subnormal)
+- `noun`: to shout (e.g. pronounce, announce, denounce)
 - `nox`: the same as `noc` (e.g. noxious, obnoxious)
 - `nui`: the same as `noc` (e.g. nuisance)
 - `number`: to count, number
@@ -733,7 +734,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `patr`: chief or head of a family, father, man (e.g. patriarch, patriot)
 - `peal`: the same as `pel` (e.g. appeal, repeal)
 - `pear`: the same as `par` (e.g. appear, disappear, transparent)
-- `ped`: foot (e.g. centipede)
+- `ped`: foot (e.g. centipede, expedite)
 - `pel`: to thrust, strike, drive (e.g. compel; propel)
 - `penc`: the same as `pend` (e.g. )
 - `pend`: to hang, cause to hang; weigh; to draw, stretch, spin; pay (e.g.
@@ -1125,7 +1126,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
   descend, despite, deactive, defeat, detain, dedicate, decedent, define,
-  depart, demerit)
+  depart, demerit, denounce)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `deca`: ten (e.g. decalogue)
 - `deci`: the same as `deca` (e.g. decimal)
@@ -1169,7 +1170,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `eu`: good, well, pleasant (e.g. eupheme, eulogy, euphony)
 - `ex`: out of, from, upwards, completely, deprive of, former (e.g. express,
   extra = `ex` + `trans`, extort, exact, exigent, explicit, escape, exclaim,
-  exhale)
+  exhale, expedite)
   - From Latin `ex` "out of, from within; from which time, since; according to;
     in regard to"
   - From PIE `*eghs` "out" (source also of Gaulish `ex-`, Old Irish `ess-`, Old
@@ -1178,7 +1179,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Often reduced to `e-` before `-b-`, `-d-`, `-g-`, consonantal `-i-`, `-l-`,
     `-m-`, `-n-`, `-v-` (as in elude, emerge, evaporate, etc.).
 - `extra`: outwards, outside
-- `extro`: the same as `extra`  (e.g. extrovert)
+- `extro`: the same as `extra` (e.g. extrovert)
 - `for`: outside, beyond (e.g. forfeit, forgive, foreign)
   - From Latin `foris`
 - `geo`: relating to the Earth or its surface (e.g. geostationary)
@@ -1278,7 +1279,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pre`: before, ahead (e.g. preformed, prefigure)
   - From Latin `prae-`, before, ahead
 - `pro`: forward, before, forth (e.g. promote, prostitute, produce, profess,
-  profit, prologue, procrastinate, proclaim, propel)
+  profit, prologue, procrastinate, proclaim, propel, pronounce)
   - It comes from `Prometheus`, who can predict the future.
 - `pur`: the same as `pro` (e.g. purpose, purview, purvey)
   - A variant of Latin pro "before, for" (see `pro-`)
@@ -1548,7 +1549,8 @@ Variants:
 - `ster`: noun, a person who is associated with something (e.g. baluster, gangster)
   - Old English `-istre`, from Proto-Germanic \*-istrijon, feminine agent suffix
     used as the equivalent of masculine `-ere` (See `-er`)
-- `tron`: noun, ion, an atom or small group of atoms (e.g. electron, cyclotron)
+- `on`: noun, ion, an atom or small group of atoms (e.g. electron = `electric` + `on`,
+  cyclotron, photon)
 - `tude`: the same as `-ude` (e.g. attitude, aptitude, latitude)
 - `ty`: noun
 - `ude` noun, adjective (e.g. attitude, rectitude, magnitude)
