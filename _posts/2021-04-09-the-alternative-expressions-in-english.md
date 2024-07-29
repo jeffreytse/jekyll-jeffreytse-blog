@@ -112,6 +112,9 @@ over and over again, and you'll be like a native.
 - Annoying
   - Pesky
 
+- Ask
+  - Inquire
+
 - Boring
   - Long-winded
   - Tedious
@@ -127,6 +130,9 @@ over and over again, and you'll be like a native.
   - Thanks to
   - Out of
   - Now that
+
+- Cart
+  - Buggy
 
 - Completely
   - Definitely
@@ -177,6 +183,9 @@ over and over again, and you'll be like a native.
 - Hello
   - What's up?
 
+- Help
+  - Assist
+
 - How
   - How is everything?
   - Are you ok?
@@ -224,6 +233,7 @@ over and over again, and you'll be like a native.
   - I won't buy that beef
   - You make me sick
   - I'm sick of sth.
+  - I loathe it
   - Obnoxious
 
 - Agree
@@ -573,6 +583,9 @@ over and over again, and you'll be like a native.
 - Certainly
   - Assuredly
   - Reliably
+
+- Check
+  - Inform
 
 - Circumstance
   - Plot
@@ -1003,6 +1016,11 @@ over and over again, and you'll be like a native.
   - Sturdy
   - Solid
 
+- Student
+  - Learner
+  - Pupil
+  - Scholar
+
 - Suddenly
   - Abruptly
 
@@ -1013,6 +1031,14 @@ over and over again, and you'll be like a native.
 - Taste
   - Flavor
   - Palate
+
+- Teacher
+  - Educator
+  - Instructor
+  - Tutor
+
+- Tell
+  - Inform
 
 - Terrible
   - Awful
@@ -1141,7 +1167,6 @@ over and over again, and you'll be like a native.
   - Keep sb. in the loop
   - Tackle the problem
   - Come/get to grips with something
-  - Can I take a rain check
   - How dare you!
   - I'm rooting for you
   - Sleep on it
@@ -1354,4 +1379,5 @@ over and over again, and you'll be like a native.
     - Let's hit the town
   - Go far away
     - Go far beyond
+  - It bugs me
 
