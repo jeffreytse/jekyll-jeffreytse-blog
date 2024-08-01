@@ -56,6 +56,15 @@ over and over again, and you'll be like a native.
   - Don't get me wrong
   - I don't mean to cross the line, is she your new GF?
 
+- I'm busy
+  - I got a lot on my plate
+  - I have a hectic schedule
+  - I have my hands full
+  - I'm tied up right now
+  - I'm swamped
+  - I'm snowed under
+  - I'm up to my ears
+
 - It's okay
   - It's all good
   - Don't worry about it
@@ -299,6 +308,7 @@ over and over again, and you'll be like a native.
   - I'm on cloud nine
   - I'm pumped
   - I'm over the moon
+  - I'm stoked
 
 - I'm very sad
   - I'm down
@@ -465,6 +475,16 @@ over and over again, and you'll be like a native.
 
 - I feel ...
   - It's giving me a vibe of ...
+
+
+- I just realized...
+  - It struck me
+  - It dawned on me
+  - It suddenly hit me
+  - It suddently occurred to me
+  - It came to me in a flash
+  - It crossed my mind
+  - It popped into my head
 
 - I think
   - As far as I see, ...
@@ -890,6 +910,10 @@ over and over again, and you'll be like a native.
 - Conversely
   - On the contrary
   - Oppositely
+
+- Oh my god
+  - Holy moly
+  - Holy shit
 
 - Outstanding
   - Highlighted
@@ -1380,4 +1404,24 @@ over and over again, and you'll be like a native.
   - Go far away
     - Go far beyond
   - It bugs me
+  - I potato you
+  - I'm on it
+  - Let's touch base
+  - It's a wrap
+  - I'm all in
+  - That's a no-brainer
+  - It's water under the bridge
+  - That's spot on
+  - I'm up for it
+  - It's a win-win
+  - You're a pill
+  - Find your feet
+  - Jump the gun
+  - Duck face
+  - Eye candy
+  - That party was lit
+  - He got a cool new ride
+  - Ditto
+    - Me too
+  - She is a ten
 
