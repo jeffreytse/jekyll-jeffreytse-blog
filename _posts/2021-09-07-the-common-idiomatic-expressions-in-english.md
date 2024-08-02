@@ -62,6 +62,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Bad hair day
 - Back against the wall
 - Back to the drawing board
+- Bail on someone
 - Baker's dozen
 - Barking up the wrong tree
 - Be there or be square
@@ -87,6 +88,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Blue in the face
   - Weakened or tired after trying many times
 - Blue moon
+- Born yesterday
 - Bottom line
 - Break a leg
   - Good luck
@@ -105,6 +107,7 @@ vividly, and make the other party feel more familiar and authentic.
   - Stop working on something
 - Call it a night
 - Call it quits
+- Call the shots
 - Cat and mouse game
 - Cat got your tongue
 - Cat's pajamas
@@ -112,7 +115,6 @@ vividly, and make the other party feel more familiar and authentic.
 - Chase rainbows
   - To pursue unrealistic goals
 - Chop-chop
-- Cloud nine
 - Cold feet
 - Cool beans
 - Cool your jets
@@ -120,6 +122,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Couch potato
 - Crack a smile
 - Crack of dawn
+- Cram for
 - Crunch time
 - Cry over spilled milk
 - Cry wolf
@@ -131,7 +134,10 @@ vividly, and make the other party feel more familiar and authentic.
 - Dead of winter
   - The coldest, darkest part of winter
 - Devil's advocate
+- Dime a dozen
 - Ditto
+- Do a runner
+- Dog water
 - Don't chicken out
 - Don’t cry over spilt milk
 - Don't give up the day job
@@ -143,13 +149,15 @@ vividly, and make the other party feel more familiar and authentic.
 
 ## E
 
-- Elephant in the room
+- Eager-beaver
 - Ear candy
 - Easy does it
   - Slow down
 - Eat like a horse
 - Eat your heart out
+- Elephant in the room
 - Enough is enough
+- Epic fail
 - Everything but the kitchen sink
   - Everything that you can think of; every possible thing in a given situation
 - Eye candy
@@ -159,6 +167,8 @@ vividly, and make the other party feel more familiar and authentic.
 - Face the music
 - Fat and happy
 - Fed up
+- Feel blue
+- Feel zen about (British)
 - Feel like a million dollars
 - Finger crossed
 - Foot the bill
@@ -175,6 +185,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Get on the lash (British)
 - Get out of hand
   - Get out of control
+- Get out of one's hair
 - Get the ball rolling
 - Gild the lily
 - Give me a minute
@@ -187,6 +198,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Go for broke
 - Go pear-shaped
 - Go shanghaied
+- Go too far
 - Go with the flow
 - Good things come to those who wait
 - Got a lot on my plate
@@ -201,8 +213,11 @@ vividly, and make the other party feel more familiar and authentic.
 - Have a blast
 - Have a bone to pick
 - Have a cow
+- Have a silver bullet
+- Have a silver tongue
 - Have a whale of a time
 - Have an axe to grind
+- Have my wheel
 - Have rizz
 - Hazard a guess
 - Hit the books
@@ -214,7 +229,9 @@ vividly, and make the other party feel more familiar and authentic.
 - Hold your horses
   - To tell s.one to stop and consider carefully their decision or opinion about
     something
+- Home free
 - Hot potato
+  - A problem that is very difficult to deal with
 
 ## I
 
@@ -231,11 +248,13 @@ vividly, and make the other party feel more familiar and authentic.
 - In two minds about it
 - It cost me an arm and a leg
 - It's a no-brainer
+- It's your call
 - I'm beat
 - I'm behind you
 - I'm chuffed to bits
 - I'm onto you
 - I'm over you
+- I'm venting
 
 ## J
 
@@ -248,6 +267,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Know something like the back of my hand
 - Kick the bucket
   - A euphemistic meaning 'to die'
+- Kind of a racket
 - Kiss ass
 
 ## L
@@ -266,9 +286,11 @@ vividly, and make the other party feel more familiar and authentic.
   - Tell something briefly
 - Make my day
 - Make waves
+- Mercy me
 - Miss the boat
   - It's too late
 - Monkey around
+- Mover and shaker
 - My bad
 - My take or my take on this
 
@@ -276,9 +298,12 @@ vividly, and make the other party feel more familiar and authentic.
 
 - Nature and/or nurture
 - Nice try
+- No cap
 - No dice
 - No pain, no gain
   - You have to work for what you want
+- No spring chicken
+- Nose in the book
 - Not in a million years
 - Not rocket science
 - Not my cup of tea
@@ -291,6 +316,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Off your trolley (British)
 - On a roll
 - On a shoestring
+- On cloud nine
 - On the ball
 - On the nose
 - On thin ice
@@ -301,6 +327,7 @@ vividly, and make the other party feel more familiar and authentic.
 
 ## P
 
+- Pain the town red
 - Pie in the sky
 - Play it by ear
 - Pull a rabbit out of the hat
@@ -337,17 +364,23 @@ vividly, and make the other party feel more familiar and authentic.
 - Sell like hot cakes
 - Sell yourself short
 - Shape up or ship out
+- Ship A with B
+- Ship to your doorstep
 - Shoot from the hip
 - Shot in the dark
+- Side hustle
 - Sit tight
 - Small fish in a big pond
 - Smooth sailing
 - Snitches get stitches
 - Snowed under
 - Sock away
+- Socliche
+- So to speak
 - Speak of the devil
 - Spill the beans
   - To leak a secret
+- Spin one's wheel
 - Spit into the wind
   - Wasting time on something futile
 - Strength in numbers
@@ -362,8 +395,12 @@ vividly, and make the other party feel more familiar and authentic.
 
 - Tag alone
 - Take a rain check
+- Take several seats
 - Take umbrage
 - Take the fall
+- Ten to one
+- Ten out of ten
+- Ten-minute man
 - That was a blast
 - That's my cup of tea
 - That's a bummer
@@ -380,6 +417,7 @@ vividly, and make the other party feel more familiar and authentic.
 - The Midas touch
 - The plane has gone tits up (British)
 - The proof is in the pudding
+- Third wheel
 - Through thick and thin
 - Throw caution to the wind
 - Throw in the towel
@@ -388,9 +426,11 @@ vividly, and make the other party feel more familiar and authentic.
 - Top of one's head
 - To put all your eggs in one basket
 - Trick or treat
+- Trust fund baby
 - Turn a blind eye
   - To refuse to acknowledge a known truth
 - Turn the tables
+- Two left feet
 
 ## U
 
@@ -404,11 +444,13 @@ vividly, and make the other party feel more familiar and authentic.
 - Walk on air
 - Walk on eggshells
 - Watch your step
+- Well-worn themes
 - Went bananas
 - We'll cross that bridge when we come to it
 - We're even
 - When pigs fly
   - Something that you think will never happen
+- Wrap up
 
 ## Y
 
@@ -418,4 +460,6 @@ vividly, and make the other party feel more familiar and authentic.
 - You rock
 - You're a peach
 - You're a vibe
+- You're salty
+- You're the doctor
 - Your guess is as good as mine
