@@ -763,6 +763,7 @@ over and over again, and you'll be like a native.
   - Top-notch
 
 - Giant
+  - Colossal
   - Enormous
   - Mammoth
   - Gigantic
@@ -1424,4 +1425,5 @@ over and over again, and you'll be like a native.
   - Ditto
     - Me too
   - She is a ten
+  - Are you game?
 
