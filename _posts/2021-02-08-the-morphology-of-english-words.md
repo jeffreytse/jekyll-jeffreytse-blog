@@ -768,6 +768,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `plo`: the same as `pli` (e.g. employ, deploy, diploma)
 - `ply`: the same as `pli` (e.g. apply, imply, reply, supply, comply)
 - `pond`: the same as `pend` (e.g. )
+- `pos`: to put, place, the same as `loc` (e.g. position, deposit, repository)
 - `preci`: reward, honor, fame, prize, value, worth (e.g. precious, appreciate)
 - `prais`: the same as `preci` (e.g. appraise)
 - `pric`: the same as `preci` (e.g. price, pricy, pricey)
@@ -933,7 +934,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sys`: the same as `syn` (e.g. system)
 - `tact`: the same as `tag` (e.g. contact, tactual, tactile, intact, tactless,
   tactic, syntactic, stereotactic)
-- `tag`: to touch, handle; arrange (e.g. tag, contagion, integer, taxonomy)
+- `tag`: to touch, handle; arrange (e.g. tag, contagion, taxonomy)
 - `tail`: to cut in pieces (e.g. tailor, detail, retail)
 - `tail`: the base of the back (e.g. tailer)
 - `tain`: to hold, to stretch, strain, tight (e.g. attain, contain, detain,
@@ -943,16 +944,18 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tast`: the same as `tag` (e.g. taste, foretaste, aftertaste)
 - `techn`: art, skill (e.g. technology, `techn` + `o` + `logy`)
   - From Latin `technicus`, also from Greek `tekhnikos`
-- `text`: to weave, to fabricate (e.g. )
 - `tect`: the same as `text` (e.g. architect)
+- `teg`: the same as `tag` (e.g. integer = `in` (not) + `teg` + `er`, integrity,
+  integer, integral, integrate, tegument)
 - `ten`: the same as `tain` (e.g. content, maintenance, sustenance, abstention,
   tenant, tenancy, tenement, detente)
 - `tend`: the same as `tain` (e.g. intend, extend, distend, content, tendency)
 - `tens`: the same as `tain` (e.g. tense, intense, extension)
 - `tent`: the same as `tain` (e.g. extent)
-- `terra`: earth (e.g. mediterranean)
+- `terra`: earth (e.g. terratory, mediterranean)
 - `term`: boundary, end (e.g. term)
 - `termin`: the same as `term` (e.g. terminal, terminate, determine, exterminate)
+- `text`: to weave, to fabricate (e.g. )
 - `thentes`: doer, being (e.g. authentic = `auto` + `thentes`)
 - `thermo`: to heat, warm (e.g. thermostat, thermoelectric)
 - `thes`: the same as `loc`
@@ -1126,7 +1129,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
   descend, despite, deactive, defeat, detain, dedicate, decedent, define,
-  depart, demerit, denounce)
+  depart, demerit, denounce, deposit)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `deca`: ten (e.g. decalogue)
 - `deci`: the same as `deca` (e.g. decimal)
@@ -1530,7 +1533,8 @@ Variants:
 - `ol` the same as `al` (e.g. capitol)
 - `or`: the same as `-er` (e.g. resistor, liquor)
 - `ora`: noun (e.g. plethora)
-- `ory`: noun, the same as `-ary` (e.g. victory, directory, formulary, mandatory)
+- `ory`: noun, the same as `-ary`, a place or thing that is used for doing
+  something (e.g. victory, directory, formulary, mandatory, territory)
 - `ous`: adjective, refer to a quality or condition (e.g. numerous, fictious)
 - `pathy`: adjective, `path` + `y`; feeling, suffering, emotion; disorder, disease
   (e.g. neuropathy, homeopathy, sympathy)
