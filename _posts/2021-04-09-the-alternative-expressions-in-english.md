@@ -48,12 +48,13 @@ over and over again, and you'll be like a native.
   - I'd love to, but...
 
 - Sorry
+  - Apologize
+  - Don't get me wrong
+  - My bad! (An Americanism)
   - I didn't meant it/to
   - It was wrong of me
   - I was wrong to
   - I should never have
-  - My bad! (An Americanism)
-  - Don't get me wrong
   - I don't mean to cross the line, is she your new GF?
 
 - I'm busy
@@ -114,6 +115,7 @@ over and over again, and you'll be like a native.
 - Also
   - As well
   - Likewise
+  - Moreover
 
 - Amazing
   - A wale of a time
@@ -123,12 +125,22 @@ over and over again, and you'll be like a native.
 
 - Ask
   - Inquire
+  - Pick sb's brain
+  - Query
 
 - Boring
   - Long-winded
   - Tedious
   - Trivial
   - Verbose
+
+- Beautiful
+  - Attractive
+  - Gorgeous
+  - Lovely
+  - Pretty
+  - Ravishing
+  - Stunning
 
 - Because
   - As
@@ -142,6 +154,17 @@ over and over again, and you'll be like a native.
 
 - Cart
   - Buggy
+
+- Clever
+  - Bright
+  - Brilliant
+  - Sharp
+  - Smart
+
+- Come
+  - Arrive
+  - Drop in
+  - Show up
 
 - Completely
   - Definitely
@@ -259,7 +282,8 @@ over and over again, and you'll be like a native.
 - Satisfy sth.
   - cater to sth.
 
-- Take a time
+- Thank about it
+  - Take a time
   - Sleep on it
 
 - I fell asleep
@@ -270,6 +294,7 @@ over and over again, and you'll be like a native.
 
 - I like it
   - It's growing on me
+  - I'm into it
 
 - I want to do something
   - I'm dying to do something
@@ -311,6 +336,7 @@ over and over again, and you'll be like a native.
   - I'm stoked
 
 - I'm very sad
+  - I'm blue
   - I'm down
   - I'm devastated
 
@@ -371,6 +397,7 @@ over and over again, and you'll be like a native.
 
 - I will pay the bill
   - I got this
+  - It's on me
 
 - I made a big mistake
   - I screwed up
@@ -397,6 +424,9 @@ over and over again, and you'll be like a native.
 - I'll try it
   - I'll give it a shot
 
+- You should try it
+  - Give it a shot
+
 - Laugh at you
   - Mocking you
 
@@ -414,9 +444,6 @@ over and over again, and you'll be like a native.
 - In the end
   - At last
   - Ultimately
-
-- You should try it
-  - Give it a shot
 
 - I slept very well
   - I slept like a baby
@@ -476,7 +503,6 @@ over and over again, and you'll be like a native.
 - I feel ...
   - It's giving me a vibe of ...
 
-
 - I just realized...
   - It struck me
   - It dawned on me
@@ -509,6 +535,9 @@ over and over again, and you'll be like a native.
 
 - I think I'd better do something
   - I figure I'd better do something
+
+- I understand you
+  - I feel you
 
 - Here is the thing
   - Here is the deal
@@ -559,6 +588,11 @@ over and over again, and you'll be like a native.
 - Accidentally
   - Inadvertently
 
+- Agile
+  - Nimble
+  - Quick
+  - Spry
+
 - Although
   - Though
   - Notwithstanding
@@ -570,6 +604,7 @@ over and over again, and you'll be like a native.
   - Irritated
   - Mad
   - Offended
+  - Out of one's mind
   - Take umbrage
   - Unhappy
   - Unpleasant
@@ -618,6 +653,12 @@ over and over again, and you'll be like a native.
   - Compose
   - Comprise
   - Constitute
+
+- Compete
+  - Contend
+  - Rival
+  - Vie
+  - Wrestle
 
 - Compulsory
   - Obligatory
@@ -781,6 +822,11 @@ over and over again, and you'll be like a native.
   - Take place
   - Come up
 
+- Idea
+  - Concept
+  - Notion
+  - Thought
+
 - If...
   - In case...
 
@@ -878,6 +924,20 @@ over and over again, and you'll be like a native.
 - Mainly
   - Mostly
   - Predominantly
+
+- Many
+  - A lot of
+  - A number of
+  - A plethora of
+  - A ton of
+  - A variety of
+  - Abundant
+  - Numerous
+
+- Meet
+  - Catch up with
+  - Encounter
+  - Run into
 
 - Momentary
   - Fleeting
@@ -1195,7 +1255,6 @@ over and over again, and you'll be like a native.
   - How dare you!
   - I'm rooting for you
   - Sleep on it
-  - I don't buy it
   - Do me a favor
   - I'm at the loss for words
   - Why are you trippin
@@ -1369,6 +1428,9 @@ over and over again, and you'll be like a native.
   - Fight fire with fire
   - No time like the present
   - Mum's the word (To be silent or Keep it a secret)
+    - Keep it under wraps
+    - Keep it under one's hat
+    - Keep it on the down low
   - Dog eat dog
   - Talk shop (To talk about work)
   - It's okay to not be okay
@@ -1426,4 +1488,32 @@ over and over again, and you'll be like a native.
     - Me too
   - She is a ten
   - Are you game?
-
+  - Off you go
+  - Off work
+    - Done for the day
+    - Finished work today
+    - Got off work
+    - Heading home from work
+    - Off duty
+    - Off the clock
+  - Stop talking
+    - Zip your lips
+  - Prove it wrong
+    - Make you eat your words
+  - Text me
+    - Hit me up
+  - You're wrong
+    - No, you've got it wrong
+    - You made a mistake
+    - I don't buy it
+    - I don't quite see it that way
+    - I don't think you're quite right about that
+    - I see it differently
+    - I'm not so sure about that
+    - I'm afraid you're mistaken
+    - Actually, I don't think you're right
+  - You may have made a mistake
+    - You might be mistaken
+    - I'm not sure that's accurate
+    - Let's double check the facts
+    - I'm not convinced
