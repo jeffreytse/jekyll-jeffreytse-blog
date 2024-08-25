@@ -340,7 +340,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   anarchy, archetype)
 - `aristo`: best of its kind, noblest, bravest, most virtuous (e.g. aristocracy)
 - `art`: to do, make (e.g. artifact, artificial, artifice)
-- `astr`: star (e.g. astronaut)
+- `astr`: star (e.g. astronaut, astronomy)
 - `author`: one who causes to grow, to increase (e.g. authority)
 - `bar`: bar, obstacle (e.g. embarrass, barrack, barricade)
   - From Latin `barra`
@@ -424,6 +424,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `cruc`: cross (e.g. cruciform, crucifix, crucial)
   - From Latin `crux`
 - `crud`: the same as `cru` (e.g. crude)
+- `cumb`: lie down (e.g. incumbent, succumb, encumber, recumbent)
 - `cunei`: cunei (e.g. cuneiform)
 - `cup`: the same as `cept` (e.g. occupy, recuperate, cupidity)
 - `cur`: to run (e.g. occur)
@@ -676,7 +677,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `neur`: the same as `nerv` (e.g. neural)
 - `news`: message (e.g. newspaper, newsstand)
   - Message from North, East, West and South
-- `noc`: to harm (e.g. nocent, innocent, nocuous, innocuity)
+- `nic`: the same as `noc` (e.g. pernicious)
+- `noc`: to harm (e.g. nocent, innocent, nocuous, innocuity, innocuous)
   - From Latin `nocere`
 - `non`: no (e.g. nonperformance)
 - `norm`: carpenter's square, rule, pattern (e.g. normal, enormous, abnormal,
@@ -952,6 +954,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `tend`: the same as `tain` (e.g. intend, extend, distend, content, tendency)
 - `tens`: the same as `tain` (e.g. tense, intense, extension)
 - `tent`: the same as `tain` (e.g. extent)
+- `ter`: surface, aspect, the same as `term` (e.g. territory, exterior)
 - `terra`: earth (e.g. terratory, mediterranean)
 - `term`: boundary, end (e.g. term)
 - `termin`: the same as `term` (e.g. terminal, terminate, determine, exterminate)
