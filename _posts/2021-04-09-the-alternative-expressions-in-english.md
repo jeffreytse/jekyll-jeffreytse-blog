@@ -566,6 +566,15 @@ over and over again, and you'll be like a native.
   - It's been a while
   - Good to see you again
 
+- A little of
+  - A bit of
+  - A dash of
+  - A hint of
+  - A pinch of
+  - A smidgen of
+  - A tad of
+  - A touch of
+
 - A lot of
   - Abundant
   - A bunch of
@@ -895,6 +904,10 @@ over and over again, and you'll be like a native.
   - Scarcity
   - Shortage
 
+- Very little
+  - Not enough
+  - Scant
+
 - What's up?
   - How're you?
 
@@ -1217,6 +1230,7 @@ over and over again, and you'll be like a native.
   - You're good
   - You're great
   - You're killing it
+  - You're laudable
   - You're on fire
   - You're perfect
   - You're smashing
@@ -1517,3 +1531,10 @@ over and over again, and you'll be like a native.
     - I'm not sure that's accurate
     - Let's double check the facts
     - I'm not convinced
+  - Burn bridges
+  - Circle back
+  - I got held up
+  - Rain on me
+  - You might as well...
+  - Have a say
+  - Keep me posted
