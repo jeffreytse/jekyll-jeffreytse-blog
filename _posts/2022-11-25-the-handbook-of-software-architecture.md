@@ -836,6 +836,174 @@ Products:
 
 #### Control Plane
 
+## Architecture Principles
+
+Three Principles of Architecture Design:
+
+- Suitability Principle (Suitability over Completeness)
+- Simplicity Principle (Simplicity over Complexity)
+- Evolution Principle (Evolution over One-time Perfection)
+
+### JIT-JEA
+
+> Just In Time, Just Enough Architecture
+
+### DRY
+
+> Don't Repeat Yourself
+
+### KISS
+
+> Keep It Simple, Stupid
+
+### SOLID
+
+- Single Responsibility
+- Open-Closed
+- Liskov Substitution
+- Interface Segregation
+- Dependency Inversion
+
+### YAGNI
+
+> You Aren't Gonna Need It
+
+### IoC (Inversion of Control)
+
+### High cohesion & Low coupling
+
+## Architecture Patterns
+
+### CQRS (Command and Query Responsibility Segregation)
+
+CQRS is a software architectural pattern that separates the read and write
+models of a system. The write model is responsible for handling commands and is
+a representation of the current state of the system. The read model is
+responsible for handling queries and is a representation of the data that is to
+be displayed to the user. CQRS allows for the read and write models to be
+specialized for their respective tasks, which can lead to better performance and
+scalability.
+
+### TDD (Test-Driven Development)
+
+TDD is an agile software development process where developers write automated
+tests before writing the code. The idea behind TDD is that if you write the
+tests first, you will have a better understanding of what the code should do.
+The tests act as a specification for the code. TDD ensures that the code is
+testable, maintainable, and extensible.
+
+- Tests act as documentation for the code
+- Ensures that the code is testable, maintainable, and extensible
+- Helps catch bugs early in the development process
+- Provides a safety net for refactoring the code
+
+### BDD (Behavior-Driven Development)
+
+BDD is a software development process that focuses on the behavior of the
+software. BDD is an extension of TDD, where tests are written in a more
+natural language that stakeholders can understand. BDD ensures that the
+software is developed based on the user’s needs and behaviors.
+
+- Helps ensure that the software is developed based on the user’s needs and
+  behaviors
+- Provides a common language for developers, testers, and stakeholders
+- Improves communication and collaboration between stakeholders
+- Helps identify potential issues early in the development process
+
+### DDD (Domain-Driven Design)
+
+DDD is an approach to software development that focuses on the domain of
+the software. The domain is the problem space that the software is intended
+to solve. DDD ensures that the software is built around the domain and that
+it solves the problem in the best possible way.
+
+- Ensures that the software solves the problem in the best possible way
+- Improves the understanding of the domain of the software
+- Provides a common language for developers and domain experts
+- Helps identify potential issues early in the development process
+
+#### EBI (Entity-Boundary-Interactor)
+
+![EBI](https://github.com/user-attachments/assets/2a59fc1b-48b6-4c11-a67f-a35ffe80a853)
+
+#### Hexagonal Architecture (Ports & Adapters Architecture)
+
+![Hexagonal Architecture](https://github.com/user-attachments/assets/db5a0668-fc6a-47eb-92a1-dd01c29708a1)
+
+#### Onion Architecture
+
+Onion Architecture is built on top of the Port & Adapter Architecture (also
+known as Hexagonal Architecture), which mentions only 2 layers:
+
+- Outer Layer - Represents the transport (communication) mechanism and infrastructure
+- Inner Layer - Business Logic
+
+![Onion Architecture](https://github.com/user-attachments/assets/323f4313-80fa-4825-8aea-f4ac3e9a3edd)
+
+Onion Architecture, based on DDD, further divides the inner layer (Business
+Logic Layer) into:
+
+- Adapters, which correspond to the Adapter layer in Hexagonal Architecture
+  - User Interface, Infrastructure, Tests
+- Application Core, which is the core of the application, also the original
+  Business Logic layer in Hexagonal Architecture
+  - Application Services
+  - Domain Services
+  - Domain Model
+
+And it clarifies the direction of dependencies:
+
+- Outer layers depend on inner layers
+- Inner layers are unaware of outer layers
+- Without breaking the dependency direction, outer layers can directly call
+  any inner layer (not necessarily adjacent layers), as seen in CQRS where
+  Application Services directly call DAO in Query implementation
+
+#### Clean Architecture
+
+Compared to Onion Architecture, Clean Architecture adjusts as follows:
+
+- Application Services are adjusted to Use Cases Domain Services
+- Domain Model is adjusted to Entities
+
+![The Clean Architecture](https://github.com/user-attachments/assets/cf25278e-f6c1-456e-8704-2dec7b4d7888)
+
+Clean Architecture does not bring breakthrough concepts or patterns, but:
+
+- It uncovers some concepts, rules, and patterns that were somewhat forgotten
+- It clarifies some practical and important concepts, rules, and patterns
+- It tells us how to integrate all the concepts, rules, and patterns to form
+  a standard approach for building complex applications while maintaining
+  maintainability
+
+![The Clean Architecture Cone](https://github.com/user-attachments/assets/d358ecaa-99ef-4ac1-8c9c-2764b1558559)
+
+### Explicit Architecture
+
+In 2017, Herberto Graca proposed Explicit Architecture in his series of articles
+on the chronicles of software architecture, which integrates DDD, Hexagonal,
+Onion, Clean, CQRS, and other architectures.
+
+![Explicit Architecture](https://github.com/user-attachments/assets/f1068278-2c2a-4ec3-97f9-66566d9830ea)
+
+### Event-Driven
+
+### Micro Services
+
+### Micro Frontend
+
+## Documentation
+
+### C4 Model
+
+The idea is to use 4 different granularity (or zoom) levels for documenting
+software architecture:
+
+- Level 1: System Context diagram
+- Level 2: Container diagram
+- Level 3: Component diagram
+- Level 4: Code diagram
+
 ## References
 
 - [Principles of Transaction-Oriented Database Recovery](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.2812&rep=rep1&type=pdf)
@@ -843,3 +1011,4 @@ Products:
 - [An In-Depth Analysis of Distributed Transaction Solutions](https://www.alibabacloud.com/blog/an-in-depth-analysis-of-distributed-transaction-solutions_597232)
 - [Token Design for a Better API Architecture](https://nordicapis.com/token-design-better-api-architecture/)
 - [Microservices Design Patterns Tutorial](https://www.tutorialspoint.com/microservices_design_patterns/index.htm)
+- [ddd-hexagonal-cqrs-es-eda](https://github.com/bitloops/ddd-hexagonal-cqrs-es-eda)
