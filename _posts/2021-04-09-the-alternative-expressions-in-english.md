@@ -200,6 +200,9 @@ over and over again, and you'll be like a native.
   - Sky-high
   - Transcendent
 
+- Excuse
+  - Pretext
+
 - Funny
   - Hilarious
 
@@ -898,6 +901,17 @@ over and over again, and you'll be like a native.
 - Just
   - Solely
 
+- Key
+  - Crucial
+  - Essential
+  - Fundamental
+  - Important
+  - Major
+  - Principal
+  - Pivotal
+  - Significant
+  - Vital
+
 - Lack
   - Deficiency
   - Paucity
@@ -1024,6 +1038,10 @@ over and over again, and you'll be like a native.
 
 - Prove
   - Bear out
+
+- Purposely
+  - Deliberately
+  - Intentionally
 
 - Realize
   - Be aware of
@@ -1538,3 +1556,34 @@ over and over again, and you'll be like a native.
   - You might as well...
   - Have a say
   - Keep me posted
+  - I’m heading out
+  - What's the sigma?
+  - Cut to the chase
+  - A piece of work
+  - Buy your story
+  - Very demure
+  - Fair game
+  - Hands down
+  - Greedy pig
+  - Cut it out
+  - You asked for it
+  - You bastard
+  - I'm sick of it
+  - You're a jerk
+  - Get over yourself
+  - Heebie-jeebies
+  - You make me sick
+  - Fuck off
+  - Fuddy-duddy
+  - Wishy-washy
+  - Drop dead
+  - Take a hike
+  - I'm still torn
+  - Chew the fat
+  - Couch potato
+  - Ace it
+  - In over your head
+  - Cold shoulder
+  - What is your damage?
+  - What the Fuck
+    - What the heck
