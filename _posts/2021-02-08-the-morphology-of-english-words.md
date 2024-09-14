@@ -57,9 +57,15 @@ Latin, French, Germanic.
 - French: beef (English call cow), pork (English call pig)
 - Germanic: machine, automatic
 - Greek: democracy, liberty
-- Japanese: tofu (Chinese, 豆腐), sensei (Chinese, 先生)，senpai(Chinese, 先辈)
-- Chinese: ketchup (Cantonese, 茄汁), kowtow (Cantonese, 叩头), lychee (荔枝),
-  typhoon (台风), mandarin (满大人), wok (锅), wonton (云吞)
+- Japanese: sensei (Chinese, 先生)，senpai(Chinese, 先辈)
+- Chinese: tofu (Chinese, 豆腐), ketchup (Hokkien, 鲑汁),
+  kowtow (Cantonese, 叩头), lychee (Cantonese, 荔枝), tea (Hokkien, 茶), cha (茶),
+  typhoon (台风), mandarin (满大人), wok (锅), wonton (云吞),
+  monsoon (Cantonese 满水, 季风), chop chop (Cantonese, 速速),
+  China (秦 or 晋 = 中国), Cathay (契丹 = 中国),
+  Confucius (孔夫子), Taoism (道教), Buddhism (佛教), kung fu (功夫),
+  cheongsam (长衫 = 旗袍), dim sum (点心), feng shui (风水), gung ho (工合),
+  brainwash (洗脑，洗心革面)
 - ...
 
 English has a history of 2,300 years. In the course of historical development,
@@ -453,6 +459,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `dom`: house, household; lord, master (e.g. dome, domestic, domain)
 - `domin`: the same as `dom` (e.g. dominate, dominant, condominium)
 - `don`: to give, present as a gift, contribute (e.g. donate, doner, abandon)
+- `dora`: gift (e.g. Pandora, Doric)
 - `dose`: back, of the back (e.g. endorse)
 - `dot`: the same as `don` (e.g. anecdote)
 - `dox`: opinion (e.g. paradox)
@@ -1265,7 +1272,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `over`: beyond; above, in place or position higher than; upon; in;
   across, past; more than; on high (e.g. overfly, overstate)
   - From Old English `ofer`, PIE root `uper`.
-- `pan`: all, every, whole, all-inclusive (e.g. pandemic)
+- `pan`: all, every, whole, all-inclusive (e.g. pandemic, Pan, Pan-American,
+  Pandora, panacea, pantheon)
   - From Greek `pan-`, combining form of pas
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal; defense
   against (e.g. paradigm, paramedic, parastatal, paralegal, paraeducator,
@@ -1306,7 +1314,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `se`: without, apart, aside, away, on one's own (e.g. select, secret, seduce,
   seclude, segregate, secede)
 - `seam`: to bind, sew (e.g. seamstress)
-- `semi`: half (e.g. semicolon, semicircle)
+- `semi`: half, one-half (e.g. semicolon, semicircle)
 - `sens`: understanding or feeling of something (e.g. sense)
 - `sent`: the same as `sens` (e.g. consent)
 - `sesqui` one and a half; one-half more (e.g. sesquicentennial)
@@ -1529,6 +1537,7 @@ Variants:
 - `mony`: noun, action, state, condition (e.g. matrimony)
 - `ness`: noun (e.g. formlessness, sickness, highness, suppleness)
   - A quality or a condition (used to form nouns from adjectives)
+- `oid`: noun, resembling, form, to see (e.g. asteroid, humanoid)
 - `nomy`: method; subject; manage (e.g. autonomy, economy, economic, astronomy,
   agronomy, taxonomy)
 - `o`: noun (e.g. proviso)
