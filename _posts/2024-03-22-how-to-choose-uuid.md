@@ -2,6 +2,9 @@
 layout: post
 title: How to choose UUID
 subtitle: A brief comparison of UUID v4, v5, and v7
+banner:
+  image: https://cms.bps.org.uk/sites/default/files/2024-08/Unique%20umbrellas.jpg
+  opacity: 0.8
 author: Jeffrey Tse
 categories: computer
 tags:
@@ -14,7 +17,7 @@ UUIDs (Universally Unique Identifiers) are standardized 128-bit identifiers used
 to uniquely identify information in computer systems. Here’s a brief comparison
 of UUID v4, v5, and v7:
 
-### UUID v4
+## UUID v4
 
 - **Random-based**: UUID v4 is generated using random numbers.
 - **Uniqueness**: High probability of uniqueness due to randomness.
@@ -22,7 +25,7 @@ of UUID v4, v5, and v7:
   is required without a need for determinism.
 - **Example**: `550e8400-e29b-41d4-a716-446655440000`
 
-### UUID v5
+## UUID v5
 
 - **Name-based (SHA-1)**: UUID v5 is generated using a namespace identifier and
   a name, hashed with SHA-1.
@@ -31,7 +34,7 @@ of UUID v4, v5, and v7:
   input (e.g., generating UUIDs from URLs).
 - **Example**: `3c4e2b84-6414-5b6b-8a2b-4d6e1e4b6c8a`
 
-### UUID v7
+## UUID v7
 
 - **Time-ordered**: UUID v7 is a new proposed standard that combines a timestamp
   with random bits.
@@ -42,7 +45,18 @@ of UUID v4, v5, and v7:
 - **Example**: Not yet standardized, but would look similar to other UUIDs with
   a time-based component.
 
-### Summary
+## Comparison Table
+
+| Feature         | UUID v4                                | UUID v5                                | UUID v7               |
+| --------------- | -------------------------------------- | -------------------------------------- | --------------------- |
+| Generation Type | Random                                 | Name-based (SHA-1)                     | Time-ordered          |
+| Uniqueness      | High                                   | Deterministic                          | High                  |
+| Use Case        | General-purpose                        | Consistent UUIDs                       | Chronological sorting |
+| Example         | `550e8400-e29b-41d4-a716-446655440000` | `3c4e2b84-6414-5b6b-8a2b-4d6e1e4b6c8a` | Not yet standardized  |
+| Standardization | RFC 4122                               | RFC 4122                               | Proposed              |
+| Namespace       | N/A                                    | Defined (e.g., DNS, URL)               | N/A                   |
+
+## Summary
 
 - **v4**: Random, high uniqueness, general-purpose.
 - **v5**: Deterministic, name-based, useful for consistent UUIDs from the same input.
