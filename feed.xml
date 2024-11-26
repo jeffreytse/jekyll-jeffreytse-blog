@@ -1,0 +1,2380 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://jeffreytse.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeffreytse.net/" rel="alternate" type="text/html" /><updated>2024-11-26T15:43:00+00:00</updated><id>https://jeffreytse.net/feed.xml</id><title type="html">Jeffrey Tse’s Blog</title><subtitle>This is a very personal blog. I don't write blogs for anyone, but just record what I do or what I think. So there are many things wrong and you may have different thoughts. It would be nice if I share knowledge and thoughts rather than criticism. It will be great help if you give and teach your knowledge and thoughts to me.</subtitle><author><name>jeffreytse</name></author><entry><title type="html">How to choose UUID</title><link href="https://jeffreytse.net/computer/2024/03/22/how-to-choose-uuid.html" rel="alternate" type="text/html" title="How to choose UUID" /><published>2024-03-22T00:00:00+00:00</published><updated>2024-03-22T00:00:00+00:00</updated><id>https://jeffreytse.net/computer/2024/03/22/how-to-choose-uuid</id><content type="html" xml:base="https://jeffreytse.net/computer/2024/03/22/how-to-choose-uuid.html"><![CDATA[<p>UUIDs (Universally Unique Identifiers) are standardized 128-bit identifiers used
+to uniquely identify information in computer systems. Here’s a brief comparison
+of UUID v4, v5, and v7:</p>
+
+<h3 id="uuid-v4">UUID v4</h3>
+
+<ul>
+  <li><strong>Random-based</strong>: UUID v4 is generated using random numbers.</li>
+  <li><strong>Uniqueness</strong>: High probability of uniqueness due to randomness.</li>
+  <li><strong>Use case</strong>: Suitable for most general-purpose applications where uniqueness
+is required without a need for determinism.</li>
+  <li><strong>Example</strong>: <code class="language-plaintext highlighter-rouge">550e8400-e29b-41d4-a716-446655440000</code></li>
+</ul>
+
+<h3 id="uuid-v5">UUID v5</h3>
+
+<ul>
+  <li><strong>Name-based (SHA-1)</strong>: UUID v5 is generated using a namespace identifier and
+a name, hashed with SHA-1.</li>
+  <li><strong>Deterministic</strong>: The same namespace and name will always produce the same UUID.</li>
+  <li><strong>Use case</strong>: Useful when you need to generate the same UUID for the same
+input (e.g., generating UUIDs from URLs).</li>
+  <li><strong>Example</strong>: <code class="language-plaintext highlighter-rouge">3c4e2b84-6414-5b6b-8a2b-4d6e1e4b6c8a</code></li>
+</ul>
+
+<h3 id="uuid-v7">UUID v7</h3>
+
+<ul>
+  <li><strong>Time-ordered</strong>: UUID v7 is a new proposed standard that combines a timestamp
+with random bits.</li>
+  <li><strong>Uniqueness and ordering</strong>: Provides both uniqueness and time-ordering, making
+it useful for distributed systems where order matters.</li>
+  <li><strong>Use case</strong>: Suitable for scenarios where you need unique identifiers that can
+also be sorted chronologically.</li>
+  <li><strong>Example</strong>: Not yet standardized, but would look similar to other UUIDs with
+a time-based component.</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<ul>
+  <li><strong>v4</strong>: Random, high uniqueness, general-purpose.</li>
+  <li><strong>v5</strong>: Deterministic, name-based, useful for consistent UUIDs from the same input.</li>
+  <li><strong>v7</strong>: Time-ordered, combines uniqueness with chronological sorting, useful for
+distributed systems.</li>
+</ul>
+
+<p>Choose the version based on your specific requirements for uniqueness, determinism,
+and ordering.</p>]]></content><author><name>Jeffrey Tse</name></author><category term="computer" /><category term="computer" /><category term="programming" /><category term="note" /><summary type="html"><![CDATA[UUIDs (Universally Unique Identifiers) are standardized 128-bit identifiers used to uniquely identify information in computer systems. Here’s a brief comparison of UUID v4, v5, and v7:]]></summary></entry><entry><title type="html">Taylor Swift - NPR Music Tiny Desk Concert (2019)</title><link href="https://jeffreytse.net/misc/2024/02/23/taylor-swift-npr-music-tiny-desk-concert-2019.html" rel="alternate" type="text/html" title="Taylor Swift - NPR Music Tiny Desk Concert (2019)" /><published>2024-02-23T00:00:00+00:00</published><updated>2024-02-23T00:00:00+00:00</updated><id>https://jeffreytse.net/misc/2024/02/23/taylor-swift-npr-music-tiny-desk-concert-2019</id><content type="html" xml:base="https://jeffreytse.net/misc/2024/02/23/taylor-swift-npr-music-tiny-desk-concert-2019.html"><![CDATA[<p><img src="https://www.youtube.com/watch?v=FvVnP8G6ITs&amp;style=width:100%" alt="Taylor Swift - NPR Music Tiny Desk Concert (2019)" /></p>
+
+<p>Wow! This is a lot of people in a tiny office!
+I love it</p>
+
+<p>I’m Taylor, Welcome to my Tiny Desk
+Concert!</p>
+
+<p>Wow It’s great to be in DC</p>
+
+<p>You guys have
+anything exciting going on the past few weeks?</p>
+
+<p>Any possible changes in play?</p>
+
+<p>Do us a favor : give a round of applause to NPR for putting this whole thing on</p>
+
+<p>Tiny Desk is like one of my favorite
+corners of the internet…um and I always love seeing like</p>
+
+<p>it’s an opportunity for artists to decide a
+different way to showcase their music and so</p>
+
+<p>and so you’re kind of inundated by overwhelming
+opportunity and choices like I was</p>
+
+<p>I just decided to take this as an opportunity to show you guys
+how the songs were sounded when I first wrote them</p>
+
+<p>So it’s just me…there’s no dancers…unfortunately</p>
+
+<p>Um “chuckle”</p>
+
+<p>So, you know, I have this album that just
+came out called LOVER</p>
+
+<p>[cheers]</p>
+
+<p>Real happy you like it</p>
+
+<p>It’s one of those albums where I wrote everything on
+one instrument first, so</p>
+
+<p>it’s really fun to pick songs to do acoustically
+because they all started out that way</p>
+
+<p>Um…and…There’s a song that I had wanted to write
+conceptually for a very long time, because</p>
+
+<p>Over the course of my life it occurred to me that we have
+a bit of a double standard issue in our society</p>
+
+<p>It’s something I’ve thought about about million times
+a day for the last years of my life</p>
+
+<p>and I was always wondering, like</p>
+
+<p>Can I write a song about this? Is there a concise
+and catchy way to write a song about this?</p>
+
+<p>What angle would I take
+if I were to write a song about this?</p>
+
+<p>And so I decided that the most fun thing to do would
+be to decide what my life would be like</p>
+
+<p>And what people would say about my life
+if I did all the same things</p>
+
+<p>But if I was a man</p>
+
+<p>♪ The Man ♪</p>
+
+<p>♪ I would be complex, I would be cool ♪</p>
+
+<p>♪ They’d say I played the field before I found someone to commit to ♪</p>
+
+<p>♪ And that would be okay
+for me to do ♪</p>
+
+<p>♪ Every conquest I had made would make me more of a boss to you ♪</p>
+
+<p>♪ I’d be a fearless leader ♪</p>
+
+<p>♪ I’d be an alpha type ♪</p>
+
+<p>♪ When everyone believes ya ♪</p>
+
+<p>♪ What’s that like? ♪</p>
+
+<p>♪ I’m so sick of running as fast as I can ♪</p>
+
+<p>♪ Wondering if I’d get there quicker if I was a man ♪</p>
+
+<p>♪ And I’m so sick of them coming at me again ♪</p>
+
+<p>♪ Cause if I was a man, then I’d be the man ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ They’d say I hustled, put in the work ♪</p>
+
+<p>♪ They wouldn’t shake their heads and question how much of this I deserve ♪</p>
+
+<p>♪ What I was wearing, if I was rude ♪</p>
+
+<p>♪ Could all be separated from my good ideas and power moves ♪</p>
+
+<p>♪ And they would toast to me, Oh
+Let the players play ♪</p>
+
+<p>♪ I’d be just like Leo
+in Saint-Tropez ♪</p>
+
+<p>♪ I’m so sick of running as fast as I can ♪</p>
+
+<p>♪ Wondering if I’d get there quicker if I was a man ♪</p>
+
+<p>♪ And I’m so sick of them coming at me again ♪</p>
+
+<p>♪ Cause if I was a man, then I’d be the man ♪</p>
+
+<p>♪ I’d be the man
+Yeah ♪</p>
+
+<p>♪ I’d be the man
+Yeah ♪</p>
+
+<p>♪ What’s it like to brag about raking in dollars
+And getting b*tches and models? ♪</p>
+
+<p>♪ And it’s all good if you’re bad
+it’s okay if you’re mad ♪</p>
+
+<p>♪ If I was out flashing my dollars
+I’d be a bitch, not a baller ♪</p>
+
+<p>♪ They’d paint me out to be bad
+So, it’s okay that I’m maaaaaaad ♪</p>
+
+<p>♪ I’m so sick of running as fast as I can ♪</p>
+
+<p>♪ Wondering if I’d get there quicker if I was a man ♪</p>
+
+<p>♪ And I’m so sick of them coming at me again ♪</p>
+
+<p>♪ Cause if I was a man ♪</p>
+
+<p>♪ Then I’d be the man ♪</p>
+
+<p>♪ I’d be the man
+Yeah ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ Oh ♪</p>
+
+<p>♪ Cause I’m so sick of them coming at me again ♪</p>
+
+<p>♪ Cause if I was a man ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ If I was a man ♪</p>
+
+<p>♪ Then I’d be the maaan ♪</p>
+
+<p>Thanks guys</p>
+
+<p>So…Um</p>
+
+<p>So..Um There’s a song that I wrote on the album that I knew
+as soon as I wrote it it was going to be the tittle track</p>
+
+<p>Just….And it was like</p>
+
+<p>Writing songs is strange cause it never happens
+exactely the same way</p>
+
+<p>But sometimes it happens in a way that it feels like this weird
+like haunting that you can’t really explain</p>
+
+<p>Like you don’t know where these ideas came from
+and you feel like you don’t work at all to write it</p>
+
+<p>And that’s the best part - that’s the best kind of song…Um</p>
+
+<p>And then there most days, you show up,
+and the idea doesn’t</p>
+
+<p>And that’s where craft you have to kind of know the craft of it, you have to scrounge your brain for something to write</p>
+
+<p>Because you’re not always going to be inspired, and that’s okay…um</p>
+
+<p>There’s a really good Elizabeth Gilbert Ted Talk about that,
+it’s like…one of my favorite things to cry while watching</p>
+
+<p>Um, but yeah, like with this song, it was one of those
+weird moments where I was just like : Okay this is just</p>
+
+<p>middle of the night…</p>
+
+<p>I’m like in my PJs, like stumbling to the piano because I got
+this idea, and the song just happened really quickly</p>
+
+<p>There’s a line in the song that I’m really proud of…um
+and the line says :</p>
+
+<p>With every guitar string scar on my hand I take
+this magnetic force of a man to be my lover</p>
+
+<p>And that line is really special to me because um
+I’ve spent quite a bit of time writing breakup songs</p>
+
+<p>And uh…songs about things not turning out the
+way you wanted them to</p>
+
+<p>Or songs about what you thought would be love and it
+turned out to be not that at all or</p>
+
+<p>You know just kind of the struggle of life…I find songwriting
+is really just a cathartic therapeutic thing for me</p>
+
+<p>And so there are a lot of things I’ve written about in life
+that were just the harder things I had to go through so</p>
+
+<p>I took that as a metaphor for like…you know
+the times when I was learning to play guitar and I’d like</p>
+
+<p>play until my fingers bled when I was a kid
+And I still have the marks from that</p>
+
+<p>You know all the times I’d be changing a string and it would pop and I still have scars from that</p>
+
+<p>Um…but it’s also a bigger metaphor for like in life,
+you accumulate scars, you accumulate hurt</p>
+
+<p>You accumulate moments of you know learning and
+disappointment, and struggle and all that</p>
+
+<p>And if someone’s gonna take your hand,
+they’d better take your hand, scars and all</p>
+
+<p>Um…So this is called LOVER</p>
+
+<p>♪ Lover ♪</p>
+
+<p>♪ We could leave the Christmas lights up until January ♪</p>
+
+<p>♪ This is our place, we make the rules ♪</p>
+
+<p>♪ And there’s a dazzling haze ♪</p>
+
+<p>♪ a mysterious way about you, dear ♪</p>
+
+<p>♪ Have I known you twenty seconds, twenty years? ♪</p>
+
+<p>♪ Can I go where you go? ♪</p>
+
+<p>♪ Can we always be this close forever and ever? ♪</p>
+
+<p>♪ You take me out, You take me home ♪</p>
+
+<p>♪ You’re my, my, my, my ♪</p>
+
+<p>♪ LOVER ♪</p>
+
+<p>♪ We could let our friends crash in the living room ♪</p>
+
+<p>♪ This is our place, we make the call ♪</p>
+
+<p>♪ I’m highly suspicious that everyone who sees you wants you ♪</p>
+
+<p>♪ I’ve loved you three summers now, honey, I want ‘em all ♪</p>
+
+<p>♪ Can I go where you go? ♪</p>
+
+<p>♪ Can we always be this close forever and ever? ♪</p>
+
+<p>♪ And I take me out, take me home ♪</p>
+
+<p>♪ You’re my, my, my, my ♪</p>
+
+<p>♪ LOVER ♪</p>
+
+<p>♪ Ladies and gentlemen, will you please stand? ♪</p>
+
+<p>♪ With every guitar string scar on my hand ♪</p>
+
+<p>♪ I take this magnetic force of a man to be my ♪</p>
+
+<p>♪ LOVER ♪</p>
+
+<p>♪ And my heart’s been borrowed and yours has been blue ♪</p>
+
+<p>♪ All’s well that ends well to end up with you ♪</p>
+
+<p>♪ Swear to be over-dramatic and true to my LOVER ♪</p>
+
+<p>♪ And you’ll save all your dirtiest jokes for me ♪</p>
+
+<p>♪ And at every table, I’ll save you a seat ♪</p>
+
+<p>♪ Can I go where you go? ♪</p>
+
+<p>♪ Can we always be this close forever and ever? ♪</p>
+
+<p>♪ Take me out, take me home ♪</p>
+
+<p>♪ You’re my, my, my, my ♪</p>
+
+<p>♪ Oh, you’re my, my, my, my ♪</p>
+
+<p>♪ Darling, you’re my, my, my, my ♪</p>
+
+<p>♪ LOVER ♪</p>
+
+<p>Thanks guys</p>
+
+<p>You guys ever have costume changes at Tiny Desk?</p>
+
+<p>Um..so…over the course of the years that I’ve done
+interviews…Um…</p>
+
+<p>which is I think probably or years now
+Um…</p>
+
+<p>I’ve gotten a question over and over again that I think has has
+like the potential to seriously deteriorate my mental health</p>
+
+<p>Um…The question is, “What will you ever do if you
+get happy? What will you write about?”</p>
+
+<p>Will you just never be able to write a song again?</p>
+
+<p>It’s an interesting question</p>
+
+<p>Um…and you know in the the interviews, when I would get
+that question as a young person</p>
+
+<p>I’d kind of be like, ‘Well, I started out writing songs about
+stuff I had no idea about</p>
+
+<p>Like I started writing songs when I was years old
+and they were usually about heartbreak”</p>
+
+<p>I had no idea what I was talking about, but I had watched
+movies and I had read books, so I would grab inspiration from character dynamics, as you do</p>
+
+<p>Um…and so I would say in the interviews, “Oh, I’d probably just do that!”</p>
+
+<p>If stuff is going on in the world that not just happening
+to me, like maybe I could get inspiration from that</p>
+
+<p>But then I’d go home and I’d be like : [blank stare]</p>
+
+<p>What would happen if I was ever happy?</p>
+
+<p>Would I not be able to do the thing that I love the most in the
+world? Like would that…is that? Oh my…Oh my god!</p>
+
+<p>Would I not be able to write breakup songs anymore? I love
+breakup songs! They’re so fun to write!</p>
+
+<p>Um…and so then I happened to be writing this album Lover, which is a very, very happy, romantic….</p>
+
+<p>Um…album, and I started, like in my life, a few of my friends were going through break ups, and we were talking</p>
+
+<p>it’s like the kind of break up where you need to talk to your
+friend all the time because they need to talk about it
+all day, every day</p>
+
+<p>So I was having a lot of conversations about break ups
+I watched movies that were really like:</p>
+
+<p>well-done about break ups, In some of the books
+I was reading there were some good break ups happening</p>
+
+<p>And this all culminated in me waking up one day with all these
+like heartbreak lyrics in my head and I was like</p>
+
+<p>“It’s still here! Yes!”</p>
+
+<p>Um…So I ended up writing a song that was a break up song on the Lover album, and I was like :</p>
+
+<p>This song is my proof that…you know…you don’t have to stop
+writing songs about heartache and misery</p>
+
+<p>Which for me is incredible news</p>
+
+<p>So this is called : Death by a Thousand Cuts</p>
+
+<p>♪ Death by a Thousand Cuts ♪</p>
+
+<p>♪ My, my, my, my ♪</p>
+
+<p>♪ My, my, my, my ♪</p>
+
+<p>♪ Saying goodbye is death by a thousand cuts ♪</p>
+
+<p>♪ Flashbacks waking me up ♪</p>
+
+<p>♪ I get drunk, but it’s not enough ♪</p>
+
+<p>♪ Cause the morning comes and you’re not my baby ♪</p>
+
+<p>♪ I look through the windows of this love ♪</p>
+
+<p>♪ Even though we boarded them up ♪</p>
+
+<p>♪ Chandelier’s still flickering here ♪</p>
+
+<p>♪ Cause I can’t pretend it’s okay when it’s not ♪</p>
+
+<p>♪ It’s death by a thousand cuts ♪</p>
+
+<p>♪ I dress to k*ll my time, I take the long way home ♪</p>
+
+<p>♪ I ask the traffic lights if it’ll be alright ♪</p>
+
+<p>♪ They say, “I don’t know” ♪</p>
+
+<p>♪ And what once was ours, is no one’s now ♪</p>
+
+<p>♪ I see you everywhere, the only thing we share ♪</p>
+
+<p>♪ Is this small town ♪</p>
+
+<p>♪ You said it was a great love, one for the ages ♪</p>
+
+<p>♪ But if the story’s over, why am I still writing pages? ♪</p>
+
+<p>♪ Saying goodbye is death by a thousand cuts ♪</p>
+
+<p>♪ Flashbacks waking me up ♪</p>
+
+<p>♪ I get drunk, but it’s not enough ♪</p>
+
+<p>♪ Cause the morning comes and you’re not my baby ♪</p>
+
+<p>♪ I look through the windows of this love ♪</p>
+
+<p>♪ Even though we boarded them up ♪</p>
+
+<p>♪ Chandelier’s still flickering here ♪</p>
+
+<p>♪ Cause I can’t pretend it’s okay when it’s not ♪</p>
+
+<p>♪ It’s death by a thousand cuts ♪</p>
+
+<p>♪ My heart, my hips, my body, my love ♪</p>
+
+<p>♪ Tryna find a part of me that you didn’t touch ♪</p>
+
+<p>♪ Gave up on me like I was a bad drug ♪</p>
+
+<p>♪ Now I’m searching for signs in a haunted club ♪</p>
+
+<p>♪ Our songs, our films, united, we stand ♪</p>
+
+<p>♪ Our country, guess it was a lawless land ♪</p>
+
+<p>♪ Quiet my fears with the touch of your hand ♪</p>
+
+<p>♪ Paper cut stings from our paper-thin plans ♪</p>
+
+<p>♪ My time, my wine, my spirit, my trust ♪</p>
+
+<p>♪ Tryna find a part of me you didn’t take up ♪</p>
+
+<p>♪ Gave you so much, but it wasn’t enough ♪</p>
+
+<p>♪ But I’ll be all right, it’s just a thousand cuts ♪</p>
+
+<p>♪ I get drunk, but it’s not enough ♪</p>
+
+<p>♪ Cause you’re not my baby ♪</p>
+
+<p>♪ I look through the windows of this love ♪</p>
+
+<p>♪ Even though we boarded them up ♪</p>
+
+<p>♪ Chandelier’s still flickering here ♪</p>
+
+<p>♪ Cause I can’t pretend it’s okay when it’s not ♪</p>
+
+<p>♪ No, it’s not ♪</p>
+
+<p>♪ It’s death by a thousand cuts ♪</p>
+
+<p>♪ My body, my love, my trust ♪</p>
+
+<p>♪ But it wasn’t enough, it wasn’t enough, no, no ♪</p>
+
+<p>♪ I ask the traffic lights if it’ll be alright ♪</p>
+
+<p>♪ They say, “I don’t know” ♪</p>
+
+<p>Thanks guys!</p>
+
+<p>I have three that I don’t…</p>
+
+<p>She’s giving her guitar picks to kids :
+“You can Sell them on eBay”</p>
+
+<p>Um…So…I was trying to think of what songs to do for this
+Um…and you get I think four, so I was [excited noises]</p>
+
+<p>And so I was thinking about how it’s autumn, and Um…
+that’s my favorite “Chuckle” season…um
+and people on the internet have been kind enough like</p>
+
+<p>in like in amongst the people who care about my music have
+been kind enough to associate autumn with one of
+my albums called RED</p>
+
+<p>And…Um…You know it’s just a very autumn-y album, and
+so I was thinking about that how it’s so nice
+the crisp fall air is happening</p>
+
+<p>and…um …you know, I don’t google myself ever</p>
+
+<p>I recommend you don’t do it either</p>
+
+<p>But my dad does! And he will send me links to thinks and
+every once in awhile I’ll see them, and that’s
+the only way I get my news</p>
+
+<p>Um…But he sends me these lists that are like very nice
+…um…like ranking my songs, that’s really nice for people to do</p>
+
+<p>I really love that people do that and I find it really nice and
+I’m grateful that people care enough to rank my songs</p>
+
+<p>There’s one song that like I’m particularly proud of because
+when the RED album came out there was this one song on the album where I was like</p>
+
+<p>I’m the only one who loves this song this much,
+but it’s only because it happened to me, it was personal</p>
+
+<p>No one else is going to like
+“All Too Well” as much as like</p>
+
+<p>And when it came out of the album, slowly but surely over
+the course of that album’s life and beyond</p>
+
+<p>You know you guys have made that song something that was way more than I ever thought the life of that song would be</p>
+
+<p>and like I’ve had so much fun playing it in concert and screaming it with you guys like and yeah</p>
+
+<p>So the fact that the song went out into the world so you
+make it so it’s always</p>
+
+<p>I think it’s usually number # on any list saying what my songs are, which is great</p>
+
+<p>and I’m happy that like my opinion lines up with your opinion
+on that because that was probably my favorite song on RED</p>
+
+<p>Um…and so I figured that I would play it for you</p>
+
+<p>Before I do play it for you, I just wanted to say thank you so much for having me, this is really amazing to get to do this</p>
+
+<p>I’m honored that I was invited, and the fact that this many
+people would want to cram into the space</p>
+
+<p>I really I understand the sacrifices that were made for me today</p>
+
+<p>So…Um…here’s a sad song…about fall</p>
+
+<p>♪ All Too Well ♪
+From RED ALBUM</p>
+
+<p>♪ I walked through the door with you,
+the air was cold ♪</p>
+
+<p>♪ But something ‘bout it felt like home somehow ♪</p>
+
+<p>♪ And I left my scarf there at your sister’s house ♪</p>
+
+<p>♪ And you’ve still got it
+in your drawer even now ♪</p>
+
+<p>♪ Your sweet disposition
+and my wide-eyed gaze ♪</p>
+
+<p>♪ We’re singing in the car,
+getting lost Upstate ♪</p>
+
+<p>♪ Autumn leaves falling down like
+pieces into place ♪</p>
+
+<p>♪ I can picture it after all these days ♪</p>
+
+<p>♪ And I know it’s long gone ♪</p>
+
+<p>♪ And that magic’s not here no more ♪</p>
+
+<p>♪ And I might be okay ♪</p>
+
+<p>♪ But I’m not fine at all ♪</p>
+
+<p>♪ Cause there we are again
+on that little town street ♪</p>
+
+<p>♪ You almost ran the red
+cause you were looking over at me ♪</p>
+
+<p>♪ Wind in my hair, I was there
+I remember it all too well ♪</p>
+
+<p>♪ Photo album on the counter
+your cheeks were turning red ♪</p>
+
+<p>♪ You used to be a little kid
+with glasses in a twin sized bed ♪</p>
+
+<p>♪ Your mother’s telling stories
+about you on a tee ball team ♪</p>
+
+<p>♪ You taught me ‘bout your past
+thinking your future was me ♪</p>
+
+<p>♪ I know it’s long gone ♪</p>
+
+<p>♪ And there was nothing else I could do ♪</p>
+
+<p>♪ I forget about you long enough ♪</p>
+
+<p>♪ To forget why I needed to ♪</p>
+
+<p>♪ Cause there we are again in the
+middle of the night ♪</p>
+
+<p>♪ We’re dancing around the kitchen
+in the refrigerator light ♪</p>
+
+<p>♪ Down the stairs, I was there
+I remember it all too well ♪</p>
+
+<p>♪ Maybe we got lost in translation
+maybe I asked for too much ♪</p>
+
+<p>♪ Maybe this thing was a masterpiece
+‘til you tore it all up ♪</p>
+
+<p>♪ Running scared, I was there
+I remember it all too well ♪</p>
+
+<p>♪ Hey, and you call me up again
+just to break me like a promise ♪</p>
+
+<p>♪ So casually cruel
+in the name of being honest ♪</p>
+
+<p>♪ I’m a crumpled up piece of paper lying here ♪</p>
+
+<p>♪ Cause I remember it all, all, all…too well ♪</p>
+
+<p>♪ Time won’t fly, it’s like I’m paralyzed by it ♪</p>
+
+<p>♪ I’d like to be my old self again
+but I’m still trying to find it ♪</p>
+
+<p>♪ After plaid shirt days and nights
+when you made me your own ♪</p>
+
+<p>♪ Now you mail back my things and I
+walk home alone ♪</p>
+
+<p>♪ But you keep my old scarf
+from that very first week ♪</p>
+
+<p>♪ Cause it reminds you of innocence
+and it smells like meee ♪</p>
+
+<p>♪ You can’t get rid of it
+cause you remember it all too well ♪</p>
+
+<p>♪ Cause there we are again
+when I loved you so ♪</p>
+
+<p>♪ Back before you lost
+the one real thing you’ve ever known ♪</p>
+
+<p>♪ It was rare, You were there
+You remember it all too well ♪</p>
+
+<p>♪ Wind in my hair, you were there
+you remember it all ♪</p>
+
+<p>♪ Down the stairs, you were there
+you remember it all ♪</p>
+
+<p>♪ It was rare, You were there
+You remember it all too well ♪</p>
+
+<p>Thanks for having Me!</p>]]></content><author><name>Jeffrey Tse</name></author><category term="misc" /><category term="english" /><category term="music" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">The Frameworks of Effective Product Design Sense</title><link href="https://jeffreytse.net/methodology/2023/06/15/the-frameworks-of-effective-product-design-sense.html" rel="alternate" type="text/html" title="The Frameworks of Effective Product Design Sense" /><published>2023-06-15T00:00:00+00:00</published><updated>2023-06-15T00:00:00+00:00</updated><id>https://jeffreytse.net/methodology/2023/06/15/the-frameworks-of-effective-product-design-sense</id><content type="html" xml:base="https://jeffreytse.net/methodology/2023/06/15/the-frameworks-of-effective-product-design-sense.html"><![CDATA[<p>How you would design a new website, mobile app or application? How would you
+design a new car, toy, or camera? You may meet these kinds of questions in your
+works or interviews. It’s not possible to assess every aspect of product design
+process during a short time session. Therefore, it becomes very important that
+how you think about user problems at scale, and turn that into a concrete
+product(s) in a short time session.</p>
+
+<h2 id="why">Why?</h2>
+
+<p>As you see, all the questions are either about improving upon an existing
+product or thinking about a new one from scratch. The more you think about
+users, the better you can define the problem and solve for those who need it
+the most. It might be helpful to start with a framework to get the right
+structure set to your audiences.</p>
+
+<p>The 3 key elements of product sense:</p>
+
+<ul>
+  <li>Empathy
+    <ul>
+      <li>This is how the user is likely to react</li>
+      <li>Keys
+        <ul>
+          <li>Cognitive Biases</li>
+          <li>Behavioral Economics</li>
+          <li>Psychology Literature</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Domain Knowledge
+    <ul>
+      <li>This approach gives us an advantage over them</li>
+      <li>Keys
+        <ul>
+          <li>Customers</li>
+          <li>Competition</li>
+          <li>Technology</li>
+          <li>Books</li>
+          <li>Online resources</li>
+          <li>Podcasts</li>
+          <li>…</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Creativity
+    <ul>
+      <li>Here’s a novel solution to this hard usability problem</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The key traits you should be aware:</p>
+
+<ul>
+  <li>Articulate an ambiguous problem well
+    <ul>
+      <li>Who you are building for, why, and how it fits into the mission?</li>
+    </ul>
+  </li>
+  <li>Be able to break down the problem into iterative and manageable steps</li>
+  <li>Be able to solve core challenges for the users and being thoughtful about it</li>
+  <li>Be able to reason your way through all your choices along the way</li>
+  <li>Be able to understand whether reasons good enough for company to give a go/no-go
+    <ul>
+      <li>Zoom out from your personal user needs and think about how this product
+could scale and provide maximum value</li>
+    </ul>
+  </li>
+  <li>Understand that everything is trade-offs</li>
+  <li>Be good at well-rounded communication skills and deep sense of customer empathy</li>
+  <li>Be concise and do not ramble</li>
+  <li>Good at visualization like drawing wireframes</li>
+</ul>
+
+<p>For clarifying questions we can use “<strong>5 W’s and H</strong>” way:</p>
+
+<ul>
+  <li>What is it?</li>
+  <li>Who is it for?</li>
+  <li>Why do they need it?</li>
+  <li>When is it available?</li>
+  <li>Where is it available?</li>
+  <li>How does it work?</li>
+</ul>
+
+<p>But sometimes we just use simplified version which is called “<strong>3 W’s and H</strong>”,
+that is, excluding WHEN and WHERE.</p>
+
+<h2 id="circle-framework">CIRCLE Framework</h2>
+
+<p>One of the famous ones is Lewis Lin’s CIRCLES ™ framework that lets you provide
+a well-rounded and thoughtful answer. And it’s a checklist or guideline on what
+makes a complete, thoughtful response to any product design process.</p>
+
+<ul>
+  <li>Comprehend situation (Clarify by asking clarifying questions)
+    <ul>
+      <li>What?
+        <ul>
+          <li>What’s the timeline?</li>
+          <li>What’s the target OS?</li>
+          <li>What’s the goal/mission?</li>
+          <li>What’s the geography?</li>
+        </ul>
+      </li>
+      <li>Who?</li>
+      <li>Why?
+        <ul>
+          <li>Build communities and bringing the world closer together</li>
+        </ul>
+      </li>
+      <li>How?</li>
+    </ul>
+  </li>
+  <li>Identify users (Define the users and segment users)
+    <ul>
+      <li>Personas</li>
+      <li>User Segments
+        <ul>
+          <li>Groups
+            <ul>
+              <li>Company</li>
+              <li>School</li>
+            </ul>
+          </li>
+          <li>Individuals
+            <ul>
+              <li>Staff</li>
+              <li>Student</li>
+            </ul>
+          </li>
+          <li>…</li>
+        </ul>
+      </li>
+      <li>MECE principle for segmentation
+        <ul>
+          <li>Stands for
+            <ul>
+              <li>Mutually</li>
+              <li>Exclusive</li>
+              <li>Collectively</li>
+              <li>Exhaustive</li>
+            </ul>
+          </li>
+          <li>Grouping customers by
+            <ul>
+              <li>Defined age brackets where there is no category overlap</li>
+              <li>Country of Birth, assuming no geographical overlap</li>
+              <li>Highest level of education obtained</li>
+              <li>Defined revenue brackets</li>
+              <li>Number of employee brackets</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Report user needs (Go over user motivations, user journey, come up pain points)
+    <ul>
+      <li>As a…, I want…, so that I can…</li>
+    </ul>
+  </li>
+  <li>Cut, through prioritization (Come up with user pain points)
+    <ul>
+      <li>ROI (Return on Investment) estimate?</li>
+      <li>LOE (Level of Effort) estimate?</li>
+    </ul>
+  </li>
+  <li>List potential solutions (Brainstorm)</li>
+  <li>Evaluate trade-offs (Call out any trade-offs, as Nash equilibrium)
+    <ul>
+      <li>Thoughtful?</li>
+      <li>Analytical?</li>
+      <li>Objective?</li>
+      <li>Risks?</li>
+    </ul>
+  </li>
+  <li>Summarize recommendation (Choose one according to priority, and paint vision)
+    <ul>
+      <li>What?</li>
+      <li>Recap
+        <ul>
+          <li>Talk about the success metrics (how you’d measure success? guardrail metrics)
+            <ul>
+              <li>Customer churn rate</li>
+              <li>NPS (Net Promoter Score) score
+                <ul>
+                  <li>It’s used to gauge customer loyalty, satisfaction, and enthusiasm</li>
+                </ul>
+              </li>
+              <li>Number of product returns</li>
+              <li>Number of customer complaints</li>
+              <li>Number of product defects</li>
+            </ul>
+          </li>
+          <li>Have a go to market or a rollout plan</li>
+          <li>Mockup and wireframe user experience</li>
+        </ul>
+      </li>
+      <li>Why? vs Others</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bus-framework">BUS Framework</h2>
+
+<p>It’s a three-step pyramid-like approach to tackle almost every product design
+problem:</p>
+
+<ul>
+  <li>Business problem/objective
+    <ul>
+      <li>What is the actual root business problem/objective?
+        <ul>
+          <li>Company KPI is being affected</li>
+          <li>Revenue
+            <ul>
+              <li>Units sold</li>
+              <li>Price per unit</li>
+            </ul>
+          </li>
+          <li>Costs
+            <ul>
+              <li>Fixed cost</li>
+              <li>Variable cost</li>
+            </ul>
+          </li>
+          <li>User Engagement</li>
+          <li>Impact</li>
+          <li>Monetization</li>
+          <li>Partnering with others</li>
+        </ul>
+      </li>
+      <li>How do we know that’s a problem?
+        <ul>
+          <li>Low conversion</li>
+          <li>Lots of support calls</li>
+          <li>Poor adoption</li>
+          <li>Poor retention</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>User problems
+    <ul>
+      <li>Which user problem is causing the business problem?
+        <ul>
+          <li>Approaches
+            <ul>
+              <li>User interviews</li>
+              <li>Ethnographic studies</li>
+              <li>Diary studies</li>
+              <li>Quantitative metrics</li>
+              <li>…</li>
+            </ul>
+          </li>
+          <li>Do drill down to really understand user problems
+            <ul>
+              <li>“Your site is bad” -&gt; “ clicked a button on my mobile device and the
+next screen was blank”</li>
+            </ul>
+          </li>
+          <li>Present with a good set of data you’ve got (People Understand)
+            <ul>
+              <li>Personas</li>
+              <li>User Journeys</li>
+              <li>Flows</li>
+              <li>…</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Why is it a problem? How do we know it’s a problem?</li>
+    </ul>
+  </li>
+  <li>Solutions
+    <ul>
+      <li>Which idea will solve the user problem, thereby solving the business problem?
+        <ul>
+          <li>User tests
+            <ul>
+              <li>Split testing</li>
+              <li>A/B testing
+                <ul>
+                  <li>Control</li>
+                  <li>Experiment</li>
+                </ul>
+              </li>
+              <li>Multivariate testing</li>
+            </ul>
+          </li>
+          <li>Interviews</li>
+          <li>Beta tests</li>
+          <li>Paper prototypes</li>
+          <li>…</li>
+        </ul>
+      </li>
+      <li>How confident am I that the solution will work?</li>
+      <li>The metrics to know the solution is successful
+        <ul>
+          <li>Adoption</li>
+          <li>Retention</li>
+          <li>Monetization</li>
+        </ul>
+      </li>
+      <li>Watch out for things (As you are not your product)
+        <ul>
+          <li>Confirmation bias</li>
+          <li>Plain old ego</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>With BUS framework, you need to tackle problem in that order. If you don’t get
+the business problem right, your run a much higher risk that your final product
+won’t be successful. But if your business problem is right, the only risks
+you’re taking are with the user problem and solution. The same applies to the
+user problem.</p>
+
+<h2 id="product-problems">Product Problems</h2>
+
+<p>The 4 most common prompts for a product sense problems:</p>
+
+<ul>
+  <li>What is your favorite product and how will you improve it</li>
+  <li>Build product X for user Y</li>
+  <li>Company X wants to solve problem Y</li>
+  <li>Improve product X</li>
+</ul>
+
+<h3 id="product-design">Product Design</h3>
+
+<p>You need to combine a strong eye for design and UX with an understanding of
+business problems.</p>
+
+<p>Examples:</p>
+
+<ul>
+  <li>Design a social travel product for Facebook</li>
+  <li>Design a jobs product for Facebook</li>
+  <li>Design a product to help users find a doctor on Facebook</li>
+  <li>Design a better way to find roommates in a new city</li>
+  <li>Design an alarm clock for the blind</li>
+</ul>
+
+<h3 id="product-improvement">Product Improvement</h3>
+
+<p>The same thing as product design, but instead to improve and existing product.</p>
+
+<p>Examples:</p>
+
+<ul>
+  <li>How would you improve Facebook?</li>
+  <li>Pick a Facebook app / any product — how would you improve it?</li>
+  <li>How would you improve Facebook groups?</li>
+  <li>How would you improve Facebook birthdays?</li>
+  <li>What would you build to differentiate Instagram Reels from TikTok?</li>
+  <li>How would you improve the peer-to-peer payments product on either Messenger
+or WhatsApp?</li>
+  <li>Why was this button put in this place?</li>
+  <li>Why was this animation done in that manner?</li>
+</ul>
+
+<h3 id="product-strategy">Product Strategy</h3>
+
+<p>You need to understand competitive markets and to create a product roadmap that
+responds to the business strategy.</p>
+
+<p>Examples:</p>
+
+<ul>
+  <li>Facebook events is struggling. How would you turn it around?</li>
+  <li>Should Facebook enter the dating / jobs market?</li>
+  <li>How would you monetize Facebook marketplace / messenger?</li>
+  <li>What should Facebook do next?</li>
+  <li>How to grow the product by acquiring new users and keep them engaged in the app</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.impactinterview.com/2016/06/circles-method-product-design-framework/">Intro to the CIRCLES Method™ Product Design Framework</a></li>
+  <li><a href="https://medium.muz.li/the-bus-product-design-framework-af5c527b4518">How to easily Systemize your Product Design Process</a></li>
+  <li><a href="https://caseinterview.com/mece">MECE Framework / Principle</a></li>
+</ul>]]></content><author><name>Jeffrey Tse</name></author><category term="methodology" /><category term="methodology" /><category term="product" /><category term="note" /><summary type="html"><![CDATA[How you would design a new website, mobile app or application? How would you design a new car, toy, or camera? You may meet these kinds of questions in your works or interviews. It’s not possible to assess every aspect of product design process during a short time session. Therefore, it becomes very important that how you think about user problems at scale, and turn that into a concrete product(s) in a short time session.]]></summary></entry><entry><title type="html">Steve Jobs’ 2005 Stanford Commencement Speech</title><link href="https://jeffreytse.net/misc/2023/06/06/steve-jobs-2005-stanford-commencement-speech.html" rel="alternate" type="text/html" title="Steve Jobs’ 2005 Stanford Commencement Speech" /><published>2023-06-06T00:00:00+00:00</published><updated>2023-06-06T00:00:00+00:00</updated><id>https://jeffreytse.net/misc/2023/06/06/steve-jobs-2005-stanford-commencement-speech</id><content type="html" xml:base="https://jeffreytse.net/misc/2023/06/06/steve-jobs-2005-stanford-commencement-speech.html"><![CDATA[<p>This is the text of the Commencement address by Steve Jobs, CEO of Apple
+Computer and of Pixar Animation Studios,delivered on June 12, 2005.</p>
+
+<p><img src="https://www.youtube.com/watch?v=UF8uR6Z6KLc&amp;style=width:100%" alt="Steve Jobs' 2005 Stanford Commencement Address" /></p>
+
+<p>I am honored to be with you today at your commencement from one of the finest
+universities in the world. I never graduated from college. Truth be told, this
+is the closest I’ve ever gotten toa college graduation. Today I want to tell
+you three stories from my life. That’s it. No big deal. Just three stories.</p>
+
+<p>The first story is about connecting the dots.</p>
+
+<p>I dropped out of Reed College after the first 6 months, but then stayed around
+as a drop-in for another 18 months or so before I really quit. So why did I
+drop out?</p>
+
+<p>It started before I was born. My biological mother was a young, unwed college
+graduate student, and she decided to put me up for adoption. She felt very
+strongly that I should be adopted by college graduates, so everything was all
+set for me to be adopted at birth by a lawyer and his wife. Except that when
+I popped out they decided at the last minute that they really wanted a girl.
+So my parents, who were on a waiting list, got a call in the middle of the
+night asking: “We have an unexpected baby boy;do you want him?” They said:
+“Of course.” My biological mother later found out that my mother had never
+graduated from college and that my father had never graduated from high
+school. She refused to sign the final adoption papers. She only relented a
+few months later when my parents promised that I would someday go to college.</p>
+
+<p>And 17 years later I did go to college. But I naively chose a college that was
+almost as expensive as Stanford, and all of my working-class parents’ savings
+were being spent on my college tuition. After six months, I couldn’t see the
+value in it. I had no idea what I wanted to do with my life and no idea how
+college was going to help me figure it out. And here I was spending all of the
+money my parents had saved their entire life. SoI decided to drop out and trust
+that it would all work out OK. It was pretty scary at the time, but looking
+back it was one of the best decisions I ever made. The minute I dropped out I
+could stop taking the required classes that didn’t interest me, and begin
+dropping in on the ones that looked interesting. It wasn’t all romantic. I
+didn’t have a dorm room, so I slept on the floor in friends’ rooms, I returned
+coke bottles for the 5¢ deposits to buy food with, and I would walk the 7
+miles across town every Sunday night to get one good meal a week at the Hare
+Krishna temple. I loved it. And much of what I stumbled into by following my
+curiosity and intuition turned out to be priceless later on. Let me give you
+one example:</p>
+
+<p>Reed College at that time offered perhaps the best calligraphy instruction in
+the country. Throughout the campus every poster, every label on every drawer,
+was beautifully hand calligraphed. Because I had dropped out and didn’t have
+to take the normal classes, I decided to take a calligraphy class to learn
+how to do this. I learned about serif and sanserif typefaces, about varying
+the amount of space between different letter combinations, about what makes
+great typography great. It was beautiful,historical, artistically subtle in a
+way that science can’t capture, and I found it fascinating.</p>
+
+<p>None of this had even a hope of any practical application in my life. But ten
+years later, when we were designing the firstMacintosh computer, it all came
+back to me. And we designed it all into theMac. It was the first computer with
+beautiful typography. If I had never dropped in on that single course in
+college, the Mac would have never had multiple typefaces or proportionally
+spaced fonts. And since Windows just copied the Mac, its likely that no
+personal computer would have them. If I had never dropped out, I would have
+never dropped in on this calligraphy class, and personal computers might not
+have the wonderful typography that they do. Of course it was impossible to
+connect the dots looking forward when I was in college. But it was very, very
+clear looking backwards ten years later.</p>
+
+<p>Again, you can’t connect the dots looking forward; you can only connect them
+looking backwards. So you have to trust that the dots will somehow connect in
+your future. You have to trust in something —your gut, destiny, life, karma,
+whatever. This approach has never let me down,and it has made all the
+difference in my life.</p>
+
+<p>My second story is about love and loss.</p>
+
+<p>I was lucky — I found what I loved to do early in life. Woz and I started Apple
+in my parents garage when I was 20. We worked hard, and in 10 years Apple had
+grown from just the two of us in a garage into a $2 billion company with over
+4000 employees. We had just release dour finest creation — the Macintosh — a
+year earlier, and I had just turned 30.And then I got fired. How can you get
+fired from a company you started? Well,as Apple grew we hired someone who I
+thought was very talented to run the company with me, and for the first year
+or so things went well. But then our visions of the future began to diverge
+and eventually we had a falling out.When we did, our Board of Directors sided
+with him. So at 30 I was out. And very publicly out. What had been the focus
+of my entire adult life was gone,and it was devastating.</p>
+
+<p>I really didn’t know what to do for a few months. I felt that I had let the
+previous generation of entrepreneurs down -that I had dropped the baton as it
+was being passed to me. I met with DavidPackard and Bob Noyce and tried to
+apologize for screwing up so badly. I was avery public failure, and I even
+thought about running away from the valley. But something slowly began to dawn
+on me — I still loved what I did. The turn of events at Apple had not changed
+that one bit. I had been rejected, but I was still in love. And so I decided
+to start over.</p>
+
+<p>I didn’t see it then, but it turned out that getting fired from Apple was the
+best thing that could have ever happened tome. The heaviness of being
+successful was replaced by the lightness of being a beginner again, less sure
+about everything. It freed me to enter one of the most creative periods of my
+life.</p>
+
+<p>During the next five years, I started a company named NeXT, another company
+named Pixar, and fell in love with an amazing woman who would become my wife.
+Pixar went on to create the worlds first computer animated feature film, Toy
+Story, and is now the most successful animation studio in the world. In a
+remarkable turn of events, Apple boughtNeXT, I returned to Apple, and the
+technology we developed at NeXT is at the heart of Apple’s current renaissance.
+And Laurene and I have a wonderful family together.</p>
+
+<p>I’m pretty sure none of this would have happened if I hadn’t been fired from
+Apple. It was awful tasting medicine, butI guess the patient needed it.
+Sometimes life hits you in the head with a brick. Don’t lose faith. I’m
+convinced that the only thing that kept me going was that I loved what I did.
+You’ve got to find what you love. And that is as true for your work as it is
+for your lovers. Your work is going to fill a large part of your life, and the
+only way to be truly satisfied is to do what you believe is great work. And
+the only way to do great work is to love what you do. If you haven’t found it
+yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know
+when you find it. And, like any great relationship, it just gets better and
+better as the years roll on. So keep looking until you find it. Don’t settle.</p>
+
+<p>My third story is about death.</p>
+
+<p>When I was 17, I read a quote that went something like: “If you live each day
+as if it was your last, someday you’ll most certainly be right.” It made an
+impression on me, and since then, for the past 33 years, I have looked in the
+mirror every morning and asked myself: “If today were the last day of my life,
+would I want to do what I am about to do today?” And whenever the answer has
+been”No” for too many days in a row, I know I need to change something.</p>
+
+<p>Remembering that I’ll be dead soon is the most important tool I’ve ever
+encountered to help me make the big choices in life. Because almost everything
+— all external expectations, all pride, all fear of embarrassment or failure -
+these things just fall away in the face of death, leaving only what is truly
+important. Remembering that you are going to die is the best way I know to
+avoid the trap of thinking you have something to lose. You are already naked.
+There is no reason not to follow your heart.</p>
+
+<p>About a year ago I was diagnosed with cancer.I had a scan at 7:30 in the
+morning, and it clearly showed a tumor on my pancreas. I didn’t even know what
+a pancreas was. The doctors told me this was almost certainly a type of cancer
+that is incurable, and that I should expect to live no longer than three to six
+months. My doctor advised me to go home and get my affairs in order, which is
+doctor’s code for prepare to die. It means to try to tell your kids everything
+you thought you’d have the next 10 years to tell them in just a few months. It
+means to make sure everything is buttoned up so that it will be as easy as
+possible for your family. It means to say your goodbyes.</p>
+
+<p>I lived with that diagnosis all day. Later that evening I had a biopsy, where
+they stuck an endoscope down my throat,through my stomach and into my
+intestines, put a needle into my pancreas and got a few cells from the tumor.
+I was sedated, but my wife, who was there, told me that when they viewed the
+cells under a microscope the doctors started crying because it turned out to
+be a very rare form of pancreatic cancer that is curable with surgery. I had
+the surgery and I’m fine now.</p>
+
+<p>This was the closest I’ve been to facing death, and I hope its the closest I
+get for a few more decades. Having lived through it, I can now say this to you
+with a bit more certainty than when death was a useful but purely intellectual
+concept:No one wants to die. Even people who want to go to heaven don’t want
+to die to get there. And yet death is the destination we all share. No one has
+ever escaped it. And that is as it should be, because Death is very likely the
+single best invention of Life. It is Life’s change agent. It clears out the
+old to make way for the new. Right now the new is you, but someday not too
+long from now, you will gradually become the old and be cleared away. Sorry to
+be so dramatic, but it is quite true.</p>
+
+<p>Your time is limited, so don’t waste it living someone else’s life. Don’t be
+trapped by dogma — which is living with the results of other people’s thinking.
+Don’t let the noise of others’ opinions drown out your own inner voice. And
+most important, have the courage to follow your heart and intuition. They
+somehow already know what you truly want to become. Everything else is
+secondary.</p>
+
+<p>When I was young, there was an amazing publication called The Whole Earth
+Catalog, which was one of the bibles of my generation. It was created by a
+fellow named Stewart Brand not far from here in Menlo Park, and he brought it
+to life with his poetic touch. This was in the late 1960’s, before personal
+computers and desktop publishing, so it was all made with typewriters,
+scissors, and polaroid cameras. It was sort of like Google in paperback form,
+35 years before Google came along: it was idealistic,and overflowing with neat
+tools and great notions.</p>
+
+<p>Stewart and his team put out several issues of The Whole Earth Catalog, and
+then when it had run its course, they put out a final issue. It was the
+mid-1970s, and I was your age. On the back cover of their final issue was a
+photograph of an early morning country road, the kind you might find yourself
+hitchhiking on if you were so adventurous. Beneath it were the words: “Stay
+Hungry. Stay Foolish.” It was their farewell message as they signed off. Stay
+Hungry. Stay Foolish. And I have always wished that for myself.</p>
+
+<p>And now, as you graduate to begin anew, I wish that for you. Stay Hungry. Stay
+Foolish.</p>
+
+<p>Stay Hungry. Stay Foolish.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://news.stanford.edu/2005/06/12/youve-got-find-love-jobs-says/">‘You’ve got to find what you love,’ Jobs says</a></li>
+</ul>]]></content><author><name>Jeffrey Tse</name></author><category term="misc" /><category term="speech" /><summary type="html"><![CDATA[This is the text of the Commencement address by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios,delivered on June 12, 2005.]]></summary></entry><entry><title type="html">The Handbook of Effective Business Communication</title><link href="https://jeffreytse.net/methodology/2023/05/19/the-handbook-of-effective-business-communication.html" rel="alternate" type="text/html" title="The Handbook of Effective Business Communication" /><published>2023-05-19T00:00:00+00:00</published><updated>2023-05-19T00:00:00+00:00</updated><id>https://jeffreytse.net/methodology/2023/05/19/the-handbook-of-effective-business-communication</id><content type="html" xml:base="https://jeffreytse.net/methodology/2023/05/19/the-handbook-of-effective-business-communication.html"><![CDATA[<h2 id="fundamental">Fundamental</h2>
+
+<p>What’s business communications? Communication is a cycle of sending and
+receiving message.</p>
+
+<p>There are 4 elements of communication between individuals:</p>
+
+<ul>
+  <li>Sender</li>
+  <li>Medium: Phone call, text email, social media, etc.</li>
+  <li>Message</li>
+  <li>Receiver</li>
+</ul>
+
+<p>Business communication types:</p>
+
+<ul>
+  <li>Written</li>
+  <li>Verbal</li>
+  <li>External</li>
+  <li>Internal</li>
+</ul>
+
+<p>Barriers to communication:</p>
+
+<ul>
+  <li>Cultural Differences
+    <ul>
+      <li>Cultural differences may include language barriers, jargon or slang,
+accents, or even a difference in life experience and background</li>
+    </ul>
+  </li>
+  <li>Attention
+    <ul>
+      <li>A lack of attention from the sender or receiver of message can distort the
+message and diminish its clarity</li>
+    </ul>
+  </li>
+  <li>Attitudes
+    <ul>
+      <li>A person’s attitude about a given situation, individual, or idea may affect
+their ability to communicate without bias</li>
+    </ul>
+  </li>
+  <li>Proficiency Level
+    <ul>
+      <li>If two or more individuals have different levels of understanding on a
+specific topic they may have difficulty understanding each other’s
+limitations</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Benefits of effective communication:</p>
+
+<ul>
+  <li>Better products</li>
+  <li>Higher customer satisfaction</li>
+  <li>Higher productivity</li>
+  <li>Improved employee satisfaction</li>
+  <li>Positive outcomes on project goals</li>
+  <li>Teamwork increases effective problem solving</li>
+  <li>Desirable employment skill</li>
+</ul>
+
+<p>Detriments of ineffective communication:</p>
+
+<ul>
+  <li>Bad decisions</li>
+  <li>Damaged working relationships</li>
+  <li>Delays and missed opportunities</li>
+  <li>Inefficiency or wasted resources</li>
+</ul>
+
+<p>Effective communication framework:</p>
+
+<p>Characteristics of successful business communication</p>
+
+<ul>
+  <li>Targets the correct audience
+    <ul>
+      <li>External Audiences
+        <ul>
+          <li>Customers, partners or individuals outside of organization</li>
+          <li>Via LinkedIn, Facebook, Twitter, Youtube, Pintere, etc.</li>
+        </ul>
+      </li>
+      <li>Internal Audiences
+        <ul>
+          <li>High Level
+            <ul>
+              <li>Prepare ahead of time</li>
+              <li>Review writing</li>
+              <li>Keep it brief</li>
+              <li>Focus on goals</li>
+            </ul>
+          </li>
+          <li>Same Level
+            <ul>
+              <li>Match communication style</li>
+              <li>Consider cultural differences</li>
+            </ul>
+          </li>
+          <li>Low Level
+            <ul>
+              <li>Give detailed explanations</li>
+              <li>Mind proficiency differences</li>
+            </ul>
+          </li>
+          <li>Any Level
+            <ul>
+              <li>Always remain respectful, courteous and sincere</li>
+              <li>In each of scenarios ask yourself
+                <ul>
+                  <li>What are their needs?</li>
+                  <li>What do they need to know?</li>
+                  <li>What decisions or actions do you need them to take?</li>
+                </ul>
+              </li>
+              <li>Be sure to use terms they understand</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Targeting your audience
+        <ul>
+          <li>Primary Audience
+            <ul>
+              <li>People for whom the message is intended</li>
+            </ul>
+          </li>
+          <li>Secondary Audience
+            <ul>
+              <li>People provide support, or are affected by communication</li>
+            </ul>
+          </li>
+          <li>Need to know
+            <ul>
+              <li>Individual or group need to be kept informed</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Has a well-defined purpose
+    <ul>
+      <li>Inform</li>
+      <li>Call to Action</li>
+      <li>Make Decisions</li>
+      <li>Generate Ideas</li>
+      <li>Make Requests</li>
+    </ul>
+  </li>
+  <li>Conveys a clear message
+    <ul>
+      <li>Concise and Comprehensive</li>
+      <li>Specific</li>
+      <li>Avoids Jargon and Homonyms</li>
+      <li>Indicates Priorities and deadlines</li>
+      <li>Sets the Context</li>
+    </ul>
+  </li>
+  <li>Transmitted via the most appropriate medium
+    <ul>
+      <li>What’s a Communication Medium?
+        <ul>
+          <li>A communication medium is the tool used to deliver a message to its
+recipient</li>
+          <li>Common Mediums used to communicate in business environments
+            <ul>
+              <li>Meetings (face-to-face or virtual)</li>
+              <li>Phone calls</li>
+              <li>Text messages</li>
+              <li>Email</li>
+              <li>Social media</li>
+              <li>…</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Medium selection can affect
+        <ul>
+          <li>The meaning</li>
+          <li>The effectiveness</li>
+        </ul>
+      </li>
+      <li>Considerations in selecting a medium
+        <ul>
+          <li>The audience</li>
+          <li>The purpose</li>
+          <li>The message</li>
+          <li>Verification</li>
+        </ul>
+      </li>
+      <li>Best medium for communication
+        <ul>
+          <li>Phone call
+            <ul>
+              <li>When attempting to build rapport with a new customer, it is the best to
+deliver information over the phone or in a virtual meeting space.</li>
+            </ul>
+          </li>
+          <li>Email
+            <ul>
+              <li>Email is adequate for standard reports, you may want to follow-up with a
+call or a meeting the with manager.</li>
+            </ul>
+          </li>
+          <li>Virtual Meeting
+            <ul>
+              <li>It’s often too difficult for a remote team to meet in person. Therefore,
+a virtual presentation is a great communication option because it still
+requires high interaction for idea exchange and agreement on roles and
+responsibilities for the project.</li>
+            </ul>
+          </li>
+          <li>Text or Chat
+            <ul>
+              <li>Texting allows for a quick response. Typically, we text when we have a
+high level of familiarity with the recipient, like a co-worker.</li>
+            </ul>
+          </li>
+          <li>Face-to-face
+            <ul>
+              <li>A voice or face-to-face discussion is called for customer
+dissatisfaction scenarios. This will help you to better understand the
+issue. Just be sure to empathize with the customer and let them know
+their concerns are being heard and understood.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Understood and acted upon
+    <ul>
+      <li>L.E.A.P.S is a widely used model for active listening, it can be used in any
+kind of communication like verbal, written.</li>
+      <li>Listen or read with an open mind, understand the words, and interpret their
+meaning. Consider the position of the sender and how they communicate.</li>
+      <li>Consistency
+        <ul>
+          <li>Listen
+            <ul>
+              <li>Have an open mind</li>
+              <li>Understand the words</li>
+              <li>Interpret meaning</li>
+              <li>Consider the sender</li>
+            </ul>
+          </li>
+          <li>Emphasize
+            <ul>
+              <li>Understand the other person’s viewpoint by imagining yourself in their
+situation</li>
+            </ul>
+          </li>
+          <li><strong>Ask questions!</strong>
+            <ul>
+              <li>Achieve clarity, detail, deeper understanding and new ideas</li>
+              <li>Starts questions with What, Why, How or Describe</li>
+            </ul>
+          </li>
+          <li>Paraphrase
+            <ul>
+              <li>Express the message in your own words</li>
+              <li>Does your interpretation match what the sender intended?</li>
+            </ul>
+          </li>
+          <li>Summarize
+            <ul>
+              <li>Summarize what has been said; develop a brief, but simple summary
+statement</li>
+              <li>Include appropriate action items and deadlines</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="communication-technology">Communication Technology</h2>
+
+<p>What technologies are available to help you to communicate in business
+environments? Whether you are running a small business or an international
+enterprise, effective communication is essential to success. Many technologies
+are available to help us connect with our employees, partners and customers. As
+you have learned, the type of technologies you choose depends on the situations
+and communication needs.</p>
+
+<ul>
+  <li>Instant Messaging (IM)</li>
+  <li>Social Media</li>
+  <li>Internet Voice/Video Call</li>
+  <li>Screen Sharing</li>
+  <li>Document Sharing</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.life-global.org/course/9-business-communications-">Business Communication</a></li>
+</ul>]]></content><author><name>Jeffrey Tse</name></author><category term="methodology" /><category term="methodology" /><category term="communication" /><category term="note" /><summary type="html"><![CDATA[Fundamental]]></summary></entry><entry><title type="html">The Handbook of Effective Presentations</title><link href="https://jeffreytse.net/methodology/2023/05/17/the-handbook-of-effective-presentations.html" rel="alternate" type="text/html" title="The Handbook of Effective Presentations" /><published>2023-05-17T00:00:00+00:00</published><updated>2023-05-17T00:00:00+00:00</updated><id>https://jeffreytse.net/methodology/2023/05/17/the-handbook-of-effective-presentations</id><content type="html" xml:base="https://jeffreytse.net/methodology/2023/05/17/the-handbook-of-effective-presentations.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>When preparing a presentation, you must be clear about your goals and objectives
+and how they relate to the needs of your audience. Consider also what action you
+want your audience to take and focus your presentation on what will most
+effectively persuade them to take that action.</p>
+
+<h2 id="three-major-elements">Three Major Elements</h2>
+
+<p>Here, we introduce the three major elements you must include to create an
+effective presentation.</p>
+
+<ul>
+  <li>Why: Goals and objectives</li>
+  <li>Who: Your target audience</li>
+  <li>How: Call to action</li>
+</ul>
+
+<h3 id="why">Why?</h3>
+
+<p>Generally, the goals and objectives of your presentation represent your desired
+outcomes and what you are trying to communicate. Your goal for one presentation
+may simply be to inform or educate your audience but for another, it might be to
+inspire or motivate. Goals typically explain “why” your presentation will be
+important.</p>
+
+<p>How do you discuss your goals and objectives in your presentation? It should be
+included at the start of your presentation in bullet form, and it should be
+short and succinct, these allow them to quickly understand your intention while
+demonstrating what are you trying to achieve.</p>
+
+<p>How could these considerations of goals and objectives also be incorporated into
+other aspects of entrepreneurship and starting a small business? Some other
+examples of where these considerations come into play include:</p>
+
+<ul>
+  <li>Business communications</li>
+  <li>Advertising</li>
+  <li>Social media and web marketing</li>
+  <li>Social impact</li>
+  <li>Sales and customer relationship management</li>
+</ul>
+
+<h3 id="who">Who?</h3>
+
+<p>Your target audience refers to the demographic that you are aiming to persuade,
+educate, or inspire with your presentation. Your target audience represents the
+“who” of your presentation.</p>
+
+<p>What role does your target audience play in a presentation? It’s so important
+for you to consider who you seek to influence with the information shared in
+your presentation. Understanding this will inform your style of writing and
+storytelling, and it will establish your pace and help you design your
+presentation. Take time to brainstorm what the intended audience cares about and
+incorporate those points into your presentation.</p>
+
+<h3 id="how">How?</h3>
+
+<p>The call to action is arguably the most important part of your presentation. It
+typically comes at the end and clearly de?nes what you are asking your audience
+to do and how you want them to take action. The call to action represents the
+“how” variable and describes how your audience can take the information you’ve
+shared in your presentation and use it.</p>
+
+<p>What is so important about call to action at the end of a presentation? The call
+to action is the moment that the audience has been waiting for. It describes
+what you need from them. Your call to action helps to galvanize people around
+your intention. You always want to have a slide that specifically maps out what
+you need or how the audience will use what they learned in your presentation.
+When creating your call to action, you must ask yourself, how can the audience
+take the information and use it? As you progress through your talking points,
+you are working to deepen the audience’s understanding and investment in your
+message. Make your ask, as you near the end of your presentation. Do it humbly
+but boldly. Trust that what you have to say has meaning and the right people
+will feel the same.</p>
+
+<h2 id="identify-your-target-audience">Identify Your Target Audience</h2>
+
+<p>When developing, practicing, and eventually giving your presentation, it is
+important to consider what content and type of presentation will support your
+goals and objectives, your audience, and your call to action. Think about how
+you will deliver your presentation to optimize each of those items. If your
+content includes any physical or audio-visual supplements, be sure to prepare
+those ahead of your presentation. Whether you are giving your presentation
+remotely or in-person, careful planning must also be given to those logistics.</p>
+
+<h2 id="types-of-presentations">Types of Presentations</h2>
+
+<p>Different types of presentations serve a variety of purposes and depending on
+your audience or call to action, you may want to blend elements from different
+presentation types to most effectively persuade. Below are some examples of
+presentation types.</p>
+
+<h3 id="business-pitch-presentation">Business Pitch Presentation</h3>
+
+<p>A business pitch is a type of presentation that is often used by entrepreneurs.
+It explores how to align an innovative and marketable idea with people who can
+enable the growth and development of that idea into a business. The target
+audience for a business pitch may include those that can fund, support, or
+provide other resources for that new business.</p>
+
+<p>Typically with a business pitch, the presenter is expected to communicate the
+amount of funding or support they are seeking to receive for their venture from
+the funders, investors, and supporters in the audience. This is known as the
+ask. When you are delivering a business pitch, you are building a case for how
+your business will be successful. Conclude your presentation with your specific
+ask(s) of the audience e.g. you are seeking $20,000 in funding to start your
+business.</p>
+
+<p>What’s included in a business pitch presentation? Ask yourself:</p>
+
+<ul>
+  <li>How would you communicate the need for funding?</li>
+  <li>How can you effectively walk potential funders through your business model and
+share your unique value proposition?</li>
+</ul>
+
+<p>As funders want to feel confident that you’ve done your research, you also need
+to ensure you include:</p>
+
+<ul>
+  <li>Any customer or market research</li>
+  <li>Financials</li>
+  <li>Any other relevant data</li>
+</ul>
+
+<p>Remember, people invest in ideas and in other people. So make sure you tell them
+who you are and why your business is important to you.</p>
+
+<h3 id="informative-presentation">Informative Presentation</h3>
+
+<p>An informative presentation functions to teach concepts to an audience that may
+have differing levels of existing understanding of those concepts. The target
+audience for an informative presentation entirely depends on the subject matter.
+If the presentation is designed to have some basic level of instruction, the
+audience may include people new to the topic. With the rise of video tutorials
+across the web and on social media, informative presentations can offer
+educational insight, teachable moments, and can also provide instruction on how
+to improve a particular skill.</p>
+
+<p>More often than not, an informative presentation will feature at least some
+educational components. When that is the case, try to follow three of the most
+helpful steps in teaching and learning. First, outline for your audience what
+you will be teaching them. Then, teach them. Finally, at a summary level, remind
+your audience what you taught them. This simple method of outlining, teaching,
+and summarizing the presentation content will provide a dynamic learning
+experience for your audience.</p>
+
+<p>An informative presentation is designed to educate and provide construction,
+what is unique about an informative presentation?</p>
+
+<ul>
+  <li>Always start with your intention and think through how to inform and teach in
+an engaging way</li>
+  <li>Think through what is the most relevant for your audience to know</li>
+  <li>Why that information is important</li>
+  <li>Be prepared to describe any nuances you want your audience to consider</li>
+</ul>
+
+<p>A great way of doing above is starting off your presentation with guiding
+questions and outlining what you want your audience to consider while listening
+to your presentation.</p>
+
+<h3 id="decision-making-presentation">Decision-Making Presentation</h3>
+
+<p>Every day, we are presented with opportunities to make decisions with some
+having a more significant impact than others. Decision-making presentations
+typically involve multiple parties, or stakeholders, and begin by identifying a
+problem and a goal. The next step is to collect as much relevant information and
+data as possible about the problematic situation. From there, options for
+solving the problem and meeting the goal must be evaluated to determine how each
+stakeholder will be affected by the decision made. Once all options are assessed
+throughout the presentation, a decision is made to implement the solution for
+the problem. Note: relevant information and data can be gathered prior to the
+meeting and included in the presentation.</p>
+
+<p>When possible and prior to your decision-making presentation, brief some of the
+known supportive audience members about the content and decision to be made.
+Their support may be instrumental in terms of succeeding with your presentation
+and decision making effort.</p>
+
+<p>What’s the importance of a decision-making presentation? The purpose of a
+decision-making presentation is to guide your audience towards a position, where
+they can produce decisions based on what they’ve learned. When creating this
+kind of presentation, you should:</p>
+
+<ul>
+  <li>First outline the problem you want the audience to solve</li>
+  <li>Walk then through any relevant information that will help inform their
+decision. This can include:
+    <ul>
+      <li>Qualitative or quantitative data</li>
+      <li>Strategies that were implemented in the past and any results based on that</li>
+    </ul>
+  </li>
+  <li>If you have any recommendations that you want the audience to consider, you
+should include those as well</li>
+  <li>Lastly it would be helpful for you to conduct additional research on best
+practices for decision-making processes when planing your presentation</li>
+</ul>
+
+<h2 id="professional-development">Professional Development</h2>
+
+<p><strong>You need preparation and practice</strong></p>
+
+<p>It doesn’t matter what type of presentation you are giving, preparation and
+practice are two key ingredients that will lead to your success. Try to rehearse
+your presentation in front of a trusted friend or colleague and ask for their
+feedback. Alternatively, video or record yourself while you practice. As you
+practice, you may want to rely on notes, however, do your best to keep them to
+one or two words at a time to be used to kickstart your memory. Trust yourself
+that you can speak confidently and with energy on your subject matter. All of
+these practices are also helpful for reducing nervousness about public speaking
+which can be a very intimidating ordeal for some.</p>
+
+<p><strong>What are some best practices for public speaking?</strong></p>
+
+<p>When presenters are nervous or running out of time, they tend to miss key
+talking points or they speak too quickly for their audience to effectively
+understand and absorb what is being said or presented. This is a very common
+pitfall when speaking publicly so it is important to practice speaking clearly,
+audibly, and at half the speed you are normally comfortable speaking at. To
+avoid having to rush through any material, be sure to time your practice session
+to ensure that it fits within the allotted time. If you find that your
+presentation is running over time, avoid speaking faster to include everything.
+Instead, cut or modify your presentation’s content to make it fit in the time
+available. If you happen to forget something or if you make a mistake while
+presenting, the best practice is simply to proceed and move on as planned.</p>
+
+<p>As you practice public speaking there are also some higher level actions to keep
+in mind for when you feel more comfortable presenting. When possible,
+acknowledge your audience. Thank them for their time, attention, and willingness
+to listen to you. Be sure that your voice and body language dynamics are
+appropriate for your audience. For example, making eye contact with your
+audience or varying the intonation of your voice are both important tools for
+listeners of many cultures and backgrounds, helping capture and maintain their
+attention.</p>
+
+<p><strong>A Note on Questions: Asking and Answering</strong></p>
+
+<p>Any successful presenter will say that engaging with your audience is one of the
+most important practices you can develop. One way to do this is by asking your
+audience questions – ask what they know already on the topic and make minor
+adjustments to your presentation and script to accommodate that. Find out what
+interests your audience and see if you can pivot your presentation to reflect
+those interests. Often, the best presentation is not a presentation, it’s a
+discussion and sometimes, rather than asking the questions, you will be
+responsible for answering them. If your presentation includes a question and
+answer session, be sure to save enough time for it. Try to anticipate any
+potential questions you might be asked and what your responses to them would be.</p>
+
+<p><strong>Avoid reading your slides to the audience</strong></p>
+
+<p>Sometimes people who are not comfortable with public speaking or are concerned
+they will forget something try to compensate for this by putting all their text
+on the slides and reading them to the audience. This is not a good practice. Use
+key points and narration instead.</p>
+
+<p><strong>How to create an effective slide presentation?</strong></p>
+
+<p>You should consider 3 things:</p>
+
+<ul>
+  <li>Audience
+    <ul>
+      <li>Understanding your audience will help determine how best to craft your
+message as you want to ensure what you share will be easily understood</li>
+    </ul>
+  </li>
+  <li>Intention
+    <ul>
+      <li>Have a clear intention is vital</li>
+      <li>Always consider 2 things
+        <ul>
+          <li>What do you want your audience to know?</li>
+          <li>Why does it matter?</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Pace
+    <ul>
+      <li>The pace and the structure of your presentation should feel as if you are
+telling a story, through words, images, and even videos</li>
+      <li>Each slide should be connected to your intention and structured in a way
+that deeps the audiences understanding behind your why</li>
+      <li>What you shared in your presentation should be succinct and include high
+level talking points</li>
+      <li>Know that your intended audience wants to quickly understand your goals and
+objectives as your audience wants to know why they are there, make sure you
+tell them from the onset. This help</li>
+      <li>Consider providing an outline or agenda</li>
+      <li>Clearly state
+        <ul>
+          <li>What you wish to solve</li>
+          <li>How you seek to get there</li>
+          <li>What resources are needed to meet your desired outcome</li>
+        </ul>
+      </li>
+      <li>Remember, you get to craft the story, so keep it relevant and engaging</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.life-global.org/course/12-effective-presentations">Effective Presentations</a></li>
+</ul>]]></content><author><name>Jeffrey Tse</name></author><category term="methodology" /><category term="methodology" /><category term="management" /><category term="communication" /><category term="note" /><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">The Handbook of Effective Leadership</title><link href="https://jeffreytse.net/methodology/2023/05/14/the-handbook-of-effective-leadership.html" rel="alternate" type="text/html" title="The Handbook of Effective Leadership" /><published>2023-05-14T00:00:00+00:00</published><updated>2023-05-14T00:00:00+00:00</updated><id>https://jeffreytse.net/methodology/2023/05/14/the-handbook-of-effective-leadership</id><content type="html" xml:base="https://jeffreytse.net/methodology/2023/05/14/the-handbook-of-effective-leadership.html"><![CDATA[<h2 id="leadership-approaches">Leadership Approaches</h2>
+
+<p>How can I become a more effective leader? One of the most important aspects of
+being a good leader is understanding different leadership approaches and when
+each approach is most likely to be effective will help you succeed.</p>
+
+<p>6 leadership approaches:</p>
+
+<ul>
+  <li>Visionary: Share a vision and motivate the team</li>
+  <li>Collaborative: Foster ideas or agreement from the group</li>
+  <li>Directive: Tell employees what to do</li>
+  <li>Pacesetting: Inspire by example of commitment and hard work with self-awareness</li>
+  <li>Affiliative: Build connection and closeness with empathy in the team</li>
+  <li>Coaching: Provide instruction or coaching</li>
+</ul>
+
+<h3 id="visionary">Visionary</h3>
+
+<p>A visionary leader fosters trust and respect by bringing people together toward
+a common vision and a focus on the end goal. Visionary leadership aligns and
+motivates others, then gives them freedom to develop specific ways to reach the
+shared goal. This approach is at the core of effective leadership.</p>
+
+<p><strong>When to use it:</strong> This approach is appropriate when staff don’t need lots of
+guidance.</p>
+
+<p><strong>Things to consider:</strong> This approach assumes that staff have or can gain the
+necessary knowledge and skills to take action to meet the shared goal.</p>
+
+<h3 id="collaborative">Collaborative</h3>
+
+<p>A collaborative leader involves the staff in contributing to the decision-making
+process.</p>
+
+<p><strong>When to use it:</strong> This leadership approach is useful when there is time to get
+input from employees or when employee buy-in is needed.</p>
+
+<p><strong>Things to consider:</strong> This approach can be slow moving and is not the best
+choice for when a decision needs to be made quickly. This approach also depends
+on how well informed the employees are about the situation.</p>
+
+<h3 id="directive">Directive</h3>
+
+<p>A directive leader takes charge and tells employees what to do.</p>
+
+<p><strong>When to use it:</strong> This leadership approach works in times of crisis, when there
+is little time to act, or when employees have less skill and experience with the
+needed work.</p>
+
+<p><strong>Things to consider:</strong> If this approach is used too often or in situations
+where it is not a good fit, it can be overbearing and cause employees to feel
+resentful.</p>
+
+<h3 id="pacesetting">Pacesetting</h3>
+
+<p>A pacesetting leader sets high performance standards and leads by example.
+Leaders using this approach communicate their expectations to others through the
+model shown by their own actions.</p>
+
+<p><strong>When to use it:</strong> This is a good approach when the staff are highly motivated
+and skilled and when there is a tight deadline.</p>
+
+<p><strong>Things to consider:</strong> If this approach is used too often by itself, it can
+cause the staff to feel burned out and may suppress motivation.</p>
+
+<h3 id="affiliative">Affiliative</h3>
+
+<p>An affiliative leader establishes positive relationships and works to create
+strong emotional bonds with employees. This leadership approach focuses on the
+employees and on creating a sense of ownership of and belonging to the business.</p>
+
+<p><strong>When to use it:</strong> This approach works well in times of stress, as part of a
+healing process, to build or rebuild trust, or when bringing in new staff or
+building a new team.</p>
+
+<p><strong>Things to consider:</strong> This approach should seldom be the only approach used.
+While it’s important to have positive relationships with employees, other
+leadership approaches are needed to ensure that appropriate actions are taken
+when necessary. If negative behaviors or poor performance is ignored, this can
+encourage mediocre behavior.</p>
+
+<h3 id="coaching">Coaching</h3>
+
+<p>A coaching leader focuses on mentoring employees and building their strengths
+and skills for the long term.</p>
+
+<p><strong>When to use it:</strong> This approach works when the leader is experienced and the
+staff need to build their knowledge and skills, and when employees are aware of
+weaknesses and receptive to suggestions.</p>
+
+<p><strong>Things to consider:</strong> This approach can take a lot of time and is not the best
+choice if the leader is not highly skilled in the specific area. This approach
+also depends on the willingness of the employees to change or learn and to
+cooperate with the leader.</p>
+
+<h2 id="effective-communication">Effective Communication</h2>
+
+<p>What technologies can help us communicate effectively as a leader? Whether you
+are running a small business or an international enterprise and regardless of
+your leadership approach, effective communication is essential to success. Many
+technologies are available to help leaders connect with their employees,
+partners, and customers and create channels for two-way communication and
+collaboration. The type of technologies you choose depends on the situations and
+communication needs at any given time.</p>
+
+<p>This activity is an exercise for you to reflect on how you want to lead your
+employees and learn about the different types of technologies that you can
+use to communicate with them effectively.</p>
+
+<p>Communication technologies:</p>
+
+<ul>
+  <li>Instant messaging (IM)</li>
+  <li>Online community</li>
+  <li>Internet voice and video call</li>
+  <li>Screen sharing</li>
+  <li>Collaborative document editing</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.life-global.org/course/13-effective-leadership">Effective Leadership</a></li>
+</ul>]]></content><author><name>Jeffrey Tse</name></author><category term="methodology" /><category term="methodology" /><category term="management" /><category term="communication" /><category term="note" /><summary type="html"><![CDATA[Leadership Approaches]]></summary></entry><entry><title type="html">The Summary of Linking Words in English</title><link href="https://jeffreytse.net/linguistics/2023/05/02/the-summary-of-linking-words-in-english.html" rel="alternate" type="text/html" title="The Summary of Linking Words in English" /><published>2023-05-02T00:00:00+00:00</published><updated>2023-05-02T00:00:00+00:00</updated><id>https://jeffreytse.net/linguistics/2023/05/02/the-summary-of-linking-words-in-english</id><content type="html" xml:base="https://jeffreytse.net/linguistics/2023/05/02/the-summary-of-linking-words-in-english.html"><![CDATA[<h2 id="moreover">Moreover</h2>
+
+<ul>
+  <li>Along</li>
+  <li>Also</li>
+  <li>In addition</li>
+  <li>And</li>
+  <li>Too</li>
+  <li>As well</li>
+  <li>As well as</li>
+  <li>Besides</li>
+  <li>Additionally</li>
+  <li>Correspondingly</li>
+  <li>Furthermore</li>
+  <li>Moreover</li>
+  <li>On top of that</li>
+  <li>Over and above that</li>
+  <li>Secondly</li>
+  <li>What’s more</li>
+  <li>Withal</li>
+  <li>Initially</li>
+  <li>Secondly</li>
+  <li>Thirdly</li>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+  <li>Firstly</li>
+  <li>Thirdly</li>
+  <li>Last</li>
+  <li>Subsequently</li>
+  <li>Previously</li>
+  <li>Afterwards</li>
+  <li>Eventually</li>
+  <li>Next</li>
+  <li>After (this)</li>
+  <li>Finally</li>
+  <li>Regardless (of)</li>
+  <li>Nevertheless</li>
+  <li>Nonetheless</li>
+  <li>Then</li>
+  <li>Although</li>
+  <li>Even though</li>
+  <li>Though</li>
+  <li>As if</li>
+  <li>As though</li>
+  <li>In the meantime</li>
+  <li>Whereby</li>
+  <li>In general</li>
+  <li>In particular</li>
+  <li>In other words</li>
+  <li>For the most part</li>
+  <li>Instead</li>
+  <li>On the one hand</li>
+  <li>On the other hand</li>
+  <li>Sometimes</li>
+  <li>By convention</li>
+</ul>
+
+<h2 id="emphasize">Emphasize</h2>
+
+<ul>
+  <li>Especially</li>
+  <li>Fundamentally</li>
+  <li>Indeed</li>
+  <li>Notably</li>
+  <li>Significantly</li>
+  <li>Particularly</li>
+  <li>Primarily</li>
+  <li>Otherwise</li>
+  <li>Often</li>
+  <li>Unless</li>
+  <li>Whatever</li>
+  <li>As long as</li>
+  <li>In particular</li>
+  <li>Even if</li>
+</ul>
+
+<h2 id="similarly">Similarly</h2>
+
+<ul>
+  <li>Equally</li>
+  <li>Likewise</li>
+  <li>Similarly</li>
+  <li>Simultaneously</li>
+</ul>
+
+<h2 id="clarify">Clarify</h2>
+
+<ul>
+  <li>Specifically</li>
+  <li>Namely</li>
+  <li>As exemplified by</li>
+</ul>
+
+<h2 id="contrast">Contrast</h2>
+
+<ul>
+  <li>But</li>
+  <li>Still</li>
+  <li>However</li>
+  <li>While</li>
+  <li>Whereas</li>
+  <li>Conversely</li>
+  <li>(and) Yet</li>
+  <li>On the contrary</li>
+  <li>In comparison</li>
+  <li>By contrast</li>
+  <li>Another view is</li>
+  <li>As opposed to</li>
+</ul>
+
+<h2 id="conclude">Conclude</h2>
+
+<ul>
+  <li>Above all</li>
+  <li>After all</li>
+  <li>Consequently</li>
+  <li>Therefore</li>
+  <li>Thus</li>
+  <li>Accordingly</li>
+  <li>Because (of this)</li>
+  <li>Since</li>
+  <li>Due to</li>
+  <li>So</li>
+  <li>So that</li>
+  <li>Hence</li>
+  <li>Ultimately</li>
+  <li>Therefore</li>
+  <li>Altogether</li>
+  <li>Overall</li>
+  <li>Owing to</li>
+  <li>(Once) again</li>
+  <li>Summarizing (this)</li>
+  <li>Throughout</li>
+  <li>In conclusion</li>
+  <li>To summarize</li>
+  <li>As a consequence</li>
+  <li>As a result (of)</li>
+</ul>
+
+<h2 id="others">Others</h2>
+
+<ul>
+  <li>Admittedly</li>
+  <li>Alternatively</li>
+  <li>Arguably</li>
+  <li>Clearly</li>
+  <li>Especially</li>
+  <li>Externally</li>
+  <li>Fortunately</li>
+  <li>Generally</li>
+  <li>Ideally</li>
+  <li>Informally</li>
+  <li>Internally</li>
+  <li>Luckily</li>
+  <li>Happily</li>
+  <li>Obviously</li>
+  <li>Typically</li>
+  <li>Undoubtedly</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>https://zhuanlan.zhihu.com/p/44156385</li>
+  <li>https://site.douban.com/170732/widget/notes/9399375/note/240494019/</li>
+  <li>https://www.youtube.com/watch?v=_bKsXQyiHzk</li>
+  <li>http://www.snailtoday.com/archives/12688</li>
+  <li>https://www.pfw.edu/offices/learning-support/documents/combining-independent-and-dependent-clauses.pdf</li>
+  <li>https://libguides.staffs.ac.uk/academic_writing/linking#:~:text=additionally%3B%20also%3B%20moreover%3B%20furthermore,%3B%20correspondingly%3B%20indeed%3B%20regarding.&amp;text=alternatively%3B%20although%3B%20otherwise%3B%20instead.</li>
+</ul>]]></content><author><name>Jeffrey Tse</name></author><category term="linguistics" /><category term="linguistics" /><category term="english" /><category term="note" /><summary type="html"><![CDATA[Moreover]]></summary></entry><entry><title type="html">The Handbook of Game Theory</title><link href="https://jeffreytse.net/mathematics/2023/04/01/the-handbook-of-game-theory.html" rel="alternate" type="text/html" title="The Handbook of Game Theory" /><published>2023-04-01T00:00:00+00:00</published><updated>2023-04-01T00:00:00+00:00</updated><id>https://jeffreytse.net/mathematics/2023/04/01/the-handbook-of-game-theory</id><content type="html" xml:base="https://jeffreytse.net/mathematics/2023/04/01/the-handbook-of-game-theory.html"><![CDATA[<p>Game theory is a small branch of mathematics, and it is also a useful subject
+in economics, so as to have a systematic understanding of the subject.</p>
+
+<h2 id="perfect-information">Perfect Information</h2>
+
+<p>In economics, perfect information (sometimes referred to as “no hidden
+information”) is a feature of perfect competition. With perfect information
+in a market, all consumers and producers have complete and instantaneous
+knowledge of all market prices, their own utility, and own cost functions.</p>
+
+<p>In game theory, a sequential game has perfect information if each player, when
+making any decision, is perfectly informed of all the events that have
+previously occurred, including the “initialization event” of the game (e.g. the
+starting hands of each player in a card game).</p>
+
+<p>Perfect information is importantly different from complete information, which
+implies common knowledge of each player’s utility functions, payoffs, strategies
+and “types”. A game with perfect information may or may not have complete
+information.</p>
+
+<p>Games where some aspect of play is hidden from opponents – such as the cards in
+poker and bridge – are examples of games with imperfect information.</p>
+
+<h2 id="complete-information">Complete Information</h2>
+
+<p>In economics and game theory, complete information is an economic situation or
+game in which knowledge about other market participants or players is available
+to all participants. The utility functions (including risk aversion), payoffs,
+strategies and “types” of players are thus common knowledge. Complete
+information is the concept that each player in the game is aware of the
+sequence, strategies, and payoffs throughout gameplay. Given this information,
+the players have the ability to plan accordingly based on the information to
+maximize their own strategies and utility at the end of the game.</p>
+
+<h2 id="incomplete-information">Incomplete Information</h2>
+
+<p>Inversely, in a game with incomplete information, players do not possess full
+information about their opponents. Some players possess private information, a
+fact that the others should take into account when forming expectations about
+how those players will behave. A typical example is an auction: each player
+knows his own utility function (valuation for the item), but does not know the
+utility function of the other players.</p>
+
+<h2 id="decision-tree">Decision Tree</h2>
+
+<p>Whether you play chess, go, backgammon or other decision-making games, you can
+draw a decision tree, they are essentially different in rules and complexity,
+because their decision-making steps are limited, theoretically , if we can
+traverse all the situations in the decision tree, we can know the result of the
+game, win or lose or tie.</p>
+
+<p><img src="https://user-images.githubusercontent.com/9413601/229276111-73f8b8f7-df2c-481b-8bcd-517caf89dc11.png" alt="Decision Tree" /></p>
+
+<p>Game Complexity can be measured in many ways:</p>
+
+<ul>
+  <li>State-space Complexity</li>
+  <li>Game-tree Complexity</li>
+  <li>Game-tree Size</li>
+  <li>Decision Complexity</li>
+  <li>Computational Complexity</li>
+  <li>…</li>
+</ul>
+
+<h2 id="zermelos-theorem">Zermelo’s Theorem</h2>
+
+<p>In game theory, Zermelo’s theorem is a theorem about finite two-person games of
+perfect information in which the players move alternately and in which chance
+does not affect the decision making process. It says that if the game cannot end
+in a draw, then one of the two players must have a winning strategy (i.e. can
+force a win). An alternate statement is that for a game meeting all of these
+conditions except the condition that a draw is now possible, then either the
+first-player can force a win, or the second-player can force a win, or both
+players can at least force a draw.</p>
+
+<p><img src="https://user-images.githubusercontent.com/9413601/229276465-42fa2772-3565-4abc-b163-d66385c2a8ce.png" alt="Ernst Zermelo" /></p>
+
+<p>The theorem is named after Ernst Zermelo, a German mathematician and logician,
+who proved the theorem for the example game of chess in 1913.</p>
+
+<p>It tells us that, assuming that both sides are chess masters and know the game
+well, they will definitely adopt a unified strategy at this time to make the
+game develop in a fixed direction, and the final outcome is also fixed. In the
+end, it will definitely be a draw, because Any party that unilaterally changes
+its decision will be detrimental to itself.</p>
+
+<h2 id="nash-equilibrium">Nash Equilibrium</h2>
+
+<p>In game theory, the Nash equilibrium, named after the mathematician John Nash,
+is the most common way to define the solution of a non-cooperative game
+involving two or more players.</p>
+
+<p>In a Nash equilibrium, each player is assumed to know the equilibrium strategies
+of the other players, and no one has anything to gain by changing only one’s own
+strategy.</p>
+
+<p><img src="https://user-images.githubusercontent.com/9413601/229277934-863f264f-a80e-4e8c-89a0-5ffa6a1259e5.png" alt="John Nash" /></p>
+
+<p>It tells us, as long as the strategies of several parties participating in the
+game are limited, there must be an equilibrium state, and everyone will adopt
+this balanced strategy, and there is no motivation to unilaterally change the
+strategy.</p>
+
+<h2 id="classic-examples">Classic Examples</h2>
+
+<p>In general, the optimal strategy is a Nash equilibrium, and Zermelo’s Theorem is
+an example of a Nash equilibrium. And the world we live in is full of examples
+of Nash equilibrium no matter what aspects.</p>
+
+<p>###</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.wikiwand.com/en/Perfect_information">Perfect Information</a></li>
+  <li><a href="https://www.wikiwand.com/en/Perfect_information">Complete Information</a></li>
+  <li><a href="https://www.wikiwand.com/en/Zermelo%27s_theorem_(game_theory)">Zermelo’s theorem (game theory)</a></li>
+</ul>]]></content><author><name>Jeffrey Tse</name></author><category term="mathematics" /><category term="mathematics" /><category term="game theory" /><summary type="html"><![CDATA[Game theory is a small branch of mathematics, and it is also a useful subject in economics, so as to have a systematic understanding of the subject.]]></summary></entry><entry><title type="html">《必杀技》钢琴即兴 My Piano Journey</title><link href="https://jeffreytse.net/music/2023/02/07/bi-sha-ji-of-my-piano-journey.html" rel="alternate" type="text/html" title="《必杀技》钢琴即兴 My Piano Journey" /><published>2023-02-07T00:00:00+00:00</published><updated>2023-02-07T00:00:00+00:00</updated><id>https://jeffreytse.net/music/2023/02/07/bi-sha-ji-of-my-piano-journey</id><content type="html" xml:base="https://jeffreytse.net/music/2023/02/07/bi-sha-ji-of-my-piano-journey.html"><![CDATA[<p><img src="https://www.youtube.com/watch?v=keqkK1Req1Y&amp;style=display:inline;width:600px" alt="BI SHA JI" /></p>
+
+<p>作词：林夕</p>
+
+<p>你近来又 再有空 我在防备 别发功<br />
+能勉强戒绝心痛 但喉咙还在痛<br />
+你在怀旧 我也懂 还称赞我够上进<br />
+但可惜那时你都不相信</p>
+
+<p>我道行都低估了你 我以为 撑得起<br />
+一句为甚么不找找你<br />
+我练到 再倔强 再绝也 也永没法比</p>
+
+<p>求你别要 如从前 纯熟地碰我<br />
+而我问我 为何还 能够碰伤我<br />
+不要让我 一败涂地 输得更多<br />
+求你别说 错过我 其实亦爱我<br />
+何以技痒 放过我 你已仿佛有神助<br />
+一关心我已经 等于 再杀死我<br />
+…</p>]]></content><author><name>Jeffrey Tse</name></author><category term="music" /><category term="video" /><category term="piano" /><category term="journey" /><summary type="html"><![CDATA[]]></summary></entry></feed>
