@@ -548,6 +548,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `hale`: breath (e.g. exhale, inhale)
 - `half`: half (e.g. halfway)
 - `ham`: hollow or bend of the knee (e.g. hamstring)
+- `hap`: chance, to happen (e.g. happen, hapless, mishap, perhaps, haphazard)
 - `haust`: to draw up, to scoop (e.g. exhaust)
 - `heal`: heal (e.g. healthy)
 - `helic`: spiral (e.g. helicopter)
@@ -713,6 +714,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
     `meth` originally pursuit, a following after
 - `ol`: to smell (e.g. olfaction)
 - `olig`: few, small, little (e.g. oligarch)
+- `ornith`: bird (e.g. ornithology, ornithine, ornithopter)
 - `opt`: eyes; to choose, to take, grab (e.g. option, optic, cycloops,
   optoelectronic)
 - `ord`: row, order (e.g. order, orderly)
@@ -958,9 +960,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   integer, integral, integrate, tegument)
 - `ten`: the same as `tain` (e.g. content, maintenance, sustenance, abstention,
   tenant, tenancy, tenement, detente)
-- `tend`: the same as `tain` (e.g. intend, extend, distend, content, tendency)
+- `tend`: the same as `tain` (e.g. attend, intend, extend, distendm, pretend,
+  portend, tendency)
 - `tens`: the same as `tain` (e.g. tense, intense, extension)
-- `tent`: the same as `tain` (e.g. extent)
+- `tent`: the same as `tain` (e.g. extent, content)
 - `ter`: surface, aspect, the same as `term` (e.g. territory, exterior)
 - `terra`: earth (e.g. terratory, mediterranean)
 - `term`: boundary, end (e.g. term)
@@ -1242,7 +1245,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `micro`: extremely small (e.g. microphone, microwave)
 - `mid`: middle (e.g. middle)
 - `mini`: less; subordinate; small (e.g. minimum, minister, minutia)
-- `mis`: badly, wrongly (e.g. mistake, misinform, misunderstand)
+- `mis`: badly, wrongly (e.g. mistake, misinform, misunderstand, misplace, mislead,
+  mishap, misinterpret, misjudge, mismanage, misnomer)
 - `mono`: single, alone (e.g. monolith)
 - `multi`: multiple (e.g. multiform, multicolor, multination, multiuse)
 - `mus`: music, art, entertainment (e.g. music, museum)
@@ -1446,7 +1450,7 @@ Variants:
     English `-ol`, `-ul`, `-el`, representing PIE \*-lo- (see -ule). In modern
     English usually `-le` except after `-n-`.
   - Suffix `-al` origins from here
-- `en`: verb, adjective or noun is rarely seen (e.g. barren)
+- `en`: verb, adjective or noun is rarely seen (e.g. barren, happen)
 - `ence`: the same as `ance` (e.g. violence)
 - `end`: noun (e.g. legend)
 - `ent`: adjective or noun (e.g. different, recipient, patient, parent, scient)
@@ -1510,7 +1514,10 @@ Variants:
   - Added to adjectives to form nouns
 - `itis`: noun, an illness or infection that affects a particular part of your
   body (e.g. neuritis, encephalitis)
-- `ium`: noun (e.g. scriptorium, technetium, medium)
+- `ium`: noun, chemical elements, container, medium or
+  environment (e.g. scriptorium, technetium, medium, calcium, sodium, auditorium,
+  gymnasium, museum, lithium, barium, bacterium, radium, palladium)
+  - Usually used for terminology
 - `ive`: adjective (e.g. active, fictive)
 - `ise`: verb (Americanism)
   - none, from French (e.g. treatise)
@@ -1524,7 +1531,10 @@ Variants:
   - From Greek `-latreia` "worship, service paid to the gods, hired labor,"
     related to latron (n.) "pay, hire," latris "servant, worshipper," from PIE
     \*le- (1) "to get" (see larceny).
-- `le`: noun, verb, repeat (e.g. scribble, strangle, missile, subtle)
+- `le`: noun little; verb, slight or repeat action
+  (e.g. noodle, handle, middle, sparkle, beetle, twinkle, giggle, wriggle, people,
+  scribble, strangle, missile, subtle, Kindle, tinkle, rattle, mobile, dribble)
+  - Usually used for general expressions
 - `less`: adjective, negation (e.g. homeless, hopeless, careless, meaningless,
   useless, regardless)
 - `let`: noun, small one (e.g. booklet, outlet, coverlet)
@@ -1606,7 +1616,7 @@ Variants:
 - `-ize` = `-ise`
 - `-ous` (= `-ious` = `-eous` = `-uous`)
 - `-acle` = `-acel` = `-acul` (e.g. spectacle)
-  - `acul` + `-ar` = `acular` (e.g. spectacular)
+  - `acul` + `-ar` = `acular` (e.g. spectacular, celluar, circular)
 
 ## Composition
 
