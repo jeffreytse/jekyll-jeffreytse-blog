@@ -22,69 +22,57 @@ Concert!
 
 Wow It's great to be in DC
 
-You guys have
-anything exciting going on the past few weeks?
+You guys...um...how do you think exciting going on last couple weeks?
 
 Any possible changes in play?
 
 Do us a favor : give a round of applause to NPR for putting this whole thing on
 
-Tiny Desk is like one of my favorite
-corners of the internet...um and I always love seeing like
+Tiny Desk is like one of my favorite corners of the internet...um and I always
+love seeing like
 
-it's an opportunity for artists to decide a
-different way to showcase their music and so
+it's an opportunity for artists to decide a different way to showcase their music
 
-and so you're kind of inundated by overwhelming
-opportunity and choices like I was
+and so you're kind of inundated by overwhelming opportunity and choices like I was
 
 I just decided to take this as an opportunity to show you guys
 how the songs were sounded when I first wrote them
 
 So it's just me...there's no dancers...unfortunately
 
-Um "chuckle"
+[Um "chuckle"]
 
-So, you know, I have this album that just
-came out called LOVER
+So, you know, I have this album that just came out called LOVER
 
 [cheers]
 
 Real happy you like it
 
-It's one of those albums where I wrote everything on
-one instrument first, so
+It's one of those albums where I wrote everything on one instrument first, so...
 
-it's really fun to pick songs to do acoustically
-because they all started out that way
+it's really fun to pick songs to do acoustically because they all started out
+that way.
 
-Um...and...There's a song that I had wanted to write
-conceptually for a very long time, because
+Um...and...There's a song that I had wanted to write conceptually for a very
+long time, because over the course of my life, it has occurred to me that we
+have a bit of a double standard issue in our society
 
-Over the course of my life it occurred to me that we have
-a bit of a double standard issue in our society
+It's something I've thought about 7 hundred million times a day, for the last
+10 years of my life and I was always wondering, like...
 
-It's something I've thought about about million times
-a day for the last years of my life
+Can I write a song about this? Is there a concise and catchy way to write a song
+about this?
 
-and I was always wondering, like
+What angle would I take if I were to write a song about this?
 
-Can I write a song about this? Is there a concise
-and catchy way to write a song about this?
+And so I decided that the most fun thing to do would be imaging what my life
+would be like
 
-What angle would I take
-if I were to write a song about this?
-
-And so I decided that the most fun thing to do would
-be to decide what my life would be like
-
-And what people would say about my life
-if I did all the same things
+And what people would say about my life if I did all the same things
 
 But if I was a man
 
 ♪ The Man ♪
-
 
 ♪ I would be complex, I would be cool ♪
 
@@ -144,7 +132,7 @@ Yeah ♪
 Yeah ♪
 
 ♪ What's it like to brag about raking in dollars
-And getting b*tches and models? ♪
+And getting b\*tches and models? ♪
 
 ♪ And it's all good if you're bad
 it's okay if you're mad ♪
@@ -152,10 +140,8 @@ it's okay if you're mad ♪
 ♪ If I was out flashing my dollars
 I'd be a bitch, not a baller ♪
 
-
 ♪ They'd paint me out to be bad
 So, it's okay that I'm maaaaaaad ♪
-
 
 ♪ I'm so sick of running as fast as I can ♪
 
@@ -184,23 +170,20 @@ Yeah ♪
 
 ♪ I'd be the man ♪
 
-
 ♪ If I was a man ♪
 
 ♪ Then I'd be the maaan ♪
-
 
 Thanks guys
 
 So...Um
 
-So..Um There's a song that I wrote on the album that I knew
-as soon as I wrote it it was going to be the tittle track
+So..Um There's a song that I wrote on the album that I knew as soon as I wrote it
+it was going to be the tittle track
 
 Just....And it was like
 
-Writing songs is strange cause it never happens
-exactely the same way
+Writing songs is strange cause it never happens exactly the same way
 
 But sometimes it happens in a way that it feels like this weird
 like haunting that you can't really explain
@@ -213,55 +196,53 @@ And that's the best part - that's the best kind of song...Um
 And then there most days, you show up,
 and the idea doesn't
 
-And that's where craft you have to kind of know the craft of it, you have to scrounge your brain for something to write
+And that's where craft you have to kind of know the craft of it, you have to
+scrounge your brain for something to write
 
 Because you're not always going to be inspired, and that's okay...um
 
-There's a really good Elizabeth Gilbert Ted Talk about that,
-it's like...one of my favorite things to cry while watching
+There's a really good Elizabeth Gilbert Ted Talk about that, it's like...
+one of my favorite things to cry while watching
 
-Um, but yeah, like with this song, it was one of those
-weird moments where I was just like : Okay this is just
+Um, but yeah, like with this song, it was one of those weird moments where I was
+just like. Okay this is just middle of the night...
 
-middle of the night...
-
-I'm like in my PJs, like stumbling to the piano because I got
-this idea, and the song just happened really quickly
+I'm like in my PJs, like stumbling to the piano because I got this idea, and the
+song just happened really quickly
 
 There's a line in the song that I'm really proud of...um
 and the line says :
 
-With every guitar string scar on my hand I take
-this magnetic force of a man to be my lover
+With every guitar string scar on my hand I take this magnetic force of a man to
+be my lover
 
-And that line is really special to me because um
-I've spent quite a bit of time writing breakup songs
+And that line is really special to me because um I've spent quite a bit of time
+writing breakup songs
 
-And uh...songs about things not turning out the
-way you wanted them to
+And uh...songs about things not turning out the way you wanted them to
 
-Or songs about what you thought would be love and it
-turned out to be not that at all or
+Or songs about what you thought would be love and it turned out to be not that at
+all or
 
-You know just kind of the struggle of life...I find songwriting
-is really just a cathartic therapeutic thing for me
+You know just kind of the struggle of life...I find songwriting is really just a
+cathartic therapeutic thing for me
 
-And so there are a lot of things I've written about in life
-that were just the harder things I had to go through so
+And so there are a lot of things I've written about in life that were just the
+harder things I had to go through so
 
-I took that as a metaphor for like...you know
-the times when I was learning to play guitar and I'd like
+I took that as a metaphor for like...you know the times when I was learning to
+play guitar and I'd like
 
-play until my fingers bled when I was a kid
-And I still have the marks from that
+play until my fingers bled when I was a kid And I still have the marks from that
 
-You know all the times I'd be changing a string and it would pop and I still have scars from that
+You know all the times I'd be changing a string and it would pop and I still have
+scars from that
 
-Um...but it's also a bigger metaphor for like in life,
-you accumulate scars, you accumulate hurt
+Um...but it's also a bigger metaphor for like in life, you accumulate scars, you
+accumulate hurt
 
-You accumulate moments of you know learning and
-disappointment, and struggle and all that
+You accumulate moments of you know learning and disappointment, and struggle and
+all that
 
 And if someone's gonna take your hand,
 they'd better take your hand, scars and all
@@ -269,7 +250,6 @@ they'd better take your hand, scars and all
 Um...So this is called LOVER
 
 ♪ Lover ♪
-
 
 ♪ We could leave the Christmas lights up until January ♪
 
@@ -418,7 +398,6 @@ So this is called : Death by a Thousand Cuts
 
 ♪ Death by a Thousand Cuts ♪
 
-
 ♪ My, my, my, my ♪
 
 ♪ My, my, my, my ♪
@@ -441,7 +420,7 @@ So this is called : Death by a Thousand Cuts
 
 ♪ It's death by a thousand cuts ♪
 
-♪ I dress to k*ll my time, I take the long way home ♪
+♪ I dress to k\*ll my time, I take the long way home ♪
 
 ♪ I ask the traffic lights if it'll be alright ♪
 
