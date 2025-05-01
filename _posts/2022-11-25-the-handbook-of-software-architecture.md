@@ -868,9 +868,125 @@ Three Principles of Architecture Design:
 
 > You Aren't Gonna Need It
 
+### Progressive Optimization
+
+> Premature optimization is the root of all evil. - Donald Knuth
+
+Don't think about possible optimizations when writing a program, but focus on
+making sure the code is clean, correct, readable, and easy to understand. If you
+find it's too big or too slow after you've written it, then think about how to
+optimize it.
+
+In many areas, you can get 80% of the results with 20% of the effort (sometimes
+it can be the 10/90 rule). Whenever you want to optimize code, first use a
+profiling tool to find out where 80% of the execution time is spent, so you
+know where to focus your optimization efforts.
+
+Do remember that the slight performance improvement is not worth sacrificing
+the clarity, cleanliness, readability and understanding of the code.
+
+### Expose Problem As Soon As Possible
+
+> A dead program is usually less harmful than a sick program.
+
+One of the benefits of detecting problems early is that you can crash sooner.
+
+When your code discovers that something that was supposedly impossible has
+happened, your program is no longer viable, and everything it does from that
+point on becomes suspect, so terminate it as quickly as possible.
+
+
+### Contract-Oriented Design
+
+Writing "shy code" is beneficial, shyness works in two ways:
+
+- Do not exposing yourself to others.
+- Do not interacting with too many people.
+
+#### Orthogonality
+
+> Orthogonality is a property of a system that allows its components to be
+> developed, tested, and maintained independently of each other.
+
+"Orthogonality" is a concept in software design, which means that the various
+parts of the system should be independent of each other and not interfere with
+each other. Modifying one part should not affect other parts; adding a function
+should not make the system more complex or more difficult to maintain.
+
+When introducing third-party toolkits and libraries, make sure they do not
+destroy the independence and clear boundaries between parts of the system.
+
+Organize your code into minimal organizational units (modules) and limit the
+interactions between them so that if one module must be replaced later due to
+a compromise, the other modules will continue to work.
+
+The Law of Demeter:
+
+The Law of Demeter, also known as the "Law of Demeter" or the "Principle of
+Least Knowledge", is a guiding principle of object-oriented design. It
+emphasizes that an object should know as little as possible about other objects,
+interact only with its direct friends (classes), and avoid direct communication
+with unfamiliar objects.
+
+#### Assertive Programming
+
+> Don't assume, prove. If it can't happen, use assertions to ensure it doesn't
+> happen.
+
+Assertive programming is a programming practice that uses assertions to 
+ensure that certain conditions hold true at runtime. Assertions are used to
+check for conditions that should never happen, such as invalid input or
+application state. If an assertion fails, it indicates a bug in the code that
+needs to be fixed. Assertions are typically used during development and testing
+phases, and can be disabled in production environments to improve performance.
+
+Implicit assumptions:
+
+> Don't program by accident and assumption, program by deliberation.
+
+> Don't use wizard code you don't understand, it make you regress to programming
+> by coincidence.
+
+People at all levels work with many assumptions in their heads - but these
+assumptions are rarely documented and often conflict between different
+developers. Assumptions that are not based on clear facts are the bane of
+all projects.
+
+Assertive programming helps to catch bugs early in the development process and
+that the code behaves as expected.
+
+__In addition to adding assertions, please keep them turned on__. Because your
+first line of defense is to check for any possible errors, and your second line
+of defense is to use assertions to try to detect errors you missed. Although
+earlier assertions come with some performance cost, don't turn them off.
+
+#### Defensive Programming
+
+> It's a kind of contract-oriented programming in essence.
+
+Defensive programming is a programming practice intended to ensure the continuing
+function of a piece of software under unforeseen or unpredictable circumstances.
+
+### Configuration-oriented Design
+
+> Put abstractions in code and details in metadata.
+
+> Postpone definition of most details until the last possible moment, and keep
+details as “soft” as possible—as easy to change as possible.
+
+It's also called "Metadata-oriented Design", which is a design principle that
+emphasizes the separation of configuration and code. The idea is to put
+abstractions in code and details in metadata, allowing for greater flexibility
+and maintainability. This approach allows developers to change the behavior of
+the system without modifying the code itself, making it easier to adapt to
+changing requirements and environments.
+
+
 ### IoC (Inversion of Control)
 
 ### High cohesion & Low coupling
+
+### GoF Design Patterns
 
 ## Architecture Patterns
 
@@ -978,6 +1094,18 @@ Clean Architecture does not bring breakthrough concepts or patterns, but:
 
 ![The Clean Architecture Cone](https://github.com/user-attachments/assets/d358ecaa-99ef-4ac1-8c9c-2764b1558559)
 
+> The technology stack and technology debt are directly proportional.
+
+The more technology stacks you stack, the more debt you borrow and the more you
+need to repay in the future. Therefore, you need to weigh the amount of
+technology stack.
+
+- If the introduction of a new technology can replace multiple old technologies,
+  then it is particularly valuable.
+- If a mature technology can be applied to as many different scenarios as
+  possible to solve multiple types of problems, it will also become valuable.
+  E.g. PostgreSQL to replace MySQL, Redis, MongoDB, etc.
+
 ### Explicit Architecture
 
 In 2017, Herberto Graca proposed Explicit Architecture in his series of articles
@@ -1003,6 +1131,18 @@ software architecture:
 - Level 2: Container diagram
 - Level 3: Component diagram
 - Level 4: Code diagram
+
+## Refactoring
+
+When should you refactor?
+
+You should consider refactoring your code whenever it has any of the following
+characteristics:
+
+- Repetition. You found a violation of the DRY principle.
+- Non-orthogonal design.
+- Outdated knowledge.
+- Performance.
 
 ## References
 
