@@ -4,7 +4,7 @@ title: The Handbook of Effective Business Communication
 subtitle:
 author: Jeffrey Tse
 banner:
-  image: https://github.com/jeffreytse/jekyll-jeffreytse-blog/assets/9413601/558b94f8-5690-4218-ac41-c34ffc9ba220
+  image: https://i.postimg.cc/hjzLWt32/image.png
   opacity: 0.50
 categories: methodology
 tags:
