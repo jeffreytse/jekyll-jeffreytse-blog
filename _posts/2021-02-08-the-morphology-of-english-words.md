@@ -1142,7 +1142,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   (e.g. deform, deviate, describe, demote, debate, deserve, derive, derail,
   deduct, detail, determine, demand, deploy, deselect, deplete, desperate,
   descend, despite, deactive, defeat, detain, dedicate, decedent, define,
-  depart, demerit, denounce, deposit)
+  depart, demerit, denounce, deposit, debug, decompose, dehydrate)
   - used to add the meaning "opposite", "remove", or "reduce" to a noun or verb:
 - `deca`: ten (e.g. decalogue)
 - `deci`: the same as `deca` (e.g. decimal)
@@ -1280,9 +1280,13 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   Pandora, panacea, pantheon)
   - From Greek `pan-`, combining form of pas
 - `para`: alongside, beyond; altered; contrary; irregular, abnormal; defense
-  against (e.g. paradigm, paramedic, parastatal, paralegal, paraeducator,
-  paranormal, parachute, paramount, paralysis, paradox)
+  against (e.g. paragraph, parallel, paradigm, paramedic, paramilitary,
+  parastatal, paralegal, paraeducator, paranormal, paranoia, parachute,
+  paramount, paralysis, paradox, parachute, parasol, paralegal, paraphrase,
+  parasite)
   - From Greek `para-`, before vowels, par-, word-forming element.
+  - From Latin `parare`, to prepare, make ready, provide, furnish, equip,
+    arrange, set in order.
 - `per`: forward; through; throughout; thoroughly; entirely, utterly; very
   (e.g. perfect, perform, persist, permit, persevere, pertain)
 - `peri`: round about; around (e.g. periphery, periscope)
@@ -1414,7 +1418,9 @@ Variants:
 - `an`: noun or adjective, pertaining to (e.g. median, partisan, urban)
 - `ance`: noun (e.g. performance, appearance, balance, governance, finance)
   - The action, state, or quality of doing something or of being something
-- `ant`: noun (e.g. informant, assistant, redundant, significant)
+- `ant`: noun, agent; adjective, tend to (e.g. informant, assistant, redundant,
+  significant, immigrant, servant, occupant, participant, consultant, coolant,
+  dominant, contestant, pleasant, constant, important, hesitant, observant)
   - Someone or something that does something
 - `ar`: noun, the same as `-er`, someone who does somthing; adjective, relating
   to somthing (e.g. liar, polar, circular, stellar, commissar)
@@ -1453,7 +1459,8 @@ Variants:
 - `en`: verb, adjective or noun is rarely seen (e.g. barren, happen)
 - `ence`: the same as `ance` (e.g. violence)
 - `end`: noun (e.g. legend)
-- `ent`: adjective or noun (e.g. different, recipient, patient, parent, scient)
+- `ent`: the same as `-ant`, noun, adjective (e.g. different, recipient,
+  patient, parent, scient, evident, dependent, frequent, resident)
   - Making adjectives from nouns or verbs, from French
 - `er`: noun, executor of an action
 - `ery`: noun or adjective, the same as `-ary` (e.g. stationery)
