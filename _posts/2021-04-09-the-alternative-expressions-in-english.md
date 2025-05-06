@@ -94,11 +94,13 @@ over and over again, and you'll be like a native.
 - You're (very) welcome
   - No problem
   - No worries
+  - No big deal
   - My pleasure
   - Anytime
   - Don't mention it
   - You shouldn't have
   - It's nothing
+  - It's the least I could do
   - That's ok
 
 - Afraid
@@ -119,6 +121,29 @@ over and over again, and you'll be like a native.
 
 - Amazing
   - A wale of a time
+  - Breathtaking
+  - Fantastic
+  - Fabulous
+  - Incredible
+  - Magnificent
+  - Marvelous
+  - Outstanding
+  - Phenomenal
+  - Remarkable
+  - Spectacular
+  - Stupendous
+  - Stunning
+  - Superb
+  - Terrific
+  - Unbelievable
+  - Wonderful
+  - Astounding
+  - Astonishing
+  - Extraordinary
+  - Impressive
+  - Mind-blowing
+  - Mind-boggling
+  - Mind-numbing
 
 - Annoying
   - Pesky
@@ -180,6 +205,16 @@ over and over again, and you'll be like a native.
   - Off one's trolley (British)
   - Out of one's mind
   - Sick
+
+- Dumber
+  - Dullard
+  - Dumb-dumb
+  - Dum-dum
+  - Dunce
+  - Moron
+  - Nincompoop
+  - Ninny
+  - Ninnyhammer
 
 - Especially
   - Notably
@@ -300,7 +335,11 @@ over and over again, and you'll be like a native.
   - I'm into it
 
 - I want to do something
+  - I'm craving to do something
   - I'm dying to do something
+  - I'm itching to do something
+  - I'm keen to do something
+  - I'm looking forward to doing something
 
 - Bye
   - Look, I have got going
@@ -354,6 +393,7 @@ over and over again, and you'll be like a native.
   - I'm worn out
   - I'm exhausted
   - I'm knackered
+  - I'm out of breath
 
 - I'm on my way
   - I'll be right there
@@ -410,6 +450,10 @@ over and over again, and you'll be like a native.
 
 - Are you competent
   - Can you handle that
+  - Can you approach that
+  - Can you deal with that
+  - Can you manage that
+  - Can you pull that off
 
 - Are you angry
   - Are you cool
@@ -1185,6 +1229,11 @@ over and over again, and you'll be like a native.
   - It's a pain in the booty
   - It's a pain in the neck
 
+- Too
+  - Also
+  - As well
+  - Likewise
+
 - Tough
   - Arduous
 
@@ -1587,3 +1636,12 @@ over and over again, and you'll be like a native.
   - What is your damage?
   - What the Fuck
     - What the heck
+  - Be good at it
+    - Have a knack for it
+  - Run an errand
+  - A run-on sentence
+  - It's not that deep
+  - Just my luck
+  - Thanks, but no, thanks
+  - I'm gonna head out
+    - I'm gonna get going
