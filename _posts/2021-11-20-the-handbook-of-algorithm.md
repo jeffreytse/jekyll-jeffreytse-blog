@@ -40,22 +40,50 @@ We use the "Big-O Notation" to expression complexity of a algorithm.
 Here is some common algorithm complexities:
 
 - O(1)
+  - Array access
 - O(log n)
+  - Binary Search
 - O(n)
+  - Linear Search
 - O(n log n)
+  - Merge Sort
+  - Quick Sort
+  - Heap Sort
 - O(n^2)
-- O(2^n)
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+- O(2^n or C^n)
+  - Fibonacci Sequence
+  - Tower of Hanoi
 - O(n!)
+  - Traveling Salesman Problem
+  - Permutation
+
+Common estimates of the time complexity of an algorithm are:
+
+- __Simple loop:__ O(n) such as finding the maximum value of an array
+- __Nested loop:__ O(m*n) or O(n²), such as bubble sort
+- __Binary search:__ O(lg(n)), such as binary search, traversing a binary tree
+- __Divide and conquer:__ O(nlg(n)), algorithms that divide their input and process
+  it independently on two parts and then combine the results, such as quick sort
+- __Combinations: O(Cⁿ)__, as long as the algorithm considers the arrangement of
+  things, its running time may get out of control, because the arrangement
+  involves factorials, such as the traveling salesman problem
 
 Big-O Complexity Chart
 
 ![Big-O Complexity Chart](https://user-images.githubusercontent.com/9413601/145718294-f51966dc-bc29-43be-b490-4716b28095c4.png)
 
+### Optimize Algorithm
+
+If you have an O(n²) algorithm, try to find a divide-and-conquer way to get it
+down to O(nlg(n)).
 
 ## Data Structure
 
 - Linear
-  - Array (List)
+  - Array (List/Vector)
   - Queue
     - Simple Queue
     - Circular Queue
