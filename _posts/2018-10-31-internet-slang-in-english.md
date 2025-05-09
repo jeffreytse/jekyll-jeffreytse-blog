@@ -201,6 +201,7 @@ collection in my daily learning:
 - **SRSLY** - Seriously
 - **SSDD** - Same stuff, different day
 - **STFU** - Shut the fuck up
+- **TBD** To be determined
 - **TBH** To be honest
 - **TBT** - Throwback Thursday
 - **TFW** - That feeling when (often goes in a caption to an image)
