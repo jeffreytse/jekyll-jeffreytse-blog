@@ -194,6 +194,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Go all out
 - Go big or go home
 - Go down in flames
+- Go down the drain
 - Go Dutch
 - Go for broke
 - Go pear-shaped
@@ -267,6 +268,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Know something like the back of my hand
 - Kick the bucket
   - A euphemistic meaning 'to die'
+- Kill someone with kindness
 - Kind of a racket
 - Kiss ass
 
@@ -323,6 +325,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Once in a blue moon
 - One for the road
 - One's ass off
+- Out in the open
 - Out of the blue
 
 ## P
@@ -330,11 +333,13 @@ vividly, and make the other party feel more familiar and authentic.
 - Pain the town red
 - Pie in the sky
 - Play it by ear
+- Pride before the fall
 - Pull a rabbit out of the hat
 - Pull strings
 - Put on your thinking cap (on)
 - Put something on ice
 - Put yourself in their shoes
+- Put an elephant in a room
 
 ## R
 
@@ -398,6 +403,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Take several seats
 - Take umbrage
 - Take the fall
+- Talk on the fly
 - Ten to one
 - Ten out of ten
 - Ten-minute man
@@ -424,6 +430,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Top dog
 - Top-notch
 - Top of one's head
+- To have a chip on one's shoulder
 - To put all your eggs in one basket
 - Trick or treat
 - Trust fund baby
@@ -438,6 +445,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Under the weather
   - To feel ill
 - Up for
+- Up in the air
 
 ## W
 
@@ -445,6 +453,7 @@ vividly, and make the other party feel more familiar and authentic.
 - Walk on eggshells
 - Watch your step
 - Well-worn themes
+- Weight comes off my shoulders
 - Went bananas
 - We'll cross that bridge when we come to it
 - We're even
