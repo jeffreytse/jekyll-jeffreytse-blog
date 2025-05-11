@@ -26,6 +26,7 @@ more natural and understand conversations between native English speakers.
 - gotta = have got to, also means I understand what you said
 - gonna = go to (Americanism)
 - hafta = have to
+- hella - hell of
 - imma = I am going to
 - kinda = kind of
 - lemme = let me
