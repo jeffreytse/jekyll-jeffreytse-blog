@@ -2,6 +2,9 @@
 layout: post
 title: Understanding the FP64, FP32, FP16, BFLOAT16, TF32, FP8 Formats
 subtitle: Choosing the Right Format for Speed, Accuracy, and Energy Savings
+banner:
+  image: https://i.postimg.cc/cHWQSpnw/image.png
+  opacity: 0.75
 author: Jeffrey Tse
 categories: computer
 tags:
