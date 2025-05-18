@@ -438,6 +438,24 @@ over and over again, and you'll be like a native.
   - I catch your drift
   - I see/get/understand where you're coming from
 
+- I love you
+  - I adore you
+  - I cherish you
+  - I care about you
+  - I'm crazy about you
+  - I'm fond of you
+  - I'm into you
+  - I'm head over heels for you
+  - I'm smitten with you
+  - I'm sweet on you
+  - I'm wild about you
+  - I'm nuts about you
+  - I crush on you
+  - I potato you
+  - I derp you
+  - I unicorn you
+  - I cat you
+
 - I will pay the bill
   - I got this
   - It's on me
@@ -1645,3 +1663,9 @@ over and over again, and you'll be like a native.
   - Thanks, but no, thanks
   - I'm gonna head out
     - I'm gonna get going
+  - Nitty-gritty
+  - Bottom line
+  - Heart of the matter
+  - Crux of the issue
+  - Nuts and bolts
+  - Brass tacks
