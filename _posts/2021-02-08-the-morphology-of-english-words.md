@@ -339,6 +339,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `annu`: year (e.g. annual)
 - `anim`: life (e.g. animal)
 - `ant`: front, forehead (e.g. antecede)
+- `apt`: fit, suitable (e.g. aptitude, adapt, inept)
 - `aqu`: water (e.g. aqua, aqueduct)
   - From Latin `aqua`
 - `arch`: chief, to rule, to begin, beginning, origin, first place (e.g.
@@ -630,7 +631,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `marc`: the same as `mark` (e.g. demarcate)
 - `mark`: boundary, border (demark, marker)
 - `mari`: of the sea; body of the sea (e.g. marine)
-- `matri`: mother, woman (e.g. matriarch)
+- `matr`: mother, woman (e.g. matronymic, matron)
+  - From Latin `mater`
+- `matri`: the same as `matr` (e.g. matriarch, matrilocal, matrilineal, matrimony)
 - `mast`: great; chief, head, director, teacher (e.g. master)
 - `merit`: to earn (money) (e.g. demerit)
 - `milit`: to fight; soldier (e.g. military, paramilitary)
@@ -707,6 +710,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - From Greek
 - `gress`: walk (e.g. progress, ingress)
 - `gyne`: woman (e.g. gynecology, misogyny)
+- `oblig`: bind, tie, to bind by oath (e.g. obligate, obligation)
 - `ocre`: be sharp, rise (out) to a point, pierce. (e.g. mediocre, ocrea)
 - `od`: a way, path, track, road or manner (e.g. method, period, odograph,
   anode, cathode)
@@ -716,7 +720,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `olig`: few, small, little (e.g. oligarch)
 - `ornith`: bird (e.g. ornithology, ornithine, ornithopter)
 - `opt`: eyes; to choose, to take, grab (e.g. option, optic, cycloops,
-  optoelectronic)
+  optoelectronic, adopt)
 - `ord`: row, order (e.g. order, orderly)
 - `ordain`: the same as `ord` (e.g. preordain)
 - `ordin`: the same as `ord` (e.g. ordinary, coordinate, subordinate,
@@ -724,6 +728,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `org`: the same as `erg` (e.g. organize)
 - `ori`: to rise; to face the east (e.g. oriented, origin)
   - From Latin, PIE `heri`, the position that sun rising from.
+- `orn`: noun, to equip, furnish, adorn, embellish (e.g. adorn)
+  - From Latin `ornare`
 - `out`: out (e.g. outperform)
 - `oxy`: sharp, acid, oxygen (e.g. oxygen, oxymoron)
 - `pand`: to spread, stretch (e.g. expand)
@@ -881,7 +887,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `spite`: dislike, regard with ill will (e.g. despite, spiteful, respite)
 - `spond`: to pledge (e.g. respond)
   - From Latin `spondere`
-- `spons`: the same as `spond`
+- `spons`: the same as `spond` (e.g. sponsor, sponsorship, response)
 - `spong`: spong (e.g. spongiform)
 - `spy`: the same as `spec` (e.g. spyglass, espy)
 - `sid`: to sit, to settle (e.g. consider, preside, reside)
@@ -998,6 +1004,9 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `trait`: the same as `tra` (e.g. portrait, traitor)
 - `traught`: the same as `tra` (e.g. distraught)
 - `treat`: the same as `tra` (e.g. treatment, mistreat, maltreat, entreat)
+- `troph`: nourishment, food; to feed, to nourish (e.g. atrophy, hypertrophy,
+  trophoblast)
+  - From Greek `trophē`
 - `try`: attemp to do; to pick out, cull; (e.g. trial)
 - `tun`: the same as `ton` (e.g. tune, attune)
 - `tutor`: to protect; to be strong (e.g. tutorial, tuition)
@@ -1076,14 +1085,14 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 ## Prefix
 
 - `a`: off, of, off from, away from; down, aside, to; emphatic (e.g. away, alike
-  apart, ascribe, atom, abandon, apply, apathy, avenue, accede, acentric)
+  apart, ascribe, atom, abandon, apply, apathy, avenue, accede, acentric, atrophy)
   - From Latin
 - `ab`: the same as `a`(e.g. abuse, abduct, abstain, abscess, abnormal)
 - `ac`: the same as `a` (e.g. account, acclaim, accredit)
 - `acro`: highest, topmost (e.g. acronym)
 - `acu`: cusp (e.g. acupressure)
 - `ad`: the same as `a` (e.g. advocate, admit, adduce, adjourn, admix, advance,
-  address)
+  address, adjust, adhere, adjoin, administer, admire, adopt, adapt, adorn)
 - `aero`: air (e.g. aerostat, aerobatics)
 - `af`: the same as `a` (e.g. affinal)
 - `an`: the same as `un` (e.g. anarchy, anecodote = `an` + `ec`=`ex` + `dot`=`to give`)
@@ -1111,6 +1120,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `bi`: two (e.g. binary, biweekly, bicycle, bicentennial, bisexual, bilingual)
 - `bi(o)`: relating to or using living things (e.g. biomedical, biography,
   biocentric)
+- `brev`: short (e.g. abbreviation, brevity)
+  - From Latin `brevis`
 - `by`: the same as `be` (e.g. bypass, bygone, bylaw, bystander)
 - `cardio`: relating to the heart (e.g. cardiograph)
 - `cephal`: head, uppermost or top part, source (e.g. cephalopod, encephalopathy)
@@ -1438,6 +1449,8 @@ Variants:
   - Noun, job, rank, or degree of a particular quality/type/duty...
 - `ation`: noun (`ate` + `ion`)
 - `ative`: noun (`ate` + `ive`)
+- `atory`: noun or adjective, the same as `-ory` (e.g. celebratory, laboratory,
+  respiratory, obligatory, predatory, celebratory)
 - `cide`: noun (e.g. suicide)
   - used to form words referring to substances that kill a particular thing
 - `craft`: noun, skill
@@ -1472,7 +1485,7 @@ Variants:
 - `etic`: adjective, pertaining to (e.g. pathetic)
   - From Greek `-etikos`, adjectival suffix for nouns ending in `-esis`
 - `ette`: noun, a small thing of a particular type (e.g. barrette, snackette,
-  statuette, cassette, serviette)
+  statuette, cassette, serviette, etiquette)
 - `fest`: noun, referring to events that have a lot of a particular thing or
   have a very great effect of a particular kind (e.g. talkfest)
 - `fic`: adjective, making, creating (e.g. scientific)
@@ -1496,6 +1509,10 @@ Variants:
 - `ic`: adjective, having to do with, having the nature of, being, made of,
   caused by, similar to (e.g. iconic, music, electric)
   - From French `-ique` and directly from Latin `-icus` or from cognate Greek `-ikos`
+- `ice`: noun, the same as `-ion` (e.g. practice, service, sacrifice, justice,
+  notice, advice, lattice, office, device, malice)
+  - From Old French `-ice`, from Latin `-itia`, `-itium`
+  - In modern English, it is used to form nouns from verbs
 - `ics`: noun, `ic` + `s`, the study of something (e.g. bioinformatics)
 - `icle`: the same as `-acle` (e.g. particle, fascicle)
 - `id`: noun or verb, rarely adjective (e.g. liquid, fluid, solid = `sol` + `id`;
@@ -1526,9 +1543,11 @@ Variants:
   gymnasium, museum, lithium, barium, bacterium, radium, palladium)
   - Usually used for terminology
 - `ive`: adjective (e.g. active, fictive)
-- `ise`: verb (Americanism)
-  - none, from French (e.g. treatise)
-- `ize`: verb (British Style)
+- `ise`: verb, the same as `ize` (Americanism and British Style, e.g. advertise,
+  advise, exercise)
+  - From French `-iser`, from Latin `-izare`, from Greek `-izein`
+  - In modern English, it is used to form verbs from nouns and adjectives
+- `ize`: verb (Only Americanism)
 - `istic`: `ist` + `ic` (e.g. formalistic)
 - `itis`: noun (e.g. periodontitis)
   - An illness or infection that affects a particular part of your body
