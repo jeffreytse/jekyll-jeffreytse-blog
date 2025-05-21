@@ -747,7 +747,9 @@ The average cost of access times:
 - Network Storage: ~30,000,000ns (11.4 months)
 - Tape Storage: 1,000,000,000ns (31.7 years)
 
-![Memory Hierarchy](https://media-hosting.imagekit.io/ab68144b8d7a462e/screenshot_1746688802549.png?Expires=1841296803&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Fn7W7hlkz1Lzr9PBAUknyIXise0jm8Y1ua1Kz1rQlWEGhYlHAeo3R2TR01vbVIRBItYK7LioYrP0vlAimwsWVopaTiYJu1aClkqq1J81vgLGPaVH8O~NNtA15AeEP1wDCP9WPv9ggbNC6ODzg7sJJa1ABZW9DFTN7m9tgyxoMAkzBU4fxqOu70RjE2xBnCH5rJ6LDeiUgkjCHT2RixYLc7ZuIJdZepEy4caLXo84TMe06Onb0elP-5DDKBGrPgd8WPlMdxdj0yfD9dTS1B8VTj1cGpfqYS7L~8VXOiteF0PFgagtXhdWDNhahWWjSuRstHU7hPjJXw78RMKXPXAkGQ__)
+![Memory Hierarchy](https://i.postimg.cc/c4pt0M4f/image.png)
+
+![Cache Structure](https://i.postimg.cc/9fpDd6PB/image.png)
 
 ### Testing (Validate the design)
 
