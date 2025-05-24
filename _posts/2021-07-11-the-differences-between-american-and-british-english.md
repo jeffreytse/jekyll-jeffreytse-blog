@@ -15,24 +15,91 @@ way many Brits feel about American English.
 
 ## Pronunciation
 
+There are many pronunciation differences between American and British English.
+Typically, the differences are in vowel sounds, consonant sounds, stress and
+intonation.
+
+Vlowel differences:
+
+- In British English, the letter `a` is pronounced as /ɑː/ in words like
+  `bath`, `dance` and `laugh`. In American English, it is pronounced as /æ/.
+- In British English, the letter `i` is pronounced as /ɪ/ in words like `either`
+  and `neither`. In American English, it is pronounced as /aɪ/.
+- In British English, the letter `o` is pronounced as /ɒ/ in words like `hot`
+  and `not`. In American English, it is pronounced as /ɑː/.
+- In British English, the letter `o` is pronounced as /əʊ/ in words like `go`
+  and `home`. In American English, it is pronounced as /oʊ/.
+- In British English, the letter `u` is pronounced as /juː/ in words like
+  `new` and `music`. In American English, it is pronounced as /uː/.
+
+Other differences:
+
+- In British English, the letter `r` is pronounced only when it is followed by
+  a vowel sound. In American English, the letter `r` is pronounced in all
+  positions. For example, the word `car` is pronounced as /kɑː/ in British
+  English, but /kɑːr/ in American English.
+- In British English, the letter `t` is pronounced as a clear /t/ sound. In
+  American English, it is often pronounced as a flap /ɾ/ sound, which sounds
+  similar to a quick /d/ sound. For example, the word `better` is pronounced
+  as /ˈbɛtə/ in British English, but /ˈbɛɾər/ in American English.
+- In British English, the letter `l` is pronounced as a clear /l/ sound. In
+  American English, it is often pronounced as a dark /ɫ/ sound, which is
+  pronounced with the back of the tongue raised. For example, the word `milk`
+  is pronounced as /mɪlk/ in British English, but /mɪɫk/ in American English.
+- In British English, the letter `h` is pronounced in all positions. In American
+  English, it is often silent at the beginning of words. For example, the word
+  `herb` is pronounced as /hɜːb/ in British English, but /ɜːrb/ in American
+  English.
+- In British English, the `ee` is pronounced as /iː/ in words like `been`
+  and `leisure`. In American English, it is pronounced as /ɪn/ and /ɪʒɚ/,
+  respectively.
+- In British English, the `y` is pronounced as /ɪː/ in words like `family`,
+  `economy`, `bravery` and `technology`. In American English, it is pronounced
+  as /iː/.
+
+These are some common words that are pronounced differently in American and
+British English:
+
 - Adidas (əˈdiːdəs / ˈɑdidɑs)
+- address (ˈædres / əˈdrɛs)
+  - As a noun, both pronunciations are acceptable in both varieties of English
+  - As a verb, the second syllable is stressed in both varieties of English
 - adult (əˈdʌlt / ˈædʌlt)
+  - As a noun, both pronunciations are acceptable in both varieties of English
 - advertisement (ˈædvɜːrtaɪzmənt / ədˈvɜːrtɪzmənt)
 - after (ˈæftər / ˈɑːftə)
 - ask (æsk / ɑːsk)
 - aunt (ænt / ɑːnt)
+- ballet (ˈbæleɪ / bæˈleɪ)
+- basil (ˈbæzəl / ˈbɑːzəl)
+- bath (bæθ / bɑːθ)
+- been (bɪn / biːn)
 - beta (ˈbeɪtə / biːtə)
+- better (ˈbɛtər / ˈbɛtə)
+  - tt is pronounced as a flap /ɾ/ in American English
+- bonnet (ˈbɑnɪt / ˈbɒnɪt)
+- bowl (boʊl / bəʊl)
 - brochures (ˈbroʊʃʊrz / ˈbrəʊʃərz)
+- butter (ˈbʌtər / ˈbʌtə)
+  - tt is pronounced as a flap /ɾ/ in American English
+- can't (kænt / kɑːnt)
+- car (kɑːr / kɑː)
 - chance (tʃæns / tʃɑːns)
 - class (klæs / klɑːs)
 - common (ˈkɑː.mən / ˈkɒm.ən)
 - computer (kəmˈpjuːtər / kəmˈpjuːtə)
 - current (ˈkɜːrənt / ˈkʌrənt)
+- data (ˈdætə / ˈdeɪtə)
+  - Only /ˈdeɪ.tə/ is acceptable in British English
+  - Both pronunciations are acceptable in American English
+- dance (dæns / dɑːns)
 - direct (daɪˈrekt / dəˈrekt)
 - either (ˈiːðər / ˈaɪðə)
 - example (ɪɡˈzæmpəl / ɪɡˈzɑːmpəl)
 - finale (fɪˈnæli / fɪˈnɑːli)
 - garage (ɡəˈrɑːʒ / ˈɡærɪdʒ)
+- glass (ɡlæs / ɡlɑːs)
+- half (hæf / hɑːf)
 - herb (ɜːrb / hɜːrb)
 - Jaguar (ˈdʒæɡwɑːr / ˈdʒæɡjuːər)
 - laugh (læf / lɑːf)
@@ -47,8 +114,13 @@ way many Brits feel about American English.
 - pasta (ˈpæstə / ˈpɑːstə)
 - path (pæθ / pɑːθ)
 - possible (ˈpɑːsəbəl / ˈpɒsəbəl)
+- research (ˈriːsɜːrtʃ / rɪˈsɜːtʃ)
+  - As a noun, both pronunciations are acceptable in both varieties of English
+  - As a verb, the second syllable is stressed in British English, but the first
+    syllable is stressed in American English
 - respide (ˈrɛspɪd / rɪˈspaɪd)
 - route (raʊt / ruːt)
+- schedule (ˈskedʒuːl / ˈʃedjuːl)
 - status (ˈstætəs / ˈsteɪtəs)
 - supermarket (ˈsjuːpərˌmɑrːkɪt / ˈsuːpəˌmɑːkɪt)
 - telecom (ˈtel.ɪ.kɑːm / ˈtel.ɪ.kɒm)
