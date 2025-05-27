@@ -18,7 +18,9 @@ Here are some phrase patterns for daily usage:
 - At first glance, I’d say… However, at the end of the day, I’d say…
 - Bear out
 - Both you and I are students.
+- By all means
 - By and large
+- By no means
 - Can you tell me the definition of sth.
 - Cut both ways
 - Either you or he is wrong.
@@ -42,6 +44,7 @@ Here are some phrase patterns for daily usage:
 - I feel like...
 - I get sb. sth.
 - I have an enduring passion for something
+- I might as well do sth.
 - I'm down for whatever
 - I'm gutted to do hear that
 - I’m in two minds about this, I suppose…but on the other hand…
@@ -84,6 +87,8 @@ Here are some phrase patterns for daily usage:
 - Over the moon
 - Sb. might as well do sth.
 - Screw sth. up
+- Sth. and stuff
+- Stumbling block
 - That was rubbish
 - That's what sb. do sth.
 - That's why in part they were able to do sth.
@@ -99,6 +104,4 @@ Here are some phrase patterns for daily usage:
 - What've you been up to?
 - With one’s help...
 - Wrestle with
-- Sth. and stuff
-- Stumbling block
 - ...
