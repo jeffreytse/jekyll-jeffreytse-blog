@@ -736,6 +736,19 @@ benefits for developers, which also are used to Object-Oriented class design.
     code and increase the difficulty of maintaining data consistency. It's often
     only used as the ultimate optimization method.
 
+The average cost of access times:
+
+- L1 Cache Ref: 0.5ns (0.5 sec)
+- L2 Cache Ref: 7ns (7 sec)
+- L3 Cache Ref: 25ns (25 sec)
+- DRAM: 100ns (100 sec)
+- SSD: 150,000ns (1.7days)
+- HDD: 10,000,000ns (16.5 weeks)
+- Network Storage: ~30,000,000ns (11.4 months)
+- Tape Storage: 1,000,000,000ns (31.7 years)
+
+![Memory Hierarchy](https://media-hosting.imagekit.io/ab68144b8d7a462e/screenshot_1746688802549.png?Expires=1841296803&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Fn7W7hlkz1Lzr9PBAUknyIXise0jm8Y1ua1Kz1rQlWEGhYlHAeo3R2TR01vbVIRBItYK7LioYrP0vlAimwsWVopaTiYJu1aClkqq1J81vgLGPaVH8O~NNtA15AeEP1wDCP9WPv9ggbNC6ODzg7sJJa1ABZW9DFTN7m9tgyxoMAkzBU4fxqOu70RjE2xBnCH5rJ6LDeiUgkjCHT2RixYLc7ZuIJdZepEy4caLXo84TMe06Onb0elP-5DDKBGrPgd8WPlMdxdj0yfD9dTS1B8VTj1cGpfqYS7L~8VXOiteF0PFgagtXhdWDNhahWWjSuRstHU7hPjJXw78RMKXPXAkGQ__)
+
 ### Testing (Validate the design)
 
 Software testing is the process of executing a program in order to find bugs, so
