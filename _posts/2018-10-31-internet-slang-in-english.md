@@ -86,6 +86,7 @@ collection in my daily learning:
 - **FOMO** - Fear of missing out
 - **FTL** - For the loss
 - **FTW** - For the win
+- **FWIW** - For what it is worth
 - **FYE** - For your entertainment
 - **FYEO** - For your eyes only
 - **FYI** - For your information
