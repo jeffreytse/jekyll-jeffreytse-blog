@@ -18,6 +18,7 @@ over and over again, and you'll be like a native.
 - Yes (More formal)
   - Certainly (An Americanism)
   - Absolutely
+  - By all means
   - Definitely
   - Don't mention it
   - I do/will/have
@@ -103,6 +104,15 @@ over and over again, and you'll be like a native.
   - It's the least I could do
   - That's ok
 
+- About
+  - As to
+  - Concerning
+  - In respect of
+  - Regarding something
+    - In regard to something
+    - With regard to something
+  - Relating to
+
 - Afraid
   - Panicked
   - Scared
@@ -144,6 +154,7 @@ over and over again, and you'll be like a native.
   - Mind-blowing
   - Mind-boggling
   - Mind-numbing
+  - Too much for words
 
 - Annoying
   - Pesky
@@ -152,6 +163,16 @@ over and over again, and you'll be like a native.
   - Inquire
   - Pick sb's brain
   - Query
+
+- Bad
+  - Awful
+  - Detrimental
+  - Dreadful
+  - Lousy
+  - Poor
+  - Rotten
+  - Terrible
+  - Wicked (Slang, American)
 
 - Boring
   - Long-winded
@@ -264,6 +285,7 @@ over and over again, and you'll be like a native.
   - Expedite
 
 - Miss
+  - Disregard
   - Ignore
   - Overlook
 
@@ -993,8 +1015,12 @@ over and over again, and you'll be like a native.
 
 - Just so so
   - It's alright
-  - It's ok
+  - It's just ok
+  - It's mid
   - It's not bad
+  - It's pretty average
+  - It's nothing special
+  - It's not up to much
 
 - Like
   - Resemble
@@ -1135,6 +1161,7 @@ over and over again, and you'll be like a native.
   - Identical
 
 - Seldom
+  - Barely
   - Rarely
   - Hardly ever
   - I don't really do...
@@ -1169,6 +1196,7 @@ over and over again, and you'll be like a native.
 
 - Start
   - embark
+  - Initiate
 
 - Stop
   - Cease
@@ -1669,3 +1697,34 @@ over and over again, and you'll be like a native.
   - Crux of the issue
   - Nuts and bolts
   - Brass tacks
+  - By all means
+  - By no means
+  - Drive someone nuts
+  - Get back to
+    - Circle back to
+    - Return to
+  - Lay it all on the line
+  - On the house
+  - Top off
+  - Hop on a call
+  - On a dry spell
+  - I'm cooked
+  - All you haters be hating but she ate
+  - You're capping
+  - I promise that...
+    - I'm dead ass doing something
+  - You're too much, you're unbelievable
+  - I'm dead I'm dying from...
+  - You confronted him
+    - You checked him
+  - From the beginning
+    - From the get-go
+  - Beat someone up
+    - To blame or criticize yourself
+  - Take baby steps
+    - A very small step or advance in progress
+  - Hit the road
+    - Set out on a journey
+  - Learn as you go
+  - It stems from...
+  - Knock on wood
