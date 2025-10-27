@@ -572,8 +572,15 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `image`: copy, statue, picture (e.g. imagination)
   - From Latin `imago`
 - `it`: to go (e.g. exit, init, initial)
+- `ject`: to throw, to cast (e.g. eject, reject, inject, project, subject,
+- `join`: to join, unite (e.g. conjoint, adjoin, disjoin, rejoin)
 - `journ`: of a day, to last long (e.g. journey, adjourn)
   - From Old French `journée`
+- `jud`: to judge (e.g. judicial, prejudice)
+  deject, interject, conjecture, trajectory, objection)
+- `jur`: to swear, law (e.g. jury, jurisdiction, perjury, jurisprudence)
+- `just`: the same as `jur` (e.g. justice, justify)
+- `juven`: young (e.g. juvenile)
 - `kep`: the same as `cep` (e.g. skeptic, keep)
 - `kno`: to know (e.g. diagnose)
   - PIE root `gno`
