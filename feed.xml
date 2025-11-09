@@ -1,0 +1,2701 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://jeffreytse.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeffreytse.net/" rel="alternate" type="text/html" /><updated>2025-11-09T17:29:30+00:00</updated><id>https://jeffreytse.net/feed.xml</id><title type="html">Jeffrey Tse’s Blog</title><subtitle>This is a very personal blog. I don&apos;t write blogs for anyone, but just record what I do or what I think. So there are many things wrong and you may have different thoughts. It would be nice if I share knowledge and thoughts rather than criticism. It will be great help if you give and teach your knowledge and thoughts to me.</subtitle><author><name>jeffreytse</name></author><entry><title type="html">McKinsey 7 Steps for Better Problem Solving</title><link href="https://jeffreytse.net/methodology/2025/11/08/mckinsey-7-steps-for-better-problem-solving.html" rel="alternate" type="text/html" title="McKinsey 7 Steps for Better Problem Solving" /><published>2025-11-08T00:00:00+00:00</published><updated>2025-11-08T00:00:00+00:00</updated><id>https://jeffreytse.net/methodology/2025/11/08/mckinsey-7-steps-for-better-problem-solving</id><content type="html" xml:base="https://jeffreytse.net/methodology/2025/11/08/mckinsey-7-steps-for-better-problem-solving.html"><![CDATA[<p>The McKinsey 7 Steps is a structured problem-solving approach developed by
+McKinsey &amp; Company, a global management consulting firm. It is designed to help
+organizations and individuals tackle complex problems systematically. The 7
+steps are as follows:</p>
+
+<p><img src="https://i.postimg.cc/cHqL1QHP/image.png" alt="McKinsey 7 Steps Frameworks for Better Problem Solving" /></p>
+
+<h2 id="what-is-the-problem">What is the problem?</h2>
+
+<p>Clearly define the problem you are trying to solve. Understand its scope,
+impact, and the desired outcome.</p>
+
+<h2 id="break-down-the-problem">Break down the problem</h2>
+
+<p>Decompose the problem into smaller, manageable components. This helps in
+identifying the root causes and understanding the various aspects of the problem.</p>
+
+<h2 id="prioritize-issues">Prioritize issues</h2>
+
+<p>Identify the most critical issues that need to be addressed first. Focus on
+those that will have the most significant impact on solving the problem.</p>
+
+<h2 id="develop-hypotheses">Develop hypotheses</h2>
+
+<p>Formulate potential solutions or hypotheses for each of the prioritized issues.
+These should be based on data, insights, and best practices.</p>
+
+<h2 id="gather-data">Gather data</h2>
+
+<p>Collect relevant data to test your hypotheses. This may involve conducting
+research, analyzing existing data, or gathering new information.</p>
+
+<h2 id="analyze-data">Analyze data</h2>
+
+<p>Examine the data to validate or refute your hypotheses. Look for patterns,
+trends, and insights that can inform your decision-making.</p>
+
+<h2 id="synthesize-findings-and-recommend-solutions">Synthesize findings and recommend solutions</h2>
+
+<p>Summarize your findings and develop actionable recommendations based on your
+analysis. Present your solutions in a clear and concise manner, highlighting the
+benefits and potential risks.</p>
+
+<h2 id="problem-statement-worksheet">Problem Statement Worksheet</h2>
+
+<p>To effectively define and understand the problem at hand, use the following
+Problem Statement Worksheet as your problem-solving framework. This tool helps
+in clarifying the key aspects of the problem before diving into the solution
+process.</p>
+
+<ul>
+  <li><strong>Basic Question to be Resolved:</strong> What is the core problem that needs to be
+solved?
+    <ul>
+      <li>Frame it as a clear and concise question.</li>
+    </ul>
+  </li>
+  <li><strong>Context and Background:</strong> What is the situation that led to this problem?
+    <ul>
+      <li>What happened previously that caused this issue to arise?</li>
+      <li>Understanding the context helps in identifying relevant factors and scoping
+the answer appropriately.</li>
+    </ul>
+  </li>
+  <li><strong>Decision Maker/Stakeholders:</strong> Who are the key individuals involved in
+the decision-making process?
+    <ul>
+      <li>No matter how good your strategy is, if no one buys in, it’s just talk on
+paper. For any action to be taken at the organizational level, it’s
+essential that all decision-makers and their stakeholders aren’t overlooked
+at least in the initial stages.</li>
+      <li>Usually, the person raising the issue might not be the one making the final
+decision.</li>
+      <li>You need to identify all relevant stakeholders to two groups:
+        <ul>
+          <li>Decision Maker: The person who has the authority to make the final call.</li>
+          <li>Decision Influencers: Individuals who can impact the decision-making process
+through their opinions, expertise, or influence.
+            <ul>
+              <li>Champions: People who actively support and promote the solution.</li>
+              <li>Blockers: Individuals who may resist or oppose the solution.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>And then to make stakeholders analysis:
+        <ul>
+          <li>Who must agree to the solution for it to be implemented successfully?
+            <ul>
+              <li>Align with them ASAP, engage them and discuss with them early in the process.</li>
+              <li>Study their preferences, concerns, and motivations, etc.
+                <ul>
+                  <li>What have they done in the past when faced with similar problems?</li>
+                  <li>What’s the relationship between them and other stakeholders?</li>
+                  <li>What’s their risk tolerance level?</li>
+                  <li>What’s their preferred communication style?</li>
+                  <li>What are their key performance indicators (KPIs) or success metrics?</li>
+                  <li>…</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Who shouldn’t disagree with the solution?</li>
+          <li>Who aren’t important to the decision-making process?</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Criteria for Success:</strong> What are the key metrics or indicators (KPIs) that
+will determine if the problem has been successfully solved?
+    <ul>
+      <li>Define clear and measurable criteria to evaluate the effectiveness of the
+solution.</li>
+      <li>Examples of success criteria could include:
+        <ul>
+          <li>Cost reduction</li>
+          <li>Increased revenue</li>
+          <li>Improved customer satisfaction</li>
+          <li>Enhanced operational efficiency</li>
+          <li>Reduced time to market</li>
+          <li>Higher employee engagement</li>
+          <li>…</li>
+        </ul>
+      </li>
+      <li>Ensure that the criteria are specific, measurable, achievable, relevant, and
+time-bound (SMART).</li>
+    </ul>
+  </li>
+  <li><strong>Scope of Solution Space:</strong> What are the boundaries within which the solution
+must be developed?
+    <ul>
+      <li>Define the scope to avoid scope creep and ensure that the solution remains
+focused on addressing the core problem.</li>
+      <li>This could include factors such as budget, resources, timeframes, and any
+other relevant constraints.</li>
+      <li>Clearly outlining the scope at the beginning helps in focusing efforts and
+avoiding unnecessary complexities and time wastage.</li>
+      <li>Don’t assume that the others know everything and the scope is obvious;
+explicitly state it. Because different stakeholders may have different
+interpretations of the scope, leading to misalignment and confusion later in
+the process, understanding more about why they think that way can help
+clarify the scope.</li>
+      <li>Why the scope is important?
+        <ul>
+          <li>The larger the scope, the more complex the problem becomes, making it
+harder to solve effectively.</li>
+          <li>A well-defined scope helps in allocating resources efficiently and
+prioritizing tasks.</li>
+          <li>It ensures that all stakeholders have a shared understanding of the
+problem and the solution space.</li>
+          <li>A smaller scope helps in managing expectations and avoiding
+misunderstandings, which quickly builds trust capital among stakeholders.</li>
+        </ul>
+      </li>
+      <li>Examples of scope definitions could include:
+        <ul>
+          <li>Geographic boundaries (e.g., specific regions or countries)</li>
+          <li>Target customer segments</li>
+          <li>Product or service lines</li>
+          <li>Timeframes for implementation</li>
+          <li>Resource limitations</li>
+          <li>…</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Constraints within Solution Space:</strong> What are the limitations or restrictions
+that need to be considered when developing the solution?
+    <ul>
+      <li>Identify any factors that may impact the feasibility or implementation of
+the solution.</li>
+      <li>This is different from the scope, which defines the boundaries of the solution
+space. Constraints are specific limitations that must be adhered to within
+that space.</li>
+      <li>Clearly outlining the constraints helps in developing realistic and
+achievable solutions. Like customers may have specific requirements or
+preferences that need to be taken into account. Understanding these
+constraints early on can help in developing solutions that are more likely
+to be accepted and implemented successfully.</li>
+      <li>Then to make resource analysis
+        <ul>
+          <li>Time and Budget are the most crucial ones, it’s impossible to satisfy
+speed, cost and quality at the same time, so you have to make trade-offs
+and then prioritize them (Fastest = Time is limited, Cheapest = Budget is
+limited, Best Quality = Stability is required):
+            <ul>
+              <li>Fast and Cheap = Low Quality</li>
+              <li>Fast and High Quality</li>
+              <li>Cheap and High Quality = Slow</li>
+            </ul>
+          </li>
+          <li>Different level of decision makers may have different tolerance levels for
+time and budget constraints, so it’s important to understand their priorities.
+            <ul>
+              <li>The higher the level of the decision maker, the more they may prioritize
+strategic objectives over operational constraints, such as time and
+budget.</li>
+              <li>For example, a CEO may prioritize speed to market, while a CFO may focus
+more on budget constraints</li>
+              <li>For example, a decision for a 9-month’s project cause high feedback loop
+cost and opportunity cost, so the decision-making is very important.</li>
+            </ul>
+          </li>
+          <li>Many problems include many hidden mental needs, and they may not be explicitly
+stated. Understanding these hidden needs can help in identifying potential
+constraints that may impact the solution. For example, a stakeholder may
+have limited budget but may not explicitly state it as he’s worried about
+being small minded.</li>
+          <li>Good solutions should always consider these constraints to ensure
+feasibility and successful implementation, it make the proposal high
+possibility to be approved by decision makers.</li>
+          <li>Questions to ask:
+            <ul>
+              <li>How many people does it require?</li>
+              <li>How much budget does it require?</li>
+              <li>How long does it require to implement? (Absolute deadlines?)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Examples of constraints could include:
+        <ul>
+          <li>Budget limitations</li>
+          <li>Resource availability</li>
+          <li>Time constraints</li>
+          <li>Regulatory requirements</li>
+          <li>Organizational policies</li>
+          <li>Technological limitations</li>
+          <li>…</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Key Sources of Insight:</strong> What are the primary sources of information that
+will be used to gather data and insights for problem-solving?
+    <ul>
+      <li>Identify relevant internal (private and paid for premium) and external
+(public and free) sources, the external should be baseline to study from the
+get-go, such as:
+        <ul>
+          <li>Internal reports and data</li>
+          <li>Industry research and publications</li>
+          <li>Expert interviews and consultations</li>
+          <li>Customer feedback and surveys</li>
+          <li>Competitive analysis</li>
+          <li>Market trends and analysis</li>
+          <li>…</li>
+        </ul>
+      </li>
+      <li>Having a clear understanding of key sources of insight helps in gathering
+relevant and reliable data to inform decision-making.</li>
+      <li>It ensures that the problem-solving process is based on accurate and up-to-date
+information.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The Hidden Complexity of Team Communication:</p>
+
+<p><img src="https://i.postimg.cc/Jhc2vH6W/Why-Communication-Complexity-Increases-with-Team-Size.webp" alt="Why-Communication-Complexity-Increases-with-Team-Size" /></p>
+
+<p>Connection complexity increases rapidly as more people are added to a team or
+group. Therefore, it’s crucial to identify and engage the right stakeholders
+early in the process to ensure smooth communication and collaboration.</p>
+
+<p>If any step’s information isn’t clear, please ask more smart questions to clarify.
+Otherwise, you shouldn’t proceed to the next step like business analysis,
+consulting, or project management. Because “Garbage In, Garbage Out” (GIGO)
+always applies, meaning that poor-quality input will lead to poor-quality
+output, so ensure that each step is well-defined and understood before moving
+forward.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>By following these 7 steps, individuals and organizations can approach
+problem-solving in a structured and effective way, leading to better outcomes
+and more informed decisions.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.in8create.com/blog/the-hidden-complexity-of-team-communcation">The Hidden Complexity of Team Communication</a></li>
+</ul>]]></content><author><name>Jeffrey Tse</name></author><category term="methodology" /><category term="methodology" /><category term="management" /><category term="consulting" /><category term="problem-solving" /><category term="note" /><summary type="html"><![CDATA[The McKinsey 7 Steps is a structured problem-solving approach developed by McKinsey &amp; Company, a global management consulting firm. It is designed to help organizations and individuals tackle complex problems systematically. The 7 steps are as follows:]]></summary></entry><entry><title type="html">Understanding the FP64, FP32, FP16, BFLOAT16, TF32, FP8 Formats</title><link href="https://jeffreytse.net/computer/2024/12/09/understanding-the-fp64-fp32-fp16-bfloat16-tf32-fp8-formats.html" rel="alternate" type="text/html" title="Understanding the FP64, FP32, FP16, BFLOAT16, TF32, FP8 Formats" /><published>2024-12-09T00:00:00+00:00</published><updated>2024-12-09T00:00:00+00:00</updated><id>https://jeffreytse.net/computer/2024/12/09/understanding-the-fp64-fp32-fp16-bfloat16-tf32-fp8-formats</id><content type="html" xml:base="https://jeffreytse.net/computer/2024/12/09/understanding-the-fp64-fp32-fp16-bfloat16-tf32-fp8-formats.html"><![CDATA[<h2 id="floating-point-formats-overview">Floating-Point Formats Overview</h2>
+
+<h3 id="fp64-double-precision">FP64 (Double-Precision)</h3>
+
+<ul>
+  <li><strong>Structure</strong>: 1 sign bit, 11 exponent bits, 52 mantissa bits (64 bits total).</li>
+  <li><strong>Precision/Range</strong>: Highest precision and dynamic range.</li>
+  <li><strong>Use Cases</strong>: Scientific computing, simulations, and high-precision calculations.</li>
+  <li><strong>Standards</strong>: IEEE 754.</li>
+</ul>
+
+<h3 id="fp32-single-precision">FP32 (Single-Precision)</h3>
+
+<ul>
+  <li><strong>Structure</strong>: 1 sign bit, 8 exponent bits, 23 mantissa bits (32 bits total).</li>
+  <li><strong>Precision/Range</strong>: Balanced precision and range.</li>
+  <li><strong>Use Cases</strong>: General-purpose computing, graphics (CUDA/OpenGL), traditional machine learning.</li>
+  <li><strong>Standards</strong>: IEEE 754.</li>
+</ul>
+
+<h3 id="fp16-half-precision">FP16 (Half-Precision)</h3>
+
+<ul>
+  <li><strong>Structure</strong>: 1 sign bit, 5 exponent bits, 10 mantissa bits (16 bits total).</li>
+  <li><strong>Precision/Range</strong>: Lower precision and range; prone to overflow/underflow.</li>
+  <li><strong>Use Cases</strong>: Memory-constrained environments (mobile/embedded), deep learning inference, mixed-precision training.</li>
+  <li><strong>Standards</strong>: IEEE 754.</li>
+</ul>
+
+<h3 id="bfloat16-brain-floating-point">BFLOAT16 (Brain Floating Point)</h3>
+
+<ul>
+  <li><strong>Structure</strong>: 1 sign bit, 8 exponent bits, 7 mantissa bits (16 bits total).</li>
+  <li><strong>Precision/Range</strong>: Matches FP32’s dynamic range but with reduced precision.</li>
+  <li><strong>Use Cases</strong>: Deep learning training/inference (Google TPUs, GPUs), replacing FP32/FP16 where range is critical.</li>
+  <li><strong>Standards</strong>: Developed by Google; not IEEE-standardized.</li>
+</ul>
+
+<h3 id="tf32-tensorfloat-32">TF32 (TensorFloat-32)</h3>
+
+<ul>
+  <li><strong>Structure</strong>: 1 sign bit, 8 exponent bits, 10 mantissa bits (19 bits stored in 32-bit containers).</li>
+  <li><strong>Precision/Range</strong>: FP32-like range with FP16-like precision.</li>
+  <li><strong>Use Cases</strong>: Accelerated AI training on NVIDIA Ampere GPUs (Tensor Cores), matrix operations.</li>
+  <li><strong>Standards</strong>: NVIDIA proprietary format.</li>
+</ul>
+
+<h3 id="fp8-8-bit-floating-point">FP8 (8-bit Floating Point)</h3>
+
+<ul>
+  <li><strong>Structure</strong> (2 variants):
+    <ul>
+      <li>E4M3: 1 sign bit, 4 exponent bits, 3 mantissa bits (8 bits total).</li>
+      <li>E5M2: 1 sign bit, 5 exponent bits, 2 mantissa bits (8 bits total).</li>
+    </ul>
+  </li>
+  <li><strong>Precision/Range</strong> (2 variants):
+    <ul>
+      <li>E4M3: Higher precision (3 mantissa bits) but limited dynamic range.</li>
+      <li>E5M2: Lower precision (2 mantissa bits) but wider dynamic range (similar to FP16).</li>
+    </ul>
+  </li>
+  <li><strong>Use Cases</strong>:
+    <ul>
+      <li>Ultra-low-precision AI inference (e.g., edge devices, microcontrollers).</li>
+      <li>Quantization for memory-bound layers in neural networks (weights/activations).</li>
+      <li>Energy-efficient hardware (e.g., NVIDIA Hopper GPUs, Intel AMX).</li>
+    </ul>
+  </li>
+  <li><strong>Standards</strong>:
+Emerging format; proposed in IEEE 754-2019 extensions.
+Vendor-specific implementations (NVIDIA, Intel, ARM).</li>
+</ul>
+
+<p>FP8 bridges the gap between floating-point and integer quantization (e.g., INT8)
+while maintaining some dynamic range flexibility.</p>
+
+<h2 id="key-comparisons">Key Comparisons</h2>
+
+<ul>
+  <li><strong>Precision</strong>: FP64 &gt; FP32 &gt; TF32 ≈ BFLOAT16 &gt; FP16 &gt; FP8 (E4M3) &gt; FP8 (E5M2).</li>
+  <li><strong>Dynamic Range</strong>: FP64 &gt; FP32 ≈ BFLOAT16 ≈ TF32 &gt; FP16 ≈ FP8 (E5M2) &gt; FP8 (E4M3).</li>
+  <li><strong>Memory Footprint</strong>: FP64 &gt; FP32 &gt; TF32 (32-bit storage) &gt; BFLOAT16 ≈ FP16.</li>
+</ul>
+
+<h2 id="hierarchy">Hierarchy</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Format</th>
+      <th>Bits</th>
+      <th>Precision</th>
+      <th>Dynamic Range</th>
+      <th>Typical Use Case</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>**FP64**</td>
+      <td>64</td>
+      <td>Extreme</td>
+      <td>Extreme</td>
+      <td>Scientific simulations</td>
+    </tr>
+    <tr>
+      <td>**FP32**</td>
+      <td>32</td>
+      <td>High</td>
+      <td>High</td>
+      <td>General ML training</td>
+    </tr>
+    <tr>
+      <td>**TF32**</td>
+      <td>19</td>
+      <td>Moderate</td>
+      <td>High</td>
+      <td>NVIDIA GPU matrix math</td>
+    </tr>
+    <tr>
+      <td>**BF16**</td>
+      <td>16</td>
+      <td>Moderate</td>
+      <td>High</td>
+      <td>DL training (TPUs/GPUs)</td>
+    </tr>
+    <tr>
+      <td>**FP16**</td>
+      <td>16</td>
+      <td>Moderate</td>
+      <td>Moderate</td>
+      <td>Inference, mixed-precision</td>
+    </tr>
+    <tr>
+      <td>**FP8**</td>
+      <td>8</td>
+      <td>Low</td>
+      <td>Variable</td>
+      <td>Edge AI, ultra-low-power chips</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="applications--trade-offs">Applications &amp; Trade-offs</h2>
+
+<ul>
+  <li><strong>Scientific Computing</strong>: FP64 for accuracy in simulations.</li>
+  <li><strong>General ML/Graphics</strong>: FP32 for balance.</li>
+  <li><strong>Edge Devices</strong>: FP16 for efficiency; BFLOAT16 for DL training with better range.</li>
+  <li><strong>Hardware-Specific</strong>: TF32 optimizes NVIDIA GPUs; BFLOAT16 for TPUs.</li>
+</ul>
+
+<h2 id="considerations">Considerations</h2>
+
+<ul>
+  <li><strong>Hardware Support</strong>: Not all formats are universally supported (e.g., TF32 requires Ampere GPUs).</li>
+  <li><strong>Quantization</strong>: Techniques like INT8 reduce precision further for inference speed.</li>
+  <li><strong>Mixed-Precision Training</strong>: Combines FP16/FP32 or BFLOAT16/FP32 to maintain accuracy while improving speed.</li>
+</ul>
+
+<h2 id="standards--development">Standards &amp; Development</h2>
+
+<ul>
+  <li><strong>IEEE Standards</strong>: FP64, FP32, FP16.</li>
+  <li><strong>IEEE 754</strong>: FP64, FP32, FP16 are standardized. FP8 is under active development.</li>
+  <li><strong>Vendor-Specific</strong>: BFLOAT16 (Google), TF32 (NVIDIA).</li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+
+<p>Choose a format based on the trade-offs between precision, range, memory, and
+computational efficiency. Lower precision (e.g., FP16, BFLOAT16) benefits AI
+and edge devices, while higher precision (FP64, FP32) remains vital for
+scientific and traditional computing.</p>]]></content><author><name>Jeffrey Tse</name></author><category term="computer" /><category term="AI" /><category term="ML" /><category term="note" /><summary type="html"><![CDATA[Floating-Point Formats Overview]]></summary></entry><entry><title type="html">Comprehensive Guide to Hashing Algorithms</title><link href="https://jeffreytse.net/computer/2024/11/03/comprehensive-guide-to-hashing-algorithms.html" rel="alternate" type="text/html" title="Comprehensive Guide to Hashing Algorithms" /><published>2024-11-03T00:00:00+00:00</published><updated>2024-11-03T00:00:00+00:00</updated><id>https://jeffreytse.net/computer/2024/11/03/comprehensive-guide-to-hashing-algorithms</id><content type="html" xml:base="https://jeffreytse.net/computer/2024/11/03/comprehensive-guide-to-hashing-algorithms.html"><![CDATA[<p>Hashing algorithms are fundamental to modern computing, serving critical roles
+in data integrity, cryptography, and efficient data retrieval. This guide
+systematically categorizes and compares key hashing algorithms, their
+properties, and use cases, drawing insights from authoritative sources.</p>
+
+<h2 id="1-traditional-general-purpose-hashing-algorithms">1. Traditional General-Purpose Hashing Algorithms</h2>
+
+<ul>
+  <li><strong>MD5 (Message Digest 5)</strong>
+    <ul>
+      <li><strong>Properties</strong>: Generates a 128-bit hash, fast computation, but vulnerable
+to collision attacks (e.g., Wang Xiaoyun’s team demonstrated vulnerabilities).</li>
+      <li><strong>Use Cases</strong>: Non-security scenarios like file integrity checks (e.g.,
+verifying downloads).</li>
+      <li><strong>Replacement</strong>: Unsafe even with salting; upgrade to SHA-2/SHA-3 or KDFs.</li>
+    </ul>
+  </li>
+  <li><strong>SHA Family</strong>
+    <ul>
+      <li><strong>SHA-1</strong>: 160-bit hash, once widely used but deprecated due to collision
+vulnerabilities (e.g., SHAttered attack in 2017).</li>
+      <li><strong>SHA-2 (SHA-256/384/512)</strong>: Collision-resistant, used in digital signatures,
+blockchain (e.g., Bitcoin).</li>
+      <li><strong>SHA-3</strong>: Sponge construction design, superior security to SHA-2 but less
+widely adopted.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="2-cryptographically-secure-hashing-algorithms">2. Cryptographically Secure Hashing Algorithms</h2>
+
+<ul>
+  <li><strong>BLAKE2</strong>
+    <ul>
+      <li><strong>Properties</strong>: Faster than MD5, supports variable-length output, adopted by
+Argon2.</li>
+      <li><strong>Applications</strong>: Data integrity checks, password libraries.</li>
+    </ul>
+  </li>
+  <li><strong>SM3 (Chinese National Standard)</strong>
+    <ul>
+      <li><strong>Properties</strong>: 256-bit hash, security comparable to SHA-256.</li>
+      <li><strong>Use Cases</strong>: Government and financial systems requiring localization compliance.</li>
+    </ul>
+  </li>
+  <li><strong>RIPEMD-160</strong>
+    <ul>
+      <li><strong>Properties</strong>: 160-bit hash, stronger collision resistance than SHA-1, used
+in Bitcoin address generation.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="3-key-derivation-functions-kdfs--slow-hashing">3. Key Derivation Functions (KDFs) &amp; Slow Hashing</h2>
+
+<ul>
+  <li><strong>PBKDF2</strong>
+    <ul>
+      <li><strong>Properties</strong>: Iterative HMAC-based, low memory usage but vulnerable to
+GPU attacks.</li>
+      <li><strong>Applications</strong>: Legacy systems, Wi-Fi
+password protection.</li>
+    </ul>
+  </li>
+  <li><strong>Bcrypt</strong>
+    <ul>
+      <li><strong>Properties</strong>: Built-in salt and cost factor, resistant to rainbow table
+attacks.</li>
+      <li><strong>Advantages</strong>: Cost-effective for small-to-medium projects.</li>
+    </ul>
+  </li>
+  <li><strong>Scrypt</strong>
+    <ul>
+      <li><strong>Properties</strong>: Memory-hard design, increases hardware cracking costs (e.g., Litecoin).</li>
+      <li><strong>Drawbacks</strong>: Complex parameter tuning, poor performance on low-end devices.</li>
+    </ul>
+  </li>
+  <li><strong>Argon2</strong>
+    <ul>
+      <li><strong>Properties</strong>: Winner of the 2015 Password Hashing Competition, resists
+GPU/ASIC attacks via adjustable memory, parallelism, and iterations.</li>
+      <li><strong>Variants</strong>: ◦ <strong>Argon2d</strong>: GPU-resistant, ideal for cryptocurrencies.</li>
+      <li><strong>Argon2i</strong>: Side-channel attack-resistant, suited for password storage.</li>
+      <li><strong>Argon2id</strong>: Hybrid mode, recommended for general use.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="4-non-cryptographic-hashing-algorithms">4. Non-Cryptographic Hashing Algorithms</h2>
+
+<ul>
+  <li><strong>CRC32</strong>
+    <ul>
+      <li><strong>Properties</strong>: 32-bit checksum, ultra-fast but insecure; used in network
+protocols and file validation.</li>
+    </ul>
+  </li>
+  <li><strong>MurmurHash</strong>
+    <ul>
+      <li><strong>Properties</strong>: High-speed, uniform distribution; ideal for hash tables and
+caching systems.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="5-application-scenarios--recommendations">5. Application Scenarios &amp; Recommendations</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>**Scenario**</th>
+      <th>**Recommended Algorithms**</th>
+      <th>**Rationale**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>High-security password storage</td>
+      <td>Argon2 &gt; Scrypt &gt; Bcrypt</td>
+      <td>Memory-hard design thwarts hardware attacks.</td>
+    </tr>
+    <tr>
+      <td>Legacy web systems</td>
+      <td>Bcrypt</td>
+      <td>Easy integration, built-in salt and cost factor.</td>
+    </tr>
+    <tr>
+      <td>Blockchain &amp; cryptocurrencies</td>
+      <td>SHA-256 (Bitcoin), Scrypt (Litecoin)</td>
+      <td>Balance of collision resistance and efficiency.</td>
+    </tr>
+    <tr>
+      <td>Data integrity checks</td>
+      <td>BLAKE2 &gt; SHA-256</td>
+      <td>High speed with adequate security.</td>
+    </tr>
+    <tr>
+      <td>Localized systems (China)</td>
+      <td>SM3</td>
+      <td>Compliant with national cryptographic standards.</td>
+    </tr>
+    <tr>
+      <td>Non-security scenarios (e.g., caching)</td>
+      <td>MurmurHash, CRC32</td>
+      <td>Prioritize performance over security.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="summary"><strong>Summary</strong></h2>
+
+<ul>
+  <li><strong>Deprecated Algorithms</strong>: MD5 and SHA-1 are obsolete for security-critical
+tasks; migrate to SHA-2/SHA-3 or KDFs.</li>
+  <li><strong>Trends</strong>: Argon2 is emerging as the gold standard for password storage,
+while Bcrypt remains popular in low-risk contexts.</li>
+  <li><strong>Parameter Tuning</strong>: For KDFs, balance security and performance by adjusting
+parameters (e.g., Argon2 memory ≥64MB).</li>
+</ul>]]></content><author><name>Jeffrey Tse</name></author><category term="computer" /><category term="programming" /><category term="security" /><category term="note" /><summary type="html"><![CDATA[Hashing algorithms are fundamental to modern computing, serving critical roles in data integrity, cryptography, and efficient data retrieval. This guide systematically categorizes and compares key hashing algorithms, their properties, and use cases, drawing insights from authoritative sources.]]></summary></entry><entry><title type="html">Comparative Analysis of Model Compression Approaches</title><link href="https://jeffreytse.net/computer/2024/10/18/comparative-analysis-of-model-compression-approaches.html" rel="alternate" type="text/html" title="Comparative Analysis of Model Compression Approaches" /><published>2024-10-18T00:00:00+00:00</published><updated>2024-10-18T00:00:00+00:00</updated><id>https://jeffreytse.net/computer/2024/10/18/comparative-analysis-of-model-compression-approaches</id><content type="html" xml:base="https://jeffreytse.net/computer/2024/10/18/comparative-analysis-of-model-compression-approaches.html"><![CDATA[<p>This article is about model compression—<strong>Quantization</strong>, <strong>Pruning</strong>, <strong>Distillation</strong>,
+and <strong>Binarization</strong>—address the challenges of deploying deep learning models
+efficiently across resource-constrained environments. Below is a comparative
+analysis of their core principles, technical characteristics, use cases, and
+trade-offs, integrated with insights from recent research on efficient reasoning
+in large language models (LLMs).</p>
+
+<h2 id="quantization">Quantization</h2>
+
+<ul>
+  <li><strong>Principle</strong>: Reduces numerical precision of weights and activations
+(e.g., FP32 → INT8) to lower memory and compute costs.</li>
+  <li><strong>Technical Features</strong>:
+    <ul>
+      <li><strong>Compression Ratio</strong>: ~4× reduction in model size (FP32 → INT8).</li>
+      <li><strong>Hardware Compatibility</strong>: Optimized for GPUs with INT8 support (e.g., TensorRT).</li>
+      <li><strong>Implementation</strong>: Supported via post-training quantization (PTQ) or
+quantization-aware training (QAT).</li>
+    </ul>
+  </li>
+  <li><strong>Use Cases</strong>: Edge devices, real-time inference (e.g., autonomous systems).</li>
+  <li><strong>Pros &amp; Cons</strong>:
+    <ul>
+      <li>✅ Reduces memory bandwidth and power consumption.</li>
+      <li>❌ Accuracy drops (1–5%) without QAT; limited effectiveness for ultra-low
+precision (e.g., 1-bit).</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="pruning">Pruning</h2>
+
+<ul>
+  <li><strong>Principle</strong>: Removes redundant weights or neurons to create sparse models.</li>
+  <li><strong>Technical Features</strong>:
+    <ul>
+      <li><strong>Types</strong>: Structured (channel/layer removal) vs. unstructured (weight-level
+sparsity).</li>
+      <li><strong>Compression Ratio</strong>: Up to 50–90% sparsity with minimal accuracy loss.</li>
+      <li><strong>Hardware Dependency</strong>: Structured pruning aligns better with general-purpose
+hardware.</li>
+    </ul>
+  </li>
+  <li><strong>Use Cases</strong>: Optimizing overparameterized models (e.g., BERT).</li>
+  <li><strong>Pros &amp; Cons</strong>:
+    <ul>
+      <li>✅ Directly reduces model size; structured pruning is hardware-friendly.</li>
+      <li>❌ Non-structured pruning requires specialized libraries (e.g., CuSPARSE).</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="distillation">Distillation</h2>
+
+<ul>
+  <li><strong>Principle</strong>: Transfers knowledge from a large “teacher” model to a compact
+“student” model.</li>
+  <li><strong>Technical Features</strong>:
+    <ul>
+      <li><strong>Methods</strong>: Soft-label training, feature matching, or reinforcement learning (RL).</li>
+      <li><strong>Compression Ratio</strong>: ~50% size reduction (e.g., DistilBERT retains 97% performance).</li>
+      <li><strong>Flexibility</strong>: Cross-architecture training (e.g., CNN → LSTM).</li>
+    </ul>
+  </li>
+  <li><strong>Use Cases</strong>: NLP tasks requiring high accuracy with limited resources.</li>
+  <li><strong>Pros &amp; Cons</strong>:
+    <ul>
+      <li>✅ Maintains high accuracy; enables cross-model compatibility.</li>
+      <li>❌ Relies on teacher model quality; training-intensive.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="binarization">Binarization</h2>
+
+<ul>
+  <li><strong>Principle</strong>: Restricts weights/activations to binary (±1) or ternary (±1, 0) values.</li>
+  <li><strong>Technical Features</strong>:
+    <ul>
+      <li><strong>Compression Ratio</strong>: Extreme (32× for FP32 → 1-bit), but accuracy drops sharply for large models.</li>
+      <li><strong>Hardware</strong>: Requires FPGA/ASIC support for bitwise operations.</li>
+    </ul>
+  </li>
+  <li><strong>Use Cases</strong>: IoT devices, low-power edge systems.</li>
+  <li><strong>Pros &amp; Cons</strong>:
+    <ul>
+      <li>✅ Maximizes compute efficiency.</li>
+      <li>❌ Accuracy loss (10–30%); limited to small models (&lt;1B parameters).</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="synergistic-strategies">Synergistic Strategies</h2>
+
+<p>Recent advancements in LLM efficient reasoning highlight the importance of hybrid
+approaches to mitigate “overthinking” (excessive token generation in Chain-of-Thought
+reasoning):</p>
+
+<ol>
+  <li><strong>Quantization + Pruning</strong>: Combine sparsity with low-precision weights for balanced efficiency.</li>
+  <li><strong>Distillation + RL</strong>: Use RL to train compact models with dynamic token budgeting (e.g., DeepSeek-R1).</li>
+  <li><strong>Dynamic Inference</strong>: Skip redundant tokens during generation (e.g., TokenSkip, Fast MCTS).</li>
+</ol>
+
+<h2 id="benchmarks-and-trends">Benchmarks and Trends</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>**Metric**</th>
+      <th>Quantization</th>
+      <th>Pruning</th>
+      <th>Distillation</th>
+      <th>Binarization</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Compression Ratio</td>
+      <td>4×</td>
+      <td>10×</td>
+      <td>2×</td>
+      <td>32×</td>
+    </tr>
+    <tr>
+      <td>Accuracy Loss</td>
+      <td>1–5%</td>
+      <td>2–10%</td>
+      <td>&lt;3%</td>
+      <td>10–30%</td>
+    </tr>
+    <tr>
+      <td>Hardware Support</td>
+      <td>★★★★★</td>
+      <td>★★★☆</td>
+      <td>★★★★</td>
+      <td>★★</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Emerging Directions</strong>:</p>
+
+<ul>
+  <li><strong>Non-uniform Quantization</strong>: Adaptive bit allocation per layer.</li>
+  <li><strong>Latent Representation Compression</strong>: Reduce token redundancy via attention pruning.</li>
+  <li><strong>Efficient RL Training</strong>: Optimize token budgets using length-based rewards.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>For deployment:</p>
+
+<ul>
+  <li><strong>Edge/Real-Time Systems</strong>: Prioritize quantization + structured pruning.</li>
+  <li><strong>High-Accuracy Servers</strong>: Use distillation + low-rank decomposition.</li>
+  <li><strong>Ultra-Low Power</strong>: Binarization with adaptive sparsity.</li>
+</ul>
+
+<p>The future lies in <strong>adaptive frameworks</strong> that unify compression and dynamic
+reasoning, minimizing computational overhead while preserving LLM capabilities.</p>]]></content><author><name>Jeffrey Tse</name></author><category term="computer" /><category term="AI" /><category term="model" /><category term="note" /><summary type="html"><![CDATA[This article is about model compression—Quantization, Pruning, Distillation, and Binarization—address the challenges of deploying deep learning models efficiently across resource-constrained environments. Below is a comparative analysis of their core principles, technical characteristics, use cases, and trade-offs, integrated with insights from recent research on efficient reasoning in large language models (LLMs).]]></summary></entry><entry><title type="html">The Handbook of Quality Management</title><link href="https://jeffreytse.net/methodology/2024/08/09/the-handbook-of-quality-management.html" rel="alternate" type="text/html" title="The Handbook of Quality Management" /><published>2024-08-09T00:00:00+00:00</published><updated>2024-08-09T00:00:00+00:00</updated><id>https://jeffreytse.net/methodology/2024/08/09/the-handbook-of-quality-management</id><content type="html" xml:base="https://jeffreytse.net/methodology/2024/08/09/the-handbook-of-quality-management.html"><![CDATA[<h2 id="understanding-quality">Understanding Quality</h2>
+
+<blockquote>
+  <p>“The dedication to quality adn excellence is more than good business; it’s a
+way of life.” - George H. W. Bush</p>
+</blockquote>
+
+<p>The best definition of quality is always focus on meeting customers’ expectations.</p>
+
+<p>Be careful about exceeding customer’s expectations. Customers are not willing to
+pay extra for features or services they don’t require, so exceeding their needs
+can quickly cutdown the profits.</p>
+
+<p>How a department views, measures, and manages quality must align with the other
+company departments and the company’s overall goals so-called “intent of quality”.</p>
+
+<p>What suppliers want?</p>
+
+<ul>
+  <li>Clear expectations</li>
+  <li>Reasonable time to produce products</li>
+  <li>Efficient processes</li>
+  <li>Support</li>
+</ul>
+
+<p>To create an effective quality management program for your company, it’s
+critical that the external views (customer and supplier) be carefully integrated
+with the internal views of quality (purchasing, operations, logistics,
+administration).</p>
+
+<blockquote>
+  <p>“The biggest cost of poor quality is when your customer buys it from someone
+else because they didn’t like yours.” - W. Edwards Deming</p>
+</blockquote>
+
+<p>The biggest cost of poor quality is the cost of lost business.</p>
+
+<h2 id="frameworks-for-quality-management">Frameworks for Quality Management</h2>
+
+<h3 id="demings-14-points">Deming’s 14 Points</h3>
+
+<p>When you hear “Made in Japan” in the 1950s, you might think of cheap,
+low-quality products. But by the 1980s, “Made in Japan” was synonymous with
+quality. Dr. W. Edwards Deming was a big part of that change, who introduced
+his philosophy for managing quality.</p>
+
+<p>Dr. W. Edwards Deming’s philosophy focuses on reducing variability. The thought
+is that the consistency can not only help company design more reliable products
+and services, they can also lower costs.</p>
+
+<p>Deming believed management must drive every quality program.</p>
+
+<p><a href="https://deming.org/explore/fourteen-points/">Deming’s 14 points</a> are a set of guidelines for
+improving quality in an organization.</p>
+
+<p>The point 5 of Deming philosophy is <strong>Improve constantly and forever</strong>. If
+you’re familiar with lean principles, this is foundations of kaizen, Japanese
+word of continuous improvement. In business, Kaizen means to continuously make
+small improvements to every process. To accomplish this, Japanese companies
+adopted a four-step model, called the Deming cycle.</p>
+
+<p>Deming Cycle (Plan-Do-Check-Act, PDCA):</p>
+
+<ul>
+  <li>Plan: Identify the problem and plan a solution.</li>
+  <li>Do: Implement the plan.</li>
+  <li>Check: Evaluate the results.</li>
+  <li>Act: Take action based on the results.</li>
+</ul>
+
+<p><img src="https://github.com/user-attachments/assets/025aa524-f75e-48d5-b654-4f0cf078a2d5" alt="Deming Cycle" /></p>
+
+<h3 id="jurans-planning-for-quality">Juran’s Planning for Quality</h3>
+
+<p>Quality products do what they’re designed to do. Juran’s philosophy is that the
+quality of a product is defined by how well it meets customer needs.</p>
+
+<p>Juran’s view of quality:</p>
+
+<ul>
+  <li>Develop an effective product</li>
+  <li>Meet customer needs</li>
+  <li>Measure results
+    <ul>
+      <li>Top managers: measure return of dollars, like revenue, profits.</li>
+      <li>Middle managers: work as translators between top managers and workers, to
+make sure all measurements are being met.</li>
+      <li>Workers: measure return of things, like time, materials, and effort.</li>
+    </ul>
+  </li>
+  <li>Know cost of quality
+    <ul>
+      <li>Prevention costs: costs to prevent defects.</li>
+      <li>Appraisal costs: costs to detect defects.</li>
+      <li>Internal failure costs: costs when defects are found before delivery.</li>
+      <li>External failure costs: costs when defects are found after delivery.</li>
+      <li>The goal is to reduce the cost of quality.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="crosbys-quality-is-free">Crosby’s “Quality is Free”</h3>
+
+<p>Crosby’s philosophy is that quality is free. He believed that the cost of poor
+quality is higher than the cost of preventing it. Crosby’s view of quality is
+that it’s about conformance to requirements. He believed that quality is:</p>
+
+<ul>
+  <li>Aim for zero defects
+    <ul>
+      <li>The quality goal should always be zero defects. Keep in mind that it’s a
+goal, not always possible to be perfect every day and everything you do.</li>
+      <li>Put measures in place to prevent defects instead of fixing them after you
+find them.</li>
+      <li>There’s no such thing as a quality problem, poor quality is caused by a
+process error, or an incorrect accounting practice, or a product design
+issue.</li>
+    </ul>
+  </li>
+  <li>Find the root cause of problems
+    <ul>
+      <li>Investigate the root cause of problems, not just fix the symptoms.</li>
+      <li>Use tools like the fishbone diagram to identify the root cause of problems.</li>
+      <li>Use the 80/20 rule: 80% of problems are caused by 20% of the causes.</li>
+      <li>Use the 5 Whys: ask “why” five times to get to the root cause of a problem.</li>
+    </ul>
+  </li>
+  <li>Do the job right the first time
+    <ul>
+      <li>It’s always cheaper to do it right the first time than to fix it later, and
+it’s free, if not when will you have time to do it over?</li>
+      <li>Use checklists to ensure that all steps are completed.</li>
+      <li>Use standard operating procedures (SOPs) to ensure consistency.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>You can see Crosby’s approach in every continuous improvement program today.
+Make sure your processes focus on preventing mistakes, rather than fixing them.</p>
+
+<h3 id="the-baldrige-excellence-framework">The Baldrige Excellence Framework</h3>
+
+<p>In the United States, the highest award for quality an organization can receive
+is the Malcolm Baldrige National Quality Award. The award is named after Malcolm
+Baldrige, who was the Secretary of Commerce under President Ronald Reagan.</p>
+
+<p>The Baldrige Excellence Framework is a set of criteria that organizations can
+use to improve their performance. The framework starts with the seven critical
+areas, where you should strive for excellence:</p>
+
+<ul>
+  <li>Leadership</li>
+  <li>Strategy</li>
+  <li>Customers
+    <ul>
+      <li>Choose core value to address</li>
+      <li>Evaluate your process according to value
+        <ul>
+          <li>Approach</li>
+          <li>Deployment</li>
+          <li>Learning</li>
+          <li>Integration</li>
+        </ul>
+      </li>
+      <li>Evaluate your results</li>
+    </ul>
+  </li>
+  <li>Measurement, analysis, and knowledge management</li>
+  <li>Workforce</li>
+  <li>Operations</li>
+  <li>Results</li>
+</ul>
+
+<p>The Baldrige Excellence Framework is a great tool for organizations that want to
+improve their performance and achieve excellence. It provides a systematic way
+to assess an organization’s performance and identify areas for improvement.</p>
+
+<h3 id="the-gap-framework">The Gap Framework</h3>
+
+<p>It’s pretty easy to mismanage quality. The Gap Framework is a way to identify
+the gaps between what customers expect and what they actually get. The Gap Model
+is a useful tool for understanding the customer’s perspective and identifying
+the areas where you need to improve.</p>
+
+<p>Quality Gaps:</p>
+
+<ul>
+  <li>Management and customer</li>
+  <li>Individual and company goals</li>
+  <li>Procedure and execution</li>
+  <li>Company promise and follow-through</li>
+  <li>Customer expectation and experience</li>
+</ul>
+
+<p>It’s really hard to manage how someone perceives quality, but it’s also really
+important, because customers make future buying decisions based on their
+perception of your performance today. So you manage gap five by minimizing the
+other four gaps.</p>
+
+<p>Be close to your customers, so you know their needs and requirements, even as
+they change. Make sure that written procedures are correct, are followed, and
+properly express the company’s quality goals, and don’t make promises you can’t
+meet.</p>
+
+<h3 id="iso-9000">ISO 9000</h3>
+
+<p>What ISO quality principles include:</p>
+
+<ul>
+  <li>Customers</li>
+  <li>Leadership</li>
+  <li>Employees</li>
+  <li>Process</li>
+  <li>Improvement</li>
+  <li>Data based decisions</li>
+</ul>
+
+<h3 id="servqual">SERVQUAL</h3>
+
+<p>How do you measure quality when you don’t have an actual product to inspect?
+SERVQUAL is a model came up with five things when evaluating service quality.
+Do each of these well and your customers will feel they’ve received excellent
+service.</p>
+
+<p>The five dimensions of service quality:</p>
+
+<ul>
+  <li><strong>Tangibles:</strong> What a customer can see and touch.</li>
+  <li><strong>Reliability:</strong> Dependable and accurate service.</li>
+  <li><strong>Responsiveness:</strong> Employee’s reaction to customer’s needs</li>
+  <li><strong>Assurance:</strong> Customer’s trust and confidence in your company</li>
+  <li><strong>Empathy:</strong> How much you care</li>
+</ul>
+
+<p>Do what you say you’ll do when you say you’ll do it. If you can’t, let the
+customer know as soon as possible.</p>
+
+<p>The SERVQUAL model is a useful tool for organizations that want to improve their
+service quality and meet customer expectations.</p>
+
+<h2 id="tools-for-quality-management">Tools for Quality Management</h2>
+
+<h3 id="pareto-analysis">Pareto Analysis</h3>
+
+<p>The Pareto Principle, also known as the 80/20 rule, states that 80% of the
+effects come from 20% of the causes. In quality management, the Pareto Principle
+is often used to identify the most significant causes of defects or problems.</p>
+
+<p>Examples:</p>
+
+<ul>
+  <li>80% of customer complaints come from 20% of the customers.</li>
+  <li>80% of the defects come from 20% of the causes.</li>
+  <li>80% of the sales come from 20% of the customers.</li>
+  <li>80% of the profits come from 20% of the products.</li>
+  <li>80% of the problems come from 20% of the employees.</li>
+  <li>80% of the delays come from 20% of the suppliers.</li>
+  <li>80% of the accidents come from 20% of the hazards.</li>
+  <li>…</li>
+</ul>
+
+<p>The beauty of this model tells us exactly where to start a quality-improvement
+project, and where to focus our efforts.</p>
+
+<h3 id="house-of-quality">House of Quality</h3>
+
+<p>The House of Quality is a tool used in quality management to translate customer
+requirements into technical specifications. It is a part of the Quality Function
+Deployment (QFD) process, which is a systematic approach to ensuring that
+customer needs are met throughout the product development process.</p>
+
+<p>No discussion of quality management would be complete without mentioning the
+House of Quality. Because this model helps you create products and services that
+your customers want to buy.</p>
+
+<p>There are 6 steps to creating a house of quality:</p>
+
+<ul>
+  <li>Identify customer needs</li>
+  <li>Identify product features</li>
+  <li>Analyze the relationship between customer needs and product features
+    <ul>
+      <li>Strong relationship</li>
+      <li>Weak relationship</li>
+      <li>No relationship</li>
+    </ul>
+  </li>
+  <li>Prioritize customer needs
+    <ul>
+      <li>Identify the most important customer needs</li>
+    </ul>
+  </li>
+  <li>Competitors’ view of the product
+    <ul>
+      <li>Identify competitors</li>
+      <li>Figure out how they prioritize the features of the product and how they view
+what the customer wants</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="https://i.postimg.cc/MTq5xWmT/image.png" alt="House of Quality for a New Pizza Product" /></p>
+
+<p>As you can probably tell this can be a pretty in-depth analysis, but it can help
+you design a product or service that your customers wants to buy. In a long run,
+the house of quality could save your company a lof of time and money.</p>
+
+<h3 id="root-cause-analysis">Root Cause Analysis</h3>
+
+<p>When you have a problem, you really want the permanent solution. You want to
+find the source of that problem, so that, if possible, it can be eliminated.
+Many times, we address the symptoms of a problem, but not the root cause, that
+only provides a short-term fix. This is called “whack-a-mole” management,
+you fix one problem, and another one pops.</p>
+
+<p>The best tool for a root cause analysis is the <strong>5 Whys</strong> approach. The 5 Whys
+is a simple, once you discover the problem, you continue to ask why until you
+find what is actually causing the problem. The goal is to get to the root cause
+of the problem, not just the symptoms.</p>
+
+<p>By average, you’ll find the root cause of a problem after asking “why” five
+times. But don’t be surprised if you have to ask “why” more than five times. The</p>
+
+<ol>
+  <li>Symptom: the 1st why is only review the symptom of the problem. And
+unfortunately, this is where most people stop, they apply a short-term fix
+and think the problem is solved.</li>
+  <li>…</li>
+  <li>You must continue to ask “why” until you sort through all the symptoms and
+get the root cause of the problem.</li>
+  <li>…</li>
+  <li>Root</li>
+</ol>
+
+<p>Example:</p>
+
+<p>You notice that one key workstation in the factory breaks down soon after the
+day shift begins. It seems to happen three or four times a week. And the machine
+is usually down about one hour for repairs.</p>
+
+<ul>
+  <li>Why? According to the technician, a 15-minute daily maintenance is scheduled
+on the night shift, but it’s not being done. Well, this can be easily fixed
+by telling the night shift technician that this maintenance must be completed
+every night. But you did it before, the problem goes away for a week and then
+it’s right back again. Because not meeting the maintenance schedule is only
+the symptom of the problem. It’s not the root cause, you must keep asking why.</li>
+  <li>Why was the maintenance not being done? Because the night shift operator runs
+the machine right to the end of the shift.</li>
+  <li>Why? Because the supervisor told him to do so.</li>
+  <li>Why? Because the supervisor is evaluated by the number of products completed
+during his shift.</li>
+</ul>
+
+<p>The problem is caused by the way performance is evaluated. To permanently remove
+the root cause of the problem, the supervisor should also be evaluated for
+meeting equipment maintenance schedules. Collect some data about how much
+production is lost each day when the machine breaks down. And the factory
+manager will certainly approve this change.</p>
+
+<h3 id="lean-quality-methods">Lean Quality Methods</h3>
+
+<p>Lean methods can reduce defects and improve your overall quality level. Lean is
+a systematic approach to eliminating waste and improving efficiency in a process.</p>
+
+<p>Lean quality methods include:</p>
+
+<ul>
+  <li><strong>Kaizen:</strong> Continuous, small improvements over time
+    <ul>
+      <li>The goal is to make small, incremental changes to a process over time,
+rather than making large, radical changes all at once.</li>
+      <li>Kaizen is a Japanese word that means “change for the better.”</li>
+      <li>Kaizen is a philosophy that encourages everyone in an organization to
+participate in continuous improvement.</li>
+    </ul>
+  </li>
+  <li><strong>Quality at the Source:</strong> Each employee inspects their own work
+    <ul>
+      <li>It catches defects before they happen, because each employee is inspecting
+for quality, and the minute a worker sees their output doesn’t meet standards,
+the workstation is shut down until the problem is fixed, no more defective
+products are make.</li>
+      <li>This is a great way to get employees involved in the quality process.</li>
+      <li>Quality at the source is a Japanese term called “jidoka.” Jidoka is a
+Japanese word that means “automation with a human touch.”</li>
+    </ul>
+  </li>
+  <li><strong>Poka-yoke:</strong> Preventing errors from happening
+    <ul>
+      <li>Mistake-proofing, or error-proofing, is a method of preventing defects by
+designing processes that make it impossible to make mistakes.</li>
+      <li>Poka-yoke is a Japanese word that means “mistake-proofing.”</li>
+      <li>Poka-yoke devices are simple, inexpensive devices that help prevent errors
+from occurring.</li>
+      <li>For example, a simple device that prevents a worker from inserting a part
+into a machine in the wrong way.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="the-six-sigma-method">The Six Sigma Method</h3>
+
+<p>The goal of Six Sigma is to provide reliable products and consistent services to
+your customers. You’re not looking to eliminate all defects and errors, but to
+reduce the number of defects and errors to a level that is acceptable to your
+customers.</p>
+
+<p>You accomplish this by following a very specific method for improving the quality
+of key processes within your business. The method is called DMAIC, which stands
+for:</p>
+
+<ul>
+  <li><strong>Define:</strong> Define the problem and the goals of the project.</li>
+  <li><strong>Measure:</strong> Measure the current performance of the process.</li>
+  <li><strong>Analyze:</strong> Analyze the data to identify the root cause within the process.</li>
+  <li><strong>Improve:</strong> Improve the process by implementing solutions to the root cause.
+    <ul>
+      <li>This is the most important step in the Six Sigma process. It’s where you
+actually make the changes to the process to improve quality.</li>
+      <li>Process improvements focus on three things:
+        <ul>
+          <li>Defects: You don’t want more than 3.4 defects per million opportunities.</li>
+          <li>Reducing Variability: All processes have some natural variation that’s
+acceptable, you’re working towards reducing inconsistencies and the natural
+result is fewer defects.</li>
+          <li>Strong emphasis on Your Customers: What does the customer think is
+critical to quality? Thanks to that customer focus.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Control:</strong> Control the process to ensure that the improvements are sustained.</li>
+</ul>
+
+<h3 id="total-quality-management">Total Quality Management</h3>
+
+<p>Everyone is committed to managing and improving quality. Total Quality
+Management (TQM) is a management approach that focuses on continuous improvement
+and customer satisfaction. TQM is based on the idea that quality is everyone’s
+responsibility, and that everyone in the organization should be involved in the
+quality improvement process.</p>
+
+<p>The American Society for Quality (ASQ) defines 8 principles of TQM:</p>
+
+<ul>
+  <li><strong>Customer focus:</strong> The customer is the most important part of the process.</li>
+  <li><strong>Leadership involvement:</strong> Leaders should create a culture of quality.</li>
+  <li><strong>Involvement of people:</strong> Everyone should be involved in the quality process.</li>
+  <li><strong>Process approach:</strong> A process is a series of steps that transform inputs into
+outputs.</li>
+  <li><strong>System approach to management:</strong> A system is a set of interrelated processes.</li>
+  <li><strong>Continual improvement:</strong> Continuous improvement is a never-ending process.</li>
+  <li><strong>Factual approach to decision making:</strong> Decisions should be based on facts, not
+opinions.</li>
+  <li><strong>Mutually beneficial supplier relationships:</strong> Suppliers are partners in the
+quality process.</li>
+</ul>
+
+<p>Examples:</p>
+
+<ul>
+  <li>A company that manufactures car parts has a TQM program in place. The program
+includes regular training for employees on quality management principles, and
+encourages employees to identify and report quality issues. The company also
+has a system in place for tracking and analyzing quality data, and uses this
+data to make decisions about process improvements.</li>
+  <li>A hospital has a TQM program in place that focuses on patient safety and
+satisfaction. The program includes regular training for employees on quality
+management principles, and encourages employees to identify and report quality
+issues. The hospital also has a system in place for tracking and analyzing
+quality data, and uses this data to make decisions about process improvements.</li>
+  <li>…</li>
+</ul>
+
+<h2 id="quality-strategies">Quality Strategies</h2>
+
+<h3 id="the-voice-of-the-customer">The Voice of the Customer</h3>
+
+<p>The Voice of the Customer (VoC) is a term used to describe the needs and wants
+of customers. It is important to understand the VoC in order to develop products
+and services that meet customer needs.</p>
+
+<p>Create a VoC program to gather customer feedback. The VoC program should
+include:</p>
+
+<ul>
+  <li>Collect information
+    <ul>
+      <li>Identify the target audience</li>
+      <li>Determine the best methods for gathering feedback
+        <ul>
+          <li>Surveys</li>
+          <li>Focus groups</li>
+          <li>Interviews</li>
+          <li>Social media</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Analyze it
+    <ul>
+      <li>Identify trends and patterns in the data</li>
+      <li>Use statistical analysis tools to analyze the data</li>
+    </ul>
+  </li>
+  <li>Act quickly
+    <ul>
+      <li>Implement changes based on the feedback</li>
+    </ul>
+  </li>
+  <li>Keep an eye on results
+    <ul>
+      <li>Monitor the results of the changes</li>
+    </ul>
+  </li>
+  <li>Others
+    <ul>
+      <li>Communicate the changes to customers</li>
+      <li>Continuously improve the VoC program</li>
+      <li>Repeat the process</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="benchmarking">Benchmarking</h3>
+
+<p>Benchmarking is the process of comparing your performance to the performance of
+competitors or industry leaders. It is a way to identify best practices and
+areas for improvement.</p>
+
+<p>Benchmarking is really a question of:</p>
+
+<ul>
+  <li>Where am I?</li>
+  <li>Where do I want to be?</li>
+  <li>How do I get there?</li>
+</ul>
+
+<p>The steps to benchmarking are:</p>
+
+<ul>
+  <li>Gather information on your own performance
+    <ul>
+      <li>Identify the key performance indicators (KPIs) that are important to your
+organization.</li>
+      <li>Collect data on your own performance in these areas.</li>
+    </ul>
+  </li>
+  <li>Compare performance measurements</li>
+</ul>
+
+<p>Benchmarking offers direction for your quality program. To stay ahead of your
+competition, this must be a continuous improvement effort. It can help you to
+close the gap with your competition.</p>
+
+<h3 id="measuring-the-cost-of-quality">Measuring the Cost of Quality</h3>
+
+<blockquote>
+  <p>“If you can’t measure it, you can’t manage it.” - Peter Drucker (the father
+of modern management)</p>
+</blockquote>
+
+<p>The measurement of quality gives you the starting point for your improvement
+project. But how do you measure quality? The cost of quality (CoQ) is a way to
+measure the cost of poor quality. It is a way to quantify the cost of defects
+and errors, and to identify areas for improvement.</p>
+
+<p>The CoQ is divided into four categories:</p>
+
+<ul>
+  <li><strong>Prevention costs:</strong> The costs associated with preventing defects and errors.
+    <ul>
+      <li>Examples: Training, process improvement, quality planning.</li>
+    </ul>
+  </li>
+  <li><strong>Appraisal costs:</strong> The costs associated with measuring and evaluating quality.
+    <ul>
+      <li>Examples: Inspection, testing, quality audits.</li>
+    </ul>
+  </li>
+  <li><strong>Internal failure costs:</strong> The costs associated with defects and errors that are
+discovered before the product is delivered to the customer.
+    <ul>
+      <li>Examples: Scrap, rework, re-inspection.</li>
+    </ul>
+  </li>
+  <li><strong>External failure costs:</strong> The costs associated with defects and errors that are
+discovered after the product is delivered to the customer.
+    <ul>
+      <li>Examples: Warranty claims, returns, lost sales.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Quality management is a systematic approach to ensuring that products and
+services meet customer expectations. It involves a combination of tools,
+techniques, and strategies to improve quality and reduce defects. By
+understanding the principles of quality management and implementing effective
+quality management programs, organizations can improve their performance and
+achieve excellence.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.linkedin.com/learning/quality-management-foundations/house-of-quality">Quality Management Foundations in LinedIn Learning</a></li>
+  <li><a href="https://asq.org">America Society of Quality</a></li>
+</ul>]]></content><author><name>Jeffrey Tse</name></author><category term="methodology" /><category term="management" /><category term="product" /><category term="quality" /><category term="note" /><summary type="html"><![CDATA[Understanding Quality]]></summary></entry><entry><title type="html">Understanding Console, Terminal, TTY, and Shell</title><link href="https://jeffreytse.net/computer/2024/07/15/understanding-console-terminal-tty-shell.html" rel="alternate" type="text/html" title="Understanding Console, Terminal, TTY, and Shell" /><published>2024-07-15T00:00:00+00:00</published><updated>2024-07-15T00:00:00+00:00</updated><id>https://jeffreytse.net/computer/2024/07/15/understanding-console-terminal-tty-shell</id><content type="html" xml:base="https://jeffreytse.net/computer/2024/07/15/understanding-console-terminal-tty-shell.html"><![CDATA[<p>If you’ve been using Linux for a while but still feel confused about terms like
+<strong>Console</strong>, <strong>Terminal</strong>, <strong>TTY</strong>, and <strong>Shell</strong>, you’re not alone. These
+concepts carry historical baggage, and their meanings have evolved over time.
+Let’s demystify them once and for all.</p>
+
+<h2 id="tty-teletypewriter">TTY (Teletypewriter)</h2>
+
+<ul>
+  <li><strong>Origin</strong>:
+    <ul>
+      <li><strong>Physical TTY</strong>: Early terminals were electromechanical teletypewriters
+(TTYs) that printed input/output on paper.</li>
+      <li><strong>Modern TTY</strong>: In Linux/Unix, TTY now refers to <strong>terminal devices</strong>
+managed by the kernel (e.g., <code class="language-plaintext highlighter-rouge">/dev/tty1</code>).</li>
+    </ul>
+  </li>
+  <li><strong>Key Roles</strong>:
+    <ul>
+      <li>Handles low-level input (keyboard) and output (display).</li>
+      <li>Manages session control, line buffering, and signals (e.g., <code class="language-plaintext highlighter-rouge">Ctrl+C</code>).</li>
+    </ul>
+  </li>
+  <li><strong>Examples</strong>:
+    <ul>
+      <li>In Ubuntu, pressing <code class="language-plaintext highlighter-rouge">Ctrl+Alt+F1</code> switches to <strong>tty1</strong>, a virtual terminal.</li>
+      <li>Legacy physical TTYs (rare today) vs. virtual TTYs (e.g., <code class="language-plaintext highlighter-rouge">/dev/tty2</code>).</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="terminal">Terminal</h2>
+
+<ul>
+  <li><strong>Historical Terminal</strong>:
+    <ul>
+      <li>A physical device (e.g., VT100) with limited processing power, connected via
+serial ports to share a mainframe.</li>
+      <li>Users typed commands into the terminal, which relayed them to the computer
+and displayed results.</li>
+    </ul>
+  </li>
+  <li><strong>Modern Terminal</strong>:
+    <ul>
+      <li><strong>Terminal Emulator</strong>: Software like <code class="language-plaintext highlighter-rouge">gnome-terminal</code> or <code class="language-plaintext highlighter-rouge">Konsole</code> that
+mimics hardware terminals.</li>
+      <li>Uses <strong>pseudo-terminals (PTY)</strong> (e.g., <code class="language-plaintext highlighter-rouge">/dev/pts/0</code>) to interact with the system.</li>
+    </ul>
+  </li>
+  <li><strong>Terminal Window</strong>: A GUI-based terminal emulator (e.g., Ubuntu’s default terminal).</li>
+</ul>
+
+<h2 id="console">Console</h2>
+
+<ul>
+  <li><strong>Physical Console</strong>:
+    <ul>
+      <li>A dedicated input/output device directly attached to a computer (e.g., a
+server’s keyboard and monitor).</li>
+      <li>Displays low-level system output (e.g., BIOS messages, kernel logs).</li>
+    </ul>
+  </li>
+  <li><strong>Virtual Console</strong>:
+    <ul>
+      <li>Software-based “full-screen” terminals accessible via shortcuts like
+<code class="language-plaintext highlighter-rouge">Ctrl+Alt+F1</code> in Linux.</li>
+      <li>Ubuntu provides 7 virtual consoles:
+        <ul>
+          <li><strong>tty1–tty6</strong>: Text-based consoles.</li>
+          <li><strong>tty7</strong>: Reserved for the graphical interface (Xorg/Wayland).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="virtual-terminal-vs-virtual-console">Virtual Terminal vs. Virtual Console</h2>
+
+<ul>
+  <li><strong>Same Concept</strong>: Both refer to software-emulated terminals.</li>
+  <li><strong>Purpose</strong>: Allow multiple independent sessions on a single physical device.
+    <ul>
+      <li>Example: In Ubuntu, <code class="language-plaintext highlighter-rouge">tty1</code> to <code class="language-plaintext highlighter-rouge">tty6</code> are virtual terminals, each acting like
+a separate physical terminal.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="shell">Shell</h2>
+
+<ul>
+  <li><strong>Role</strong>:
+    <ul>
+      <li>A <strong>command interpreter</strong> that bridges user input and the OS kernel.</li>
+      <li>Manages process creation (e.g., running your <code class="language-plaintext highlighter-rouge">hello_world</code> program),
+scripting, and environment variables.</li>
+    </ul>
+  </li>
+  <li><strong>Common Shells</strong>:
+    <ul>
+      <li><strong>sh</strong>:
+        <ul>
+          <li><strong>Thompson shell</strong> (1971): The first Unix shell.</li>
+          <li><strong>Bourne shell</strong> (1977): Replaced Thompson shell, added scripting capabilities.</li>
+        </ul>
+      </li>
+      <li><strong>csh/tcsh</strong>:
+        <ul>
+          <li><strong>C Shell</strong> (1970s): Syntax inspired by C, developed by Bill Joy.</li>
+          <li><strong>tcsh</strong>: Enhanced version with command-line editing.</li>
+        </ul>
+      </li>
+      <li><strong>bash</strong>:
+        <ul>
+          <li><strong>Bourne-Again SHell</strong> (1989): Default on Linux/macOS, combines Bourne
+shell syntax with features from <code class="language-plaintext highlighter-rouge">ksh</code> and <code class="language-plaintext highlighter-rouge">csh</code>.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="how-they-work-together">How They Work Together</h2>
+
+<ol>
+  <li><strong>Terminal Emulator</strong> (e.g., <code class="language-plaintext highlighter-rouge">gnome-terminal</code>) launches and creates a <strong>PTY</strong> (e.g., <code class="language-plaintext highlighter-rouge">/dev/pts/0</code>).</li>
+  <li>The terminal starts a <strong>Shell</strong> (e.g., <code class="language-plaintext highlighter-rouge">bash</code>) bound to the PTY.</li>
+  <li>You type <code class="language-plaintext highlighter-rouge">ls</code> → Terminal sends input to Shell via PTY.</li>
+  <li>Shell parses the command, executes it, and returns output to the terminal.</li>
+</ol>
+
+<h2 id="key-differences">Key Differences</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Concept</th>
+      <th>Role</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>**TTY**</td>
+      <td>Low-level I/O device/abstraction</td>
+      <td><code class="language-plaintext highlighter-rouge">/dev/tty1</code>, physical serial port</td>
+    </tr>
+    <tr>
+      <td>**Terminal**</td>
+      <td>User-facing I/O interface</td>
+      <td>VT100, <code class="language-plaintext highlighter-rouge">gnome-terminal</code></td>
+    </tr>
+    <tr>
+      <td>**Console**</td>
+      <td>Dedicated system terminal</td>
+      <td>Server’s physical keyboard/monitor</td>
+    </tr>
+    <tr>
+      <td>**Shell**</td>
+      <td>Command interpreter</td>
+      <td><code class="language-plaintext highlighter-rouge">bash</code>, <code class="language-plaintext highlighter-rouge">zsh</code>, <code class="language-plaintext highlighter-rouge">fish</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="common-confusions-clarified">Common Confusions Clarified</h2>
+
+<ul>
+  <li><strong>Terminal ≠ Shell</strong>:
+    <ul>
+      <li>The terminal is the <strong>interface</strong> (handles input/output).</li>
+      <li>The shell is the <strong>interpreter</strong> (executes commands).</li>
+    </ul>
+  </li>
+  <li><strong>Console vs. Terminal</strong>:
+    <ul>
+      <li>A console is a <strong>type of terminal</strong> used for system-level tasks.</li>
+    </ul>
+  </li>
+  <li><strong>TTY vs. PTY</strong>:
+    <ul>
+      <li><strong>TTY</strong>: General term for terminal devices.</li>
+      <li><strong>PTY</strong>: Virtual TTY pair used by terminal emulators.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="virtual-terminals-ttys-in-linux">Virtual Terminals (TTYs) in Linux</h2>
+
+<p>In Linux systems like Ubuntu, <strong>virtual terminals</strong> (also called <strong>virtual consoles</strong>)
+are text-based interfaces accessible via keyboard shortcuts (<code class="language-plaintext highlighter-rouge">Ctrl+Alt+F1</code> to <code class="language-plaintext highlighter-rouge">Ctrl+Alt+F7</code>).
+Here’s how they typically work:</p>
+
+<h3 id="virtual-terminal-assignments">Virtual Terminal Assignments</h3>
+
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">tty1</code></strong>:
+    <ul>
+      <li>Traditionally a text-based console, <strong>not</strong> the graphical interface.</li>
+      <li>In some modern systems (e.g., Ubuntu with Wayland), <code class="language-plaintext highlighter-rouge">tty1</code> may display the
+<strong>login prompt</strong> for the graphical session, but the actual GUI runs on a
+separate server (e.g., <code class="language-plaintext highlighter-rouge">tty7</code> for Xorg).</li>
+    </ul>
+  </li>
+  <li><strong><code class="language-plaintext highlighter-rouge">tty2</code> to <code class="language-plaintext highlighter-rouge">tty6</code></strong>:
+    <ul>
+      <li>Text-based consoles for multi-user logins. Each can host an independent session.</li>
+      <li>Example: Log in as different users on <code class="language-plaintext highlighter-rouge">tty2</code>, <code class="language-plaintext highlighter-rouge">tty3</code>, etc.</li>
+    </ul>
+  </li>
+  <li><strong><code class="language-plaintext highlighter-rouge">tty7</code></strong> (Ubuntu-specific):
+    <ul>
+      <li>Reserved for the <strong>graphical user interface (GUI)</strong> (Xorg or Wayland).</li>
+      <li>Press <code class="language-plaintext highlighter-rouge">Ctrl+Alt+F7</code> to return to the GUI from a text-based console.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="special-terminal-device-files">Special Terminal Device Files</h3>
+
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">/dev/tty</code></strong>:
+    <ul>
+      <li>Represents the <strong>current terminal session</strong>.</li>
+      <li>Example: If you’re logged into <code class="language-plaintext highlighter-rouge">tty2</code>, <code class="language-plaintext highlighter-rouge">/dev/tty</code> points to <code class="language-plaintext highlighter-rouge">tty2</code>.</li>
+    </ul>
+  </li>
+  <li><strong><code class="language-plaintext highlighter-rouge">/dev/pts/*</code></strong> (Pseudo-Terminal Slaves):
+    <ul>
+      <li><strong>Network/remote sessions</strong> (e.g., SSH, Telnet) or <strong>GUI terminal emulators</strong>
+(e.g., <code class="language-plaintext highlighter-rouge">gnome-terminal</code>) use pseudo-terminals (<code class="language-plaintext highlighter-rouge">pts</code>).</li>
+      <li>Example: An SSH connection creates a <code class="language-plaintext highlighter-rouge">pts/0</code> device.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="total-terminals-in-linux">Total “Terminals” in Linux</h3>
+
+<ul>
+  <li><strong>Virtual Consoles</strong>: 6 text-based (<code class="language-plaintext highlighter-rouge">tty1</code>–<code class="language-plaintext highlighter-rouge">tty6</code>) + 1 graphical (<code class="language-plaintext highlighter-rouge">tty7</code>).</li>
+  <li><strong>Special Terminals</strong>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">/dev/tty</code> (current session).</li>
+      <li>Unlimited <code class="language-plaintext highlighter-rouge">pts</code> devices (one per remote/GUI terminal window).</li>
+    </ul>
+  </li>
+  <li><strong>Note</strong>: The claim of “8 terminals” is a misunderstanding. Linux supports:
+    <ul>
+      <li>Fixed virtual consoles (<code class="language-plaintext highlighter-rouge">tty1</code>–<code class="language-plaintext highlighter-rouge">tty7</code>).</li>
+      <li>Dynamic pseudo-terminals (<code class="language-plaintext highlighter-rouge">pts/*</code>) for remote/GUI sessions.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="key-clarifications">Key Clarifications</h2>
+
+<ol>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">tty1</code> and the GUI</strong>:</p>
+
+    <ul>
+      <li>Older systems (Xorg): GUI runs on <code class="language-plaintext highlighter-rouge">tty7</code>.</li>
+      <li>Newer systems (Wayland): GUI uses a separate server (e.g., <code class="language-plaintext highlighter-rouge">tty1</code> may show
+a login prompt).</li>
+      <li>Always check your system with <code class="language-plaintext highlighter-rouge">sudo systemctl status display-manager</code>.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Switching Terminals:</p>
+
+    <ul>
+      <li>Use <code class="language-plaintext highlighter-rouge">Ctrl+Alt+F1</code> to <code class="language-plaintext highlighter-rouge">F7</code> to toggle between terminals.</li>
+      <li>The GUI (if running) usually occupies the highest-numbered TTY (e.g., <code class="language-plaintext highlighter-rouge">tty7</code>).</li>
+    </ul>
+  </li>
+  <li>
+    <p>Remote Sessions (SSH):</p>
+
+    <ul>
+      <li>SSH connections create <code class="language-plaintext highlighter-rouge">pts</code> devices (e.g., <code class="language-plaintext highlighter-rouge">/dev/pts/0</code>), not <code class="language-plaintext highlighter-rouge">tty</code> devices.</li>
+      <li>Verify your terminal type with the <code class="language-plaintext highlighter-rouge">tty</code> command:
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">tty</span>
+/dev/pts/0  <span class="c"># SSH session</span>
+/dev/tty2   <span class="c"># Virtual console</span>
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="why-this-matters">Why This Matters</h2>
+
+<p>Understanding these layers helps you:</p>
+
+<ul>
+  <li><strong>Multi-User Systems</strong>: Virtual terminals allow multiple users to log in locally.</li>
+  <li><strong>Troubleshooting</strong>: If the GUI crashes, switch to a text console (<code class="language-plaintext highlighter-rouge">Ctrl+Alt+F1</code>)
+to fix issues.</li>
+  <li><strong>Resource Efficiency</strong>: Pseudo-terminals (<code class="language-plaintext highlighter-rouge">pts</code>) enable lightweight remote
+access without physical hardware.</li>
+</ul>
+
+<h2 id="common-misconceptions">Common Misconceptions</h2>
+
+<ul>
+  <li><strong>GUI runs on <code class="language-plaintext highlighter-rouge">tty1</code></strong>: This depends on the display manager and Linux distribution.
+Most systems reserve <code class="language-plaintext highlighter-rouge">tty1</code>–<code class="language-plaintext highlighter-rouge">tty6</code> for text consoles.</li>
+  <li><strong>8 terminals total</strong>: The number of <code class="language-plaintext highlighter-rouge">tty</code> devices is fixed (usually 7), but
+<code class="language-plaintext highlighter-rouge">pts</code> devices are dynamically created and unlimited.</li>
+</ul>
+
+<h2 id="reference">Reference</h2>
+
+<ul>
+  <li><a href="https://unix.stackexchange.com/questions/4126">What is the exact difference between a ‘terminal’, a ‘shell’, a ‘tty’ and a ‘console’?</a></li>
+  <li><a href="https://askubuntu.com/questions/14284/why-is-a-virtual-terminal-virtual-and-what-why-where-is-the-real-terminal">Why is a virtual terminal “virtual”, and what/why/where is the “real” terminal?</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/The_UNIX_Programming_Environment">The UNIX Programming Environment</a> (book by Kernighan &amp; Pike).</li>
+</ul>]]></content><author><name>Jeffrey Tse</name></author><category term="computer" /><category term="computer" /><category term="operating-system" /><category term="programming" /><category term="linux" /><summary type="html"><![CDATA[If you’ve been using Linux for a while but still feel confused about terms like Console, Terminal, TTY, and Shell, you’re not alone. These concepts carry historical baggage, and their meanings have evolved over time. Let’s demystify them once and for all.]]></summary></entry><entry><title type="html">Naming Conventions in Software Development</title><link href="https://jeffreytse.net/computer/2024/05/17/naming-conventions-in-software-development.html" rel="alternate" type="text/html" title="Naming Conventions in Software Development" /><published>2024-05-17T00:00:00+00:00</published><updated>2024-05-17T00:00:00+00:00</updated><id>https://jeffreytse.net/computer/2024/05/17/naming-conventions-in-software-development</id><content type="html" xml:base="https://jeffreytse.net/computer/2024/05/17/naming-conventions-in-software-development.html"><![CDATA[<p>Naming conventions are critical for improving code readability and maintainability
+in software development. Below is a comparative analysis of common naming
+conventions, their advantages, disadvantages, and typical use cases. This guide
+aims to help choose the most suitable naming convention for your projects,
+considering language-specific standards and team preferences.</p>
+
+<h2 id="1-hungarian-notation">1. Hungarian Notation</h2>
+
+<p><strong>Definition</strong>: Prefixes variable names with type indicators (e.g., <code class="language-plaintext highlighter-rouge">i</code> for integer,
+<code class="language-plaintext highlighter-rouge">sz</code> for string), such as <code class="language-plaintext highlighter-rouge">iCount</code> or <code class="language-plaintext highlighter-rouge">szName</code>.<br />
+<strong>Pros</strong>:<br />
+• Clearly indicates variable types, reducing ambiguity.<br />
+• Useful in legacy environments lacking modern IDE features (e.g., early Windows
+API development).<br />
+<strong>Cons</strong>:<br />
+• Redundant in strongly typed languages (e.g., Java, C#) with advanced IDE support.<br />
+• High maintenance cost if variable types change.<br />
+<strong>Use Cases</strong>:<br />
+• Legacy systems (e.g., older Microsoft codebases).<br />
+• Weakly typed languages or scenarios requiring explicit type hints.</p>
+
+<h2 id="2-camel-case">2. Camel Case</h2>
+
+<p><strong>Definition</strong>: Includes <strong>lower camel case</strong> (e.g., <code class="language-plaintext highlighter-rouge">firstName</code>) and
+<strong>Upper Camel Case</strong> (PascalCase, e.g., <code class="language-plaintext highlighter-rouge">FirstName</code>).<br />
+<strong>Pros</strong>:<br />
+• Compact and readable, ideal for short identifiers.<br />
+• Widely adopted in languages like Java (variables/methods) and C# (class names).<br />
+<strong>Cons</strong>:<br />
+• Reduced clarity for multi-word combinations (e.g., <code class="language-plaintext highlighter-rouge">XMLHTTPRequest</code>).<br />
+• Unsuitable for contexts requiring separators (e.g., filenames).<br />
+<strong>Use Cases</strong>:<br />
+• Lower camel case: Variables and methods in Java/JavaScript.<br />
+• Upper camel case: Class names in C#/Java.</p>
+
+<h2 id="3-snake-case">3. Snake Case</h2>
+
+<p><strong>Definition</strong>: Separates words with underscores, e.g., <code class="language-plaintext highlighter-rouge">user_name</code> (lowercase) or <code class="language-plaintext highlighter-rouge">MAX_SIZE</code> (uppercase).<br />
+<strong>Pros</strong>:<br />
+• Clear separation for multi-word names.<br />
+• Uppercase form (SNAKE_CASE) is standard for constants or macros (e.g., C/C++).<br />
+<strong>Cons</strong>:<br />
+• Increased symbol density may reduce brevity.<br />
+<strong>Use Cases</strong>:<br />
+• Variables and functions in Python/C.<br />
+• Constants and macros (uppercase).</p>
+
+<h2 id="4-kebab-case">4. Kebab Case</h2>
+
+<p><strong>Definition</strong>: Hyphenates words (e.g., <code class="language-plaintext highlighter-rouge">user-age</code>).<br />
+<strong>Pros</strong>:<br />
+• Compatible with URLs, filenames, and CSS class names.<br />
+<strong>Cons</strong>:<br />
+• Hyphens are invalid in most programming languages.<br />
+<strong>Use Cases</strong>:<br />
+• Configuration files, CSS class names, CLI parameters.</p>
+
+<h2 id="5-pascal-case">5. Pascal Case</h2>
+
+<p><strong>Definition</strong>: Capitalizes the first letter of each word (e.g., <code class="language-plaintext highlighter-rouge">StudentRecord</code>).<br />
+<strong>Pros</strong>:<br />
+• Clearly distinguishes classes and types.<br />
+<strong>Cons</strong>:<br />
+• Verbosity for long names (e.g., <code class="language-plaintext highlighter-rouge">DatabaseConnectionManager</code>).<br />
+<strong>Use Cases</strong>:<br />
+• Class and interface names in C#/Java.<br />
+• Enumerations (e.g., <code class="language-plaintext highlighter-rouge">Color.RED</code>).</p>
+
+<h2 id="summary">Summary</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>**Convention**</th>
+      <th>**Language/Use Case**</th>
+      <th>**Example**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hungarian Notation</td>
+      <td>C, legacy Windows projects</td>
+      <td><code class="language-plaintext highlighter-rouge">dwBufferSize</code></td>
+    </tr>
+    <tr>
+      <td>Camel Case</td>
+      <td>Java/JavaScript variables</td>
+      <td><code class="language-plaintext highlighter-rouge">getUserName()</code></td>
+    </tr>
+    <tr>
+      <td>Snake Case</td>
+      <td>Python/C variables</td>
+      <td><code class="language-plaintext highlighter-rouge">user_id</code>, <code class="language-plaintext highlighter-rouge">MAX_RETRIES</code></td>
+    </tr>
+    <tr>
+      <td>Pascal Case</td>
+      <td>C#/Java classes</td>
+      <td><code class="language-plaintext highlighter-rouge">CustomerService</code></td>
+    </tr>
+    <tr>
+      <td>Kebab Case</td>
+      <td>CSS, config files</td>
+      <td><code class="language-plaintext highlighter-rouge">background-color</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Key Principles</strong>:<br />
+• <strong>Language Standards</strong>: Follow conventions like Python’s snake case or Java’s camel case.<br />
+• <strong>Team Consistency</strong>: Prioritize unified project guidelines.<br />
+• <strong>Readability</strong>: Prefer snake/camel case for multi-word names to avoid ambiguity.</p>
+
+<p>For deeper insights into language-specific conventions, refer to official style
+guides (e.g., PEP8 for Python, Google Java Style).</p>]]></content><author><name>Jeffrey Tse</name></author><category term="computer" /><category term="software" /><category term="programming" /><category term="note" /><summary type="html"><![CDATA[Naming conventions are critical for improving code readability and maintainability in software development. Below is a comparative analysis of common naming conventions, their advantages, disadvantages, and typical use cases. This guide aims to help choose the most suitable naming convention for your projects, considering language-specific standards and team preferences.]]></summary></entry><entry><title type="html">TCP/IP Protocol Key Essentials</title><link href="https://jeffreytse.net/computer/2024/04/15/tcp-ip-protocol-key-essentials.html" rel="alternate" type="text/html" title="TCP/IP Protocol Key Essentials" /><published>2024-04-15T00:00:00+00:00</published><updated>2024-04-15T00:00:00+00:00</updated><id>https://jeffreytse.net/computer/2024/04/15/tcp-ip-protocol-key-essentials</id><content type="html" xml:base="https://jeffreytse.net/computer/2024/04/15/tcp-ip-protocol-key-essentials.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>TCP/IP (Transmission Control Protocol/Internet Protocol) is the backbone of
+modern networking, enabling reliable communication over the internet. This post
+explores the key essentials of TCP/IP protocols, focusing on the three-way
+handshake and four-way wavelet processes that ensure reliable data transmission.
+TCP/IP is a suite of protocols that govern how data is transmitted over the
+internet. It consists of multiple layers, each responsible for different aspects
+of communication. The two most important protocols in this suite are TCP and IP.</p>
+
+<h2 id="three-way-handshake">Three-Way Handshake</h2>
+
+<p>The TCP three-way handshake establishes a reliable connection between two endpoints
+(e.g., Client A and Server B) over an unreliable network. It ensures synchronization
+of sequence numbers and confirms bidirectional communication readiness.</p>
+
+<p><strong>Process Flow</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. SYN, seq = x
+A -----------------&gt; B
+    (Client initiates connection with SYN flag and initial sequence number *x*)
+
+2. SYN-ACK, ACK = x + 1, seq = y
+A &lt;----------------- B
+    (Server responds with SYN-ACK flag, acknowledges *x+1*, and sends its initial sequence *y*)
+
+3. ACK = y + 1
+A -----------------&gt; B
+    (Client confirms server's sequence *y+1*; connection established)
+</code></pre></div></div>
+
+<p><strong>Key Purposes</strong></p>
+
+<ul>
+  <li><strong>Sequence Synchronization</strong>: Both parties exchange initial sequence numbers
+(<em>x</em> and <em>y</em>) to track data order and detect duplicates.</li>
+  <li><strong>Reliability</strong>: Prevents stale/duplicate connections (e.g., delayed SYN packets)
+by requiring explicit ACKs.</li>
+  <li><strong>Why Not Two-Way?</strong> If a delayed SYN packet arrives after a previous connection
+closes, a two-way handshake would allow the server to accept it erroneously.
+The third ACK ensures the client actively validates the connection.</li>
+</ul>
+
+<h2 id="four-way-wavelet">Four-Way Wavelet</h2>
+
+<p>TCP connections are full-duplex; closing requires independent termination of each
+direction. The four-way wavelet ensures graceful shutdown without data loss.</p>
+
+<p><strong>Process Flow</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. FIN, seq = x+3, ACK = y+1
+A -----------------&gt; B
+    (Client initiates termination with FIN flag, ending its data stream)
+
+2. ACK = x+3
+A &lt;----------------- B
+    (Server acknowledges client's FIN)
+
+3. FIN, seq = y+1
+A &lt;----------------- B
+    (Server sends its FIN after finishing data transmission)
+
+4. ACK = y+2
+A -----------------&gt; B
+    (Client confirms server's FIN; connection fully closed)
+</code></pre></div></div>
+
+<p><strong>Key Reasons</strong></p>
+
+<ul>
+  <li><strong>Full-Duplex Closure</strong>: Each party independently signals termination (FIN)
+and acknowledges the other’s FIN.</li>
+  <li><strong>TIME_WAIT State</strong>: After sending the final ACK, the client waits for <em>2MSL</em>
+(Maximum Segment Lifetime) to handle delayed packets and prevent old data
+from interfering with new connections.</li>
+</ul>
+
+<h2 id="technical-mechanisms-supporting-reliability">Technical Mechanisms Supporting Reliability</h2>
+
+<ol>
+  <li><strong>Sequence &amp; Acknowledgment Numbers</strong><br />
+• Track byte order and confirm receipt.</li>
+  <li><strong>Flow Control</strong><br />
+• Sliding window adjusts transmission rates based on receiver buffer capacity.</li>
+  <li><strong>Error Detection</strong><br />
+• Checksums validate header and data integrity; corrupted segments are discarded.</li>
+  <li><strong>Retransmission</strong><br />
+• Unacknowledged packets trigger retransmission after timeout.</li>
+  <li><strong>Congestion Control</strong><br />
+• Algorithms (slow start, fast recovery) prevent network overload.</li>
+</ol>
+
+<h2 id="summary">Summary</h2>
+
+<p>The three-way handshake and four-way wavelet are foundational to TCP’s reliability.
+By synchronizing sequence numbers, validating bidirectional readiness, and ensuring
+graceful closure, TCP mitigates risks in untrusted networks. Combined with mechanisms
+like sliding windows and checksums, these processes enable robust data transmission
+for applications requiring high integrity.</p>]]></content><author><name>Jeffrey Tse</name></author><category term="computer" /><category term="computer" /><category term="programming" /><category term="networking" /><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">How to choose UUID</title><link href="https://jeffreytse.net/computer/2024/03/22/how-to-choose-uuid.html" rel="alternate" type="text/html" title="How to choose UUID" /><published>2024-03-22T00:00:00+00:00</published><updated>2024-03-22T00:00:00+00:00</updated><id>https://jeffreytse.net/computer/2024/03/22/how-to-choose-uuid</id><content type="html" xml:base="https://jeffreytse.net/computer/2024/03/22/how-to-choose-uuid.html"><![CDATA[<p>UUIDs (Universally Unique Identifiers) are standardized 128-bit identifiers used
+to uniquely identify information in computer systems. Here’s a brief comparison
+of UUID v4, v5, and v7:</p>
+
+<h2 id="uuid-v4">UUID v4</h2>
+
+<ul>
+  <li><strong>Random-based</strong>: UUID v4 is generated using random numbers.</li>
+  <li><strong>Uniqueness</strong>: High probability of uniqueness due to randomness.</li>
+  <li><strong>Use case</strong>: Suitable for most general-purpose applications where uniqueness
+is required without a need for determinism.</li>
+  <li><strong>Example</strong>: <code class="language-plaintext highlighter-rouge">550e8400-e29b-41d4-a716-446655440000</code></li>
+</ul>
+
+<h2 id="uuid-v5">UUID v5</h2>
+
+<ul>
+  <li><strong>Name-based (SHA-1)</strong>: UUID v5 is generated using a namespace identifier and
+a name, hashed with SHA-1.</li>
+  <li><strong>Deterministic</strong>: The same namespace and name will always produce the same UUID.</li>
+  <li><strong>Use case</strong>: Useful when you need to generate the same UUID for the same
+input (e.g., generating UUIDs from URLs).</li>
+  <li><strong>Example</strong>: <code class="language-plaintext highlighter-rouge">3c4e2b84-6414-5b6b-8a2b-4d6e1e4b6c8a</code></li>
+</ul>
+
+<h2 id="uuid-v7">UUID v7</h2>
+
+<ul>
+  <li><strong>Time-ordered</strong>: UUID v7 is a new proposed standard that combines a timestamp
+with random bits.</li>
+  <li><strong>Uniqueness and ordering</strong>: Provides both uniqueness and time-ordering, making
+it useful for distributed systems where order matters.</li>
+  <li><strong>Use case</strong>: Suitable for scenarios where you need unique identifiers that can
+also be sorted chronologically.</li>
+  <li><strong>Example</strong>: Not yet standardized, but would look similar to other UUIDs with
+a time-based component.</li>
+</ul>
+
+<h2 id="comparison-table">Comparison Table</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>UUID v4</th>
+      <th>UUID v5</th>
+      <th>UUID v7</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Generation Type</td>
+      <td>Random</td>
+      <td>Name-based (SHA-1)</td>
+      <td>Time-ordered</td>
+    </tr>
+    <tr>
+      <td>Uniqueness</td>
+      <td>High</td>
+      <td>Deterministic</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Use Case</td>
+      <td>General-purpose</td>
+      <td>Consistent UUIDs</td>
+      <td>Chronological sorting</td>
+    </tr>
+    <tr>
+      <td>Example</td>
+      <td><code class="language-plaintext highlighter-rouge">550e8400-e29b-41d4-a716-446655440000</code></td>
+      <td><code class="language-plaintext highlighter-rouge">3c4e2b84-6414-5b6b-8a2b-4d6e1e4b6c8a</code></td>
+      <td>Not yet standardized</td>
+    </tr>
+    <tr>
+      <td>Standardization</td>
+      <td>RFC 4122</td>
+      <td>RFC 4122</td>
+      <td>Proposed</td>
+    </tr>
+    <tr>
+      <td>Namespace</td>
+      <td>N/A</td>
+      <td>Defined (e.g., DNS, URL)</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="summary">Summary</h2>
+
+<ul>
+  <li><strong>v4</strong>: Random, high uniqueness, general-purpose.</li>
+  <li><strong>v5</strong>: Deterministic, name-based, useful for consistent UUIDs from the same input.</li>
+  <li><strong>v7</strong>: Time-ordered, combines uniqueness with chronological sorting, useful for
+distributed systems.</li>
+</ul>
+
+<p>Choose the version based on your specific requirements for uniqueness, determinism,
+and ordering.</p>]]></content><author><name>Jeffrey Tse</name></author><category term="computer" /><category term="computer" /><category term="programming" /><category term="note" /><summary type="html"><![CDATA[UUIDs (Universally Unique Identifiers) are standardized 128-bit identifiers used to uniquely identify information in computer systems. Here’s a brief comparison of UUID v4, v5, and v7:]]></summary></entry><entry><title type="html">Taylor Swift - NPR Music Tiny Desk Concert (2019)</title><link href="https://jeffreytse.net/misc/2024/02/23/taylor-swift-npr-music-tiny-desk-concert-2019.html" rel="alternate" type="text/html" title="Taylor Swift - NPR Music Tiny Desk Concert (2019)" /><published>2024-02-23T00:00:00+00:00</published><updated>2024-02-23T00:00:00+00:00</updated><id>https://jeffreytse.net/misc/2024/02/23/taylor-swift-npr-music-tiny-desk-concert-2019</id><content type="html" xml:base="https://jeffreytse.net/misc/2024/02/23/taylor-swift-npr-music-tiny-desk-concert-2019.html"><![CDATA[<p><img src="https://www.youtube.com/watch?v=FvVnP8G6ITs&amp;style=width:100%" alt="Taylor Swift - NPR Music Tiny Desk Concert (2019)" /></p>
+
+<p>Wow! This is a lot of people in a tiny office!
+I love it</p>
+
+<p>I’m Taylor, Welcome to my Tiny Desk
+Concert!</p>
+
+<p>Wow It’s great to be in DC</p>
+
+<p>You guys…um…how do you think exciting going on last couple weeks?</p>
+
+<p>Any possible changes in play?</p>
+
+<p>Do us a favor : give a round of applause to NPR for putting this whole thing on</p>
+
+<p>Tiny Desk is like one of my favorite corners of the internet…um and I always
+love seeing like</p>
+
+<p>it’s an opportunity for artists to decide a different way to showcase their music</p>
+
+<p>and so you’re kind of inundated by overwhelming opportunity and choices like I was</p>
+
+<p>I just decided to take this as an opportunity to show you guys
+how the songs were sounded when I first wrote them</p>
+
+<p>So it’s just me…there’s no dancers…unfortunately</p>
+
+<p>[Um “chuckle”]</p>
+
+<p>So, you know, I have this album that just came out called LOVER</p>
+
+<p>[cheers]</p>
+
+<p>Real happy you like it</p>
+
+<p>It’s one of those albums where I wrote everything on one instrument first, so…</p>
+
+<p>it’s really fun to pick songs to do acoustically because they all started out
+that way.</p>
+
+<p>Um…and…There’s a song that I had wanted to write conceptually for a very
+long time, because over the course of my life, it has occurred to me that we
+have a bit of a double standard issue in our society</p>
+
+<p>It’s something I’ve thought about 7 hundred million times a day, for the last
+10 years of my life and I was always wondering, like…</p>
+
+<p>Can I write a song about this? Is there a concise and catchy way to write a song
+about this?</p>
+
+<p>What angle would I take if I were to write a song about this?</p>
+
+<p>And so I decided that the most fun thing to do would be imaging what my life
+would be like</p>
+
+<p>And what people would say about my life if I did all the same things</p>
+
+<p>But if I was a man</p>
+
+<p>♪ The Man ♪</p>
+
+<p>♪ I would be complex, I would be cool ♪</p>
+
+<p>♪ They’d say I played the field before I found someone to commit to ♪</p>
+
+<p>♪ And that would be okay
+for me to do ♪</p>
+
+<p>♪ Every conquest I had made would make me more of a boss to you ♪</p>
+
+<p>♪ I’d be a fearless leader ♪</p>
+
+<p>♪ I’d be an alpha type ♪</p>
+
+<p>♪ When everyone believes ya ♪</p>
+
+<p>♪ What’s that like? ♪</p>
+
+<p>♪ I’m so sick of running as fast as I can ♪</p>
+
+<p>♪ Wondering if I’d get there quicker if I was a man ♪</p>
+
+<p>♪ And I’m so sick of them coming at me again ♪</p>
+
+<p>♪ Cause if I was a man, then I’d be the man ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ They’d say I hustled, put in the work ♪</p>
+
+<p>♪ They wouldn’t shake their heads and question how much of this I deserve ♪</p>
+
+<p>♪ What I was wearing, if I was rude ♪</p>
+
+<p>♪ Could all be separated from my good ideas and power moves ♪</p>
+
+<p>♪ And they would toast to me, Oh
+Let the players play ♪</p>
+
+<p>♪ I’d be just like Leo
+in Saint-Tropez ♪</p>
+
+<p>♪ I’m so sick of running as fast as I can ♪</p>
+
+<p>♪ Wondering if I’d get there quicker if I was a man ♪</p>
+
+<p>♪ And I’m so sick of them coming at me again ♪</p>
+
+<p>♪ Cause if I was a man, then I’d be the man ♪</p>
+
+<p>♪ I’d be the man
+Yeah ♪</p>
+
+<p>♪ I’d be the man
+Yeah ♪</p>
+
+<p>♪ What’s it like to brag about raking in dollars
+And getting b*tches and models? ♪</p>
+
+<p>♪ And it’s all good if you’re bad
+it’s okay if you’re mad ♪</p>
+
+<p>♪ If I was out flashing my dollars
+I’d be a bitch, not a baller ♪</p>
+
+<p>♪ They’d paint me out to be bad
+So, it’s okay that I’m maaaaaaad ♪</p>
+
+<p>♪ I’m so sick of running as fast as I can ♪</p>
+
+<p>♪ Wondering if I’d get there quicker if I was a man ♪</p>
+
+<p>♪ And I’m so sick of them coming at me again ♪</p>
+
+<p>♪ Cause if I was a man ♪</p>
+
+<p>♪ Then I’d be the man ♪</p>
+
+<p>♪ I’d be the man
+Yeah ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ Oh ♪</p>
+
+<p>♪ Cause I’m so sick of them coming at me again ♪</p>
+
+<p>♪ Cause if I was a man ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ I’d be the man ♪</p>
+
+<p>♪ If I was a man ♪</p>
+
+<p>♪ Then I’d be the maaan ♪</p>
+
+<p>Thanks guys</p>
+
+<p>So…Um</p>
+
+<p>So..Um There’s a song that I wrote on the album that I knew as soon as I wrote it
+it was going to be the tittle track</p>
+
+<p>Just….And it was like</p>
+
+<p>Writing songs is strange cause it never happens exactly the same way</p>
+
+<p>But sometimes it happens in a way that it feels like this weird
+like haunting that you can’t really explain</p>
+
+<p>Like you don’t know where these ideas came from
+and you feel like you don’t work at all to write it</p>
+
+<p>And that’s the best part - that’s the best kind of song…Um</p>
+
+<p>And then there most days, you show up,
+and the idea doesn’t</p>
+
+<p>And that’s where craft you have to kind of know the craft of it, you have to
+scrounge your brain for something to write</p>
+
+<p>Because you’re not always going to be inspired, and that’s okay…um</p>
+
+<p>There’s a really good Elizabeth Gilbert Ted Talk about that, it’s like…
+one of my favorite things to cry while watching</p>
+
+<p>Um, but yeah, like with this song, it was one of those weird moments where I was
+just like. Okay this is just middle of the night…</p>
+
+<p>I’m like in my PJs, like stumbling to the piano because I got this idea, and the
+song just happened really quickly</p>
+
+<p>There’s a line in the song that I’m really proud of…um
+and the line says :</p>
+
+<p>With every guitar string scar on my hand I take this magnetic force of a man to
+be my lover</p>
+
+<p>And that line is really special to me because um I’ve spent quite a bit of time
+writing breakup songs</p>
+
+<p>And uh…songs about things not turning out the way you wanted them to</p>
+
+<p>Or songs about what you thought would be love and it turned out to be not that at
+all or</p>
+
+<p>You know just kind of the struggle of life…I find songwriting is really just a
+cathartic therapeutic thing for me</p>
+
+<p>And so there are a lot of things I’ve written about in life that were just the
+harder things I had to go through so</p>
+
+<p>I took that as a metaphor for like…you know the times when I was learning to
+play guitar and I’d like</p>
+
+<p>play until my fingers bled when I was a kid And I still have the marks from that</p>
+
+<p>You know all the times I’d be changing a string and it would pop and I still have
+scars from that</p>
+
+<p>Um…but it’s also a bigger metaphor for like in life, you accumulate scars, you
+accumulate hurt</p>
+
+<p>You accumulate moments of you know learning and disappointment, and struggle and
+all that</p>
+
+<p>And if someone’s gonna take your hand,
+they’d better take your hand, scars and all</p>
+
+<p>Um…So this is called LOVER</p>
+
+<p>♪ Lover ♪</p>
+
+<p>♪ We could leave the Christmas lights up until January ♪</p>
+
+<p>♪ This is our place, we make the rules ♪</p>
+
+<p>♪ And there’s a dazzling haze ♪</p>
+
+<p>♪ a mysterious way about you, dear ♪</p>
+
+<p>♪ Have I known you twenty seconds, twenty years? ♪</p>
+
+<p>♪ Can I go where you go? ♪</p>
+
+<p>♪ Can we always be this close forever and ever? ♪</p>
+
+<p>♪ You take me out, You take me home ♪</p>
+
+<p>♪ You’re my, my, my, my ♪</p>
+
+<p>♪ LOVER ♪</p>
+
+<p>♪ We could let our friends crash in the living room ♪</p>
+
+<p>♪ This is our place, we make the call ♪</p>
+
+<p>♪ I’m highly suspicious that everyone who sees you wants you ♪</p>
+
+<p>♪ I’ve loved you three summers now, honey, I want ‘em all ♪</p>
+
+<p>♪ Can I go where you go? ♪</p>
+
+<p>♪ Can we always be this close forever and ever? ♪</p>
+
+<p>♪ And I take me out, take me home ♪</p>
+
+<p>♪ You’re my, my, my, my ♪</p>
+
+<p>♪ LOVER ♪</p>
+
+<p>♪ Ladies and gentlemen, will you please stand? ♪</p>
+
+<p>♪ With every guitar string scar on my hand ♪</p>
+
+<p>♪ I take this magnetic force of a man to be my ♪</p>
+
+<p>♪ LOVER ♪</p>
+
+<p>♪ And my heart’s been borrowed and yours has been blue ♪</p>
+
+<p>♪ All’s well that ends well to end up with you ♪</p>
+
+<p>♪ Swear to be over-dramatic and true to my LOVER ♪</p>
+
+<p>♪ And you’ll save all your dirtiest jokes for me ♪</p>
+
+<p>♪ And at every table, I’ll save you a seat ♪</p>
+
+<p>♪ Can I go where you go? ♪</p>
+
+<p>♪ Can we always be this close forever and ever? ♪</p>
+
+<p>♪ Take me out, take me home ♪</p>
+
+<p>♪ You’re my, my, my, my ♪</p>
+
+<p>♪ Oh, you’re my, my, my, my ♪</p>
+
+<p>♪ Darling, you’re my, my, my, my ♪</p>
+
+<p>♪ LOVER ♪</p>
+
+<p>Thanks guys</p>
+
+<p>You guys ever have costume changes at Tiny Desk?</p>
+
+<p>Um..so…over the course of the years that I’ve done
+interviews…Um…</p>
+
+<p>which is I think probably or years now
+Um…</p>
+
+<p>I’ve gotten a question over and over again that I think has has
+like the potential to seriously deteriorate my mental health</p>
+
+<p>Um…The question is, “What will you ever do if you
+get happy? What will you write about?”</p>
+
+<p>Will you just never be able to write a song again?</p>
+
+<p>It’s an interesting question</p>
+
+<p>Um…and you know in the the interviews, when I would get
+that question as a young person</p>
+
+<p>I’d kind of be like, ‘Well, I started out writing songs about
+stuff I had no idea about</p>
+
+<p>Like I started writing songs when I was years old
+and they were usually about heartbreak”</p>
+
+<p>I had no idea what I was talking about, but I had watched
+movies and I had read books, so I would grab inspiration from character dynamics, as you do</p>
+
+<p>Um…and so I would say in the interviews, “Oh, I’d probably just do that!”</p>
+
+<p>If stuff is going on in the world that not just happening
+to me, like maybe I could get inspiration from that</p>
+
+<p>But then I’d go home and I’d be like : [blank stare]</p>
+
+<p>What would happen if I was ever happy?</p>
+
+<p>Would I not be able to do the thing that I love the most in the
+world? Like would that…is that? Oh my…Oh my god!</p>
+
+<p>Would I not be able to write breakup songs anymore? I love
+breakup songs! They’re so fun to write!</p>
+
+<p>Um…and so then I happened to be writing this album Lover, which is a very, very happy, romantic….</p>
+
+<p>Um…album, and I started, like in my life, a few of my friends were going through break ups, and we were talking</p>
+
+<p>it’s like the kind of break up where you need to talk to your
+friend all the time because they need to talk about it
+all day, every day</p>
+
+<p>So I was having a lot of conversations about break ups
+I watched movies that were really like:</p>
+
+<p>well-done about break ups, In some of the books
+I was reading there were some good break ups happening</p>
+
+<p>And this all culminated in me waking up one day with all these
+like heartbreak lyrics in my head and I was like</p>
+
+<p>“It’s still here! Yes!”</p>
+
+<p>Um…So I ended up writing a song that was a break up song on the Lover album, and I was like :</p>
+
+<p>This song is my proof that…you know…you don’t have to stop
+writing songs about heartache and misery</p>
+
+<p>Which for me is incredible news</p>
+
+<p>So this is called : Death by a Thousand Cuts</p>
+
+<p>♪ Death by a Thousand Cuts ♪</p>
+
+<p>♪ My, my, my, my ♪</p>
+
+<p>♪ My, my, my, my ♪</p>
+
+<p>♪ Saying goodbye is death by a thousand cuts ♪</p>
+
+<p>♪ Flashbacks waking me up ♪</p>
+
+<p>♪ I get drunk, but it’s not enough ♪</p>
+
+<p>♪ Cause the morning comes and you’re not my baby ♪</p>
+
+<p>♪ I look through the windows of this love ♪</p>
+
+<p>♪ Even though we boarded them up ♪</p>
+
+<p>♪ Chandelier’s still flickering here ♪</p>
+
+<p>♪ Cause I can’t pretend it’s okay when it’s not ♪</p>
+
+<p>♪ It’s death by a thousand cuts ♪</p>
+
+<p>♪ I dress to k*ll my time, I take the long way home ♪</p>
+
+<p>♪ I ask the traffic lights if it’ll be alright ♪</p>
+
+<p>♪ They say, “I don’t know” ♪</p>
+
+<p>♪ And what once was ours, is no one’s now ♪</p>
+
+<p>♪ I see you everywhere, the only thing we share ♪</p>
+
+<p>♪ Is this small town ♪</p>
+
+<p>♪ You said it was a great love, one for the ages ♪</p>
+
+<p>♪ But if the story’s over, why am I still writing pages? ♪</p>
+
+<p>♪ Saying goodbye is death by a thousand cuts ♪</p>
+
+<p>♪ Flashbacks waking me up ♪</p>
+
+<p>♪ I get drunk, but it’s not enough ♪</p>
+
+<p>♪ Cause the morning comes and you’re not my baby ♪</p>
+
+<p>♪ I look through the windows of this love ♪</p>
+
+<p>♪ Even though we boarded them up ♪</p>
+
+<p>♪ Chandelier’s still flickering here ♪</p>
+
+<p>♪ Cause I can’t pretend it’s okay when it’s not ♪</p>
+
+<p>♪ It’s death by a thousand cuts ♪</p>
+
+<p>♪ My heart, my hips, my body, my love ♪</p>
+
+<p>♪ Tryna find a part of me that you didn’t touch ♪</p>
+
+<p>♪ Gave up on me like I was a bad drug ♪</p>
+
+<p>♪ Now I’m searching for signs in a haunted club ♪</p>
+
+<p>♪ Our songs, our films, united, we stand ♪</p>
+
+<p>♪ Our country, guess it was a lawless land ♪</p>
+
+<p>♪ Quiet my fears with the touch of your hand ♪</p>
+
+<p>♪ Paper cut stings from our paper-thin plans ♪</p>
+
+<p>♪ My time, my wine, my spirit, my trust ♪</p>
+
+<p>♪ Tryna find a part of me you didn’t take up ♪</p>
+
+<p>♪ Gave you so much, but it wasn’t enough ♪</p>
+
+<p>♪ But I’ll be all right, it’s just a thousand cuts ♪</p>
+
+<p>♪ I get drunk, but it’s not enough ♪</p>
+
+<p>♪ Cause you’re not my baby ♪</p>
+
+<p>♪ I look through the windows of this love ♪</p>
+
+<p>♪ Even though we boarded them up ♪</p>
+
+<p>♪ Chandelier’s still flickering here ♪</p>
+
+<p>♪ Cause I can’t pretend it’s okay when it’s not ♪</p>
+
+<p>♪ No, it’s not ♪</p>
+
+<p>♪ It’s death by a thousand cuts ♪</p>
+
+<p>♪ My body, my love, my trust ♪</p>
+
+<p>♪ But it wasn’t enough, it wasn’t enough, no, no ♪</p>
+
+<p>♪ I ask the traffic lights if it’ll be alright ♪</p>
+
+<p>♪ They say, “I don’t know” ♪</p>
+
+<p>Thanks guys!</p>
+
+<p>I have three that I don’t…</p>
+
+<p>She’s giving her guitar picks to kids :
+“You can Sell them on eBay”</p>
+
+<p>Um…So…I was trying to think of what songs to do for this
+Um…and you get I think four, so I was [excited noises]</p>
+
+<p>And so I was thinking about how it’s autumn, and Um…
+that’s my favorite “Chuckle” season…um
+and people on the internet have been kind enough like</p>
+
+<p>in like in amongst the people who care about my music have
+been kind enough to associate autumn with one of
+my albums called RED</p>
+
+<p>And…Um…You know it’s just a very autumn-y album, and
+so I was thinking about that how it’s so nice
+the crisp fall air is happening</p>
+
+<p>and…um …you know, I don’t google myself ever</p>
+
+<p>I recommend you don’t do it either</p>
+
+<p>But my dad does! And he will send me links to thinks and
+every once in awhile I’ll see them, and that’s
+the only way I get my news</p>
+
+<p>Um…But he sends me these lists that are like very nice
+…um…like ranking my songs, that’s really nice for people to do</p>
+
+<p>I really love that people do that and I find it really nice and
+I’m grateful that people care enough to rank my songs</p>
+
+<p>There’s one song that like I’m particularly proud of because
+when the RED album came out there was this one song on the album where I was like</p>
+
+<p>I’m the only one who loves this song this much,
+but it’s only because it happened to me, it was personal</p>
+
+<p>No one else is going to like
+“All Too Well” as much as like</p>
+
+<p>And when it came out of the album, slowly but surely over
+the course of that album’s life and beyond</p>
+
+<p>You know you guys have made that song something that was way more than I ever thought the life of that song would be</p>
+
+<p>and like I’ve had so much fun playing it in concert and screaming it with you guys like and yeah</p>
+
+<p>So the fact that the song went out into the world so you
+make it so it’s always</p>
+
+<p>I think it’s usually number # on any list saying what my songs are, which is great</p>
+
+<p>and I’m happy that like my opinion lines up with your opinion
+on that because that was probably my favorite song on RED</p>
+
+<p>Um…and so I figured that I would play it for you</p>
+
+<p>Before I do play it for you, I just wanted to say thank you so much for having me, this is really amazing to get to do this</p>
+
+<p>I’m honored that I was invited, and the fact that this many
+people would want to cram into the space</p>
+
+<p>I really I understand the sacrifices that were made for me today</p>
+
+<p>So…Um…here’s a sad song…about fall</p>
+
+<p>♪ All Too Well ♪
+From RED ALBUM</p>
+
+<p>♪ I walked through the door with you,
+the air was cold ♪</p>
+
+<p>♪ But something ‘bout it felt like home somehow ♪</p>
+
+<p>♪ And I left my scarf there at your sister’s house ♪</p>
+
+<p>♪ And you’ve still got it
+in your drawer even now ♪</p>
+
+<p>♪ Your sweet disposition
+and my wide-eyed gaze ♪</p>
+
+<p>♪ We’re singing in the car,
+getting lost Upstate ♪</p>
+
+<p>♪ Autumn leaves falling down like
+pieces into place ♪</p>
+
+<p>♪ I can picture it after all these days ♪</p>
+
+<p>♪ And I know it’s long gone ♪</p>
+
+<p>♪ And that magic’s not here no more ♪</p>
+
+<p>♪ And I might be okay ♪</p>
+
+<p>♪ But I’m not fine at all ♪</p>
+
+<p>♪ Cause there we are again
+on that little town street ♪</p>
+
+<p>♪ You almost ran the red
+cause you were looking over at me ♪</p>
+
+<p>♪ Wind in my hair, I was there
+I remember it all too well ♪</p>
+
+<p>♪ Photo album on the counter
+your cheeks were turning red ♪</p>
+
+<p>♪ You used to be a little kid
+with glasses in a twin sized bed ♪</p>
+
+<p>♪ Your mother’s telling stories
+about you on a tee ball team ♪</p>
+
+<p>♪ You taught me ‘bout your past
+thinking your future was me ♪</p>
+
+<p>♪ I know it’s long gone ♪</p>
+
+<p>♪ And there was nothing else I could do ♪</p>
+
+<p>♪ I forget about you long enough ♪</p>
+
+<p>♪ To forget why I needed to ♪</p>
+
+<p>♪ Cause there we are again in the
+middle of the night ♪</p>
+
+<p>♪ We’re dancing around the kitchen
+in the refrigerator light ♪</p>
+
+<p>♪ Down the stairs, I was there
+I remember it all too well ♪</p>
+
+<p>♪ Maybe we got lost in translation
+maybe I asked for too much ♪</p>
+
+<p>♪ Maybe this thing was a masterpiece
+‘til you tore it all up ♪</p>
+
+<p>♪ Running scared, I was there
+I remember it all too well ♪</p>
+
+<p>♪ Hey, and you call me up again
+just to break me like a promise ♪</p>
+
+<p>♪ So casually cruel
+in the name of being honest ♪</p>
+
+<p>♪ I’m a crumpled up piece of paper lying here ♪</p>
+
+<p>♪ Cause I remember it all, all, all…too well ♪</p>
+
+<p>♪ Time won’t fly, it’s like I’m paralyzed by it ♪</p>
+
+<p>♪ I’d like to be my old self again
+but I’m still trying to find it ♪</p>
+
+<p>♪ After plaid shirt days and nights
+when you made me your own ♪</p>
+
+<p>♪ Now you mail back my things and I
+walk home alone ♪</p>
+
+<p>♪ But you keep my old scarf
+from that very first week ♪</p>
+
+<p>♪ Cause it reminds you of innocence
+and it smells like meee ♪</p>
+
+<p>♪ You can’t get rid of it
+cause you remember it all too well ♪</p>
+
+<p>♪ Cause there we are again
+when I loved you so ♪</p>
+
+<p>♪ Back before you lost
+the one real thing you’ve ever known ♪</p>
+
+<p>♪ It was rare, You were there
+You remember it all too well ♪</p>
+
+<p>♪ Wind in my hair, you were there
+you remember it all ♪</p>
+
+<p>♪ Down the stairs, you were there
+you remember it all ♪</p>
+
+<p>♪ It was rare, You were there
+You remember it all too well ♪</p>
+
+<p>Thanks for having Me!</p>]]></content><author><name>Jeffrey Tse</name></author><category term="misc" /><category term="english" /><category term="music" /><summary type="html"><![CDATA[]]></summary></entry></feed>

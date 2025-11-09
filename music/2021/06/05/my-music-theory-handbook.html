@@ -1,0 +1,1674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>My Music Theory Handbook | Jeffrey Tse’s Blog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="My Music Theory Handbook">
+<meta name="author" content="Jeffrey Tse">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="This handbook is a topically organized book of reference on music theory that I learned.">
+<meta property="og:description" content="This handbook is a topically organized book of reference on music theory that I learned.">
+<link rel="canonical" href="https://jeffreytse.net/music/2021/06/05/my-music-theory-handbook.html">
+<meta property="og:url" content="https://jeffreytse.net/music/2021/06/05/my-music-theory-handbook.html">
+<meta property="og:site_name" content="Jeffrey Tse’s Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2021-06-05T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="My Music Theory Handbook">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeffrey Tse"},"dateModified":"2021-06-05T00:00:00+00:00","datePublished":"2021-06-05T00:00:00+00:00","description":"This handbook is a topically organized book of reference on music theory that I learned.","headline":"My Music Theory Handbook","mainEntityOfPage":{"@type":"WebPage","@id":"https://jeffreytse.net/music/2021/06/05/my-music-theory-handbook.html"},"url":"https://jeffreytse.net/music/2021/06/05/my-music-theory-handbook.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="https://jeffreytse.net">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://jeffreytse.net/feed.xml" title="Jeffrey Tse's Blog">
+<!-- Google tag (gtag.js) -->
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "false" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      var measurementId = 'G-N54MN13CMZ';
+
+      (function(src) {
+        var tag = document.createElement('script');
+        tag.src = src;
+        tag.async = true;
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      })('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    }
+  }
+  window.addEventListener("load", initGoogleAnalytics);
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="Jeffrey Tse's Blog" src="/favicon.png" onerror="this.style.display='none'">
+  Jeffrey Tse's Blog
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/">HOME</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/tags.html">TAGS</a><a class="page-link" href="/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<div class="page-link" style="display: inline;">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<div class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</div>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="page-banner">
+    <div class="page-banner-img">
+<div style="background-image: url(https://bit.ly/34Mszcd)"></div>
+        <img class="img-placeholder" src="https://bit.ly/34Mszcd">
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner">
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">My Music Theory Handbook</h1>
+  <h2 class="post-subtitle"></h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2021-06-05T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 05 Jun 2021
+    </time><span class="post-author left-vsplit"><i class="fa fa-pencil"></i> Jeffrey Tse</span>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 7 mins</span>
+  </div>
+<div class="post-tags">
+<a class="post-tag" href="/tags.html#art">#art</a><a class="post-tag" href="/tags.html#music">#music</a><a class="post-tag" href="/tags.html#note">#note</a>
+</div></header>
+</div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+        document.dispatchEvent(new Event('theme-changed'));
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>This handbook is a topically organized book of reference on music theory that
+I learned.</p>
+
+<h2 id="melody">Melody</h2>
+
+<ul>
+  <li>Melody is the soul of music</li>
+  <li>There’re many ways to write a melody</li>
+  <li>It’s complicated as many factors to consider
+    <ul>
+      <li>The theme of music</li>
+      <li>The characteristics of the audience</li>
+      <li>The emotions that it wants to express</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="interval-melody">Interval Melody</h3>
+
+<p>What the duration is?</p>
+
+<ul>
+  <li>The time a pitch continues</li>
+</ul>
+
+<p>What an interval is?</p>
+
+<ul>
+  <li>A term to describe the pitch gap</li>
+  <li>The distance between two pitches</li>
+  <li>Unit is degree</li>
+</ul>
+
+<p>For example:</p>
+
+<ul>
+  <li>C-&gt;C: 1 degree</li>
+  <li>C-&gt;D: 2 degrees</li>
+  <li>D-&gt;E: 2 degrees</li>
+  <li>C-&gt;E: 3 degrees</li>
+</ul>
+
+<p>Interval classification:</p>
+
+<ul>
+  <li>Homophonic Repetition (1 degree)</li>
+  <li>Progressive Progress (2 degrees)</li>
+  <li>Jumping Progress (3 degrees or higher)
+    <ul>
+      <li>A small jump (3 degrees)</li>
+      <li>A big jump (3+ degrees)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Interval restriction:</p>
+
+<ul>
+  <li>1-3 degrees: unrestricted</li>
+  <li>4+ degrees: Be cautious, not too frequent</li>
+  <li>6+ degrees: Must be reversed</li>
+</ul>
+
+<p>Reference specification:</p>
+
+<ul>
+  <li>Range within 12 degrees
+    <ul>
+      <li>performance</li>
+      <li>singing</li>
+      <li>sounds lacking in coherence</li>
+    </ul>
+  </li>
+  <li>Stagger interval classes
+    <ul>
+      <li>Keep active</li>
+      <li>Keep stable</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Pros and cons:</p>
+
+<ul>
+  <li>Doesn’t require inspiration or creativity</li>
+  <li>Can randomly write many non-repetitive melodies</li>
+  <li>It’s possible to write a very bad music if without adjustment
+    <ul>
+      <li>Must be modified and adjusted after it is written.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="four-development-trends-of-melody">Four development trends of melody</h3>
+
+<p>What the tension is? Describe the intensity of the music and melody.</p>
+
+<ul>
+  <li>The tension of melody
+    <ul>
+      <li>Accumulating tension
+        <ul>
+          <li>After the tension is accumulated, it must be released in some way</li>
+        </ul>
+      </li>
+      <li>Releasing tension</li>
+      <li>Push music forward</li>
+    </ul>
+  </li>
+  <li>Four development trends
+    <ul>
+      <li>Ascending Progress (Accumulating tension)</li>
+      <li>Descending Progress (Releasing tension)</li>
+      <li>Staggered Progress (Keeping tension)</li>
+      <li>Quiescent Progress (Keeping tension)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The rule of accumulation and release of tension:</p>
+
+<ul>
+  <li>Through the pitch of the notes
+    <ul>
+      <li>Pitch rise (Accumulating tension)</li>
+      <li>Pitch drop (Release tension)</li>
+    </ul>
+  </li>
+  <li>Through the length of the notes
+    <ul>
+      <li>Short notes (Accumulating tension)</li>
+      <li>Long notes (Release tension)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="harmony">Harmony</h2>
+
+<h3 id="harmony-functions">Harmony functions</h3>
+
+<p>What the chord is?</p>
+
+<p>In Harmonics:</p>
+
+<ul>
+  <li>Two or more sound are emitted at the same time</li>
+  <li>The functions and features of sound (good or not, bright or dim, nervous or
+smoothing, what function does it play in music development, etc.)</li>
+  <li>Classify, organize and study the characteristics and functions in different ways</li>
+</ul>
+
+<p>Objectively speaking, there is a big difference between playing one note and
+playing multiple notes at the same time.</p>
+
+<p>After combining the notes. the sound can be:</p>
+
+<ul>
+  <li>Sunny or Soft</li>
+  <li>Uncomfortable</li>
+  <li>Special effects or interesting feeling</li>
+</ul>
+
+<h3 id="triad">Triad</h3>
+
+<ul>
+  <li>The simplest chord among all the chords in harmonics</li>
+  <li>A chord composed of three notes superimposed in thirds</li>
+  <li>Root, third and fifth</li>
+</ul>
+
+<p>Understand the interval deeply:</p>
+
+<p>Since classification method of degrees is a bit rough</p>
+
+<p>For example:</p>
+
+<ul>
+  <li>C -&gt; D: 2 degrees (A black key of c#, a whole tone)</li>
+  <li>E -&gt; F: 2 degrees (No black key, semitone)</li>
+</ul>
+
+<p>Both are 2 degrees, but the intervals are different, which is inaccurate, to
+solve this problem, we add prefixes to them.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Degrees</th>
+      <th>Semitones</th>
+      <th>Short</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>P1</td>
+    </tr>
+    <tr>
+      <td rowspan="2">2
+<br>
+</td>
+      <td>1</td>
+      <td>m2 or A1</td>
+    </tr>
+    <tr>
+      
+      <td>2</td>
+      <td>M2 or d3</td>
+    </tr>
+    <tr>
+      <td rowspan="2">3
+<br>
+</td>
+      <td>3</td>
+      <td>m3</td>
+    </tr>
+    <tr>
+      
+      <td>4</td>
+      <td>M3</td>
+    </tr>
+    <tr>
+      <td rowspan="2">4
+<br>
+</td>
+      <td>5</td>
+      <td>P4</td>
+    </tr>
+    <tr>
+      
+      <td>6</td>
+      <td>A4 or d5</td>
+    </tr>
+    <tr>
+      <td rowspan="2">5
+<br>
+</td>
+      <td>7</td>
+      <td>P5</td>
+    </tr>
+    <tr>
+      
+      <td>8</td>
+      <td>m6</td>
+    </tr>
+    <tr>
+      <td rowspan="2">6
+<br>
+</td>
+      <td>9</td>
+      <td>M6</td>
+    </tr>
+    <tr>
+      
+      <td>10</td>
+      <td>m7</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>11</td>
+      <td>M7</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>12</td>
+      <td>P8</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Prefix meanings:</p>
+
+<ul>
+  <li>P: Perfect</li>
+  <li>A: Augmented</li>
+  <li>d: Diminished</li>
+  <li>m: Minor</li>
+  <li>M: Major</li>
+</ul>
+
+<p>The classification of triads:</p>
+
+<ul>
+  <li>Major Triad (M3 + m3, bright, happy, vivid, optimistic)</li>
+  <li>Minor Triad (m3 + M3, dim, sad, lifeless, hesitate)</li>
+  <li>Augmented Triad (M3 + M3, uncomfortable)</li>
+  <li>Diminished Triad (m3 + m3, uncomfortable)</li>
+</ul>
+
+<p>There’re many ways to express chord, the most commonly used are the below three
+ways:</p>
+
+<ul>
+  <li>Symbols(The English alphabet of phonetic names)
+    <ul>
+      <li>The most commonly used notation in jazz and modern pop music</li>
+      <li>The letter of root note + the characteristics of the chord
+        <ul>
+          <li>C or Cmaj</li>
+          <li>Cm or Cmin</li>
+          <li>C+ or Caug</li>
+          <li>C^o or Cdim</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Roman Numerals
+    <ul>
+      <li>The most commonly used notation in classical music</li>
+      <li>The uppercase or lowercase Roman numerals + the characteristics of the cord
+        <ul>
+          <li>I</li>
+          <li>i</li>
+          <li>I+</li>
+          <li>i^o</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Figured Bass Notation
+    <ul>
+      <li>Focuses on recording the transposition and interval relationship of music</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The classification of harmony functions:</p>
+
+<ul>
+  <li>Tonic function (T)
+    <ul>
+      <li>Very stable, smooth, relaxing and satisfying feeling</li>
+      <li>Plays a role to start or stop music (just as your home)</li>
+      <li>At the beginning and end of a piece of music</li>
+      <li>I, iii, vi
+        <ul>
+          <li>I is the most typical one</li>
+          <li>iii and vi are relatively weak in functionality (A temporary home like
+hotel, )</li>
+        </ul>
+      </li>
+      <li>Disadvantage
+        <ul>
+          <li>Too stable</li>
+          <li>Boring and no development</li>
+          <li>Needs other function chords to help it</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Dominant function (D)
+    <ul>
+      <li>Unstable</li>
+      <li>Strongly want to continue to develop, and eventually return to the Tonic
+function (outside)</li>
+      <li>Be interspersed in the development of music</li>
+      <li>V, vii^o
+        <ul>
+          <li>V is the most typical one (V7 is stronger than V)</li>
+          <li>Vii^o and vi are relatively weak in functionality</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Subdominant function (S)
+    <ul>
+      <li>Not so stable, but not particularly unstable (T &lt; S &lt; D)</li>
+      <li>As the bridge, let the chord connections become diverse (Bridge between home
+and outside)</li>
+      <li>IV, ii
+        <ul>
+          <li>IV is the most typical one</li>
+          <li>ii is relatively weak in functionality</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>The role of harmony functions:</p>
+
+<ul>
+  <li>A guide to write the harmonic progression</li>
+  <li>Push music forward</li>
+</ul>
+
+<p>The progress is as below:</p>
+
+<p>(Unstable) –(Resolution)–&gt; (Stable)</p>
+
+<h3 id="harmony-progression">Harmony progression</h3>
+
+<p>It’s written using the logic of functional harmony</p>
+
+<p>Different types of Functional Progression:</p>
+
+<ul>
+  <li>Functional progression
+    <ul>
+      <li>Starting with the T</li>
+      <li>Sequential connection
+        <ul>
+          <li>T -&gt; T/D/S</li>
+          <li>S -&gt; T/D/S</li>
+          <li>D -&gt; T (D is quite tense to return to be stable)</li>
+        </ul>
+      </li>
+      <li>C -&gt; F -&gt; G7 -&gt; C
+        <ul>
+          <li>In Chinese: 启 -&gt; 承 -&gt; 转 -&gt; 合</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Termination progression
+    <ul>
+      <li>Plagal Cadence progression</li>
+    </ul>
+  </li>
+  <li>Sequence progression</li>
+  <li>Non-functional progression (with non-functional harmony, focus on the
+environment and which harmony can express it)</li>
+</ul>
+
+<h3 id="notation-systems">Notation Systems</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Note name</th>
+      <th>Solfège name</th>
+      <th>function name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C</td>
+      <td>Do</td>
+      <td>Tonic</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>Re</td>
+      <td>Supertonic</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>Mi</td>
+      <td>Mediant</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>Fa</td>
+      <td>Subdominant</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>So(Sol)</td>
+      <td>Dominant</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>La</td>
+      <td>Submediant</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Si(Ti)</td>
+      <td>Subtonic (or leading tone)</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>Do</td>
+      <td>Tonic</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For the Solfège:</p>
+
+<ul>
+  <li>Movable do</li>
+  <li>Fixed do</li>
+</ul>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/computer/2021/05/30/the-handbook-of-git-workflows.html" title="The Handbook of Git Workflows">
+          <div>The Handbook of Git Workflows</div>
+        </a><a class="next" href="/computer/2021/06/09/how-to-mount-remote-linux-system.html" title="How to Mount Remote Linux Filesystem">
+          <div>How to Mount Remote Linux Filesystem</div>
+        </a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="">
+          <a class="post-link" href="/linguistics/2021/02/08/the-morphology-of-english-words.html" title="The Morphology of English Words">
+            The Morphology of English Words<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/methodology/2025/11/08/mckinsey-7-steps-for-better-problem-solving.html" title="McKinsey 7 Steps for Better Problem Solving">
+            McKinsey 7 Steps for Better Problem Solving<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/music/2018/06/19/the-handbook-of-singing.html" title="The Handbook of Singing">
+            The Handbook of Singing<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/computer/2021/06/16/my-database-theory-handbook.html" title="My Database Theory Handbook">
+            My Database Theory Handbook<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments">  <div id="disqus_recommendations"></div>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://jeffreytse.net/music/2021/06/05/my-music-theory-handbook.html';
+      this.page.identifier = 'https://jeffreytse.net/music/2021/06/05/my-music-theory-handbook.html';
+    };
+
+    // Disqus recommendations
+    (function() {
+      if (false === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/recommendations.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus comments
+    (function() {
+      if (true === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus theme switching
+    document.addEventListener('theme-changed', function (e) {
+      if (document.readyState == 'complete') {
+        setTimeout(function () {
+          if (window.DISQUS_RECOMMENDATIONS) {
+            window.DISQUS_RECOMMENDATIONS.reset({ reload: true });
+          }
+          if (window.DISQUS) {
+            window.DISQUS.reset({ reload: true, config: disqus_config });
+          }
+        }, 100);
+      }
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+</div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Copyright © 2008-2020</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,1853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>The Handbook of Quality Management | Jeffrey Tse’s Blog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="The Handbook of Quality Management">
+<meta name="author" content="Jeffrey Tse">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Understanding Quality">
+<meta property="og:description" content="Understanding Quality">
+<link rel="canonical" href="https://jeffreytse.net/methodology/2024/08/09/the-handbook-of-quality-management.html">
+<meta property="og:url" content="https://jeffreytse.net/methodology/2024/08/09/the-handbook-of-quality-management.html">
+<meta property="og:site_name" content="Jeffrey Tse’s Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-08-09T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="The Handbook of Quality Management">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeffrey Tse"},"dateModified":"2024-08-09T00:00:00+00:00","datePublished":"2024-08-09T00:00:00+00:00","description":"Understanding Quality","headline":"The Handbook of Quality Management","mainEntityOfPage":{"@type":"WebPage","@id":"https://jeffreytse.net/methodology/2024/08/09/the-handbook-of-quality-management.html"},"url":"https://jeffreytse.net/methodology/2024/08/09/the-handbook-of-quality-management.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="https://jeffreytse.net">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://jeffreytse.net/feed.xml" title="Jeffrey Tse's Blog">
+<!-- Google tag (gtag.js) -->
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "false" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      var measurementId = 'G-N54MN13CMZ';
+
+      (function(src) {
+        var tag = document.createElement('script');
+        tag.src = src;
+        tag.async = true;
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      })('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    }
+  }
+  window.addEventListener("load", initGoogleAnalytics);
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="Jeffrey Tse's Blog" src="/favicon.png" onerror="this.style.display='none'">
+  Jeffrey Tse's Blog
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/">HOME</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/tags.html">TAGS</a><a class="page-link" href="/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<div class="page-link" style="display: inline;">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<div class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</div>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    html .page-banner .page-banner-img > *:first-child {
+      opacity: 0.8;
+    }
+
+    html[data-theme="dark"] .page-banner .page-banner-img > *:first-child {
+      opacity: 0.5744;
+    }
+  </style>
+<section class="page-banner">
+    <div class="page-banner-img">
+<div style="background-image: url(https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/65bae2f6216baa48fd07de44_223_BusinessBlogHeader_2400x1260.png)"></div>
+        <img class="img-placeholder" src="https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/65bae2f6216baa48fd07de44_223_BusinessBlogHeader_2400x1260.png">
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner">
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">The Handbook of Quality Management</h1>
+  <h2 class="post-subtitle">Quality management is a way of life</h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2024-08-09T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 09 Aug 2024
+    </time><span class="post-author left-vsplit"><i class="fa fa-pencil"></i> Jeffrey Tse</span>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 20 mins</span>
+  </div>
+<div class="post-tags">
+<a class="post-tag" href="/tags.html#management">#management</a><a class="post-tag" href="/tags.html#product">#product</a><a class="post-tag" href="/tags.html#quality">#quality</a><a class="post-tag" href="/tags.html#note">#note</a>
+</div></header>
+</div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+        document.dispatchEvent(new Event('theme-changed'));
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <h2 id="understanding-quality">Understanding Quality</h2>
+
+<blockquote>
+  <p>“The dedication to quality adn excellence is more than good business; it’s a
+way of life.” - George H. W. Bush</p>
+</blockquote>
+
+<p>The best definition of quality is always focus on meeting customers’ expectations.</p>
+
+<p>Be careful about exceeding customer’s expectations. Customers are not willing to
+pay extra for features or services they don’t require, so exceeding their needs
+can quickly cutdown the profits.</p>
+
+<p>How a department views, measures, and manages quality must align with the other
+company departments and the company’s overall goals so-called “intent of quality”.</p>
+
+<p>What suppliers want?</p>
+
+<ul>
+  <li>Clear expectations</li>
+  <li>Reasonable time to produce products</li>
+  <li>Efficient processes</li>
+  <li>Support</li>
+</ul>
+
+<p>To create an effective quality management program for your company, it’s
+critical that the external views (customer and supplier) be carefully integrated
+with the internal views of quality (purchasing, operations, logistics,
+administration).</p>
+
+<blockquote>
+  <p>“The biggest cost of poor quality is when your customer buys it from someone
+else because they didn’t like yours.” - W. Edwards Deming</p>
+</blockquote>
+
+<p>The biggest cost of poor quality is the cost of lost business.</p>
+
+<h2 id="frameworks-for-quality-management">Frameworks for Quality Management</h2>
+
+<h3 id="demings-14-points">Deming’s 14 Points</h3>
+
+<p>When you hear “Made in Japan” in the 1950s, you might think of cheap,
+low-quality products. But by the 1980s, “Made in Japan” was synonymous with
+quality. Dr. W. Edwards Deming was a big part of that change, who introduced
+his philosophy for managing quality.</p>
+
+<p>Dr. W. Edwards Deming’s philosophy focuses on reducing variability. The thought
+is that the consistency can not only help company design more reliable products
+and services, they can also lower costs.</p>
+
+<p>Deming believed management must drive every quality program.</p>
+
+<p><a href="https://deming.org/explore/fourteen-points/">Deming’s 14 points</a> are a set of guidelines for
+improving quality in an organization.</p>
+
+<p>The point 5 of Deming philosophy is <strong>Improve constantly and forever</strong>. If
+you’re familiar with lean principles, this is foundations of kaizen, Japanese
+word of continuous improvement. In business, Kaizen means to continuously make
+small improvements to every process. To accomplish this, Japanese companies
+adopted a four-step model, called the Deming cycle.</p>
+
+<p>Deming Cycle (Plan-Do-Check-Act, PDCA):</p>
+
+<ul>
+  <li>Plan: Identify the problem and plan a solution.</li>
+  <li>Do: Implement the plan.</li>
+  <li>Check: Evaluate the results.</li>
+  <li>Act: Take action based on the results.</li>
+</ul>
+
+<p><img src="https://github.com/user-attachments/assets/025aa524-f75e-48d5-b654-4f0cf078a2d5" alt="Deming Cycle"></p>
+
+<h3 id="jurans-planning-for-quality">Juran’s Planning for Quality</h3>
+
+<p>Quality products do what they’re designed to do. Juran’s philosophy is that the
+quality of a product is defined by how well it meets customer needs.</p>
+
+<p>Juran’s view of quality:</p>
+
+<ul>
+  <li>Develop an effective product</li>
+  <li>Meet customer needs</li>
+  <li>Measure results
+    <ul>
+      <li>Top managers: measure return of dollars, like revenue, profits.</li>
+      <li>Middle managers: work as translators between top managers and workers, to
+make sure all measurements are being met.</li>
+      <li>Workers: measure return of things, like time, materials, and effort.</li>
+    </ul>
+  </li>
+  <li>Know cost of quality
+    <ul>
+      <li>Prevention costs: costs to prevent defects.</li>
+      <li>Appraisal costs: costs to detect defects.</li>
+      <li>Internal failure costs: costs when defects are found before delivery.</li>
+      <li>External failure costs: costs when defects are found after delivery.</li>
+      <li>The goal is to reduce the cost of quality.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="crosbys-quality-is-free">Crosby’s “Quality is Free”</h3>
+
+<p>Crosby’s philosophy is that quality is free. He believed that the cost of poor
+quality is higher than the cost of preventing it. Crosby’s view of quality is
+that it’s about conformance to requirements. He believed that quality is:</p>
+
+<ul>
+  <li>Aim for zero defects
+    <ul>
+      <li>The quality goal should always be zero defects. Keep in mind that it’s a
+goal, not always possible to be perfect every day and everything you do.</li>
+      <li>Put measures in place to prevent defects instead of fixing them after you
+find them.</li>
+      <li>There’s no such thing as a quality problem, poor quality is caused by a
+process error, or an incorrect accounting practice, or a product design
+issue.</li>
+    </ul>
+  </li>
+  <li>Find the root cause of problems
+    <ul>
+      <li>Investigate the root cause of problems, not just fix the symptoms.</li>
+      <li>Use tools like the fishbone diagram to identify the root cause of problems.</li>
+      <li>Use the 80/20 rule: 80% of problems are caused by 20% of the causes.</li>
+      <li>Use the 5 Whys: ask “why” five times to get to the root cause of a problem.</li>
+    </ul>
+  </li>
+  <li>Do the job right the first time
+    <ul>
+      <li>It’s always cheaper to do it right the first time than to fix it later, and
+it’s free, if not when will you have time to do it over?</li>
+      <li>Use checklists to ensure that all steps are completed.</li>
+      <li>Use standard operating procedures (SOPs) to ensure consistency.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>You can see Crosby’s approach in every continuous improvement program today.
+Make sure your processes focus on preventing mistakes, rather than fixing them.</p>
+
+<h3 id="the-baldrige-excellence-framework">The Baldrige Excellence Framework</h3>
+
+<p>In the United States, the highest award for quality an organization can receive
+is the Malcolm Baldrige National Quality Award. The award is named after Malcolm
+Baldrige, who was the Secretary of Commerce under President Ronald Reagan.</p>
+
+<p>The Baldrige Excellence Framework is a set of criteria that organizations can
+use to improve their performance. The framework starts with the seven critical
+areas, where you should strive for excellence:</p>
+
+<ul>
+  <li>Leadership</li>
+  <li>Strategy</li>
+  <li>Customers
+    <ul>
+      <li>Choose core value to address</li>
+      <li>Evaluate your process according to value
+        <ul>
+          <li>Approach</li>
+          <li>Deployment</li>
+          <li>Learning</li>
+          <li>Integration</li>
+        </ul>
+      </li>
+      <li>Evaluate your results</li>
+    </ul>
+  </li>
+  <li>Measurement, analysis, and knowledge management</li>
+  <li>Workforce</li>
+  <li>Operations</li>
+  <li>Results</li>
+</ul>
+
+<p>The Baldrige Excellence Framework is a great tool for organizations that want to
+improve their performance and achieve excellence. It provides a systematic way
+to assess an organization’s performance and identify areas for improvement.</p>
+
+<h3 id="the-gap-framework">The Gap Framework</h3>
+
+<p>It’s pretty easy to mismanage quality. The Gap Framework is a way to identify
+the gaps between what customers expect and what they actually get. The Gap Model
+is a useful tool for understanding the customer’s perspective and identifying
+the areas where you need to improve.</p>
+
+<p>Quality Gaps:</p>
+
+<ul>
+  <li>Management and customer</li>
+  <li>Individual and company goals</li>
+  <li>Procedure and execution</li>
+  <li>Company promise and follow-through</li>
+  <li>Customer expectation and experience</li>
+</ul>
+
+<p>It’s really hard to manage how someone perceives quality, but it’s also really
+important, because customers make future buying decisions based on their
+perception of your performance today. So you manage gap five by minimizing the
+other four gaps.</p>
+
+<p>Be close to your customers, so you know their needs and requirements, even as
+they change. Make sure that written procedures are correct, are followed, and
+properly express the company’s quality goals, and don’t make promises you can’t
+meet.</p>
+
+<h3 id="iso-9000">ISO 9000</h3>
+
+<p>What ISO quality principles include:</p>
+
+<ul>
+  <li>Customers</li>
+  <li>Leadership</li>
+  <li>Employees</li>
+  <li>Process</li>
+  <li>Improvement</li>
+  <li>Data based decisions</li>
+</ul>
+
+<h3 id="servqual">SERVQUAL</h3>
+
+<p>How do you measure quality when you don’t have an actual product to inspect?
+SERVQUAL is a model came up with five things when evaluating service quality.
+Do each of these well and your customers will feel they’ve received excellent
+service.</p>
+
+<p>The five dimensions of service quality:</p>
+
+<ul>
+  <li>
+<strong>Tangibles:</strong> What a customer can see and touch.</li>
+  <li>
+<strong>Reliability:</strong> Dependable and accurate service.</li>
+  <li>
+<strong>Responsiveness:</strong> Employee’s reaction to customer’s needs</li>
+  <li>
+<strong>Assurance:</strong> Customer’s trust and confidence in your company</li>
+  <li>
+<strong>Empathy:</strong> How much you care</li>
+</ul>
+
+<p>Do what you say you’ll do when you say you’ll do it. If you can’t, let the
+customer know as soon as possible.</p>
+
+<p>The SERVQUAL model is a useful tool for organizations that want to improve their
+service quality and meet customer expectations.</p>
+
+<h2 id="tools-for-quality-management">Tools for Quality Management</h2>
+
+<h3 id="pareto-analysis">Pareto Analysis</h3>
+
+<p>The Pareto Principle, also known as the 80/20 rule, states that 80% of the
+effects come from 20% of the causes. In quality management, the Pareto Principle
+is often used to identify the most significant causes of defects or problems.</p>
+
+<p>Examples:</p>
+
+<ul>
+  <li>80% of customer complaints come from 20% of the customers.</li>
+  <li>80% of the defects come from 20% of the causes.</li>
+  <li>80% of the sales come from 20% of the customers.</li>
+  <li>80% of the profits come from 20% of the products.</li>
+  <li>80% of the problems come from 20% of the employees.</li>
+  <li>80% of the delays come from 20% of the suppliers.</li>
+  <li>80% of the accidents come from 20% of the hazards.</li>
+  <li>…</li>
+</ul>
+
+<p>The beauty of this model tells us exactly where to start a quality-improvement
+project, and where to focus our efforts.</p>
+
+<h3 id="house-of-quality">House of Quality</h3>
+
+<p>The House of Quality is a tool used in quality management to translate customer
+requirements into technical specifications. It is a part of the Quality Function
+Deployment (QFD) process, which is a systematic approach to ensuring that
+customer needs are met throughout the product development process.</p>
+
+<p>No discussion of quality management would be complete without mentioning the
+House of Quality. Because this model helps you create products and services that
+your customers want to buy.</p>
+
+<p>There are 6 steps to creating a house of quality:</p>
+
+<ul>
+  <li>Identify customer needs</li>
+  <li>Identify product features</li>
+  <li>Analyze the relationship between customer needs and product features
+    <ul>
+      <li>Strong relationship</li>
+      <li>Weak relationship</li>
+      <li>No relationship</li>
+    </ul>
+  </li>
+  <li>Prioritize customer needs
+    <ul>
+      <li>Identify the most important customer needs</li>
+    </ul>
+  </li>
+  <li>Competitors’ view of the product
+    <ul>
+      <li>Identify competitors</li>
+      <li>Figure out how they prioritize the features of the product and how they view
+what the customer wants</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="https://i.postimg.cc/MTq5xWmT/image.png" alt="House of Quality for a New Pizza Product"></p>
+
+<p>As you can probably tell this can be a pretty in-depth analysis, but it can help
+you design a product or service that your customers wants to buy. In a long run,
+the house of quality could save your company a lof of time and money.</p>
+
+<h3 id="root-cause-analysis">Root Cause Analysis</h3>
+
+<p>When you have a problem, you really want the permanent solution. You want to
+find the source of that problem, so that, if possible, it can be eliminated.
+Many times, we address the symptoms of a problem, but not the root cause, that
+only provides a short-term fix. This is called “whack-a-mole” management,
+you fix one problem, and another one pops.</p>
+
+<p>The best tool for a root cause analysis is the <strong>5 Whys</strong> approach. The 5 Whys
+is a simple, once you discover the problem, you continue to ask why until you
+find what is actually causing the problem. The goal is to get to the root cause
+of the problem, not just the symptoms.</p>
+
+<p>By average, you’ll find the root cause of a problem after asking “why” five
+times. But don’t be surprised if you have to ask “why” more than five times. The</p>
+
+<ol>
+  <li>Symptom: the 1st why is only review the symptom of the problem. And
+unfortunately, this is where most people stop, they apply a short-term fix
+and think the problem is solved.</li>
+  <li>…</li>
+  <li>You must continue to ask “why” until you sort through all the symptoms and
+get the root cause of the problem.</li>
+  <li>…</li>
+  <li>Root</li>
+</ol>
+
+<p>Example:</p>
+
+<p>You notice that one key workstation in the factory breaks down soon after the
+day shift begins. It seems to happen three or four times a week. And the machine
+is usually down about one hour for repairs.</p>
+
+<ul>
+  <li>Why? According to the technician, a 15-minute daily maintenance is scheduled
+on the night shift, but it’s not being done. Well, this can be easily fixed
+by telling the night shift technician that this maintenance must be completed
+every night. But you did it before, the problem goes away for a week and then
+it’s right back again. Because not meeting the maintenance schedule is only
+the symptom of the problem. It’s not the root cause, you must keep asking why.</li>
+  <li>Why was the maintenance not being done? Because the night shift operator runs
+the machine right to the end of the shift.</li>
+  <li>Why? Because the supervisor told him to do so.</li>
+  <li>Why? Because the supervisor is evaluated by the number of products completed
+during his shift.</li>
+</ul>
+
+<p>The problem is caused by the way performance is evaluated. To permanently remove
+the root cause of the problem, the supervisor should also be evaluated for
+meeting equipment maintenance schedules. Collect some data about how much
+production is lost each day when the machine breaks down. And the factory
+manager will certainly approve this change.</p>
+
+<h3 id="lean-quality-methods">Lean Quality Methods</h3>
+
+<p>Lean methods can reduce defects and improve your overall quality level. Lean is
+a systematic approach to eliminating waste and improving efficiency in a process.</p>
+
+<p>Lean quality methods include:</p>
+
+<ul>
+  <li>
+<strong>Kaizen:</strong> Continuous, small improvements over time
+    <ul>
+      <li>The goal is to make small, incremental changes to a process over time,
+rather than making large, radical changes all at once.</li>
+      <li>Kaizen is a Japanese word that means “change for the better.”</li>
+      <li>Kaizen is a philosophy that encourages everyone in an organization to
+participate in continuous improvement.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Quality at the Source:</strong> Each employee inspects their own work
+    <ul>
+      <li>It catches defects before they happen, because each employee is inspecting
+for quality, and the minute a worker sees their output doesn’t meet standards,
+the workstation is shut down until the problem is fixed, no more defective
+products are make.</li>
+      <li>This is a great way to get employees involved in the quality process.</li>
+      <li>Quality at the source is a Japanese term called “jidoka.” Jidoka is a
+Japanese word that means “automation with a human touch.”</li>
+    </ul>
+  </li>
+  <li>
+<strong>Poka-yoke:</strong> Preventing errors from happening
+    <ul>
+      <li>Mistake-proofing, or error-proofing, is a method of preventing defects by
+designing processes that make it impossible to make mistakes.</li>
+      <li>Poka-yoke is a Japanese word that means “mistake-proofing.”</li>
+      <li>Poka-yoke devices are simple, inexpensive devices that help prevent errors
+from occurring.</li>
+      <li>For example, a simple device that prevents a worker from inserting a part
+into a machine in the wrong way.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="the-six-sigma-method">The Six Sigma Method</h3>
+
+<p>The goal of Six Sigma is to provide reliable products and consistent services to
+your customers. You’re not looking to eliminate all defects and errors, but to
+reduce the number of defects and errors to a level that is acceptable to your
+customers.</p>
+
+<p>You accomplish this by following a very specific method for improving the quality
+of key processes within your business. The method is called DMAIC, which stands
+for:</p>
+
+<ul>
+  <li>
+<strong>Define:</strong> Define the problem and the goals of the project.</li>
+  <li>
+<strong>Measure:</strong> Measure the current performance of the process.</li>
+  <li>
+<strong>Analyze:</strong> Analyze the data to identify the root cause within the process.</li>
+  <li>
+<strong>Improve:</strong> Improve the process by implementing solutions to the root cause.
+    <ul>
+      <li>This is the most important step in the Six Sigma process. It’s where you
+actually make the changes to the process to improve quality.</li>
+      <li>Process improvements focus on three things:
+        <ul>
+          <li>Defects: You don’t want more than 3.4 defects per million opportunities.</li>
+          <li>Reducing Variability: All processes have some natural variation that’s
+acceptable, you’re working towards reducing inconsistencies and the natural
+result is fewer defects.</li>
+          <li>Strong emphasis on Your Customers: What does the customer think is
+critical to quality? Thanks to that customer focus.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+<strong>Control:</strong> Control the process to ensure that the improvements are sustained.</li>
+</ul>
+
+<h3 id="total-quality-management">Total Quality Management</h3>
+
+<p>Everyone is committed to managing and improving quality. Total Quality
+Management (TQM) is a management approach that focuses on continuous improvement
+and customer satisfaction. TQM is based on the idea that quality is everyone’s
+responsibility, and that everyone in the organization should be involved in the
+quality improvement process.</p>
+
+<p>The American Society for Quality (ASQ) defines 8 principles of TQM:</p>
+
+<ul>
+  <li>
+<strong>Customer focus:</strong> The customer is the most important part of the process.</li>
+  <li>
+<strong>Leadership involvement:</strong> Leaders should create a culture of quality.</li>
+  <li>
+<strong>Involvement of people:</strong> Everyone should be involved in the quality process.</li>
+  <li>
+<strong>Process approach:</strong> A process is a series of steps that transform inputs into
+outputs.</li>
+  <li>
+<strong>System approach to management:</strong> A system is a set of interrelated processes.</li>
+  <li>
+<strong>Continual improvement:</strong> Continuous improvement is a never-ending process.</li>
+  <li>
+<strong>Factual approach to decision making:</strong> Decisions should be based on facts, not
+opinions.</li>
+  <li>
+<strong>Mutually beneficial supplier relationships:</strong> Suppliers are partners in the
+quality process.</li>
+</ul>
+
+<p>Examples:</p>
+
+<ul>
+  <li>A company that manufactures car parts has a TQM program in place. The program
+includes regular training for employees on quality management principles, and
+encourages employees to identify and report quality issues. The company also
+has a system in place for tracking and analyzing quality data, and uses this
+data to make decisions about process improvements.</li>
+  <li>A hospital has a TQM program in place that focuses on patient safety and
+satisfaction. The program includes regular training for employees on quality
+management principles, and encourages employees to identify and report quality
+issues. The hospital also has a system in place for tracking and analyzing
+quality data, and uses this data to make decisions about process improvements.</li>
+  <li>…</li>
+</ul>
+
+<h2 id="quality-strategies">Quality Strategies</h2>
+
+<h3 id="the-voice-of-the-customer">The Voice of the Customer</h3>
+
+<p>The Voice of the Customer (VoC) is a term used to describe the needs and wants
+of customers. It is important to understand the VoC in order to develop products
+and services that meet customer needs.</p>
+
+<p>Create a VoC program to gather customer feedback. The VoC program should
+include:</p>
+
+<ul>
+  <li>Collect information
+    <ul>
+      <li>Identify the target audience</li>
+      <li>Determine the best methods for gathering feedback
+        <ul>
+          <li>Surveys</li>
+          <li>Focus groups</li>
+          <li>Interviews</li>
+          <li>Social media</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Analyze it
+    <ul>
+      <li>Identify trends and patterns in the data</li>
+      <li>Use statistical analysis tools to analyze the data</li>
+    </ul>
+  </li>
+  <li>Act quickly
+    <ul>
+      <li>Implement changes based on the feedback</li>
+    </ul>
+  </li>
+  <li>Keep an eye on results
+    <ul>
+      <li>Monitor the results of the changes</li>
+    </ul>
+  </li>
+  <li>Others
+    <ul>
+      <li>Communicate the changes to customers</li>
+      <li>Continuously improve the VoC program</li>
+      <li>Repeat the process</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="benchmarking">Benchmarking</h3>
+
+<p>Benchmarking is the process of comparing your performance to the performance of
+competitors or industry leaders. It is a way to identify best practices and
+areas for improvement.</p>
+
+<p>Benchmarking is really a question of:</p>
+
+<ul>
+  <li>Where am I?</li>
+  <li>Where do I want to be?</li>
+  <li>How do I get there?</li>
+</ul>
+
+<p>The steps to benchmarking are:</p>
+
+<ul>
+  <li>Gather information on your own performance
+    <ul>
+      <li>Identify the key performance indicators (KPIs) that are important to your
+organization.</li>
+      <li>Collect data on your own performance in these areas.</li>
+    </ul>
+  </li>
+  <li>Compare performance measurements</li>
+</ul>
+
+<p>Benchmarking offers direction for your quality program. To stay ahead of your
+competition, this must be a continuous improvement effort. It can help you to
+close the gap with your competition.</p>
+
+<h3 id="measuring-the-cost-of-quality">Measuring the Cost of Quality</h3>
+
+<blockquote>
+  <p>“If you can’t measure it, you can’t manage it.” - Peter Drucker (the father
+of modern management)</p>
+</blockquote>
+
+<p>The measurement of quality gives you the starting point for your improvement
+project. But how do you measure quality? The cost of quality (CoQ) is a way to
+measure the cost of poor quality. It is a way to quantify the cost of defects
+and errors, and to identify areas for improvement.</p>
+
+<p>The CoQ is divided into four categories:</p>
+
+<ul>
+  <li>
+<strong>Prevention costs:</strong> The costs associated with preventing defects and errors.
+    <ul>
+      <li>Examples: Training, process improvement, quality planning.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Appraisal costs:</strong> The costs associated with measuring and evaluating quality.
+    <ul>
+      <li>Examples: Inspection, testing, quality audits.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Internal failure costs:</strong> The costs associated with defects and errors that are
+discovered before the product is delivered to the customer.
+    <ul>
+      <li>Examples: Scrap, rework, re-inspection.</li>
+    </ul>
+  </li>
+  <li>
+<strong>External failure costs:</strong> The costs associated with defects and errors that are
+discovered after the product is delivered to the customer.
+    <ul>
+      <li>Examples: Warranty claims, returns, lost sales.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Quality management is a systematic approach to ensuring that products and
+services meet customer expectations. It involves a combination of tools,
+techniques, and strategies to improve quality and reduce defects. By
+understanding the principles of quality management and implementing effective
+quality management programs, organizations can improve their performance and
+achieve excellence.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.linkedin.com/learning/quality-management-foundations/house-of-quality">Quality Management Foundations in LinedIn Learning</a></li>
+  <li><a href="https://asq.org">America Society of Quality</a></li>
+</ul>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/computer/2024/07/15/understanding-console-terminal-tty-shell.html" title="Understanding Console, Terminal, TTY, and Shell">
+          <div>Understanding Console, Terminal, TTY, and Shell</div>
+        </a><a class="next" href="/computer/2024/10/18/comparative-analysis-of-model-compression-approaches.html" title="Comparative Analysis of Model Compression Approaches">
+          <div>Comparative Analysis of Model Compression Approaches</div>
+        </a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="">
+          <a class="post-link" href="/computer/2020/09/25/how-to-build-your-own-email-server.html" title="How to build your own email server">
+            How to build your own email server<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/mathematics/2023/04/01/the-handbook-of-game-theory.html" title="The Handbook of Game Theory">
+            The Handbook of Game Theory<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/computer/2021/06/12/accessing-an-smb-share-with-linux-machines.html" title="Accessing an SMB Share with Linux Machines">
+            Accessing an SMB Share with Linux Machines<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/linguistics/2020/01/01/english-phrase-patterns.html" title="English Phrase Patterns">
+            English Phrase Patterns<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments">  <div id="disqus_recommendations"></div>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://jeffreytse.net/methodology/2024/08/09/the-handbook-of-quality-management.html';
+      this.page.identifier = 'https://jeffreytse.net/methodology/2024/08/09/the-handbook-of-quality-management.html';
+    };
+
+    // Disqus recommendations
+    (function() {
+      if (false === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/recommendations.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus comments
+    (function() {
+      if (true === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus theme switching
+    document.addEventListener('theme-changed', function (e) {
+      if (document.readyState == 'complete') {
+        setTimeout(function () {
+          if (window.DISQUS_RECOMMENDATIONS) {
+            window.DISQUS_RECOMMENDATIONS.reset({ reload: true });
+          }
+          if (window.DISQUS) {
+            window.DISQUS.reset({ reload: true, config: disqus_config });
+          }
+        }, 100);
+      }
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+</div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Copyright © 2008-2020</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

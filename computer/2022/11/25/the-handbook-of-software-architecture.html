@@ -1,0 +1,2880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>The Handbook of Software Architecture | Jeffrey Tse’s Blog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="The Handbook of Software Architecture">
+<meta name="author" content="Jeffrey Tse">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Nowadays heterogenous systems have been developed and served for us, they were designed by different architectures, which were practical guidelines to get better software like maintainable, testable, easy to use, scalable and many more.">
+<meta property="og:description" content="Nowadays heterogenous systems have been developed and served for us, they were designed by different architectures, which were practical guidelines to get better software like maintainable, testable, easy to use, scalable and many more.">
+<link rel="canonical" href="https://jeffreytse.net/computer/2022/11/25/the-handbook-of-software-architecture.html">
+<meta property="og:url" content="https://jeffreytse.net/computer/2022/11/25/the-handbook-of-software-architecture.html">
+<meta property="og:site_name" content="Jeffrey Tse’s Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2022-11-25T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="The Handbook of Software Architecture">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeffrey Tse"},"dateModified":"2022-11-25T00:00:00+00:00","datePublished":"2022-11-25T00:00:00+00:00","description":"Nowadays heterogenous systems have been developed and served for us, they were designed by different architectures, which were practical guidelines to get better software like maintainable, testable, easy to use, scalable and many more.","headline":"The Handbook of Software Architecture","mainEntityOfPage":{"@type":"WebPage","@id":"https://jeffreytse.net/computer/2022/11/25/the-handbook-of-software-architecture.html"},"url":"https://jeffreytse.net/computer/2022/11/25/the-handbook-of-software-architecture.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="https://jeffreytse.net">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://jeffreytse.net/feed.xml" title="Jeffrey Tse's Blog">
+<!-- Google tag (gtag.js) -->
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "false" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      var measurementId = 'G-N54MN13CMZ';
+
+      (function(src) {
+        var tag = document.createElement('script');
+        tag.src = src;
+        tag.async = true;
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      })('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    }
+  }
+  window.addEventListener("load", initGoogleAnalytics);
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="Jeffrey Tse's Blog" src="/favicon.png" onerror="this.style.display='none'">
+  Jeffrey Tse's Blog
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/">HOME</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/tags.html">TAGS</a><a class="page-link" href="/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<div class="page-link" style="display: inline;">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<div class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</div>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    html .page-banner .page-banner-img > *:first-child {
+      opacity: 0.8;
+    }
+
+    html[data-theme="dark"] .page-banner .page-banner-img > *:first-child {
+      opacity: 0.5744;
+    }
+  </style>
+<section class="page-banner">
+    <div class="page-banner-img">
+<div style="background-image: url(https://user-images.githubusercontent.com/9413601/213461408-ffecd351-d963-4d8a-af57-f2d0d8af61b2.png)"></div>
+        <img class="img-placeholder" src="https://user-images.githubusercontent.com/9413601/213461408-ffecd351-d963-4d8a-af57-f2d0d8af61b2.png">
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner">
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">The Handbook of Software Architecture</h1>
+  <h2 class="post-subtitle">Not only techniques, but also arts for the minimization of manpower in all phases of development.</h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2022-11-25T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 25 Nov 2022
+    </time><span class="post-author left-vsplit"><i class="fa fa-pencil"></i> Jeffrey Tse</span>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 34 mins</span>
+  </div>
+<div class="post-tags">
+<a class="post-tag" href="/tags.html#software">#software</a><a class="post-tag" href="/tags.html#architecture">#architecture</a><a class="post-tag" href="/tags.html#note">#note</a>
+</div></header>
+</div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+        document.dispatchEvent(new Event('theme-changed'));
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>Nowadays heterogenous systems have been developed and served for us, they
+were designed by different architectures, which were practical guidelines
+to get better software like maintainable, testable, easy to use, scalable
+and many more.</p>
+
+<p>Different architectures are born to solve different, problems, the
+architecture is just a framework, we put different business logic and
+algorithms into it. This handbook is mainly about the software
+architecture, and hope it can get you systematic domain knowledge.</p>
+
+<h2 id="software-architecture-development">Software Architecture Development</h2>
+
+<p>Main Streaming:</p>
+
+<ul>
+  <li>Monolithic
+    <ul>
+      <li>If an old monolithic application wants to move forward and expand, there is
+another cost-effective way, which is the modular monolith. It first divides
+the single application itself into modules and establishes boundaries, which
+can not only reduce the burden on new engineers to understand business
+knowledge, but also reuse the existing architecture.</li>
+    </ul>
+  </li>
+  <li>Service-Oriented Architecture (SOA)
+    <ul>
+      <li>ESB is one of the main technologies to realize SOA</li>
+    </ul>
+  </li>
+  <li>Microservice
+    <ul>
+      <li>Microservice is an implementation methodology to implement SOA.</li>
+      <li>Design Patterns
+        <ul>
+          <li>Decomposition Design Patterns
+            <ul>
+              <li>Decompose by Business Capability</li>
+              <li>Decompose by Subdomain</li>
+              <li>Decompose by Strangler</li>
+            </ul>
+          </li>
+          <li>Integration Design Patterns
+            <ul>
+              <li>API Gateway</li>
+              <li>Aggregator</li>
+              <li>Proxy</li>
+              <li>Client Side UI Composition</li>
+              <li>Chain Of Responsibilities</li>
+              <li>Branch</li>
+            </ul>
+          </li>
+          <li>Database Design Patterns
+            <ul>
+              <li>Database per Service</li>
+              <li>Shared Database per Service</li>
+              <li>Command Query Responsibility Segregator (CQRS)</li>
+              <li>Saga</li>
+              <li>Asynchronous Messaging</li>
+              <li>Event Sourcing</li>
+            </ul>
+          </li>
+          <li>Observability Design Patterns
+            <ul>
+              <li>Log Aggregation</li>
+              <li>Performance Metrics</li>
+              <li>Distributed Tracing</li>
+              <li>Health Check</li>
+            </ul>
+          </li>
+          <li>Cross Cutting Concern Design Patterns
+            <ul>
+              <li>External Configuration</li>
+              <li>Service Discovery</li>
+              <li>Circuit Breaker</li>
+              <li>Blue Green Deployment
+                <ul>
+                  <li>Blue Environment: The old application running in the production is
+called blue environment.</li>
+                  <li>Green Environment: The new services deployed which replicates the
+given part of old application is called the green environment.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Categories
+        <ul>
+          <li>API Gateway</li>
+          <li>Service Mesh
+            <ul>
+              <li>Data Plane</li>
+              <li>Control Plane</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Others:</p>
+
+<ul>
+  <li>Event-driven Architectures (EDA)
+    <ul>
+      <li>
+<strong>Event Producer</strong> -&gt; <strong>Event Router</strong> -&gt; <strong>Event Consumer</strong>
+</li>
+      <li>Event Router can be Kafka, etc.</li>
+    </ul>
+  </li>
+  <li>Cloud Native (Utilize cloud services such as EC2, S3, AWS Lambda, etc.)</li>
+</ul>
+
+<h2 id="communication-between-different-architecture">Communication between Different Architecture</h2>
+
+<p>Network protocols, also known as API architecture styles:</p>
+
+<ul>
+  <li>SOAP = HTTP + XML</li>
+  <li>RESTful = Resource = HTTP + JSON</li>
+  <li>GraphQL
+    <ul>
+      <li>It’s more difficult to cache as a single point of entry and using HTTP POST
+by default, this prevent the full use of HTTP caching. But it could be
+configured to better leverage HTTP caching</li>
+    </ul>
+  </li>
+  <li>RPC = SOCKET + CUSTOM</li>
+  <li>Websocket
+    <ul>
+      <li>Primarily used for two-way communication between a client and server</li>
+      <li>Make the server stateful as it now contains the active connection, and
+therefore more difficult to scale</li>
+      <li>Examples
+        <ul>
+          <li>A web document editing service that allows multiple people to edit and
+update a document in real-time via their browsers</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Webhook (Async callback)
+    <ul>
+      <li>Primarily used for one-way communication</li>
+      <li>It’s event-driven compared with HTTP/RESTful (poll, time-driven)</li>
+      <li>Inherently stateless as they don’t need to keep an open connection, so
+scaling them is far easier</li>
+      <li>Examples
+        <ul>
+          <li>A service that regularly publish updates to many different consumers</li>
+          <li>GitHub
+            <ul>
+              <li>New Branch</li>
+              <li>Code Push</li>
+              <li>Pull Request</li>
+            </ul>
+          </li>
+          <li>Slack
+            <ul>
+              <li>New Message</li>
+              <li>@ Mention</li>
+              <li>App Notification</li>
+            </ul>
+          </li>
+          <li>Stripe
+            <ul>
+              <li>New Payment</li>
+              <li>Payment Dispute</li>
+              <li>New Subscription</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>FTP = SOCKET</li>
+</ul>
+
+<p><img src="https://github.com/jeffreytse/jekyll-jeffreytse-blog/assets/9413601/a1e47bda-3df2-4356-9c20-a03eea8afcd3" alt="Architectural API Patterns"></p>
+
+<p><img src="https://github.com/jeffreytse/jekyll-jeffreytse-blog/assets/9413601/80188e2f-2660-47db-9997-b6ce1a4d5585" alt="API Patterns History"></p>
+
+<p>Classic examples:</p>
+
+<ul>
+  <li>CXF is a SOAP/RESTful framework</li>
+  <li>Dubbo is a RPC framework</li>
+  <li>SpringCloud is a RESTful eco-system</li>
+</ul>
+
+<p>Moving from monolithic applications to microservice faces several problems:</p>
+
+<ul>
+  <li>Management of microservices.</li>
+  <li>Microservice direct access.</li>
+  <li>Load balancing of the microservices themselves.</li>
+  <li>Microservices are broken and downgraded.</li>
+  <li>Distributed transaction tracing for microservices.</li>
+  <li>Microservice log collection and analysis.</li>
+</ul>
+
+<h2 id="distributed-system">Distributed System</h2>
+
+<p>Nowadays, it’s already the norm for the ordinary PC-level servers to reach tens
+of thousands of TPS on a standalone machine with an average latency of 500ms or
+less in distributed systems.</p>
+
+<p>Some problems for Internet business:</p>
+
+<ul>
+  <li>C10K problem (Concurrent 10K connections)</li>
+  <li>C1000K problem (Concurrent 1000K connections)</li>
+</ul>
+
+<p>Some ideas for distributed systems for massive data on the Internet:</p>
+
+<ul>
+  <li>Hot/cold separation</li>
+  <li>Load balancing</li>
+  <li>Parallel scaling</li>
+  <li>Parallel Processing</li>
+  <li>Split repository and split table</li>
+  <li>Service clustering</li>
+  <li>Tiered design
+    <ul>
+      <li>Access layer
+        <ul>
+          <li>Load balancing and flexible route distribution based on various policies</li>
+        </ul>
+      </li>
+      <li>Service layer
+        <ul>
+          <li>It can be grouped by function</li>
+        </ul>
+      </li>
+      <li>Data layer
+        <ul>
+          <li>Spread data across different database instances based on rules such as
+business types</li>
+        </ul>
+      </li>
+      <li>…</li>
+    </ul>
+  </li>
+  <li>Performance expansion approaches
+    <ul>
+      <li>Parallel expansion</li>
+      <li>Elastic expansion</li>
+      <li>3D expansion</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="basic-theories">Basic Theories</h3>
+
+<p>The transformation of computer systems from centralized to distributed, along
+with a series of problems and challenges including distributed networks,
+distributed transactions, and distributed data consistency, has also led to the
+rapid development of a large number of classic theories, such as ACID, CAP and
+BASE, etc.</p>
+
+<h4 id="cap-theorem">CAP Theorem</h4>
+
+<p>In theoretical computer science, the CAP theorem, also named Brewer’s theorem
+after computer scientist Eric Brewer, states that any distributed data store
+can provide only two of the following three guarantees:</p>
+
+<ul>
+  <li>Consistency
+    <ul>
+      <li>This refers to strong consistency. All the servers in the system will have
+the same data so users will get the same copy regardless of which server
+answers their request.</li>
+    </ul>
+  </li>
+  <li>Availability
+    <ul>
+      <li>The system will always respond to a request (even if it’s not the latest
+data or consistent across the system or just a message saying the system
+isn’t working).</li>
+    </ul>
+  </li>
+  <li>Partition Tolerance
+    <ul>
+      <li>The system continues to operate as a whole even if individual servers fail
+or can’t be reached.</li>
+      <li>If the system cannot achieve data consistency within the time limit, it
+means that a partition has occurred, and a choice must be made between C and
+A for the current operation.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/9413601/233882737-6f5cfce3-d5dd-4c6c-8657-af872a5daee9.png" alt="CAP Theorem"></p>
+
+<p>The CAP theorem provides a tool to make design choices while building a
+distributed system.</p>
+
+<p>Cassandra is an AP system, distributed Redis is AP system, etcd is CP system,
+Mongo DB is CP. MySQL is a CA system, but it’s not distributed.</p>
+
+<p><img src="https://github.com/jeffreytse/jekyll-jeffreytse-blog/assets/9413601/6124bfa7-4ecc-4d38-8014-f403c465f3f2" alt="Some Examples"></p>
+
+<p>Before designing the architecture, do consider whether the business is an AP
+model or a CP model.</p>
+
+<h4 id="acid-theorem">ACID Theorem</h4>
+
+<p>Transactions have four properties: atomicity, consistency, isolation, and
+persistence. These four properties are commonly referred to as ACID
+characteristics. ACID compliance guarantees the validity of data in events of
+errors, hardware, or power failures.</p>
+
+<ul>
+  <li>Atomicity
+    <ul>
+      <li>All the changes which are part of a single transaction are performed or
+everything is rolled back and none of these changes take effect.</li>
+    </ul>
+  </li>
+  <li>Consistency
+    <ul>
+      <li>It refers to guarantee that all data that is written to the database will
+confirm to defined schema and constraints at the time of saving the data.</li>
+      <li>2 Categories
+        <ul>
+          <li>Transaction Consistency (i.e. ACID)</li>
+          <li>Data Consistency
+            <ul>
+              <li>Distributed storage of data is the only reason for consistency</li>
+              <li>In distributed systems, consistency refers to data consistency in
+multi-replica problems.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Isolation
+    <ul>
+      <li>It refers to the ability of a database to isolate data among transactions
+providing an independent view of the data.</li>
+      <li>Thus if multiple transactions are executed concurrently, these should not
+interfere or see intermediate or incorrect data and the result should be the
+same as if they were run sequentially.</li>
+      <li>Isolation levels are configurable in most DBMS, providing control to
+Database Administrators to decide the level of isolation.</li>
+      <li>Most DBMS provides the following levels of Isolation:
+        <ul>
+          <li>Serializable</li>
+          <li>Repeatable reads</li>
+          <li>Read committed</li>
+          <li>Read uncommitted</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Durability
+    <ul>
+      <li>It refers to the permanent nature of the data that was stored as a part of
+the transaction once it is successful.</li>
+      <li>Once the transaction is complete the subsequent reads should fetch the last
+written data.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="base-theorem">BASE Theorem</h4>
+
+<p>BASE is the result of the trade-off between consistency and availability in CAP.
+It comes from the conclusion of the distributed practice of large-scale Internet
+systems. It is gradually evolved based on the CAP theorem. Its core idea is that
+even if strong consistency cannot be achieved (Strong Consistency), but each
+application can use an appropriate method according to its own business
+characteristics to make the system achieve eventual consistency.</p>
+
+<ul>
+  <li>Basically Available
+    <ul>
+      <li>It means the system is mostly available and every working node responds to
+requests in a reasonable amount of time.</li>
+    </ul>
+  </li>
+  <li>Soft State
+    <ul>
+      <li>It refers that the state of a system might vary over time, even without any
+new input.</li>
+    </ul>
+  </li>
+  <li>Eventually Consistent
+    <ul>
+      <li>It refers to the ability of all nodes of a system to become consistent,
+given enough time.</li>
+      <li>The data across different nodes will reflect the same value.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>BASE model isn’t suitable for all types of systems: For example, systems that
+require strict consistency, such as financial systems, or real-time data
+processing applications, may be unable to tolerate eventual consistency.</p>
+
+<p>The variants of eventual consistency model:</p>
+
+<ul>
+  <li>Causal consistency
+    <ul>
+      <li>If process A has communicated to process B that it has updated a data item,
+a subsequent access by process B will return the updated value, and a write
+is guaranteed to supersede the earlier write. Access by process C that has
+no causal relationship to process A is subject to the normal eventual
+consistency rules.</li>
+    </ul>
+  </li>
+  <li>Read-your-writes consistency
+    <ul>
+      <li>This is an important model where process A, after it has updated a data
+item, always accesses the updated value and will never see an older value.
+This is a special case of the causal consistency model.</li>
+    </ul>
+  </li>
+  <li>Session consistency
+    <ul>
+      <li>This is a practical version of the previous model, where a process accesses
+the storage system in the context of a session. As long as the session
+exists, the system guarantees read-your-writes consistency. If the session
+terminates because of a certain failure scenario, a new session needs to be
+created and the guarantees do not overlap the sessions.</li>
+    </ul>
+  </li>
+  <li>Monotonic read consistency
+    <ul>
+      <li>If a process has seen a particular value for the object, any subsequent
+accesses will never return any previous values.</li>
+    </ul>
+  </li>
+  <li>Monotonic write consistency
+    <ul>
+      <li>In this case the system guarantees to serialize the writes by the same
+process. Systems that do not guarantee this level of consistency are
+notoriously hard to program.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>In actual practice, these variants are often used in combination to build a
+distributed system with eventual consistency.</p>
+
+<p>ACID is a commonly used design concept in traditional databases, pursuing a
+strong consistency model. BASE supports large-scale distributed systems, and
+proposes to obtain high availability by sacrificing strong consistency. ACID and
+BASE represent two diametrically opposed design philosophies. In the scenario of
+distributed system design, system components have different requirements for
+consistency, so ACID and BASE will be used in combination.</p>
+
+<h4 id="consensus-algorithm">Consensus Algorithm</h4>
+
+<p>Strong consistency aims to provide a higher level of consistency. Unlike
+eventual consistency, strong consistency ensures that all nodes see the same
+data without any temporary inconsistencies.</p>
+
+<p>Strong consistency guarantees that every read operation returns the latest write
+operation’s result, regardless of the node on which the read operation is
+executed. This is typically achieved using consensus algorithms.</p>
+
+<p><strong>Paxos Algorithm</strong></p>
+
+<p>Paxos is a distributed consensus algorithm. An algorithm that ensures that a
+change you make on one object is propagated to all of its replicas over an
+asynchronous network, is called a consensus algorithm.</p>
+
+<p><strong>Raft Algorithm</strong></p>
+
+<p>Raft is a consensus algorithm designed as an alternative to the Paxos family
+of algorithms. It was meant to be more understandable than Paxos by means of
+separation of logic, but it is also formally proven safe and offers some
+additional features.</p>
+
+<h4 id="distributed-memberships-algorithm">Distributed Memberships Algorithm</h4>
+
+<p>In distributed systems, failures are the norm rather than the exception. This is
+because members (or processes) of a group communicate among themselves over an
+unreliable network and members can crash at some point. The purpose of every
+Membership Protocol is to provide to each member of a group an updated list with
+their peers alive. Most modern systems use this peer-to-peer protocol to
+disseminate information to all the members in a network or cluster.</p>
+
+<p><strong>SWIM membership protocol</strong></p>
+
+<p>SWIM is the acronym of Scalable Weakly-consistent Infection-style Process Group
+Membership Protocol. A membership protocol ensures that each process of a group
+updates a local list of non-faulty members of the group. When a new process
+joins or leaves the group, every local list has to be updated.</p>
+
+<p>There are four key properties that any membership protocol needs to ensure
+efficiency and scalability:</p>
+
+<ul>
+  <li>Strong Completeness
+    <ul>
+      <li>Each failure in the system is detected</li>
+    </ul>
+  </li>
+  <li>Accuracy
+    <ul>
+      <li>No mistakes when detecting failures. In real life this is not 100%
+guarantee, so we need to reduce false positives</li>
+    </ul>
+  </li>
+  <li>Speed of failure detection
+    <ul>
+      <li>Time to detect a failure</li>
+    </ul>
+  </li>
+  <li>Scale
+    <ul>
+      <li>The network load is generated and distributed equally between processes</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Gossip Protocol</strong></p>
+
+<h3 id="fallacies-of-distributed-systems">Fallacies of Distributed Systems</h3>
+
+<ul>
+  <li>Network is Reliable</li>
+  <li>Latency is zero</li>
+  <li>Bandwidth is infinite</li>
+  <li>Topology doesn’t change</li>
+  <li>Network is secure</li>
+  <li>Only one administrator</li>
+  <li>Transport cost is zero</li>
+</ul>
+
+<h3 id="distributed-system-characteristics">Distributed System Characteristics</h3>
+
+<ul>
+  <li>No shared clock</li>
+  <li>No shared memory</li>
+  <li>Shared resources</li>
+  <li>Concurrency and consistency</li>
+</ul>
+
+<h3 id="load-balancing">Load Balancing</h3>
+
+<ul>
+  <li>Client-side load balancing
+    <ul>
+      <li>Advantages:
+        <ul>
+          <li>No more single point of failure as in the case of the traditional load
+balancer approach.</li>
+          <li>Reduced cost as the need for server-side load balancer goes away.</li>
+          <li>Less network latency as the client can directly invoke the backend
+servers removing an extra hop for the load balancer.</li>
+        </ul>
+      </li>
+      <li>Algorithms
+        <ul>
+          <li>Round Robin (i = (i + 1) mod n)</li>
+          <li>…</li>
+        </ul>
+      </li>
+      <li>Examples:
+        <ul>
+          <li>Netflix Ribbon (Default algorithm is Round Robin)</li>
+          <li>…</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Server-side load balancing
+    <ul>
+      <li>Advantages:
+        <ul>
+          <li>Simple client configuration: only need to know the load-balancer address.</li>
+          <li>Clients can be untrusted: all traffic goes through the load-balancer where
+it can be looked at.</li>
+          <li>Clients are not aware of the backend servers.</li>
+        </ul>
+      </li>
+      <li>Examples:
+        <ul>
+          <li>Nginx</li>
+          <li>AWS ELB</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="typical-applications">Typical Applications</h3>
+
+<p>Distributed system is a very broad concept. It must be implemented to solve
+practical problems. Different problems have different methods and architectures.</p>
+
+<ul>
+  <li>A type of application based on leader election (e.g. paxos, viewstamp)
+    <ul>
+      <li>Zookeeper</li>
+      <li>Chuby</li>
+    </ul>
+  </li>
+  <li>A type of applications for distributed transactions
+    <ul>
+      <li>Distributed database manager</li>
+    </ul>
+  </li>
+  <li>A type of applications based on weak consistency
+    <ul>
+      <li>Cassandra’s W, R, N adjustable consistency</li>
+    </ul>
+  </li>
+  <li>A type of application based on leasing mechanism
+    <ul>
+      <li>It is mainly the concept of some distributed locks</li>
+    </ul>
+  </li>
+  <li>A type of applications based on failure detection
+    <ul>
+      <li>Gossip failure detection algorithms</li>
+      <li>Phi failure detection algorithms</li>
+      <li>Simple heartbeat</li>
+    </ul>
+  </li>
+  <li>A type of applications based on weak consistency, causal consistency, and
+sequential consistency</li>
+  <li>A type of applications based on asynchronous decoupling
+    <ul>
+      <li>Various types of queues</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="microservice-architecture">Microservice Architecture</h2>
+
+<p>The main features of microservice architecture:</p>
+
+<ul>
+  <li>Microservices are an architecture in themselves, and each microservice can be
+implemented in a suitable language.</li>
+  <li>Each microservice should be as cohesive as possible to avoid external
+transfers and cross-service transactions.</li>
+</ul>
+
+<p>The main components of microservice architecture:</p>
+
+<h3 id="service-discovery">Service Discovery</h3>
+
+<p>Types:</p>
+
+<ul>
+  <li>Server-side Discovery</li>
+  <li>Client-side Discovery</li>
+</ul>
+
+<p>Products:</p>
+
+<ul>
+  <li>ZooKeeper
+    <ul>
+      <li>ZK satisfies the CP principle. ZK must contain a master-slave
+relationship, one master and many slaves. When the cluster has no master,
+it does not provide external services</li>
+      <li>ZK adopts the pub/sub mode. When ZK is started for the first time, it
+subscribes to the service information it needs and caches it locally</li>
+    </ul>
+  </li>
+  <li>HashiCorp Consul</li>
+  <li>Spring Cloud Consul
+    <ul>
+      <li>Service governance component based on Hashicorp Consul</li>
+    </ul>
+  </li>
+  <li>Netflix Eureka
+    <ul>
+      <li>Eureka satisfies the AP principle. All nodes in the Eureka cluster are
+equal and there is no master-slave relationship, so data inconsistency
+may occur.</li>
+      <li>Eureka adopts the service active pull strategy, and consumers go to
+pull at a fixed frequency (default 30 seconds) and cache them locally</li>
+    </ul>
+  </li>
+  <li>SkyDNS</li>
+  <li>etcd</li>
+  <li>Alibaba Nacos</li>
+  <li>Ctripcorp Apollo</li>
+  <li>Kubernates</li>
+</ul>
+
+<h3 id="service-calling">Service Calling</h3>
+
+<p>Protocols:</p>
+
+<ul>
+  <li>protobuf (Based on RPC)</li>
+  <li>Triple (Based on HTTP/2)</li>
+  <li>Dubbo2</li>
+  <li>gRPC</li>
+  <li>RESTful (Based on HTTP)</li>
+  <li>Thrift (Based on RPC)</li>
+  <li>…</li>
+</ul>
+
+<p>Products:</p>
+
+<ul>
+  <li>OpenFeign
+    <ul>
+      <li>HTTP + RESTful</li>
+    </ul>
+  </li>
+  <li>Dubbo
+    <ul>
+      <li>TCP + Custom (Serialization)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="service-monitoring">Service Monitoring</h3>
+
+<p>We also call it APM (Application Performance Management), which belongs to the
+category of ITOM (IT operation and maintenance management).</p>
+
+<p>Products:</p>
+
+<ul>
+  <li>Dubbo Monitoring</li>
+  <li>Spring Admin</li>
+</ul>
+
+<h3 id="api-gateway">API Gateway</h3>
+
+<p>Functions:</p>
+
+<ul>
+  <li>Authentication (Front Desk Design)
+    <ul>
+      <li>Pros:
+– Easy to iterate on
+– Easy to develop quickly
+– Shortens go-to-market time</li>
+      <li>Cons:
+– Single point of failure
+– Potentially costly
+– Rigid architectural constraints</li>
+    </ul>
+  </li>
+  <li>Filtering</li>
+  <li>QPS Limitation</li>
+  <li>Downgrade</li>
+  <li>Load Balancing</li>
+  <li>Analytics</li>
+  <li>Performance Monitoring</li>
+  <li>Special Use Cases
+    <ul>
+      <li>Grayscale Releases</li>
+      <li>Canary Releases</li>
+      <li>A/B Tests</li>
+      <li>….</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Products:</p>
+
+<ul>
+  <li>Zuul</li>
+  <li>Orange</li>
+  <li>Kong</li>
+  <li>Tyk (GoLang and Open Source)</li>
+</ul>
+
+<h3 id="load-balancing-1">Load Balancing</h3>
+
+<p>Products:</p>
+
+<ul>
+  <li>Ribbon</li>
+  <li>Nginx</li>
+</ul>
+
+<h3 id="circuit-breaker">Circuit Breaker</h3>
+
+<p>Isolate access to remote services and third-party libraries to prevent cascading
+failures.</p>
+
+<p>Common fault tolerance approaches:</p>
+
+<ul>
+  <li>Thread Isolation</li>
+  <li>service Fusing</li>
+</ul>
+
+<p>Products:</p>
+
+<ul>
+  <li>Alibaba Sentinel</li>
+  <li>Netflix Hystrix</li>
+  <li>Resilience4j</li>
+  <li>Envoy</li>
+</ul>
+
+<h3 id="distributed-configuration">Distributed Configuration</h3>
+
+<p>Products:</p>
+
+<ul>
+  <li>Spring Cloud Config
+    <ul>
+      <li>By default, Git is used to store configuration, which can support client
+configuration refresh, encryption and decryption operations</li>
+    </ul>
+  </li>
+  <li>Consul</li>
+  <li>Alibaba Nacos</li>
+  <li>Ctripcorp Apollo</li>
+</ul>
+
+<h3 id="distributed-tracing">Distributed Tracing</h3>
+
+<p>The relationship between microservice calls is complex, and it is necessary to
+use this type of component for monitoring and troubleshooting.</p>
+
+<p>Goals:</p>
+
+<ul>
+  <li>Performance monitoring</li>
+  <li>Full Link Tracking
+    <ul>
+      <li>Certain code</li>
+      <li>Certain sql</li>
+      <li>CPU Operation Status</li>
+      <li>Link Operation time-consuming</li>
+      <li>…</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Products:</p>
+
+<ul>
+  <li>Zipkin</li>
+  <li>Sky Walking</li>
+  <li>Jaeger</li>
+  <li>HTrace</li>
+  <li>Pinpoint</li>
+</ul>
+
+<h3 id="distributed-transactions">Distributed Transactions</h3>
+
+<p>Use Cases:</p>
+
+<ul>
+  <li>Distributed ID generator</li>
+</ul>
+
+<p>Solutions:</p>
+
+<ul>
+  <li>AT</li>
+  <li>2PC (Two Phase Commit)
+    <ul>
+      <li>Strong consistency</li>
+    </ul>
+  </li>
+  <li>TCC (Try Confirm Cancel)
+    <ul>
+      <li>Eventual consistency</li>
+    </ul>
+  </li>
+  <li>Saga
+    <ul>
+      <li>Advantages
+        <ul>
+          <li>Long lived transaction</li>
+        </ul>
+      </li>
+      <li>Execution strategies
+        <ul>
+          <li>Forward recovery (The premise is that each sub-transaction will eventually succeed.)</li>
+          <li>Backward recovery (Rollback via per-subtransaction compensation mechanism)</li>
+        </ul>
+      </li>
+      <li>Transaction Coordination
+        <ul>
+          <li>Choreography</li>
+          <li>Orchestration</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>XA Specification</li>
+  <li>Local-Message-Based Distributed Transactions</li>
+  <li>Transactional-Message-Based Distributed Transactions</li>
+</ul>
+
+<h3 id="distributed-batch-task">Distributed Batch Task</h3>
+
+<p>Products:</p>
+
+<ul>
+  <li>Spring Cloud Task</li>
+</ul>
+
+<h3 id="distributed-cache">Distributed Cache</h3>
+
+<p>Products:</p>
+
+<ul>
+  <li>Redis</li>
+  <li>ETCD</li>
+</ul>
+
+<h3 id="distributed-message-queue">Distributed Message Queue</h3>
+
+<p>A message queue consists of publishers and consumers, and delivers messages to
+one or more consumers on first-in-first-out (FIFO).</p>
+
+<p>Products:</p>
+
+<ul>
+  <li>RabbitMQ
+    <ul>
+      <li>Based on AMQP, supports to JMS</li>
+      <li>Written by Erlang</li>
+      <li>High stability, high consistency</li>
+    </ul>
+  </li>
+  <li>Kafka
+    <ul>
+      <li>Distributed Message System</li>
+      <li>High throughput</li>
+    </ul>
+  </li>
+  <li>ActiveMQ
+    <ul>
+      <li>Based on JMS</li>
+    </ul>
+  </li>
+  <li>AmazonSQS</li>
+  <li>RocketMQ
+    <ul>
+      <li>Based on JMS</li>
+      <li>Alibaba’s product, and hosted by Apache Foundation now</li>
+    </ul>
+  </li>
+  <li>IronMQ</li>
+  <li>Pulsar</li>
+  <li>Redis
+    <ul>
+      <li>Supports to JMS</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Because the production and consumption of messages are asynchronous, and only
+care about the sending and receiving of messages, without the intrusion of
+business logic, the decoupling of producers and consumers is achieved.</p>
+
+<p>MQ is a message communication model, not a specific implementation. The
+mainstream ways to implement MQ are as following:</p>
+
+<ul>
+  <li>AMQP (Advanced Message Queuing Protocol)
+    <ul>
+      <li>Basic
+        <ul>
+          <li>Just a protocol of data exchange</li>
+          <li>No limit in programming languages, and has various kinds of message models</li>
+        </ul>
+      </li>
+      <li>Concepts
+        <ul>
+          <li>Producer</li>
+          <li>Consumer</li>
+          <li>vHost</li>
+          <li>Channel</li>
+          <li>Broker
+            <ul>
+              <li>Durability
+                <ul>
+                  <li>Location
+                    <ul>
+                      <li>Disk</li>
+                      <li>RAM</li>
+                    </ul>
+                  </li>
+                  <li>Types
+                    <ul>
+                      <li>Exchange</li>
+                      <li>Queue</li>
+                      <li>Message</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Components
+                <ul>
+                  <li>Exchange
+                    <ul>
+                      <li>Direct (Routing, by default)</li>
+                      <li>Fanout (Publish/Subscribe)</li>
+                      <li>Headers</li>
+                      <li>Topic</li>
+                      <li>Dead Letter</li>
+                    </ul>
+                  </li>
+                  <li>Queue</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>JMS (Java Message Service)
+    <ul>
+      <li>Basic
+        <ul>
+          <li>Actually refers to JMS API for Java, including create, send and receive</li>
+          <li>Limited in Java, and has only 2 kinds of message models</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="message-bus">Message Bus</h3>
+
+<p>The message bus does not guarantee first-in-first-out (FIFO). Subscribers to a
+message bus can receive published messages without knowing the publisher. These
+modes are also known as pub/sub.</p>
+
+<p>Messages are published to the bus by the sending API, and any receiving API
+subscribed to a message of any type will then receive the corresponding message.</p>
+
+<p>Use Cases:</p>
+
+<ul>
+  <li>Used to propagate cluster state changes</li>
+</ul>
+
+<p>Products:</p>
+
+<ul>
+  <li>Microsoft Azure Service Bus</li>
+  <li>Oracle Enterprise Service Bus</li>
+  <li>RabbitMQ (MassTransit)</li>
+</ul>
+
+<h3 id="log-monitoring-collect-and-analyze">Log Monitoring (Collect and Analyze)</h3>
+
+<p>Products:</p>
+
+<ul>
+  <li>ELK Stack
+    <ul>
+      <li>Elasticsearch</li>
+      <li>Logstash</li>
+      <li>Kibana</li>
+    </ul>
+  </li>
+  <li>GrayLog</li>
+</ul>
+
+<h3 id="security">Security</h3>
+
+<p>Authentication and Authorization Solutions:</p>
+
+<ul>
+  <li>SSO</li>
+  <li>Distributed Session</li>
+  <li>Client-side Token
+    <ul>
+      <li>JWT (JSON Web Tokens)</li>
+    </ul>
+  </li>
+  <li>Combination of Client-side Token and API Gateway</li>
+</ul>
+
+<p>Products:</p>
+
+<ul>
+  <li>Spring Security</li>
+  <li>Apache Shiro</li>
+</ul>
+
+<h2 id="microservice-stacks">Microservice Stacks</h2>
+
+<h3 id="spring-cloud-official">Spring Cloud Official</h3>
+
+<ul>
+  <li>Dynamic Configuration
+    <ul>
+      <li>Spring Cloud Config (SCC)</li>
+      <li>SCC Client/Server</li>
+    </ul>
+  </li>
+  <li>Service Calling
+    <ul>
+      <li>OpenFeign</li>
+      <li>RestTemplate</li>
+    </ul>
+  </li>
+  <li>API Gateway
+    <ul>
+      <li>Spring Cloud Gateway</li>
+    </ul>
+  </li>
+  <li>Load Balancing
+    <ul>
+      <li>Spring Cloud LoadBalancer</li>
+    </ul>
+  </li>
+  <li>Circuit Breaker
+    <ul>
+      <li>Spring Cloud Circuit Breaker</li>
+    </ul>
+  </li>
+  <li>Service Monitoring
+    <ul>
+      <li>Spring Boot Admin</li>
+    </ul>
+  </li>
+  <li>Distributed Tracing
+    <ul>
+      <li>Spring Cloud Sleuth</li>
+    </ul>
+  </li>
+  <li>Distributed Transactions
+    <ul>
+      <li>NA</li>
+    </ul>
+  </li>
+  <li>Distributed Message
+    <ul>
+      <li>Spring Cloud Stream (SCS)</li>
+      <li>SCS RabbitMQ/Kafka</li>
+    </ul>
+  </li>
+  <li>Message Bus
+    <ul>
+      <li>Spring Cloud Bus</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="spring-cloud-netflix">Spring Cloud Netflix</h3>
+
+<ul>
+  <li>Dynamic Configuration
+    <ul>
+      <li>Netflix Archaius</li>
+    </ul>
+  </li>
+  <li>Service Discovery
+    <ul>
+      <li>Netflix Eureka</li>
+    </ul>
+  </li>
+  <li>Service Calling
+    <ul>
+      <li>Feign</li>
+    </ul>
+  </li>
+  <li>API Gateway
+    <ul>
+      <li>Netflix Zuul</li>
+    </ul>
+  </li>
+  <li>Load Balancing
+    <ul>
+      <li>Netflix Ribbon</li>
+    </ul>
+  </li>
+  <li>Circuit Breaker(Fault Tolerance)
+    <ul>
+      <li>Netflix Hystrix</li>
+    </ul>
+  </li>
+  <li>Distributed Tracing
+    <ul>
+      <li>NA</li>
+    </ul>
+  </li>
+  <li>Distributed Transactions
+    <ul>
+      <li>NA</li>
+    </ul>
+  </li>
+  <li>Distributed Messages
+    <ul>
+      <li>NA</li>
+    </ul>
+  </li>
+  <li>Message Bus
+    <ul>
+      <li>NA</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="spring-cloud-alibaba">Spring Cloud Alibaba</h3>
+
+<ul>
+  <li>Dynamic Configuration
+    <ul>
+      <li>Alibaba Nacos Configuration</li>
+    </ul>
+  </li>
+  <li>Service Discovery
+    <ul>
+      <li>Alibaba Nacos Service Registry</li>
+    </ul>
+  </li>
+  <li>Service Calling
+    <ul>
+      <li>Dubbo RPC</li>
+    </ul>
+  </li>
+  <li>API Gateway
+    <ul>
+      <li>Spring Cloud Gateway (Spring Cloud official support, after Finchley
+version)</li>
+      <li>Dubbo + Servlet</li>
+    </ul>
+  </li>
+  <li>Load Balancing
+    <ul>
+      <li>Spring Cloud LoadBalancer (Spring Cloud official support, after Hoxton
+version)</li>
+      <li>Dubbo LB</li>
+    </ul>
+  </li>
+  <li>Circuit Breaker
+    <ul>
+      <li>Alibaba Sentinel</li>
+    </ul>
+  </li>
+  <li>Distributed Tracing
+    <ul>
+      <li>NA</li>
+    </ul>
+  </li>
+  <li>Distributed Transactions
+    <ul>
+      <li>Seata</li>
+    </ul>
+  </li>
+  <li>Distributed Message
+    <ul>
+      <li>SCS RocketMQ</li>
+    </ul>
+  </li>
+  <li>Message Bus
+    <ul>
+      <li>Spring Cloud Bus (SCB)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="service-orchestration">Service Orchestration</h3>
+
+<p>Products:</p>
+
+<ul>
+  <li>Docker</li>
+  <li>OpenStack</li>
+  <li>Kubernates (K8S)</li>
+</ul>
+
+<h3 id="api-gateway-1">API Gateway</h3>
+
+<h3 id="service-mesh">Service Mesh</h3>
+
+<h4 id="data-plane">Data Plane</h4>
+
+<h4 id="control-plane">Control Plane</h4>
+
+<h2 id="architecture-principles">Architecture Principles</h2>
+
+<p>Three Principles of Architecture Design:</p>
+
+<ul>
+  <li>Suitability Principle (Suitability over Completeness)</li>
+  <li>Simplicity Principle (Simplicity over Complexity)</li>
+  <li>Evolution Principle (Evolution over One-time Perfection)</li>
+</ul>
+
+<h3 id="jit-jea">JIT-JEA</h3>
+
+<blockquote>
+  <p>Just In Time, Just Enough Architecture</p>
+</blockquote>
+
+<h3 id="dry">DRY</h3>
+
+<blockquote>
+  <p>Don’t Repeat Yourself</p>
+</blockquote>
+
+<h3 id="kiss">KISS</h3>
+
+<blockquote>
+  <p>Keep It Simple, Stupid</p>
+</blockquote>
+
+<h3 id="solid">SOLID</h3>
+
+<ul>
+  <li>Single Responsibility</li>
+  <li>Open-Closed</li>
+  <li>Liskov Substitution</li>
+  <li>Interface Segregation</li>
+  <li>Dependency Inversion</li>
+</ul>
+
+<h3 id="yagni">YAGNI</h3>
+
+<blockquote>
+  <p>You Aren’t Gonna Need It</p>
+</blockquote>
+
+<h3 id="progressive-optimization">Progressive Optimization</h3>
+
+<blockquote>
+  <p>Premature optimization is the root of all evil. - Donald Knuth</p>
+</blockquote>
+
+<p>Don’t think about possible optimizations when writing a program, but focus on
+making sure the code is clean, correct, readable, and easy to understand. If you
+find it’s too big or too slow after you’ve written it, then think about how to
+optimize it.</p>
+
+<p>In many areas, you can get 80% of the results with 20% of the effort (sometimes
+it can be the 10/90 rule). Whenever you want to optimize code, first use a
+profiling tool to find out where 80% of the execution time is spent, so you
+know where to focus your optimization efforts.</p>
+
+<p>Do remember that the slight performance improvement is not worth sacrificing
+the clarity, cleanliness, readability and understanding of the code.</p>
+
+<h3 id="expose-problem-as-soon-as-possible">Expose Problem As Soon As Possible</h3>
+
+<blockquote>
+  <p>A dead program is usually less harmful than a sick program.</p>
+</blockquote>
+
+<p>One of the benefits of detecting problems early is that you can crash sooner.</p>
+
+<p>When your code discovers that something that was supposedly impossible has
+happened, your program is no longer viable, and everything it does from that
+point on becomes suspect, so terminate it as quickly as possible.</p>
+
+<h3 id="contract-oriented-design">Contract-Oriented Design</h3>
+
+<p>Writing “shy code” is beneficial, shyness works in two ways:</p>
+
+<ul>
+  <li>Do not exposing yourself to others.</li>
+  <li>Do not interacting with too many people.</li>
+</ul>
+
+<h4 id="orthogonality">Orthogonality</h4>
+
+<blockquote>
+  <p>Orthogonality is a property of a system that allows its components to be
+developed, tested, and maintained independently of each other.</p>
+</blockquote>
+
+<p>“Orthogonality” is a concept in software design, which means that the various
+parts of the system should be independent of each other and not interfere with
+each other. Modifying one part should not affect other parts; adding a function
+should not make the system more complex or more difficult to maintain.</p>
+
+<p>When introducing third-party toolkits and libraries, make sure they do not
+destroy the independence and clear boundaries between parts of the system.</p>
+
+<p>Organize your code into minimal organizational units (modules) and limit the
+interactions between them so that if one module must be replaced later due to
+a compromise, the other modules will continue to work.</p>
+
+<p>The Law of Demeter:</p>
+
+<p>The Law of Demeter, also known as the “Law of Demeter” or the “Principle of
+Least Knowledge”, is a guiding principle of object-oriented design. It
+emphasizes that an object should know as little as possible about other objects,
+interact only with its direct friends (classes), and avoid direct communication
+with unfamiliar objects.</p>
+
+<h4 id="assertive-programming">Assertive Programming</h4>
+
+<blockquote>
+  <p>Don’t assume, prove. If it can’t happen, use assertions to ensure it doesn’t
+happen.</p>
+</blockquote>
+
+<p>Assertive programming is a programming practice that uses assertions to 
+ensure that certain conditions hold true at runtime. Assertions are used to
+check for conditions that should never happen, such as invalid input or
+application state. If an assertion fails, it indicates a bug in the code that
+needs to be fixed. Assertions are typically used during development and testing
+phases, and can be disabled in production environments to improve performance.</p>
+
+<p>Implicit assumptions:</p>
+
+<blockquote>
+  <p>Don’t program by accident and assumption, program by deliberation.</p>
+</blockquote>
+
+<blockquote>
+  <p>Don’t use wizard code you don’t understand, it make you regress to programming
+by coincidence.</p>
+</blockquote>
+
+<p>People at all levels work with many assumptions in their heads - but these
+assumptions are rarely documented and often conflict between different
+developers. Assumptions that are not based on clear facts are the bane of
+all projects.</p>
+
+<p>Assertive programming helps to catch bugs early in the development process and
+that the code behaves as expected.</p>
+
+<p><strong>In addition to adding assertions, please keep them turned on</strong>. Because your
+first line of defense is to check for any possible errors, and your second line
+of defense is to use assertions to try to detect errors you missed. Although
+earlier assertions come with some performance cost, don’t turn them off.</p>
+
+<h4 id="defensive-programming">Defensive Programming</h4>
+
+<blockquote>
+  <p>It’s a kind of contract-oriented programming in essence.</p>
+</blockquote>
+
+<p>Defensive programming is a programming practice intended to ensure the continuing
+function of a piece of software under unforeseen or unpredictable circumstances.</p>
+
+<h3 id="configuration-oriented-design">Configuration-oriented Design</h3>
+
+<blockquote>
+  <p>Put abstractions in code and details in metadata.</p>
+</blockquote>
+
+<blockquote>
+  <p>Postpone definition of most details until the last possible moment, and keep
+details as “soft” as possible—as easy to change as possible.</p>
+</blockquote>
+
+<p>It’s also called “Metadata-oriented Design”, which is a design principle that
+emphasizes the separation of configuration and code. The idea is to put
+abstractions in code and details in metadata, allowing for greater flexibility
+and maintainability. This approach allows developers to change the behavior of
+the system without modifying the code itself, making it easier to adapt to
+changing requirements and environments.</p>
+
+<h3 id="ioc-inversion-of-control">IoC (Inversion of Control)</h3>
+
+<h3 id="high-cohesion--low-coupling">High cohesion &amp; Low coupling</h3>
+
+<h3 id="gof-design-patterns">GoF Design Patterns</h3>
+
+<h2 id="architecture-patterns">Architecture Patterns</h2>
+
+<h3 id="cqrs-command-and-query-responsibility-segregation">CQRS (Command and Query Responsibility Segregation)</h3>
+
+<p>CQRS is a software architectural pattern that separates the read and write
+models of a system. The write model is responsible for handling commands and is
+a representation of the current state of the system. The read model is
+responsible for handling queries and is a representation of the data that is to
+be displayed to the user. CQRS allows for the read and write models to be
+specialized for their respective tasks, which can lead to better performance and
+scalability.</p>
+
+<h3 id="tdd-test-driven-development">TDD (Test-Driven Development)</h3>
+
+<p>TDD is an agile software development process where developers write automated
+tests before writing the code. The idea behind TDD is that if you write the
+tests first, you will have a better understanding of what the code should do.
+The tests act as a specification for the code. TDD ensures that the code is
+testable, maintainable, and extensible.</p>
+
+<ul>
+  <li>Tests act as documentation for the code</li>
+  <li>Ensures that the code is testable, maintainable, and extensible</li>
+  <li>Helps catch bugs early in the development process</li>
+  <li>Provides a safety net for refactoring the code</li>
+</ul>
+
+<h3 id="bdd-behavior-driven-development">BDD (Behavior-Driven Development)</h3>
+
+<p>BDD is a software development process that focuses on the behavior of the
+software. BDD is an extension of TDD, where tests are written in a more
+natural language that stakeholders can understand. BDD ensures that the
+software is developed based on the user’s needs and behaviors.</p>
+
+<ul>
+  <li>Helps ensure that the software is developed based on the user’s needs and
+behaviors</li>
+  <li>Provides a common language for developers, testers, and stakeholders</li>
+  <li>Improves communication and collaboration between stakeholders</li>
+  <li>Helps identify potential issues early in the development process</li>
+</ul>
+
+<h3 id="ddd-domain-driven-design">DDD (Domain-Driven Design)</h3>
+
+<p>DDD is an approach to software development that focuses on the domain of
+the software. The domain is the problem space that the software is intended
+to solve. DDD ensures that the software is built around the domain and that
+it solves the problem in the best possible way.</p>
+
+<ul>
+  <li>Ensures that the software solves the problem in the best possible way</li>
+  <li>Improves the understanding of the domain of the software</li>
+  <li>Provides a common language for developers and domain experts</li>
+  <li>Helps identify potential issues early in the development process</li>
+</ul>
+
+<h4 id="ebi-entity-boundary-interactor">EBI (Entity-Boundary-Interactor)</h4>
+
+<p><img src="https://github.com/user-attachments/assets/2a59fc1b-48b6-4c11-a67f-a35ffe80a853" alt="EBI"></p>
+
+<h4 id="hexagonal-architecture-ports--adapters-architecture">Hexagonal Architecture (Ports &amp; Adapters Architecture)</h4>
+
+<p><img src="https://github.com/user-attachments/assets/db5a0668-fc6a-47eb-92a1-dd01c29708a1" alt="Hexagonal Architecture"></p>
+
+<h4 id="onion-architecture">Onion Architecture</h4>
+
+<p>Onion Architecture is built on top of the Port &amp; Adapter Architecture (also
+known as Hexagonal Architecture), which mentions only 2 layers:</p>
+
+<ul>
+  <li>Outer Layer - Represents the transport (communication) mechanism and infrastructure</li>
+  <li>Inner Layer - Business Logic</li>
+</ul>
+
+<p><img src="https://github.com/user-attachments/assets/323f4313-80fa-4825-8aea-f4ac3e9a3edd" alt="Onion Architecture"></p>
+
+<p>Onion Architecture, based on DDD, further divides the inner layer (Business
+Logic Layer) into:</p>
+
+<ul>
+  <li>Adapters, which correspond to the Adapter layer in Hexagonal Architecture
+    <ul>
+      <li>User Interface, Infrastructure, Tests</li>
+    </ul>
+  </li>
+  <li>Application Core, which is the core of the application, also the original
+Business Logic layer in Hexagonal Architecture
+    <ul>
+      <li>Application Services</li>
+      <li>Domain Services</li>
+      <li>Domain Model</li>
+    </ul>
+  </li>
+</ul>
+
+<p>And it clarifies the direction of dependencies:</p>
+
+<ul>
+  <li>Outer layers depend on inner layers</li>
+  <li>Inner layers are unaware of outer layers</li>
+  <li>Without breaking the dependency direction, outer layers can directly call
+any inner layer (not necessarily adjacent layers), as seen in CQRS where
+Application Services directly call DAO in Query implementation</li>
+</ul>
+
+<h4 id="clean-architecture">Clean Architecture</h4>
+
+<p>Compared to Onion Architecture, Clean Architecture adjusts as follows:</p>
+
+<ul>
+  <li>Application Services are adjusted to Use Cases Domain Services</li>
+  <li>Domain Model is adjusted to Entities</li>
+</ul>
+
+<p><img src="https://github.com/user-attachments/assets/cf25278e-f6c1-456e-8704-2dec7b4d7888" alt="The Clean Architecture"></p>
+
+<p>Clean Architecture does not bring breakthrough concepts or patterns, but:</p>
+
+<ul>
+  <li>It uncovers some concepts, rules, and patterns that were somewhat forgotten</li>
+  <li>It clarifies some practical and important concepts, rules, and patterns</li>
+  <li>It tells us how to integrate all the concepts, rules, and patterns to form
+a standard approach for building complex applications while maintaining
+maintainability</li>
+</ul>
+
+<p><img src="https://github.com/user-attachments/assets/d358ecaa-99ef-4ac1-8c9c-2764b1558559" alt="The Clean Architecture Cone"></p>
+
+<blockquote>
+  <p>The technology stack and technology debt are directly proportional.</p>
+</blockquote>
+
+<p>The more technology stacks you stack, the more debt you borrow and the more you
+need to repay in the future. Therefore, you need to weigh the amount of
+technology stack.</p>
+
+<ul>
+  <li>If the introduction of a new technology can replace multiple old technologies,
+then it is particularly valuable.</li>
+  <li>If a mature technology can be applied to as many different scenarios as
+possible to solve multiple types of problems, it will also become valuable.
+E.g. PostgreSQL to replace MySQL, Redis, MongoDB, etc.</li>
+</ul>
+
+<h3 id="explicit-architecture">Explicit Architecture</h3>
+
+<p>In 2017, Herberto Graca proposed Explicit Architecture in his series of articles
+on the chronicles of software architecture, which integrates DDD, Hexagonal,
+Onion, Clean, CQRS, and other architectures.</p>
+
+<p><img src="https://github.com/user-attachments/assets/f1068278-2c2a-4ec3-97f9-66566d9830ea" alt="Explicit Architecture"></p>
+
+<h3 id="event-driven">Event-Driven</h3>
+
+<h3 id="micro-services">Micro Services</h3>
+
+<h3 id="micro-frontend">Micro Frontend</h3>
+
+<h2 id="documentation">Documentation</h2>
+
+<h3 id="c4-model">C4 Model</h3>
+
+<p>The idea is to use 4 different granularity (or zoom) levels for documenting
+software architecture:</p>
+
+<ul>
+  <li>Level 1: System Context diagram</li>
+  <li>Level 2: Container diagram</li>
+  <li>Level 3: Component diagram</li>
+  <li>Level 4: Code diagram</li>
+</ul>
+
+<h2 id="refactoring">Refactoring</h2>
+
+<p>When should you refactor?</p>
+
+<p>You should consider refactoring your code whenever it has any of the following
+characteristics:</p>
+
+<ul>
+  <li>Repetition. You found a violation of the DRY principle.</li>
+  <li>Non-orthogonal design.</li>
+  <li>Outdated knowledge.</li>
+  <li>Performance.</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.2812&rep=rep1&type=pdf">Principles of Transaction-Oriented Database Recovery</a></li>
+  <li><a href="https://www.baeldung.com/cs/eventual-consistency-vs-strong-eventual-consistency-vs-strong-consistency">Eventual Consistency vs. Strong Eventual Consistency vs. Strong Consistency</a></li>
+  <li><a href="https://www.alibabacloud.com/blog/an-in-depth-analysis-of-distributed-transaction-solutions_597232">An In-Depth Analysis of Distributed Transaction Solutions</a></li>
+  <li><a href="https://nordicapis.com/token-design-better-api-architecture/">Token Design for a Better API Architecture</a></li>
+  <li><a href="https://www.tutorialspoint.com/microservices_design_patterns/index.htm">Microservices Design Patterns Tutorial</a></li>
+  <li><a href="https://github.com/bitloops/ddd-hexagonal-cqrs-es-eda">ddd-hexagonal-cqrs-es-eda</a></li>
+</ul>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/photography/2022/11/24/the-handbook-of-photography.html" title="The Handbook of Photography">
+          <div>The Handbook of Photography</div>
+        </a><a class="next" href="/computer/2022/12/13/the-handbook-of-system-design.html" title="The Handbook of System Design">
+          <div>The Handbook of System Design</div>
+        </a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="">
+          <a class="post-link" href="/linguistics/2018/10/31/internet-slang-in-english.html" title="Internet slang in English">
+            Internet slang in English<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/linguistics/2021/02/08/the-morphology-of-english-words.html" title="The Morphology of English Words">
+            The Morphology of English Words<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/computer/2020/11/19/how-to-use-fcitx5-elegantly-on-arch-linux.html" title="How to use fcitx5 elegantly on Arch Linux">
+            How to use fcitx5 elegantly on Arch Linux<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/methodology/2023/06/15/the-frameworks-of-effective-product-design-sense.html" title="The Frameworks of Effective Product Design Sense">
+            The Frameworks of Effective Product Design Sense<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments">  <div id="disqus_recommendations"></div>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://jeffreytse.net/computer/2022/11/25/the-handbook-of-software-architecture.html';
+      this.page.identifier = 'https://jeffreytse.net/computer/2022/11/25/the-handbook-of-software-architecture.html';
+    };
+
+    // Disqus recommendations
+    (function() {
+      if (false === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/recommendations.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus comments
+    (function() {
+      if (true === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus theme switching
+    document.addEventListener('theme-changed', function (e) {
+      if (document.readyState == 'complete') {
+        setTimeout(function () {
+          if (window.DISQUS_RECOMMENDATIONS) {
+            window.DISQUS_RECOMMENDATIONS.reset({ reload: true });
+          }
+          if (window.DISQUS) {
+            window.DISQUS.reset({ reload: true, config: disqus_config });
+          }
+        }, 100);
+      }
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+</div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Copyright © 2008-2020</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

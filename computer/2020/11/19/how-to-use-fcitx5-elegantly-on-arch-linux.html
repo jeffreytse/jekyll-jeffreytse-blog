@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How to use fcitx5 elegantly on Arch Linux | Jeffrey Tse’s Blog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="How to use fcitx5 elegantly on Arch Linux">
+<meta name="author" content="Jeffrey Tse">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Introduction">
+<meta property="og:description" content="Introduction">
+<link rel="canonical" href="https://jeffreytse.net/computer/2020/11/19/how-to-use-fcitx5-elegantly-on-arch-linux.html">
+<meta property="og:url" content="https://jeffreytse.net/computer/2020/11/19/how-to-use-fcitx5-elegantly-on-arch-linux.html">
+<meta property="og:site_name" content="Jeffrey Tse’s Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-11-19T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="How to use fcitx5 elegantly on Arch Linux">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeffrey Tse"},"dateModified":"2020-11-19T00:00:00+00:00","datePublished":"2020-11-19T00:00:00+00:00","description":"Introduction","headline":"How to use fcitx5 elegantly on Arch Linux","mainEntityOfPage":{"@type":"WebPage","@id":"https://jeffreytse.net/computer/2020/11/19/how-to-use-fcitx5-elegantly-on-arch-linux.html"},"url":"https://jeffreytse.net/computer/2020/11/19/how-to-use-fcitx5-elegantly-on-arch-linux.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="https://jeffreytse.net">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://jeffreytse.net/feed.xml" title="Jeffrey Tse's Blog">
+<!-- Google tag (gtag.js) -->
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "false" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      var measurementId = 'G-N54MN13CMZ';
+
+      (function(src) {
+        var tag = document.createElement('script');
+        tag.src = src;
+        tag.async = true;
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      })('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    }
+  }
+  window.addEventListener("load", initGoogleAnalytics);
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="Jeffrey Tse's Blog" src="/favicon.png" onerror="this.style.display='none'">
+  Jeffrey Tse's Blog
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/">HOME</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/tags.html">TAGS</a><a class="page-link" href="/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<div class="page-link" style="display: inline;">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<div class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</div>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+        document.dispatchEvent(new Event('theme-changed'));
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">How to use fcitx5 elegantly on Arch Linux</h1>
+  <h2 class="post-subtitle"></h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2020-11-19T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 19 Nov 2020
+    </time><span class="post-author left-vsplit"><i class="fa fa-pencil"></i> Jeffrey Tse</span>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+  </div>
+<div class="post-tags">
+<a class="post-tag" href="/tags.html#computer">#computer</a><a class="post-tag" href="/tags.html#linux">#linux</a><a class="post-tag" href="/tags.html#misc">#misc</a>
+</div></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <h2 id="introduction">Introduction</h2>
+
+<p>Fcitx [ˈfaɪtɪks] is an input method framework with extension support.
+Currently it supports Linux and Unix systems like freebsd. It has
+three built-in Input Method Engine, Pinyin, QuWei and Table-based
+input methods.</p>
+
+<p>Fcitx tries to provide a native feeling under all desktop as well as
+a light weight core. You can easily customize it to fit your
+requirements.</p>
+
+<p>Compared with fcitx4, the experience has improved significantly, and
+many practical functions have been added.</p>
+
+<p>Here are some stuffs worth mentioning:</p>
+
+<ul>
+  <li>The input is much smoother and almost no bugs.</li>
+  <li>Support <a href="https://en.wikipedia.org/wiki/Wayland_display_server_protocol">Wayland</a>
+communication protocol.</li>
+  <li>Generate word candidates based on prefix automatically (<a href="https://github.com/felixonmars/fcitx5-pinyin-zhwiki/issues/6">See here</a>).</li>
+  <li>The U-mode for inputting Chinese character in splitting.</li>
+  <li>Compatible with input method modules of <code class="language-plaintext highlighter-rouge">fcitx</code> and <code class="language-plaintext highlighter-rouge">ibus</code>.</li>
+  <li>Support Baidu cloud vocabulary and Sogou cell vocabulary.</li>
+  <li>The only disadvantage is that there are few themes.</li>
+</ul>
+
+<p>Fcitx5 has been developed for more than three years, and it has been
+well received by many Archers, so why not upgrade your fcitx4 to fcitx5.</p>
+
+<h2 id="installation">Installation</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Remove fcitx4</span>
+pacman <span class="nt">-Rs</span> <span class="si">$(</span>pacman <span class="nt">-Qsq</span> fcitx<span class="si">)</span>
+
+<span class="c"># Install fcitx5 from community source</span>
+pacman <span class="nt">-S</span> fcitx5 fcitx5-gtk fcitx5-qt
+
+<span class="c"># Install configuration tool</span>
+pacman <span class="nt">-S</span> fcitx5-configtool
+</code></pre></div></div>
+
+<p>Below packages are optional:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Install Chinese addons (Cloud Pinyin, Simplified Chinese)</span>
+pacman <span class="nt">-S</span> fcitx5-chinese-addons
+
+<span class="c"># Install Rime if you better like it (Traditional/Simplified Chinese)</span>
+pacman <span class="nt">-S</span> fcitx5-rime
+
+<span class="c"># Install Japanese IM</span>
+pacman <span class="nt">-S</span> fcitx5-anthy
+
+<span class="c"># Install Japanese IM using Google Engine</span>
+pacman <span class="nt">-S</span> fcitx5-mozc
+</code></pre></div></div>
+
+<h2 id="configuration">Configuration</h2>
+
+<h3 id="default-profile">Default Profile</h3>
+
+<p>Fcitx5 uses the Western keyboard by default, for other input methods like
+pinyin, you should modify the default profile.</p>
+
+<p>Especially, because fcitx5 will automatically overwrite the profile
+configuration file when exiting, <strong>PLEASE DO NOT FORGET TO CLOSE</strong> fcitx5
+process before you start to modify the profile file.</p>
+
+<p>Edit <code class="language-plaintext highlighter-rouge">~/.config/fcitx5/profile</code></p>
+
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">############################################
+# DefaultIM settings
+#
+# 1. Pinyin is for Chinese (supported by `fcitx5-chinese-addons`)
+# DefaultIM=pinyin
+#
+# 2. Rime is for Chinese (supported by `fcitx5-rime`)
+# DefaultIM=rime
+#
+</span><span class="w">
+</span><span class="nn">[Groups/0]</span><span class="w">
+</span><span class="c"># Group Name
+</span><span class="py">Name</span><span class="p">=</span><span class="s">Default</span>
+<span class="c"># Layout
+</span><span class="na">Default</span><span class="w"> </span><span class="py">Layout</span><span class="p">=</span><span class="s">us</span>
+<span class="c"># Default Input Method
+</span><span class="py">DefaultIM</span><span class="p">=</span><span class="s">pinyin</span>
+<span class="w">
+</span><span class="nn">[Groups/0/Items/0]</span><span class="w">
+</span><span class="c"># Name
+</span><span class="py">Name</span><span class="p">=</span><span class="s">keyboard-us</span>
+<span class="c"># Layout
+</span><span class="py">Layout</span><span class="p">=</span>
+<span class="w">
+</span><span class="nn">[Groups/0/Items/1]</span><span class="w">
+</span><span class="c"># Name
+</span><span class="py">Name</span><span class="p">=</span><span class="s">pinyin</span>
+<span class="c"># Layout
+</span><span class="py">Layout</span><span class="p">=</span>
+<span class="w">
+</span><span class="nn">[GroupOrder]</span><span class="w">
+</span><span class="py">0</span><span class="p">=</span><span class="s">Default</span>
+</code></pre></div></div>
+
+<h3 id="environment-variables">Environment Variables</h3>
+
+<p>At first, get your X Desktop Environment Type:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="k">${</span><span class="nv">XDG_SESSION_TYPE</span><span class="k">}</span>
+</code></pre></div></div>
+
+<p>Then edit <code class="language-plaintext highlighter-rouge">~/.pam_environment</code> (for <strong>X11</strong> and <strong>Waylanda</strong> users)</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">GTK_IM_MODULE</span><span class="o">=</span>fcitx5
+<span class="nv">QT_IM_MODULE</span><span class="o">=</span>fcitx5
+<span class="nv">XMODIFIERS</span><span class="o">=</span><span class="s2">"@im=fcitx5"</span>
+</code></pre></div></div>
+
+<p>or edit <code class="language-plaintext highlighter-rouge">~/.xprofile</code> (only for <strong>X11</strong> users)</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># export fcitx5 environment variables</span>
+<span class="nb">export </span><span class="nv">GTK_IM_MODULE</span><span class="o">=</span>fcitx5
+<span class="nb">export </span><span class="nv">QT_IM_MODULE</span><span class="o">=</span>fcitx5
+<span class="nb">export </span><span class="nv">XMODIFIERS</span><span class="o">=</span><span class="s2">"@im=fcitx5"</span>
+</code></pre></div></div>
+
+<p>Additionally, the file <code class="language-plaintext highlighter-rouge">~/.bash_profile</code> or <code class="language-plaintext highlighter-rouge">~/.profile</code> also can
+be used for exporting the environment variables, but the SDDM will
+only load <code class="language-plaintext highlighter-rouge">.bash_profile</code> when both configuration files exist at
+the same time.</p>
+
+<h3 id="autostart">Autostart</h3>
+
+<p>If you are a KDE desktop user, you can easily add autostart item
+on <strong>System Settings</strong> as below:</p>
+
+<p><img src="https://user-images.githubusercontent.com/9413601/100999815-1fd0a280-3598-11eb-9cf3-e77d31d2198a.png" alt="image"></p>
+
+<p>or if you are a terminal user and better like termination way, you just
+need to create and edit <code class="language-plaintext highlighter-rouge">~/.config/autostart/fcitx5.desktop</code>:</p>
+
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">[Desktop Entry]</span><span class="w">
+</span><span class="py">Name</span><span class="p">=</span><span class="s">Fcitx5</span>
+<span class="py">GenericName</span><span class="p">=</span><span class="s">Fcitx5 Input Method</span>
+<span class="py">Comment</span><span class="p">=</span><span class="s">Start Fcitx5</span>
+<span class="py">Exec</span><span class="p">=</span><span class="s">fcitx5</span>
+<span class="py">Icon</span><span class="p">=</span><span class="s">fcitx</span>
+<span class="py">Terminal</span><span class="p">=</span><span class="s">false</span>
+<span class="py">Type</span><span class="p">=</span><span class="s">Application</span>
+<span class="py">Categories</span><span class="p">=</span><span class="s">System;Utility;</span>
+<span class="py">StartupNotify</span><span class="p">=</span><span class="s">false</span>
+<span class="py">X-GNOME-Autostart-Phase</span><span class="p">=</span><span class="s">Applications</span>
+<span class="py">X-GNOME-AutoRestart</span><span class="p">=</span><span class="s">false</span>
+<span class="py">X-GNOME-Autostart-Notify</span><span class="p">=</span><span class="s">false</span>
+<span class="py">X-KDE-autostart-after</span><span class="p">=</span><span class="s">panel</span>
+<span class="py">X-KDE-StartupNotify</span><span class="p">=</span><span class="s">false</span>
+<span class="py">X-GNOME-Autostart-enabled</span><span class="p">=</span><span class="s">true</span>
+<span class="w">
+</span></code></pre></div></div>
+
+<p>or even You can directly add to <code class="language-plaintext highlighter-rouge">~/.xprofile</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fcitx5 &amp;
+</code></pre></div></div>
+
+<h3 id="theme">Theme</h3>
+
+<p>If you don’t like the default theme that comes with it, you can also
+try to install a new theme, here is a example for demonstration:</p>
+
+<p><img src="https://user-images.githubusercontent.com/9413601/101030668-59170b80-35b4-11eb-8a0c-3867ec9138c5.png" alt="image"></p>
+
+<p>Firstly, install the material style theme package:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Material Style Theme</span>
+<span class="c"># https://github.com/hosxy/Fcitx5-Material-Color</span>
+pacman <span class="nt">-S</span> fcitx5-material-color
+</code></pre></div></div>
+
+<p>then edit <code class="language-plaintext highlighter-rouge">~/.config/fcitx5/conf/classicui.conf</code> file:</p>
+
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># We choose one theme, such as `Pink`, 'Blue', 'Black', etc.
+</span><span class="py">Theme</span><span class="p">=</span><span class="s">Material-Color-Pink</span>
+</code></pre></div></div>
+
+<h3 id="other">Other</h3>
+
+<h4 id="disable-cloud-pinyin">Disable Cloud Pinyin</h4>
+
+<p>To prevent privacy from being uploaded, you can disable the Cloud
+Pinyin.</p>
+
+<p>Edit <code class="language-plaintext highlighter-rouge">~/.config/fcitx5/conf/pinyin.conf</code>:</p>
+
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Enable/Disable Cloud Pinyin
+</span><span class="py">CloudPinyinEnabled</span><span class="p">=</span><span class="s">False</span>
+</code></pre></div></div>
+
+<h4 id="disable-auto-dpi">Disable Auto DPI</h4>
+
+<p>By default, fcitx5 can automatically adjust the UI size according to
+the DPI of the display, but sometimes it will be wrong. You can set
+to a fixed font size.</p>
+
+<p>Edit <code class="language-plaintext highlighter-rouge">~/.config/fcitx5/conf/classicui.conf</code>:</p>
+
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Enable/Disable auto DPI
+</span><span class="py">PerScreenDPI</span><span class="p">=</span><span class="s">False</span>
+<span class="w">
+</span><span class="c"># Font (Here you can set to any font you like)
+</span><span class="py">Font</span><span class="p">=</span><span class="s">"Noto Sans Regular 14"</span>
+</code></pre></div></div>
+
+<h4 id="enable-inline-preedit">Enable Inline Preedit</h4>
+
+<p>If you want it to display pre-edited text in the app when available,
+here you must not miss it. You should create or edit specific
+configuration file for different IMs:</p>
+
+<ul>
+  <li>Pinyin IM: <code class="language-plaintext highlighter-rouge">~/.config/fcitx5/conf/pinyin.conf</code>.</li>
+  <li>Rime IM: <code class="language-plaintext highlighter-rouge">~/.config/fcitx5/conf/rime.conf</code>.</li>
+</ul>
+
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Display pre-edited text in the app when available
+</span><span class="py">PreeditInApplication</span><span class="p">=</span><span class="s">True</span>
+</code></pre></div></div>
+
+<h4 id="customize-quick-phrase">Customize Quick Phrase</h4>
+
+<p>At First, create a quick phrase database:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo touch</span> /usr/share/fcitx5/data/quickphrase.d/quick.mb
+</code></pre></div></div>
+
+<p>And then append all the quick phrases line by line with the format
+<code class="language-plaintext highlighter-rouge">input output</code> to the file:</p>
+
+<pre><code class="language-txt">eg e.g
+asap as soon as possible
+omg Oh my god!
+...
+</code></pre>
+
+<p>You can open the Quick Input by pressing down the semicolon, but
+unfortunately, Rime does not support it.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In general, the input experience of fcitx5 is indeed better than
+the previous version. The input is relatively smooth. You can input
+the Chinese semicolon through pressing the semicolon twice. Also, it
+will automatically switch to half-width punctuation when inputting
+English.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://fcitx-im.org/wiki/Fcitx">Fcitx Official Site</a></li>
+  <li><a href="https://www.csslayer.info/wordpress/fcitx-dev/%e5%a6%82%e4%bd%95%e7%8e%b0%e5%9c%a8%e5%b0%b1%e5%9c%a8-arch-linux-%e7%94%a8%e4%b8%8a-fcitx-5/#comment-28741">How to use Fcitx5 on Arch Linux now</a></li>
+</ul>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/computer/2020/11/19/how-to-configure-ip-on-ubuntu.html" title="How to configure IP on Ubuntu">
+          <div>How to configure IP on Ubuntu</div>
+        </a><a class="next" href="/photography/2020/12/08/how-to-choose-a-digital-camera-quantitatively.html" title="How to choose a digital camera quantitatively">
+          <div>How to choose a digital camera quantitatively</div>
+        </a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="">
+          <a class="post-link" href="/methodology/2023/05/27/the-handbook-of-effective-business-email.html" title="The Handbook of Effective Business Email">
+            The Handbook of Effective Business Email<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/computer/2020/10/19/fix-warning-setlocale-cannot-change-locale.html" title="Fix warning setlocale cannot change locale">
+            Fix warning setlocale cannot change locale<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/computer/2020/08/18/miscellaneous-of-openssl.html" title="Miscellaneous of OpenSSL">
+            Miscellaneous of OpenSSL<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/methodology/2022/06/01/ten-second-for-effective-communication-with-prep.html" title="Ten-second for effective communication with PREP">
+            Ten-second for effective communication with PREP<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments">  <div id="disqus_recommendations"></div>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://jeffreytse.net/computer/2020/11/19/how-to-use-fcitx5-elegantly-on-arch-linux.html';
+      this.page.identifier = 'https://jeffreytse.net/computer/2020/11/19/how-to-use-fcitx5-elegantly-on-arch-linux.html';
+    };
+
+    // Disqus recommendations
+    (function() {
+      if (false === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/recommendations.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus comments
+    (function() {
+      if (true === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus theme switching
+    document.addEventListener('theme-changed', function (e) {
+      if (document.readyState == 'complete') {
+        setTimeout(function () {
+          if (window.DISQUS_RECOMMENDATIONS) {
+            window.DISQUS_RECOMMENDATIONS.reset({ reload: true });
+          }
+          if (window.DISQUS) {
+            window.DISQUS.reset({ reload: true, config: disqus_config });
+          }
+        }, 100);
+      }
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+</div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Copyright © 2008-2020</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

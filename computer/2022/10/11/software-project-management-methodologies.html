@@ -1,0 +1,2049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Software Project Management Methodologies | Jeffrey Tse’s Blog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="Software Project Management Methodologies">
+<meta name="author" content="Jeffrey Tse">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="As we all know, software development is a complex process that requires careful planning, execution, and monitoring. To ensure that software projects are completed on time, within budget, and to the required quality standards, software project management methodologies have been developed. These methodologies provide a structured approach to software development, helping teams to manage the various aspects of the project, including requirements gathering, design, implementation, testing, and deployment.">
+<meta property="og:description" content="As we all know, software development is a complex process that requires careful planning, execution, and monitoring. To ensure that software projects are completed on time, within budget, and to the required quality standards, software project management methodologies have been developed. These methodologies provide a structured approach to software development, helping teams to manage the various aspects of the project, including requirements gathering, design, implementation, testing, and deployment.">
+<link rel="canonical" href="https://jeffreytse.net/computer/2022/10/11/software-project-management-methodologies.html">
+<meta property="og:url" content="https://jeffreytse.net/computer/2022/10/11/software-project-management-methodologies.html">
+<meta property="og:site_name" content="Jeffrey Tse’s Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2022-10-11T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Software Project Management Methodologies">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeffrey Tse"},"dateModified":"2022-10-11T00:00:00+00:00","datePublished":"2022-10-11T00:00:00+00:00","description":"As we all know, software development is a complex process that requires careful planning, execution, and monitoring. To ensure that software projects are completed on time, within budget, and to the required quality standards, software project management methodologies have been developed. These methodologies provide a structured approach to software development, helping teams to manage the various aspects of the project, including requirements gathering, design, implementation, testing, and deployment.","headline":"Software Project Management Methodologies","mainEntityOfPage":{"@type":"WebPage","@id":"https://jeffreytse.net/computer/2022/10/11/software-project-management-methodologies.html"},"url":"https://jeffreytse.net/computer/2022/10/11/software-project-management-methodologies.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="https://jeffreytse.net">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://jeffreytse.net/feed.xml" title="Jeffrey Tse's Blog">
+<!-- Google tag (gtag.js) -->
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "false" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      var measurementId = 'G-N54MN13CMZ';
+
+      (function(src) {
+        var tag = document.createElement('script');
+        tag.src = src;
+        tag.async = true;
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      })('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    }
+  }
+  window.addEventListener("load", initGoogleAnalytics);
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="Jeffrey Tse's Blog" src="/favicon.png" onerror="this.style.display='none'">
+  Jeffrey Tse's Blog
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/">HOME</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/tags.html">TAGS</a><a class="page-link" href="/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<div class="page-link" style="display: inline;">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<div class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</div>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    html .page-banner .page-banner-img > *:first-child {
+      opacity: 0.7;
+    }
+
+    html[data-theme="dark"] .page-banner .page-banner-img > *:first-child {
+      opacity: 0.5026;
+    }
+  </style>
+<section class="page-banner">
+    <div class="page-banner-img">
+<div style="background-image: url(https://i.postimg.cc/Y0Gf2ZX5/image.png)"></div>
+        <img class="img-placeholder" src="https://i.postimg.cc/Y0Gf2ZX5/image.png">
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner">
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Software Project Management Methodologies</h1>
+  <h2 class="post-subtitle"></h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2022-10-11T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 11 Oct 2022
+    </time><span class="post-author left-vsplit"><i class="fa fa-pencil"></i> Jeffrey Tse</span>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 24 mins</span>
+  </div>
+<div class="post-tags">
+<a class="post-tag" href="/tags.html#software">#software</a><a class="post-tag" href="/tags.html#management">#management</a><a class="post-tag" href="/tags.html#methodology">#methodology</a><a class="post-tag" href="/tags.html#note">#note</a>
+</div></header>
+</div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+        document.dispatchEvent(new Event('theme-changed'));
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>As we all know, software development is a complex process that requires
+careful planning, execution, and monitoring. To ensure that software projects
+are completed on time, within budget, and to the required quality standards,
+software project management methodologies have been developed. These
+methodologies provide a structured approach to software development, helping
+teams to manage the various aspects of the project, including requirements
+gathering, design, implementation, testing, and deployment.</p>
+
+<h2 id="what-is-sdlc">What is SDLC?</h2>
+
+<p>Software Development and Management Models of Software Engineering:</p>
+
+<ul>
+  <li>Plan</li>
+  <li>Design</li>
+  <li>Build</li>
+  <li>Test</li>
+  <li>Release</li>
+  <li>Monitor</li>
+</ul>
+
+<p>The goal is to produce software of the highest quality and lowest cost in the
+shortest possible time.</p>
+
+<h2 id="what-is-dtap">What is DTAP?</h2>
+
+<p><strong>Development, testing, acceptance and production (DTAP)</strong> is a phased approach
+to software testing and deployment. The four letters in DTAP denote the
+following common steps:</p>
+
+<ul>
+  <li>
+<strong>Development:</strong> The program or component is developed on a development system.
+This development environment might have no testing capabilities.</li>
+  <li>
+<strong>Testing:</strong> Once the software developer thinks it is ready, the product is
+copied to a test environment, to verify it works as expected. This test
+environment is supposedly standardized and in close alignment with the
+target environment.</li>
+  <li>
+<strong>Acceptance:</strong> If the test is successful, the product is copied to an
+acceptance test environment. During the acceptance test, the customer will
+test the product in this environment to verify whether it meets their
+expectations.</li>
+  <li>
+<strong>Production:</strong> If the customer accepts the product, it is deployed to a
+production environment, making it available to all users of the system.</li>
+</ul>
+
+<p>DTAP is a software development and deployment methodology that emphasizes the
+importance of separating the different stages of software development to ensure
+that software is developed, tested, and deployed in a controlled and systematic
+manner. The DTAP methodology is commonly used in software development projects
+to ensure that software is developed and deployed in a way that minimizes
+risks and maximizes quality.</p>
+
+<p>Project Environment:</p>
+
+<ul>
+  <li>DEV (Development)
+    <ul>
+      <li>The environment where developers write and test their code.</li>
+      <li>It is typically a local or isolated environment where developers can work
+without affecting other environments.</li>
+    </ul>
+  </li>
+  <li>SIT (System Integrate Test)
+    <ul>
+      <li>The environment where the software is integrated and tested as a whole.</li>
+      <li>It is used to verify that different components of the software work
+together as expected.</li>
+    </ul>
+  </li>
+  <li>UAT (User Acceptance Test)
+    <ul>
+      <li>The environment where end-users test the software to ensure it meets their
+requirements and expectations.</li>
+      <li>It is typically the final stage before the software is deployed to
+production.</li>
+    </ul>
+  </li>
+  <li>STG (Staging/Pre-Production)
+    <ul>
+      <li>The environment that closely resembles the production environment.</li>
+      <li>It is used for final testing and verification before the software is
+deployed to production.</li>
+    </ul>
+  </li>
+  <li>PROD (Production)
+    <ul>
+      <li>The live environment where the software is used by end-users.</li>
+      <li>It is the final stage of the software development lifecycle, and any issues
+in this environment can have a significant impact on users.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="software-development-approaches">Software Development Approaches</h2>
+
+<p>There are three main approaches to software development:</p>
+
+<ul>
+  <li>
+<strong>Iterative development:</strong> refining the product through repeated cycles</li>
+  <li>
+<strong>Incremental development:</strong> building the product in small, functional parts</li>
+  <li>
+<strong>Hybrid development:</strong> combined iterative and incremental development, the
+standard in most Agile methodologies</li>
+</ul>
+
+<p><img src="https://i.postimg.cc/Z0znSHKq/image.png" alt="Iterative development Approach"></p>
+
+<p><strong>Iteration Development</strong> is the process of constantly enriching details. With
+each iteration, we should make the project clearer and the details more perfect
+step by step.</p>
+
+<p><img src="https://i.postimg.cc/y8Xn365f/image.png" alt="Incremental development Approach"></p>
+
+<p><strong>Increment Development</strong> has no overall outline. It starts with a complete part
+in detail, and is completed piece by piece until a complete product is finally
+formed.</p>
+
+<ul>
+  <li>The focus is on “<strong>increment</strong>”: the system is divided into multiple modules, and
+each module is gradually built as a functional increment.</li>
+  <li>Each increment is an independently usable function.</li>
+  <li>The goal is <strong>to deliver a part of the operational system as early as
+possible</strong>, and gradually increase the complete functionality.</li>
+</ul>
+
+<p><img src="https://i.postimg.cc/D0ryW3xR/image.png" alt="Iterative &amp; Incremental Approaches"></p>
+
+<p><strong>Iterative and Incremental Development</strong> contains two core ideas:</p>
+
+<ul>
+  <li>
+<strong>Incremental:</strong> Like above, gradually increase system functions.</li>
+  <li>
+<strong>Iterative:</strong> Each increment/module can be gradually improved through multiple
+“iterations” instead of being done all at once.</li>
+</ul>
+
+<p>For example:</p>
+
+<ul>
+  <li>
+<strong>Incremental Development:</strong>
+    <ul>
+      <li>The first delivery is the login function;</li>
+      <li>The second delivery is the user profile function;</li>
+      <li>The third delivery is the order management function;</li>
+      <li>New functions are delivered each time, and the delivered functions are
+rarely modified.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Iterative and Incremental Development:</strong>
+    <ul>
+      <li>The first delivery is the login function V0.1;</li>
+      <li>The second delivery is the login function UI + adding user profile V0.2;</li>
+      <li>The third delivery is the user profile + adding order management V0.3;</li>
+      <li>Each iteration improves the delivered functions and adds new functions.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Table below summarizes the differences:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Features</th>
+      <th>Incremental Development</th>
+      <th>Iterative and Incremental Development</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Core</td>
+      <td>Incremental</td>
+      <td>Incremental + Iterative</td>
+    </tr>
+    <tr>
+      <td>Modify existing features?</td>
+      <td>Usually not modified</td>
+      <td>Frequent iterative optimization</td>
+    </tr>
+    <tr>
+      <td>Delivery method</td>
+      <td>One new feature block at a time</td>
+      <td>New features + improvement of old features</td>
+    </tr>
+    <tr>
+      <td>Compatibility with Agile</td>
+      <td>High</td>
+      <td>Higher (in line with the spirit of Agile)</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>Note: Iteration and increment are two types of images that correspond to two
+forms of display in Web applications. I wonder if you have any impression that
+when the Internet speed is not good, some websites open large images piece by
+piece, while some websites open large images that are blurry first and then
+clear step by step. Students who are interested can search and find out the
+role of the continuous function when exporting to WEB format in PhotoShop.</p>
+</blockquote>
+
+<h2 id="waterfall-model">Waterfall Model</h2>
+
+<p>Developed in the 1950s for manufacturing and construction industries, the
+Waterfall model is a linear sequential process where progress flows steadily
+from one step to the next (like a waterfall). Because no formal software
+methodologies existed at the time, this hardware-oriented model was adapted
+(and officially dubbed the “waterfall model”) in the 1970s for application
+development. Each phase in Waterfall is completed before the next begins,
+and changes made during one phase typically won’t be revisited in later stages.</p>
+
+<p><img src="https://i.postimg.cc/zGcrSVYr/image.png" alt="Waterfall Model"></p>
+
+<p>Waterfall is favored in environments with regulatory compliance that require
+meticulous planning and documentation — healthcare, defense, and similar
+industries.</p>
+
+<p>The Waterfall model consists of the following phases:</p>
+
+<ul>
+  <li>Requirements</li>
+  <li>Design</li>
+  <li>Implementation</li>
+  <li>Verification</li>
+  <li>Maintenance</li>
+</ul>
+
+<p><img src="https://i.postimg.cc/HxMPMLdB/image.png" alt="Waterfall Phases"></p>
+
+<p>Advantages of the Waterfall Model:</p>
+
+<ul>
+  <li>
+<strong>Clear Structure &amp; Scope:</strong> The Waterfall model has a clear and structured
+approach, making it easy to understand and manage.</li>
+  <li>
+<strong>Detailed Documentation:</strong> Each phase of the Waterfall model requires
+detailed documentation, which helps in maintaining a clear record of the
+project.</li>
+  <li>
+<strong>Simplified Mangement:</strong> The linear nature of the Waterfall model makes it
+easier to manage and track progress, as each phase has specific deliverables
+and timelines.</li>
+  <li>
+<strong>Early Design Decisions:</strong> The Waterfall model requires all design decisions
+to be made upfront, which can help in avoiding scope creep and ensuring that
+the project stays on track.</li>
+</ul>
+
+<h2 id="incremental-build-model">Incremental Build Model</h2>
+
+<p>The Incremental Build Model is a software development methodology that focuses
+on delivering functional components in parts, rather than delivering the entire
+software product at once. It is an iterative approach that allows teams to
+develop and deliver software in small, manageable increments, which can be
+tested and validated before moving on to the next increment.</p>
+
+<p><img src="https://i.postimg.cc/VkCMsZPW/image.png" alt="Incremental Build Model"></p>
+
+<p>The Incremental Build Model is a software development model whose core idea is:</p>
+
+<ul>
+  <li>Divide the system into multiple small modules (increments)</li>
+  <li>Each module can be developed, tested and deployed independently</li>
+  <li>Each increment is a working function, which is eventually combined into a
+complete system</li>
+  <li>Each delivery brings a “usable version”</li>
+</ul>
+
+<p>Although the Incremental Build Model is not an Agile method (such as Scrum, XP,
+Kanban, etc.), it is:</p>
+
+<ul>
+  <li><strong>One of the core technical means for Agile to be implemented</strong></li>
+  <li>Agile’s core value of “<strong>delivering working software</strong>” relies on incremental
+construction</li>
+  <li>Almost all Agile methods (Scrum, XP, SAFe) adopt the <strong>incremental +
+iterative</strong> development method.</li>
+</ul>
+
+<p>Why can’t we say it is an Agile method?</p>
+
+<ul>
+  <li>Agile is a development concept centered on values and principles (see <a href="https://agilemanifesto.org/">Agile
+Manifesto</a>), which emphasizes “how to organize
+a team”, “how to collaborate with customers”, and “how to respond to changes”</li>
+  <li>The Incremental Build Model is more like an <strong>engineering method</strong> or <strong>process
+model</strong>, not an Agile methodology</li>
+</ul>
+
+<p>That why Incremental Build Model is not an Agile methodology itself, but it is
+a fundamental development approach widely used in Agile practices.</p>
+
+<h2 id="agile-model">Agile Model</h2>
+
+<p>The implementation of the agile model mainly includes SCRUM, XP (Extreme
+Programming), Crystal Methods, FDD (Feature Driven Development) and so on.
+Among them, SCRUM and XP are the most popular.</p>
+
+<p><img src="https://user-images.githubusercontent.com/9413601/219058022-7280d4b3-92c4-4caf-b2a4-21f434f09e63.png" alt="Popularity Diagram"></p>
+
+<p>The characteristics of Agile Development can be summed up in the following four
+statements:</p>
+
+<ul>
+  <li>
+<strong>Individuals and interactions</strong> over <strong>processes and tools</strong>
+</li>
+  <li>
+<strong>Working software</strong> over <strong>comprehensive documentation</strong>
+</li>
+  <li>
+<strong>Customer collaboration</strong> over <strong>contract negotiation</strong>
+</li>
+  <li>
+<strong>Responding to change</strong> over <strong>following a plan</strong>
+</li>
+</ul>
+
+<p>Stages in Agile SDLC:</p>
+
+<ul>
+  <li>
+<strong>Planning:</strong> Creating a product backlog and prioritizing user stories.</li>
+  <li>
+<strong>Design:</strong> Defining the architecture and design of the software.</li>
+  <li>
+<strong>Development/Iteration:</strong> Building and testing the software in short sprints.</li>
+  <li>
+<strong>Testing/Integration:</strong> Continuous testing throughout the sprint to ensure quality.</li>
+  <li>
+<strong>Deployment/Release:</strong> Releasing working software to users.</li>
+  <li>
+<strong>Operations/Feedback:</strong> Gathering feedback from users and planning for the
+next iteration.</li>
+</ul>
+
+<p><img src="https://i.postimg.cc/NFxQq43B/image.png" alt="Stages in Agile SDLC"></p>
+
+<p>Waterfall vs Agile:</p>
+
+<p><img src="https://i.postimg.cc/brb0gGS7/image.png" alt="Waterfall vs Agile"></p>
+
+<h3 id="scrum">Scrum</h3>
+
+<p>Scrum is an approach for managing projects with more speed, flexibility and
+energy. Instead of relying on plans, documentation and meetings, you work with a
+dedicated team in short sprints towards your end result, using feedback from
+stakeholders along the way. Scrum is a flexible way of working, made for a
+rapidly changing world.</p>
+
+<p>Scrum is widely used in software development, but is suitable for almost all
+projects and organizations.</p>
+
+<p>Origin of Scrum:</p>
+
+<p>The term ‘<strong>Scrum</strong>’ was <strong>first introduced by professors Hirotaka Takeuchi and
+Ikujiro Nonaka</strong> in 1986 in their article “The New New Product Development Game”
+at Harvard Business Review.</p>
+
+<p>They borrowed the name ‘Scrum’ from the <strong>game of rugby</strong>, to stress the
+importance of teamwork to deal with a complex problem.</p>
+
+<p>Scrum Workflow:</p>
+
+<p><img src="https://i.postimg.cc/wvz9MZcD/image.png" alt="Scrum Workflow"></p>
+
+<p>Scrum 3 Roles:</p>
+
+<ul>
+  <li>
+<strong>Product Owner</strong>
+    <ul>
+      <li>The key stakeholders with a vision who provides direction to the team
+for each sprint</li>
+    </ul>
+  </li>
+  <li>
+<strong>Team</strong>
+    <ul>
+      <li>Five to nine professionals in various disciplines who are jointly
+responsible for the results</li>
+    </ul>
+  </li>
+  <li>
+<strong>Scrum Master</strong>
+    <ul>
+      <li>A facilitator who focuses completely on the process then there are scrum
+lists</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Scrum 3 Lists:</p>
+
+<ul>
+  <li>
+<strong>Product backlog</strong>
+    <ul>
+      <li>list your ambitions and express how you intend to achieve them</li>
+    </ul>
+  </li>
+  <li>
+<strong>Sprint backlog</strong>
+    <ul>
+      <li>the shopping list of products you want to produce in the next sprint</li>
+      <li>the definitions of done by the end of the sprint</li>
+    </ul>
+  </li>
+  <li>
+<strong>Scrum board</strong>
+    <ul>
+      <li>all of the members tasks</li>
+      <li>task status
+        <ul>
+          <li>to do</li>
+          <li>busy</li>
+          <li>done</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Scrum 4 Meetings:</p>
+
+<ul>
+  <li>
+<strong>Sprint planning</strong>
+    <ul>
+      <li>What exactly are we going to achieve during this sprint and who’s doing what</li>
+    </ul>
+  </li>
+  <li>
+<strong>Stand-up</strong>
+    <ul>
+      <li>Everything going according to the plan and are we going to make it</li>
+    </ul>
+  </li>
+  <li>
+<strong>Review</strong>
+    <ul>
+      <li>During which you deliver your results and receive feedback</li>
+    </ul>
+  </li>
+  <li>
+<strong>Retrospective</strong>
+    <ul>
+      <li>You look back on the process and reflect what you can improve as a team for
+the next sprint</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Definition of Ready (DoR) and Definition of Done (DoD):</p>
+
+<ul>
+  <li>
+<strong>DoR:</strong> It’s the standard for a requirement to be accepted by the team. It is
+considered that the requirement is ready and can flow into the research and
+development task queue. It is the standard for requirement admission.</li>
+  <li>
+<strong>DoD:</strong> The purpose of DoD is to give everyone a unified understanding of the
+“completion” standard and prevent misunderstandings. It can be divided into
+different dimensions to define.</li>
+</ul>
+
+<p>Story Points:</p>
+
+<p>Story points are a way to estimate the amount of effort required to complete a
+user story in your product backlog. You’ll usually estimate story points before
+a sprint planning meeting, since that’s when your team determines how much work
+they can carry out in an upcoming sprint.</p>
+
+<p><img src="https://i.postimg.cc/d1WwKpd8/image.png" alt="Story Point Matrix"></p>
+
+<p>Typically, story points take into account three factors that can impact a task’s
+scope and effort, and the story point’s value increases accordingly. Since story
+points are relative, you find their value by factoring in these details and
+comparing similar tasks to each other.</p>
+
+<ul>
+  <li>
+<strong>Risk</strong> is the amount of total risk or uncertainty associated with the task. For
+example, if the task involves third parties, contractors, or project
+stakeholders, it can increase the amount of risk.</li>
+  <li>
+<strong>Repetition</strong> is the team’s experience with similar tasks.</li>
+  <li>
+<strong>Complexity</strong> is the task’s level of difficulty (and how clear the objectives
+of the task are).</li>
+</ul>
+
+<p>One important thing to know is that story points are relative—meaning that their
+relative value and ratios to each other are what matter, not their actual
+numerical value.</p>
+
+<p>Stand-up Meeting:</p>
+
+<p>A stand-up meeting is a short daily meeting that helps teams to synchronize
+their activities and create a plan for the next 24 hours. The name comes from
+the fact that participants usually stand up during the meeting to keep it short
+and focused. Stand-up meetings are also known as daily scrums, daily huddles,
+or daily check-ins.</p>
+
+<p>Work Breakdown Structure (WBS):</p>
+
+<p>A work breakdown structure (WBS) is a hierarchical decomposition of a project
+into smaller, more manageable components. It helps to organize the team’s work
+into manageable sections, making it easier to plan, execute, and monitor the
+project. A WBS is typically represented as a tree structure, with the project
+goal at the top and the individual tasks or deliverables at the bottom.</p>
+
+<p><img src="https://i.postimg.cc/v8v5LN3m/image.png" alt="Work Breakdown Structure"></p>
+
+<p><img src="https://i.postimg.cc/L6HRgSkB/image.png" alt="WBS Example"></p>
+
+<p>WBS Level:</p>
+
+<p><img src="https://i.postimg.cc/fWPPcCC1/image.png" alt="WBS Level"></p>
+
+<ul>
+  <li>
+<strong>First level:</strong> The project goal or objective. It corresponds to Epic in Agile.</li>
+  <li>
+<strong>Second level:</strong> Major deliverables or milestones. It corresponds to Features
+in Agile.</li>
+  <li>
+<strong>Third level:</strong> Sub-deliverables or tasks. It corresponds to User Stories in
+Agile.</li>
+</ul>
+
+<p>Converting WBS to Gantt Chart:</p>
+
+<p><img src="https://i.postimg.cc/6QNdhxJy/image.png" alt="Work Breakdown Structure to Gantt"></p>
+
+<h3 id="extreme-programming-xp">eXtreme Programming (XP)</h3>
+
+<p>eXtreme Programming (XP) is an iterative agile methodology based on highly
+disciplined software engineering practices such as pair programming.</p>
+
+<p>XP emphasizes customer satisfaction, continuous feedback, and rapid iterations.
+It encourages frequent releases of small, functional increments of software,
+allowing teams to respond quickly to changing requirements and deliver value to
+the customer.</p>
+
+<p><img src="https://i.postimg.cc/rFKPkgtS/image.png" alt="XP Principles"></p>
+
+<p>XP practices include:</p>
+
+<ul>
+  <li>
+<strong>Pair Programming:</strong> Two developers work together at one workstation, with one
+writing code and the other reviewing it in real-time.</li>
+  <li>
+<strong>Test-Driven Development (TDD):</strong> Writing tests before writing the actual code
+to ensure that the code meets the requirements and is of high quality.</li>
+  <li>
+<strong>Continuous Integration:</strong> Integrating code changes into a shared repository
+frequently to detect and fix issues early.</li>
+  <li>
+<strong>Refactoring:</strong> Continuously improving the codebase by restructuring it
+without changing its external behavior.</li>
+  <li>
+<strong>Small Releases:</strong> Delivering small, functional increments of software
+frequently to gather feedback and make adjustments as needed.</li>
+  <li>
+<strong>Planning Game:</strong> A collaborative planning session where the team and
+stakeholders prioritize features and estimate effort.</li>
+  <li>
+<strong>Simple Design:</strong> Keeping the design simple and avoiding unnecessary complexity
+to make it easier to understand and maintain.</li>
+  <li>
+<strong>Collective Code Ownership:</strong> All team members are responsible for the code,
+allowing anyone to make changes to any part of the codebase.</li>
+  <li>
+<strong>On-Site Customer:</strong> Having a customer representative available to provide
+feedback and clarify requirements throughout the development process.</li>
+  <li>
+<strong>Sustainable Pace/40-Hour Work Week:</strong> Promoting a sustainable work pace to
+avoid burnout and maintain productivity.</li>
+</ul>
+
+<p><img src="https://i.postimg.cc/fyXFdRzL/image.png" alt="XP Practices"></p>
+
+<h3 id="crystal-method">Crystal Method</h3>
+
+<p>Crystal Method is a family of agile methodologies that focuses on the
+importance of people and their interactions in the software development process.</p>
+
+<p>Crystal Method emphasizes the need for flexibility and adaptability, allowing
+teams to choose the practices and tools that best suit their project and
+organization. It is based on the principle that there is no one-size-fits-all
+approach to software development, and that teams should be empowered to
+choose the practices that work best for them.</p>
+
+<p>Crystal Method consists of several methodologies, each tailored to different
+project sizes and complexities. Some of the most common Crystal Method
+methodologies include:</p>
+
+<ul>
+  <li>
+<strong>Crystal Clear:</strong> For small teams (up to 8 people) working on non-critical
+projects.</li>
+  <li>
+<strong>Crystal Yellow:</strong> For small to medium-sized teams (up to 20 people) working
+on projects with moderate complexity.</li>
+  <li>
+<strong>Crystal Orange:</strong> For medium-sized teams (up to 50 people) working on
+projects with higher complexity.</li>
+  <li>
+<strong>Crystal Red:</strong> For larger teams (up to 100 people) working on complex
+projects.</li>
+  <li>
+<strong>Crystal Maroon:</strong> For very large teams (over 100 people) working on
+extremely complex projects.</li>
+</ul>
+
+<p>Crystal Method practices include:</p>
+
+<ul>
+  <li>
+<strong>Frequent Delivery:</strong> Delivering working software frequently to gather
+feedback and make adjustments as needed.</li>
+  <li>
+<strong>Reflective Improvement:</strong> Regularly reflecting on the team’s processes and
+practices to identify areas for improvement.</li>
+  <li>
+<strong>Osmotic Communication:</strong> Encouraging open communication and collaboration
+among team members to share knowledge and ideas.</li>
+  <li>
+<strong>Personal Safety:</strong> Creating a safe and supportive environment for team
+members to express their ideas and concerns.</li>
+  <li>
+<strong>Focus:</strong> Focusing on delivering value to the customer and ensuring that the
+software meets their needs and expectations.</li>
+  <li>
+<strong>Easy Access to Expert Users:</strong> Ensuring that team members have easy access to
+expert users or stakeholders to clarify requirements and gather feedback.</li>
+  <li>
+<strong>Technical Excellence:</strong> Promoting technical excellence and high-quality code
+through practices such as pair programming, test-driven development, and
+continuous integration.</li>
+</ul>
+
+<h3 id="fdd">FDD</h3>
+
+<p>Feature Driven Development (FDD) is an agile methodology that focuses on
+delivering working software in a feature-driven manner. It is based on the
+principle of delivering small, incremental features that provide value to the
+customer.</p>
+
+<p>FDD emphasizes the importance of modeling and design, and it uses a feature
+list to prioritize and manage the development process. FDD is particularly
+suitable for large-scale projects with complex requirements, as it provides a
+structured approach to managing the development process while still allowing for
+flexibility and adaptability.</p>
+
+<p>Core practices of FDD include:</p>
+
+<ul>
+  <li>
+<strong>Domain Object Modeling:</strong> Creating a model of the domain to understand the
+requirements and design the software.</li>
+  <li>
+<strong>Developing by Feature:</strong> Breaking down the project into small, manageable
+features that can be developed and delivered incrementally.</li>
+  <li>
+<strong>Individual Class(Code) Ownership:</strong> Assigning ownership of individual classes
+to specific developers, allowing them to take responsibility for the code they
+write.</li>
+  <li>
+<strong>Feature Teams:</strong> Forming small, cross-functional teams that are responsible
+for delivering specific features.</li>
+  <li>
+<strong>Inspections</strong>: Conducting regular inspections of the code to ensure quality and
+adherence to standards.</li>
+  <li>
+<strong>Regular Builds:</strong> Building the software regularly to ensure that it is
+always in a working state and to detect issues early.</li>
+  <li>
+<strong>Configuration Management:</strong> Managing the configuration of the software to
+ensure that it is consistent and reliable.</li>
+  <li>
+<strong>Reporting/Visibility of Results:</strong> Providing visibility into the progress
+of the project and the status of the features being developed.</li>
+</ul>
+
+<p>Additional practices of FDD include:</p>
+
+<ul>
+  <li>
+<strong>Start Small:</strong> Starting with a small, manageable project to gain experience
+and build confidence in the methodology.</li>
+  <li>
+<strong>Keep Features Short and Sweet:</strong> Developing features that are small and
+focused, making it easier to deliver value quickly and gather feedback.</li>
+  <li>
+<strong>Automate Testing and Integration:</strong> Automating the testing and integration
+processes to ensure that the software is always in a working state and to
+reduce manual effort.</li>
+  <li>
+<strong>Use Collaborative Tools:</strong> Using collaborative tools to facilitate
+communication and collaboration among team members.</li>
+  <li>
+<strong>Regularly Revisit the Domain Model:</strong> Regularly reviewing and updating the
+domain model to ensure that it remains relevant and accurate as the project
+evolves.</li>
+  <li>
+<strong>Encourage Continuous Feedback:</strong> Encouraging continuous feedback from
+stakeholders and users to ensure that the software meets their needs and
+expectations.</li>
+  <li>
+<strong>Prioritize Features:</strong> Prioritizing features based on their value to the
+customer and the business, ensuring that the most important features are
+developed first.</li>
+</ul>
+
+<h3 id="kanban">Kanban</h3>
+
+<p>One of the simplest agile methodology frameworks, Kanban has been around for
+almost a century. It was originally developed by Toyota in the 1940s to improve
+manufacturing efficiency, but has since been adapted for software development.</p>
+
+<p>Kanban focuses on visualizing the flow of work, limiting work in progress, and
+managing flow. It uses a Kanban board to visualize the work items and their
+status, allowing teams to see what work is in progress, what work is completed,
+and what work is yet to be done. The Kanban board typically consists of columns
+representing different stages of the workflow, such as “To Do,” “In Progress,”
+“Testing,” and “Done.” Work items are represented by cards that move across the
+board as they progress through the workflow.</p>
+
+<p><img src="https://i.postimg.cc/cHfhk8p8/image.png" alt="Kanban Board Example"></p>
+
+<p>Kanban vs Lean:</p>
+
+<p>Kanban and Lean are related methodologies focused on improving efficiency
+and reducing waste in processes, particularly in manufacturing and software
+development. Lean is a broader philosophy focused on maximizing value for
+the customer while minimizing waste, and Kanban is a visual system that helps
+manage workflow within a Lean environment. Essentially, Kanban is a tool that
+can be used to implement Lean principles.</p>
+
+<h2 id="hybrid-models">Hybrid Models</h2>
+
+<p>There are many different Hybrid methodologies that integrate feedback mechanisms
+into the traditional Waterfall model. This mitigates technical and functional
+shortcomings in the original design that are discovered during development and
+can be more quickly incorporated. Some of the more popular Hybrid models include:</p>
+
+<ul>
+  <li>V-Model</li>
+  <li>Spiral Model</li>
+  <li>Iterative and Incremental Model</li>
+</ul>
+
+<h3 id="v-model-model">V-Model Model</h3>
+
+<p>The V-Model is an extension of the Waterfall Model that emphasizes the
+importance of verification and validation at each stage of the software
+development lifecycle. It is called the V-Model because the development process
+is represented as a V-shape, with the left side representing the stages of
+development and the right side representing the stages of testing and
+validation.</p>
+
+<p><img src="https://i.postimg.cc/YCfnfSGS/image.png" alt="V-Model"></p>
+
+<h3 id="spiral-model">Spiral Model</h3>
+
+<p>Spiral Model is a risk-driven process model that combines the iterative nature
+of the Incremental Model with the systematic aspects of the Waterfall Model.</p>
+
+<p><img src="https://i.postimg.cc/j5h3cFn7/image.png" alt="Spiral Model"></p>
+
+<p>The Spiral Model is designed to address the limitations of the Waterfall Model
+by allowing for iterative development and risk management. It is particularly
+suitable for large, complex projects where requirements may change over time.</p>
+
+<p>The Spiral Model consists of the following phases:</p>
+
+<ul>
+  <li>
+<strong>Planning:</strong> Identify objectives, constraints, and risks for the project.</li>
+  <li>
+<strong>Risk Analysis:</strong> Identify and analyze risks associated with the project.</li>
+  <li>
+<strong>Engineering:</strong> Develop and implement the software based on the requirements
+and design.</li>
+  <li>
+<strong>Evaluation:</strong> Evaluate the software against the requirements and gather
+feedback from stakeholders.</li>
+</ul>
+
+<p>The iterative nature of the Spiral model makes it an early example of a Hybrid
+Waterfall-Agile methodology and follows many characteristics (prototypes,
+experiments/spike solutions) that exist in other more recent pure Agile
+methodologies such as Scrum, XP, and AUP.</p>
+
+<h3 id="iterative-and-incremental-model">Iterative and Incremental Model</h3>
+
+<p>The Iterative and Incremental Model is a software development methodology that
+combines the principles of iterative development and incremental delivery. It
+focuses on delivering small, functional increments of software in a series of
+iterations, allowing teams to gather feedback and make adjustments as needed.</p>
+
+<p><img src="https://i.postimg.cc/3xQH2HCy/image.png" alt="Iterative and Incremental Model"></p>
+
+<p><strong>Incremental Build Model</strong> focuses on delivering functional components in parts,
+while <strong>Iterative and Incremental Model</strong> combines that with continuous refinement
+of existing components. They are related but not equivalent — the latter better
+reflects Agile practices.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=2Vt7Ik8Ublw">Scrum in under 5 minutes</a></li>
+  <li><a href="https://www.inflectra.com/Solutions/Methodologies/">Solutions Methodologies</a></li>
+  <li><a href="https://asana.com/resources/story-points">Story points: Estimation guide for user stories in Agile</a></li>
+  <li><a href="https://www.wikiwand.com/en/articles/Development,_testing,_acceptance_and_production">Development, testing, acceptance and production</a></li>
+  <li><a href="https://www.atlassian.com/work-management">The Workstream</a></li>
+  <li><a href="https://agilemanifesto.org/">Agile Manifesto</a></li>
+</ul>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/computer/2022/08/23/java-annotations-cheat-sheet.html" title="Java Annotations Cheat Sheet">
+          <div>Java Annotations Cheat Sheet</div>
+        </a><a class="next" href="/computer/2022/10/23/the-handbook-of-cloud-computing.html" title="The Handbook of Cloud Computing">
+          <div>The Handbook of Cloud Computing</div>
+        </a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="">
+          <a class="post-link" href="/music/2023/02/07/bi-sha-ji-of-my-piano-journey.html" title="《必杀技》钢琴即兴 My Piano Journey">
+            《必杀技》钢琴即兴 My Piano Journey<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/methodology/2023/05/14/the-handbook-of-effective-leadership.html" title="The Handbook of Effective Leadership">
+            The Handbook of Effective Leadership<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/methodology/2023/06/15/the-frameworks-of-effective-product-design-sense.html" title="The Frameworks of Effective Product Design Sense">
+            The Frameworks of Effective Product Design Sense<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/computer/2016/10/12/bash-shortcuts-table.html" title="Bash Shortcuts Table">
+            Bash Shortcuts Table<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments">  <div id="disqus_recommendations"></div>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://jeffreytse.net/computer/2022/10/11/software-project-management-methodologies.html';
+      this.page.identifier = 'https://jeffreytse.net/computer/2022/10/11/software-project-management-methodologies.html';
+    };
+
+    // Disqus recommendations
+    (function() {
+      if (false === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/recommendations.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus comments
+    (function() {
+      if (true === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus theme switching
+    document.addEventListener('theme-changed', function (e) {
+      if (document.readyState == 'complete') {
+        setTimeout(function () {
+          if (window.DISQUS_RECOMMENDATIONS) {
+            window.DISQUS_RECOMMENDATIONS.reset({ reload: true });
+          }
+          if (window.DISQUS) {
+            window.DISQUS.reset({ reload: true, config: disqus_config });
+          }
+        }, 100);
+      }
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+</div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Copyright © 2008-2020</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,2027 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>The Handbook of Programming Languages | Jeffrey Tse’s Blog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="The Handbook of Programming Languages">
+<meta name="author" content="Jeffrey Tse">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="The historical development of programming languages has gone through one stage after another, from machine language to high-level language, it is also closer to the way of human thinking, easy to write, good readability, and more efficient to develop.">
+<meta property="og:description" content="The historical development of programming languages has gone through one stage after another, from machine language to high-level language, it is also closer to the way of human thinking, easy to write, good readability, and more efficient to develop.">
+<link rel="canonical" href="https://jeffreytse.net/computer/2020/10/09/the-handbook-of-programming-languages.html">
+<meta property="og:url" content="https://jeffreytse.net/computer/2020/10/09/the-handbook-of-programming-languages.html">
+<meta property="og:site_name" content="Jeffrey Tse’s Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-10-09T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="The Handbook of Programming Languages">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeffrey Tse"},"dateModified":"2020-10-09T00:00:00+00:00","datePublished":"2020-10-09T00:00:00+00:00","description":"The historical development of programming languages has gone through one stage after another, from machine language to high-level language, it is also closer to the way of human thinking, easy to write, good readability, and more efficient to develop.","headline":"The Handbook of Programming Languages","mainEntityOfPage":{"@type":"WebPage","@id":"https://jeffreytse.net/computer/2020/10/09/the-handbook-of-programming-languages.html"},"url":"https://jeffreytse.net/computer/2020/10/09/the-handbook-of-programming-languages.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="https://jeffreytse.net">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://jeffreytse.net/feed.xml" title="Jeffrey Tse's Blog">
+<!-- Google tag (gtag.js) -->
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "false" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      var measurementId = 'G-N54MN13CMZ';
+
+      (function(src) {
+        var tag = document.createElement('script');
+        tag.src = src;
+        tag.async = true;
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      })('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    }
+  }
+  window.addEventListener("load", initGoogleAnalytics);
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="Jeffrey Tse's Blog" src="/favicon.png" onerror="this.style.display='none'">
+  Jeffrey Tse's Blog
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/">HOME</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/tags.html">TAGS</a><a class="page-link" href="/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<div class="page-link" style="display: inline;">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<div class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</div>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    html .page-banner .page-banner-img > *:first-child {
+      opacity: 0.76;
+    }
+
+    html[data-theme="dark"] .page-banner .page-banner-img > *:first-child {
+      opacity: 0.54568;
+    }
+  </style>
+<section class="page-banner">
+    <div class="page-banner-img">
+<div style="background-image: url(https://user-images.githubusercontent.com/9413601/196836913-385eec05-6e38-4f91-adf4-c9a7365e4d87.png)"></div>
+        <img class="img-placeholder" src="https://user-images.githubusercontent.com/9413601/196836913-385eec05-6e38-4f91-adf4-c9a7365e4d87.png">
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner">
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">The Handbook of Programming Languages</h1>
+  <h2 class="post-subtitle"></h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2020-10-09T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 09 Oct 2020
+    </time><span class="post-author left-vsplit"><i class="fa fa-pencil"></i> Jeffrey Tse</span>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 12 mins</span>
+  </div>
+<div class="post-tags">
+<a class="post-tag" href="/tags.html#computer">#computer</a><a class="post-tag" href="/tags.html#software">#software</a><a class="post-tag" href="/tags.html#note">#note</a>
+</div></header>
+</div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+        document.dispatchEvent(new Event('theme-changed'));
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>The historical development of programming languages has gone through one
+stage after another, from machine language to high-level language, it is
+also closer to the way of human thinking, easy to write, good readability,
+and more efficient to develop.</p>
+
+<ul>
+  <li>Machine-oriented programming (MOP)</li>
+  <li>Procedure-oriented Programming (POP)</li>
+  <li>Object-oriented Programming (OOP)</li>
+  <li>…</li>
+</ul>
+
+<p>Programming itself is engineering, not science. This means that all roads
+lead to Rome, and there is no one size fits all. So, in fact, many people
+argue about them by different aspects (e.g. coding style, performance, the
+difficulty of mastering), which language is the best, which framework is
+better, these are actually philosophical questions, because there is no
+unified standard answer.</p>
+
+<p><img src="https://user-images.githubusercontent.com/9413601/196746710-a3eaa742-4494-405b-b836-33236b212771.png" alt="Difficulty of Mastering"></p>
+
+<p>Different programming languages have some similarities in common, but also
+have their own uniqueness, they are all born to solve certain problems, no
+one language is absolutely good, and they all have their own philosophical
+ideas.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>Ruby: Optimized for programmer happiness</li>
+  <li>Python: Beautiful is better than ugly</li>
+  <li>PHP: Quick and dirty</li>
+  <li>Java: Compile once, run everywhere</li>
+  <li>…</li>
+</ul>
+
+<h2 id="categories">Categories</h2>
+
+<h3 id="dynamically-typed-language">Dynamically Typed Language</h3>
+
+<p>A language that checks the type of data at runtime. Such languages do not
+assign a type to a variable, but get the data type when a value is assigned.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>ECMAScript (JavaScript)</li>
+  <li>Python</li>
+  <li>Ruby</li>
+  <li>PHP</li>
+  <li>Erlang</li>
+  <li>VBScript</li>
+  <li>Swift</li>
+  <li>Perl</li>
+  <li>…</li>
+</ul>
+
+<h3 id="statically-typed-language">Statically Typed Language</h3>
+
+<p>Statically typed languages check the type at compile time before running.
+When writing code, each variable declared must specify the type.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>C/C++</li>
+  <li>C#</li>
+  <li>Object-C</li>
+  <li>Java</li>
+  <li>Scala</li>
+  <li>Go</li>
+  <li>…</li>
+</ul>
+
+<p>PS. Whether a language is dynamically typed or not is completely irrelevant
+to whether the language is typesafe, don’t tie them together.</p>
+
+<h3 id="dynamic-programing-language">Dynamic Programing Language</h3>
+
+<p>Dynamic languages (Dynamic Programming Languages) are a class of languages
+that can change their structure at runtime.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>C#</li>
+  <li>Object-C</li>
+  <li>Python</li>
+  <li>PHP</li>
+  <li>Erlang</li>
+  <li>JavaScript</li>
+  <li>…</li>
+</ul>
+
+<h3 id="static-programing-language">Static Programing Language</h3>
+
+<p>Static languages (Static Programming Languages) are languages whose structure
+cannot be changed at runtime.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>C/C++</li>
+  <li>Java</li>
+  <li>…</li>
+</ul>
+
+<h3 id="strongly-typed-language">Strongly Typed Language</h3>
+
+<p>Strongly typed means that the type of a value doesn’t change in unexpected
+ways. A string containing only digits doesn’t magically become a number, as
+may happen in Perl. Every change of type requires an explicit conversion.</p>
+
+<p>E.g. <code class="language-plaintext highlighter-rouge">1 / 3 = 0</code>, <code class="language-plaintext highlighter-rouge">int / int = int</code></p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>C/C++</li>
+  <li>C#</li>
+  <li>Object-C</li>
+  <li>Java</li>
+  <li>Python</li>
+  <li>Ruby</li>
+  <li>Go</li>
+  <li>…</li>
+</ul>
+
+<h3 id="weakly-loosely-typed-language">Weakly (Loosely) Typed Language</h3>
+
+<p>Weakly typed languages are looser in checking variable types and tolerate
+implicit type conversions.</p>
+
+<p>E.g.</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">1 / 3 = 0.33333...</code>, <code class="language-plaintext highlighter-rouge">int / int = float</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">1 + "3" = 13</code>, <code class="language-plaintext highlighter-rouge">int / string = string</code>
+</li>
+</ul>
+
+<p>Languages:</p>
+
+<ul>
+  <li>JavaScript
+    <ul>
+      <li>Duck Typing (i.e. looks like a duck, talks like a duck, it’s a duck)</li>
+    </ul>
+  </li>
+  <li>PHP</li>
+  <li>…</li>
+</ul>
+
+<h3 id="compiled-language">Compiled Language</h3>
+
+<p>Compiled language means that a special compilation process is required before
+the program is executed, and the program source file is compiled into a file
+in machine language, which can be executed by the machine and has high
+execution efficiency.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>C/C++</li>
+  <li>Object-C</li>
+  <li>Pascal</li>
+  <li>Swift</li>
+  <li>…</li>
+</ul>
+
+<h3 id="interpreted-language">Interpreted Language</h3>
+
+<p>Interpreted language means that the source code does not need to be compiled
+in advance, at runtime, it must be interpreted before running.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>JavaScript</li>
+  <li>Python</li>
+  <li>PHP</li>
+  <li>Perl</li>
+  <li>Ruby</li>
+  <li>Erlang</li>
+  <li>Java</li>
+  <li>C#</li>
+  <li>…</li>
+</ul>
+
+<p>For Java and C#, it can be said to be a semi-compiled and semi-interpreted
+language. The source code needs to be converted into an intermediate file
+(bytecode file), and then the intermediate file is taken to the virtual machine
+for execution.</p>
+
+<ul>
+  <li><a href="https://stackoverflow.com/questions/1326071/is-java-a-compiled-or-an-interpreted-programming-language">StackOverflow - Is Java a Compiled or an Interpreted programming language?</a></li>
+</ul>
+
+<h2 id="programming-paradigms">Programming Paradigms</h2>
+
+<p><img src="https://user-images.githubusercontent.com/9413601/224235137-b947c43b-3b13-4b26-a468-0fa454ae8faf.png" alt="Paradigms Relationship"></p>
+
+<h3 id="imperative-programming">Imperative Programming</h3>
+
+<p>This alternative to OOP focuses on function rather than models.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>C++</li>
+  <li>Java</li>
+  <li>…</li>
+</ul>
+
+<h3 id="declarative-programming">Declarative Programming</h3>
+
+<p>This programming method involves statements on what the task or desired
+outcome is but not how to achieve it.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>Prolog</li>
+  <li>Lisp</li>
+  <li>…</li>
+</ul>
+
+<h3 id="logical-programming">Logical Programming</h3>
+
+<p>This programming method, which is based mostly in formal logic. It contains
+a set of sentences that express facts or rules about a problem domain. It
+focuses on tasks that can benefit from rule-based logical queries.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>Prolog</li>
+  <li>…</li>
+</ul>
+
+<h3 id="functional-programming-fp">Functional Programming (FP)</h3>
+
+<p>FP is a high level way of programming, the level stands for the degree of
+abstraction, the higher the programming level is, the least the concern of
+machine execution details is, such as memory allocation and release, all
+low level stuff just let the compiler to handle. And it is very worthwhile
+to exchange a little performance for a clean program.</p>
+
+<p>Behavior: Use imperative rather than declarative</p>
+
+<ul>
+  <li>Imperative
+    <ul>
+      <li>Focus on the steps of execution (machine-oriented)</li>
+      <li>Examples
+        <ul>
+          <li>Assembly Language</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Declarative
+    <ul>
+      <li>Focus on the expression of execution (human-oriented)
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">numbers.filter(num =&gt; num % 2)</code></li>
+          <li><code class="language-plaintext highlighter-rouge">SELECT name, age from Students</code></li>
+        </ul>
+      </li>
+      <li>Examples
+        <ul>
+          <li>SQL</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Basic Concept:</p>
+
+<ul>
+  <li>Pure Functions
+    <ul>
+      <li>It’s actually a kind of functions</li>
+      <li>But it must meet certain restrictions
+        <ul>
+          <li>The same input always result the same output</li>
+          <li>No side effects (i.e. Closure)</li>
+          <li>How to handle the side effects
+            <ul>
+              <li>It’s to use monad to push the impure part to the boundary of
+the program, and keep the core part pure</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Try to make all functions pure as much as possible</li>
+      <li>Advantages
+        <ul>
+          <li>Its result is predictable</li>
+          <li>Make unit test very easy, as no any external dependency</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>State Immutability
+    <ul>
+      <li>All variables can’t be changed once they are declared.</li>
+    </ul>
+  </li>
+  <li>Avoid Loops
+    <ul>
+      <li>Recursion &gt; Loops</li>
+      <li>Using recursion rather than explicit looping structure</li>
+      <li>The nature of the loop is actually very mutable</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Languages:</p>
+
+<ul>
+  <li>Haskell</li>
+  <li>Erlang</li>
+  <li>Scala</li>
+  <li>…</li>
+</ul>
+
+<h3 id="structured-or-modular-programming">Structured or Modular Programming</h3>
+
+<p>The structured is any programming when functionality is divided into units
+like <code class="language-plaintext highlighter-rouge">for loop, while loop, if</code>… then etc block structure. The modular
+is one can create a physical form of package, which are fairly general
+purpose and re-usable. So one can hardly see modular programs which are
+not structured and vice versa; the technical definition is subtly different
+but mostly structured code can be made modular and other way.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>C#</li>
+  <li>PHP</li>
+  <li>…</li>
+</ul>
+
+<h3 id="imperative-programming-1">Imperative Programming</h3>
+
+<p>This alternative to OOP focuses on function rather than models.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>C++</li>
+  <li>Java</li>
+  <li>…</li>
+</ul>
+
+<h3 id="declarative-programming-1">Declarative Programming</h3>
+
+<p>This programming method involves statements on what the task or desired
+outcome is but not how to achieve it.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>Prolog</li>
+  <li>Lisp</li>
+  <li>…</li>
+</ul>
+
+<h3 id="logical-programming-1">Logical Programming</h3>
+
+<p>This programming method, which is based mostly in formal logic. It contains
+a set of sentences that express facts or rules about a problem domain. It
+focuses on tasks that can benefit from rule-based logical queries.</p>
+
+<p>Languages:</p>
+
+<ul>
+  <li>Prolog</li>
+  <li>…</li>
+</ul>
+
+<h3 id="object-oriented-programming-oop">Object-oriented Programming (OOP)</h3>
+
+<p>OOP is a form of structured programming by definition.</p>
+
+<p>Abstraction:</p>
+
+<ul>
+  <li>Encapsulation</li>
+  <li>Inheritance
+    <ul>
+      <li>Override (Type and quantity of parameters are the same)</li>
+      <li>Overload (Anyone of type and quantity of parameters is different)</li>
+    </ul>
+  </li>
+  <li>Polymorphism</li>
+</ul>
+
+<p>Accessibility (Access modifier):</p>
+
+<ul>
+  <li>Public
+    <ul>
+      <li>Access by any class</li>
+    </ul>
+  </li>
+  <li>Protected
+    <ul>
+      <li>Access by subclass</li>
+    </ul>
+  </li>
+  <li>Friendly
+    <ul>
+      <li>Access by friend’s class (e.g. the same package)</li>
+    </ul>
+  </li>
+  <li>Private
+    <ul>
+      <li>Access by the class itself</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Lifecycle:</p>
+
+<ul>
+  <li>Construction</li>
+  <li>
+    <p>Destruction</p>
+  </li>
+  <li>Instance function</li>
+  <li>Class function (i.e. Also known as Static Function in POP)</li>
+</ul>
+
+<h2 id="programming-model">Programming Model</h2>
+
+<p>In programming, the way of abstraction, organization or reuse of code. The
+programming model is mainly methods and ideas.</p>
+
+<ul>
+  <li>Event-driven (Publish/Subscribe Model)
+    <ul>
+      <li>Basic
+        <ul>
+          <li>Don’t care about who is the receiver</li>
+        </ul>
+      </li>
+      <li>Components
+        <ul>
+          <li>Event Queue</li>
+          <li>Event Mediator</li>
+          <li>Event Channel</li>
+          <li>Event Processor</li>
+        </ul>
+      </li>
+      <li>Frameworks
+        <ul>
+          <li>select</li>
+          <li>poll</li>
+          <li>epoll</li>
+          <li>libev</li>
+          <li>interrupt system</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Message-driven
+    <ul>
+      <li>Basic
+        <ul>
+          <li>Care about who is the receiver</li>
+        </ul>
+      </li>
+      <li>Framework
+        <ul>
+          <li>API Gateway</li>
+          <li>gRPC</li>
+          <li>Micro-service Architect</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Data-driven</li>
+</ul>
+
+<h2 id="basic">Basic</h2>
+
+<h3 id="automatic-checking">Automatic Checking</h3>
+
+<p>It’s useful to think about three kinds of automatic checking that a language can
+provide:</p>
+
+<ul>
+  <li>
+<strong>Static checking:</strong> the bug is found automatically before the program even runs.</li>
+  <li>
+<strong>Dynamic checking:</strong> the bug is found automatically when the code is executed.</li>
+  <li>
+<strong>No checking:</strong> the language doesn’t help you find the error at all. You have
+to watch for it yourself, or end up with wrong answers.</li>
+</ul>
+
+<p>Needless to say, catching a bug statically is better than catching it
+dynamically, and catching it dynamically is better than not catching it at all.</p>
+
+<h3 id="preprocessors">Preprocessors</h3>
+
+<h3 id="comment">Comment</h3>
+
+<ul>
+  <li>Single-line comment</li>
+  <li>Multi-line comment</li>
+  <li>Documentation comment (Docstring)</li>
+</ul>
+
+<h3 id="data-types">Data Types</h3>
+
+<p>According to the classification:</p>
+
+<ul>
+  <li>Basic
+    <ul>
+      <li>Number
+        <ul>
+          <li>Byte (1 Byte = 8 Bits)</li>
+          <li>Short (2 Bytes = 16 Bits)</li>
+          <li>Integer (4 Bytes = 32 Bits)</li>
+          <li>Long (8 Bytes = 64 Bits)</li>
+          <li>Float (4 Bytes = 32 Bits)</li>
+          <li>Double (8 Bytes = 64 Bits)</li>
+        </ul>
+      </li>
+      <li>Character (1 Byte = 8 Bits)</li>
+      <li>Boolean</li>
+    </ul>
+  </li>
+  <li>Arrays and Collection
+    <ul>
+      <li>Linear
+        <ul>
+          <li>Array</li>
+          <li>String</li>
+          <li>List</li>
+          <li>Linked list</li>
+          <li>Tuple</li>
+          <li>Queue</li>
+          <li>Stack</li>
+        </ul>
+      </li>
+      <li>Non-linear
+        <ul>
+          <li>Set</li>
+          <li>Map</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>According to the structure:</p>
+
+<ul>
+  <li>Primitive Types</li>
+  <li>Object Types</li>
+</ul>
+
+<h3 id="keywords-and-identifier">Keywords and Identifier</h3>
+
+<ul>
+  <li>Case Sensitive</li>
+  <li>Case Insensitive</li>
+</ul>
+
+<h3 id="value-notation">Value Notation</h3>
+
+<ul>
+  <li>Definition
+    <ul>
+      <li>Literal</li>
+      <li>Constant</li>
+      <li>Variable</li>
+    </ul>
+  </li>
+  <li>Lifecycle
+    <ul>
+      <li>Static</li>
+      <li>Dynamic</li>
+    </ul>
+  </li>
+  <li>Value
+    <ul>
+      <li>Mutating values
+        <ul>
+          <li>Final</li>
+          <li>Readonly</li>
+        </ul>
+      </li>
+      <li>Reassigning variables</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Examples:</p>
+
+<ul>
+  <li>null</li>
+  <li>undefined</li>
+  <li>NaN (Not a Number)</li>
+  <li>POSITIVE_INFINITY</li>
+  <li>NEGATIVE_INFINITY</li>
+  <li>123</li>
+  <li>1.23</li>
+  <li>true</li>
+  <li>false</li>
+  <li>123f</li>
+  <li>‘1’</li>
+  <li>“123”</li>
+  <li>…</li>
+</ul>
+
+<h3 id="operators">Operators</h3>
+
+<ul>
+  <li>Arithmetic Operators
+    <ul>
+      <li>
+<code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">-</code>, <code class="language-plaintext highlighter-rouge">*</code>, <code class="language-plaintext highlighter-rouge">/</code>, <code class="language-plaintext highlighter-rouge">%</code>, <code class="language-plaintext highlighter-rouge">++</code>, <code class="language-plaintext highlighter-rouge">--</code>, …</li>
+    </ul>
+  </li>
+  <li>Relational Operators
+    <ul>
+      <li>
+<code class="language-plaintext highlighter-rouge">==</code>, <code class="language-plaintext highlighter-rouge">!=</code>, <code class="language-plaintext highlighter-rouge">&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;</code>, <code class="language-plaintext highlighter-rouge">&gt;=</code>, <code class="language-plaintext highlighter-rouge">&lt;=</code>, ..</li>
+    </ul>
+  </li>
+  <li>Logical Operators
+    <ul>
+      <li>
+<code class="language-plaintext highlighter-rouge">&amp;&amp;</code>, <code class="language-plaintext highlighter-rouge">||</code>, <code class="language-plaintext highlighter-rouge">!</code>, …</li>
+    </ul>
+  </li>
+  <li>Bitwise Operators
+    <ul>
+      <li>AND <code class="language-plaintext highlighter-rouge">&amp;</code>
+</li>
+      <li>OR <code class="language-plaintext highlighter-rouge">|</code>
+</li>
+      <li>XOR <code class="language-plaintext highlighter-rouge">^</code>
+</li>
+      <li>FLIPPING <code class="language-plaintext highlighter-rouge">~</code>
+</li>
+      <li>LEFT SHIFT <code class="language-plaintext highlighter-rouge">&lt;&lt;</code>
+</li>
+      <li>RIGHT SHIFT <code class="language-plaintext highlighter-rouge">&gt;&gt;</code>
+</li>
+      <li>…</li>
+    </ul>
+  </li>
+  <li>Assignment Operators
+    <ul>
+      <li>
+<code class="language-plaintext highlighter-rouge">=</code>, <code class="language-plaintext highlighter-rouge">+=</code>, <code class="language-plaintext highlighter-rouge">-=</code>, <code class="language-plaintext highlighter-rouge">*=</code>, <code class="language-plaintext highlighter-rouge">/=</code>, <code class="language-plaintext highlighter-rouge">%=</code>, <code class="language-plaintext highlighter-rouge">&lt;&lt;=</code>, <code class="language-plaintext highlighter-rouge">&gt;&gt;=</code>, <code class="language-plaintext highlighter-rouge">&amp;=</code>, <code class="language-plaintext highlighter-rouge">|=</code>, <code class="language-plaintext highlighter-rouge">|=</code>, …</li>
+    </ul>
+  </li>
+  <li>Misc Operators
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">sizeof()</code></li>
+      <li>Conditional Expression <code class="language-plaintext highlighter-rouge">Condition ? Exp1 : Exp2</code>
+</li>
+      <li>Address Operator <code class="language-plaintext highlighter-rouge">&amp;variable</code>
+</li>
+      <li>Pointer Operator <code class="language-plaintext highlighter-rouge">*variable</code>
+</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="basic-structures">Basic Structures</h3>
+
+<p>In structured programming, a program is written with only 3 basic structures:</p>
+
+<ul>
+  <li>Sequences</li>
+  <li>Selections
+    <ul>
+      <li>if statement</li>
+      <li>switch statement</li>
+    </ul>
+  </li>
+  <li>Loops
+    <ul>
+      <li>for loop</li>
+      <li>while loop</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="functions">Functions</h3>
+
+<ul>
+  <li>Variadic function</li>
+  <li>Default value</li>
+  <li>Keyword arguments</li>
+</ul>
+
+<h2 id="advanced">Advanced</h2>
+
+<h3 id="iterator">Iterator</h3>
+
+<h3 id="generator">Generator</h3>
+
+<h3 id="decorator">Decorator</h3>
+
+<h3 id="exception-handle">Exception Handle</h3>
+
+<h3 id="lambda">Lambda</h3>
+
+<h3 id="closure">Closure</h3>
+
+<h3 id="asynchronous-programming">Asynchronous Programming</h3>
+
+<ul>
+  <li>.NET: delegate</li>
+  <li>Java:
+    <ul>
+      <li>Anonymous inner class</li>
+      <li>Closure (Java 7)</li>
+    </ul>
+  </li>
+  <li>C++
+    <ul>
+      <li>tr1::function/bind (C++0X)</li>
+    </ul>
+  </li>
+  <li>…</li>
+</ul>
+
+<h3 id="destructuring-assignment">Destructuring Assignment</h3>
+
+<h3 id="generics-programming">Generics Programming</h3>
+
+<h3 id="garbage-collection-gc">Garbage Collection (GC)</h3>
+
+<h3 id="higher-order-function-hof">Higher-order Function (HOF)</h3>
+
+<h3 id="dynamic-type-conversion">Dynamic Type conversion</h3>
+
+<h3 id="meta-programming">Meta Programming</h3>
+
+<ul>
+  <li>Introspection
+    <ul>
+      <li>JAVA: Reflection</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="serialization--deserialization">Serialization &amp; Deserialization</h3>
+
+<h3 id="hash-value-omission">Hash Value Omission</h3>
+
+<h2 id="language-characteristics">Language Characteristics</h2>
+
+<ul>
+  <li>Ruby
+    <ul>
+      <li>Block</li>
+      <li>Range</li>
+      <li>Symbols</li>
+    </ul>
+  </li>
+  <li>Java
+    <ul>
+      <li>Dynamic Proxy</li>
+    </ul>
+  </li>
+  <li>C#
+    <ul>
+      <li>LINQ</li>
+      <li>Extension Method</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="how-to-choose-a-language">How to choose a language?</h2>
+
+<ul>
+  <li>Whether the developer is familiar with a language.</li>
+  <li>Which language provides more powerful features that can be applied to
+the current project.</li>
+  <li>Focus on robustness or flexibility and expressiveness.</li>
+  <li>Whether there are tools to improve development efficiency, such as
+peripheral frameworks (libraries), etc.</li>
+  <li>…</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.wikiwand.com/en/Declarative_programming">Declarative programming</a></li>
+  <li><a href="https://www.info.ucl.ac.be/~pvr/paradigmsDIAGRAMeng108.pdf">The principal programming paradigms</a></li>
+  <li><a href="https://softwareengineering.stackexchange.com/questions/117092/whats-the-difference-between-imperative-procedural-and-structured-programming">What’s The Difference Between Imperative, Procedural and Structured Programming?</a></li>
+  <li><a href="http://web.mit.edu/6.031/www/sp21/">Software Construction</a></li>
+</ul>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/computer/2020/10/07/fix-errors-occurred-no-packages-were-upgraded-in-arch-linux.html" title="Fix errors occurred no packages were upgraded in Arch Linux">
+          <div>Fix errors occurred no packages were upgraded in Arch Linux</div>
+        </a><a class="next" href="/computer/2020/10/14/how-to-use-netcat-command.html" title="How to use netcat command">
+          <div>How to use netcat command</div>
+        </a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="">
+          <a class="post-link" href="/computer/2020/09/29/email-server-ports-table.html" title="Email Server Ports Table">
+            Email Server Ports Table<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/music/2018/06/19/the-handbook-of-singing.html" title="The Handbook of Singing">
+            The Handbook of Singing<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/misc/2023/06/06/steve-jobs-2005-stanford-commencement-speech.html" title="Steve Jobs' 2005 Stanford Commencement Speech">
+            Steve Jobs' 2005 Stanford Commencement Speech<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/linguistics/2019/09/02/english-vowels-table.html" title="English Vowels Table">
+            English Vowels Table<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments">  <div id="disqus_recommendations"></div>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://jeffreytse.net/computer/2020/10/09/the-handbook-of-programming-languages.html';
+      this.page.identifier = 'https://jeffreytse.net/computer/2020/10/09/the-handbook-of-programming-languages.html';
+    };
+
+    // Disqus recommendations
+    (function() {
+      if (false === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/recommendations.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus comments
+    (function() {
+      if (true === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus theme switching
+    document.addEventListener('theme-changed', function (e) {
+      if (document.readyState == 'complete') {
+        setTimeout(function () {
+          if (window.DISQUS_RECOMMENDATIONS) {
+            window.DISQUS_RECOMMENDATIONS.reset({ reload: true });
+          }
+          if (window.DISQUS) {
+            window.DISQUS.reset({ reload: true, config: disqus_config });
+          }
+        }, 100);
+      }
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+</div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Copyright © 2008-2020</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

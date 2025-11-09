@@ -1,0 +1,2552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>The Handbook of System Design | Jeffrey Tse’s Blog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="The Handbook of System Design">
+<meta name="author" content="Jeffrey Tse">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="System design is the process of defining the architecture, interfaces, and data for a system that satisfies specific business requirements. A good system design requires engineers to think about everything in an infrastructure, from the hardware/software, down to the data and how it’s stored.">
+<meta property="og:description" content="System design is the process of defining the architecture, interfaces, and data for a system that satisfies specific business requirements. A good system design requires engineers to think about everything in an infrastructure, from the hardware/software, down to the data and how it’s stored.">
+<link rel="canonical" href="https://jeffreytse.net/computer/2022/12/13/the-handbook-of-system-design.html">
+<meta property="og:url" content="https://jeffreytse.net/computer/2022/12/13/the-handbook-of-system-design.html">
+<meta property="og:site_name" content="Jeffrey Tse’s Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2022-12-13T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="The Handbook of System Design">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeffrey Tse"},"dateModified":"2022-12-13T00:00:00+00:00","datePublished":"2022-12-13T00:00:00+00:00","description":"System design is the process of defining the architecture, interfaces, and data for a system that satisfies specific business requirements. A good system design requires engineers to think about everything in an infrastructure, from the hardware/software, down to the data and how it’s stored.","headline":"The Handbook of System Design","mainEntityOfPage":{"@type":"WebPage","@id":"https://jeffreytse.net/computer/2022/12/13/the-handbook-of-system-design.html"},"url":"https://jeffreytse.net/computer/2022/12/13/the-handbook-of-system-design.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="https://jeffreytse.net">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://jeffreytse.net/feed.xml" title="Jeffrey Tse's Blog">
+<!-- Google tag (gtag.js) -->
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "false" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      var measurementId = 'G-N54MN13CMZ';
+
+      (function(src) {
+        var tag = document.createElement('script');
+        tag.src = src;
+        tag.async = true;
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      })('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    }
+  }
+  window.addEventListener("load", initGoogleAnalytics);
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="Jeffrey Tse's Blog" src="/favicon.png" onerror="this.style.display='none'">
+  Jeffrey Tse's Blog
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/">HOME</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/tags.html">TAGS</a><a class="page-link" href="/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<div class="page-link" style="display: inline;">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<div class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</div>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+        document.dispatchEvent(new Event('theme-changed'));
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">The Handbook of System Design</h1>
+  <h2 class="post-subtitle">The right architecture = Coming up potential solutions + Managing trade-offs</h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2022-12-13T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 13 Dec 2022
+    </time><span class="post-author left-vsplit"><i class="fa fa-pencil"></i> Jeffrey Tse</span>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 30 mins</span>
+  </div>
+<div class="post-tags">
+<a class="post-tag" href="/tags.html#software">#software</a><a class="post-tag" href="/tags.html#architecture">#architecture</a><a class="post-tag" href="/tags.html#note">#note</a>
+</div></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>System design is the process of defining the architecture, interfaces, and
+data for a system that satisfies specific business requirements. A good system
+design requires engineers to think about everything in an infrastructure, from
+the hardware/software, down to the data and how it’s stored.</p>
+
+<p>As a senior software engineer, you are demanded a better understanding
+of how you solve a particular design problem, how you respond when
+there is more than expected traffic on your system, how you design the
+database of your system and many more.</p>
+
+<h2 id="basic">Basic</h2>
+
+<p>All design decisions are based on below 4 factors:</p>
+
+<ul>
+  <li>Scalability</li>
+  <li>Reliability</li>
+  <li>Availability</li>
+  <li>Maintainability</li>
+</ul>
+
+<p>Do remember: Everything is a trade-off.</p>
+
+<blockquote>
+  <p>The right architecture = Coming up potential solutions + Managing trade-offs</p>
+</blockquote>
+
+<p>About trade-off:</p>
+
+<ul>
+  <li>All architectures start from requirements. When one person maintains several
+microservices, you will go crazy.</li>
+  <li>Under the premise of meeting the requirements, the simpler the implementation,
+the better.</li>
+  <li>Execution performance and development efficiency are a pair of contradictions
+in software development.
+    <ul>
+      <li>Performance issues are troubles after success, while development efficiency
+is a problem that is faced on the first day of the project.</li>
+      <li>Most projects die before they encounter performance problems.</li>
+      <li>The moment the product faces the user, you may only begin to know exactly
+what the user needs, so let’s launch it as soon as possible.</li>
+      <li>The cost of people is always the highest, leave the thinking time to
+yourself, and leave the hard work to the machine.</li>
+      <li>The main problems faced at different stages are different. It is the right
+choice to seek a quick solution to the problem. No application architecture
+is ever the same.</li>
+      <li>Don’t optimize prematurely. In actual projects, you can find the most
+time-consuming places to optimize.</li>
+    </ul>
+  </li>
+  <li>Consistency, sometimes not so important, can be sacrificed in exchange for
+performance.
+    <ul>
+      <li>If it is a stateless service, such as a general API service, you don’t need
+to consider CAP. The consistency is generally guaranteed by the later
+storage. For very critical places, you can deal with it according to the
+specific situation.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Approaching a Design Problem:</p>
+
+<ul>
+  <li>Breaking down the problem</li>
+  <li>Communicating your ideas</li>
+  <li>Assumptions that make sense</li>
+</ul>
+
+<h2 id="approaching">Approaching</h2>
+
+<p>To approach a system design, you need to ensure in a systematic way (mainly
+according to the Software Engineering).</p>
+
+<p>For interview, The purpose of this section is to assess a candidate’s experience
+in designing large scale distributed systems. In general, there are 4 steps to
+solve a system design problem:</p>
+
+<ul>
+  <li>Understand the problem and clarify exact design scope (10%)
+    <ul>
+      <li>Clarify requirements (functional &amp; non-functional)</li>
+      <li>Functional requirements could go in different directions depending on the
+goals of the interviewer.</li>
+      <li>Non-functional requirements should always be assumed a large scale
+distributed system which handles hundreds of thousands of concurrent
+requests, request latency is low and the system requires big storages.</li>
+    </ul>
+  </li>
+  <li>Sketch the high-level design and get buy-in (30%)</li>
+  <li>Design deep dive (25%)
+    <ul>
+      <li>Articulate the problem
+        <ul>
+          <li>Discuss database &amp; storage layer</li>
+          <li>Discuss core components</li>
+          <li>Add in high availability considerations</li>
+        </ul>
+      </li>
+      <li>Come up with at least two solutions</li>
+      <li>Discuss the trade-offs of the solutions</li>
+      <li>Pick up a solution and discuss it</li>
+      <li>Repeat the process with another dive topic</li>
+    </ul>
+  </li>
+  <li>Wrap up (10%)
+    <ul>
+      <li>Summarize the design, here we should focus on the parts that are unique to
+the particular situation, and keep this short and sweet.</li>
+      <li>Ask some questions about the company.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Moreover, do remember the below tips:</p>
+
+<ul>
+  <li>You’re expected to take the ownership and lead the discussion. Hence, you
+should be active to deliver the information and clarify with the interviewer
+which directions they want you to go further.</li>
+  <li>As system design interview questions are open-ended and unstructured, you
+should organize your solution with a clear plan and justify the choices for
+the sake of better chances of success.</li>
+</ul>
+
+<h3 id="requirements-analysisclarifications">Requirements Analysis/Clarifications</h3>
+
+<p>Outline the scope of the system, and come out SRS (Software Requirements
+Specification). This includes gathering information about the problem space,
+performance requirements, scalability needs, and security concerns.</p>
+
+<ul>
+  <li>Background
+    <ul>
+      <li>Why do we need to build the system?</li>
+      <li>What kind of problems does the system solve?</li>
+      <li>…</li>
+    </ul>
+  </li>
+  <li>Functional Requirements (Use cases, systems exist to solve specific problems)
+    <ul>
+      <li>Include business rules, authentication, administrative functions,
+authorization levels, etc.</li>
+      <li>Examples
+        <ul>
+          <li>Who is going to use it?</li>
+          <li>How are they going to use it?</li>
+          <li>What does the system do?</li>
+          <li>What’s the format of the input data?</li>
+          <li>Should users be able to register an account, delete an account and
+recover the password?</li>
+          <li>…</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Non-functional Requirements (Constraints, restrict the system design through
+different qualities)
+    <ul>
+      <li>The more senior the role is, the more important it is for us to demonstrate
+our ability to handle non-functional requirements.</li>
+      <li>Include performance, security, reliability, scalability, maintainability,
+availability, consistency, freshness, accuracy, etc.
+        <ul>
+          <li>Focusing on scale and performance</li>
+        </ul>
+      </li>
+      <li>Mainly identify <strong>traffic and data handling</strong> constraints at scale.</li>
+      <li>Scale of the system such as requests per second, requests types, data
+written per second, data read per second)</li>
+      <li>Special system requirements such as multi-threading, read or write oriented.</li>
+      <li>Examples
+        <ul>
+          <li>High availability
+            <ul>
+              <li>Service has high availability 99.999%</li>
+              <li>It should be highly available no matter what operation you perform
+(expanding storage, backup, when new nodes are added, etc)</li>
+            </ul>
+          </li>
+          <li>Consistency
+            <ul>
+              <li>Strong consistency</li>
+              <li>Weak consistency</li>
+              <li>Eventual consistency</li>
+            </ul>
+          </li>
+          <li>Low latency
+            <ul>
+              <li>A latency of around 300ms for timeline generation</li>
+              <li>Under 150 milliseconds for viewing pages</li>
+              <li>Under 400 milliseconds for conducting searches</li>
+            </ul>
+          </li>
+          <li>Scale
+            <ul>
+              <li>Serves 10 million users</li>
+              <li>150 million of DAU (Daily Active Users)</li>
+            </ul>
+          </li>
+          <li>Security
+            <ul>
+              <li>Prevent from DDos attacks (WAF, Web Application Firewall)</li>
+            </ul>
+          </li>
+          <li>…</li>
+        </ul>
+      </li>
+      <li>Assumptions (Estimation of important parts, do some rough
+back-of-the-envelope calculation here)
+        <ul>
+          <li>Storage
+            <ul>
+              <li>How many files would be upload daily?</li>
+              <li>Examples
+                <ul>
+                  <li>Videos 5MB per video * 2 = 10MB/day/user</li>
+                  <li>Users meta data 1K/user/day</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Bandwidth
+            <ul>
+              <li>Ingress (write bandwidth)
+                <ul>
+                  <li>50TB per day ~= 500MB/s</li>
+                </ul>
+              </li>
+              <li>Egress (read bandwidth)
+                <ul>
+                  <li>~= 100x write access ~= 50GB/s</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Traffic
+            <ul>
+              <li>W/R QPS(Queries per second) = 150 millions * 0.2</li>
+            </ul>
+          </li>
+          <li>RAM
+            <ul>
+              <li>At 1M concurrent users, assuming each user connection needs 10K of
+memory on the server, about 10GB of memory to hold all the connections</li>
+            </ul>
+          </li>
+          <li>…</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Data Flows (Data models and data flows between them)
+    <ul>
+      <li>Database (Choose database system is also part of this)
+        <ul>
+          <li>Database Indexes
+            <ul>
+              <li>A database index is used for the purpose of speeding up reads
+conditioned on the value of a specific key.</li>
+              <li>Be careful to not overuse indexes, as they slow down database writes.</li>
+              <li>Two main types
+                <ul>
+                  <li>LSM Trees + SSTables
+                    <ul>
+                      <li>Writes first go to a balanced binary search tree in memory</li>
+                      <li>Tree flushed to a sorted table on disk when it gets to0 big</li>
+                      <li>Can binary search SSTables for the value of a key</li>
+                      <li>If there are too many SSTables they can be merged together (old
+values of keys will be discarded)</li>
+                      <li>Pros
+                        <ul>
+                          <li>Fast writes to memory</li>
+                        </ul>
+                      </li>
+                      <li>Cons
+                        <ul>
+                          <li>May have to search many SSTables for value of key</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>B-Trees
+                    <ul>
+                      <li>A binary tree using pointers on disk</li>
+                      <li>Writes iterate through the binary tree and either overwrite the
+existing key value or create a new page on disk and modify the
+parent pointer to the new page</li>
+                      <li>Pros
+                        <ul>
+                          <li>Faster reads, know exactly where key is located</li>
+                        </ul>
+                      </li>
+                      <li>Cons
+                        <ul>
+                          <li>Slow writes to disk instead of memory</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>How to choose the right database?
+            <ul>
+              <li>Consideration from aspects
+                <ul>
+                  <li>Performance
+                    <ul>
+                      <li>CPU</li>
+                      <li>Memory</li>
+                      <li>I/O</li>
+                      <li>Network</li>
+                      <li>Query tuning</li>
+                    </ul>
+                  </li>
+                  <li>Limitations
+                    <ul>
+                      <li>The page size limit</li>
+                      <li>SQL Join is not supported</li>
+                      <li>Doesn’t provide read-after-write consistency</li>
+                    </ul>
+                  </li>
+                  <li>Others
+                    <ul>
+                      <li>Benchmark, pay attention to the outliers, the average is not
+meaningful.</li>
+                      <li>Find the hidden cost of effortless horizontal scalability</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Bad choice
+                <ul>
+                  <li>Extend downtime</li>
+                  <li>Customer impact</li>
+                  <li>Data lost</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Relational DB (SQL DB)
+            <ul>
+              <li>You’re building the first version of your system and aren’t
+completely sure about the data access patterns</li>
+              <li>You want to maintain zero data redundancy</li>
+              <li>When correctness and consistency is of more importance than speed</li>
+              <li>Key features
+                <ul>
+                  <li>Relational/Normalized data - changes to one table may require others
+                    <ul>
+                      <li>E.g. adding an author and their books to different tables on
+different nodes, may need two phases commit (Expensive)</li>
+                    </ul>
+                  </li>
+                  <li>Have transactional (ACID guarantees)
+                    <ul>
+                      <li>Excessively slow if you don’t need them (due to two phase locking)</li>
+                    </ul>
+                  </li>
+                  <li>Typically use B-trees
+                    <ul>
+                      <li>Better for reads than writes in theory</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Products
+                <ul>
+                  <li>Amazon RDS</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Non-relational DB (NoSQL DB)
+            <ul>
+              <li>This is a good option if your data model has no fixed schema</li>
+              <li>Types
+                <ul>
+                  <li>Key-value DB
+                    <ul>
+                      <li>Products
+                        <ul>
+                          <li>Amazon DynamoDB</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>Document DB
+                    <ul>
+                      <li>Products
+                        <ul>
+                          <li>MongoDB
+                            <ul>
+                              <li>Key features
+                                <ul>
+                                  <li>Documented data model (NoSQL)
+                                    <ul>
+                                      <li>Data is written in large nested documents, better data
+locality (if you choose to organize your data in a way that
+take advantage of this), but denormalized</li>
+                                    </ul>
+                                  </li>
+                                  <li>B-trees and transactions supported</li>
+                                </ul>
+                              </li>
+                              <li>Rarely makes sense to use in a system design interview since
+nothing is “special” about it, but good if you want SQL like
+guarantees on data with more flexibility via the document model</li>
+                            </ul>
+                          </li>
+                          <li>Amazon DocumentDB</li>
+                          <li>Apache Cassandra (Started by Facebook in 2008)
+                            <ul>
+                              <li>Key features
+                                <ul>
+                                  <li>Wide-column data store (NoSQL), has a shard key and a sort
+key
+                                    <ul>
+                                      <li>Allow flexible schemas ease of partitioning</li>
+                                    </ul>
+                                  </li>
+                                  <li>MultiLeader/Leaderless replication (configurable)
+                                    <ul>
+                                      <li>Super fast writes, albeit uses last write wins for conflict
+resolution</li>
+                                      <li>May clobber existing writes if they were not the winner of
+LWW</li>
+                                    </ul>
+                                  </li>
+                                  <li>Index based off of LSM trees and SSTables
+                                    <ul>
+                                      <li>Fast writes</li>
+                                      <li>Uses LSTM rather than B+ Tree used by SQL</li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>Benefits of a wide-column NoSQL database include speed of
+querying, scalability, and a flexible data model.</li>
+                              <li>Great for application with high write volume, consistency is not
+as important, all writes and reads go to the same shard (no
+transactions)</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>Graph DB
+                    <ul>
+                      <li>Graph databases are a good idea when you have many many-to-many
+relationships.</li>
+                      <li>Products
+                        <ul>
+                          <li>Amazon Neptune</li>
+                          <li>Neo4j</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>In-memory DB
+                    <ul>
+                      <li>Products
+                        <ul>
+                          <li>Redis
+                            <ul>
+                              <li>Key features
+                                <ul>
+                                  <li>Key-value stores implemented in memory (Redis a bit more
+feature rich)
+                                    <ul>
+                                      <li>Uses hashmap under the hood</li>
+                                    </ul>
+                                  </li>
+                                  <li>Good for caches, certain essential app feature</li>
+                                </ul>
+                              </li>
+                              <li>Useful for data that needs to be written and retrieved
+extremely, memory is expensive so good for small datasets</li>
+                            </ul>
+                          </li>
+                          <li>Amazon MemoryDB</li>
+                          <li>Memcached</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>Time-series DB</li>
+                  <li>Search DB</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Trade-off
+            <ul>
+              <li>Measures
+                <ul>
+                  <li>What type of data are we going to be storing?</li>
+                  <li>Do we need normalization and joins to reduce data redundancy?</li>
+                  <li>…</li>
+                </ul>
+              </li>
+              <li>For choosing SQL
+                <ul>
+                  <li>Much less space compared with NoSQL</li>
+                </ul>
+              </li>
+              <li>For choosing NoSQL
+                <ul>
+                  <li>Consistency is not as important as availability : Netflix is not a
+banking application so this is a huge factor. ACID is also not as
+important.</li>
+                  <li>Normalization is not that complex in systems like Netflix. They’re
+not Online Transaction Processing (OLTP) apps like banking apps,
+NoSQL scale immensely with static models that don’t change much.</li>
+                  <li>If models DO require that rare change -&gt; SQL involves some sort of
+downtime. NoSQL has a distinct advantage here. (This was cited as
+one of the reasons for moving away from SQL)</li>
+                  <li>Much higher scale, as they often claim to support near linearly
+horizontal scalability</li>
+                  <li>Eliminate or limit transactional guarantees (ACID)</li>
+                  <li>Severely limit data modeling flexibility. There are no data queries
+across data entities, the data is highly denormalized where the same
+piece of data is stored in many collections to support different data
+access patterns.</li>
+                  <li>The disadvantage of this option is the difficulty in handling complex
+relationship queries, storing redundant data and more expensive than
+relational databases.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Storage
+        <ul>
+          <li>Block storage
+            <ul>
+              <li>A hight-performance block storage for both throughput and transaction-
+intensive workloads at scale</li>
+              <li>Products
+                <ul>
+                  <li>Amazon Elastic Block Store (EBS)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>File storage
+            <ul>
+              <li>A file system for you to share file data without managing storage</li>
+              <li>Products
+                <ul>
+                  <li>Amazon Elastic File System (EFS)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Object storage
+            <ul>
+              <li>A storage for you to store and retrieve any amount of data from anywhere</li>
+              <li>Products
+                <ul>
+                  <li>Amazon Simple Storage Service (S3)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Redundant Disk Arrays (RAID)</li>
+        </ul>
+      </li>
+      <li>File systems
+        <ul>
+          <li>Google File System (GFS)</li>
+          <li>Hadoop Distributed File System (HDFS)</li>
+        </ul>
+      </li>
+      <li>Message queues (Pub/Sub)
+        <ul>
+          <li>RabbitMQ</li>
+          <li>Kafka (a messaging system for LinkedIn but has since grown to become a
+popular distributed event streaming platform)</li>
+        </ul>
+      </li>
+      <li>…</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Related Tools:</p>
+
+<ul>
+  <li>Data Flow Diagram (DFD)</li>
+  <li>Data Dictionary (DD)</li>
+  <li>Decision Trees</li>
+  <li>Decision Tables</li>
+  <li>…</li>
+</ul>
+
+<p>Related Constraints/Bottleneck:</p>
+
+<ul>
+  <li>The average QPS of a single machine can reach 800-1000.</li>
+  <li>The average R/W speed of HDD is 60-80MB/s.</li>
+  <li>…</li>
+</ul>
+
+<h3 id="high-level-design-hld-known-as-general-design">High-Level Design (HLD, known as General Design)</h3>
+
+<p>Outline a high level architecture design, such as identifying the major system
+components, choosing appropriate technology route.</p>
+
+<ul>
+  <li>Sketch the system architecture
+    <ul>
+      <li>Fundamentals
+        <ul>
+          <li>Architecture Patterns
+            <ul>
+              <li>Monolithic Architecture (Traditional)</li>
+              <li>Service-Oriented Architecture (SOA)</li>
+              <li>Micro-services Architecture (MSA)
+                <ul>
+                  <li>An architectural style that structures an application using loosely
+coupled services</li>
+                </ul>
+              </li>
+              <li>Event-driven Architecture (EDA)</li>
+              <li>Cloud Native (Utilize cloud services such as EC2, S3, AWS Lambda, etc.)</li>
+            </ul>
+          </li>
+          <li>System Design patterns
+            <ul>
+              <li>Bloom filters</li>
+              <li>Consistent hashing</li>
+              <li>Quorum</li>
+              <li>Checksum</li>
+              <li>Merkle trees</li>
+              <li>Leader election</li>
+            </ul>
+          </li>
+          <li>Data Access Patterns</li>
+        </ul>
+      </li>
+      <li>Components
+        <ul>
+          <li>High cohesion and low coupling for the independence of components</li>
+          <li>Divide by functions</li>
+          <li>Divide by domains</li>
+        </ul>
+      </li>
+      <li>Relationship of components
+        <ul>
+          <li>Horizontal Relationship</li>
+          <li>Vertical Relationship</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Scale the design (Scale problems)
+    <ul>
+      <li>Scalability refers to an application’s ability to handle and withstand an
+increased workload without sacrificing latency</li>
+      <li>Identify bottlenecks (Articulate problems)
+        <ul>
+          <li>Types
+            <ul>
+              <li>Traffic
+                <ul>
+                  <li>Based on Read/Write Ratio, as known as IOPS (Input/output operations
+per second)</li>
+                </ul>
+              </li>
+              <li>Data</li>
+              <li>Storage</li>
+              <li>Availability</li>
+              <li>Redundancy</li>
+              <li>Back-up</li>
+              <li>…</li>
+            </ul>
+          </li>
+          <li>Examples
+            <ul>
+              <li>Too many user requests</li>
+              <li>The data is too huge</li>
+              <li>Is there a single point of failure in this system? How do we remove it?</li>
+              <li>Do you have enough data replicas to serve the user in case you lose a
+few servers?</li>
+              <li>Do we have enough copies of our services to prevent shutdown?</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Resolve bottlenecks (Come up with solutions)
+        <ul>
+          <li>Caching
+            <ul>
+              <li>Benefits
+                <ul>
+                  <li>Improve application performance</li>
+                  <li>Reduce database cost</li>
+                  <li>Reduce the load on the backend</li>
+                  <li>Predictable performance</li>
+                  <li>Eliminate database hotspots</li>
+                  <li>Increase read throughput and lower the data retrieval latency (IOPS,
+Input/Output operations per second)</li>
+                </ul>
+              </li>
+              <li>Types
+                <ul>
+                  <li>Application Caching
+                    <ul>
+                      <li>CDN</li>
+                      <li>DNS</li>
+                    </ul>
+                  </li>
+                  <li>Database Caching</li>
+                  <li>In-memory Caches
+                    <ul>
+                      <li>Redis</li>
+                      <li>Memcached</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Cache invalidation
+                <ul>
+                  <li>Write-through cache</li>
+                  <li>Write-around cache</li>
+                  <li>Write-back cache</li>
+                </ul>
+              </li>
+              <li>Cache Eviction
+                <ul>
+                  <li>First in first out (FIFO)</li>
+                  <li>Last in first out (LIFO)</li>
+                  <li>Least recently used (LRU)</li>
+                  <li>Most recently used (MRU)</li>
+                  <li>Least frequently used (LFU)</li>
+                  <li>Random replacement (RR)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>DNS (Domain Name System)
+            <ul>
+              <li>Instances of the app server might be located in different data centers
+at different physical locations. We can add geolocation-based policy DNS
+to provide the client with a server IP address that is physically
+located closer to the client.</li>
+              <li>Products
+                <ul>
+                  <li>Amazon Route 53</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>CDN (Content Delivery Network)
+            <ul>
+              <li>A content delivery network (CDN) is a globally distributed network of
+proxy servers, serving content from locations closer to the user. We can
+serve static contents via CDN to improve user experiences.</li>
+              <li>Products
+                <ul>
+                  <li>CloudFlare</li>
+                  <li>Fastly</li>
+                  <li>Amazon CloudFront</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Load balancing</li>
+          <li>Horizontal scaling (or scaling out)
+            <ul>
+              <li>Means adding more machines into your pool of resources.</li>
+            </ul>
+          </li>
+          <li>Vertical scaling (or scaling up)
+            <ul>
+              <li>Means adding more power (CPU, RAM) to your existing machine, it
+increases the power of the hardware running the application.</li>
+            </ul>
+          </li>
+          <li>Change database
+            <ul>
+              <li>NoSQL database for handling high R/W ratio of QPS</li>
+              <li>Schemaless Database</li>
+            </ul>
+          </li>
+          <li>Database optimization</li>
+          <li>Database scaling
+            <ul>
+              <li>Database sharding (Scale Database)
+                <ul>
+                  <li>What type of sharding key are we going to be using?</li>
+                </ul>
+              </li>
+              <li>Database replication
+                <ul>
+                  <li>Single leader replication
+                    <ul>
+                      <li>All writes go to one database, reads come from any database</li>
+                    </ul>
+                  </li>
+                  <li>Multi leader replication
+                    <ul>
+                      <li>Writes can go to a small subset of leader databases, reads can come
+from any database</li>
+                    </ul>
+                  </li>
+                  <li>Leaderless replication
+                    <ul>
+                      <li>Writes go to all databases, reads come from all databases</li>
+                    </ul>
+                  </li>
+                  <li>Comparison
+                    <ul>
+                      <li>Single leader is useful to ensure that there are no data conflicts,
+all writes will go to one node</li>
+                      <li>Multi leader and leaderless replication is useful for increasing
+write throughput beyond just one database node (at the cost of
+potential write conflicts)</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>High Concurrency</li>
+          <li>Failure Scenarios</li>
+          <li>Request Rate Limiter</li>
+          <li>Circuit Breaker</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Justify your ideas (Discuss the trade-offs of your solutions)</li>
+</ul>
+
+<h3 id="detail-design-lld-low-level-design">Detail design (LLD, Low Level Design)</h3>
+
+<p>Dive into details for each component, such as interface, algorithm, process,
+state transition, etc.</p>
+
+<ul>
+  <li>Define the interface</li>
+  <li>Design the data model</li>
+</ul>
+
+<p>Related Tools:</p>
+
+<ul>
+  <li>Program Flow Chart</li>
+  <li>N-S Structure Diagram</li>
+  <li>Problem Analysis Diagram (PAD)</li>
+  <li>…</li>
+</ul>
+
+<p>With the detailed design done, do remember to keep your design simple, things
+will not always go your way, so you may have to come back and make some changes
+on the go, as in the real-world, everything is evolving and changing.</p>
+
+<h4 id="system-api-design">System API Design</h4>
+
+<ol>
+  <li>What APIs would we need? It should be clear after gathering the requirements.</li>
+</ol>
+
+<p>Return all bookshops on a user’s location.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">API</th>
+      <th style="text-align: center">Remark</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">GET /v1/search/nearby</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Bookshop owner can add, delete or update a bookshop.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">API</th>
+      <th style="text-align: left">Remark</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">GET /v1/bookshops</td>
+      <td style="text-align: left">Return detailed information about all bookshops</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">GET /v1/bookshops/:id</td>
+      <td style="text-align: left">Return detailed information about a bookshop</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">POST /v1/bookshops</td>
+      <td style="text-align: left">Add a bookshop</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">PUT /v1/bookshops/:id</td>
+      <td style="text-align: left">Update details of a bookshop</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">DELETE /v1/bookshops/:id</td>
+      <td style="text-align: left">Delete a bookshop</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This part may involve the way to handle pagination, infinite scroll supporting,
+etc.</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /v1/bookshops?page=1&amp;per_page=20
+</code></pre></div></div>
+
+<ol>
+  <li>Define the input parameters and output responses carefully.</li>
+</ol>
+
+<p>Input parameters:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Field</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Name</td>
+      <td style="text-align: left">ABC</td>
+      <td style="text-align: left">String</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Author</td>
+      <td style="text-align: left">Foo</td>
+      <td style="text-align: left">String</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Description</td>
+      <td style="text-align: left">An interesting story book</td>
+      <td style="text-align: left">String</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Price</td>
+      <td style="text-align: left">The book price</td>
+      <td style="text-align: left">Float</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Output Response:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"total"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"books"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+       </span><span class="p">{</span><span class="w">
+           </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ABC"</span><span class="p">,</span><span class="w">
+           </span><span class="nl">"author"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Foo"</span><span class="p">,</span><span class="w">
+           </span><span class="nl">"price"</span><span class="p">:</span><span class="w"> </span><span class="mf">100.0</span><span class="w">
+       </span><span class="p">},</span><span class="w">
+       </span><span class="p">{</span><span class="w">
+           </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DFG"</span><span class="p">,</span><span class="w">
+           </span><span class="nl">"author"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bar"</span><span class="p">,</span><span class="w">
+           </span><span class="nl">"price"</span><span class="p">:</span><span class="w"> </span><span class="mf">50.0</span><span class="w">
+       </span><span class="p">},</span><span class="w">
+       </span><span class="err">...</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="database-schema-design">Database Schema Design</h4>
+
+<p>To hash out the data model and schema</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Field</th>
+      <th style="text-align: left">Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">userId</td>
+      <td style="text-align: left">UUID</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Name</td>
+      <td style="text-align: left">String</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">BOD</td>
+      <td style="text-align: left">Timestamp</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Remark</td>
+      <td style="text-align: left">String</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="class-diagram-design">Class Diagram Design</h4>
+
+<p>To design class diagram with respect OOP concepts</p>
+
+<h3 id="implementation">Implementation</h3>
+
+<h4 id="solid-design-principles">SOLID Design Principles</h4>
+
+<p>The SOLID principles were introduced by Robert C. Martin in his 2000 paper “
+Design Principles and Design Patterns”. These design principles encourage us to
+create more maintainable, understandable, and flexible software.</p>
+
+<p>SOLID is an acronym that stands for five key design principles:</p>
+
+<ul>
+  <li>Single Responsibility Principle (SRP)
+    <ul>
+      <li>Testing – A class with one responsibility will have far fewer test cases.</li>
+      <li>Lower coupling – Less functionality in a single class will have fewer
+dependencies.</li>
+      <li>Organization – Smaller, well-organized classes are easier to search than
+monolithic ones.</li>
+    </ul>
+  </li>
+  <li>Open-closed Principle
+    <ul>
+      <li>By extending the class, we can be sure that our existing application won’t
+be affected.</li>
+    </ul>
+  </li>
+  <li>Liskov Substitution Principle
+    <ul>
+      <li>It states that a subclass should be replaceable by its base class.</li>
+      <li>Because inheritance assumes that subclasses inherit everything from their
+parent class, subclasses can extend behavior but not narrow it down.
+Therefore, when a class violates this principle, it can lead to some nasty
+bugs that are hard to find.</li>
+      <li>For example, a square inherits a rectangle, and the function to calculate
+the area will indirectly violate this principle. Because it violates the
+characteristics of the square, you can change the width and height to be
+unequal.</li>
+    </ul>
+  </li>
+  <li>Interface Segregation Principle
+    <ul>
+      <li>It means interfaces remain separate, A specific interface is better than a
+general-purpose interface. The class shouldn’t be forced to implement
+functions they don’t need.</li>
+    </ul>
+  </li>
+  <li>Dependency Inversion Principle
+    <ul>
+      <li>Our class should depend on interfaces and abstract classes instead of
+concrete classes and functions.</li>
+      <li>We rely on interfaces rather than concrete classes.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>All five are commonly used by software engineers and provide some important
+benefits for developers, which also are used to Object-Oriented class design.</p>
+
+<h4 id="performance-optimization">Performance Optimization</h4>
+
+<ul>
+  <li>Utilize resource pools to reduce the cost of creating and recycling reusable
+objects.
+    <ul>
+      <li>Common cases:
+        <ul>
+          <li>Thread pool</li>
+          <li>Connection pool</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Sequential read and write, reduce random IO, reduce cache miss.
+    <ul>
+      <li>The performance of memory sequential read and write is much better than
+random read and write.</li>
+      <li>Disk sequential read and write performance is much better than random read
+and write.</li>
+      <li>Ordered list, a dictionary structure based on ordered arrays.</li>
+      <li>In Java, everything is an object, so in an array, seemingly continuous
+objects are actually discrete in physical memory, so the traversal effect
+will be much worse.</li>
+      <li>For languages such as C, C++ and so on, they all support <code class="language-plaintext highlighter-rouge">struct</code>. When the
+object is defined as a <code class="language-plaintext highlighter-rouge">struct</code>, the memory occupied by an array of this
+type is continuous, and the traversal effect will be much better than that
+of Java.</li>
+      <li>Why kafka is faster, because it reads and writes disks sequentially.</li>
+    </ul>
+  </li>
+  <li>Any large-scale data problem can be settled by splitting
+    <ul>
+      <li>Such as batching, framing, paging, time-sharing, slicing, partitioning,
+database sharding.</li>
+      <li>Routing schemes can be simply divided into two categories
+        <ul>
+          <li>Non-deterministic routing
+            <ul>
+              <li>The same key can be mapped to different computing units for multiple
+routes</li>
+              <li>It’s mostly used for distributed systems between stateless nodes</li>
+              <li>Common solutions
+                <ul>
+                  <li>Round Robin</li>
+                  <li>Random</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Deterministic routing
+            <ul>
+              <li>The same key must be mapped to the same computing unit no matter how
+many times it passes through the route</li>
+              <li>It’s mostly used for distributed systems between stateful nodes</li>
+              <li>Common solutions
+                <ul>
+                  <li>Range</li>
+                  <li>Hash</li>
+                  <li>Configuration table (e.g. MySQL’s List in partitioning types)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Batching
+        <ul>
+          <li>There will be differences in capacity and performance in the IO of
+different components in the system.</li>
+          <li>Read optimization relies on caching, writing optimization relies on
+buffering, and batching ≈ caching + buffering. A cache is a piece of
+memory for reading, and a buffer is a piece of memory for writing.</li>
+          <li>The disadvantage of batching is that the data consistency is poor, whether
+it is caching or buffering, the same problem exists.</li>
+          <li>Batching is one of the most important IO optimization methods whenever IO
+performance bottlenecks are encountered, as it has simple logic, does not
+involve multi-thread concurrency, has no special requirements for data
+structures, and has low system transformation costs.</li>
+        </ul>
+      </li>
+      <li>Framing
+        <ul>
+          <li>Operations that will take a long time also need to be distributed to
+multiple frames for execution, thereby reducing the waiting time for
+blocking.</li>
+          <li>The single-threaded nature of UI rendering</li>
+          <li>The single-threaded nature of Redis</li>
+        </ul>
+      </li>
+      <li>Paging
+        <ul>
+          <li>It can be regarded as an alternative framing operation, which can avoid
+the DB loading pressure and network transmission pressure caused by
+one-time data acquisition.</li>
+        </ul>
+      </li>
+      <li>Time-sharing
+        <ul>
+          <li>It refers to the technology that multiple objects use the same hardware
+in turn, and it is more common in the underlying software that deals with
+hardware.</li>
+          <li>time-sharing operating system</li>
+          <li>time-sharing network</li>
+          <li>I/O multiplexing</li>
+        </ul>
+      </li>
+      <li>Slicing</li>
+      <li>Partitioning
+        <ul>
+          <li>When only some tables in the database have a large amount of data, use the
+table partitioning in the same database.</li>
+        </ul>
+      </li>
+      <li>Database sharding
+        <ul>
+          <li>The entire database has a large amount of data and high access pressure,
+use the database sharding</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Separation
+    <ul>
+      <li>It’s the SRP (Single responsibility principle) of SOLID principle.</li>
+      <li>It can reduce development and maintenance costs while increasing reusability<br>
+of functional units.</li>
+      <li>Common designs
+        <ul>
+          <li>Read-write separation (Separate by functions)
+            <ul>
+              <li>In a broad sense, the focus of read-write separation is: the read does
+not care about writing, and the write path does not care about reading.
+Both focus on their own function realization without making any
+sacrifices or concessions for the other.</li>
+            </ul>
+          </li>
+          <li>Storage-computing separation (Separate by resources)
+            <ul>
+              <li>Cloud Native Database Architecture. In essence, it’s Microservice
+Architecture</li>
+              <li>Computing nodes are stateless, storage nodes are non-computing;
+computing nodes scale out, storage nodes scale up.</li>
+              <li>Although the functions were separated, but as the words in The Duck
+Test: If it looks like a duck, swims like a duck, and quacks like a
+duck, then it probably is a duck.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Reducing
+    <ul>
+      <li>Do not optimize prematurely, because in the initial stage of most
+businesses, the amount of data is very small, and performance problems are
+unlikely to occur in any design.</li>
+      <li>Faster realization of business has higher priority than business running
+faster.</li>
+      <li>Reduce the amount of data per processing unit, algorithmically reduced and
+physically reduced.</li>
+      <li>Common solutions
+        <ul>
+          <li>Optimizing data structures and algorithms</li>
+          <li>Clipping data
+            <ul>
+              <li>Java GC</li>
+              <li>DB Archive</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Concurrency
+    <ul>
+      <li>The utilization rate of a single machine can be improved through
+concurrency, and the upper limit of the overall processing capacity can be
+expanded through multi-machine concurrency.</li>
+      <li>The introduction of concurrency will greatly increase the complexity of the
+code and increase the difficulty of maintaining data consistency. It’s often
+only used as the ultimate optimization method.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The average cost of access times:</p>
+
+<ul>
+  <li>L1 Cache Ref: 0.5ns (0.5 sec)</li>
+  <li>L2 Cache Ref: 7ns (7 sec)</li>
+  <li>L3 Cache Ref: 25ns (25 sec)</li>
+  <li>DRAM: 100ns (100 sec)</li>
+  <li>SSD: 150,000ns (1.7days)</li>
+  <li>HDD: 10,000,000ns (16.5 weeks)</li>
+  <li>Network Storage: ~30,000,000ns (11.4 months)</li>
+  <li>Tape Storage: 1,000,000,000ns (31.7 years)</li>
+</ul>
+
+<p><img src="https://i.postimg.cc/c4pt0M4f/image.png" alt="Memory Hierarchy"></p>
+
+<p><img src="https://i.postimg.cc/9fpDd6PB/image.png" alt="Cache Structure"></p>
+
+<h3 id="testing-validate-the-design">Testing (Validate the design)</h3>
+
+<p>Software testing is the process of executing a program in order to find bugs, so
+that we can verify whether the software meets various requirements. When writing
+a test, consider what types of defects the test needs to catch.</p>
+
+<p>4 stages of V model:</p>
+
+<ul>
+  <li>Unit Testing</li>
+  <li>Integration Testing</li>
+  <li>System Testing</li>
+  <li>Acceptance Testing (Validation Testing)</li>
+</ul>
+
+<p>Others:</p>
+
+<ul>
+  <li>Black-box Testing
+    <ul>
+      <li>Also known as functional testing, data-driven testing, or specification-based
+testing.</li>
+      <li>Mainly to test the function of the application.</li>
+      <li>for most software tests, such as integration testing, system testing, etc.</li>
+    </ul>
+  </li>
+  <li>White-box Testing
+    <ul>
+      <li>Also known as glass box testing, structural testing, logic-driven testing
+or testing based on the program itself.</li>
+      <li>Mainly to test the internal structure or operation of the application.</li>
+      <li>For unit testing, integration testing.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The philosophy of testing:</p>
+
+<ul>
+  <li>Unit Testing: To test the smallest independent piece of code to prevent
+regressions.</li>
+  <li>Integration Testing: The outside world is a messy place, things usually go
+wrong on the edge, as the place of interaction is usually where the unexpected
+happens.</li>
+</ul>
+
+<p><strong>Integration testing</strong> and <strong>unit testing</strong> are the cornerstones of robust
+software. When considering adding unit testing to existing software, there
+are costs and benefits to consider. If your code is working, if the code rarely
+needs to be modified, and if the code is not easily unit-testable, then the
+benefits of incorporating unit tests may not justify the cost. In these cases,
+integration tests can be relied upon to prevent defects in this area.</p>
+
+<p>Testing Pyramid:</p>
+
+<p><img src="https://user-images.githubusercontent.com/9413601/208030915-5b7dfd23-4d49-4bfd-a5b0-b263a9276345.png" alt="Testing Pyramid"></p>
+
+<p>Key concepts:</p>
+
+<ul>
+  <li>Write tests at different granularities</li>
+  <li>The higher the level, the fewer tests you should write</li>
+</ul>
+
+<p>Test automation strategy:</p>
+
+<ul>
+  <li>Unite Testing (DEV)</li>
+  <li>Component Testing (DEV+QA)</li>
+  <li>Integration Testing (DEV+QA)</li>
+  <li>End-to-End (E2E) Testing (QA)</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>It’s important to keep in mind that system design is an iterative process, and
+the design may change as new information is gathered and requirements evolve.
+Additionally, it’s important to communicate the design effectively to all
+stakeholders, including developers, users, and stakeholders, to ensure that the
+system meets their needs and expectations.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://github.com/donnemartin/system-design-primer">System Design Primer</a></li>
+  <li><a href="https://www.geeksforgeeks.org/system-design-tutorial/">System Design Tutorial</a></li>
+  <li><a href="https://gist.github.com/vasanthk/485d1c25737e8e72759f">System Design Cheatsheet</a></li>
+  <li><a href="https://www.educative.io/blog/complete-guide-to-system-design">The complete guide to System Design in 2023</a></li>
+  <li><a href="https://aws.amazon.com/nosql/">What are NoSQL Databases</a></li>
+  <li><a href="https://levelup.gitconnected.com/work-through-my-solution-to-a-system-design-interview-question-a8ea4b60513b">Work through my solution to a system design interview question</a></li>
+  <li><a href="https://www.geeksforgeeks.org/system-design-of-uber-app-uber-system-architecture/">System Design of Uber App – Uber System Architecture</a></li>
+</ul>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/computer/2022/11/25/the-handbook-of-software-architecture.html" title="The Handbook of Software Architecture">
+          <div>The Handbook of Software Architecture</div>
+        </a><a class="next" href="/computer/2022/12/26/the-handbook-of-different-authentications-for-security.html" title="The Handbook of Different Authentications for Security">
+          <div>The Handbook of Different Authentications for Security</div>
+        </a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="">
+          <a class="post-link" href="/computer/2020/12/09/understanding-of-shell-initialization-process.html" title="Understanding of Shell initialization process">
+            Understanding of Shell initialization process<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/methodology/2022/06/01/ogsm-framework-for-effective-solving-issues.html" title="OGSM framework for effective solving issues">
+            OGSM framework for effective solving issues<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/music/2018/06/19/the-handbook-of-singing.html" title="The Handbook of Singing">
+            The Handbook of Singing<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/linguistics/2018/10/31/internet-slang-in-english.html" title="Internet slang in English">
+            Internet slang in English<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments">  <div id="disqus_recommendations"></div>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://jeffreytse.net/computer/2022/12/13/the-handbook-of-system-design.html';
+      this.page.identifier = 'https://jeffreytse.net/computer/2022/12/13/the-handbook-of-system-design.html';
+    };
+
+    // Disqus recommendations
+    (function() {
+      if (false === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/recommendations.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus comments
+    (function() {
+      if (true === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus theme switching
+    document.addEventListener('theme-changed', function (e) {
+      if (document.readyState == 'complete') {
+        setTimeout(function () {
+          if (window.DISQUS_RECOMMENDATIONS) {
+            window.DISQUS_RECOMMENDATIONS.reset({ reload: true });
+          }
+          if (window.DISQUS) {
+            window.DISQUS.reset({ reload: true, config: disqus_config });
+          }
+        }, 100);
+      }
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+</div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Copyright © 2008-2020</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
