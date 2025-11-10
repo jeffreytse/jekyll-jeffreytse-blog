@@ -535,7 +535,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `gene`: give birth, beget; race, kind; native, natural (e.g. general,
   generation, genuine, antigen, pathogen, parthenogenesis, genocide)
 - `gn`: the same as `gene` (e.g. pregnant)
-- `gest`: carry, bear, wage, perform (e.g. gesture)
+- `gest`: carry, bear, wage, perform (e.g. gesture, suggest, digest, congest,
+  ingest, gestation, register)
 - `gist`: the same as `gest` (e.g. register)
 - `glossa` language, tongue
   - From Greek `glōtta`
@@ -818,7 +819,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `pond`: the same as `pend` (e.g. ponder)
 - `poor`: poor
 - `port`: to lead, pass over (e.g. import, export, transport, portable)
-- `pos`: the same as `loc` (e.g. position)
+- `pos`: the same as `loc` (e.g. position, pose, deposit, compose, oppose,
+  repository, apposite, transpose, expose, depose, predispose, superpose)
 - `poss`: powerful; lord; (e.g. possess, possible)
 - `pot`: the same as `pos` (e.g. potential)
 - `quar`: four (e.g. square, quarantine)
@@ -1285,6 +1287,10 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `oc`: the same as `ob-` (e.g. occupy, occlude, occipital, occur)
 - `omni`: everything or everywhere, all (e.g. omnipresent, omnidirectional,
   omniscient)
+- `on`: the same as `un-` (e.g. onshore, onside, oncoming)
+  - From Old English `on`, from Proto-Germanic `*ana-` (source also of Dutch
+    `aan`, German `an`, Old Norse `á`, Gothic `ana`), from PIE root `ano` "on,
+    upon"; a = an = on = one;
 - `op`: the same as `ob-` (e.g. oppress)
   - assimilated form of `ob-` before `-p-`
 - `ortho`: straight, true, correct, regular (e.g. orthostatic, orthocenter)
@@ -1355,6 +1361,7 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
 - `sub`: under, up to (e.g. subway(Americanism, underway is british style),
   substructure, subtitle, submarine, subtle, subnormal)
 - `suf`: the same as `sub` (e.g. suffice)
+- `sug`: the same as `sub` (e.g. suggest)
 - `sup`: the same as `sub` (e.g. suppress, support, supple)
   - Assimilated form of `sub-` before `-p-`
 - `sur`: over, above, beyond, in addition; the same as `sub` (e.g. surface,
@@ -1364,7 +1371,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Assimilated form of `sub-` before `-r-`.
 - `sus`: the same as `sub` (e.g. sustain, suspend)
   - Assimilated form of `sub-` before `-s-`.
-- `super`: above (e.g. superstructure, superstring)
+- `super`: above (e.g. superstructure, superstring, supernatural, superimpose,
+  supervise, superpower, superstar, superposition, supervene)
 - `tauto`: the same (e.g. tautological)
 - `tele`: at or over a long distance (e.g. television, telephone, telegraph,
   telecast, telemeter)
