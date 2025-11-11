@@ -171,6 +171,7 @@ over and over again, and you'll be like a native.
   - Lousy
   - Poor
   - Rotten
+  - Shitty (American, Vulgar)
   - Terrible
   - Wicked (Slang, American)
 
@@ -863,6 +864,10 @@ over and over again, and you'll be like a native.
   - Posh
   - Trendy
 
+- Frankly
+  - Candidly
+  - Honestly
+
 - For
   - In order to
   - For the sake of
@@ -889,6 +894,7 @@ over and over again, and you'll be like a native.
   - Superb
   - Super-duper
   - Excellent
+  - Bougie
 
 - Great
   - Epic
@@ -956,6 +962,7 @@ over and over again, and you'll be like a native.
 
 - In fact
   - Factually
+  - de facto
 
 - Good luck
   - Best wishes
@@ -1728,3 +1735,35 @@ over and over again, and you'll be like a native.
   - Learn as you go
   - It stems from...
   - Knock on wood
+    - Don't tempt fate
+    - Don't jinx it
+    - Don't spoil it
+  - We opt for...
+  - That will be all, thank you
+  - In a short amount of time
+  - Chip in something
+  - Good job
+    - You're bougie
+  - I have no money
+    - I'm broke
+    - I'm skint
+    - I ain't got shit
+  - That's it to something today
+  - It's different from one another
+  - Off the hook a bit
+  - Set someone apart from something
+  - Get something of something
+    - Get the gist of it
+  - In no time
+    - Very quick
+    - Very soon
+  - Take something into account
+  - I need...
+    - I could use...
+  - I can't remember
+    - My mind went blank
+    - I drew a blank
+    - It slipped my mind
+    - It's on the tip of my tongue
+    - I can't recall
+
