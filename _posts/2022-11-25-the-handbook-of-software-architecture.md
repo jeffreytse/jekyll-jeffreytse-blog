@@ -144,6 +144,74 @@ Moving from monolithic applications to microservice faces several problems:
 - Distributed transaction tracing for microservices.
 - Microservice log collection and analysis.
 
+General microservice solution:
+
+- Use API Gateway to manage microservices.
+- Use service discovery to achieve service registration and discovery.
+- Use client-side load balancing to achieve microservice load balancing.
+- Use circuit breaker to achieve microservice fault tolerance.
+- Use distributed tracing to achieve distributed transaction tracing.
+- Use log collection and analysis to achieve microservice log management.
+- Use distributed configuration to achieve microservice configuration
+  management.
+- Use centralized monitoring to achieve microservice monitoring.
+- Use container technology to achieve microservice deployment and management.
+- Use DevOps to achieve microservice continuous integration and continuous
+  delivery.
+- Use service mesh to achieve microservice communication and management.
+
+General monolithic application solution:
+
+- Use modular design to achieve code modularization.
+- Use layered architecture to achieve code layering.
+  - General Layered Architecture
+    - Presentation Layer
+    - Business Layer
+    - Data Access Layer
+    - Database Layer
+  - MVC Architecture
+    - Model Layer
+    - View Layer
+    - Controller Layer
+  - MVVM Architecture
+    - Model Layer
+    - View Layer
+    - ViewModel Layer
+  - Modular-based Business Orchestration Architecture
+    - Business Layer
+      - Business Orchestration Layer
+        - Using Module Layer to orchestrate various business modules
+        - As modules have unified interfaces, the orchestration layer can easily
+          implement low-code or no-code development capabilities for business
+          via configuration files.
+      - Written by Junior Engineers
+    - Module Layer
+      - Common Module Layer
+        - Requirements:
+          - Reusable
+          - Independent
+          - Replaceable
+          - Unified interface
+        - Example Modules:
+          - Validation Module
+          - Logging Module
+          - Upload Module
+          - Notification Module
+          - ...
+      - Written by Senior Engineers
+- Use design patterns to achieve code reuse.
+- Use ORM to achieve database access abstraction.
+- Use AOP to achieve cross-cutting concerns.
+- Use DI to achieve code decoupling.
+- Use logging framework to achieve application logging.
+- Use monitoring framework to achieve application monitoring.
+- Use caching framework to achieve application caching.
+- Use security framework to achieve application security.
+- Use testing framework to achieve application testing.
+
+In software architecture, there is no best architecture, only the most suitable
+architecture. Different architectures have their own advantages and disadvantages.
+
 ## Distributed System
 
 Nowadays, it's already the norm for the ordinary PC-level servers to reach tens
@@ -218,6 +286,20 @@ Mongo DB is CP. MySQL is a CA system, but it’s not distributed.
 
 Before designing the architecture, do consider whether the business is an AP
 model or a CP model.
+
+Data Integrity is the highest pursuit of distributed systems.
+
+- It's a fundamental aspect of any reliable system, the highest priority in
+  system design
+- It means ensuring data's accuracy, consistency, and reliability throughout
+  its entire lifecycle
+- That's why it's usually harder to optimize for write-speed than read-speed,
+  as writes require more coordination to maintain integrity across distributed
+  systems, while reads can often be served from local caches
+
+Examples:
+
+- TCP/IP retransmission mechanism ensures data integrity during transmission
 
 #### ACID Theorem
 
@@ -843,6 +925,8 @@ Three Principles of Architecture Design:
 - Suitability Principle (Suitability over Completeness)
 - Simplicity Principle (Simplicity over Complexity)
 - Evolution Principle (Evolution over One-time Perfection)
+- Robustness Principle (Be Conservative in What You Do, Be Liberal in What You
+  Accept from Others)
 
 ### JIT-JEA
 
@@ -895,7 +979,6 @@ When your code discovers that something that was supposedly impossible has
 happened, your program is no longer viable, and everything it does from that
 point on becomes suspect, so terminate it as quickly as possible.
 
-
 ### Contract-Oriented Design
 
 Writing "shy code" is beneficial, shyness works in two ways:
@@ -933,7 +1016,7 @@ with unfamiliar objects.
 > Don't assume, prove. If it can't happen, use assertions to ensure it doesn't
 > happen.
 
-Assertive programming is a programming practice that uses assertions to 
+Assertive programming is a programming practice that uses assertions to
 ensure that certain conditions hold true at runtime. Assertions are used to
 check for conditions that should never happen, such as invalid input or
 application state. If an assertion fails, it indicates a bug in the code that
@@ -955,7 +1038,7 @@ all projects.
 Assertive programming helps to catch bugs early in the development process and
 that the code behaves as expected.
 
-__In addition to adding assertions, please keep them turned on__. Because your
+**In addition to adding assertions, please keep them turned on**. Because your
 first line of defense is to check for any possible errors, and your second line
 of defense is to use assertions to try to detect errors you missed. Although
 earlier assertions come with some performance cost, don't turn them off.
@@ -972,7 +1055,7 @@ function of a piece of software under unforeseen or unpredictable circumstances.
 > Put abstractions in code and details in metadata.
 
 > Postpone definition of most details until the last possible moment, and keep
-details as “soft” as possible—as easy to change as possible.
+> details as “soft” as possible—as easy to change as possible.
 
 It's also called "Metadata-oriented Design", which is a design principle that
 emphasizes the separation of configuration and code. The idea is to put
@@ -980,7 +1063,6 @@ abstractions in code and details in metadata, allowing for greater flexibility
 and maintainability. This approach allows developers to change the behavior of
 the system without modifying the code itself, making it easier to adapt to
 changing requirements and environments.
-
 
 ### IoC (Inversion of Control)
 
@@ -1143,6 +1225,107 @@ characteristics:
 - Non-orthogonal design.
 - Outdated knowledge.
 - Performance.
+
+## Software Design Goals
+
+The priority of software architecture design goals is not universal; it is a
+contextual decision based on the specific business needs, company size, and
+project requirements. Architects must prioritize trade-offs between various
+competing goals, also known as quality attributes or "non-functional requirements".
+
+The primary goals of software architecture can be broadly categorized into two
+main types:
+
+### Functional Goals
+
+This is the fundamental goal: ensuring the software meets all specified
+requirements and performs its intended functions correctly. Without
+functionality, other qualities are irrelevant.
+
+### Non-Functional Goals
+
+These define how well the system performs and operates and are crucial for the
+software's long-term success and longevity.
+
+Common non-functional goals include:
+
+- Scalability: The ability of a system to handle increased load by adding
+  resources (scaling out) or by enhancing existing resources (scaling up)
+- Maintainability: The ease with which a system can be modified to correct
+  faults, improve performance, or adapt to a changed environment
+- Reliability & Availability: The ability of a system to perform its required
+  functions under stated conditions for a specified period of time
+- Security: The protection of a system against unauthorized access, use,
+  disclosure, disruption, modification, or destruction
+- Performance & Efficiency: The responsiveness of a system, often measured in
+  terms of latency and throughput
+- Availability: The degree to which a system is operational and accessible when
+  required for use
+- Testability: The ease with which a system can be tested to ensure it meets its
+  requirements and functions correctly
+- Usability: The ease with which users can learn to operate, prepare inputs for,
+  and interpret outputs of a system
+- Flexibility & Extensibility: The ability of a system to adapt to changing
+  requirements and to be extended with new features or capabilities without
+  significant rework
+
+### Trade-offs
+
+In practice, achieving all non-functional goals simultaneously is often
+impossible due to inherent trade-offs. For example:
+
+- Scalability vs. Consistency
+  - Highly scalable systems often sacrifice strong consistency for eventual
+    consistency to achieve better performance and availability
+- Performance vs. Maintainability
+  - Highly optimized code may be harder to read and maintain, leading to
+    increased technical debt
+- Security vs. Usability
+  - Strong security measures can sometimes hinder user experience and
+    accessibility
+
+## Software Design Priority
+
+Software design priority involves ranking features/fixes by impact and urgency,
+using methods like MoSCoW (Must-have, Should-have) or Kano Model (Basic,
+Performance, Attractive) to balance business value (revenue, risk) with user
+experience, technical debt, and strategic goals (like security or scalability)
+to ensure the most critical, value-adding items get built first, often starting
+with "Must-haves" that can't ship without, while keeping long-term maintainability
+in mind.
+
+### Common Prioritization Frameworks & Factors
+
+- MoSCoW Method: Categorizes features as Must-Have (critical), Should-Have
+  (important, but can wait), Could-Have (nice-to-have), or Won't-Have (future).
+- Kano Model: Focuses on customer delight, classifying features as Basic
+  (expected), Performance (better = more satisfaction), Attractive (delightful
+  surprises), or Indifferent.
+- P0-P4 Levels: Common for bug/task tracking (P0=Critical/Stop Everything;
+  P1=High; P2=Medium; P3/P4=Low/Minor).
+- Cost-Benefit Analysis: Prioritizes tasks with high benefit-to-cost ratios,
+  ideal for limited budgets.
+
+### Key Design Priorities
+
+- Security: Must be built-in from the start, not an afterthought, to prevent
+  data loss and lawsuits.
+- User Experience: Balancing immediate user needs (functionality now) with
+  long-term usability.
+- Maintainability: Reducing complexity and technical debt for future changes,
+  though sometimes sacrificed for quick feature delivery (short-term vs. long-term).
+- Scalability & Performance: Ensuring the system can grow and handle load effectively.
+- Business Value: Driving features that meet strategic goals, generate revenue,
+  or reduce risk.
+
+### How to Decide
+
+- Define Constraints: Understand project time, budget, and scope.
+- Team Alignment: Use matrices and frameworks to get stakeholders (devs, PMs,
+  business) on the same page.
+- Context Matters: A critical bug (P0) always trumps new features, but a
+  "nice-to-have" might be prioritized over a complex, low-value "should-have"
+  if time is tight.
 
 ## References
 
