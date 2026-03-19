@@ -359,10 +359,164 @@ Related Constraints/Bottleneck:
 - The average R/W speed of HDD is 60-80MB/s.
 - ...
 
-### High-Level Design (HLD, known as General Design)
+## System Design
+
+The system design phase is the process of defining the architecture, components,
+modules, interfaces, and data for a system to satisfy specified requirements. It
+involves making high-level design decisions about the overall structure and
+organization of the system, as well as low-level design decisions about the
+specific implementation of the components and modules.
+
+### System Architecture Design
+
+System architecture design is the process of defining the overall structure and
+organization of a system, including the major components and their interactions.
+
+It consists of 3 main layers:
+
+- Conceptual Architecture (System Overview of HLD for Proposal Review)
+  - Purpose
+    - The highest level of abstraction, provides a broad overview of the system
+      and its components.
+    - Only focuses on static structure and functions of the system, in other
+      words, whether A and B are existing rather than how the data flows between
+      them
+    - Answer questions
+      - What are the major components of the system?
+      - What are the layers of the system?
+      - What are the external systems that the system interacts with?
+    - Proposal review
+  - Diagrams
+    - Layered Architecture Diagram
+    - System Context Diagram (SCD)
+    - Container Diagram
+  - Components
+    - Major system components
+    - Technology route
+  - General Content
+    - Portal
+    - Infrastructure
+    - Core components
+    - Data storage
+    - ...
+  - Stakeholders/Audience
+    - Customers
+    - CTO
+    - Product Managers
+    - Product Owners
+    - ...
+- Logical/Functional Architecture (Interaction Logic of HLD for Technical Review)
+  - Purpose
+    - The second level of abstraction, provides a more detailed view of the
+      system and its components, including their interactions and relationships.
+    - Focuses on the dynamic behaviors and interaction logic between components
+    - Answer questions
+      - How do the components interact with each other?
+      - How does the data flow between components?
+    - Technical review and evaluation
+  - Diagrams
+    - Component Diagram
+    - Data Flow Diagram (DFD)
+  - Components
+    - High cohesion and low coupling for the independence of components
+    - Divide by functions
+    - Divide by domains
+  - General Content
+    - Component relationship
+    - Scale the design (Scale problems)
+  - Stakeholders/Audience
+    - Architects
+    - Technical Leads
+    - Software Engineers
+    - ...
+- Detail Architecture (Implementation Details of LLD for Development Guidance)
+  - Purpose
+    - The lowest level of abstraction, provides a detailed view of the system
+      and its components, including their specific implementation details.
+    - Focuses on the specific implementation details of the components and modules,
+      such as interfaces, algorithms, processes, state transitions, etc.
+    - Answer questions
+      - What are the specific implementation details of the components and
+        modules?
+      - How do the components and modules interact with each other at a low
+        level?
+      - How do the components and modules handle specific scenarios and edge
+        cases?
+    - Development guidance and implementation
+  - Diagrams
+    - Class Diagram
+    - Sequence Diagram
+    - Activity Diagram
+    - State Diagram
+    - Database Schema Diagram
+    - API Design Diagram
+    - Data Model Diagram
+    - ...
+  - Components
+    - Interface
+    - Algorithm
+    - Process
+    - State transition
+    - ...
+  - General Content
+    - System API design
+    - Database schema design
+    - Class diagram design
+    - Function Call diagram design
+    - Data Dictionary design
+    - ...
+  - Stakeholders/Audience
+    - Software Engineers
+    - Software Testers
+    - ...
+
+### High-Level Design (HLD, known as General Design, Architectural Blueprint)
 
 Outline a high level architecture design, such as identifying the major system
 components, choosing appropriate technology route.
+
+#### Conceptual Design
+
+Conceptual design is the process of defining the overall structure and
+organization of a system, including the major components and their interactions.
+It is a high-level design that focuses on the overall architecture and
+organization of the system, rather than the specific details of how the
+components will be implemented.
+
+- Identify the major system components
+  - For example, for a web application, the major components could be:
+    - Frontend (Web/Mobile)
+    - Backend (API Server)
+    - Database
+    - Cache
+    - Load Balancer
+    - CDN
+    - Message Queue
+    - ...
+- Choose appropriate technology route
+  - For example, the major components could be:
+    - For the backend, we can choose to use Java Spring Boot, Python
+      Django, Node.js Express, etc.
+    - For the database, we can choose to use MySQL, PostgreSQL, MongoDB, etc.
+    - For the cache, we can choose to use Redis, Memcached, etc.
+    - For the load balancer, we can choose to use Amazon Elastic Load Balancing
+      (ELB), Nginx, etc.
+    - For the CDN, we can choose to use CloudFlare, Fastly, Amazon CloudFront,
+      etc.
+    - For the message queue, we can choose to use RabbitMQ, Kafka, etc.
+    - ...
+
+![Layered Architecture Diagram](https://i.postimg.cc/HWvr7DMW/image.png)
+
+#### Logical/Functional Design
+
+Logical design is the process of defining the dynamic behaviors and interaction
+logic between components, such as how the components interact with each other,
+how the data flows between components, etc. It is a high-level design that
+focuses on the overall architecture and organization of the system, rather than
+the specific details of how the components will be implemented.
+
+![Component Diagram](https://i.postimg.cc/TwqHHJr1/image.png)
 
 - Sketch the system architecture
   - Fundamentals
