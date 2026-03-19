@@ -1,0 +1,2133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Archives | Jeffrey Tse’s Blog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="Archives">
+<meta name="author" content="jeffreytse">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="This is a very personal blog. I don’t write blogs for anyone, but just record what I do or what I think. So there are many things wrong and you may have different thoughts. It would be nice if I share knowledge and thoughts rather than criticism. It will be great help if you give and teach your knowledge and thoughts to me.">
+<meta property="og:description" content="This is a very personal blog. I don’t write blogs for anyone, but just record what I do or what I think. So there are many things wrong and you may have different thoughts. It would be nice if I share knowledge and thoughts rather than criticism. It will be great help if you give and teach your knowledge and thoughts to me.">
+<link rel="canonical" href="https://jeffreytse.net/archives.html">
+<meta property="og:url" content="https://jeffreytse.net/archives.html">
+<meta property="og:site_name" content="Jeffrey Tse’s Blog">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Archives">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"jeffreytse"},"description":"This is a very personal blog. I don’t write blogs for anyone, but just record what I do or what I think. So there are many things wrong and you may have different thoughts. It would be nice if I share knowledge and thoughts rather than criticism. It will be great help if you give and teach your knowledge and thoughts to me.","headline":"Archives","url":"https://jeffreytse.net/archives.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="https://jeffreytse.net">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://jeffreytse.net/feed.xml" title="Jeffrey Tse's Blog">
+<!-- Google tag (gtag.js) -->
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "false" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      var measurementId = 'G-N54MN13CMZ';
+
+      (function(src) {
+        var tag = document.createElement('script');
+        tag.src = src;
+        tag.async = true;
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      })('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    }
+  }
+  window.addEventListener("load", initGoogleAnalytics);
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="Jeffrey Tse's Blog" src="/favicon.png" onerror="this.style.display='none'">
+  Jeffrey Tse's Blog
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/">HOME</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/tags.html">TAGS</a><a class="page-link" href="/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<div class="page-link" style="display: inline;">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<div class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</div>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+        document.dispatchEvent(new Event('theme-changed'));
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  <div class="page-segments">
+  <ul class="page-segments-list">
+    
+    <h2 id="2025" class="segment-name">2025</h2>
+      
+      
+        <li class="">
+<span class="post-meta">08 Nov 2025</span>
+<span>
+  <a class="post-link" href="/methodology/2025/11/08/mckinsey-7-steps-for-better-problem-solving.html">
+    McKinsey 7 Steps for Better Problem Solving<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="2024" class="segment-name">2024</h2>
+      
+      
+        <li class="">
+<span class="post-meta">09 Dec 2024</span>
+<span>
+  <a class="post-link" href="/computer/2024/12/09/understanding-the-fp64-fp32-fp16-bfloat16-tf32-fp8-formats.html">
+    Understanding the FP64, FP32, FP16, BFLOAT16, TF32, FP8 Formats<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">03 Nov 2024</span>
+<span>
+  <a class="post-link" href="/computer/2024/11/03/comprehensive-guide-to-hashing-algorithms.html">
+    Comprehensive Guide to Hashing Algorithms<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">18 Oct 2024</span>
+<span>
+  <a class="post-link" href="/computer/2024/10/18/comparative-analysis-of-model-compression-approaches.html">
+    Comparative Analysis of Model Compression Approaches<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">09 Aug 2024</span>
+<span>
+  <a class="post-link" href="/methodology/2024/08/09/the-handbook-of-quality-management.html">
+    The Handbook of Quality Management<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">15 Jul 2024</span>
+<span>
+  <a class="post-link" href="/computer/2024/07/15/understanding-console-terminal-tty-shell.html">
+    Understanding Console, Terminal, TTY, and Shell<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">17 May 2024</span>
+<span>
+  <a class="post-link" href="/computer/2024/05/17/naming-conventions-in-software-development.html">
+    Naming Conventions in Software Development<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">15 Apr 2024</span>
+<span>
+  <a class="post-link" href="/computer/2024/04/15/tcp-ip-protocol-key-essentials.html">
+    TCP/IP Protocol Key Essentials<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">22 Mar 2024</span>
+<span>
+  <a class="post-link" href="/computer/2024/03/22/how-to-choose-uuid.html">
+    How to choose UUID<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">23 Feb 2024</span>
+<span>
+  <a class="post-link" href="/misc/2024/02/23/taylor-swift-npr-music-tiny-desk-concert-2019.html">
+    Taylor Swift - NPR Music Tiny Desk Concert (2019)<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="2023" class="segment-name">2023</h2>
+      
+      
+        <li class="">
+<span class="post-meta">15 Jun 2023</span>
+<span>
+  <a class="post-link" href="/methodology/2023/06/15/the-frameworks-of-effective-product-design-sense.html">
+    The Frameworks of Effective Product Design Sense<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">06 Jun 2023</span>
+<span>
+  <a class="post-link" href="/misc/2023/06/06/steve-jobs-2005-stanford-commencement-speech.html">
+    Steve Jobs' 2005 Stanford Commencement Speech<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">27 May 2023</span>
+<span>
+  <a class="post-link" href="/methodology/2023/05/27/the-handbook-of-effective-business-email.html">
+    The Handbook of Effective Business Email<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">19 May 2023</span>
+<span>
+  <a class="post-link" href="/methodology/2023/05/19/the-handbook-of-effective-business-communication.html">
+    The Handbook of Effective Business Communication<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">17 May 2023</span>
+<span>
+  <a class="post-link" href="/methodology/2023/05/17/the-handbook-of-effective-presentations.html">
+    The Handbook of Effective Presentations<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">14 May 2023</span>
+<span>
+  <a class="post-link" href="/methodology/2023/05/14/the-handbook-of-effective-leadership.html">
+    The Handbook of Effective Leadership<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">02 May 2023</span>
+<span>
+  <a class="post-link" href="/linguistics/2023/05/02/the-summary-of-linking-words-in-english.html">
+    The Summary of Linking Words in English<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">01 Apr 2023</span>
+<span>
+  <a class="post-link" href="/mathematics/2023/04/01/the-handbook-of-game-theory.html">
+    The Handbook of Game Theory<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">07 Feb 2023</span>
+<span>
+  <a class="post-link" href="/music/2023/02/07/bi-sha-ji-of-my-piano-journey.html">
+    《必杀技》钢琴即兴 My Piano Journey<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">14 Jan 2023</span>
+<span>
+  <a class="post-link" href="/methodology/2023/01/14/how-to-use-the-orid-framework.html">
+    How to Use the ORID Framework<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="2022" class="segment-name">2022</h2>
+      
+      
+        <li class="">
+<span class="post-meta">26 Dec 2022</span>
+<span>
+  <a class="post-link" href="/computer/2022/12/26/the-handbook-of-different-authentications-for-security.html">
+    The Handbook of Different Authentications for Security<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">13 Dec 2022</span>
+<span>
+  <a class="post-link" href="/computer/2022/12/13/the-handbook-of-system-design.html">
+    The Handbook of System Design<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">25 Nov 2022</span>
+<span>
+  <a class="post-link" href="/computer/2022/11/25/the-handbook-of-software-architecture.html">
+    The Handbook of Software Architecture<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">24 Nov 2022</span>
+<span>
+  <a class="post-link" href="/photography/2022/11/24/the-handbook-of-photography.html">
+    The Handbook of Photography<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">29 Oct 2022</span>
+<span>
+  <a class="post-link" href="/linguistics/methodology/2022/10/29/the-handbook-of-speech-and-expression.html">
+    The Handbook of Speech and Expression<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">23 Oct 2022</span>
+<span>
+  <a class="post-link" href="/computer/2022/10/23/the-handbook-of-cloud-computing.html">
+    The Handbook of Cloud Computing<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">11 Oct 2022</span>
+<span>
+  <a class="post-link" href="/computer/2022/10/11/software-project-management-methodologies.html">
+    Software Project Management Methodologies<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">23 Aug 2022</span>
+<span>
+  <a class="post-link" href="/computer/2022/08/23/java-annotations-cheat-sheet.html">
+    Java Annotations Cheat Sheet<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">01 Jun 2022</span>
+<span>
+  <a class="post-link" href="/methodology/2022/06/01/ten-second-for-effective-communication-with-prep.html">
+    Ten-second for effective communication with PREP<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">01 Jun 2022</span>
+<span>
+  <a class="post-link" href="/methodology/2022/06/01/ogsm-framework-for-effective-solving-issues.html">
+    OGSM framework for effective solving issues<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">01 Mar 2022</span>
+<span>
+  <a class="post-link" href="/computer/2022/03/01/how-to-change-startup-programs-manually-in-macos.html">
+    How to change startup programs manually in macOS<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">27 Feb 2022</span>
+<span>
+  <a class="post-link" href="/computer/2022/02/27/how-to-interview-a-developer.html">
+    How to interview a developer<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="2021" class="segment-name">2021</h2>
+      
+      
+        <li class="">
+<span class="post-meta">20 Nov 2021</span>
+<span>
+  <a class="post-link" href="/computer/2021/11/20/the-handbook-of-algorithm.html">
+    The Handbook of Algorithm<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">10 Nov 2021</span>
+<span>
+  <a class="post-link" href="/computer/2021/11/10/the-handbook-of-redis.html">
+    The handbook of Redis<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">31 Oct 2021</span>
+<span>
+  <a class="post-link" href="/computer/2021/10/31/the-keyboard-shortcuts-in-windows.html">
+    The keyboard shortcuts in Windows<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">30 Oct 2021</span>
+<span>
+  <a class="post-link" href="/computer/2021/10/30/the-handbook-of-windows-batch.html">
+    The handbook of Windows Batch<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">16 Sep 2021</span>
+<span>
+  <a class="post-link" href="/computer/2021/09/16/the-handbook-of-UML.html">
+    The handbook of UML<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">07 Sep 2021</span>
+<span>
+  <a class="post-link" href="/linguistics/2021/09/07/the-common-idiomatic-expressions-in-english.html">
+    The Common Idiomatic Expressions in English<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">20 Aug 2021</span>
+<span>
+  <a class="post-link" href="/computer/2021/08/20/emacs-cheat-sheet.html">
+    Emacs Cheat Sheet<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">11 Jul 2021</span>
+<span>
+  <a class="post-link" href="/linguistics/2021/07/11/the-differences-between-american-and-british-english.html">
+    The differences between American and British English<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="top-post">
+<span class="post-meta">23 Jun 2021</span>
+<span>
+  <a class="post-link" href="/methodology/2021/06/23/learn-better-with-the-feynman-technique.html">
+    Learn better with the Feynman Technique<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">17 Jun 2021</span>
+<span>
+  <a class="post-link" href="/computer/2021/06/17/restart-ssh-sessions-and-tunnels-automatically.html">
+    Restart SSH Sessions and Tunnels Automatically<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">16 Jun 2021</span>
+<span>
+  <a class="post-link" href="/computer/2021/06/16/my-database-theory-handbook.html">
+    My Database Theory Handbook<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">12 Jun 2021</span>
+<span>
+  <a class="post-link" href="/computer/2021/06/12/accessing-an-smb-share-with-linux-machines.html">
+    Accessing an SMB Share with Linux Machines<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">09 Jun 2021</span>
+<span>
+  <a class="post-link" href="/computer/2021/06/09/how-to-mount-remote-linux-system.html">
+    How to Mount Remote Linux Filesystem<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">05 Jun 2021</span>
+<span>
+  <a class="post-link" href="/music/2021/06/05/my-music-theory-handbook.html">
+    My Music Theory Handbook<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">30 May 2021</span>
+<span>
+  <a class="post-link" href="/computer/2021/05/30/the-handbook-of-git-workflows.html">
+    The Handbook of Git Workflows<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">15 May 2021</span>
+<span>
+  <a class="post-link" href="/photography/2021/05/15/light-and-shadow-of-flowers.html">
+    Light and Shadow of Flowers<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">09 May 2021</span>
+<span>
+  <a class="post-link" href="/finance/2021/05/09/rich-dads-conspiracy-of-the-rich.html">
+    Rich Dad's Conspiracy of the Rich: The 8 New Rules of Money<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">09 Apr 2021</span>
+<span>
+  <a class="post-link" href="/linguistics/2021/04/09/the-alternative-expressions-in-english.html">
+    The alternative expressions in English<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">08 Apr 2021</span>
+<span>
+  <a class="post-link" href="/linguistics/2021/04/08/the-reductions-and-contractions-in-english.html">
+    The reductions and contractions in English<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">08 Feb 2021</span>
+<span>
+  <a class="post-link" href="/linguistics/2021/02/08/the-morphology-of-english-words.html">
+    The Morphology of English Words<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="2020" class="segment-name">2020</h2>
+      
+      
+        <li class="">
+<span class="post-meta">09 Dec 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/12/09/understanding-of-shell-initialization-process.html">
+    Understanding of Shell initialization process<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">08 Dec 2020</span>
+<span>
+  <a class="post-link" href="/photography/2020/12/08/how-to-choose-a-digital-camera-quantitatively.html">
+    How to choose a digital camera quantitatively<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">19 Nov 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/11/19/how-to-use-fcitx5-elegantly-on-arch-linux.html">
+    How to use fcitx5 elegantly on Arch Linux<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">19 Nov 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/11/19/how-to-configure-ip-on-ubuntu.html">
+    How to configure IP on Ubuntu<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">06 Nov 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/11/06/fix-error-rc2104-undefined-keyword-or-keyname.html">
+    Fix error RC2104 undefined keyword or keyname<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">22 Oct 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/10/22/why-the-echo-command-has-no-help-option.html">
+    Why the echo command has no help option?<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">21 Oct 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/10/21/terminal-partial-line-prompt-feature.html">
+    Terminal partial line prompt feature<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">20 Oct 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/10/20/linux-config-files-table.html">
+    Linux config files table<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">19 Oct 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/10/19/fix-warning-setlocale-cannot-change-locale.html">
+    Fix warning setlocale cannot change locale<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">15 Oct 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/10/15/fix-error-about-non-empty-sec-websocket-protocol-header.html">
+    Fix error about non-empty Sec-WebSocket-Protocol header<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">14 Oct 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/10/14/how-to-use-netcat-command.html">
+    How to use netcat command<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">09 Oct 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/10/09/the-handbook-of-programming-languages.html">
+    The Handbook of Programming Languages<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">07 Oct 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/10/07/fix-errors-occurred-no-packages-were-upgraded-in-arch-linux.html">
+    Fix errors occurred no packages were upgraded in Arch Linux<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">05 Oct 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/10/05/fix-invalid-or-corrupted-package-in-arch-linux.html">
+    Fix invalid or corrupted package in Arch Linux<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">29 Sep 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/09/29/email-server-ports-table.html">
+    Email Server Ports Table<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">25 Sep 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/09/25/how-to-build-your-own-email-server.html">
+    How to build your own email server<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">23 Sep 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/09/23/ssh-connection-was-closed-weirdly.html">
+    SSH connection was closed weirdly<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">26 Aug 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/08/26/hash-algorithms.html">
+    Hash Algorithms<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">18 Aug 2020</span>
+<span>
+  <a class="post-link" href="/computer/2020/08/18/miscellaneous-of-openssl.html">
+    Miscellaneous of OpenSSL<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">17 Aug 2020</span>
+<span>
+  <a class="post-link" href="/misc/2020/08/17/understanding-of-abstract-and-concrete.html">
+    Understanding of abstract and concrete<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">01 Jan 2020</span>
+<span>
+  <a class="post-link" href="/linguistics/2020/01/01/english-phrase-patterns.html">
+    English Phrase Patterns<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="2019" class="segment-name">2019</h2>
+      
+      
+        <li class="">
+<span class="post-meta">02 Sep 2019</span>
+<span>
+  <a class="post-link" href="/linguistics/2019/09/02/english-vowels-table.html">
+    English Vowels Table<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">02 Sep 2019</span>
+<span>
+  <a class="post-link" href="/linguistics/2019/09/02/english-consonants-table.html">
+    English Consonants Table<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="2018" class="segment-name">2018</h2>
+      
+      
+        <li class="">
+<span class="post-meta">13 Dec 2018</span>
+<span>
+  <a class="post-link" href="/computer/2018/12/13/list-of-symbols-and-names.html">
+    List of symbols and names<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">31 Oct 2018</span>
+<span>
+  <a class="post-link" href="/linguistics/2018/10/31/internet-slang-in-english.html">
+    Internet slang in English<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">19 Jun 2018</span>
+<span>
+  <a class="post-link" href="/music/2018/06/19/the-handbook-of-singing.html">
+    The Handbook of Singing<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="2017" class="segment-name">2017</h2>
+      
+      
+        <li class="">
+<span class="post-meta">04 Jul 2017</span>
+<span>
+  <a class="post-link" href="/computer/2017/07/04/learn-vim-better-like-a-wise-man.html">
+    Learn Vim Better Like a Wise Man<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="2016" class="segment-name">2016</h2>
+      
+      
+        <li class="">
+<span class="post-meta">12 Oct 2016</span>
+<span>
+  <a class="post-link" href="/computer/2016/10/12/bash-shortcuts-table.html">
+    Bash Shortcuts Table<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="2008" class="segment-name">2008</h2>
+      
+      
+        <li class="">
+<span class="post-meta">01 Jan 2008</span>
+<span>
+  <a class="post-link" href="/computer/2008/01/01/welcome-to-jekyll.html">
+    Welcome to Jekyll!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+  </ul>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="common-list">
+  <ul>
+    <li>
+      <a href="/index.html">
+        All<span>81</span>
+      </a>
+    </li>
+
+    
+      <li>
+        <a href="/archives.html#h-2008">
+          2008 <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/archives.html#h-2016">
+          2016 <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/archives.html#h-2017">
+          2017 <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/archives.html#h-2018">
+          2018 <span>3</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/archives.html#h-2019">
+          2019 <span>2</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/archives.html#h-2020">
+          2020 <span>21</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/archives.html#h-2021">
+          2021 <span>20</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/archives.html#h-2022">
+          2022 <span>12</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/archives.html#h-2023">
+          2023 <span>10</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/archives.html#h-2024">
+          2024 <span>9</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/archives.html#h-2025">
+          2025 <span>1</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Copyright © 2008-2020</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
