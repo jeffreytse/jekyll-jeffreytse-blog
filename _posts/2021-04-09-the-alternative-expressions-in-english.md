@@ -62,6 +62,7 @@ over and over again, and you'll be like a native.
   - I got a lot on my plate
   - I have a hectic schedule
   - I have my hands full
+  - I'm flat out
   - I'm tied up right now
   - I'm swamped
   - I'm snowed under
@@ -93,16 +94,22 @@ over and over again, and you'll be like a native.
   - Fair enough (British style)
 
 - You're (very) welcome
-  - No problem
+  - No problem (at all)
   - No worries
   - No big deal
   - My pleasure
   - Anytime
   - Don't mention it
   - You shouldn't have
+  - You got it
   - It's nothing
   - It's the least I could do
   - That's ok
+  - Happy to help / Happy to assist
+  - Glad I could help
+  - I'm glad that it all worked out
+  - Sure thing
+  - Mm-hmm (Informal)
 
 - About
   - As to
@@ -259,6 +266,10 @@ over and over again, and you'll be like a native.
 
 - Excuse
   - Pretext
+
+- Finish
+  - Complete
+  - Wrap up
 
 - Funny
   - Hilarious
@@ -601,7 +612,9 @@ over and over again, and you'll be like a native.
   - It popped into my head
 
 - I think
+  - As far as I'm concerned, ...
   - As far as I see, ...
+  - As for me, ...
   - From my perspective, ...
   - From my point of view, ...
   - In my book, ... (Emphasize personal belief or judgment)
@@ -615,11 +628,15 @@ over and over again, and you'll be like a native.
   - I feel, ...
   - I feel like ...
   - I guess, ...
+  - I hold the view that ...
   - I reckon, ...
   - I take into account, ...
+  - I'm firmly convinced that ...
+  - It can be said with certainty that ...
   - My take is ...
     - My take on this is ...
     - My take or my take on this, ...
+  - To my mind, ...
 
 - I think I'd better do something
   - I figure I'd better do something
@@ -1306,6 +1323,7 @@ over and over again, and you'll be like a native.
   - Utilize
 
 - Very
+  - Bloody (British)
   - Extremely
   - Enormously
   - Fairly
@@ -1726,6 +1744,7 @@ over and over again, and you'll be like a native.
     - You checked him
   - From the beginning
     - From the get-go
+    - in the first place
   - Beat someone up
     - To blame or criticize yourself
   - Take baby steps
@@ -1766,4 +1785,17 @@ over and over again, and you'll be like a native.
     - It slipped my mind
     - It's on the tip of my tongue
     - I can't recall
+  - Sow discord between...
+  - Peace out
+  - It's all good
+  - I'll be right back
+  - It's not my thing
+  - For now
+    - For the time being
+  - I second you
+  - Call it quits
+  - Thanks a lot
+    - Thanks a bunch
+    - Thanks a million
+    - Thanks a ton
 
