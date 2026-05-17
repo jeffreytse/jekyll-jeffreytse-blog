@@ -257,6 +257,10 @@ Stages in Agile SDLC:
 
 ![Stages in Agile SDLC](https://i.postimg.cc/NFxQq43B/image.png)
 
+5 Layers of Agile Planning Onion:
+
+![5 Layers of Agile Planning Onion](https://i.postimg.cc/dtzhK5DH/image.png)
+
 Waterfall vs Agile:
 
 ![Waterfall vs Agile](https://i.postimg.cc/brb0gGS7/image.png)
