@@ -62,12 +62,12 @@ Here is some common algorithm complexities:
 
 Common estimates of the time complexity of an algorithm are:
 
-- __Simple loop:__ O(n) such as finding the maximum value of an array
-- __Nested loop:__ O(m*n) or O(n²), such as bubble sort
-- __Binary search:__ O(lg(n)), such as binary search, traversing a binary tree
-- __Divide and conquer:__ O(nlg(n)), algorithms that divide their input and process
+- **Simple loop:** O(n) such as finding the maximum value of an array
+- **Nested loop:** O(m\*n) or O(n²), such as bubble sort
+- **Binary search:** O(lg(n)), such as binary search, traversing a binary tree
+- **Divide and conquer:** O(nlg(n)), algorithms that divide their input and process
   it independently on two parts and then combine the results, such as quick sort
-- __Combinations: O(Cⁿ)__, as long as the algorithm considers the arrangement of
+- **Combinations: O(Cⁿ)**, as long as the algorithm considers the arrangement of
   things, its running time may get out of control, because the arrangement
   involves factorials, such as the traveling salesman problem
 
@@ -170,6 +170,9 @@ algorithm strategy has its own design ideas and problem-solving steps.
     - The sub-problem can be divided to different states
     - Helps to avoid so many nested if-else statements in your code and make the
       code much simpler
+    - DFA (Deterministic Finite Automaton) and NFA (Nondeterministic Finite Automaton)
+      are two types of FSM, DFA has only one possible next state for each input
+      while NFA can have multiple possible next states for each input
   - Steps
     - Draw the finite state machine diagram
       - Identify all types of input data
@@ -184,9 +187,7 @@ We should understand `Strategy != Algorithm`, algorithms are just means of
 implementing strategies. Recursion is an implementation of the algorithm
 strategies.
 
-
 ## References
 
 - [Algorithm Analysis](https://runestone.academy/runestone/books/published/pythonds3/AlgorithmAnalysis/toctree.html)
 - [Know Thy Complexities!](https://www.bigocheatsheet.com/)
-
