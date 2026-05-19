@@ -60,7 +60,7 @@ Latin, French, Germanic.
 - Japanese: sensei (Chinese, 先生)，senpai(Chinese, 先辈)
 - Chinese: tofu (Chinese, 豆腐), ketchup (Hokkien, 鲑汁),
   kowtow (Cantonese, 叩头), lychee (Cantonese, 荔枝), tea (Hokkien, 茶), cha (茶),
-  typhoon (台风), mandarin (满大人), wok (锅), wonton (云吞),
+  typhoon (台风 = 大风粤语), mandarin (满大人), wok (锅), wonton (云吞),
   monsoon (Cantonese 满水, 季风), chop chop (Cantonese, 速速),
   China (秦 or 晋 = 中国), Cathay (契丹 = 中国),
   Confucius (孔夫子), Taoism (道教), Buddhism (佛教), kung fu (功夫),
@@ -1137,7 +1137,8 @@ Roman scripts. It’s quite interesting to learn how each letter was formed.
   - Modern Latin combining form of Greek `kephalē`
 - `cata`: down; completely (e.g. catastrophe, catalyst, catalog, cataclysm)
 - `cath`: the same as `cath` (e.g. cathode)
-- `circum`: around, round about, all around, on all sides (e.g. circumstance)
+- `circum`: around, round about, all around, on all sides (e.g. circumstance,
+    circumvent, circumrotate, circumspect, circumfere, circumlocute)
   - From Latin adverb and preposition circum "around, round about," literally
     "in a circle," probably accusative form of circus "ring" (see circus).
 - `co`: the same as `com` (e.g. costar, cognate, cooperate, coexist, coeducation)
