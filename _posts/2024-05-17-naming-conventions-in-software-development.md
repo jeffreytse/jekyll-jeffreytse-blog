@@ -3,7 +3,7 @@ layout: post
 title: Naming Conventions in Software Development
 subtitle: A comprehensive guide to naming conventions
 banner:
-  image: https://www.activecampaign.com/wp-content/uploads/2024/01/Salesforce-Announcement_v3-1.png
+  image: https://i.postimg.cc/MK1P2Qc3/image.png
   opacity: 0.8
 author: Jeffrey Tse
 categories: computer
