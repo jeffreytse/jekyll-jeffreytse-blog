@@ -2,6 +2,9 @@
 layout: post
 title: Comprehensive Guide to Hashing Algorithms
 subtitle: A systematic overview of hashing algorithms, their properties, and applications
+banner:
+  image: https://i.postimg.cc/fbCy6JKg/image.png
+  opacity: 0.7
 author: Jeffrey Tse
 categories: computer
 tags:
@@ -30,8 +33,6 @@ properties, and use cases, drawing insights from authoritative sources.
     blockchain (e.g., Bitcoin).
   - **SHA-3**: Sponge construction design, superior security to SHA-2 but less
     widely adopted.
-
----
 
 ## 2. Cryptographically Secure Hashing Algorithms
 
@@ -87,7 +88,26 @@ properties, and use cases, drawing insights from authoritative sources.
 | Localized systems (China)              | SM3                                  | Compliant with national cryptographic standards. |
 | Non-security scenarios (e.g., caching) | MurmurHash, CRC32                    | Prioritize performance over security.            |
 
-## **Summary**
+## 6. Future Trends
+
+- **Post-Quantum Hashing**: Research into quantum-resistant algorithms (e.g.,
+  SHA-3 variants) is ongoing to prepare for future threats.
+- **Adaptive KDFs**: Dynamic parameter tuning based on hardware capabilities and
+  threat models is an emerging area of interest.
+- **Integration with Multi-Factor Authentication**: Combining hashing with
+  biometric and hardware-based factors for enhanced security.
+- **Standardization Efforts**: Continued efforts to standardize secure hashing
+  practices across industries and regulatory bodies.
+- **Performance Optimization**: Ongoing research into optimizing hashing algorithms
+  for specific hardware architectures (e.g., ARM, RISC-V) to balance security
+  and efficiency.
+- **Hybrid Approaches**: Combining multiple hashing techniques (e.g., BLAKE2
+  with Argon2) for layered security in high-risk applications.
+- **Education and Awareness**: Increasing emphasis on educating developers and
+  organizations about the importance of using secure hashing algorithms and
+  proper implementation practices to mitigate risks.
+
+## Summary
 
 - **Deprecated Algorithms**: MD5 and SHA-1 are obsolete for security-critical
   tasks; migrate to SHA-2/SHA-3 or KDFs.
