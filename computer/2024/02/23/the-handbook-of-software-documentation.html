@@ -1,0 +1,1992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>The Handbook of Software Engineering Documentation | Jeffrey Tse’s Blog</title>
+<meta name="generator" content="Jekyll v4.3.4">
+<meta property="og:title" content="The Handbook of Software Engineering Documentation">
+<meta name="author" content="Jeffrey Tse">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="When it comes to software development, documentation is often overlooked but is crucial for the success of any project. Here is the ultimate master guide to the alphabet soup of product and engineering documentation. Think of these documents as a waterfall (or a funnel) that starts at 30,000 feet (Business) and ends in the trenches (Code). Each document hands off a more refined set of instructions to the next team in line.">
+<meta name="twitter:description" property="og:description" content="When it comes to software development, documentation is often overlooked but is crucial for the success of any project. Here is the ultimate master guide to the alphabet soup of product and engineering documentation. Think of these documents as a waterfall (or a funnel) that starts at 30,000 feet (Business) and ends in the trenches (Code). Each document hands off a more refined set of instructions to the next team in line.">
+<link rel="canonical" href="https://jeffreytse.net/computer/2024/02/23/the-handbook-of-software-documentation.html">
+<meta property="og:url" content="https://jeffreytse.net/computer/2024/02/23/the-handbook-of-software-documentation.html">
+<meta property="og:site_name" content="Jeffrey Tse’s Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-02-23T00:00:00+00:00">
+<meta property="article:modified_time" content="2024-02-23T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="The Handbook of Software Engineering Documentation">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeffrey Tse"},"dateModified":"2024-02-23T00:00:00+00:00","datePublished":"2024-02-23T00:00:00+00:00","description":"When it comes to software development, documentation is often overlooked but is crucial for the success of any project. Here is the ultimate master guide to the alphabet soup of product and engineering documentation. Think of these documents as a waterfall (or a funnel) that starts at 30,000 feet (Business) and ends in the trenches (Code). Each document hands off a more refined set of instructions to the next team in line.","headline":"The Handbook of Software Engineering Documentation","mainEntityOfPage":{"@type":"WebPage","@id":"https://jeffreytse.net/computer/2024/02/23/the-handbook-of-software-documentation.html"},"url":"https://jeffreytse.net/computer/2024/02/23/the-handbook-of-software-documentation.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="https://jeffreytse.net">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://jeffreytse.net/feed.xml" title="Jeffrey Tse's Blog">
+<!-- Google tag (gtag.js) -->
+<script>
+  function initGoogleAnalytics() {
+    var doNotTrack = (window.doNotTrack === "1" || navigator.doNotTrack === "1" ||
+      navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1");
+    var enableDNT = "false" == "true";
+
+    if (!enableDNT || !doNotTrack) {
+      var measurementId = 'G-N54MN13CMZ';
+
+      (function(src) {
+        var tag = document.createElement('script');
+        tag.src = src;
+        tag.async = true;
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      })('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId);
+    }
+  }
+  window.addEventListener("load", initGoogleAnalytics);
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="Jeffrey Tse's Blog" src="/favicon.png" onerror="this.style.display='none'">
+  Jeffrey Tse's Blog
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/">HOME</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/tags.html">TAGS</a><a class="page-link" href="/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<div class="page-link" style="display: inline;">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<div class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</div>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    html .page-banner .page-banner-img > *:first-child {
+      opacity: 0.6;
+    }
+
+    html[data-theme="dark"] .page-banner .page-banner-img > *:first-child {
+      opacity: 0.4308;
+    }
+  </style>
+<section class="page-banner">
+    <div class="page-banner-img">
+<div style="background-image: url(https://i.postimg.cc/8k78Y0zF/image.png)"></div>
+        <img class="img-placeholder" src="https://i.postimg.cc/8k78Y0zF/image.png">
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner">
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">The Handbook of Software Engineering Documentation</h1>
+  <h2 class="post-subtitle">The ultimate master guide to the alphabet soup of product and engineering documentation.</h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2024-02-23T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 23 Feb 2024
+    </time><span class="post-author left-vsplit"><i class="fa fa-pencil"></i> Jeffrey Tse</span>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 22 mins</span>
+  </div>
+<div class="post-tags">
+<a class="post-tag" href="/tags.html#software">#software</a><a class="post-tag" href="/tags.html#documentation">#documentation</a><a class="post-tag" href="/tags.html#note">#note</a>
+</div></header>
+</div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+        document.dispatchEvent(new Event('theme-changed'));
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>When it comes to software development, documentation is often overlooked but is
+crucial for the success of any project. Here is the ultimate master guide to the
+alphabet soup of product and engineering documentation. Think of these documents
+as a waterfall (or a funnel) that starts at <strong>30,000 feet (Business)</strong> and ends
+in the <strong>trenches (Code)</strong>. Each document hands off a more refined set of
+instructions to the next team in line.</p>
+
+<hr>
+
+<h2 id="software-documentation-types">Software Documentation Types</h2>
+
+<p>In the world of software development, there are several key documents that teams
+use to communicate requirements, design, and implementation details. Each
+document serves a specific purpose and is targeted at different audiences.</p>
+
+<p>Here’s a breakdown of the most common types:</p>
+
+<h3 id="mrd">MRD</h3>
+
+<ul>
+  <li>
+<strong>Full Name:</strong> Market Requirements Document</li>
+  <li>
+<strong>What It is:</strong> A document that captures the market needs, customer pain
+points, and competitive landscape. It is often created before the BRD to justify
+the business case.</li>
+  <li>
+<strong>Scope:</strong> Focuses on the “market” and customer insights, not the business
+goals or technical details.</li>
+  <li>
+<strong>The Core Question It Answers:</strong> <strong>What market problem</strong> are we solving?</li>
+  <li>
+<strong>Who Writes It:</strong> Market Research Analyst / Product Manager</li>
+  <li>
+<strong>Who Reads It:</strong> Executives, Product Managers, Marketing Teams</li>
+  <li>
+<strong>What it Contains:</strong> Market analysis, customer personas, competitive
+analysis, and high-level product opportunities.</li>
+  <li>
+<strong>Example:</strong> “Our research shows that 60% of small businesses struggle with
+inventory management, and our product will target this pain point.”</li>
+</ul>
+
+<h3 id="brd">BRD</h3>
+
+<ul>
+  <li>
+<strong>Full Name:</strong> Business Requirements Document</li>
+  <li>
+<strong>What It is:</strong> A high-level document that captures the business goals and
+objectives behind a project or feature.</li>
+  <li>
+<strong>Scope:</strong> Focuses on the “why” and the business value, not the technical
+details.</li>
+  <li>
+<strong>The Core Question It Answers:</strong> <strong>Why</strong> are we doing this?</li>
+  <li>
+<strong>Who Writes It:</strong> Business Analyst / Stakeholder</li>
+  <li>
+<strong>Who Reads It:</strong> Executives, Product Managers</li>
+  <li>
+<strong>What it Contains:</strong> Business goals, ROI, market problems, success metrics.</li>
+  <li>
+<strong>Example:</strong> “We need to increase user retention by 15% and capture the
+European market.”</li>
+</ul>
+
+<h3 id="prd">PRD</h3>
+
+<ul>
+  <li>
+<strong>Full Name:</strong> Product Requirements Document</li>
+  <li>
+<strong>What It is:</strong> A document that translates the business goals from the BRD into
+specific features and user stories that the product team will build.</li>
+  <li>
+<strong>Scope:</strong> Focuses on the “what” from the user’s perspective, not the “how.”</li>
+  <li>
+<strong>The Core Question It Answers:</strong> <strong>What</strong> are we building for the end user?</li>
+  <li>
+<strong>Who Writes It:</strong> Product Manager (PM)</li>
+  <li>
+<strong>Who Reads It:</strong> Designers, Tech Leads, Developers</li>
+  <li>
+<strong>What it Contains:</strong> User personas, features, user stories, high-level UX.</li>
+  <li>
+<strong>Example:</strong> “As a user, I want to log in using my Google account.”</li>
+</ul>
+
+<h3 id="frd">FRD</h3>
+
+<ul>
+  <li>
+<strong>Full Name:</strong> Functional Requirements Document</li>
+  <li>
+<strong>What It is:</strong> A detailed document that specifies the exact behavior of each
+feature from a functional perspective.</li>
+  <li>
+<strong>Scope:</strong> Focuses on the logic and user flows of specific features.</li>
+  <li>
+<strong>The Core Question It Answers:</strong> <strong>How</strong> should the feature behave dynamically?</li>
+  <li>
+<strong>Who Writes It:</strong> PM / Business Analyst</li>
+  <li>
+<strong>Who Reads It:</strong> Developers, QA Engineers</li>
+  <li>
+<strong>What it Contains:</strong> Logic, step-by-step system responses, user flows.</li>
+  <li>
+<strong>Example:</strong> “If the user inputs an invalid password 3 times, lock the account
+for 10 minutes.”</li>
+</ul>
+
+<h3 id="syrd">SyRD</h3>
+
+<ul>
+  <li>
+<strong>Full Name:</strong> System Requirements Document</li>
+  <li>
+<strong>What It is:</strong> A top-level document that translates broad stakeholder
+business goals into technical requirements allocated across the whole system.</li>
+  <li>
+<strong>Scope:</strong> Focuses on the entire system environment, including hardware,
+software, and infrastructure requirements.</li>
+  <li>
+<strong>The Core Question It Answers:</strong> <strong>What environment</strong> does it need?</li>
+  <li>
+<strong>Who Writes It:</strong> Hardware/Systems Engineer</li>
+  <li>
+<strong>Who Reads It:</strong> Systems Engineers, Hardware Engineers, DevOps</li>
+  <li>
+<strong>What it Contains:</strong> Hardware, software, and infrastructure requirements.</li>
+  <li>
+<strong>Example:</strong> “The software must run on Ubuntu 22.04 with minimum 8GB RAM.”</li>
+</ul>
+
+<h3 id="srs-or-srd">SRS or SRD</h3>
+
+<ul>
+  <li>
+<strong>Full Name:</strong> Software Requirements Specification/Document</li>
+  <li>
+<strong>What It is:</strong> A detailed document that specifies the software-specific
+requirements, including technical constraints, performance metrics, and
+security requirements.</li>
+  <li>
+<strong>Scope:</strong> Derived directly from the SyRS, this document zooms in entirely on
+the software product (Only the software, not the hardware or infrastructure).</li>
+  <li>
+<strong>The Core Question It Answers:</strong> <strong>What constraints</strong> must the software meet?</li>
+  <li>
+<strong>Who Writes It:</strong> Technical Lead / Architect</li>
+  <li>
+<strong>Who Reads It:</strong> Developers, QA</li>
+  <li>
+<strong>What it Contains:</strong> Technical specs, APIs, security, scale constraints.</li>
+  <li>
+<strong>Example:</strong> “The system must handle 5,000 concurrent users and have a response
+time under 200ms.”</li>
+</ul>
+
+<h3 id="sdd">SDD</h3>
+
+<ul>
+  <li>
+<strong>Full Name:</strong> Software Design Document</li>
+  <li>
+<strong>What It is:</strong> A detailed blueprint that translates the requirements from the
+SRS into a concrete architecture and design plan for developers to follow.</li>
+  <li>
+<strong>Scope:</strong> The actual engineering blueprint for how the software will be built.</li>
+  <li>
+<strong>The Core Question It Answers:</strong> <strong>How</strong> will we code and architect it?</li>
+  <li>
+<strong>Who Writes It:</strong> Software Architect</li>
+  <li>
+<strong>Who Reads It:</strong> Tech Leads, Senior Developers</li>
+  <li>
+<strong>What it Contains:</strong> High-level system architecture diagrams, microservices
+boundaries, database choices.</li>
+  <li>
+<strong>Example:</strong> “We will deploy a lightweight Python object-detection model on the
+cart’s Edge computer. The backend will use a Node.js microservice architecture
+hosted on AWS. Here is the PostgreSQL database schema for the cart state…”</li>
+</ul>
+
+<h3 id="tsd">TSD</h3>
+
+<ul>
+  <li>
+<strong>Full Name:</strong> Technical Specification Document</li>
+  <li>
+<strong>What It is:</strong> A more modern, often less formal document that serves the same
+purpose as the SDD. It is a living document that evolves with the project.</li>
+  <li>
+<strong>Scope:</strong> Similar to SDD, but often more focused on the technical implementation
+details rather than high-level design.</li>
+  <li>
+<strong>The Core Question It Answers:</strong> <strong>How</strong> do we write the actual code?</li>
+  <li>
+<strong>Who Writes It:</strong> Tech Leads / Senior Developer</li>
+  <li>
+<strong>Who Reads It:</strong> Developers</li>
+  <li>
+<strong>What it Contains:</strong> Detailed technical instructions, class diagrams,
+database schemas, API endpoints, error-handling logic.</li>
+  <li>
+<strong>Example:</strong> Class diagrams, database schemas, API endpoints, error-handling
+logic.</li>
+</ul>
+
+<h3 id="the-document-hierarchy">The Document Hierarchy</h3>
+
+<p>From a high-level perspective, these documents can be visualized as a hierarchy
+that flows from the business goals down to the technical implementation:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[MRD] Market Requirements    -&gt; "What market problem are we solving?"
+  ↓
+[BRD] Business Requirements  -&gt; "Why are we building this and how do we make money?"
+  ↓
+[PRD] Product Requirements   -&gt; "What features are we building for the user?"
+  ↓
+[FRD] Functional Specs       -&gt; "How should those features behave step-by-step?"
+  ↓
+[SRS] System/Software Specs  -&gt; "What are the technical and performance constraints?"
+  ↓
+[SDD / TSD] Design &amp; Tech    -&gt; "How do we structurally code and architect it?"
+</code></pre></div></div>
+
+<h3 id="key-nuances--modern-reality">Key Nuances &amp; Modern Reality</h3>
+
+<p>In fast-moving tech companies, you will rarely see all six of these documents
+existing separately.</p>
+
+<ol>
+  <li>
+<strong>The Overlap:</strong> In modern Agile environments, <strong>nobody writes all of these
+separately</strong>. Doing so would result in a mountain of outdated paperwork.</li>
+  <li>
+<strong>The Agile Merge:</strong> Today, the <strong>PRD and FRD</strong> are usually merged directly
+into <strong>Jira tickets or User Stories</strong>.</li>
+  <li>
+<strong>SRS vs. SDD/TSD:</strong> People often mistake the SRS for a design document.
+Remember: The <strong>SRS</strong> is a list of <em>rules and requirements</em> (the target). The
+<strong>SDD/TSD</strong> is the <em>engineering blueprint</em> built to hit that target.</li>
+  <li>
+<strong>The Tech Hand-off:</strong> The <strong>SRS and SDD</strong> are frequently blended into a
+single “Technical Design Doc” (TDD) or “RFC” (Request for Comments) created
+by the engineering team before they start a sprint.</li>
+  <li>
+<strong>The Industry Split:</strong> You will primarily see <strong>SRSs</strong> in heavy engineering,
+aerospace, robotics, or IoT, where hardware and software are deeply
+interdependent. Pure software SaaS companies rarely use an SRS.</li>
+</ol>
+
+<p>If you are working in a fast-paced startup, you will likely only ever see a
+<strong>PRD</strong> (written by a PM) and a <strong>TSD/Architecture doc</strong> (written by the
+engineering team).</p>
+
+<hr>
+
+<h2 id="documents-in-sdlc-stages--team-collaboration">Documents in SDLC Stages &amp; Team Collaboration</h2>
+
+<p>In a standard Software Development Life Cycle (SDLC), these documents act as a
+relay race. One document hands off its information to the next, guiding the
+project from a vague business idea to a fully deployed system.</p>
+
+<p>Here is how these documents map to each stage of the development workflow and
+how the different teams collaborate around them.</p>
+
+<h3 id="1-the-mapping-documents-by-sdlc-stage">1. The Mapping: Documents by SDLC Stage</h3>
+
+<p>Stage 0: Market Research &amp; Validation (The “What Market Problem”)</p>
+
+<ul>
+  <li>
+<strong>Document used:</strong> <strong>MRD</strong> (Market Requirements Document)</li>
+  <li>
+<strong>Who collaborates:</strong> Market Research Analysts, Product Managers, and
+Executives.</li>
+  <li>
+<strong>What happens:</strong> The team identifies a market problem or opportunity. The MRD
+captures customer pain points and competitive analysis to justify the business
+case.</li>
+</ul>
+
+<p>Stage 1: Initiation &amp; Strategy (The “Why”)</p>
+
+<ul>
+  <li>
+<strong>Document used:</strong> <strong>BRD</strong> (Business Requirements Document)</li>
+  <li>
+<strong>Who collaborates:</strong> Executives, Product Directors, Business Analysts, and
+Sales/Marketing leads.</li>
+  <li>
+<strong>What happens:</strong> The business identifies a market problem or revenue
+opportunity. They align on the financial objectives and project viability before
+any engineering resources are spent.</li>
+</ul>
+
+<p>Stage 2: Product Discovery &amp; Definition (The “What”)</p>
+
+<ul>
+  <li>
+<strong>Document used:</strong> <strong>PRD</strong> (Product Requirements Document)</li>
+  <li>
+<strong>Who collaborates:</strong> Product Managers (PMs), UX/UI Designers, and Engineering
+Leads.</li>
+  <li>
+<strong>What happens:</strong> The PM takes the business goals from the BRD and translates
+them into user-centric features. Designers use the PRD to start creating user
+flows and wireframes, while engineering leads review it to ensure the scope is
+realistic.</li>
+</ul>
+
+<p>Stage 3: System &amp; Technical Specification (The “Constraints”)</p>
+
+<ul>
+  <li>
+<strong>Documents used:</strong> <strong>FRD</strong> (Functional Requirements), <strong>SRD</strong> (System
+Requirements), <strong>SRS</strong> (Software Requirements Specification)</li>
+  <li>
+<strong>Who collaborates:</strong> PMs, Systems Engineers (if hardware is involved),
+Technical Architects, and QA Leads.</li>
+  <li>
+<strong>What happens:</strong> The team maps out exactly how the system must behave to
+fulfill the PRD. The QA team uses these documents to start writing test plans,
+while the architects use them to define technical and performance
+boundaries (e.g., system latency, security protocols).</li>
+</ul>
+
+<p>Stage 4: Architecture &amp; Engineering Design (The “How”)</p>
+
+<ul>
+  <li>
+<strong>Document used:</strong> <strong>SDD</strong> (Software Design Document / Technical Design Doc)</li>
+  <li>
+<strong>Who collaborates:</strong> Software Architects, Lead Developers, and DevOps Engineers.</li>
+  <li>
+<strong>What happens:</strong> Engineers turn the requirements into a technical blueprint.
+They design the database schemas, choose design patterns, define API contracts,
+and map out the infrastructure. <strong>No code is written yet</strong>, but the exact
+implementation plan is finalized.</li>
+</ul>
+
+<p>Stage 5: Execution (Implementation &amp; Testing)</p>
+
+<ul>
+  <li>
+<strong>Documents used:</strong> <strong>Jira Tickets / User Stories</strong> (derived from the PRD/FRD)
+and <strong>Test Cases</strong> (derived from the SRS/FRD).</li>
+  <li>
+<strong>Who collaborates:</strong> Developers and QA Engineers.</li>
+  <li>
+<strong>What happens:</strong> The SDD serves as the guide for developers writing the code,
+while the QA team uses the SRS/FRD to verify that the built software
+actually meets the original requirements.</li>
+</ul>
+
+<h3 id="2-how-they-collaborate-together-the-feedback-loops">2. How They Collaborate Together (The Feedback Loops)</h3>
+
+<p>Documentation is rarely a strict one-way street. The magic lies in the
+collaborative feedback loops between stages:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[BRD] ──&gt; [PRD] ──&gt; [SRS/FRD] ──&gt; [SDD/TCD] ──&gt; [Code/Testing]
+  ▲         ▲           ▲             │
+  │         │           └─────────────┤ (Technical constraints found)
+  │         └─────────────────────────┤ (Scope adjustments needed)
+  └───────────────────────────────────┘ (Budget/Timeline shifts)
+
+</code></pre></div></div>
+
+<ul>
+  <li>
+<strong>The Reality Check Loop (SDD to PRD/SRS):</strong> While writing the SDD, a software
+architect might realize that a feature requested in the PRD (e.g., “Real-time
+global data syncing in under 10 milliseconds”) is architecturally impossible
+or too expensive. They push back, forcing an update to the SRS or PRD to
+adjust the scope.</li>
+  <li>
+<strong>The Parallel Work Loop (QA and Dev):</strong> The moment the <strong>SRS and FRD</strong> are
+finalized, collaboration splits into two parallel tracks. Developers use
+the <strong>SDD</strong> to build the feature, while QA engineers simultaneously use
+the <strong>SRS</strong> to write automated test scripts. Because they are working
+from the same source of truth, QA is ready to test the moment developers
+finish writing code.</li>
+  <li>
+<strong>The Living Document Transition:</strong> In modern Agile setups, the PRD, FRD, and
+SRS often live in a shared space like Confluence. Instead of handing off
+static PDFs, teams actively comment, tag each other, and link directly to
+Jira tasks and Figma prototypes, keeping the documentation dynamic.</li>
+</ul>
+
+<h3 id="3-the-critical-role-of-system-design">3. The Critical Role of System Design</h3>
+
+<p>System Design takes place during <strong>Stage 4: Architecture &amp; Engineering Design</strong>.
+It sits squarely between the <strong>Requirements Phase</strong> (what the system needs to
+do) and the <strong>Implementation/Coding Phase</strong> (writing the actual code).</p>
+
+<p>If you try to do System Design too early, you end up designing a solution for a
+problem you don’t fully understand yet. If you do it too late, developers are
+already writing messy, uncoordinated code that will inevitably require massive
+refactoring.</p>
+
+<h4 id="the-two-sub-stages-of-system-design">The Two Sub-Stages of System Design</h4>
+
+<p>In practice, System Design is broken down into two distinct sub-stages within
+the design phase:</p>
+
+<ol>
+  <li>High-Level Design (HLD) / System Architecture</li>
+</ol>
+
+<p>This happens the moment the <strong>SRS (Software Requirements Specification)</strong> is finalized.</p>
+
+<ul>
+  <li>
+<strong>The Focus:</strong> The macro view of the system.</li>
+  <li>
+<strong>Key Decisions:</strong>
+    <ul>
+      <li>What architecture pattern will we use? (e.g., Microservices, Monolith, Serverless).</li>
+      <li>Where will the data live? (e.g., SQL vs. NoSQL, caching layers like Redis).</li>
+      <li>How will services talk to each other? (e.g., REST APIs, GraphQL, or message brokers like Kafka).</li>
+      <li>What cloud infrastructure is needed? (AWS, Azure, GCP setup).</li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>Low-Level Design (LLD) / Object-Oriented Design</li>
+</ol>
+
+<p>This happens immediately after the HLD is approved, right before developers open their IDEs to write code.</p>
+
+<ul>
+  <li>
+<strong>The Focus:</strong> The micro view of the system.</li>
+  <li>
+<strong>Key Decisions:</strong>
+    <ul>
+      <li>Defining database schemas, table relationships, and indexes.</li>
+      <li>Mapping out exact class diagrams, design patterns (e.g., Singleton, Factory), and code modules.</li>
+      <li>Writing the exact API contracts (request/response payloads) so frontend and backend teams can work in parallel.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="inputs-vs-outputs-of-the-system-design-stage">Inputs vs. Outputs of the System Design Stage</h4>
+
+<p>To visualize how it acts as a transition point, look at what goes into this stage and what comes out:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Inputs (What the Designer Reads)</th>
+      <th>The System Design Stage</th>
+      <th>Outputs (What the Developer Reads)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+<strong>PRD / User Stories:</strong> To understand the user behavior.</td>
+      <td>Architects &amp; Lead Devs map out components, data flows, and infrastructure.</td>
+      <td>
+<strong>SDD (Software Design Document):</strong> The blueprint.</td>
+    </tr>
+    <tr>
+      <td>
+<strong>SRS / Non-Functional Specs:</strong> To understand scale requirements (e.g., “Must handle 10,000 requests/sec”).</td>
+      <td> </td>
+      <td>
+<strong>API Contracts:</strong> Swagger/OpenAPI specs.</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>
+<strong>Architecture Diagrams:</strong> Visual maps of the cloud infrastructure.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="why-this-sequence-matters">Why This Sequence Matters</h4>
+
+<p>Skipping straight from the PRD/SRS to coding without a dedicated System Design
+stage is the leading cause of “technical debt.” System Design is your
+opportunity to break the problem down, stress-test your architecture against
+scalability and security requirements on paper, and ensure that every developer
+is building toward the exact same structural vision.</p>
+
+<hr>
+
+<h2 id="the-blueprint-to-streamline-documentation">The Blueprint to Streamline Documentation</h2>
+
+<p>Trying to juggle all of these documents usually leads to “documentation
+fatigue”—where teams spend more time updating files than actual coding or
+shipping products. The secret to streamlining is ruthlessly cutting down the
+number of documents based on your team’s size while clearly defining who owns
+what.</p>
+
+<p>Here is a blueprint to establish scope and streamline the process.</p>
+
+<h3 id="1-the-ownership--scope-matrix">1. The Ownership &amp; Scope Matrix</h3>
+
+<p>To prevent people from stepping on each other’s toes or leaving gaps, define
+clear boundaries for who <strong>owns</strong> (writes) and who <strong>consumes</strong> (reads) the
+documentation:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Document Group</th>
+      <th>What it Covers</th>
+      <th>Owner</th>
+      <th>Primary Consumers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+<strong>The Product Brief</strong> (BRD/PRD)</td>
+      <td>Business goals, user problems, features, and success metrics.</td>
+      <td>Product Manager (PM)</td>
+      <td>Designers, Tech Leads, Stakeholders</td>
+    </tr>
+    <tr>
+      <td>
+<strong>The Technical Blueprint</strong> (SRS/SDD)</td>
+      <td>System architecture, database schemas, APIs, and technical constraints.</td>
+      <td>Tech Lead / Architect</td>
+      <td>Software Engineers, QA Engineers</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="2-streamlining-frameworks-by-team-size">2. Streamlining Frameworks by Team Size</h3>
+
+<p>Find the tier that fits your current team structure to see what you can safely eliminate.</p>
+
+<p>Tier 1: The Lean Team (1 to 15 people)</p>
+
+<ul>
+  <li>
+<strong>The Problem:</strong> PMs wear many hats; developers need to move fast. Writing
+five separate documents will ground your momentum to a halt.</li>
+  <li>
+<strong>The Streamlined Approach:</strong> Collapse everything into just <strong>two living
+documents</strong>.</li>
+</ul>
+
+<ol>
+  <li>
+<strong>The “1-Pager” PRD:</strong> Combines the BRD and PRD. It states the business goal,
+user persona, and feature list in a brief, scannable format.</li>
+  <li>
+<strong>The RFC / Tech Design Doc (TDD):</strong> Combines the SRS and SDD. The lead
+engineer writes a quick breakdown of the database changes and API endpoints
+directly linked to the PRD.</li>
+</ol>
+
+<p>Tier 2: The Mid-Sized Team (15 to 50 people, multiple squads)</p>
+
+<ul>
+  <li>
+<strong>The Problem:</strong> Communication gaps appear. QA needs clear criteria, and
+frontend/backend teams need to build in parallel without breaking things.</li>
+  <li>
+<strong>The Streamlined Approach:</strong> Use <strong>three distinct documents</strong>.</li>
+</ul>
+
+<ol>
+  <li>
+<strong>PRD:</strong> Purely user and feature-focused.</li>
+  <li>
+<strong>FRD / User Stories:</strong> Handled via Jira/Linear tickets. The functional logic
+lives inside the ticketing system, not a static document.</li>
+  <li>
+<strong>SDD (Software Design Document):</strong> A dedicated technical blueprint ensuring
+the architecture scales and the team is aligned before sprints start.</li>
+</ol>
+
+<p>Tier 3: The Enterprise Team (50+ people)</p>
+
+<ul>
+  <li>
+<strong>The Problem:</strong> High bureaucracy, compliance requirements, and siloed
+departments (e.g., separate business, product, engineering, and QA teams).</li>
+  <li>
+<strong>The Streamlined Approach:</strong> You likely need the full stack (<strong>BRD
+$\rightarrow$ PRD $\rightarrow$ SRS $\rightarrow$ SDD</strong>), but you
+streamline by automating the pipeline. The BRD mandates the PRD, which
+auto-generates Jira epic templates, which link directly to the engineering
+team’s SDD in Confluence or Notion.</li>
+</ul>
+
+<h3 id="3-best-practices-for-no-chaos-documentation">3. Best Practices for “No-Chaos” Documentation</h3>
+
+<ul>
+  <li>
+<strong>Ban the PDF:</strong> Keep documentation in a collaborative workspace (Notion,
+Confluence, Basecamp). If a document isn’t searchable or editable, it’s dead.</li>
+  <li>
+<strong>The “Definition of Ready”:</strong> Establish a rule that a feature cannot enter a
+development sprint unless the technical blueprint (SDD/TDD) has been reviewed
+and signed off by at least one peer engineer.</li>
+  <li>
+<strong>Embed Logic in Tickets:</strong> Stop writing massive FRDs. Write a clean PRD for
+context, and put the hyper-specific functional logic (“If user clicks X, then Y
+happens”) directly into the description of the relevant Jira/Linear
+ticket.</li>
+</ul>
+
+<hr>
+
+<h2 id="documentation-frameworks">Documentation Frameworks</h2>
+
+<p>There are several excellent frameworks exist that bring order to documentation
+chaos. Rather than reinventing the wheel, you can adopt a framework based on
+<em>what</em> part of the documentation pipeline you are trying to fix.</p>
+
+<p>Here are the four most widely adopted frameworks in modern software development,
+categorized by the problem they solve.</p>
+
+<h3 id="1-for-architecture--system-design-arc42">1. For Architecture &amp; System Design: <strong>arc42</strong>
+</h3>
+
+<p>If your engineering team struggles with how to structure an <strong>SDD (Software
+Design Document)</strong> or <strong>SRS</strong>, <strong>arc42</strong> is the gold standard. It provides a
+lightweight, 12-part template for documenting software architecture.</p>
+
+<ul>
+  <li>
+<strong>How it works:</strong> It breaks system design down into logical parts, starting
+with the big picture and drilling down into technical details.</li>
+  <li>
+<strong>The Cheat Code:</strong> You don’t have to use all 12 sections. For smaller teams,
+you can ruthlessly pare it down to the core 4:</li>
+</ul>
+
+<ol>
+  <li>
+<strong>Context and Context Constraints:</strong> What is the system interacting with?</li>
+  <li>
+<strong>Architecture Decisions:</strong> <em>Why</em> did we choose this tech stack or pattern?</li>
+  <li>
+<strong>Building Block View:</strong> What are the main components/modules?</li>
+  <li>
+<strong>Runtime View:</strong> How do these components talk to each other when a user
+triggers an action?</li>
+</ol>
+
+<h3 id="2-for-visualizing-system-design-the-c4-model">2. For Visualizing System Design: <strong>The C4 Model</strong>
+</h3>
+
+<p>Textual documentation of system architecture is notoriously hard to read. The
+<strong>C4 Model</strong> is a framework specifically for creating architecture diagrams that
+people can actually understand.</p>
+
+<ul>
+  <li>
+<strong>How it works:</strong> It treats software architecture like Google Maps. You zoom
+in and out through 4 levels of detail:</li>
+  <li>
+<strong>Level 1: Context:</strong> The absolute highest level (Users, the system, and
+external dependencies). Anyone can read this.</li>
+  <li>
+<strong>Level 2: Containers:</strong> Zooming in to show applications, databases, and
+microservices.</li>
+  <li>
+<strong>Level 3: Components:</strong> Zooming into a single container to show internal
+modules or controllers.</li>
+  <li>
+    <p><strong>Level 4: Code:</strong> Zooming into the actual class diagrams (rarely documented,
+usually auto-generated).</p>
+  </li>
+  <li>
+<strong>Why it helps:</strong> It ensures that every diagram in your SDD follows the same
+visual vocabulary, making it easy for new developers to parse.</li>
+</ul>
+
+<h3 id="3-for-technical--product-docs-diátaxis">3. For Technical &amp; Product Docs: <strong>Diátaxis</strong>
+</h3>
+
+<p>If your team is struggling with user-facing, API, or internal developer
+documentation being messy and unorganized, <strong>Diátaxis</strong> is the modern framework
+used by organizations like Canonical, Django, and Cloudflare.</p>
+
+<ul>
+  <li>
+<strong>How it works:</strong> It divides all documentation into four distinct quadrants
+based on the reader’s intent and whether they are working or learning:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Practical (Action-oriented)</th>
+      <th>Theoretical (Knowledge-oriented)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Learning-oriented</strong></td>
+      <td>
+<strong>Tutorials:</strong> Lessons that guide a beginner through a learning experience.</td>
+      <td>
+<strong>Explanation:</strong> Discussion/context that clarifies a topic or architectural choice.</td>
+    </tr>
+    <tr>
+      <td><strong>Goal-oriented</strong></td>
+      <td>
+<strong>How-To Guides:</strong> Practical steps to solve a specific, real-world problem.</td>
+      <td>
+<strong>Reference:</strong> Technical descriptions of the machinery (e.g., API schemas, CLI commands).</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+<strong>Why it helps:</strong> It prevents “doc pollution,” where a single page tries to be
+an introduction, an API reference, and a tutorial all at once.</li>
+</ul>
+
+<h3 id="4-for-workflow-integration-docs-as-code">4. For Workflow Integration: <strong>Docs-as-Code</strong>
+</h3>
+
+<p>This is less about document structure and more about a <strong>process framework</strong>. If
+your developers hate going to Notion or Confluence to update documents, you
+bring the documentation to them.</p>
+
+<ul>
+  <li>
+<strong>How it works:</strong> Documentation is treated exactly like software code:</li>
+  <li>Written in Markdown (<code class="language-plaintext highlighter-rouge">.md</code>).</li>
+  <li>Stored in the same <strong>Git repository</strong> as the codebase.</li>
+  <li>Reviewed via <strong>Pull Requests</strong> (a senior dev reviews code changes and doc
+changes at the same time).</li>
+  <li>
+    <p>Deployed automatically to an internal site (like Backstage, MkDocs, or
+Docusaurus) via CI/CD pipelines.</p>
+  </li>
+  <li>
+<strong>Why it helps:</strong> It integrates documentation seamlessly into the developer’s
+daily routine, dramatically increasing the likelihood that technical docs
+actually stay up to date.</li>
+</ul>
+
+<h3 id="which-one-should-you-pick">Which one should you pick?</h3>
+
+<ul>
+  <li>If your developers complain that <strong>“we don’t know how to structure our
+technical design notes,”</strong> adopt a stripped-down version of <strong>arc42</strong> alongside
+the <strong>C4 Model</strong> for diagrams.</li>
+  <li>If your team says <strong>“our internal wiki is a chaotic mess where everything is
+buried,”</strong> reorganize your workspace categories using the <strong>Diátaxis</strong>
+quadrants.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Documentation is the often-overlooked backbone of successful software projects.
+By understanding the different types of documents (BRD, PRD, FRD, SRD, SRS, SDD)
+and how they interact across the SDLC, you can create a streamlined
+documentation process that actually gets read and used. Whether you choose
+to adopt frameworks like arc42 for system design or Diátaxis for product
+docs, the key is to find the right balance between thoroughness and agility.
+With the right documentation strategy, your team can move faster, reduce
+technical debt, and ultimately build better software that meets both
+business goals and user needs.</p>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/misc/2024/02/23/taylor-swift-npr-music-tiny-desk-concert-2019.html" title="Taylor Swift - NPR Music Tiny Desk Concert (2019)">
+          <div>Taylor Swift - NPR Music Tiny Desk Concert (2019)</div>
+        </a><a class="next" href="/computer/2024/03/22/how-to-choose-uuid.html" title="How to choose UUID">
+          <div>How to choose UUID</div>
+        </a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="">
+          <a class="post-link" href="/computer/2022/02/27/how-to-interview-a-developer.html" title="How to interview a developer">
+            How to interview a developer<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/computer/2020/09/29/email-server-ports-table.html" title="Email Server Ports Table">
+            Email Server Ports Table<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/misc/2024/02/23/taylor-swift-npr-music-tiny-desk-concert-2019.html" title="Taylor Swift - NPR Music Tiny Desk Concert (2019)">
+            Taylor Swift - NPR Music Tiny Desk Concert (2019)<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/linguistics/2021/02/08/the-morphology-of-english-words.html" title="The Morphology of English Words">
+            The Morphology of English Words<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments">  <div id="disqus_recommendations"></div>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://jeffreytse.net/computer/2024/02/23/the-handbook-of-software-documentation.html';
+      this.page.identifier = 'https://jeffreytse.net/computer/2024/02/23/the-handbook-of-software-documentation.html';
+    };
+
+    // Disqus recommendations
+    (function() {
+      if (false === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/recommendations.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus comments
+    (function() {
+      if (true === false) {
+        return
+      }
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jeffreytse.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+    // Disqus theme switching
+    document.addEventListener('theme-changed', function (e) {
+      if (document.readyState == 'complete') {
+        setTimeout(function () {
+          if (window.DISQUS_RECOMMENDATIONS) {
+            window.DISQUS_RECOMMENDATIONS.reset({ reload: true });
+          }
+          if (window.DISQUS) {
+            window.DISQUS.reset({ reload: true, config: disqus_config });
+          }
+        }, 100);
+      }
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+</div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Copyright © 2008-2020</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
